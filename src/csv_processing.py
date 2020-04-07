@@ -18,7 +18,7 @@ if __name__ == '__main__':
             reader2 = csv.reader(csvfile, delimiter=',')
             next(reader2) # skip the header
 
-            output = "../output/CasosConfirmados-" + eachdate.replace('/', '-')
+            output = "../output/CasosConfirmados-" + eachdate.replace('/', '-') + ".csv"
             print("dumping " + eachdate + " to " + output)
             for row in reader2:
                 newrow = []
