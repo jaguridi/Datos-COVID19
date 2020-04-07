@@ -41,7 +41,7 @@ jobs:
         commit_message: "Added data to repo"
 
         # Optional glob pattern of files which should be added to the commit
-        file_pattern: output/producto{3,5}/*.csv
+        file_pattern: ../output/producto{3,5}/*.csv
 
         # Optional local file path to the repository
         repository: .
