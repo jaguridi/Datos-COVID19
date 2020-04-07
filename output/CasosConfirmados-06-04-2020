@@ -1,0 +1,347 @@
+Region,Comuna,Poblacion,Casos Confirmados
+Arica y Parinacota,Arica,247552,41
+Arica y Parinacota,Camarones,1233,-
+Arica y Parinacota,General Lagos,810,-
+Arica y Parinacota,Putre,2515,-
+Tarapaca,Alto Hospicio,129999,5
+Tarapaca,Camina,1375,-
+Tarapaca,Colchane,1583,-
+Tarapaca,Huara,3000,-
+Tarapaca,Iquique,223463,13
+Tarapaca,Pica,5958,-
+Tarapaca,Pozo Almonte,17395,-
+Antofagasta,Antofagasta,425725,54
+Antofagasta,Calama,190336,7
+Antofagasta,Maria Elena,6814,-
+Antofagasta,Mejillones,14776,-
+Antofagasta,Ollagüe,287,-
+Antofagasta,San Pedro de Atacama,10434,4
+Antofagasta,Sierra Gorda,1746,-
+Antofagasta,Taltal,13657,-
+Antofagasta,Tocopilla,28079,-
+Atacama,Alto del Carmen,5729,-
+Atacama,Caldera,19426,-
+Atacama,Chanaral,13164,-
+Atacama,Copiapo,171766,4
+Atacama,Diego de Almagro,14358,-
+Atacama,Freirina,7681,-
+Atacama,Huasco,11264,-
+Atacama,Tierra Amarilla,14312,-
+Atacama,Vallenar,57009,-
+Coquimbo,Andacollo,11791,-
+Coquimbo,Canela,9546,-
+Coquimbo,Combarbala,13884,-
+Coquimbo,Coquimbo,256735,19
+Coquimbo,Illapel,32801,7
+Coquimbo,La Higuera,4450,-
+Coquimbo,La Serena,249656,12
+Coquimbo,Los Vilos,23374,-
+Coquimbo,Monte Patria,32527,-
+Coquimbo,Ovalle,121269,7
+Coquimbo,Paiguano,4675,-
+Coquimbo,Punitaqui,12165,-
+Coquimbo,Rio Hurtado,4372,-
+Coquimbo,Salamanca,29110,4
+Coquimbo,Vicuna,29741,-
+Valparaiso,Algarrobo,15174,9
+Valparaiso,Cabildo,20663,-
+Valparaiso,Calera,53591,7
+Valparaiso,Calle Larga,16482,-
+Valparaiso,Cartagena,25357,-
+Valparaiso,Casablanca,29170,-
+Valparaiso,Catemu,15213,-
+Valparaiso,Concon,45889,7
+Valparaiso,El Quisco,17742,-
+Valparaiso,El Tabo,14338,-
+Valparaiso,Hijuelas,19099,-
+Valparaiso,Isla de Pascua,8277,5
+Valparaiso,Juan Fernandez,1033,-
+Valparaiso,La Cruz,25321,-
+Valparaiso,La Ligua,37739,-
+Valparaiso,Limache,49931,4
+Valparaiso,Llaillay,26533,-
+Valparaiso,Los Andes,68093,-
+Valparaiso,Nogales,23490,-
+Valparaiso,Olmue,19266,-
+Valparaiso,Panquehue,7633,-
+Valparaiso,Papudo,6201,-
+Valparaiso,Petorca,10558,5
+Valparaiso,Puchuncavi,20071,-
+Valparaiso,Putaendo,17645,-
+Valparaiso,Quillota,97572,9
+Valparaiso,Quilpue,167085,12
+Valparaiso,Quintero,36135,-
+Valparaiso,Rinconada,11263,-
+Valparaiso,San Antonio,96761,9
+Valparaiso,San Esteban,20643,-
+Valparaiso,San Felipe,83494,5
+Valparaiso,Santa Maria,16367,-
+Valparaiso,Santo Domingo,11934,-
+Valparaiso,Valparaiso,315732,26
+Valparaiso,Villa Alemana,139310,11
+Valparaiso,Vina del Mar,361371,53
+Valparaiso,Zapallar,7994,-
+Metropolitana,Alhue,7405,-
+Metropolitana,Buin,109641,20
+Metropolitana,Calera de Tango,28525,7
+Metropolitana,Cerrillos,88956,5
+Metropolitana,Cerro Navia,142465,31
+Metropolitana,Colina,180353,50
+Metropolitana,Conchali,139195,32
+Metropolitana,Curacavi,36430,8
+Metropolitana,El Bosque,172000,37
+Metropolitana,El Monte,40014,5
+Metropolitana,Estacion Central,206792,36
+Metropolitana,Huechuraba,112528,32
+Metropolitana,Independencia,142065,26
+Metropolitana,Isla de Maipo,40171,4
+Metropolitana,La Cisterna,100434,20
+Metropolitana,La Florida,402433,91
+Metropolitana,La Granja,122557,24
+Metropolitana,La Pintana,189335,18
+Metropolitana,La Reina,100252,35
+Metropolitana,Lampa,126898,14
+Metropolitana,Las Condes,330759,258
+Metropolitana,Lo Barnechea,124076,97
+Metropolitana,Lo Espejo,103865,15
+Metropolitana,Lo Prado,104403,25
+Metropolitana,Macul,134635,34
+Metropolitana,Maipu,578605,83
+Metropolitana,Maria Pinto,14926,-
+Metropolitana,Melipilla,141612,11
+Metropolitana,Nunoa,250192,107
+Metropolitana,Padre Hurtado,74188,16
+Metropolitana,Paine,82766,-
+Metropolitana,Pedro Aguirre Cerda,107803,16
+Metropolitana,Penaflor,101058,18
+Metropolitana,Penalolen,266798,65
+Metropolitana,Pirque,30433,4
+Metropolitana,Providencia,157749,104
+Metropolitana,Pudahuel,253139,44
+Metropolitana,Puente Alto,645909,119
+Metropolitana,Quilicura,254694,51
+Metropolitana,Quinta Normal,136368,41
+Metropolitana,Recoleta,190075,44
+Metropolitana,Renca,160847,19
+Metropolitana,San Bernardo,334836,74
+Metropolitana,San Joaquin,103485,36
+Metropolitana,San Jose de Maipo,18644,-
+Metropolitana,San Miguel,133059,49
+Metropolitana,San Pedro,11953,-
+Metropolitana,San Ramon,86510,9
+Metropolitana,Santiago,503147,234
+Metropolitana,Talagante,81838,11
+Metropolitana,Tiltil,21477,-
+Metropolitana,Vitacura,96774,114
+Del Libertador General Bernardo OHiggins,Chepica,15925,-
+Del Libertador General Bernardo OHiggins,Chimbarongo,37696,-
+Del Libertador General Bernardo OHiggins,Codegua,14096,-
+Del Libertador General Bernardo OHiggins,Coinco,7831,-
+Del Libertador General Bernardo OHiggins,Coltauco,21263,-
+Del Libertador General Bernardo OHiggins,Donihue,22700,-
+Del Libertador General Bernardo OHiggins,Graneros,36504,-
+Del Libertador General Bernardo OHiggins,La Estrella,3114,-
+Del Libertador General Bernardo OHiggins,Las Cabras,26749,-
+Del Libertador General Bernardo OHiggins,Litueche,6765,-
+Del Libertador General Bernardo OHiggins,Lolol,7289,-
+Del Libertador General Bernardo OHiggins,Machali,59913,8
+Del Libertador General Bernardo OHiggins,Malloa,14163,-
+Del Libertador General Bernardo OHiggins,Marchihue,7632,-
+Del Libertador General Bernardo OHiggins,Mostazal,27462,-
+Del Libertador General Bernardo OHiggins,Nancagua,19141,-
+Del Libertador General Bernardo OHiggins,Navidad,6904,-
+Del Libertador General Bernardo OHiggins,Olivar,14624,-
+Del Libertador General Bernardo OHiggins,Palmilla,13299,-
+Del Libertador General Bernardo OHiggins,Paredones,6349,-
+Del Libertador General Bernardo OHiggins,Peralillo,11848,-
+Del Libertador General Bernardo OHiggins,Peumo,14952,-
+Del Libertador General Bernardo OHiggins,Pichidegua,20743,-
+Del Libertador General Bernardo OHiggins,Pichilemu,17882,-
+Del Libertador General Bernardo OHiggins,Placilla,9164,-
+Del Libertador General Bernardo OHiggins,Pumanque,3531,-
+Del Libertador General Bernardo OHiggins,Quinta de Tilcoco,13877,-
+Del Libertador General Bernardo OHiggins,Rancagua,265211,15
+Del Libertador General Bernardo OHiggins,Rengo,63710,-
+Del Libertador General Bernardo OHiggins,Requinoa,30371,-
+Del Libertador General Bernardo OHiggins,San Fernando,78642,4
+Del Libertador General Bernardo OHiggins,San Vicente,50617,4
+Del Libertador General Bernardo OHiggins,Santa Cruz,41096,-
+Maule,Cauquenes,44143,4
+Maule,Chanco,9331,-
+Maule,Colbun,22565,5
+Maule,Constitucion,50348,-
+Maule,Curepto,9426,-
+Maule,Curico,163626,13
+Maule,Empedrado,4206,-
+Maule,Hualane,10222,-
+Maule,Licanten,6989,-
+Maule,Linares,101073,11
+Maule,Longavi,32810,-
+Maule,Maule,60000,-
+Maule,Molina,49800,-
+Maule,Parral,44544,-
+Maule,Pelarco,9083,-
+Maule,Pelluhue,8092,-
+Maule,Pencahue,8601,-
+Maule,Rauco,11248,-
+Maule,Retiro,21071,-
+Maule,Rio Claro,14753,-
+Maule,Romeral,16170,-
+Maule,Sagrada Familia,19469,-
+Maule,San Clemente,46292,-
+Maule,San Javier,49451,7
+Maule,San Rafael,9959,-
+Maule,Talca,236724,48
+Maule,Teno,30850,-
+Maule,Vichuquen,4381,-
+Maule,Villa Alegre,17512,-
+Maule,Yerbas Buenas,19200,-
+Nuble,Bulnes,22607,36
+Nuble,Chillan,198624,291
+Nuble,Chillan Viejo,33827,30
+Nuble,Cobquecura,5275,-
+Nuble,Coelemu,16845,-
+Nuble,Coihueco,28375,6
+Nuble,El Carmen,12334,-
+Nuble,Ninhue,5414,-
+Nuble,Niquen,11567,-
+Nuble,Pemuco,8639,-
+Nuble,Pinto,11880,9
+Nuble,Portezuelo,4940,-
+Nuble,Quillon,18777,17
+Nuble,Quirihue,12192,-
+Nuble,Ranquil,6261,7
+Nuble,San Carlos,56252,19
+Nuble,San Fabian,4654,6
+Nuble,San Ignacio,16624,6
+Nuble,San Nicolas,12172,10
+Nuble,Treguaco,5696,-
+Nuble,Yungay,18596,26
+Biobio,Alto Biobio,6775,-
+Biobio,Antuco,4306,-
+Biobio,Arauco,38679,6
+Biobio,Cabrero,30725,-
+Biobio,Canete,37003,-
+Biobio,Chiguayante,91180,32
+Biobio,Concepcion,238092,70
+Biobio,Contulmo,6330,-
+Biobio,Coronel,125829,13
+Biobio,Curanilahue,33892,-
+Biobio,Florida,11841,-
+Biobio,Hualpen,97273,67
+Biobio,Hualqui,26201,7
+Biobio,Laja,23873,5
+Biobio,Lebu,27100,-
+Biobio,Los Alamos,22524,-
+Biobio,Los Angeles,218515,17
+Biobio,Lota,45750,-
+Biobio,Mulchen,31041,5
+Biobio,Nacimiento,27944,-
+Biobio,Negrete,10429,-
+Biobio,Penco,49865,5
+Biobio,Quilaco,4179,-
+Biobio,Quilleco,10032,-
+Biobio,San Pedro de la Paz,145906,63
+Biobio,San Rosendo,3611,-
+Biobio,Santa Barbara,14592,-
+Biobio,Santa Juana,14779,-
+Biobio,Talcahuano,158345,36
+Biobio,Tirua,11019,4
+Biobio,Tome,58729,25
+Biobio,Tucapel,15205,-
+Biobio,Yumbel,22132,5
+La Araucania,Angol,56058,15
+La Araucania,Carahue,25486,-
+La Araucania,Cholchol,12341,-
+La Araucania,Collipulli,26148,-
+La Araucania,Cunco,18055,5
+La Araucania,Curacautin,18178,-
+La Araucania,Curarrehue,7802,-
+La Araucania,Ercilla,8458,-
+La Araucania,Freire,25446,5
+La Araucania,Galvarino,12633,-
+La Araucania,Gorbea,15148,10
+La Araucania,Lautaro,40746,16
+La Araucania,Loncoche,24739,4
+La Araucania,Lonquimay,11049,-
+La Araucania,Los Sauces,7517,-
+La Araucania,Lumaco,10050,-
+La Araucania,Melipeuco,6265,-
+La Araucania,Nueva Imperial,33777,16
+La Araucania,Padre Las Casas,82110,44
+La Araucania,Perquenco,7223,-
+La Araucania,Pitrufquen,26096,11
+La Araucania,Pucon,29782,4
+La Araucania,Puren,12188,-
+La Araucania,Renaico,10833,-
+La Araucania,Saavedra,12793,-
+La Araucania,Temuco,302931,365
+La Araucania,Teodoro Schmidt,15786,-
+La Araucania,Tolten,10055,5
+La Araucania,Traiguen,19314,-
+La Araucania,Victoria,35467,12
+La Araucania,Vilcun,30766,18
+La Araucania,Villarrica,59103,11
+Los Rios,Corral,5447,-
+Los Rios,Futrono,15261,5
+Los Rios,La Union,39538,17
+Los Rios,Lago Ranco,10292,-
+Los Rios,Lanco,17652,-
+Los Rios,Los Lagos,20518,-
+Los Rios,Mafil,7389,-
+Los Rios,Mariquina,23250,6
+Los Rios,Paillaco,20798,-
+Los Rios,Panguipulli,35991,-
+Los Rios,Rio Bueno,32925,5
+Los Rios,Valdivia,176774,65
+Los Lagos,Ancud,42458,-
+Los Lagos,Calbuco,36744,5
+Los Lagos,Castro,47607,4
+Los Lagos,Chaiten,5020,-
+Los Lagos,Chonchi,16013,-
+Los Lagos,Cochamo,4006,-
+Los Lagos,Curaco de Velez,4066,-
+Los Lagos,Dalcahue,15069,-
+Los Lagos,Fresia,12656,-
+Los Lagos,Frutillar,20223,-
+Los Lagos,Futaleufu,2806,-
+Los Lagos,Hualaihue,9525,-
+Los Lagos,Llanquihue,18621,-
+Los Lagos,Los Muermos,17817,-
+Los Lagos,Maullin,14894,-
+Los Lagos,Osorno,173410,190
+Los Lagos,Palena,1827,-
+Los Lagos,Puerto Montt,269398,35
+Los Lagos,Puerto Octay,9192,-
+Los Lagos,Puerto Varas,48620,4
+Los Lagos,Puqueldon,4201,-
+Los Lagos,Purranque,21080,5
+Los Lagos,Puyehue,11787,-
+Los Lagos,Queilen,5543,-
+Los Lagos,Quellon,29309,-
+Los Lagos,Quemchi,8783,-
+Los Lagos,Quinchao,8298,-
+Los Lagos,Rio Negro,14275,-
+Los Lagos,San Juan de la Costa,7639,7
+Los Lagos,San Pablo,10553,-
+Aisen,Aisen,25002,5
+Aisen,Chile Chico,5121,-
+Aisen,Cisnes,5828,-
+Aisen,Cochrane,3685,-
+Aisen,Coyhaique,61210,-
+Aisen,Guaitecas,1599,-
+Aisen,Lago Verde,920,-
+Aisen,OHiggins,661,-
+Aisen,Rio Ibanez,2699,-
+Aisen,Tortel,572,-
+Magallanes y la Antartica,Antartica,137,-
+Magallanes y la Antartica,Cabo de Hornos,1983,10
+Magallanes y la Antartica,Laguna Blanca,264,-
+Magallanes y la Antartica,Natales,23782,5
+Magallanes y la Antartica,Porvenir,7323,-
+Magallanes y la Antartica,Primavera,694,-
+Magallanes y la Antartica,Punta Arenas,141984,203
+Magallanes y la Antartica,Rio Verde,211,-
+Magallanes y la Antartica,San Gregorio,681,-
+Magallanes y la Antartica,Timaukel,282,-
+Magallanes y la Antartica,Torres del Paine,1021,-
