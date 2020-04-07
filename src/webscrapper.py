@@ -27,6 +27,9 @@ from bs4 import BeautifulSoup
 import csv
 import unidecode
 from datetime import datetime
+from os import listdir
+from os.path import isfile, join
+from shutil import move
 
 def get_minsal(minsalURL):
     page = requests.get(minsalURL)
@@ -42,6 +45,7 @@ def get_minsal(minsalURL):
         data_minsal.append([unidecode.unidecode(ele.replace('.', '')) for ele in cols if ele])
     data_clean = []
     for element in data_minsal:
+        # Sanity check: minsal table changes often
         if len(element) == 5:
             data_clean.append(element)
     return data_clean
@@ -50,11 +54,17 @@ def writer(fileprefix, mylist):
     now = datetime.now()
     timestamp = now.strftime("%d-%m-%Y")
     filename = '../output/producto3/' + fileprefix + '-' + timestamp + '.csv'
+    print('Rotating files')
+    filetomove = [f for f in listdir('../output/producto3/') if isfile(join('../output/producto3/', f))]
+    print(str(filetomove) + " goes to ../output/product5")
+    move("../output/producto3/"+filetomove[0], "../output/producto5")
     print('Writing to ' + filename)
     with open(filename, 'w', newline='') as myfile:
         wr = csv.writer(myfile, quoting=csv.QUOTE_NONE, escapechar=' ')
         for element in mylist:
             wr.writerow(element)
+
+
 
 if __name__ == '__main__':
     test = False
