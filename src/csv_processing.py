@@ -1,7 +1,6 @@
 import csv
 
 
-
 if __name__ == '__main__':
 
     dates = []
@@ -10,8 +9,6 @@ if __name__ == '__main__':
         header = ['Region', 'Comuna', 'Poblacion', 'Casos Confirmados']
         original_header = next(reader)
         dates = original_header[3:len(original_header)-1]
-        # for row in reader:
-        #     print(row)
 
 
     for eachdate in dates:
@@ -33,8 +30,3 @@ if __name__ == '__main__':
         with open(output, "w") as f:
             writer = csv.writer(f)
             writer.writerows(data)
-
-
-
-
-
