@@ -1,7 +1,9 @@
 import csv
+from  shutil import copyfile
 
 
 if __name__ == '__main__':
+    copyfile("../input/Covid-19.csv", "../output/producto1/Covid-19.csv")
 
     dates = []
     with open('../input/Covid-19.csv') as csvfile:
@@ -18,7 +20,7 @@ if __name__ == '__main__':
             reader2 = csv.reader(csvfile, delimiter=',')
             next(reader2) # skip the header
 
-            output = "../output/CasosConfirmados-" + eachdate.replace('/', '-') + ".csv"
+            output = "../output/producto2/CasosConfirmados-" + eachdate.replace('/', '-') + ".csv"
             print("dumping " + eachdate + " to " + output)
             for row in reader2:
                 newrow = []
