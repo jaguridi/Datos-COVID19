@@ -11,7 +11,7 @@ A partir de esa trasncripción se genera un archivo csv, ubicado en la carpeta i
 Este se procesa con el código en src, para generar los archivos csv en output.
 
 En cuanto a los archivos a nivel regional:
-[trabajo en desarrollo]´
+[trabajo en desarrollo]
 
 # Encabezados
 data product 1 [encabezado(explicación, si es necesaria)]: 'Region', 'Comuna', 'Poblacion', '[fecha]', incrementando la ultima columna cada vez que MINSAL publica con el valor de casos confirmados por comuna. 
