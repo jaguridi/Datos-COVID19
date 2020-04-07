@@ -16,6 +16,5 @@ En cuanto a los archivos a nivel regional: [en desarrollo]
 
 data product 3 [encabezado(explicación, si es necesaria)]: [en desarrollo]
 
-data product 4 [encabezado(explicación, si es necesaria)]: [en desarrollo]
+[data product 4](output/producto4): Scrapping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/. Encabezados acorde a publicaciones del Ministerio de Salud
 
-data product 5 [encabezado(explicación, si es necesaria)]: [en desarrollo]

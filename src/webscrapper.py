@@ -54,10 +54,6 @@ def writer(fileprefix, mylist):
     now = datetime.now()
     timestamp = now.strftime("%d-%m-%Y")
     filename = '../output/producto3/' + fileprefix + '-' + timestamp + '.csv'
-    print('Rotating files')
-    filetomove = [f for f in listdir('../output/producto3/') if isfile(join('../output/producto3/', f))]
-    print(str(filetomove) + " goes to ../output/product5")
-    move("../output/producto3/"+filetomove[0], "../output/producto5")
     print('Writing to ' + filename)
     with open(filename, 'w', newline='') as myfile:
         wr = csv.writer(myfile, quoting=csv.QUOTE_NONE, escapechar=' ')
