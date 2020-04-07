@@ -11,9 +11,9 @@ Este se procesa con el código en src, para generar los archivos csv en output.
 En cuanto a los archivos a nivel regional: [en desarrollo]
 
 ## Encabezados
-data product 1 [encabezado(explicación, si es necesaria)]: 'Region', 'Comuna', 'Poblacion', '[fecha]', incrementando la ultima columna cada vez que MINSAL publica con el valor de casos confirmados por comuna. 
+[data product 1](output/producto1): 'Region', 'Comuna', 'Poblacion', '[fecha]', incrementando la ultima columna cada vez que MINSAL publica con el valor de casos confirmados por comuna. 
 
-data product 2 [encabezado(explicación, si es necesaria)]: 'Region', 'Comuna', 'Poblacion', 'Casos Confirmados', un archivo por fecha
+[data product 2](output/producto2) [encabezado(explicación, si es necesaria)]: 'Region', 'Comuna', 'Poblacion', 'Casos Confirmados', un archivo por fecha
 
 data product 3 [encabezado(explicación, si es necesaria)]: [en desarrollo]
 
