@@ -13,6 +13,9 @@ En cuanto a los archivos a nivel regional
 
 # Encabezados
 data product 1 [encabezado(explicación, si es necesaria)]: 'Region', 'Comuna', 'Poblacion', '[fecha]', incrementando la ultima columna cada vez que MINSAL publica con el valor de casos confirmados por comuna. 
+
 data product 2 [encabezado(explicación, si es necesaria)]: 'Region', 'Comuna', 'Poblacion', 'Casos Confirmados', un archivo por fecha
+
 data product 3 [encabezado(explicación, si es necesaria)]: 
+
 data product 4 [encabezado(explicación, si es necesaria)]: 
