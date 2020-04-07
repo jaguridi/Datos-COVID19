@@ -1,5 +1,5 @@
 import csv
-from  shutil import copyfile
+from shutil import copyfile
 
 
 if __name__ == '__main__':
