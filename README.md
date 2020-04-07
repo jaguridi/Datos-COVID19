@@ -7,3 +7,14 @@ En cuanto a los archivos a nivel comunal: Transcribimos los datos publicados por
 https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
 A partir de esa transcripción se genera un archivo csv, ubicado en la carpeta input.
 Este se procesa con el código en src, para generar los archivos csv en output.
+
+En cuanto a los archivos a nivel regional: [en desarrollo]
+
+## Encabezados
+data product 1 [encabezado(explicación, si es necesaria)]: 'Region', 'Comuna', 'Poblacion', '[fecha]', incrementando la ultima columna cada vez que MINSAL publica con el valor de casos confirmados por comuna. 
+
+data product 2 [encabezado(explicación, si es necesaria)]: 'Region', 'Comuna', 'Poblacion', 'Casos Confirmados', un archivo por fecha
+
+data product 3 [encabezado(explicación, si es necesaria)]: [en desarrollo]
+
+data product 4 [encabezado(explicación, si es necesaria)]: [en desarrollo]
