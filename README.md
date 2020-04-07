@@ -12,9 +12,12 @@ En cuanto a los archivos a nivel regional: [en desarrollo]
 ## Encabezados
 [data product 1](output/producto1): 'Region', 'Comuna', 'Poblacion', '[fecha]', incrementando la ultima columna cada vez que MINSAL publica con el valor de casos confirmados por comuna. 
 
-[data product 2](output/producto2) [encabezado(explicación, si es necesaria)]: 'Region', 'Comuna', 'Poblacion', 'Casos Confirmados', un archivo por fecha
+[data product 2](output/producto2) : 'Region', 'Comuna', 'Poblacion', 'Casos Confirmados', un archivo por fecha
 
 data product 3 [encabezado(explicación, si es necesaria)]: [en desarrollo]
 
+
 [data product 4](output/producto4): Scrapping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/. Encabezados acorde a publicaciones del Ministerio de Salud
+
+
 
