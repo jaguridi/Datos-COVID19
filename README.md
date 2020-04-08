@@ -19,7 +19,4 @@ En cuanto a los archivos a nivel regional: Hacemos scrapping de tabla en https:/
 data product 3 [encabezado(explicación, si es necesaria)]: [en desarrollo]
 
 
-[data product 4](output/producto4):  Para archivos posteriores a xx ('Region', 'Casos Nuevos', '%Casos Totales', 'Fallecidos'), para archivo anteriores ('Region', 'Comuna', 'Poblacion', 'Casos Confirmados') 
-
-
-
+[data product 4](output/producto4):  Para archivos posteriores a 31/3 ('Region', 'Casos Nuevos', '%Casos Totales', 'Fallecidos'), para archivoa anteriores ('Region', 'Casos Nuevos', 'Recuperados', 'Fallecidos') 
