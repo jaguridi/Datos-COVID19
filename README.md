@@ -1,5 +1,5 @@
 # Datos-COVID19
-El objetivo de la Mesa de Datos COVID-19 del Ministerio de Ciencia, Tecnología, Conocimiento e Innovación es usar información del Ministerio de Salud para acelerar la preparación de evidencia científica que apoye la toma de decisiones de las autoridades y la ciudadanía. Como primer resultado, esta mesa dispone los datos epidemiológicos que han sido publicados en un formato estándar de datos abiertos, útil para análisis, en concordancia con la Ley Nº 19.628. 
+El objetivo de la Mesa de Datos COVID-19 del Ministerio de Ciencia, Tecnología, Conocimiento e Innovación es usar información del Ministerio de Salud para acelerar la preparación de evidencia científica que apoye la toma de decisiones de las autoridades y la ciudadanía. Como primer resultado, esta mesa dispone los datos epidemiológicos públicos en un formato estándar de datos abiertos, que eperamos sea útil para análisis, en concordancia con la Ley Nº 19.628. 
 
 Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
