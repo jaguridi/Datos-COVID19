@@ -25,4 +25,4 @@ En cuanto a los archivos a nivel regional: Hacemos scrapping de tabla en https:/
 
 # Contacto
 Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues)
-Si has creado una solución que permita facilitar el trabajo con estos datos o algún resultado de análisis, escríbenos a darancibia@minciencia.gob.cl
+Si has creado una solución que permita facilitar el trabajo con estos datos, algún análisis, o simplemente tienes una solicitud de data product considerando los datos que MINSAL hace públicos hoy, escríbenos a darancibia@minciencia.gob.cl
