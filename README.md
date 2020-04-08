@@ -1,5 +1,5 @@
 # Datos-COVID19
-El objetivo de la Mesa de Datos COVID-19 del Ministerio de Ciencia, Tecnología, Conocimiento e Innovación es usar información del Ministerio de Salud para acelerar la preparación de evidencia científica que apoye la toma de decisiones de las autoridades y la ciudadanía. Como primer resultado, esta mesa dispone los datos epidemiológicos públicos en un formato estándar de datos abiertos, que eperamos sea útil para análisis, en concordancia con la Ley Nº 19.628. 
+El objetivo de la Mesa de Datos COVID-19 del Ministerio de Ciencia, Tecnología, Conocimiento e Innovación es disponer Datos de Salud provenientes del Ministerio de Salud (MINSAL) para que la comunidad pueda construir soluciones interoperables, disponibles para fines de investigación e innovación y apoyar la toma de decisiones de las autoridades y la ciudadanía. Como primer resultado y como contribución a obtener el máximo aprendizaje de esta crisis, se dispondrán de datos epidemiológicos públicos, bien documentado, abiertos para el análisis de la comunidad y en concordancia con la Ley Nº 19.628. 
 
 Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
@@ -23,4 +23,6 @@ En cuanto a los archivos a nivel regional: Hacemos scrapping de tabla en https:/
 
 ![dataUpdate](https://github.com/MinCiencia/Datos-COVID19/workflows/dataUpdate/badge.svg)
 
+# Contacto
 Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues)
+Si has creado una solución que permita facilitar el trabajo con estos datos, algún análisis, o simplemente tienes una solicitud de data product considerando los datos que MINSAL hace públicos hoy, escríbenos a darancibia@minciencia.gob.cl
