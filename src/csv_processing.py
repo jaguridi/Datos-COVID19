@@ -27,6 +27,8 @@ from shutil import copyfile
 
 
 if __name__ == '__main__':
+    # Aqui se generan los productos 1 y 2
+
     copyfile("../input/Covid-19.csv", "../output/producto1/Covid-19.csv")
 
     dates = []

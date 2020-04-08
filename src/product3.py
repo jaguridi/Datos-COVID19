@@ -61,5 +61,5 @@ if __name__ == '__main__':
 
     print(cumulativoCasosNuevos.columns)
     print(cumulativoCasosTotales.columns)
-    #cumulativoCasosNuevos.to_csv("../output/producto3/CasosConfirmadosCumulativo.csv", index=False)
+    # cumulativoCasosNuevos.to_csv("../output/producto3/CasosConfirmadosCumulativo.csv", index=False)
     cumulativoCasosTotales.to_csv("../output/producto3/CasosTotalesCumulativo.csv", index=False)

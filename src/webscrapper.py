@@ -60,6 +60,7 @@ def writer(fileprefix, mylist):
 
 
 if __name__ == '__main__':
+    # Aca se genera el producto 4
     test = False
     if test:
         myMinsal = get_minsal('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
