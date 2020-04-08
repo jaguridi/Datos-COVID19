@@ -49,8 +49,8 @@ def get_minsal(minsalURL):
 
 def writer(fileprefix, mylist):
     now = datetime.now()
-    timestamp = now.strftime("%d-%m-%Y")
-    filename = '../output/producto4/' + fileprefix + '-' + timestamp + '.csv'
+    timestamp = now.strftime("%Y-%m-%d")
+    filename = '../output/producto4/' + timestamp + '-' + fileprefix + '.csv'
     print('Writing to ' + filename)
     with open(filename, 'w', newline='') as myfile:
         wr = csv.writer(myfile, quoting=csv.QUOTE_NONE, escapechar=' ')

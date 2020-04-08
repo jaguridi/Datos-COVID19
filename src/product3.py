@@ -37,8 +37,9 @@ if __name__ == '__main__':
     cumulativo = pd.DataFrame({'Region':[],
                                'Casos nuevos':[]})
 
+    print(onlyfiles.sort())
     for eachfile in onlyfiles:
-        date = eachfile.replace("CasosConfirmados-totalRegional-", "").replace(".csv", "")
+        date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(mypath + eachfile)
         # sanitize headers
         dataframe.rename(columns={'Región': 'Region'}, inplace=True)
