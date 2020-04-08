@@ -27,9 +27,6 @@ from bs4 import BeautifulSoup
 import csv
 import unidecode
 from datetime import datetime
-from os import listdir
-from os.path import isfile, join
-from shutil import move
 
 def get_minsal(minsalURL):
     page = requests.get(minsalURL)
