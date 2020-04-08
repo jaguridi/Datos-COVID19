@@ -9,7 +9,7 @@ https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-1
 A partir de esa transcripción se genera un archivo csv, ubicado en la carpeta input.
 Este se procesa con el código en src, para generar los archivos csv en output.
 
-En cuanto a los archivos a nivel regional: Scrapping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/.
+En cuanto a los archivos a nivel regional: Hacemos scrapping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/ y generamos archivo csv por día.
 
 ## Encabezados
 [data product 1](output/producto1): 'Region', 'Comuna', 'Poblacion', '[fecha]', incrementando la ultima columna cada vez que MINSAL publica con el valor de casos confirmados por comuna. 
