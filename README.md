@@ -16,9 +16,9 @@ En cuanto a los archivos a nivel regional: Hacemos scrapping de tabla en https:/
 
 [data product 2](output/producto2): 'Region', 'Comuna', 'Poblacion', 'Casos Confirmados', un archivo por fecha de publicación del Ministerio de Salud
 
-[data product 3](output/producto3): Corresponde al total de casos reportados por el MINSAL, agregando una columna por día.
+[data product 3](output/producto3): Corresponde al total de la columna 'Casos totales' reportados por el MINSAL, agregando una columna por día.
 
-[data product 4](output/producto4):  Para archivos posteriores a 31/3 ('Region', 'Casos Nuevos', '%Casos Totales', 'Fallecidos'), para archivos anteriores ('Region', 'Casos Nuevos', 'Recuperados', 'Fallecidos') 
+[data product 4](output/producto4):  Para archivos posteriores a 31/3 ('Region', 'Casos Nuevos', 'Casos totales', '%Casos Totales', 'Fallecidos'), para archivos anteriores ('Region', 'Casos Nuevos', 'Casos totales', 'Recuperados') 
 
 
 ![dataUpdate](https://github.com/MinCiencia/Datos-COVID19/workflows/dataUpdate/badge.svg)
