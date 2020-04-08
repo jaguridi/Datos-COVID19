@@ -22,3 +22,5 @@ En cuanto a los archivos a nivel regional: Hacemos scrapping de tabla en https:/
 
 
 ![dataUpdate](https://github.com/MinCiencia/Datos-COVID19/workflows/dataUpdate/badge.svg)
+
+Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues)
