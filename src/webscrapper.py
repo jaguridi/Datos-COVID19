@@ -64,7 +64,7 @@ if __name__ == '__main__':
     if test:
         myMinsal = get_minsal('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
         for element in myMinsal:
-            print (element)
+            print(element)
     else:
         writer('CasosConfirmados-totalRegional',
                get_minsal('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/'))
