@@ -29,11 +29,13 @@ import unidecode
 from datetime import datetime
 
 
-
-def get_casos_recuperados(minsalURL):
+def get_minsal_page(minsalURL):
     page = requests.get(minsalURL)
     soup = BeautifulSoup(page.content, 'html.parser')
-    tables = soup.findAll('table')
+    return(soup)
+
+def get_casos_recuperados(minsalsoup):
+    tables = minsalsoup.findAll('table')
     for eachtable in tables:
         rows = eachtable.findAll(lambda tag: tag.name == 'tr')
         for row in rows:
@@ -43,10 +45,8 @@ def get_casos_recuperados(minsalURL):
                 return(cols)
 
 
-def get_table_regional(minsalURL):
-    page = requests.get(minsalURL)
-    soup = BeautifulSoup(page.content, 'html.parser')
-    table = soup.find(lambda tag: tag.name == 'table')
+def get_table_regional(minsalsoup):
+    table = minsalsoup.find(lambda tag: tag.name == 'table')
     #print(table.prettify())
 
     rows = table.findAll(lambda tag: tag.name == 'tr')
@@ -62,6 +62,7 @@ def get_table_regional(minsalURL):
             data_clean.append(element)
     return data_clean
 
+
 def writer(fileprefix, mylist):
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
@@ -73,15 +74,38 @@ def writer(fileprefix, mylist):
             wr.writerow(element)
 
 
+def add_row_to_csv(data, filename):
+    now = datetime.now()
+    timestamp = now.strftime("%Y-%m-%d")
+
+    # if we already have the date we intend to insert, abort
+    with open(filename) as csvfile:
+        rows = csv.reader(csvfile, delimiter=',')
+        for row in rows:
+            if timestamp == row[0]:
+                print('timestamp ' + timestamp + ' is already in ' + filename)
+                return
+    with open(filename, 'a') as myfile:
+        print('Adding row to ' + filename)
+        myfile.write("\n" + timestamp + ", " + data[1])
+        myfile.close()
+
 
 if __name__ == '__main__':
-    # Aca se genera el producto 4
-    test = True
+    # Aca se genera el producto 4 y 5
+    test = False
+    myMinsalsoup = get_minsal_page(
+        'https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
     if test:
-        myMinsal = get_table_regional('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
+
+        myMinsal = get_table_regional(myMinsalsoup)
         for element in myMinsal:
             print(element)
-        get_casos_recuperados('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
+        casos = get_casos_recuperados(myMinsalsoup)
+        print(casos)
     else:
+
         writer('CasosConfirmados-totalRegional',
-               get_table_regional('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/'))
+               get_table_regional(myMinsalsoup))
+        casos = get_casos_recuperados(myMinsalsoup)
+        add_row_to_csv(casos, '../output/producto5/recuperados.csv')
