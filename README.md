@@ -32,4 +32,4 @@ Si has creado una solución que permita facilitar el trabajo con estos datos, al
 
 Geógrafo Virginia Behm - académica Escuela de Salud Pública U. Chile.
 
-Miguel A. Bustos Valdebenito | Estudiante Dr. Ing. Mec. - U.Chile | Mtr. Ing. Ind.l - UAI  | Ing. Civil y Ejec. Mec. - U. de Santiago | Miguel.bustos@teicser.com
+Miguel A. Bustos Valdebenito | Estudiante Dr. Ing. Mec. - U.Chile | Mtr. Ing. Ind. - UAI  | Ing. Civil y Ejec. Mec. - U. de Santiago | miguel.bustos@teicser.com
