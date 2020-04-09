@@ -28,7 +28,22 @@ import csv
 import unidecode
 from datetime import datetime
 
-def get_minsal(minsalURL):
+
+
+def get_casos_recuperados(minsalURL):
+    page = requests.get(minsalURL)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    tables = soup.findAll('table')
+    for eachtable in tables:
+        rows = eachtable.findAll(lambda tag: tag.name == 'tr')
+        for row in rows:
+            cols = row.findAll('td')
+            cols = [ele.text.strip().replace('.', '') for ele in cols]
+            if cols[0] == 'Casos recuperados a nivel nacional':
+                return(cols)
+
+
+def get_table_regional(minsalURL):
     page = requests.get(minsalURL)
     soup = BeautifulSoup(page.content, 'html.parser')
     table = soup.find(lambda tag: tag.name == 'table')
@@ -63,9 +78,10 @@ if __name__ == '__main__':
     # Aca se genera el producto 4
     test = True
     if test:
-        myMinsal = get_minsal('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
-        # for element in myMinsal:
-        #     print(element)
+        myMinsal = get_table_regional('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
+        for element in myMinsal:
+            print(element)
+        get_casos_recuperados('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
     else:
         writer('CasosConfirmados-totalRegional',
-               get_minsal('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/'))
+               get_table_regional('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/'))
