@@ -12,6 +12,8 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 4: Casos totales por región](output/producto4) (un archivo por informe): archivos con valores separados por coma (csv) con la información a nivel regional publicada diariamente por MINSAL, las columnas varían a mediada que MINSAL dispone la información. Los campos para archivos posteriores a 31/3  son 'Región', 'Casos Nuevos', 'Casos totales', '%Casos Totales', 'Fallecidos'; para archivos anteriores son 'Región', 'Casos Nuevos', 'Casos totales', 'Recuperados'.  
 
+[data product 5: Casos totales recuperados](output/producto5): archivo con valores separados por coma (csv) con casos recuperados totales con el valor diario reportado por el MINSAL. Contiene los campos '[fecha]', 'Recuperados'
+
 ## Como funciona?
 En cuanto a los archivos a nivel comunal: Transcribimos los datos publicados por el Ministerio de Salud en pdf en:
 https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
