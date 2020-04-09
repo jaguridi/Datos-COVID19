@@ -97,19 +97,23 @@ def add_column_to_csv(data, filename):
     with open(filename) as csvfile:
         rows = csv.reader(csvfile, delimiter=',')
         for index, row in enumerate(rows):
-            if (row[len(row)-1]) == timestamp:
+            print("comparing " + row[len(row)-1].strip() + " with " + timestamp)
+            if (row[len(row)-1].strip()) == timestamp:
                 print('timestamp ' + timestamp + ' is already in ' + filename)
+                return
             else:
                 if index == 0:
                     row.append(timestamp)
                 if index == 1:
                     row.append(data[1])
             output.append(row)
-    print(output)
-    # with open(filename, 'w') as myfile:
-    #     print('Dumoing data to  ' + filename)
-    #     myCsvwriter = csv.writer(filename, 'w')
-    #     myCsvwriter.writerows(output)
+    csvfile.close()
+
+    with open(filename, 'w') as myfile:
+        print('Dumping data to  ' + filename)
+        myCsvwriter = csv.writer(myfile)
+        for eachrow in output:
+            myCsvwriter.writerow(eachrow)
 
 
 if __name__ == '__main__':
