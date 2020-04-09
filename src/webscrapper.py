@@ -61,11 +61,11 @@ def writer(fileprefix, mylist):
 
 if __name__ == '__main__':
     # Aca se genera el producto 4
-    test = False
+    test = True
     if test:
         myMinsal = get_minsal('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
-        for element in myMinsal:
-            print(element)
+        # for element in myMinsal:
+        #     print(element)
     else:
         writer('CasosConfirmados-totalRegional',
                get_minsal('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/'))
