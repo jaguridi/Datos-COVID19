@@ -53,7 +53,7 @@ def get_table_regional(minsalsoup):
     for row in rows:
         cols = row.findAll('td')
         cols = [ele.text.strip().replace('–', '0') for ele in cols]
-        data_minsal.append([unidecode.unidecode(ele.replace('.', '')) for ele in cols if ele])
+        data_minsal.append([unidecode.unidecode(ele.replace('.', '').replace(',', '.')) for ele in cols if ele])
     data_clean = []
     for element in data_minsal:
         # Sanity check: minsal table changes often
