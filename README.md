@@ -14,6 +14,8 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 5: Casos totales recuperados](output/producto5): archivo con valores separados por coma (csv) con casos recuperados totales con el valor diario reportado por el MINSAL. Contiene los campos '[fecha]', 'Recuperados'
 
+[data product 6: enriquecimiento del data product2](output/contrib/bulk): producto2 con todos los datos compilados en formato CSV y JSON, llamados producto2.csv y producto2.json respectivamente.
+
 ## Como funciona?
 En cuanto a los archivos a nivel comunal: Transcribimos los datos publicados por el Ministerio de Salud en pdf en:
 https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
