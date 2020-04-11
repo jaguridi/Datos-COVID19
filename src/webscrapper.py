@@ -97,8 +97,8 @@ def add_column_to_csv(data, filename):
     with open(filename) as csvfile:
         rows = csv.reader(csvfile, delimiter=',')
         for index, row in enumerate(rows):
-            print("comparing " + row[len(row)-1].strip() + " with " + timestamp)
-            if (row[len(row)-1].strip()) == timestamp:
+            if len(row) > 0 and (row[len(row)-1].strip()) == timestamp:
+                print("comparing " + row[len(row) - 1].strip() + " with " + timestamp)
                 print('timestamp ' + timestamp + ' is already in ' + filename)
                 return
             else:
