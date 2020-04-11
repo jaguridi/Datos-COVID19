@@ -34,10 +34,10 @@ if __name__ == '__main__':
     dates = []
     with open('../input/Covid-19.csv') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
-        header = ['Region', 'Comuna', 'Poblacion', 'Casos Confirmados']
+        header = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Casos Confirmados']
         original_header = next(reader)
-        dates = original_header[3:len(original_header)-1]
-
+        dates = original_header[5:len(original_header)-1]
+        print("las fechas son " + str(dates))
 
     for eachdate in dates:
         data = []
@@ -49,10 +49,11 @@ if __name__ == '__main__':
             output = "../output/producto2/" + eachdate + "-CasosConfirmados.csv"
             print("dumping " + eachdate + " to " + output)
             for row in reader2:
+                print(row)
                 newrow = []
-                for i in range(0, 3):
+                for i in range(0, 5):
                     newrow.append(row[i])
-                newrow.append(row[dates.index(eachdate)+3])
+                newrow.append(row[dates.index(eachdate)+5])
                 data.append(newrow)
 
         with open(output, "w") as f:

@@ -53,7 +53,7 @@ def get_table_regional(minsalsoup):
     for row in rows:
         cols = row.findAll('td')
         cols = [ele.text.strip().replace('–', '0') for ele in cols]
-        data_minsal.append([unidecode.unidecode(ele.replace('.', '')) for ele in cols if ele])
+        data_minsal.append([unidecode.unidecode(ele.replace('.', '').replace(',', '.')) for ele in cols if ele])
     data_clean = []
     for element in data_minsal:
         # Sanity check: minsal table changes often
@@ -118,7 +118,7 @@ def add_column_to_csv(data, filename):
 
 if __name__ == '__main__':
     # Aca se genera el producto 4 y 5
-    test = True
+    test = False
     myMinsalsoup = get_minsal_page(
         'https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
     if test:
@@ -135,4 +135,5 @@ if __name__ == '__main__':
         writer('CasosConfirmados-totalRegional',
                get_table_regional(myMinsalsoup))
         casos = get_casos_recuperados(myMinsalsoup)
-        add_row_to_csv(casos, '../output/producto5/recuperados.csv')
+        #add_row_to_csv(casos, '../output/producto5/recuperados.csv')
+        add_column_to_csv(casos, '../output/producto5/recuperados.csv')
