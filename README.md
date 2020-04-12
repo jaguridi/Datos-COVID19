@@ -4,6 +4,7 @@ El objetivo de la Mesa de Datos COVID-19 liderada por el Ministerio de Ciencia, 
 Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 # Data Products
+
 [data product 1: Casos totales por comuna incremental](output/producto1): archivo con valores separados por coma (csv) que concatena historia de publicaciones de MINSAL sobre casos totales por comuna. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos Confirmados' reportados en cada publicación.
 
 [data product 2: Casos totales por comuna](output/producto2) (un archivo por informe): archivos con valores separados por coma (csv) con la información a nivel comunal por cada informe publicado. Cada archivo contiene los campos 'Región', 'Comuna', 'Población', 'Casos Confirmados'.
@@ -15,6 +16,8 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 [data product 5: Casos totales recuperados](output/producto5): archivo con valores separados por coma (csv) con casos recuperados totales con el valor diario reportado por el MINSAL. Contiene los campos '[fecha]', 'Recuperados'
 
 [data product 6[contributed]: enriquecimiento del data product2](output/contrib/bulk): producto2 con todos los datos compilados en formato CSV y JSON, llamados producto2.csv y producto2.json respectivamente.
+
+**Nota: La fecha otorgada a cada reporte corresponde al registro del día anterior**
 
 ## Como funciona?
 En cuanto a los archivos a nivel comunal: Transcribimos los datos publicados por el Ministerio de Salud en pdf en:
