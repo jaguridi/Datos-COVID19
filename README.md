@@ -15,9 +15,12 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 5: Casos totales recuperados](output/producto5): archivo con valores separados por coma (csv) con casos recuperados totales con el valor diario reportado por el MINSAL. Contiene los campos '[fecha]', 'Recuperados'
 
-[data product 6[contributed]: enriquecimiento del data product2](output/contrib/bulk): producto2 con todos los datos compilados en formato CSV y JSON, llamados producto2.csv y producto2.json respectivamente.
+[data product 6[contributed]: enriquecimiento del data product2](output/producto6/bulk): producto2 con todos los datos compilados en formato CSV y JSON, llamados producto2.csv y producto2.json respectivamente.
 
-[data product 7:](output/producto7) 2 archivos csv, el primero corresponde al reporte de exámenes PCR realizados, y el segundo, a la cantidad de hospitalizaciones en UCI, ambos por región. 
+[data product 7:](output/producto7) 2 archivos csv, el primero corresponde al reporte de exámenes PCR realizados, y el segundo, a la serie de tiempo de los datos anteriores, por región. 
+
+[data product 8:](output/producto8) 2 archivos csv, el primero corresponde al reporte de hospitalizados UCI, y el segundo, a la serie de tiempo de los datos anteriores, por región.
+
 
 **Nota: La fecha otorgada a cada reporte corresponde al registro del día anterior**
 
