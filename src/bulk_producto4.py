@@ -41,7 +41,6 @@ for file in glob.glob("../output/producto4/*.csv"):
     # Corrige un error de la data
     if date == "2020/03/03":
         df.loc[df["Region"] == "Maule", ["Nuevos Casos"]] = 1
-
     data.append(df)
 
 data = pd.concat(data)
