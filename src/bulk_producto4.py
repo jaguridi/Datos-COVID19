@@ -64,5 +64,5 @@ data["Poblacion"] = data["Region"].replace(regions_pob).astype(int)
 data["Tasa"] = (data["Casos Confirmados"]/data["Poblacion"])*100000
 
 # Crea output de datos en CSV / JSON
-data.to_csv("../output/producto4/bulk/data.csv", index=False)
-data.to_json("../output/producto4/bulk/data.json", orient="records")
+data.to_csv("../output/producto11/bulk/producto4.csv", index=False)
+data.to_json("../output/producto11/bulk/producto4.json", orient="records")
