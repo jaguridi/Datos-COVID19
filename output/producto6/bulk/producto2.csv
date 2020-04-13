@@ -1,0 +1,2077 @@
+Codigo region,Codigo comuna,Poblacion,Casos Confirmados,Fecha,Region ID,Region,Provincia ID,Provincia,Comuna ID,Comuna,Tasa
+15,15101.0,247552,6,2020/04/01,15,Arica y Parinacota,151,Arica,15101,Arica,2.4237331954498447
+15,15101.0,247552,87,2020/04/10,15,Arica y Parinacota,151,Arica,15101,Arica,35.14413133402275
+15,15101.0,247552,63,2020/04/08,15,Arica y Parinacota,151,Arica,15101,Arica,25.449198552223372
+15,15101.0,247552,12,2020/04/03,15,Arica y Parinacota,151,Arica,15101,Arica,4.847466390899689
+15,15101.0,247552,41,2020/04/06,15,Arica y Parinacota,151,Arica,15101,Arica,16.56217683557394
+15,15101.0,247552,6,2020/03/30,15,Arica y Parinacota,151,Arica,15101,Arica,2.4237331954498447
+15,15102.0,1233,-,2020/04/01,15,Arica y Parinacota,151,Arica,15102,Camarones,-
+15,15102.0,1233,-,2020/04/10,15,Arica y Parinacota,151,Arica,15102,Camarones,-
+15,15102.0,1233,-,2020/04/08,15,Arica y Parinacota,151,Arica,15102,Camarones,-
+15,15102.0,1233,-,2020/04/03,15,Arica y Parinacota,151,Arica,15102,Camarones,-
+15,15102.0,1233,-,2020/04/06,15,Arica y Parinacota,151,Arica,15102,Camarones,-
+15,15102.0,1233,-,2020/03/30,15,Arica y Parinacota,151,Arica,15102,Camarones,-
+15,15202.0,810,-,2020/04/01,15,Arica y Parinacota,152,Parinacota,15202,General Lagos,-
+15,15202.0,810,-,2020/04/10,15,Arica y Parinacota,152,Parinacota,15202,General Lagos,-
+15,15202.0,810,-,2020/04/08,15,Arica y Parinacota,152,Parinacota,15202,General Lagos,-
+15,15202.0,810,-,2020/04/03,15,Arica y Parinacota,152,Parinacota,15202,General Lagos,-
+15,15202.0,810,-,2020/04/06,15,Arica y Parinacota,152,Parinacota,15202,General Lagos,-
+15,15202.0,810,-,2020/03/30,15,Arica y Parinacota,152,Parinacota,15202,General Lagos,-
+15,15201.0,2515,-,2020/04/01,15,Arica y Parinacota,152,Parinacota,15201,Putre,-
+15,15201.0,2515,-,2020/04/10,15,Arica y Parinacota,152,Parinacota,15201,Putre,-
+15,15201.0,2515,-,2020/04/08,15,Arica y Parinacota,152,Parinacota,15201,Putre,-
+15,15201.0,2515,-,2020/04/03,15,Arica y Parinacota,152,Parinacota,15201,Putre,-
+15,15201.0,2515,-,2020/04/06,15,Arica y Parinacota,152,Parinacota,15201,Putre,-
+15,15201.0,2515,-,2020/03/30,15,Arica y Parinacota,152,Parinacota,15201,Putre,-
+1,1107.0,129999,-,2020/04/01,1,Tarapacá,11,Iquique,1107,Alto Hospicio,-
+1,1107.0,129999,10,2020/04/10,1,Tarapacá,11,Iquique,1107,Alto Hospicio,7.692366864360495
+1,1107.0,129999,6,2020/04/08,1,Tarapacá,11,Iquique,1107,Alto Hospicio,4.615420118616297
+1,1107.0,129999,-,2020/04/03,1,Tarapacá,11,Iquique,1107,Alto Hospicio,-
+1,1107.0,129999,5,2020/04/06,1,Tarapacá,11,Iquique,1107,Alto Hospicio,3.8461834321802475
+1,1107.0,129999,-,2020/03/30,1,Tarapacá,11,Iquique,1107,Alto Hospicio,-
+1,1402.0,1375,-,2020/04/01,1,Tarapacá,14,Tamarugal,1402,Camiña,-
+1,1402.0,1375,-,2020/04/10,1,Tarapacá,14,Tamarugal,1402,Camiña,-
+1,1402.0,1375,-,2020/04/08,1,Tarapacá,14,Tamarugal,1402,Camiña,-
+1,1402.0,1375,-,2020/04/03,1,Tarapacá,14,Tamarugal,1402,Camiña,-
+1,1402.0,1375,-,2020/04/06,1,Tarapacá,14,Tamarugal,1402,Camiña,-
+1,1402.0,1375,-,2020/03/30,1,Tarapacá,14,Tamarugal,1402,Camiña,-
+1,1403.0,1583,-,2020/04/01,1,Tarapacá,14,Tamarugal,1403,Colchane,-
+1,1403.0,1583,-,2020/04/10,1,Tarapacá,14,Tamarugal,1403,Colchane,-
+1,1403.0,1583,-,2020/04/08,1,Tarapacá,14,Tamarugal,1403,Colchane,-
+1,1403.0,1583,-,2020/04/03,1,Tarapacá,14,Tamarugal,1403,Colchane,-
+1,1403.0,1583,-,2020/04/06,1,Tarapacá,14,Tamarugal,1403,Colchane,-
+1,1403.0,1583,-,2020/03/30,1,Tarapacá,14,Tamarugal,1403,Colchane,-
+1,1404.0,3000,-,2020/04/01,1,Tarapacá,14,Tamarugal,1404,Huara,-
+1,1404.0,3000,-,2020/04/10,1,Tarapacá,14,Tamarugal,1404,Huara,-
+1,1404.0,3000,-,2020/04/08,1,Tarapacá,14,Tamarugal,1404,Huara,-
+1,1404.0,3000,-,2020/04/03,1,Tarapacá,14,Tamarugal,1404,Huara,-
+1,1404.0,3000,-,2020/04/06,1,Tarapacá,14,Tamarugal,1404,Huara,-
+1,1404.0,3000,-,2020/03/30,1,Tarapacá,14,Tamarugal,1404,Huara,-
+1,1101.0,223463,9,2020/04/01,1,Tarapacá,11,Iquique,1101,Iquique,4.027512384600582
+1,1101.0,223463,18,2020/04/10,1,Tarapacá,11,Iquique,1101,Iquique,8.055024769201165
+1,1101.0,223463,16,2020/04/08,1,Tarapacá,11,Iquique,1101,Iquique,7.1600220170677025
+1,1101.0,223463,10,2020/04/03,1,Tarapacá,11,Iquique,1101,Iquique,4.475013760667314
+1,1101.0,223463,13,2020/04/06,1,Tarapacá,11,Iquique,1101,Iquique,5.817517888867508
+1,1101.0,223463,5,2020/03/30,1,Tarapacá,11,Iquique,1101,Iquique,2.237506880333657
+1,1405.0,5958,-,2020/04/01,1,Tarapacá,14,Tamarugal,1405,Pica,-
+1,1405.0,5958,5,2020/04/10,1,Tarapacá,14,Tamarugal,1405,Pica,83.92077878482712
+1,1405.0,5958,-,2020/04/08,1,Tarapacá,14,Tamarugal,1405,Pica,-
+1,1405.0,5958,-,2020/04/03,1,Tarapacá,14,Tamarugal,1405,Pica,-
+1,1405.0,5958,-,2020/04/06,1,Tarapacá,14,Tamarugal,1405,Pica,-
+1,1405.0,5958,-,2020/03/30,1,Tarapacá,14,Tamarugal,1405,Pica,-
+1,1401.0,17395,-,2020/04/01,1,Tarapacá,14,Tamarugal,1401,Pozo Almonte,-
+1,1401.0,17395,-,2020/04/10,1,Tarapacá,14,Tamarugal,1401,Pozo Almonte,-
+1,1401.0,17395,-,2020/04/08,1,Tarapacá,14,Tamarugal,1401,Pozo Almonte,-
+1,1401.0,17395,-,2020/04/03,1,Tarapacá,14,Tamarugal,1401,Pozo Almonte,-
+1,1401.0,17395,-,2020/04/06,1,Tarapacá,14,Tamarugal,1401,Pozo Almonte,-
+1,1401.0,17395,-,2020/03/30,1,Tarapacá,14,Tamarugal,1401,Pozo Almonte,-
+2,2101.0,425725,32,2020/04/01,2,Antofagasta,21,Antofagasta,2101,Antofagasta,7.516589347583534
+2,2101.0,425725,82,2020/04/10,2,Antofagasta,21,Antofagasta,2101,Antofagasta,19.261260203182808
+2,2101.0,425725,60,2020/04/08,2,Antofagasta,21,Antofagasta,2101,Antofagasta,14.093605026719127
+2,2101.0,425725,44,2020/04/03,2,Antofagasta,21,Antofagasta,2101,Antofagasta,10.33531035292736
+2,2101.0,425725,54,2020/04/06,2,Antofagasta,21,Antofagasta,2101,Antofagasta,12.684244524047214
+2,2101.0,425725,29,2020/03/30,2,Antofagasta,21,Antofagasta,2101,Antofagasta,6.811909096247578
+2,2201.0,190336,-,2020/04/01,2,Antofagasta,22,El Loa,2201,Calama,-
+2,2201.0,190336,13,2020/04/10,2,Antofagasta,22,El Loa,2201,Calama,6.830026899798251
+2,2201.0,190336,8,2020/04/08,2,Antofagasta,22,El Loa,2201,Calama,4.203093476798924
+2,2201.0,190336,5,2020/04/03,2,Antofagasta,22,El Loa,2201,Calama,2.6269334229993273
+2,2201.0,190336,7,2020/04/06,2,Antofagasta,22,El Loa,2201,Calama,3.6777067921990585
+2,2201.0,190336,-,2020/03/30,2,Antofagasta,22,El Loa,2201,Calama,-
+2,2302.0,6814,-,2020/04/01,2,Antofagasta,23,Tocopilla,2302,María Elena,-
+2,2302.0,6814,-,2020/04/10,2,Antofagasta,23,Tocopilla,2302,María Elena,-
+2,2302.0,6814,-,2020/04/08,2,Antofagasta,23,Tocopilla,2302,María Elena,-
+2,2302.0,6814,-,2020/04/03,2,Antofagasta,23,Tocopilla,2302,María Elena,-
+2,2302.0,6814,-,2020/04/06,2,Antofagasta,23,Tocopilla,2302,María Elena,-
+2,2302.0,6814,-,2020/03/30,2,Antofagasta,23,Tocopilla,2302,María Elena,-
+2,2102.0,14776,-,2020/04/01,2,Antofagasta,21,Antofagasta,2102,Mejillones,-
+2,2102.0,14776,6,2020/04/10,2,Antofagasta,21,Antofagasta,2102,Mejillones,40.60638873849486
+2,2102.0,14776,-,2020/04/08,2,Antofagasta,21,Antofagasta,2102,Mejillones,-
+2,2102.0,14776,-,2020/04/03,2,Antofagasta,21,Antofagasta,2102,Mejillones,-
+2,2102.0,14776,-,2020/04/06,2,Antofagasta,21,Antofagasta,2102,Mejillones,-
+2,2102.0,14776,-,2020/03/30,2,Antofagasta,21,Antofagasta,2102,Mejillones,-
+2,2202.0,287,-,2020/04/01,2,Antofagasta,22,El Loa,2202,Ollagüe,-
+2,2202.0,287,-,2020/04/10,2,Antofagasta,22,El Loa,2202,Ollagüe,-
+2,2202.0,287,-,2020/04/08,2,Antofagasta,22,El Loa,2202,Ollagüe,-
+2,2202.0,287,-,2020/04/03,2,Antofagasta,22,El Loa,2202,Ollagüe,-
+2,2202.0,287,-,2020/04/06,2,Antofagasta,22,El Loa,2202,Ollagüe,-
+2,2202.0,287,-,2020/03/30,2,Antofagasta,22,El Loa,2202,Ollagüe,-
+2,2203.0,10434,-,2020/04/01,2,Antofagasta,22,El Loa,2203,San Pedro de Atacama,-
+2,2203.0,10434,4,2020/04/10,2,Antofagasta,22,El Loa,2203,San Pedro de Atacama,38.336208548974504
+2,2203.0,10434,4,2020/04/08,2,Antofagasta,22,El Loa,2203,San Pedro de Atacama,38.336208548974504
+2,2203.0,10434,-,2020/04/03,2,Antofagasta,22,El Loa,2203,San Pedro de Atacama,-
+2,2203.0,10434,4,2020/04/06,2,Antofagasta,22,El Loa,2203,San Pedro de Atacama,38.336208548974504
+2,2203.0,10434,-,2020/03/30,2,Antofagasta,22,El Loa,2203,San Pedro de Atacama,-
+2,2103.0,1746,-,2020/04/01,2,Antofagasta,21,Antofagasta,2103,Sierra Gorda,-
+2,2103.0,1746,-,2020/04/10,2,Antofagasta,21,Antofagasta,2103,Sierra Gorda,-
+2,2103.0,1746,-,2020/04/08,2,Antofagasta,21,Antofagasta,2103,Sierra Gorda,-
+2,2103.0,1746,-,2020/04/03,2,Antofagasta,21,Antofagasta,2103,Sierra Gorda,-
+2,2103.0,1746,-,2020/04/06,2,Antofagasta,21,Antofagasta,2103,Sierra Gorda,-
+2,2103.0,1746,-,2020/03/30,2,Antofagasta,21,Antofagasta,2103,Sierra Gorda,-
+2,2104.0,13657,-,2020/04/01,2,Antofagasta,21,Antofagasta,2104,Taltal,-
+2,2104.0,13657,-,2020/04/10,2,Antofagasta,21,Antofagasta,2104,Taltal,-
+2,2104.0,13657,-,2020/04/08,2,Antofagasta,21,Antofagasta,2104,Taltal,-
+2,2104.0,13657,-,2020/04/03,2,Antofagasta,21,Antofagasta,2104,Taltal,-
+2,2104.0,13657,-,2020/04/06,2,Antofagasta,21,Antofagasta,2104,Taltal,-
+2,2104.0,13657,-,2020/03/30,2,Antofagasta,21,Antofagasta,2104,Taltal,-
+2,2301.0,28079,-,2020/04/01,2,Antofagasta,23,Tocopilla,2301,Tocopilla,-
+2,2301.0,28079,-,2020/04/10,2,Antofagasta,23,Tocopilla,2301,Tocopilla,-
+2,2301.0,28079,-,2020/04/08,2,Antofagasta,23,Tocopilla,2301,Tocopilla,-
+2,2301.0,28079,-,2020/04/03,2,Antofagasta,23,Tocopilla,2301,Tocopilla,-
+2,2301.0,28079,-,2020/04/06,2,Antofagasta,23,Tocopilla,2301,Tocopilla,-
+2,2301.0,28079,-,2020/03/30,2,Antofagasta,23,Tocopilla,2301,Tocopilla,-
+3,3302.0,5729,-,2020/04/01,3,Atacama,33,Huasco,3302,Alto del Carmen,-
+3,3302.0,5729,-,2020/04/10,3,Atacama,33,Huasco,3302,Alto del Carmen,-
+3,3302.0,5729,-,2020/04/08,3,Atacama,33,Huasco,3302,Alto del Carmen,-
+3,3302.0,5729,-,2020/04/03,3,Atacama,33,Huasco,3302,Alto del Carmen,-
+3,3302.0,5729,-,2020/04/06,3,Atacama,33,Huasco,3302,Alto del Carmen,-
+3,3302.0,5729,-,2020/03/30,3,Atacama,33,Huasco,3302,Alto del Carmen,-
+3,3102.0,19426,-,2020/04/01,3,Atacama,31,Copiapó,3102,Caldera,-
+3,3102.0,19426,-,2020/04/10,3,Atacama,31,Copiapó,3102,Caldera,-
+3,3102.0,19426,-,2020/04/08,3,Atacama,31,Copiapó,3102,Caldera,-
+3,3102.0,19426,-,2020/04/03,3,Atacama,31,Copiapó,3102,Caldera,-
+3,3102.0,19426,-,2020/04/06,3,Atacama,31,Copiapó,3102,Caldera,-
+3,3102.0,19426,-,2020/03/30,3,Atacama,31,Copiapó,3102,Caldera,-
+3,3201.0,13164,-,2020/04/01,3,Atacama,32,Chañaral,3201,Chañaral,-
+3,3201.0,13164,-,2020/04/10,3,Atacama,32,Chañaral,3201,Chañaral,-
+3,3201.0,13164,-,2020/04/08,3,Atacama,32,Chañaral,3201,Chañaral,-
+3,3201.0,13164,-,2020/04/03,3,Atacama,32,Chañaral,3201,Chañaral,-
+3,3201.0,13164,-,2020/04/06,3,Atacama,32,Chañaral,3201,Chañaral,-
+3,3201.0,13164,-,2020/03/30,3,Atacama,32,Chañaral,3201,Chañaral,-
+3,3101.0,171766,-,2020/04/01,3,Atacama,31,Copiapó,3101,Copiapó,-
+3,3101.0,171766,8,2020/04/10,3,Atacama,31,Copiapó,3101,Copiapó,4.657499155828278
+3,3101.0,171766,5,2020/04/08,3,Atacama,31,Copiapó,3101,Copiapó,2.910936972392674
+3,3101.0,171766,4,2020/04/03,3,Atacama,31,Copiapó,3101,Copiapó,2.328749577914139
+3,3101.0,171766,4,2020/04/06,3,Atacama,31,Copiapó,3101,Copiapó,2.328749577914139
+3,3101.0,171766,-,2020/03/30,3,Atacama,31,Copiapó,3101,Copiapó,-
+3,3202.0,14358,-,2020/04/01,3,Atacama,32,Chañaral,3202,Diego de Almagro,-
+3,3202.0,14358,-,2020/04/10,3,Atacama,32,Chañaral,3202,Diego de Almagro,-
+3,3202.0,14358,-,2020/04/08,3,Atacama,32,Chañaral,3202,Diego de Almagro,-
+3,3202.0,14358,-,2020/04/03,3,Atacama,32,Chañaral,3202,Diego de Almagro,-
+3,3202.0,14358,-,2020/04/06,3,Atacama,32,Chañaral,3202,Diego de Almagro,-
+3,3202.0,14358,-,2020/03/30,3,Atacama,32,Chañaral,3202,Diego de Almagro,-
+3,3303.0,7681,-,2020/04/01,3,Atacama,33,Huasco,3303,Freirina,-
+3,3303.0,7681,-,2020/04/10,3,Atacama,33,Huasco,3303,Freirina,-
+3,3303.0,7681,-,2020/04/08,3,Atacama,33,Huasco,3303,Freirina,-
+3,3303.0,7681,-,2020/04/03,3,Atacama,33,Huasco,3303,Freirina,-
+3,3303.0,7681,-,2020/04/06,3,Atacama,33,Huasco,3303,Freirina,-
+3,3303.0,7681,-,2020/03/30,3,Atacama,33,Huasco,3303,Freirina,-
+3,3304.0,11264,-,2020/04/01,3,Atacama,33,Huasco,3304,Huasco,-
+3,3304.0,11264,-,2020/04/10,3,Atacama,33,Huasco,3304,Huasco,-
+3,3304.0,11264,-,2020/04/08,3,Atacama,33,Huasco,3304,Huasco,-
+3,3304.0,11264,-,2020/04/03,3,Atacama,33,Huasco,3304,Huasco,-
+3,3304.0,11264,-,2020/04/06,3,Atacama,33,Huasco,3304,Huasco,-
+3,3304.0,11264,-,2020/03/30,3,Atacama,33,Huasco,3304,Huasco,-
+3,3103.0,14312,-,2020/04/01,3,Atacama,31,Copiapó,3103,Tierra Amarilla,-
+3,3103.0,14312,4,2020/04/10,3,Atacama,31,Copiapó,3103,Tierra Amarilla,27.94857462269424
+3,3103.0,14312,-,2020/04/08,3,Atacama,31,Copiapó,3103,Tierra Amarilla,-
+3,3103.0,14312,-,2020/04/03,3,Atacama,31,Copiapó,3103,Tierra Amarilla,-
+3,3103.0,14312,-,2020/04/06,3,Atacama,31,Copiapó,3103,Tierra Amarilla,-
+3,3103.0,14312,-,2020/03/30,3,Atacama,31,Copiapó,3103,Tierra Amarilla,-
+3,3301.0,57009,-,2020/04/01,3,Atacama,33,Huasco,3301,Vallenar,-
+3,3301.0,57009,-,2020/04/10,3,Atacama,33,Huasco,3301,Vallenar,-
+3,3301.0,57009,-,2020/04/08,3,Atacama,33,Huasco,3301,Vallenar,-
+3,3301.0,57009,-,2020/04/03,3,Atacama,33,Huasco,3301,Vallenar,-
+3,3301.0,57009,-,2020/04/06,3,Atacama,33,Huasco,3301,Vallenar,-
+3,3301.0,57009,-,2020/03/30,3,Atacama,33,Huasco,3301,Vallenar,-
+4,4103.0,11791,-,2020/04/01,4,Coquimbo,41,Elqui,4103,Andacollo,-
+4,4103.0,11791,-,2020/04/10,4,Coquimbo,41,Elqui,4103,Andacollo,-
+4,4103.0,11791,-,2020/04/08,4,Coquimbo,41,Elqui,4103,Andacollo,-
+4,4103.0,11791,-,2020/04/03,4,Coquimbo,41,Elqui,4103,Andacollo,-
+4,4103.0,11791,-,2020/04/06,4,Coquimbo,41,Elqui,4103,Andacollo,-
+4,4103.0,11791,-,2020/03/30,4,Coquimbo,41,Elqui,4103,Andacollo,-
+4,4202.0,9546,-,2020/04/01,4,Coquimbo,42,Choapa,4202,Canela,-
+4,4202.0,9546,-,2020/04/10,4,Coquimbo,42,Choapa,4202,Canela,-
+4,4202.0,9546,-,2020/04/08,4,Coquimbo,42,Choapa,4202,Canela,-
+4,4202.0,9546,-,2020/04/03,4,Coquimbo,42,Choapa,4202,Canela,-
+4,4202.0,9546,-,2020/04/06,4,Coquimbo,42,Choapa,4202,Canela,-
+4,4202.0,9546,-,2020/03/30,4,Coquimbo,42,Choapa,4202,Canela,-
+4,4302.0,13884,-,2020/04/01,4,Coquimbo,43,Limarí,4302,Combarbalá,-
+4,4302.0,13884,-,2020/04/10,4,Coquimbo,43,Limarí,4302,Combarbalá,-
+4,4302.0,13884,-,2020/04/08,4,Coquimbo,43,Limarí,4302,Combarbalá,-
+4,4302.0,13884,-,2020/04/03,4,Coquimbo,43,Limarí,4302,Combarbalá,-
+4,4302.0,13884,-,2020/04/06,4,Coquimbo,43,Limarí,4302,Combarbalá,-
+4,4302.0,13884,-,2020/03/30,4,Coquimbo,43,Limarí,4302,Combarbalá,-
+4,4102.0,256735,19,2020/04/01,4,Coquimbo,41,Elqui,4102,Coquimbo,7.400627105770542
+4,4102.0,256735,21,2020/04/10,4,Coquimbo,41,Elqui,4102,Coquimbo,8.179640485325335
+4,4102.0,256735,19,2020/04/08,4,Coquimbo,41,Elqui,4102,Coquimbo,7.400627105770542
+4,4102.0,256735,19,2020/04/03,4,Coquimbo,41,Elqui,4102,Coquimbo,7.400627105770542
+4,4102.0,256735,19,2020/04/06,4,Coquimbo,41,Elqui,4102,Coquimbo,7.400627105770542
+4,4102.0,256735,17,2020/03/30,4,Coquimbo,41,Elqui,4102,Coquimbo,6.621613726215748
+4,4201.0,32801,-,2020/04/01,4,Coquimbo,42,Choapa,4201,Illapel,-
+4,4201.0,32801,13,2020/04/10,4,Coquimbo,42,Choapa,4201,Illapel,39.63293802018231
+4,4201.0,32801,12,2020/04/08,4,Coquimbo,42,Choapa,4201,Illapel,36.584250480168286
+4,4201.0,32801,-,2020/04/03,4,Coquimbo,42,Choapa,4201,Illapel,-
+4,4201.0,32801,7,2020/04/06,4,Coquimbo,42,Choapa,4201,Illapel,21.34081278009817
+4,4201.0,32801,-,2020/03/30,4,Coquimbo,42,Choapa,4201,Illapel,-
+4,4104.0,4450,-,2020/04/01,4,Coquimbo,41,Elqui,4104,La Higuera,-
+4,4104.0,4450,-,2020/04/10,4,Coquimbo,41,Elqui,4104,La Higuera,-
+4,4104.0,4450,-,2020/04/08,4,Coquimbo,41,Elqui,4104,La Higuera,-
+4,4104.0,4450,-,2020/04/03,4,Coquimbo,41,Elqui,4104,La Higuera,-
+4,4104.0,4450,-,2020/04/06,4,Coquimbo,41,Elqui,4104,La Higuera,-
+4,4104.0,4450,-,2020/03/30,4,Coquimbo,41,Elqui,4104,La Higuera,-
+4,4101.0,249656,-,2020/04/01,4,Coquimbo,41,Elqui,4101,La Serena,-
+4,4101.0,249656,12,2020/04/10,4,Coquimbo,41,Elqui,4101,La Serena,4.806613900727401
+4,4101.0,249656,12,2020/04/08,4,Coquimbo,41,Elqui,4101,La Serena,4.806613900727401
+4,4101.0,249656,8,2020/04/03,4,Coquimbo,41,Elqui,4101,La Serena,3.2044092671516005
+4,4101.0,249656,12,2020/04/06,4,Coquimbo,41,Elqui,4101,La Serena,4.806613900727401
+4,4101.0,249656,-,2020/03/30,4,Coquimbo,41,Elqui,4101,La Serena,-
+4,4203.0,23374,-,2020/04/01,4,Coquimbo,42,Choapa,4203,Los Vilos,-
+4,4203.0,23374,-,2020/04/10,4,Coquimbo,42,Choapa,4203,Los Vilos,-
+4,4203.0,23374,-,2020/04/08,4,Coquimbo,42,Choapa,4203,Los Vilos,-
+4,4203.0,23374,-,2020/04/03,4,Coquimbo,42,Choapa,4203,Los Vilos,-
+4,4203.0,23374,-,2020/04/06,4,Coquimbo,42,Choapa,4203,Los Vilos,-
+4,4203.0,23374,-,2020/03/30,4,Coquimbo,42,Choapa,4203,Los Vilos,-
+4,4303.0,32527,-,2020/04/01,4,Coquimbo,43,Limarí,4303,Monte Patria,-
+4,4303.0,32527,-,2020/04/10,4,Coquimbo,43,Limarí,4303,Monte Patria,-
+4,4303.0,32527,-,2020/04/08,4,Coquimbo,43,Limarí,4303,Monte Patria,-
+4,4303.0,32527,-,2020/04/03,4,Coquimbo,43,Limarí,4303,Monte Patria,-
+4,4303.0,32527,-,2020/04/06,4,Coquimbo,43,Limarí,4303,Monte Patria,-
+4,4303.0,32527,-,2020/03/30,4,Coquimbo,43,Limarí,4303,Monte Patria,-
+4,4301.0,121269,4,2020/04/01,4,Coquimbo,43,Limarí,4301,Ovalle,3.2984522013045376
+4,4301.0,121269,8,2020/04/10,4,Coquimbo,43,Limarí,4301,Ovalle,6.596904402609075
+4,4301.0,121269,7,2020/04/08,4,Coquimbo,43,Limarí,4301,Ovalle,5.7722913522829415
+4,4301.0,121269,4,2020/04/03,4,Coquimbo,43,Limarí,4301,Ovalle,3.2984522013045376
+4,4301.0,121269,7,2020/04/06,4,Coquimbo,43,Limarí,4301,Ovalle,5.7722913522829415
+4,4301.0,121269,4,2020/03/30,4,Coquimbo,43,Limarí,4301,Ovalle,3.2984522013045376
+4,4105.0,4675,-,2020/04/01,4,Coquimbo,41,Elqui,4105,Paiguano,-
+4,4105.0,4675,-,2020/04/10,4,Coquimbo,41,Elqui,4105,Paiguano,-
+4,4105.0,4675,-,2020/04/08,4,Coquimbo,41,Elqui,4105,Paiguano,-
+4,4105.0,4675,-,2020/04/03,4,Coquimbo,41,Elqui,4105,Paiguano,-
+4,4105.0,4675,-,2020/04/06,4,Coquimbo,41,Elqui,4105,Paiguano,-
+4,4105.0,4675,-,2020/03/30,4,Coquimbo,41,Elqui,4105,Paiguano,-
+4,4304.0,12165,-,2020/04/01,4,Coquimbo,43,Limarí,4304,Punitaqui,-
+4,4304.0,12165,-,2020/04/10,4,Coquimbo,43,Limarí,4304,Punitaqui,-
+4,4304.0,12165,-,2020/04/08,4,Coquimbo,43,Limarí,4304,Punitaqui,-
+4,4304.0,12165,-,2020/04/03,4,Coquimbo,43,Limarí,4304,Punitaqui,-
+4,4304.0,12165,-,2020/04/06,4,Coquimbo,43,Limarí,4304,Punitaqui,-
+4,4304.0,12165,-,2020/03/30,4,Coquimbo,43,Limarí,4304,Punitaqui,-
+4,4305.0,4372,-,2020/04/01,4,Coquimbo,43,Limarí,4305,Río Hurtado,-
+4,4305.0,4372,-,2020/04/10,4,Coquimbo,43,Limarí,4305,Río Hurtado,-
+4,4305.0,4372,-,2020/04/08,4,Coquimbo,43,Limarí,4305,Río Hurtado,-
+4,4305.0,4372,-,2020/04/03,4,Coquimbo,43,Limarí,4305,Río Hurtado,-
+4,4305.0,4372,-,2020/04/06,4,Coquimbo,43,Limarí,4305,Río Hurtado,-
+4,4305.0,4372,-,2020/03/30,4,Coquimbo,43,Limarí,4305,Río Hurtado,-
+4,4204.0,29110,-,2020/04/01,4,Coquimbo,42,Choapa,4204,Salamanca,-
+4,4204.0,29110,5,2020/04/10,4,Coquimbo,42,Choapa,4204,Salamanca,17.17622810030917
+4,4204.0,29110,4,2020/04/08,4,Coquimbo,42,Choapa,4204,Salamanca,13.740982480247338
+4,4204.0,29110,-,2020/04/03,4,Coquimbo,42,Choapa,4204,Salamanca,-
+4,4204.0,29110,4,2020/04/06,4,Coquimbo,42,Choapa,4204,Salamanca,13.740982480247338
+4,4204.0,29110,-,2020/03/30,4,Coquimbo,42,Choapa,4204,Salamanca,-
+4,4106.0,29741,-,2020/04/01,4,Coquimbo,41,Elqui,4106,Vicuña,-
+4,4106.0,29741,-,2020/04/10,4,Coquimbo,41,Elqui,4106,Vicuña,-
+4,4106.0,29741,-,2020/04/08,4,Coquimbo,41,Elqui,4106,Vicuña,-
+4,4106.0,29741,-,2020/04/03,4,Coquimbo,41,Elqui,4106,Vicuña,-
+4,4106.0,29741,-,2020/04/06,4,Coquimbo,41,Elqui,4106,Vicuña,-
+4,4106.0,29741,-,2020/03/30,4,Coquimbo,41,Elqui,4106,Vicuña,-
+5,5602.0,15174,7,2020/04/01,5,Valparaíso,56,San Antonio,5602,Algarrobo,46.1315407934625
+5,5602.0,15174,8,2020/04/10,5,Valparaíso,56,San Antonio,5602,Algarrobo,52.72176090681429
+5,5602.0,15174,8,2020/04/08,5,Valparaíso,56,San Antonio,5602,Algarrobo,52.72176090681429
+5,5602.0,15174,9,2020/04/03,5,Valparaíso,56,San Antonio,5602,Algarrobo,59.31198102016607
+5,5602.0,15174,9,2020/04/06,5,Valparaíso,56,San Antonio,5602,Algarrobo,59.31198102016607
+5,5602.0,15174,7,2020/03/30,5,Valparaíso,56,San Antonio,5602,Algarrobo,46.1315407934625
+5,5402.0,20663,-,2020/04/01,5,Valparaíso,54,Petorca,5402,Cabildo,-
+5,5402.0,20663,-,2020/04/10,5,Valparaíso,54,Petorca,5402,Cabildo,-
+5,5402.0,20663,-,2020/04/08,5,Valparaíso,54,Petorca,5402,Cabildo,-
+5,5402.0,20663,-,2020/04/03,5,Valparaíso,54,Petorca,5402,Cabildo,-
+5,5402.0,20663,-,2020/04/06,5,Valparaíso,54,Petorca,5402,Cabildo,-
+5,5402.0,20663,-,2020/03/30,5,Valparaíso,54,Petorca,5402,Cabildo,-
+5,5502.0,53591,6,2020/04/01,5,Valparaíso,55,Quillota,5502,Calera,11.195909760967327
+5,5502.0,53591,9,2020/04/10,5,Valparaíso,55,Quillota,5502,Calera,16.79386464145099
+5,5502.0,53591,9,2020/04/08,5,Valparaíso,55,Quillota,5502,Calera,16.79386464145099
+5,5502.0,53591,7,2020/04/03,5,Valparaíso,55,Quillota,5502,Calera,13.061894721128548
+5,5502.0,53591,7,2020/04/06,5,Valparaíso,55,Quillota,5502,Calera,13.061894721128548
+5,5502.0,53591,6,2020/03/30,5,Valparaíso,55,Quillota,5502,Calera,11.195909760967327
+5,5302.0,16482,-,2020/04/01,5,Valparaíso,53,Los Andes,5302,Calle Larga,-
+5,5302.0,16482,-,2020/04/10,5,Valparaíso,53,Los Andes,5302,Calle Larga,-
+5,5302.0,16482,-,2020/04/08,5,Valparaíso,53,Los Andes,5302,Calle Larga,-
+5,5302.0,16482,-,2020/04/03,5,Valparaíso,53,Los Andes,5302,Calle Larga,-
+5,5302.0,16482,-,2020/04/06,5,Valparaíso,53,Los Andes,5302,Calle Larga,-
+5,5302.0,16482,-,2020/03/30,5,Valparaíso,53,Los Andes,5302,Calle Larga,-
+5,5603.0,25357,-,2020/04/01,5,Valparaíso,56,San Antonio,5603,Cartagena,-
+5,5603.0,25357,-,2020/04/10,5,Valparaíso,56,San Antonio,5603,Cartagena,-
+5,5603.0,25357,-,2020/04/08,5,Valparaíso,56,San Antonio,5603,Cartagena,-
+5,5603.0,25357,-,2020/04/03,5,Valparaíso,56,San Antonio,5603,Cartagena,-
+5,5603.0,25357,-,2020/04/06,5,Valparaíso,56,San Antonio,5603,Cartagena,-
+5,5603.0,25357,-,2020/03/30,5,Valparaíso,56,San Antonio,5603,Cartagena,-
+5,5102.0,29170,-,2020/04/01,5,Valparaíso,51,Valparaíso,5102,Casablanca,-
+5,5102.0,29170,-,2020/04/10,5,Valparaíso,51,Valparaíso,5102,Casablanca,-
+5,5102.0,29170,-,2020/04/08,5,Valparaíso,51,Valparaíso,5102,Casablanca,-
+5,5102.0,29170,-,2020/04/03,5,Valparaíso,51,Valparaíso,5102,Casablanca,-
+5,5102.0,29170,-,2020/04/06,5,Valparaíso,51,Valparaíso,5102,Casablanca,-
+5,5102.0,29170,-,2020/03/30,5,Valparaíso,51,Valparaíso,5102,Casablanca,-
+5,5702.0,15213,-,2020/04/01,5,Valparaíso,57,San Felipe de Aconcagua,5702,Catemu,-
+5,5702.0,15213,-,2020/04/10,5,Valparaíso,57,San Felipe de Aconcagua,5702,Catemu,-
+5,5702.0,15213,-,2020/04/08,5,Valparaíso,57,San Felipe de Aconcagua,5702,Catemu,-
+5,5702.0,15213,-,2020/04/03,5,Valparaíso,57,San Felipe de Aconcagua,5702,Catemu,-
+5,5702.0,15213,-,2020/04/06,5,Valparaíso,57,San Felipe de Aconcagua,5702,Catemu,-
+5,5702.0,15213,-,2020/03/30,5,Valparaíso,57,San Felipe de Aconcagua,5702,Catemu,-
+5,5103.0,45889,-,2020/04/01,5,Valparaíso,51,Valparaíso,5103,Concón,-
+5,5103.0,45889,-,2020/04/10,5,Valparaíso,51,Valparaíso,5103,Concón,-
+5,5103.0,45889,-,2020/04/08,5,Valparaíso,51,Valparaíso,5103,Concón,-
+5,5103.0,45889,7,2020/04/03,5,Valparaíso,51,Valparaíso,5103,Concón,15.25420035302578
+5,5103.0,45889,7,2020/04/06,5,Valparaíso,51,Valparaíso,5103,Concón,15.25420035302578
+5,5103.0,45889,-,2020/03/30,5,Valparaíso,51,Valparaíso,5103,Concón,-
+5,5604.0,17742,-,2020/04/01,5,Valparaíso,56,San Antonio,5604,El Quisco,-
+5,5604.0,17742,-,2020/04/10,5,Valparaíso,56,San Antonio,5604,El Quisco,-
+5,5604.0,17742,-,2020/04/08,5,Valparaíso,56,San Antonio,5604,El Quisco,-
+5,5604.0,17742,-,2020/04/03,5,Valparaíso,56,San Antonio,5604,El Quisco,-
+5,5604.0,17742,-,2020/04/06,5,Valparaíso,56,San Antonio,5604,El Quisco,-
+5,5604.0,17742,-,2020/03/30,5,Valparaíso,56,San Antonio,5604,El Quisco,-
+5,5605.0,14338,-,2020/04/01,5,Valparaíso,56,San Antonio,5605,El Tabo,-
+5,5605.0,14338,-,2020/04/10,5,Valparaíso,56,San Antonio,5605,El Tabo,-
+5,5605.0,14338,-,2020/04/08,5,Valparaíso,56,San Antonio,5605,El Tabo,-
+5,5605.0,14338,-,2020/04/03,5,Valparaíso,56,San Antonio,5605,El Tabo,-
+5,5605.0,14338,-,2020/04/06,5,Valparaíso,56,San Antonio,5605,El Tabo,-
+5,5605.0,14338,-,2020/03/30,5,Valparaíso,56,San Antonio,5605,El Tabo,-
+5,5503.0,19099,-,2020/04/01,5,Valparaíso,55,Quillota,5503,Hijuelas,-
+5,5503.0,19099,-,2020/04/10,5,Valparaíso,55,Quillota,5503,Hijuelas,-
+5,5503.0,19099,-,2020/04/08,5,Valparaíso,55,Quillota,5503,Hijuelas,-
+5,5503.0,19099,-,2020/04/03,5,Valparaíso,55,Quillota,5503,Hijuelas,-
+5,5503.0,19099,-,2020/04/06,5,Valparaíso,55,Quillota,5503,Hijuelas,-
+5,5503.0,19099,-,2020/03/30,5,Valparaíso,55,Quillota,5503,Hijuelas,-
+5,5201.0,8277,5,2020/04/01,5,Valparaíso,52,Isla de Pascua,5201,Isla de Pascua,60.408360517095566
+5,5201.0,8277,6,2020/04/10,5,Valparaíso,52,Isla de Pascua,5201,Isla de Pascua,72.49003262051468
+5,5201.0,8277,5,2020/04/08,5,Valparaíso,52,Isla de Pascua,5201,Isla de Pascua,60.408360517095566
+5,5201.0,8277,5,2020/04/03,5,Valparaíso,52,Isla de Pascua,5201,Isla de Pascua,60.408360517095566
+5,5201.0,8277,5,2020/04/06,5,Valparaíso,52,Isla de Pascua,5201,Isla de Pascua,60.408360517095566
+5,5201.0,8277,-,2020/03/30,5,Valparaíso,52,Isla de Pascua,5201,Isla de Pascua,-
+5,5104.0,1033,-,2020/04/01,5,Valparaíso,51,Valparaíso,5104,Juan Fernández,-
+5,5104.0,1033,-,2020/04/10,5,Valparaíso,51,Valparaíso,5104,Juan Fernández,-
+5,5104.0,1033,-,2020/04/08,5,Valparaíso,51,Valparaíso,5104,Juan Fernández,-
+5,5104.0,1033,-,2020/04/03,5,Valparaíso,51,Valparaíso,5104,Juan Fernández,-
+5,5104.0,1033,-,2020/04/06,5,Valparaíso,51,Valparaíso,5104,Juan Fernández,-
+5,5104.0,1033,-,2020/03/30,5,Valparaíso,51,Valparaíso,5104,Juan Fernández,-
+5,5504.0,25321,-,2020/04/01,5,Valparaíso,55,Quillota,5504,La Cruz,-
+5,5504.0,25321,-,2020/04/10,5,Valparaíso,55,Quillota,5504,La Cruz,-
+5,5504.0,25321,-,2020/04/08,5,Valparaíso,55,Quillota,5504,La Cruz,-
+5,5504.0,25321,-,2020/04/03,5,Valparaíso,55,Quillota,5504,La Cruz,-
+5,5504.0,25321,-,2020/04/06,5,Valparaíso,55,Quillota,5504,La Cruz,-
+5,5504.0,25321,-,2020/03/30,5,Valparaíso,55,Quillota,5504,La Cruz,-
+5,5401.0,37739,-,2020/04/01,5,Valparaíso,54,Petorca,5401,La Ligua,-
+5,5401.0,37739,-,2020/04/10,5,Valparaíso,54,Petorca,5401,La Ligua,-
+5,5401.0,37739,-,2020/04/08,5,Valparaíso,54,Petorca,5401,La Ligua,-
+5,5401.0,37739,-,2020/04/03,5,Valparaíso,54,Petorca,5401,La Ligua,-
+5,5401.0,37739,-,2020/04/06,5,Valparaíso,54,Petorca,5401,La Ligua,-
+5,5401.0,37739,-,2020/03/30,5,Valparaíso,54,Petorca,5401,La Ligua,-
+5,5802.0,49931,-,2020/04/01,5,Valparaíso,58,Marga Marga,5802,Limache,-
+5,5802.0,49931,7,2020/04/10,5,Valparaíso,58,Marga Marga,5802,Limache,14.019346698443853
+5,5802.0,49931,5,2020/04/08,5,Valparaíso,58,Marga Marga,5802,Limache,10.013819070317037
+5,5802.0,49931,-,2020/04/03,5,Valparaíso,58,Marga Marga,5802,Limache,-
+5,5802.0,49931,4,2020/04/06,5,Valparaíso,58,Marga Marga,5802,Limache,8.01105525625363
+5,5802.0,49931,-,2020/03/30,5,Valparaíso,58,Marga Marga,5802,Limache,-
+5,5703.0,26533,-,2020/04/01,5,Valparaíso,57,San Felipe de Aconcagua,5703,Llaillay,-
+5,5703.0,26533,-,2020/04/10,5,Valparaíso,57,San Felipe de Aconcagua,5703,Llaillay,-
+5,5703.0,26533,-,2020/04/08,5,Valparaíso,57,San Felipe de Aconcagua,5703,Llaillay,-
+5,5703.0,26533,-,2020/04/03,5,Valparaíso,57,San Felipe de Aconcagua,5703,Llaillay,-
+5,5703.0,26533,-,2020/04/06,5,Valparaíso,57,San Felipe de Aconcagua,5703,Llaillay,-
+5,5703.0,26533,-,2020/03/30,5,Valparaíso,57,San Felipe de Aconcagua,5703,Llaillay,-
+5,5301.0,68093,-,2020/04/01,5,Valparaíso,53,Los Andes,5301,Los Andes,-
+5,5301.0,68093,6,2020/04/10,5,Valparaíso,53,Los Andes,5301,Los Andes,8.811478419220771
+5,5301.0,68093,6,2020/04/08,5,Valparaíso,53,Los Andes,5301,Los Andes,8.811478419220771
+5,5301.0,68093,-,2020/04/03,5,Valparaíso,53,Los Andes,5301,Los Andes,-
+5,5301.0,68093,-,2020/04/06,5,Valparaíso,53,Los Andes,5301,Los Andes,-
+5,5301.0,68093,-,2020/03/30,5,Valparaíso,53,Los Andes,5301,Los Andes,-
+5,5506.0,23490,-,2020/04/01,5,Valparaíso,55,Quillota,5506,Nogales,-
+5,5506.0,23490,-,2020/04/10,5,Valparaíso,55,Quillota,5506,Nogales,-
+5,5506.0,23490,-,2020/04/08,5,Valparaíso,55,Quillota,5506,Nogales,-
+5,5506.0,23490,-,2020/04/03,5,Valparaíso,55,Quillota,5506,Nogales,-
+5,5506.0,23490,-,2020/04/06,5,Valparaíso,55,Quillota,5506,Nogales,-
+5,5506.0,23490,-,2020/03/30,5,Valparaíso,55,Quillota,5506,Nogales,-
+5,5803.0,19266,-,2020/04/01,5,Valparaíso,58,Marga Marga,5803,Olmué,-
+5,5803.0,19266,-,2020/04/10,5,Valparaíso,58,Marga Marga,5803,Olmué,-
+5,5803.0,19266,-,2020/04/08,5,Valparaíso,58,Marga Marga,5803,Olmué,-
+5,5803.0,19266,-,2020/04/03,5,Valparaíso,58,Marga Marga,5803,Olmué,-
+5,5803.0,19266,-,2020/04/06,5,Valparaíso,58,Marga Marga,5803,Olmué,-
+5,5803.0,19266,-,2020/03/30,5,Valparaíso,58,Marga Marga,5803,Olmué,-
+5,5704.0,7633,-,2020/04/01,5,Valparaíso,57,San Felipe de Aconcagua,5704,Panquehue,-
+5,5704.0,7633,-,2020/04/10,5,Valparaíso,57,San Felipe de Aconcagua,5704,Panquehue,-
+5,5704.0,7633,-,2020/04/08,5,Valparaíso,57,San Felipe de Aconcagua,5704,Panquehue,-
+5,5704.0,7633,-,2020/04/03,5,Valparaíso,57,San Felipe de Aconcagua,5704,Panquehue,-
+5,5704.0,7633,-,2020/04/06,5,Valparaíso,57,San Felipe de Aconcagua,5704,Panquehue,-
+5,5704.0,7633,-,2020/03/30,5,Valparaíso,57,San Felipe de Aconcagua,5704,Panquehue,-
+5,5403.0,6201,-,2020/04/01,5,Valparaíso,54,Petorca,5403,Papudo,-
+5,5403.0,6201,-,2020/04/10,5,Valparaíso,54,Petorca,5403,Papudo,-
+5,5403.0,6201,-,2020/04/08,5,Valparaíso,54,Petorca,5403,Papudo,-
+5,5403.0,6201,-,2020/04/03,5,Valparaíso,54,Petorca,5403,Papudo,-
+5,5403.0,6201,-,2020/04/06,5,Valparaíso,54,Petorca,5403,Papudo,-
+5,5403.0,6201,-,2020/03/30,5,Valparaíso,54,Petorca,5403,Papudo,-
+5,5404.0,10558,-,2020/04/01,5,Valparaíso,54,Petorca,5404,Petorca,-
+5,5404.0,10558,5,2020/04/10,5,Valparaíso,54,Petorca,5404,Petorca,47.35745406326956
+5,5404.0,10558,4,2020/04/08,5,Valparaíso,54,Petorca,5404,Petorca,37.885963250615646
+5,5404.0,10558,-,2020/04/03,5,Valparaíso,54,Petorca,5404,Petorca,-
+5,5404.0,10558,5,2020/04/06,5,Valparaíso,54,Petorca,5404,Petorca,47.35745406326956
+5,5404.0,10558,-,2020/03/30,5,Valparaíso,54,Petorca,5404,Petorca,-
+5,5105.0,20071,-,2020/04/01,5,Valparaíso,51,Valparaíso,5105,Puchuncaví,-
+5,5105.0,20071,-,2020/04/10,5,Valparaíso,51,Valparaíso,5105,Puchuncaví,-
+5,5105.0,20071,-,2020/04/08,5,Valparaíso,51,Valparaíso,5105,Puchuncaví,-
+5,5105.0,20071,-,2020/04/03,5,Valparaíso,51,Valparaíso,5105,Puchuncaví,-
+5,5105.0,20071,-,2020/04/06,5,Valparaíso,51,Valparaíso,5105,Puchuncaví,-
+5,5105.0,20071,-,2020/03/30,5,Valparaíso,51,Valparaíso,5105,Puchuncaví,-
+5,5705.0,17645,-,2020/04/01,5,Valparaíso,57,San Felipe de Aconcagua,5705,Putaendo,-
+5,5705.0,17645,-,2020/04/10,5,Valparaíso,57,San Felipe de Aconcagua,5705,Putaendo,-
+5,5705.0,17645,-,2020/04/08,5,Valparaíso,57,San Felipe de Aconcagua,5705,Putaendo,-
+5,5705.0,17645,-,2020/04/03,5,Valparaíso,57,San Felipe de Aconcagua,5705,Putaendo,-
+5,5705.0,17645,-,2020/04/06,5,Valparaíso,57,San Felipe de Aconcagua,5705,Putaendo,-
+5,5705.0,17645,-,2020/03/30,5,Valparaíso,57,San Felipe de Aconcagua,5705,Putaendo,-
+5,5501.0,97572,7,2020/04/01,5,Valparaíso,55,Quillota,5501,Quillota,7.174189316607223
+5,5501.0,97572,13,2020/04/10,5,Valparaíso,55,Quillota,5501,Quillota,13.3234944451277
+5,5501.0,97572,13,2020/04/08,5,Valparaíso,55,Quillota,5501,Quillota,13.3234944451277
+5,5501.0,97572,9,2020/04/03,5,Valparaíso,55,Quillota,5501,Quillota,9.223957692780715
+5,5501.0,97572,9,2020/04/06,5,Valparaíso,55,Quillota,5501,Quillota,9.223957692780715
+5,5501.0,97572,6,2020/03/30,5,Valparaíso,55,Quillota,5501,Quillota,6.149305128520477
+5,5801.0,167085,10,2020/04/01,5,Valparaíso,58,Marga Marga,5801,Quilpué,5.984977705958046
+5,5801.0,167085,18,2020/04/10,5,Valparaíso,58,Marga Marga,5801,Quilpué,10.772959870724481
+5,5801.0,167085,15,2020/04/08,5,Valparaíso,58,Marga Marga,5801,Quilpué,8.977466558937069
+5,5801.0,167085,11,2020/04/03,5,Valparaíso,58,Marga Marga,5801,Quilpué,6.58347547655385
+5,5801.0,167085,12,2020/04/06,5,Valparaíso,58,Marga Marga,5801,Quilpué,7.181973247149655
+5,5801.0,167085,11,2020/03/30,5,Valparaíso,58,Marga Marga,5801,Quilpué,6.58347547655385
+5,5107.0,36135,-,2020/04/01,5,Valparaíso,51,Valparaíso,5107,Quintero,-
+5,5107.0,36135,4,2020/04/10,5,Valparaíso,51,Valparaíso,5107,Quintero,11.069600110696001
+5,5107.0,36135,-,2020/04/08,5,Valparaíso,51,Valparaíso,5107,Quintero,-
+5,5107.0,36135,-,2020/04/03,5,Valparaíso,51,Valparaíso,5107,Quintero,-
+5,5107.0,36135,-,2020/04/06,5,Valparaíso,51,Valparaíso,5107,Quintero,-
+5,5107.0,36135,-,2020/03/30,5,Valparaíso,51,Valparaíso,5107,Quintero,-
+5,5303.0,11263,-,2020/04/01,5,Valparaíso,53,Los Andes,5303,Rinconada,-
+5,5303.0,11263,-,2020/04/10,5,Valparaíso,53,Los Andes,5303,Rinconada,-
+5,5303.0,11263,-,2020/04/08,5,Valparaíso,53,Los Andes,5303,Rinconada,-
+5,5303.0,11263,-,2020/04/03,5,Valparaíso,53,Los Andes,5303,Rinconada,-
+5,5303.0,11263,-,2020/04/06,5,Valparaíso,53,Los Andes,5303,Rinconada,-
+5,5303.0,11263,-,2020/03/30,5,Valparaíso,53,Los Andes,5303,Rinconada,-
+5,5601.0,96761,4,2020/04/01,5,Valparaíso,56,San Antonio,5601,San Antonio,4.133896921280268
+5,5601.0,96761,13,2020/04/10,5,Valparaíso,56,San Antonio,5601,San Antonio,13.435164994160871
+5,5601.0,96761,9,2020/04/08,5,Valparaíso,56,San Antonio,5601,San Antonio,9.301268072880603
+5,5601.0,96761,8,2020/04/03,5,Valparaíso,56,San Antonio,5601,San Antonio,8.267793842560536
+5,5601.0,96761,9,2020/04/06,5,Valparaíso,56,San Antonio,5601,San Antonio,9.301268072880603
+5,5601.0,96761,-,2020/03/30,5,Valparaíso,56,San Antonio,5601,San Antonio,-
+5,5304.0,20643,-,2020/04/01,5,Valparaíso,53,Los Andes,5304,San Esteban,-
+5,5304.0,20643,-,2020/04/10,5,Valparaíso,53,Los Andes,5304,San Esteban,-
+5,5304.0,20643,-,2020/04/08,5,Valparaíso,53,Los Andes,5304,San Esteban,-
+5,5304.0,20643,-,2020/04/03,5,Valparaíso,53,Los Andes,5304,San Esteban,-
+5,5304.0,20643,-,2020/04/06,5,Valparaíso,53,Los Andes,5304,San Esteban,-
+5,5304.0,20643,-,2020/03/30,5,Valparaíso,53,Los Andes,5304,San Esteban,-
+5,5701.0,83494,-,2020/04/01,5,Valparaíso,57,San Felipe de Aconcagua,5701,San Felipe,-
+5,5701.0,83494,6,2020/04/10,5,Valparaíso,57,San Felipe de Aconcagua,5701,San Felipe,7.186145112223633
+5,5701.0,83494,6,2020/04/08,5,Valparaíso,57,San Felipe de Aconcagua,5701,San Felipe,7.186145112223633
+5,5701.0,83494,5,2020/04/03,5,Valparaíso,57,San Felipe de Aconcagua,5701,San Felipe,5.98845426018636
+5,5701.0,83494,5,2020/04/06,5,Valparaíso,57,San Felipe de Aconcagua,5701,San Felipe,5.98845426018636
+5,5701.0,83494,-,2020/03/30,5,Valparaíso,57,San Felipe de Aconcagua,5701,San Felipe,-
+5,5706.0,16367,-,2020/04/01,5,Valparaíso,57,San Felipe de Aconcagua,5706,Santa María,-
+5,5706.0,16367,-,2020/04/10,5,Valparaíso,57,San Felipe de Aconcagua,5706,Santa María,-
+5,5706.0,16367,-,2020/04/08,5,Valparaíso,57,San Felipe de Aconcagua,5706,Santa María,-
+5,5706.0,16367,-,2020/04/03,5,Valparaíso,57,San Felipe de Aconcagua,5706,Santa María,-
+5,5706.0,16367,-,2020/04/06,5,Valparaíso,57,San Felipe de Aconcagua,5706,Santa María,-
+5,5706.0,16367,-,2020/03/30,5,Valparaíso,57,San Felipe de Aconcagua,5706,Santa María,-
+5,5606.0,11934,-,2020/04/01,5,Valparaíso,56,San Antonio,5606,Santo Domingo,-
+5,5606.0,11934,5,2020/04/10,5,Valparaíso,56,San Antonio,5606,Santo Domingo,41.897100720630135
+5,5606.0,11934,5,2020/04/08,5,Valparaíso,56,San Antonio,5606,Santo Domingo,41.897100720630135
+5,5606.0,11934,-,2020/04/03,5,Valparaíso,56,San Antonio,5606,Santo Domingo,-
+5,5606.0,11934,-,2020/04/06,5,Valparaíso,56,San Antonio,5606,Santo Domingo,-
+5,5606.0,11934,-,2020/03/30,5,Valparaíso,56,San Antonio,5606,Santo Domingo,-
+5,5101.0,315732,26,2020/04/01,5,Valparaíso,51,Valparaíso,5101,Valparaíso,8.234832072770578
+5,5101.0,315732,39,2020/04/10,5,Valparaíso,51,Valparaíso,5101,Valparaíso,12.352248109155866
+5,5101.0,315732,36,2020/04/08,5,Valparaíso,51,Valparaíso,5101,Valparaíso,11.402075177682338
+5,5101.0,315732,23,2020/04/03,5,Valparaíso,51,Valparaíso,5101,Valparaíso,7.284659141297049
+5,5101.0,315732,26,2020/04/06,5,Valparaíso,51,Valparaíso,5101,Valparaíso,8.234832072770578
+5,5101.0,315732,16,2020/03/30,5,Valparaíso,51,Valparaíso,5101,Valparaíso,5.067588967858817
+5,5804.0,139310,8,2020/04/01,5,Valparaíso,58,Marga Marga,5804,Villa Alemana,5.742588471753643
+5,5804.0,139310,12,2020/04/10,5,Valparaíso,58,Marga Marga,5804,Villa Alemana,8.613882707630465
+5,5804.0,139310,12,2020/04/08,5,Valparaíso,58,Marga Marga,5804,Villa Alemana,8.613882707630465
+5,5804.0,139310,11,2020/04/03,5,Valparaíso,58,Marga Marga,5804,Villa Alemana,7.8960591486612595
+5,5804.0,139310,11,2020/04/06,5,Valparaíso,58,Marga Marga,5804,Villa Alemana,7.8960591486612595
+5,5804.0,139310,6,2020/03/30,5,Valparaíso,58,Marga Marga,5804,Villa Alemana,4.306941353815232
+5,5109.0,361371,38,2020/04/01,5,Valparaíso,51,Valparaíso,5109,Viña del Mar,10.515508992143808
+5,5109.0,361371,69,2020/04/10,5,Valparaíso,51,Valparaíso,5109,Viña del Mar,19.09395053836639
+5,5109.0,361371,66,2020/04/08,5,Valparaíso,51,Valparaíso,5109,Viña del Mar,18.26377877582872
+5,5109.0,361371,47,2020/04/03,5,Valparaíso,51,Valparaíso,5109,Viña del Mar,13.006024279756815
+5,5109.0,361371,53,2020/04/06,5,Valparaíso,51,Valparaíso,5109,Viña del Mar,14.666367804832154
+5,5109.0,361371,29,2020/03/30,5,Valparaíso,51,Valparaíso,5109,Viña del Mar,8.0249937045308
+5,5405.0,7994,0,2020/04/01,5,Valparaíso,54,Petorca,5405,Zapallar,0.0
+5,5405.0,7994,-,2020/04/10,5,Valparaíso,54,Petorca,5405,Zapallar,-
+5,5405.0,7994,-,2020/04/08,5,Valparaíso,54,Petorca,5405,Zapallar,-
+5,5405.0,7994,-,2020/04/03,5,Valparaíso,54,Petorca,5405,Zapallar,-
+5,5405.0,7994,-,2020/04/06,5,Valparaíso,54,Petorca,5405,Zapallar,-
+5,5405.0,7994,-,2020/03/30,5,Valparaíso,54,Petorca,5405,Zapallar,-
+13,13502.0,7405,-,2020/04/01,13,Metropolitana de Santiago,135,Melipilla,13502,Alhué,-
+13,13502.0,7405,-,2020/04/10,13,Metropolitana de Santiago,135,Melipilla,13502,Alhué,-
+13,13502.0,7405,-,2020/04/08,13,Metropolitana de Santiago,135,Melipilla,13502,Alhué,-
+13,13502.0,7405,-,2020/04/03,13,Metropolitana de Santiago,135,Melipilla,13502,Alhué,-
+13,13502.0,7405,-,2020/04/06,13,Metropolitana de Santiago,135,Melipilla,13502,Alhué,-
+13,13502.0,7405,-,2020/03/30,13,Metropolitana de Santiago,135,Melipilla,13502,Alhué,-
+13,13402.0,109641,8,2020/04/01,13,Metropolitana de Santiago,134,Maipo,13402,Buin,7.296540527722294
+13,13402.0,109641,29,2020/04/10,13,Metropolitana de Santiago,134,Maipo,13402,Buin,26.449959412993316
+13,13402.0,109641,20,2020/04/08,13,Metropolitana de Santiago,134,Maipo,13402,Buin,18.241351319305736
+13,13402.0,109641,14,2020/04/03,13,Metropolitana de Santiago,134,Maipo,13402,Buin,12.768945923514014
+13,13402.0,109641,20,2020/04/06,13,Metropolitana de Santiago,134,Maipo,13402,Buin,18.241351319305736
+13,13402.0,109641,7,2020/03/30,13,Metropolitana de Santiago,134,Maipo,13402,Buin,6.384472961757007
+13,13403.0,28525,7,2020/04/01,13,Metropolitana de Santiago,134,Maipo,13403,Calera de Tango,24.539877300613497
+13,13403.0,28525,8,2020/04/10,13,Metropolitana de Santiago,134,Maipo,13403,Calera de Tango,28.045574057843996
+13,13403.0,28525,8,2020/04/08,13,Metropolitana de Santiago,134,Maipo,13403,Calera de Tango,28.045574057843996
+13,13403.0,28525,7,2020/04/03,13,Metropolitana de Santiago,134,Maipo,13403,Calera de Tango,24.539877300613497
+13,13403.0,28525,7,2020/04/06,13,Metropolitana de Santiago,134,Maipo,13403,Calera de Tango,24.539877300613497
+13,13403.0,28525,6,2020/03/30,13,Metropolitana de Santiago,134,Maipo,13403,Calera de Tango,21.034180543383
+13,13102.0,88956,4,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13102,Cerrillos,4.496605063177301
+13,13102.0,88956,21,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13102,Cerrillos,23.607176581680832
+13,13102.0,88956,11,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13102,Cerrillos,12.365663923737579
+13,13102.0,88956,4,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13102,Cerrillos,4.496605063177301
+13,13102.0,88956,5,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13102,Cerrillos,5.620756328971626
+13,13102.0,88956,-,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13102,Cerrillos,-
+13,13103.0,142465,21,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13103,Cerro Navia,14.740462569753975
+13,13103.0,142465,42,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13103,Cerro Navia,29.48092513950795
+13,13103.0,142465,36,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13103,Cerro Navia,25.269364405292528
+13,13103.0,142465,26,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13103,Cerro Navia,18.250096514933492
+13,13103.0,142465,31,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13103,Cerro Navia,21.759730460113012
+13,13103.0,142465,19,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13103,Cerro Navia,13.336608991682168
+13,13301.0,180353,39,2020/04/01,13,Metropolitana de Santiago,133,Chacabuco,13301,Colina,21.62425909189201
+13,13301.0,180353,66,2020/04/10,13,Metropolitana de Santiago,133,Chacabuco,13301,Colina,36.594900001663405
+13,13301.0,180353,62,2020/04/08,13,Metropolitana de Santiago,133,Chacabuco,13301,Colina,34.377027274289865
+13,13301.0,180353,47,2020/04/03,13,Metropolitana de Santiago,133,Chacabuco,13301,Colina,26.060004546639092
+13,13301.0,180353,50,2020/04/06,13,Metropolitana de Santiago,133,Chacabuco,13301,Colina,27.723409092169245
+13,13301.0,180353,32,2020/03/30,13,Metropolitana de Santiago,133,Chacabuco,13301,Colina,17.742981818988316
+13,13104.0,139195,18,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13104,Conchalí,12.93149897625633
+13,13104.0,139195,47,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13104,Conchalí,33.76558066022486
+13,13104.0,139195,38,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13104,Conchalí,27.2998311720967
+13,13104.0,139195,22,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13104,Conchalí,15.805165415424405
+13,13104.0,139195,32,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13104,Conchalí,22.989331513344588
+13,13104.0,139195,14,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13104,Conchalí,10.057832537088258
+13,13503.0,36430,5,2020/04/01,13,Metropolitana de Santiago,135,Melipilla,13503,Curacaví,13.724951962668131
+13,13503.0,36430,10,2020/04/10,13,Metropolitana de Santiago,135,Melipilla,13503,Curacaví,27.449903925336262
+13,13503.0,36430,9,2020/04/08,13,Metropolitana de Santiago,135,Melipilla,13503,Curacaví,24.704913532802635
+13,13503.0,36430,5,2020/04/03,13,Metropolitana de Santiago,135,Melipilla,13503,Curacaví,13.724951962668131
+13,13503.0,36430,8,2020/04/06,13,Metropolitana de Santiago,135,Melipilla,13503,Curacaví,21.95992314026901
+13,13503.0,36430,5,2020/03/30,13,Metropolitana de Santiago,135,Melipilla,13503,Curacaví,13.724951962668131
+13,13105.0,172000,28,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13105,El Bosque,16.27906976744186
+13,13105.0,172000,64,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13105,El Bosque,37.2093023255814
+13,13105.0,172000,46,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13105,El Bosque,26.74418604651163
+13,13105.0,172000,35,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13105,El Bosque,20.348837209302324
+13,13105.0,172000,37,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13105,El Bosque,21.511627906976745
+13,13105.0,172000,18,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13105,El Bosque,10.465116279069768
+13,13602.0,40014,-,2020/04/01,13,Metropolitana de Santiago,136,Talagante,13602,El Monte,-
+13,13602.0,40014,9,2020/04/10,13,Metropolitana de Santiago,136,Talagante,13602,El Monte,22.49212775528565
+13,13602.0,40014,7,2020/04/08,13,Metropolitana de Santiago,136,Talagante,13602,El Monte,17.49387714299995
+13,13602.0,40014,-,2020/04/03,13,Metropolitana de Santiago,136,Talagante,13602,El Monte,-
+13,13602.0,40014,5,2020/04/06,13,Metropolitana de Santiago,136,Talagante,13602,El Monte,12.495626530714251
+13,13602.0,40014,-,2020/03/30,13,Metropolitana de Santiago,136,Talagante,13602,El Monte,-
+13,13106.0,206792,22,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13106,Estación Central,10.638709427830864
+13,13106.0,206792,61,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13106,Estación Central,29.498239777167395
+13,13106.0,206792,41,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13106,Estación Central,19.82668575186661
+13,13106.0,206792,25,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13106,Estación Central,12.089442531625982
+13,13106.0,206792,36,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13106,Estación Central,17.408797245541415
+13,13106.0,206792,16,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13106,Estación Central,7.737243220240628
+13,13107.0,112528,19,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13107,Huechuraba,16.884686478032133
+13,13107.0,112528,38,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13107,Huechuraba,33.76937295606427
+13,13107.0,112528,35,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13107,Huechuraba,31.10336982795393
+13,13107.0,112528,22,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13107,Huechuraba,19.55068960614247
+13,13107.0,112528,32,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13107,Huechuraba,28.437366699843594
+13,13107.0,112528,17,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13107,Huechuraba,15.10735105929191
+13,13108.0,142065,17,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13108,Independencia,11.966353429768064
+13,13108.0,142065,37,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13108,Independencia,26.04441628831873
+13,13108.0,142065,31,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13108,Independencia,21.82099743075353
+13,13108.0,142065,22,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13108,Independencia,15.48586914440573
+13,13108.0,142065,26,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13108,Independencia,18.301481716115862
+13,13108.0,142065,15,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13108,Independencia,10.558547143912998
+13,13603.0,40171,-,2020/04/01,13,Metropolitana de Santiago,136,Talagante,13603,Isla de Maipo,-
+13,13603.0,40171,10,2020/04/10,13,Metropolitana de Santiago,136,Talagante,13603,Isla de Maipo,24.893579945731997
+13,13603.0,40171,7,2020/04/08,13,Metropolitana de Santiago,136,Talagante,13603,Isla de Maipo,17.425505962012398
+13,13603.0,40171,-,2020/04/03,13,Metropolitana de Santiago,136,Talagante,13603,Isla de Maipo,-
+13,13603.0,40171,4,2020/04/06,13,Metropolitana de Santiago,136,Talagante,13603,Isla de Maipo,9.957431978292798
+13,13603.0,40171,-,2020/03/30,13,Metropolitana de Santiago,136,Talagante,13603,Isla de Maipo,-
+13,13109.0,100434,12,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13109,La Cisterna,11.948145050480912
+13,13109.0,100434,34,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13109,La Cisterna,33.85307764302925
+13,13109.0,100434,26,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13109,La Cisterna,25.88764760937531
+13,13109.0,100434,12,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13109,La Cisterna,11.948145050480912
+13,13109.0,100434,20,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13109,La Cisterna,19.913575084134855
+13,13109.0,100434,10,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13109,La Cisterna,9.956787542067428
+13,13110.0,402433,58,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13110,La Florida,14.412336960438134
+13,13110.0,402433,126,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13110,La Florida,31.309559603710433
+13,13110.0,402433,103,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13110,La Florida,25.59432253319186
+13,13110.0,402433,67,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13110,La Florida,16.64873407498888
+13,13110.0,402433,91,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13110,La Florida,22.612459713790866
+13,13110.0,402433,43,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13110,La Florida,10.685008436186893
+13,13111.0,122557,8,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13111,La Granja,6.527574924320928
+13,13111.0,122557,36,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13111,La Granja,29.374087159444176
+13,13111.0,122557,26,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13111,La Granja,21.214618504043017
+13,13111.0,122557,16,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13111,La Granja,13.055149848641856
+13,13111.0,122557,24,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13111,La Granja,19.582724772962784
+13,13111.0,122557,5,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13111,La Granja,4.07973432770058
+13,13112.0,189335,10,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13112,La Pintana,5.281643647503103
+13,13112.0,189335,39,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13112,La Pintana,20.5984102252621
+13,13112.0,189335,25,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13112,La Pintana,13.204109118757758
+13,13112.0,189335,13,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13112,La Pintana,6.866136741754034
+13,13112.0,189335,18,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13112,La Pintana,9.506958565505585
+13,13112.0,189335,-,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13112,La Pintana,-
+13,13113.0,100252,26,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13113,La Reina,25.934644695367673
+13,13113.0,100252,52,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13113,La Reina,51.86928939073535
+13,13113.0,100252,44,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13113,La Reina,43.889398715237604
+13,13113.0,100252,30,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13113,La Reina,29.924590033116548
+13,13113.0,100252,35,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13113,La Reina,34.912021705302635
+13,13113.0,100252,24,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13113,La Reina,23.939672026493238
+13,13302.0,126898,10,2020/04/01,13,Metropolitana de Santiago,133,Chacabuco,13302,Lampa,7.880344843890368
+13,13302.0,126898,26,2020/04/10,13,Metropolitana de Santiago,133,Chacabuco,13302,Lampa,20.48889659411496
+13,13302.0,126898,18,2020/04/08,13,Metropolitana de Santiago,133,Chacabuco,13302,Lampa,14.184620719002664
+13,13302.0,126898,13,2020/04/03,13,Metropolitana de Santiago,133,Chacabuco,13302,Lampa,10.24444829705748
+13,13302.0,126898,14,2020/04/06,13,Metropolitana de Santiago,133,Chacabuco,13302,Lampa,11.032482781446516
+13,13302.0,126898,10,2020/03/30,13,Metropolitana de Santiago,133,Chacabuco,13302,Lampa,7.880344843890368
+13,13114.0,330759,208,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13114,Las Condes,62.88566599850647
+13,13114.0,330759,281,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13114,Las Condes,84.95611608452076
+13,13114.0,330759,266,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13114,Las Condes,80.42109209424385
+13,13114.0,330759,224,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13114,Las Condes,67.72302492146851
+13,13114.0,330759,258,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13114,Las Condes,78.00241263276283
+13,13114.0,330759,181,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13114,Las Condes,54.72262281600803
+13,13115.0,124076,78,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13115,Lo Barnechea,62.86469583158709
+13,13115.0,124076,110,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13115,Lo Barnechea,88.65534027531513
+13,13115.0,124076,105,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13115,Lo Barnechea,84.62555208098263
+13,13115.0,124076,85,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13115,Lo Barnechea,68.5063993036526
+13,13115.0,124076,97,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13115,Lo Barnechea,78.17789097005061
+13,13115.0,124076,68,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13115,Lo Barnechea,54.80511944292208
+13,13116.0,103865,7,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13116,Lo Espejo,6.739517643094401
+13,13116.0,103865,34,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13116,Lo Espejo,32.734799980744235
+13,13116.0,103865,23,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13116,Lo Espejo,22.144129398738748
+13,13116.0,103865,9,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13116,Lo Espejo,8.665094112549944
+13,13116.0,103865,15,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13116,Lo Espejo,14.441823520916575
+13,13116.0,103865,4,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13116,Lo Espejo,3.8511529389110866
+13,13117.0,104403,18,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13117,Lo Prado,17.24088388264705
+13,13117.0,104403,35,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13117,Lo Prado,33.52394088292482
+13,13117.0,104403,32,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13117,Lo Prado,30.65046023581698
+13,13117.0,104403,20,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13117,Lo Prado,19.156537647385612
+13,13117.0,104403,25,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13117,Lo Prado,23.945672059232013
+13,13117.0,104403,14,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13117,Lo Prado,13.409576353169928
+13,13118.0,134635,15,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13118,Macul,11.141233705945705
+13,13118.0,134635,43,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13118,Macul,31.93820329037769
+13,13118.0,134635,37,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13118,Macul,27.481709807999405
+13,13118.0,134635,23,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13118,Macul,17.083225015783416
+13,13118.0,134635,34,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13118,Macul,25.253463066810266
+13,13118.0,134635,10,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13118,Macul,7.427489137297137
+13,13119.0,578605,55,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13119,Maipú,9.505621278765306
+13,13119.0,578605,167,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13119,Maipú,28.862522791887383
+13,13119.0,578605,106,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13119,Maipú,18.31992464634768
+13,13119.0,578605,64,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13119,Maipú,11.061086578926902
+13,13119.0,578605,83,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13119,Maipú,14.344846657045826
+13,13119.0,578605,43,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13119,Maipú,7.431667545216512
+13,13504.0,14926,-,2020/04/01,13,Metropolitana de Santiago,135,Melipilla,13504,María Pinto,-
+13,13504.0,14926,-,2020/04/10,13,Metropolitana de Santiago,135,Melipilla,13504,María Pinto,-
+13,13504.0,14926,-,2020/04/08,13,Metropolitana de Santiago,135,Melipilla,13504,María Pinto,-
+13,13504.0,14926,-,2020/04/03,13,Metropolitana de Santiago,135,Melipilla,13504,María Pinto,-
+13,13504.0,14926,-,2020/04/06,13,Metropolitana de Santiago,135,Melipilla,13504,María Pinto,-
+13,13504.0,14926,-,2020/03/30,13,Metropolitana de Santiago,135,Melipilla,13504,María Pinto,-
+13,13501.0,141612,8,2020/04/01,13,Metropolitana de Santiago,135,Melipilla,13501,Melipilla,5.649238765076406
+13,13501.0,141612,16,2020/04/10,13,Metropolitana de Santiago,135,Melipilla,13501,Melipilla,11.298477530152812
+13,13501.0,141612,12,2020/04/08,13,Metropolitana de Santiago,135,Melipilla,13501,Melipilla,8.473858147614608
+13,13501.0,141612,9,2020/04/03,13,Metropolitana de Santiago,135,Melipilla,13501,Melipilla,6.355393610710957
+13,13501.0,141612,11,2020/04/06,13,Metropolitana de Santiago,135,Melipilla,13501,Melipilla,7.767703301980058
+13,13501.0,141612,6,2020/03/30,13,Metropolitana de Santiago,135,Melipilla,13501,Melipilla,4.236929073807304
+13,13120.0,250192,84,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13120,Ñuñoa,33.57421500287779
+13,13120.0,250192,155,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13120,Ñuñoa,61.952420541024495
+13,13120.0,250192,118,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13120,Ñuñoa,47.163778218328325
+13,13120.0,250192,93,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13120,Ñuñoa,37.1714523246147
+13,13120.0,250192,107,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13120,Ñuñoa,42.76715482509433
+13,13120.0,250192,67,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13120,Ñuñoa,26.779433395152523
+13,13604.0,74188,11,2020/04/01,13,Metropolitana de Santiago,136,Talagante,13604,Padre Hurtado,14.827195772901279
+13,13604.0,74188,20,2020/04/10,13,Metropolitana de Santiago,136,Talagante,13604,Padre Hurtado,26.958537768911413
+13,13604.0,74188,18,2020/04/08,13,Metropolitana de Santiago,136,Talagante,13604,Padre Hurtado,24.26268399202027
+13,13604.0,74188,14,2020/04/03,13,Metropolitana de Santiago,136,Talagante,13604,Padre Hurtado,18.87097643823799
+13,13604.0,74188,16,2020/04/06,13,Metropolitana de Santiago,136,Talagante,13604,Padre Hurtado,21.56683021512913
+13,13604.0,74188,10,2020/03/30,13,Metropolitana de Santiago,136,Talagante,13604,Padre Hurtado,13.479268884455706
+13,13404.0,82766,-,2020/04/01,13,Metropolitana de Santiago,134,Maipo,13404,Paine,-
+13,13404.0,82766,7,2020/04/10,13,Metropolitana de Santiago,134,Maipo,13404,Paine,8.457579199188073
+13,13404.0,82766,-,2020/04/08,13,Metropolitana de Santiago,134,Maipo,13404,Paine,-
+13,13404.0,82766,-,2020/04/03,13,Metropolitana de Santiago,134,Maipo,13404,Paine,-
+13,13404.0,82766,-,2020/04/06,13,Metropolitana de Santiago,134,Maipo,13404,Paine,-
+13,13404.0,82766,-,2020/03/30,13,Metropolitana de Santiago,134,Maipo,13404,Paine,-
+13,13121.0,107803,13,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13121,Pedro Aguirre Cerda,12.059033607599046
+13,13121.0,107803,36,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13121,Pedro Aguirre Cerda,33.3942469133512
+13,13121.0,107803,19,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13121,Pedro Aguirre Cerda,17.624741426490914
+13,13121.0,107803,13,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13121,Pedro Aguirre Cerda,12.059033607599046
+13,13121.0,107803,16,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13121,Pedro Aguirre Cerda,14.84188751704498
+13,13121.0,107803,7,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13121,Pedro Aguirre Cerda,6.493325788707179
+13,13605.0,101058,13,2020/04/01,13,Metropolitana de Santiago,136,Talagante,13605,Peñaflor,12.863899938649093
+13,13605.0,101058,20,2020/04/10,13,Metropolitana de Santiago,136,Talagante,13605,Peñaflor,19.790615290229372
+13,13605.0,101058,18,2020/04/08,13,Metropolitana de Santiago,136,Talagante,13605,Peñaflor,17.811553761206437
+13,13605.0,101058,13,2020/04/03,13,Metropolitana de Santiago,136,Talagante,13605,Peñaflor,12.863899938649093
+13,13605.0,101058,18,2020/04/06,13,Metropolitana de Santiago,136,Talagante,13605,Peñaflor,17.811553761206437
+13,13605.0,101058,10,2020/03/30,13,Metropolitana de Santiago,136,Talagante,13605,Peñaflor,9.895307645114686
+13,13122.0,266798,46,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13122,Peñalolén,17.24150855703566
+13,13122.0,266798,98,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13122,Peñalolén,36.731909534554234
+13,13122.0,266798,78,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13122,Peñalolén,29.23560146627786
+13,13122.0,266798,54,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13122,Peñalolén,20.24003178434621
+13,13122.0,266798,65,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13122,Peñalolén,24.363001221898216
+13,13122.0,266798,31,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13122,Peñalolén,11.61927750582838
+13,13202.0,30433,-,2020/04/01,13,Metropolitana de Santiago,132,Cordillera,13202,Pirque,-
+13,13202.0,30433,9,2020/04/10,13,Metropolitana de Santiago,132,Cordillera,13202,Pirque,29.573160713698947
+13,13202.0,30433,4,2020/04/08,13,Metropolitana de Santiago,132,Cordillera,13202,Pirque,13.143626983866199
+13,13202.0,30433,-,2020/04/03,13,Metropolitana de Santiago,132,Cordillera,13202,Pirque,-
+13,13202.0,30433,4,2020/04/06,13,Metropolitana de Santiago,132,Cordillera,13202,Pirque,13.143626983866199
+13,13202.0,30433,-,2020/03/30,13,Metropolitana de Santiago,132,Cordillera,13202,Pirque,-
+13,13123.0,157749,87,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13123,Providencia,55.150904284654736
+13,13123.0,157749,129,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13123,Providencia,81.77547876690186
+13,13123.0,157749,115,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13123,Providencia,72.90062060615281
+13,13123.0,157749,94,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13123,Providencia,59.58833336502926
+13,13123.0,157749,104,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13123,Providencia,65.92751776556429
+13,13123.0,157749,82,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13123,Providencia,51.98131208438722
+13,13124.0,253139,25,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13124,Pudahuel,9.875996981895323
+13,13124.0,253139,67,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13124,Pudahuel,26.467671911479464
+13,13124.0,253139,52,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13124,Pudahuel,20.54207372234227
+13,13124.0,253139,32,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13124,Pudahuel,12.641276136826013
+13,13124.0,253139,44,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13124,Pudahuel,17.381754688135768
+13,13124.0,253139,17,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13124,Pudahuel,6.715677947688819
+13,13201.0,645909,58,2020/04/01,13,Metropolitana de Santiago,132,Cordillera,13201,Puente Alto,8.979593100576087
+13,13201.0,645909,239,2020/04/10,13,Metropolitana de Santiago,132,Cordillera,13201,Puente Alto,37.00211639720146
+13,13201.0,645909,166,2020/04/08,13,Metropolitana de Santiago,132,Cordillera,13201,Puente Alto,25.70021473613156
+13,13201.0,645909,76,2020/04/03,13,Metropolitana de Santiago,132,Cordillera,13201,Puente Alto,11.766363373168666
+13,13201.0,645909,119,2020/04/06,13,Metropolitana de Santiago,132,Cordillera,13201,Puente Alto,18.42364791325094
+13,13201.0,645909,45,2020/03/30,13,Metropolitana de Santiago,132,Cordillera,13201,Puente Alto,6.966925681481447
+13,13125.0,254694,29,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13125,Quilicura,11.386212474577336
+13,13125.0,254694,79,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13125,Quilicura,31.017613292814122
+13,13125.0,254694,57,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13125,Quilicura,22.379796932789937
+13,13125.0,254694,33,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13125,Quilicura,12.956724540036278
+13,13125.0,254694,51,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13125,Quilicura,20.024028834601523
+13,13125.0,254694,17,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13125,Quilicura,6.674676278200507
+13,13126.0,136368,25,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13126,Quinta Normal,18.3327466854394
+13,13126.0,136368,69,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13126,Quinta Normal,50.59838085181274
+13,13126.0,136368,57,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13126,Quinta Normal,41.79866244280183
+13,13126.0,136368,35,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13126,Quinta Normal,25.665845359615158
+13,13126.0,136368,41,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13126,Quinta Normal,30.065704564120615
+13,13126.0,136368,21,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13126,Quinta Normal,15.399507215769095
+13,13127.0,190075,23,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13127,Recoleta,12.100486650006577
+13,13127.0,190075,61,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13127,Recoleta,32.09259502827831
+13,13127.0,190075,52,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13127,Recoleta,27.357621991319217
+13,13127.0,190075,32,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13127,Recoleta,16.83545968696567
+13,13127.0,190075,44,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13127,Recoleta,23.148757069577798
+13,13127.0,190075,17,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13127,Recoleta,8.943837958700513
+13,13128.0,160847,14,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13128,Renca,8.703923604419106
+13,13128.0,160847,28,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13128,Renca,17.407847208838213
+13,13128.0,160847,22,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13128,Renca,13.67759423551574
+13,13128.0,160847,18,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13128,Renca,11.190758919967422
+13,13128.0,160847,19,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13128,Renca,11.812467748854502
+13,13128.0,160847,9,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13128,Renca,5.595379459983711
+13,13401.0,334836,41,2020/04/01,13,Metropolitana de Santiago,134,Maipo,13401,San Bernardo,12.244800439618201
+13,13401.0,334836,117,2020/04/10,13,Metropolitana de Santiago,134,Maipo,13401,San Bernardo,34.94247930330072
+13,13401.0,334836,79,2020/04/08,13,Metropolitana de Santiago,134,Maipo,13401,San Bernardo,23.593639871459462
+13,13401.0,334836,53,2020/04/03,13,Metropolitana de Santiago,134,Maipo,13401,San Bernardo,15.828644470725967
+13,13401.0,334836,74,2020/04/06,13,Metropolitana de Santiago,134,Maipo,13401,San Bernardo,22.100371525164558
+13,13401.0,334836,32,2020/03/30,13,Metropolitana de Santiago,134,Maipo,13401,San Bernardo,9.556917416287376
+13,13129.0,103485,24,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13129,San Joaquín,23.191766922742428
+13,13129.0,103485,52,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13129,San Joaquín,50.24882833260859
+13,13129.0,103485,42,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13129,San Joaquín,40.58559211479925
+13,13129.0,103485,28,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13129,San Joaquín,27.057061409866165
+13,13129.0,103485,36,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13129,San Joaquín,34.78765038411364
+13,13129.0,103485,13,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13129,San Joaquín,12.562207083152147
+13,13203.0,18644,-,2020/04/01,13,Metropolitana de Santiago,132,Cordillera,13203,San José de Maipo,-
+13,13203.0,18644,4,2020/04/10,13,Metropolitana de Santiago,132,Cordillera,13203,San José de Maipo,21.454623471358076
+13,13203.0,18644,-,2020/04/08,13,Metropolitana de Santiago,132,Cordillera,13203,San José de Maipo,-
+13,13203.0,18644,-,2020/04/03,13,Metropolitana de Santiago,132,Cordillera,13203,San José de Maipo,-
+13,13203.0,18644,-,2020/04/06,13,Metropolitana de Santiago,132,Cordillera,13203,San José de Maipo,-
+13,13203.0,18644,-,2020/03/30,13,Metropolitana de Santiago,132,Cordillera,13203,San José de Maipo,-
+13,13130.0,133059,32,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13130,San Miguel,24.04948180882165
+13,13130.0,133059,69,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13130,San Miguel,51.85669515027168
+13,13130.0,133059,56,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13130,San Miguel,42.08659316543789
+13,13130.0,133059,39,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13130,San Miguel,29.310305954501388
+13,13130.0,133059,49,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13130,San Miguel,36.825769019758155
+13,13130.0,133059,25,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13130,San Miguel,18.788657663141915
+13,13505.0,11953,-,2020/04/01,13,Metropolitana de Santiago,135,Melipilla,13505,San Pedro,-
+13,13505.0,11953,-,2020/04/10,13,Metropolitana de Santiago,135,Melipilla,13505,San Pedro,-
+13,13505.0,11953,-,2020/04/08,13,Metropolitana de Santiago,135,Melipilla,13505,San Pedro,-
+13,13505.0,11953,-,2020/04/03,13,Metropolitana de Santiago,135,Melipilla,13505,San Pedro,-
+13,13505.0,11953,-,2020/04/06,13,Metropolitana de Santiago,135,Melipilla,13505,San Pedro,-
+13,13505.0,11953,-,2020/03/30,13,Metropolitana de Santiago,135,Melipilla,13505,San Pedro,-
+13,13131.0,86510,6,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13131,San Ramón,6.935614379840481
+13,13131.0,86510,18,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13131,San Ramón,20.806843139521444
+13,13131.0,86510,12,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13131,San Ramón,13.871228759680962
+13,13131.0,86510,9,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13131,San Ramón,10.403421569760722
+13,13131.0,86510,9,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13131,San Ramón,10.403421569760722
+13,13131.0,86510,-,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13131,San Ramón,-
+13,13101.0,503147,156,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13101,Santiago,31.00485543986151
+13,13101.0,503147,321,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13101,Santiago,63.798452539715036
+13,13101.0,503147,271,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13101,Santiago,53.860998873092754
+13,13101.0,503147,173,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13101,Santiago,34.38358968651308
+13,13101.0,503147,234,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13101,Santiago,46.507283159792266
+13,13101.0,503147,127,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13101,Santiago,25.24113231322059
+13,13601.0,81838,5,2020/04/01,13,Metropolitana de Santiago,136,Talagante,13601,Talagante,6.1096312226594005
+13,13601.0,81838,18,2020/04/10,13,Metropolitana de Santiago,136,Talagante,13601,Talagante,21.99467240157384
+13,13601.0,81838,14,2020/04/08,13,Metropolitana de Santiago,136,Talagante,13601,Talagante,17.10696742344632
+13,13601.0,81838,6,2020/04/03,13,Metropolitana de Santiago,136,Talagante,13601,Talagante,7.33155746719128
+13,13601.0,81838,11,2020/04/06,13,Metropolitana de Santiago,136,Talagante,13601,Talagante,13.44118868985068
+13,13601.0,81838,-,2020/03/30,13,Metropolitana de Santiago,136,Talagante,13601,Talagante,-
+13,13303.0,21477,-,2020/04/01,13,Metropolitana de Santiago,133,Chacabuco,13303,Tiltil,-
+13,13303.0,21477,4,2020/04/10,13,Metropolitana de Santiago,133,Chacabuco,13303,Tiltil,18.62457512687992
+13,13303.0,21477,4,2020/04/08,13,Metropolitana de Santiago,133,Chacabuco,13303,Tiltil,18.62457512687992
+13,13303.0,21477,-,2020/04/03,13,Metropolitana de Santiago,133,Chacabuco,13303,Tiltil,-
+13,13303.0,21477,-,2020/04/06,13,Metropolitana de Santiago,133,Chacabuco,13303,Tiltil,-
+13,13303.0,21477,-,2020/03/30,13,Metropolitana de Santiago,133,Chacabuco,13303,Tiltil,-
+13,13132.0,96774,90,2020/04/01,13,Metropolitana de Santiago,131,Santiago,13132,Vitacura,93.000186000372
+13,13132.0,96774,119,2020/04/10,13,Metropolitana de Santiago,131,Santiago,13132,Vitacura,122.96691260049187
+13,13132.0,96774,114,2020/04/08,13,Metropolitana de Santiago,131,Santiago,13132,Vitacura,117.8002356004712
+13,13132.0,96774,100,2020/04/03,13,Metropolitana de Santiago,131,Santiago,13132,Vitacura,103.33354000041334
+13,13132.0,96774,114,2020/04/06,13,Metropolitana de Santiago,131,Santiago,13132,Vitacura,117.8002356004712
+13,13132.0,96774,83,2020/03/30,13,Metropolitana de Santiago,131,Santiago,13132,Vitacura,85.76683820034307
+6,6302.0,15925,-,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6302,Chépica,-
+6,6302.0,15925,-,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6302,Chépica,-
+6,6302.0,15925,-,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6302,Chépica,-
+6,6302.0,15925,-,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6302,Chépica,-
+6,6302.0,15925,-,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6302,Chépica,-
+6,6302.0,15925,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6302,Chépica,-
+6,6303.0,37696,-,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6303,Chimbarongo,-
+6,6303.0,37696,-,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6303,Chimbarongo,-
+6,6303.0,37696,-,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6303,Chimbarongo,-
+6,6303.0,37696,-,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6303,Chimbarongo,-
+6,6303.0,37696,-,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6303,Chimbarongo,-
+6,6303.0,37696,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6303,Chimbarongo,-
+6,6102.0,14096,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6102,Codegua,-
+6,6102.0,14096,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6102,Codegua,-
+6,6102.0,14096,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6102,Codegua,-
+6,6102.0,14096,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6102,Codegua,-
+6,6102.0,14096,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6102,Codegua,-
+6,6102.0,14096,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6102,Codegua,-
+6,6103.0,7831,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6103,Coinco,-
+6,6103.0,7831,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6103,Coinco,-
+6,6103.0,7831,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6103,Coinco,-
+6,6103.0,7831,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6103,Coinco,-
+6,6103.0,7831,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6103,Coinco,-
+6,6103.0,7831,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6103,Coinco,-
+6,6104.0,21263,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6104,Coltauco,-
+6,6104.0,21263,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6104,Coltauco,-
+6,6104.0,21263,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6104,Coltauco,-
+6,6104.0,21263,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6104,Coltauco,-
+6,6104.0,21263,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6104,Coltauco,-
+6,6104.0,21263,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6104,Coltauco,-
+6,6105.0,22700,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6105,Doñihue,-
+6,6105.0,22700,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6105,Doñihue,-
+6,6105.0,22700,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6105,Doñihue,-
+6,6105.0,22700,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6105,Doñihue,-
+6,6105.0,22700,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6105,Doñihue,-
+6,6105.0,22700,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6105,Doñihue,-
+6,6106.0,36504,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6106,Graneros,-
+6,6106.0,36504,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6106,Graneros,-
+6,6106.0,36504,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6106,Graneros,-
+6,6106.0,36504,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6106,Graneros,-
+6,6106.0,36504,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6106,Graneros,-
+6,6106.0,36504,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6106,Graneros,-
+6,6202.0,3114,-,2020/04/01,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6202,La Estrella,-
+6,6202.0,3114,-,2020/04/10,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6202,La Estrella,-
+6,6202.0,3114,-,2020/04/08,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6202,La Estrella,-
+6,6202.0,3114,-,2020/04/03,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6202,La Estrella,-
+6,6202.0,3114,-,2020/04/06,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6202,La Estrella,-
+6,6202.0,3114,-,2020/03/30,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6202,La Estrella,-
+6,6107.0,26749,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6107,Las Cabras,-
+6,6107.0,26749,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6107,Las Cabras,-
+6,6107.0,26749,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6107,Las Cabras,-
+6,6107.0,26749,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6107,Las Cabras,-
+6,6107.0,26749,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6107,Las Cabras,-
+6,6107.0,26749,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6107,Las Cabras,-
+6,6203.0,6765,-,2020/04/01,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6203,Litueche,-
+6,6203.0,6765,-,2020/04/10,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6203,Litueche,-
+6,6203.0,6765,-,2020/04/08,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6203,Litueche,-
+6,6203.0,6765,-,2020/04/03,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6203,Litueche,-
+6,6203.0,6765,-,2020/04/06,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6203,Litueche,-
+6,6203.0,6765,-,2020/03/30,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6203,Litueche,-
+6,6304.0,7289,-,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6304,Lolol,-
+6,6304.0,7289,-,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6304,Lolol,-
+6,6304.0,7289,-,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6304,Lolol,-
+6,6304.0,7289,-,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6304,Lolol,-
+6,6304.0,7289,-,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6304,Lolol,-
+6,6304.0,7289,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6304,Lolol,-
+6,6108.0,59913,6,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6108,Machalí,10.014521055530519
+6,6108.0,59913,8,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6108,Machalí,13.352694740707358
+6,6108.0,59913,8,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6108,Machalí,13.352694740707358
+6,6108.0,59913,7,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6108,Machalí,11.68360789811894
+6,6108.0,59913,8,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6108,Machalí,13.352694740707358
+6,6108.0,59913,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6108,Machalí,-
+6,6109.0,14163,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6109,Malloa,-
+6,6109.0,14163,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6109,Malloa,-
+6,6109.0,14163,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6109,Malloa,-
+6,6109.0,14163,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6109,Malloa,-
+6,6109.0,14163,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6109,Malloa,-
+6,6109.0,14163,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6109,Malloa,-
+6,6204.0,7632,-,2020/04/01,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6204,Marchihue,-
+6,6204.0,7632,-,2020/04/10,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6204,Marchihue,-
+6,6204.0,7632,-,2020/04/08,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6204,Marchihue,-
+6,6204.0,7632,-,2020/04/03,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6204,Marchihue,-
+6,6204.0,7632,-,2020/04/06,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6204,Marchihue,-
+6,6204.0,7632,-,2020/03/30,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6204,Marchihue,-
+6,6110.0,27462,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6110,Mostazal,-
+6,6110.0,27462,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6110,Mostazal,-
+6,6110.0,27462,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6110,Mostazal,-
+6,6110.0,27462,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6110,Mostazal,-
+6,6110.0,27462,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6110,Mostazal,-
+6,6110.0,27462,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6110,Mostazal,-
+6,6305.0,19141,-,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6305,Nancagua,-
+6,6305.0,19141,-,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6305,Nancagua,-
+6,6305.0,19141,-,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6305,Nancagua,-
+6,6305.0,19141,-,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6305,Nancagua,-
+6,6305.0,19141,-,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6305,Nancagua,-
+6,6305.0,19141,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6305,Nancagua,-
+6,6205.0,6904,-,2020/04/01,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6205,Navidad,-
+6,6205.0,6904,-,2020/04/10,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6205,Navidad,-
+6,6205.0,6904,-,2020/04/08,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6205,Navidad,-
+6,6205.0,6904,-,2020/04/03,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6205,Navidad,-
+6,6205.0,6904,-,2020/04/06,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6205,Navidad,-
+6,6205.0,6904,-,2020/03/30,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6205,Navidad,-
+6,6111.0,14624,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6111,Olivar,-
+6,6111.0,14624,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6111,Olivar,-
+6,6111.0,14624,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6111,Olivar,-
+6,6111.0,14624,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6111,Olivar,-
+6,6111.0,14624,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6111,Olivar,-
+6,6111.0,14624,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6111,Olivar,-
+6,6306.0,13299,-,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6306,Palmilla,-
+6,6306.0,13299,-,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6306,Palmilla,-
+6,6306.0,13299,-,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6306,Palmilla,-
+6,6306.0,13299,-,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6306,Palmilla,-
+6,6306.0,13299,-,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6306,Palmilla,-
+6,6306.0,13299,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6306,Palmilla,-
+6,6206.0,6349,-,2020/04/01,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6206,Paredones,-
+6,6206.0,6349,-,2020/04/10,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6206,Paredones,-
+6,6206.0,6349,-,2020/04/08,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6206,Paredones,-
+6,6206.0,6349,-,2020/04/03,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6206,Paredones,-
+6,6206.0,6349,-,2020/04/06,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6206,Paredones,-
+6,6206.0,6349,-,2020/03/30,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6206,Paredones,-
+6,6307.0,11848,-,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6307,Peralillo,-
+6,6307.0,11848,-,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6307,Peralillo,-
+6,6307.0,11848,-,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6307,Peralillo,-
+6,6307.0,11848,-,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6307,Peralillo,-
+6,6307.0,11848,-,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6307,Peralillo,-
+6,6307.0,11848,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6307,Peralillo,-
+6,6112.0,14952,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6112,Peumo,-
+6,6112.0,14952,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6112,Peumo,-
+6,6112.0,14952,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6112,Peumo,-
+6,6112.0,14952,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6112,Peumo,-
+6,6112.0,14952,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6112,Peumo,-
+6,6112.0,14952,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6112,Peumo,-
+6,6113.0,20743,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6113,Pichidegua,-
+6,6113.0,20743,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6113,Pichidegua,-
+6,6113.0,20743,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6113,Pichidegua,-
+6,6113.0,20743,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6113,Pichidegua,-
+6,6113.0,20743,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6113,Pichidegua,-
+6,6113.0,20743,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6113,Pichidegua,-
+6,6201.0,17882,-,2020/04/01,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6201,Pichilemu,-
+6,6201.0,17882,-,2020/04/10,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6201,Pichilemu,-
+6,6201.0,17882,-,2020/04/08,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6201,Pichilemu,-
+6,6201.0,17882,-,2020/04/03,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6201,Pichilemu,-
+6,6201.0,17882,-,2020/04/06,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6201,Pichilemu,-
+6,6201.0,17882,-,2020/03/30,6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6201,Pichilemu,-
+6,6308.0,9164,-,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6308,Placilla,-
+6,6308.0,9164,-,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6308,Placilla,-
+6,6308.0,9164,-,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6308,Placilla,-
+6,6308.0,9164,-,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6308,Placilla,-
+6,6308.0,9164,-,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6308,Placilla,-
+6,6308.0,9164,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6308,Placilla,-
+6,6309.0,3531,-,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6309,Pumanque,-
+6,6309.0,3531,-,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6309,Pumanque,-
+6,6309.0,3531,-,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6309,Pumanque,-
+6,6309.0,3531,-,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6309,Pumanque,-
+6,6309.0,3531,-,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6309,Pumanque,-
+6,6309.0,3531,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6309,Pumanque,-
+6,6114.0,13877,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6114,Quinta de Tilcoco,-
+6,6114.0,13877,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6114,Quinta de Tilcoco,-
+6,6114.0,13877,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6114,Quinta de Tilcoco,-
+6,6114.0,13877,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6114,Quinta de Tilcoco,-
+6,6114.0,13877,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6114,Quinta de Tilcoco,-
+6,6114.0,13877,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6114,Quinta de Tilcoco,-
+6,6101.0,265211,7,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6101,Rancagua,2.6394078676977952
+6,6101.0,265211,15,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6101,Rancagua,5.655874002209561
+6,6101.0,265211,15,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6101,Rancagua,5.655874002209561
+6,6101.0,265211,9,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6101,Rancagua,3.393524401325737
+6,6101.0,265211,15,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6101,Rancagua,5.655874002209561
+6,6101.0,265211,7,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6101,Rancagua,2.6394078676977952
+6,6115.0,63710,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6115,Rengo,-
+6,6115.0,63710,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6115,Rengo,-
+6,6115.0,63710,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6115,Rengo,-
+6,6115.0,63710,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6115,Rengo,-
+6,6115.0,63710,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6115,Rengo,-
+6,6115.0,63710,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6115,Rengo,-
+6,6116.0,30371,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6116,Requínoa,-
+6,6116.0,30371,-,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6116,Requínoa,-
+6,6116.0,30371,-,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6116,Requínoa,-
+6,6116.0,30371,-,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6116,Requínoa,-
+6,6116.0,30371,-,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6116,Requínoa,-
+6,6116.0,30371,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6116,Requínoa,-
+6,6301.0,78642,4,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6301,San Fernando,5.08634063223214
+6,6301.0,78642,4,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6301,San Fernando,5.08634063223214
+6,6301.0,78642,4,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6301,San Fernando,5.08634063223214
+6,6301.0,78642,4,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6301,San Fernando,5.08634063223214
+6,6301.0,78642,4,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6301,San Fernando,5.08634063223214
+6,6301.0,78642,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6301,San Fernando,-
+6,6117.0,50617,-,2020/04/01,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6117,San Vicente,-
+6,6117.0,50617,4,2020/04/10,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6117,San Vicente,7.902483355394433
+6,6117.0,50617,4,2020/04/08,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6117,San Vicente,7.902483355394433
+6,6117.0,50617,4,2020/04/03,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6117,San Vicente,7.902483355394433
+6,6117.0,50617,4,2020/04/06,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6117,San Vicente,7.902483355394433
+6,6117.0,50617,-,2020/03/30,6,Libertador General Bernardo O'Higgins,61,Cachapoal,6117,San Vicente,-
+6,6310.0,41096,0,2020/04/01,6,Libertador General Bernardo O'Higgins,63,Colchagua,6310,Santa Cruz,0.0
+6,6310.0,41096,-,2020/04/10,6,Libertador General Bernardo O'Higgins,63,Colchagua,6310,Santa Cruz,-
+6,6310.0,41096,-,2020/04/08,6,Libertador General Bernardo O'Higgins,63,Colchagua,6310,Santa Cruz,-
+6,6310.0,41096,-,2020/04/03,6,Libertador General Bernardo O'Higgins,63,Colchagua,6310,Santa Cruz,-
+6,6310.0,41096,-,2020/04/06,6,Libertador General Bernardo O'Higgins,63,Colchagua,6310,Santa Cruz,-
+6,6310.0,41096,-,2020/03/30,6,Libertador General Bernardo O'Higgins,63,Colchagua,6310,Santa Cruz,-
+7,7201.0,44143,-,2020/04/01,7,Maule,72,Cauquenes,7201,Cauquenes,-
+7,7201.0,44143,4,2020/04/10,7,Maule,72,Cauquenes,7201,Cauquenes,9.061459348028
+7,7201.0,44143,4,2020/04/08,7,Maule,72,Cauquenes,7201,Cauquenes,9.061459348028
+7,7201.0,44143,-,2020/04/03,7,Maule,72,Cauquenes,7201,Cauquenes,-
+7,7201.0,44143,4,2020/04/06,7,Maule,72,Cauquenes,7201,Cauquenes,9.061459348028
+7,7201.0,44143,-,2020/03/30,7,Maule,72,Cauquenes,7201,Cauquenes,-
+7,7202.0,9331,-,2020/04/01,7,Maule,72,Cauquenes,7202,Chanco,-
+7,7202.0,9331,-,2020/04/10,7,Maule,72,Cauquenes,7202,Chanco,-
+7,7202.0,9331,-,2020/04/08,7,Maule,72,Cauquenes,7202,Chanco,-
+7,7202.0,9331,-,2020/04/03,7,Maule,72,Cauquenes,7202,Chanco,-
+7,7202.0,9331,-,2020/04/06,7,Maule,72,Cauquenes,7202,Chanco,-
+7,7202.0,9331,-,2020/03/30,7,Maule,72,Cauquenes,7202,Chanco,-
+7,7402.0,22565,4,2020/04/01,7,Maule,74,Linares,7402,Colbún,17.726567693330377
+7,7402.0,22565,5,2020/04/10,7,Maule,74,Linares,7402,Colbún,22.158209616662973
+7,7402.0,22565,5,2020/04/08,7,Maule,74,Linares,7402,Colbún,22.158209616662973
+7,7402.0,22565,4,2020/04/03,7,Maule,74,Linares,7402,Colbún,17.726567693330377
+7,7402.0,22565,5,2020/04/06,7,Maule,74,Linares,7402,Colbún,22.158209616662973
+7,7402.0,22565,-,2020/03/30,7,Maule,74,Linares,7402,Colbún,-
+7,7102.0,50348,-,2020/04/01,7,Maule,71,Talca,7102,Constitución,-
+7,7102.0,50348,5,2020/04/10,7,Maule,71,Talca,7102,Constitución,9.930881067768333
+7,7102.0,50348,5,2020/04/08,7,Maule,71,Talca,7102,Constitución,9.930881067768333
+7,7102.0,50348,-,2020/04/03,7,Maule,71,Talca,7102,Constitución,-
+7,7102.0,50348,-,2020/04/06,7,Maule,71,Talca,7102,Constitución,-
+7,7102.0,50348,-,2020/03/30,7,Maule,71,Talca,7102,Constitución,-
+7,7103.0,9426,-,2020/04/01,7,Maule,71,Talca,7103,Curepto,-
+7,7103.0,9426,-,2020/04/10,7,Maule,71,Talca,7103,Curepto,-
+7,7103.0,9426,-,2020/04/08,7,Maule,71,Talca,7103,Curepto,-
+7,7103.0,9426,-,2020/04/03,7,Maule,71,Talca,7103,Curepto,-
+7,7103.0,9426,-,2020/04/06,7,Maule,71,Talca,7103,Curepto,-
+7,7103.0,9426,-,2020/03/30,7,Maule,71,Talca,7103,Curepto,-
+7,7301.0,163626,8,2020/04/01,7,Maule,73,Curicó,7301,Curicó,4.889198538129637
+7,7301.0,163626,17,2020/04/10,7,Maule,73,Curicó,7301,Curicó,10.389546893525479
+7,7301.0,163626,13,2020/04/08,7,Maule,73,Curicó,7301,Curicó,7.94494762446066
+7,7301.0,163626,11,2020/04/03,7,Maule,73,Curicó,7301,Curicó,6.722647989928251
+7,7301.0,163626,13,2020/04/06,7,Maule,73,Curicó,7301,Curicó,7.94494762446066
+7,7301.0,163626,6,2020/03/30,7,Maule,73,Curicó,7301,Curicó,3.666898903597228
+7,7104.0,4206,-,2020/04/01,7,Maule,71,Talca,7104,Empedrado,-
+7,7104.0,4206,-,2020/04/10,7,Maule,71,Talca,7104,Empedrado,-
+7,7104.0,4206,-,2020/04/08,7,Maule,71,Talca,7104,Empedrado,-
+7,7104.0,4206,-,2020/04/03,7,Maule,71,Talca,7104,Empedrado,-
+7,7104.0,4206,-,2020/04/06,7,Maule,71,Talca,7104,Empedrado,-
+7,7104.0,4206,-,2020/03/30,7,Maule,71,Talca,7104,Empedrado,-
+7,7302.0,10222,-,2020/04/01,7,Maule,73,Curicó,7302,Hualañé,-
+7,7302.0,10222,-,2020/04/10,7,Maule,73,Curicó,7302,Hualañé,-
+7,7302.0,10222,-,2020/04/08,7,Maule,73,Curicó,7302,Hualañé,-
+7,7302.0,10222,-,2020/04/03,7,Maule,73,Curicó,7302,Hualañé,-
+7,7302.0,10222,-,2020/04/06,7,Maule,73,Curicó,7302,Hualañé,-
+7,7302.0,10222,-,2020/03/30,7,Maule,73,Curicó,7302,Hualañé,-
+7,7303.0,6989,-,2020/04/01,7,Maule,73,Curicó,7303,Licantén,-
+7,7303.0,6989,-,2020/04/10,7,Maule,73,Curicó,7303,Licantén,-
+7,7303.0,6989,-,2020/04/08,7,Maule,73,Curicó,7303,Licantén,-
+7,7303.0,6989,-,2020/04/03,7,Maule,73,Curicó,7303,Licantén,-
+7,7303.0,6989,-,2020/04/06,7,Maule,73,Curicó,7303,Licantén,-
+7,7303.0,6989,-,2020/03/30,7,Maule,73,Curicó,7303,Licantén,-
+7,7401.0,101073,6,2020/04/01,7,Maule,74,Linares,7401,Linares,5.936303463833071
+7,7401.0,101073,13,2020/04/10,7,Maule,74,Linares,7401,Linares,12.861990838304987
+7,7401.0,101073,12,2020/04/08,7,Maule,74,Linares,7401,Linares,11.872606927666142
+7,7401.0,101073,10,2020/04/03,7,Maule,74,Linares,7401,Linares,9.893839106388452
+7,7401.0,101073,11,2020/04/06,7,Maule,74,Linares,7401,Linares,10.883223017027298
+7,7401.0,101073,4,2020/03/30,7,Maule,74,Linares,7401,Linares,3.957535642555381
+7,7403.0,32810,-,2020/04/01,7,Maule,74,Linares,7403,Longaví,-
+7,7403.0,32810,-,2020/04/10,7,Maule,74,Linares,7403,Longaví,-
+7,7403.0,32810,-,2020/04/08,7,Maule,74,Linares,7403,Longaví,-
+7,7403.0,32810,-,2020/04/03,7,Maule,74,Linares,7403,Longaví,-
+7,7403.0,32810,-,2020/04/06,7,Maule,74,Linares,7403,Longaví,-
+7,7403.0,32810,-,2020/03/30,7,Maule,74,Linares,7403,Longaví,-
+7,7105.0,60000,-,2020/04/01,7,Maule,71,Talca,7105,Maule,-
+7,7105.0,60000,-,2020/04/10,7,Maule,71,Talca,7105,Maule,-
+7,7105.0,60000,-,2020/04/08,7,Maule,71,Talca,7105,Maule,-
+7,7105.0,60000,-,2020/04/03,7,Maule,71,Talca,7105,Maule,-
+7,7105.0,60000,-,2020/04/06,7,Maule,71,Talca,7105,Maule,-
+7,7105.0,60000,-,2020/03/30,7,Maule,71,Talca,7105,Maule,-
+7,7304.0,49800,-,2020/04/01,7,Maule,73,Curicó,7304,Molina,-
+7,7304.0,49800,-,2020/04/10,7,Maule,73,Curicó,7304,Molina,-
+7,7304.0,49800,-,2020/04/08,7,Maule,73,Curicó,7304,Molina,-
+7,7304.0,49800,-,2020/04/03,7,Maule,73,Curicó,7304,Molina,-
+7,7304.0,49800,-,2020/04/06,7,Maule,73,Curicó,7304,Molina,-
+7,7304.0,49800,-,2020/03/30,7,Maule,73,Curicó,7304,Molina,-
+7,7404.0,44544,-,2020/04/01,7,Maule,74,Linares,7404,Parral,-
+7,7404.0,44544,5,2020/04/10,7,Maule,74,Linares,7404,Parral,11.22485632183908
+7,7404.0,44544,4,2020/04/08,7,Maule,74,Linares,7404,Parral,8.979885057471265
+7,7404.0,44544,-,2020/04/03,7,Maule,74,Linares,7404,Parral,-
+7,7404.0,44544,-,2020/04/06,7,Maule,74,Linares,7404,Parral,-
+7,7404.0,44544,4,2020/03/30,7,Maule,74,Linares,7404,Parral,8.979885057471265
+7,7106.0,9083,-,2020/04/01,7,Maule,71,Talca,7106,Pelarco,-
+7,7106.0,9083,-,2020/04/10,7,Maule,71,Talca,7106,Pelarco,-
+7,7106.0,9083,-,2020/04/08,7,Maule,71,Talca,7106,Pelarco,-
+7,7106.0,9083,-,2020/04/03,7,Maule,71,Talca,7106,Pelarco,-
+7,7106.0,9083,-,2020/04/06,7,Maule,71,Talca,7106,Pelarco,-
+7,7106.0,9083,-,2020/03/30,7,Maule,71,Talca,7106,Pelarco,-
+7,7203.0,8092,-,2020/04/01,7,Maule,72,Cauquenes,7203,Pelluhue,-
+7,7203.0,8092,-,2020/04/10,7,Maule,72,Cauquenes,7203,Pelluhue,-
+7,7203.0,8092,-,2020/04/08,7,Maule,72,Cauquenes,7203,Pelluhue,-
+7,7203.0,8092,-,2020/04/03,7,Maule,72,Cauquenes,7203,Pelluhue,-
+7,7203.0,8092,-,2020/04/06,7,Maule,72,Cauquenes,7203,Pelluhue,-
+7,7203.0,8092,-,2020/03/30,7,Maule,72,Cauquenes,7203,Pelluhue,-
+7,7107.0,8601,-,2020/04/01,7,Maule,71,Talca,7107,Pencahue,-
+7,7107.0,8601,-,2020/04/10,7,Maule,71,Talca,7107,Pencahue,-
+7,7107.0,8601,-,2020/04/08,7,Maule,71,Talca,7107,Pencahue,-
+7,7107.0,8601,-,2020/04/03,7,Maule,71,Talca,7107,Pencahue,-
+7,7107.0,8601,-,2020/04/06,7,Maule,71,Talca,7107,Pencahue,-
+7,7107.0,8601,-,2020/03/30,7,Maule,71,Talca,7107,Pencahue,-
+7,7305.0,11248,-,2020/04/01,7,Maule,73,Curicó,7305,Rauco,-
+7,7305.0,11248,-,2020/04/10,7,Maule,73,Curicó,7305,Rauco,-
+7,7305.0,11248,-,2020/04/08,7,Maule,73,Curicó,7305,Rauco,-
+7,7305.0,11248,-,2020/04/03,7,Maule,73,Curicó,7305,Rauco,-
+7,7305.0,11248,-,2020/04/06,7,Maule,73,Curicó,7305,Rauco,-
+7,7305.0,11248,-,2020/03/30,7,Maule,73,Curicó,7305,Rauco,-
+7,7405.0,21071,-,2020/04/01,7,Maule,74,Linares,7405,Retiro,-
+7,7405.0,21071,-,2020/04/10,7,Maule,74,Linares,7405,Retiro,-
+7,7405.0,21071,-,2020/04/08,7,Maule,74,Linares,7405,Retiro,-
+7,7405.0,21071,-,2020/04/03,7,Maule,74,Linares,7405,Retiro,-
+7,7405.0,21071,-,2020/04/06,7,Maule,74,Linares,7405,Retiro,-
+7,7405.0,21071,-,2020/03/30,7,Maule,74,Linares,7405,Retiro,-
+7,7108.0,14753,-,2020/04/01,7,Maule,71,Talca,7108,Río Claro,-
+7,7108.0,14753,-,2020/04/10,7,Maule,71,Talca,7108,Río Claro,-
+7,7108.0,14753,-,2020/04/08,7,Maule,71,Talca,7108,Río Claro,-
+7,7108.0,14753,-,2020/04/03,7,Maule,71,Talca,7108,Río Claro,-
+7,7108.0,14753,-,2020/04/06,7,Maule,71,Talca,7108,Río Claro,-
+7,7108.0,14753,-,2020/03/30,7,Maule,71,Talca,7108,Río Claro,-
+7,7306.0,16170,-,2020/04/01,7,Maule,73,Curicó,7306,Romeral,-
+7,7306.0,16170,-,2020/04/10,7,Maule,73,Curicó,7306,Romeral,-
+7,7306.0,16170,-,2020/04/08,7,Maule,73,Curicó,7306,Romeral,-
+7,7306.0,16170,-,2020/04/03,7,Maule,73,Curicó,7306,Romeral,-
+7,7306.0,16170,-,2020/04/06,7,Maule,73,Curicó,7306,Romeral,-
+7,7306.0,16170,-,2020/03/30,7,Maule,73,Curicó,7306,Romeral,-
+7,7307.0,19469,-,2020/04/01,7,Maule,73,Curicó,7307,Sagrada Familia,-
+7,7307.0,19469,-,2020/04/10,7,Maule,73,Curicó,7307,Sagrada Familia,-
+7,7307.0,19469,-,2020/04/08,7,Maule,73,Curicó,7307,Sagrada Familia,-
+7,7307.0,19469,-,2020/04/03,7,Maule,73,Curicó,7307,Sagrada Familia,-
+7,7307.0,19469,-,2020/04/06,7,Maule,73,Curicó,7307,Sagrada Familia,-
+7,7307.0,19469,-,2020/03/30,7,Maule,73,Curicó,7307,Sagrada Familia,-
+7,7109.0,46292,-,2020/04/01,7,Maule,71,Talca,7109,San Clemente,-
+7,7109.0,46292,-,2020/04/10,7,Maule,71,Talca,7109,San Clemente,-
+7,7109.0,46292,-,2020/04/08,7,Maule,71,Talca,7109,San Clemente,-
+7,7109.0,46292,-,2020/04/03,7,Maule,71,Talca,7109,San Clemente,-
+7,7109.0,46292,-,2020/04/06,7,Maule,71,Talca,7109,San Clemente,-
+7,7109.0,46292,-,2020/03/30,7,Maule,71,Talca,7109,San Clemente,-
+7,7406.0,49451,-,2020/04/01,7,Maule,74,Linares,7406,San Javier,-
+7,7406.0,49451,8,2020/04/10,7,Maule,74,Linares,7406,San Javier,16.177630381589857
+7,7406.0,49451,7,2020/04/08,7,Maule,74,Linares,7406,San Javier,14.155426583891124
+7,7406.0,49451,-,2020/04/03,7,Maule,74,Linares,7406,San Javier,-
+7,7406.0,49451,7,2020/04/06,7,Maule,74,Linares,7406,San Javier,14.155426583891124
+7,7406.0,49451,-,2020/03/30,7,Maule,74,Linares,7406,San Javier,-
+7,7110.0,9959,-,2020/04/01,7,Maule,71,Talca,7110,San Rafael,-
+7,7110.0,9959,-,2020/04/10,7,Maule,71,Talca,7110,San Rafael,-
+7,7110.0,9959,-,2020/04/08,7,Maule,71,Talca,7110,San Rafael,-
+7,7110.0,9959,-,2020/04/03,7,Maule,71,Talca,7110,San Rafael,-
+7,7110.0,9959,-,2020/04/06,7,Maule,71,Talca,7110,San Rafael,-
+7,7110.0,9959,-,2020/03/30,7,Maule,71,Talca,7110,San Rafael,-
+7,7101.0,236724,37,2020/04/01,7,Maule,71,Talca,7101,Talca,15.630016390395566
+7,7101.0,236724,51,2020/04/10,7,Maule,71,Talca,7101,Talca,21.544076646220915
+7,7101.0,236724,51,2020/04/08,7,Maule,71,Talca,7101,Talca,21.544076646220915
+7,7101.0,236724,42,2020/04/03,7,Maule,71,Talca,7101,Talca,17.742180767476047
+7,7101.0,236724,48,2020/04/06,7,Maule,71,Talca,7101,Talca,20.276778019972625
+7,7101.0,236724,34,2020/03/30,7,Maule,71,Talca,7101,Talca,14.362717764147277
+7,7308.0,30850,-,2020/04/01,7,Maule,73,Curicó,7308,Teno,-
+7,7308.0,30850,-,2020/04/10,7,Maule,73,Curicó,7308,Teno,-
+7,7308.0,30850,-,2020/04/08,7,Maule,73,Curicó,7308,Teno,-
+7,7308.0,30850,-,2020/04/03,7,Maule,73,Curicó,7308,Teno,-
+7,7308.0,30850,-,2020/04/06,7,Maule,73,Curicó,7308,Teno,-
+7,7308.0,30850,-,2020/03/30,7,Maule,73,Curicó,7308,Teno,-
+7,7309.0,4381,-,2020/04/01,7,Maule,73,Curicó,7309,Vichuquén,-
+7,7309.0,4381,-,2020/04/10,7,Maule,73,Curicó,7309,Vichuquén,-
+7,7309.0,4381,-,2020/04/08,7,Maule,73,Curicó,7309,Vichuquén,-
+7,7309.0,4381,-,2020/04/03,7,Maule,73,Curicó,7309,Vichuquén,-
+7,7309.0,4381,-,2020/04/06,7,Maule,73,Curicó,7309,Vichuquén,-
+7,7309.0,4381,-,2020/03/30,7,Maule,73,Curicó,7309,Vichuquén,-
+7,7407.0,17512,-,2020/04/01,7,Maule,74,Linares,7407,Villa Alegre,-
+7,7407.0,17512,-,2020/04/10,7,Maule,74,Linares,7407,Villa Alegre,-
+7,7407.0,17512,-,2020/04/08,7,Maule,74,Linares,7407,Villa Alegre,-
+7,7407.0,17512,-,2020/04/03,7,Maule,74,Linares,7407,Villa Alegre,-
+7,7407.0,17512,-,2020/04/06,7,Maule,74,Linares,7407,Villa Alegre,-
+7,7407.0,17512,-,2020/03/30,7,Maule,74,Linares,7407,Villa Alegre,-
+7,7408.0,19200,-,2020/04/01,7,Maule,74,Linares,7408,Yerbas Buenas,-
+7,7408.0,19200,-,2020/04/10,7,Maule,74,Linares,7408,Yerbas Buenas,-
+7,7408.0,19200,-,2020/04/08,7,Maule,74,Linares,7408,Yerbas Buenas,-
+7,7408.0,19200,-,2020/04/03,7,Maule,74,Linares,7408,Yerbas Buenas,-
+7,7408.0,19200,-,2020/04/06,7,Maule,74,Linares,7408,Yerbas Buenas,-
+7,7408.0,19200,-,2020/03/30,7,Maule,74,Linares,7408,Yerbas Buenas,-
+16,16102.0,22607,18,2020/04/01,16,Ñuble,161,Diguillín,16102,Bulnes,79.6213562171009
+16,16102.0,22607,48,2020/04/10,16,Ñuble,161,Diguillín,16102,Bulnes,212.32361657893574
+16,16102.0,22607,45,2020/04/08,16,Ñuble,161,Diguillín,16102,Bulnes,199.05339054275225
+16,16102.0,22607,32,2020/04/03,16,Ñuble,161,Diguillín,16102,Bulnes,141.5490777192905
+16,16102.0,22607,36,2020/04/06,16,Ñuble,161,Diguillín,16102,Bulnes,159.2427124342018
+16,16102.0,22607,12,2020/03/30,16,Ñuble,161,Diguillín,16102,Bulnes,53.080904144733935
+16,16101.0,198624,173,2020/04/01,16,Ñuble,161,Diguillín,16101,Chillán,87.09924279039794
+16,16101.0,198624,342,2020/04/10,16,Ñuble,161,Diguillín,16101,Chillán,172.1846302561624
+16,16101.0,198624,327,2020/04/08,16,Ñuble,161,Diguillín,16101,Chillán,164.63267278878686
+16,16101.0,198624,240,2020/04/03,16,Ñuble,161,Diguillín,16101,Chillán,120.8313194780087
+16,16101.0,198624,291,2020/04/06,16,Ñuble,161,Diguillín,16101,Chillán,146.50797486708555
+16,16101.0,198624,114,2020/03/30,16,Ñuble,161,Diguillín,16101,Chillán,57.39487675205413
+16,16103.0,33827,22,2020/04/01,16,Ñuble,161,Diguillín,16103,Chillán Viejo,65.03680491914743
+16,16103.0,33827,40,2020/04/10,16,Ñuble,161,Diguillín,16103,Chillán Viejo,118.24873621663168
+16,16103.0,33827,34,2020/04/08,16,Ñuble,161,Diguillín,16103,Chillán Viejo,100.51142578413693
+16,16103.0,33827,26,2020/04/03,16,Ñuble,161,Diguillín,16103,Chillán Viejo,76.8616785408106
+16,16103.0,33827,30,2020/04/06,16,Ñuble,161,Diguillín,16103,Chillán Viejo,88.68655216247376
+16,16103.0,33827,13,2020/03/30,16,Ñuble,161,Diguillín,16103,Chillán Viejo,38.4308392704053
+16,16202.0,5275,-,2020/04/01,16,Ñuble,162,Itata,16202,Cobquecura,-
+16,16202.0,5275,-,2020/04/10,16,Ñuble,162,Itata,16202,Cobquecura,-
+16,16202.0,5275,-,2020/04/08,16,Ñuble,162,Itata,16202,Cobquecura,-
+16,16202.0,5275,-,2020/04/03,16,Ñuble,162,Itata,16202,Cobquecura,-
+16,16202.0,5275,-,2020/04/06,16,Ñuble,162,Itata,16202,Cobquecura,-
+16,16202.0,5275,-,2020/03/30,16,Ñuble,162,Itata,16202,Cobquecura,-
+16,16203.0,16845,-,2020/04/01,16,Ñuble,162,Itata,16203,Coelemu,-
+16,16203.0,16845,4,2020/04/10,16,Ñuble,162,Itata,16203,Coelemu,23.745918670228555
+16,16203.0,16845,4,2020/04/08,16,Ñuble,162,Itata,16203,Coelemu,23.745918670228555
+16,16203.0,16845,-,2020/04/03,16,Ñuble,162,Itata,16203,Coelemu,-
+16,16203.0,16845,-,2020/04/06,16,Ñuble,162,Itata,16203,Coelemu,-
+16,16203.0,16845,-,2020/03/30,16,Ñuble,162,Itata,16203,Coelemu,-
+16,16302.0,28375,-,2020/04/01,16,Ñuble,163,Punilla,16302,Coihueco,-
+16,16302.0,28375,8,2020/04/10,16,Ñuble,163,Punilla,16302,Coihueco,28.19383259911894
+16,16302.0,28375,7,2020/04/08,16,Ñuble,163,Punilla,16302,Coihueco,24.669603524229075
+16,16302.0,28375,-,2020/04/03,16,Ñuble,163,Punilla,16302,Coihueco,-
+16,16302.0,28375,6,2020/04/06,16,Ñuble,163,Punilla,16302,Coihueco,21.145374449339208
+16,16302.0,28375,-,2020/03/30,16,Ñuble,163,Punilla,16302,Coihueco,-
+16,16104.0,12334,-,2020/04/01,16,Ñuble,161,Diguillín,16104,El Carmen,-
+16,16104.0,12334,-,2020/04/10,16,Ñuble,161,Diguillín,16104,El Carmen,-
+16,16104.0,12334,-,2020/04/08,16,Ñuble,161,Diguillín,16104,El Carmen,-
+16,16104.0,12334,-,2020/04/03,16,Ñuble,161,Diguillín,16104,El Carmen,-
+16,16104.0,12334,-,2020/04/06,16,Ñuble,161,Diguillín,16104,El Carmen,-
+16,16104.0,12334,-,2020/03/30,16,Ñuble,161,Diguillín,16104,El Carmen,-
+16,16204.0,5414,-,2020/04/01,16,Ñuble,162,Itata,16204,Ninhue,-
+16,16204.0,5414,-,2020/04/10,16,Ñuble,162,Itata,16204,Ninhue,-
+16,16204.0,5414,-,2020/04/08,16,Ñuble,162,Itata,16204,Ninhue,-
+16,16204.0,5414,-,2020/04/03,16,Ñuble,162,Itata,16204,Ninhue,-
+16,16204.0,5414,-,2020/04/06,16,Ñuble,162,Itata,16204,Ninhue,-
+16,16204.0,5414,-,2020/03/30,16,Ñuble,162,Itata,16204,Ninhue,-
+16,16303.0,11567,-,2020/04/01,16,Ñuble,163,Punilla,16303,Ñiquén,-
+16,16303.0,11567,-,2020/04/10,16,Ñuble,163,Punilla,16303,Ñiquén,-
+16,16303.0,11567,-,2020/04/08,16,Ñuble,163,Punilla,16303,Ñiquén,-
+16,16303.0,11567,-,2020/04/03,16,Ñuble,163,Punilla,16303,Ñiquén,-
+16,16303.0,11567,-,2020/04/06,16,Ñuble,163,Punilla,16303,Ñiquén,-
+16,16303.0,11567,-,2020/03/30,16,Ñuble,163,Punilla,16303,Ñiquén,-
+16,16105.0,8639,-,2020/04/01,16,Ñuble,161,Diguillín,16105,Pemuco,-
+16,16105.0,8639,-,2020/04/10,16,Ñuble,161,Diguillín,16105,Pemuco,-
+16,16105.0,8639,-,2020/04/08,16,Ñuble,161,Diguillín,16105,Pemuco,-
+16,16105.0,8639,-,2020/04/03,16,Ñuble,161,Diguillín,16105,Pemuco,-
+16,16105.0,8639,-,2020/04/06,16,Ñuble,161,Diguillín,16105,Pemuco,-
+16,16105.0,8639,-,2020/03/30,16,Ñuble,161,Diguillín,16105,Pemuco,-
+16,16106.0,11880,-,2020/04/01,16,Ñuble,161,Diguillín,16106,Pinto,-
+16,16106.0,11880,10,2020/04/10,16,Ñuble,161,Diguillín,16106,Pinto,84.17508417508418
+16,16106.0,11880,10,2020/04/08,16,Ñuble,161,Diguillín,16106,Pinto,84.17508417508418
+16,16106.0,11880,6,2020/04/03,16,Ñuble,161,Diguillín,16106,Pinto,50.505050505050505
+16,16106.0,11880,9,2020/04/06,16,Ñuble,161,Diguillín,16106,Pinto,75.75757575757575
+16,16106.0,11880,-,2020/03/30,16,Ñuble,161,Diguillín,16106,Pinto,-
+16,16205.0,4940,-,2020/04/01,16,Ñuble,162,Itata,16205,Portezuelo,-
+16,16205.0,4940,-,2020/04/10,16,Ñuble,162,Itata,16205,Portezuelo,-
+16,16205.0,4940,-,2020/04/08,16,Ñuble,162,Itata,16205,Portezuelo,-
+16,16205.0,4940,-,2020/04/03,16,Ñuble,162,Itata,16205,Portezuelo,-
+16,16205.0,4940,-,2020/04/06,16,Ñuble,162,Itata,16205,Portezuelo,-
+16,16205.0,4940,-,2020/03/30,16,Ñuble,162,Itata,16205,Portezuelo,-
+16,16107.0,18777,7,2020/04/01,16,Ñuble,161,Diguillín,16107,Quillón,37.279650636416896
+16,16107.0,18777,22,2020/04/10,16,Ñuble,161,Diguillín,16107,Quillón,117.16461628588166
+16,16107.0,18777,22,2020/04/08,16,Ñuble,161,Diguillín,16107,Quillón,117.16461628588166
+16,16107.0,18777,15,2020/04/03,16,Ñuble,161,Diguillín,16107,Quillón,79.88496564946477
+16,16107.0,18777,17,2020/04/06,16,Ñuble,161,Diguillín,16107,Quillón,90.53629440272674
+16,16107.0,18777,4,2020/03/30,16,Ñuble,161,Diguillín,16107,Quillón,21.30265750652394
+16,16201.0,12192,-,2020/04/01,16,Ñuble,162,Itata,16201,Quirihue,-
+16,16201.0,12192,4,2020/04/10,16,Ñuble,162,Itata,16201,Quirihue,32.808398950131235
+16,16201.0,12192,4,2020/04/08,16,Ñuble,162,Itata,16201,Quirihue,32.808398950131235
+16,16201.0,12192,-,2020/04/03,16,Ñuble,162,Itata,16201,Quirihue,-
+16,16201.0,12192,-,2020/04/06,16,Ñuble,162,Itata,16201,Quirihue,-
+16,16201.0,12192,-,2020/03/30,16,Ñuble,162,Itata,16201,Quirihue,-
+16,16206.0,6261,-,2020/04/01,16,Ñuble,162,Itata,16206,Ranquil,-
+16,16206.0,6261,9,2020/04/10,16,Ñuble,162,Itata,16206,Ranquil,143.74700527072352
+16,16206.0,6261,9,2020/04/08,16,Ñuble,162,Itata,16206,Ranquil,143.74700527072352
+16,16206.0,6261,5,2020/04/03,16,Ñuble,162,Itata,16206,Ranquil,79.85944737262417
+16,16206.0,6261,7,2020/04/06,16,Ñuble,162,Itata,16206,Ranquil,111.80322632167385
+16,16206.0,6261,-,2020/03/30,16,Ñuble,162,Itata,16206,Ranquil,-
+16,16301.0,56252,13,2020/04/01,16,Ñuble,163,Punilla,16301,San Carlos,23.11028941193202
+16,16301.0,56252,29,2020/04/10,16,Ñuble,163,Punilla,16301,San Carlos,51.55372253430989
+16,16301.0,56252,28,2020/04/08,16,Ñuble,163,Punilla,16301,San Carlos,49.77600796416127
+16,16301.0,56252,13,2020/04/03,16,Ñuble,163,Punilla,16301,San Carlos,23.11028941193202
+16,16301.0,56252,19,2020/04/06,16,Ñuble,163,Punilla,16301,San Carlos,33.77657683282372
+16,16301.0,56252,8,2020/03/30,16,Ñuble,163,Punilla,16301,San Carlos,14.221716561188936
+16,16304.0,4654,5,2020/04/01,16,Ñuble,163,Punilla,16304,San Fabián,107.43446497636442
+16,16304.0,4654,6,2020/04/10,16,Ñuble,163,Punilla,16304,San Fabián,128.9213579716373
+16,16304.0,4654,6,2020/04/08,16,Ñuble,163,Punilla,16304,San Fabián,128.9213579716373
+16,16304.0,4654,6,2020/04/03,16,Ñuble,163,Punilla,16304,San Fabián,128.9213579716373
+16,16304.0,4654,6,2020/04/06,16,Ñuble,163,Punilla,16304,San Fabián,128.9213579716373
+16,16304.0,4654,-,2020/03/30,16,Ñuble,163,Punilla,16304,San Fabián,-
+16,16108.0,16624,-,2020/04/01,16,Ñuble,161,Diguillín,16108,San Ignacio,-
+16,16108.0,16624,6,2020/04/10,16,Ñuble,161,Diguillín,16108,San Ignacio,36.092396535129936
+16,16108.0,16624,6,2020/04/08,16,Ñuble,161,Diguillín,16108,San Ignacio,36.092396535129936
+16,16108.0,16624,-,2020/04/03,16,Ñuble,161,Diguillín,16108,San Ignacio,-
+16,16108.0,16624,6,2020/04/06,16,Ñuble,161,Diguillín,16108,San Ignacio,36.092396535129936
+16,16108.0,16624,-,2020/03/30,16,Ñuble,161,Diguillín,16108,San Ignacio,-
+16,16305.0,12172,-,2020/04/01,16,Ñuble,163,Punilla,16305,San Nicolás,-
+16,16305.0,12172,12,2020/04/10,16,Ñuble,163,Punilla,16305,San Nicolás,98.5869208018403
+16,16305.0,12172,11,2020/04/08,16,Ñuble,163,Punilla,16305,San Nicolás,90.3713440683536
+16,16305.0,12172,4,2020/04/03,16,Ñuble,163,Punilla,16305,San Nicolás,32.86230693394676
+16,16305.0,12172,10,2020/04/06,16,Ñuble,163,Punilla,16305,San Nicolás,82.15576733486691
+16,16305.0,12172,-,2020/03/30,16,Ñuble,163,Punilla,16305,San Nicolás,-
+16,16207.0,5696,-,2020/04/01,16,Ñuble,162,Itata,16207,Treguaco,-
+16,16207.0,5696,-,2020/04/10,16,Ñuble,162,Itata,16207,Treguaco,-
+16,16207.0,5696,-,2020/04/08,16,Ñuble,162,Itata,16207,Treguaco,-
+16,16207.0,5696,-,2020/04/03,16,Ñuble,162,Itata,16207,Treguaco,-
+16,16207.0,5696,-,2020/04/06,16,Ñuble,162,Itata,16207,Treguaco,-
+16,16207.0,5696,-,2020/03/30,16,Ñuble,162,Itata,16207,Treguaco,-
+16,16109.0,18596,7,2020/04/01,16,Ñuble,161,Diguillín,16109,Yungay,37.64250376425038
+16,16109.0,18596,38,2020/04/10,16,Ñuble,161,Diguillín,16109,Yungay,204.34502043450203
+16,16109.0,18596,37,2020/04/08,16,Ñuble,161,Diguillín,16109,Yungay,198.96751989675198
+16,16109.0,18596,10,2020/04/03,16,Ñuble,161,Diguillín,16109,Yungay,53.77500537750054
+16,16109.0,18596,26,2020/04/06,16,Ñuble,161,Diguillín,16109,Yungay,139.8150139815014
+16,16109.0,18596,-,2020/03/30,16,Ñuble,161,Diguillín,16109,Yungay,-
+8,8314.0,6775,-,2020/04/01,8,Biobío,83,Biobío,8314,Alto Biobío,-
+8,8314.0,6775,-,2020/04/10,8,Biobío,83,Biobío,8314,Alto Biobío,-
+8,8314.0,6775,-,2020/04/08,8,Biobío,83,Biobío,8314,Alto Biobío,-
+8,8314.0,6775,-,2020/04/03,8,Biobío,83,Biobío,8314,Alto Biobío,-
+8,8314.0,6775,-,2020/04/06,8,Biobío,83,Biobío,8314,Alto Biobío,-
+8,8314.0,6775,-,2020/03/30,8,Biobío,83,Biobío,8314,Alto Biobío,-
+8,8302.0,4306,-,2020/04/01,8,Biobío,83,Biobío,8302,Antuco,-
+8,8302.0,4306,-,2020/04/10,8,Biobío,83,Biobío,8302,Antuco,-
+8,8302.0,4306,-,2020/04/08,8,Biobío,83,Biobío,8302,Antuco,-
+8,8302.0,4306,-,2020/04/03,8,Biobío,83,Biobío,8302,Antuco,-
+8,8302.0,4306,-,2020/04/06,8,Biobío,83,Biobío,8302,Antuco,-
+8,8302.0,4306,-,2020/03/30,8,Biobío,83,Biobío,8302,Antuco,-
+8,8202.0,38679,5,2020/04/01,8,Biobío,82,Arauco,8202,Arauco,12.9269112438274
+8,8202.0,38679,6,2020/04/10,8,Biobío,82,Arauco,8202,Arauco,15.51229349259288
+8,8202.0,38679,6,2020/04/08,8,Biobío,82,Arauco,8202,Arauco,15.51229349259288
+8,8202.0,38679,6,2020/04/03,8,Biobío,82,Arauco,8202,Arauco,15.51229349259288
+8,8202.0,38679,6,2020/04/06,8,Biobío,82,Arauco,8202,Arauco,15.51229349259288
+8,8202.0,38679,-,2020/03/30,8,Biobío,82,Arauco,8202,Arauco,-
+8,8303.0,30725,-,2020/04/01,8,Biobío,83,Biobío,8303,Cabrero,-
+8,8303.0,30725,4,2020/04/10,8,Biobío,83,Biobío,8303,Cabrero,13.018714401952808
+8,8303.0,30725,-,2020/04/08,8,Biobío,83,Biobío,8303,Cabrero,-
+8,8303.0,30725,-,2020/04/03,8,Biobío,83,Biobío,8303,Cabrero,-
+8,8303.0,30725,-,2020/04/06,8,Biobío,83,Biobío,8303,Cabrero,-
+8,8303.0,30725,-,2020/03/30,8,Biobío,83,Biobío,8303,Cabrero,-
+8,8203.0,37003,-,2020/04/01,8,Biobío,82,Arauco,8203,Cañete,-
+8,8203.0,37003,-,2020/04/10,8,Biobío,82,Arauco,8203,Cañete,-
+8,8203.0,37003,-,2020/04/08,8,Biobío,82,Arauco,8203,Cañete,-
+8,8203.0,37003,-,2020/04/03,8,Biobío,82,Arauco,8203,Cañete,-
+8,8203.0,37003,-,2020/04/06,8,Biobío,82,Arauco,8203,Cañete,-
+8,8203.0,37003,-,2020/03/30,8,Biobío,82,Arauco,8203,Cañete,-
+8,8103.0,91180,18,2020/04/01,8,Biobío,81,Concepción,8103,Chiguayante,19.741171309497698
+8,8103.0,91180,40,2020/04/10,8,Biobío,81,Concepción,8103,Chiguayante,43.86926957666155
+8,8103.0,91180,35,2020/04/08,8,Biobío,81,Concepción,8103,Chiguayante,38.385610879578856
+8,8103.0,91180,26,2020/04/03,8,Biobío,81,Concepción,8103,Chiguayante,28.515025224830005
+8,8103.0,91180,32,2020/04/06,8,Biobío,81,Concepción,8103,Chiguayante,35.09541566132924
+8,8103.0,91180,6,2020/03/30,8,Biobío,81,Concepción,8103,Chiguayante,6.580390436499233
+8,8101.0,238092,47,2020/04/01,8,Biobío,81,Concepción,8101,Concepción,19.74026846765116
+8,8101.0,238092,81,2020/04/10,8,Biobío,81,Concepción,8101,Concepción,34.020462678292425
+8,8101.0,238092,73,2020/04/08,8,Biobío,81,Concepción,8101,Concepción,30.660416981670952
+8,8101.0,238092,53,2020/04/03,8,Biobío,81,Concepción,8101,Concepción,22.260302740117265
+8,8101.0,238092,70,2020/04/06,8,Biobío,81,Concepción,8101,Concepción,29.4003998454379
+8,8101.0,238092,28,2020/03/30,8,Biobío,81,Concepción,8101,Concepción,11.760159938175159
+8,8204.0,6330,-,2020/04/01,8,Biobío,82,Arauco,8204,Contulmo,-
+8,8204.0,6330,-,2020/04/10,8,Biobío,82,Arauco,8204,Contulmo,-
+8,8204.0,6330,-,2020/04/08,8,Biobío,82,Arauco,8204,Contulmo,-
+8,8204.0,6330,-,2020/04/03,8,Biobío,82,Arauco,8204,Contulmo,-
+8,8204.0,6330,-,2020/04/06,8,Biobío,82,Arauco,8204,Contulmo,-
+8,8204.0,6330,-,2020/03/30,8,Biobío,82,Arauco,8204,Contulmo,-
+8,8102.0,125829,11,2020/04/01,8,Biobío,81,Concepción,8102,Coronel,8.74202290410001
+8,8102.0,125829,18,2020/04/10,8,Biobío,81,Concepción,8102,Coronel,14.305128388527287
+8,8102.0,125829,18,2020/04/08,8,Biobío,81,Concepción,8102,Coronel,14.305128388527287
+8,8102.0,125829,12,2020/04/03,8,Biobío,81,Concepción,8102,Coronel,9.536752259018192
+8,8102.0,125829,13,2020/04/06,8,Biobío,81,Concepción,8102,Coronel,10.331481613936374
+8,8102.0,125829,-,2020/03/30,8,Biobío,81,Concepción,8102,Coronel,-
+8,8205.0,33892,-,2020/04/01,8,Biobío,82,Arauco,8205,Curanilahue,-
+8,8205.0,33892,-,2020/04/10,8,Biobío,82,Arauco,8205,Curanilahue,-
+8,8205.0,33892,-,2020/04/08,8,Biobío,82,Arauco,8205,Curanilahue,-
+8,8205.0,33892,-,2020/04/03,8,Biobío,82,Arauco,8205,Curanilahue,-
+8,8205.0,33892,-,2020/04/06,8,Biobío,82,Arauco,8205,Curanilahue,-
+8,8205.0,33892,-,2020/03/30,8,Biobío,82,Arauco,8205,Curanilahue,-
+8,8104.0,11841,-,2020/04/01,8,Biobío,81,Concepción,8104,Florida,-
+8,8104.0,11841,-,2020/04/10,8,Biobío,81,Concepción,8104,Florida,-
+8,8104.0,11841,-,2020/04/08,8,Biobío,81,Concepción,8104,Florida,-
+8,8104.0,11841,-,2020/04/03,8,Biobío,81,Concepción,8104,Florida,-
+8,8104.0,11841,-,2020/04/06,8,Biobío,81,Concepción,8104,Florida,-
+8,8104.0,11841,-,2020/03/30,8,Biobío,81,Concepción,8104,Florida,-
+8,8112.0,97273,39,2020/04/01,8,Biobío,81,Concepción,8112,Hualpén,40.093345532676075
+8,8112.0,97273,83,2020/04/10,8,Biobío,81,Concepción,8112,Hualpén,85.32686356954139
+8,8112.0,97273,74,2020/04/08,8,Biobío,81,Concepción,8112,Hualpén,76.07455306200076
+8,8112.0,97273,50,2020/04/03,8,Biobío,81,Concepción,8112,Hualpén,51.401725041892405
+8,8112.0,97273,67,2020/04/06,8,Biobío,81,Concepción,8112,Hualpén,68.87831155613583
+8,8112.0,97273,-,2020/03/30,8,Biobío,81,Concepción,8112,Hualpén,-
+8,8105.0,26201,-,2020/04/01,8,Biobío,81,Concepción,8105,Hualqui,-
+8,8105.0,26201,7,2020/04/10,8,Biobío,81,Concepción,8105,Hualqui,26.71653753673524
+8,8105.0,26201,7,2020/04/08,8,Biobío,81,Concepción,8105,Hualqui,26.71653753673524
+8,8105.0,26201,-,2020/04/03,8,Biobío,81,Concepción,8105,Hualqui,-
+8,8105.0,26201,7,2020/04/06,8,Biobío,81,Concepción,8105,Hualqui,26.71653753673524
+8,8105.0,26201,-,2020/03/30,8,Biobío,81,Concepción,8105,Hualqui,-
+8,8304.0,23873,-,2020/04/01,8,Biobío,83,Biobío,8304,Laja,-
+8,8304.0,23873,5,2020/04/10,8,Biobío,83,Biobío,8304,Laja,20.944162861810412
+8,8304.0,23873,5,2020/04/08,8,Biobío,83,Biobío,8304,Laja,20.944162861810412
+8,8304.0,23873,-,2020/04/03,8,Biobío,83,Biobío,8304,Laja,-
+8,8304.0,23873,5,2020/04/06,8,Biobío,83,Biobío,8304,Laja,20.944162861810412
+8,8304.0,23873,-,2020/03/30,8,Biobío,83,Biobío,8304,Laja,-
+8,8201.0,27100,-,2020/04/01,8,Biobío,82,Arauco,8201,Lebu,-
+8,8201.0,27100,-,2020/04/10,8,Biobío,82,Arauco,8201,Lebu,-
+8,8201.0,27100,-,2020/04/08,8,Biobío,82,Arauco,8201,Lebu,-
+8,8201.0,27100,-,2020/04/03,8,Biobío,82,Arauco,8201,Lebu,-
+8,8201.0,27100,-,2020/04/06,8,Biobío,82,Arauco,8201,Lebu,-
+8,8201.0,27100,-,2020/03/30,8,Biobío,82,Arauco,8201,Lebu,-
+8,8206.0,22524,-,2020/04/01,8,Biobío,82,Arauco,8206,Los Alamos,-
+8,8206.0,22524,-,2020/04/10,8,Biobío,82,Arauco,8206,Los Alamos,-
+8,8206.0,22524,-,2020/04/08,8,Biobío,82,Arauco,8206,Los Alamos,-
+8,8206.0,22524,-,2020/04/03,8,Biobío,82,Arauco,8206,Los Alamos,-
+8,8206.0,22524,-,2020/04/06,8,Biobío,82,Arauco,8206,Los Alamos,-
+8,8206.0,22524,-,2020/03/30,8,Biobío,82,Arauco,8206,Los Alamos,-
+8,8301.0,218515,15,2020/04/01,8,Biobío,83,Biobío,8301,Los Angeles,6.864517310024484
+8,8301.0,218515,22,2020/04/10,8,Biobío,83,Biobío,8301,Los Angeles,10.067958721369243
+8,8301.0,218515,22,2020/04/08,8,Biobío,83,Biobío,8301,Los Angeles,10.067958721369243
+8,8301.0,218515,12,2020/04/03,8,Biobío,83,Biobío,8301,Los Angeles,5.491613848019587
+8,8301.0,218515,17,2020/04/06,8,Biobío,83,Biobío,8301,Los Angeles,7.779786284694414
+8,8301.0,218515,11,2020/03/30,8,Biobío,83,Biobío,8301,Los Angeles,5.033979360684621
+8,8106.0,45750,-,2020/04/01,8,Biobío,81,Concepción,8106,Lota,-
+8,8106.0,45750,-,2020/04/10,8,Biobío,81,Concepción,8106,Lota,-
+8,8106.0,45750,-,2020/04/08,8,Biobío,81,Concepción,8106,Lota,-
+8,8106.0,45750,-,2020/04/03,8,Biobío,81,Concepción,8106,Lota,-
+8,8106.0,45750,-,2020/04/06,8,Biobío,81,Concepción,8106,Lota,-
+8,8106.0,45750,-,2020/03/30,8,Biobío,81,Concepción,8106,Lota,-
+8,8305.0,31041,5,2020/04/01,8,Biobío,83,Biobío,8305,Mulchén,16.107728488128604
+8,8305.0,31041,5,2020/04/10,8,Biobío,83,Biobío,8305,Mulchén,16.107728488128604
+8,8305.0,31041,5,2020/04/08,8,Biobío,83,Biobío,8305,Mulchén,16.107728488128604
+8,8305.0,31041,5,2020/04/03,8,Biobío,83,Biobío,8305,Mulchén,16.107728488128604
+8,8305.0,31041,5,2020/04/06,8,Biobío,83,Biobío,8305,Mulchén,16.107728488128604
+8,8305.0,31041,-,2020/03/30,8,Biobío,83,Biobío,8305,Mulchén,-
+8,8306.0,27944,-,2020/04/01,8,Biobío,83,Biobío,8306,Nacimiento,-
+8,8306.0,27944,5,2020/04/10,8,Biobío,83,Biobío,8306,Nacimiento,17.892928714572
+8,8306.0,27944,4,2020/04/08,8,Biobío,83,Biobío,8306,Nacimiento,14.3143429716576
+8,8306.0,27944,-,2020/04/03,8,Biobío,83,Biobío,8306,Nacimiento,-
+8,8306.0,27944,-,2020/04/06,8,Biobío,83,Biobío,8306,Nacimiento,-
+8,8306.0,27944,-,2020/03/30,8,Biobío,83,Biobío,8306,Nacimiento,-
+8,8307.0,10429,-,2020/04/01,8,Biobío,83,Biobío,8307,Negrete,-
+8,8307.0,10429,-,2020/04/10,8,Biobío,83,Biobío,8307,Negrete,-
+8,8307.0,10429,-,2020/04/08,8,Biobío,83,Biobío,8307,Negrete,-
+8,8307.0,10429,-,2020/04/03,8,Biobío,83,Biobío,8307,Negrete,-
+8,8307.0,10429,-,2020/04/06,8,Biobío,83,Biobío,8307,Negrete,-
+8,8307.0,10429,-,2020/03/30,8,Biobío,83,Biobío,8307,Negrete,-
+8,8107.0,49865,-,2020/04/01,8,Biobío,81,Concepción,8107,Penco,-
+8,8107.0,49865,5,2020/04/10,8,Biobío,81,Concepción,8107,Penco,10.02707309736288
+8,8107.0,49865,5,2020/04/08,8,Biobío,81,Concepción,8107,Penco,10.02707309736288
+8,8107.0,49865,-,2020/04/03,8,Biobío,81,Concepción,8107,Penco,-
+8,8107.0,49865,5,2020/04/06,8,Biobío,81,Concepción,8107,Penco,10.02707309736288
+8,8107.0,49865,-,2020/03/30,8,Biobío,81,Concepción,8107,Penco,-
+8,8308.0,4179,-,2020/04/01,8,Biobío,83,Biobío,8308,Quilaco,-
+8,8308.0,4179,-,2020/04/10,8,Biobío,83,Biobío,8308,Quilaco,-
+8,8308.0,4179,-,2020/04/08,8,Biobío,83,Biobío,8308,Quilaco,-
+8,8308.0,4179,-,2020/04/03,8,Biobío,83,Biobío,8308,Quilaco,-
+8,8308.0,4179,-,2020/04/06,8,Biobío,83,Biobío,8308,Quilaco,-
+8,8308.0,4179,-,2020/03/30,8,Biobío,83,Biobío,8308,Quilaco,-
+8,8309.0,10032,-,2020/04/01,8,Biobío,83,Biobío,8309,Quilleco,-
+8,8309.0,10032,-,2020/04/10,8,Biobío,83,Biobío,8309,Quilleco,-
+8,8309.0,10032,-,2020/04/08,8,Biobío,83,Biobío,8309,Quilleco,-
+8,8309.0,10032,-,2020/04/03,8,Biobío,83,Biobío,8309,Quilleco,-
+8,8309.0,10032,-,2020/04/06,8,Biobío,83,Biobío,8309,Quilleco,-
+8,8309.0,10032,-,2020/03/30,8,Biobío,83,Biobío,8309,Quilleco,-
+8,8108.0,145906,50,2020/04/01,8,Biobío,81,Concepción,8108,San Pedro de la Paz,34.26863871259578
+8,8108.0,145906,73,2020/04/10,8,Biobío,81,Concepción,8108,San Pedro de la Paz,50.03221252038984
+8,8108.0,145906,71,2020/04/08,8,Biobío,81,Concepción,8108,San Pedro de la Paz,48.66146697188601
+8,8108.0,145906,56,2020/04/03,8,Biobío,81,Concepción,8108,San Pedro de la Paz,38.380875358107275
+8,8108.0,145906,63,2020/04/06,8,Biobío,81,Concepción,8108,San Pedro de la Paz,43.178484777870686
+8,8108.0,145906,18,2020/03/30,8,Biobío,81,Concepción,8108,San Pedro de la Paz,12.336709936534481
+8,8310.0,3611,-,2020/04/01,8,Biobío,83,Biobío,8310,San Rosendo,-
+8,8310.0,3611,-,2020/04/10,8,Biobío,83,Biobío,8310,San Rosendo,-
+8,8310.0,3611,-,2020/04/08,8,Biobío,83,Biobío,8310,San Rosendo,-
+8,8310.0,3611,-,2020/04/03,8,Biobío,83,Biobío,8310,San Rosendo,-
+8,8310.0,3611,-,2020/04/06,8,Biobío,83,Biobío,8310,San Rosendo,-
+8,8310.0,3611,-,2020/03/30,8,Biobío,83,Biobío,8310,San Rosendo,-
+8,8311.0,14592,-,2020/04/01,8,Biobío,83,Biobío,8311,Santa Bárbara,-
+8,8311.0,14592,-,2020/04/10,8,Biobío,83,Biobío,8311,Santa Bárbara,-
+8,8311.0,14592,-,2020/04/08,8,Biobío,83,Biobío,8311,Santa Bárbara,-
+8,8311.0,14592,-,2020/04/03,8,Biobío,83,Biobío,8311,Santa Bárbara,-
+8,8311.0,14592,-,2020/04/06,8,Biobío,83,Biobío,8311,Santa Bárbara,-
+8,8311.0,14592,-,2020/03/30,8,Biobío,83,Biobío,8311,Santa Bárbara,-
+8,8109.0,14779,-,2020/04/01,8,Biobío,81,Concepción,8109,Santa Juana,-
+8,8109.0,14779,-,2020/04/10,8,Biobío,81,Concepción,8109,Santa Juana,-
+8,8109.0,14779,-,2020/04/08,8,Biobío,81,Concepción,8109,Santa Juana,-
+8,8109.0,14779,-,2020/04/03,8,Biobío,81,Concepción,8109,Santa Juana,-
+8,8109.0,14779,-,2020/04/06,8,Biobío,81,Concepción,8109,Santa Juana,-
+8,8109.0,14779,-,2020/03/30,8,Biobío,81,Concepción,8109,Santa Juana,-
+8,8110.0,158345,23,2020/04/01,8,Biobío,81,Concepción,8110,Talcahuano,14.52524550822571
+8,8110.0,158345,46,2020/04/10,8,Biobío,81,Concepción,8110,Talcahuano,29.05049101645142
+8,8110.0,158345,45,2020/04/08,8,Biobío,81,Concepción,8110,Talcahuano,28.418958603050303
+8,8110.0,158345,29,2020/04/03,8,Biobío,81,Concepción,8110,Talcahuano,18.314439988632415
+8,8110.0,158345,36,2020/04/06,8,Biobío,81,Concepción,8110,Talcahuano,22.73516688244024
+8,8110.0,158345,-,2020/03/30,8,Biobío,81,Concepción,8110,Talcahuano,-
+8,8207.0,11019,-,2020/04/01,8,Biobío,82,Arauco,8207,Tirúa,-
+8,8207.0,11019,4,2020/04/10,8,Biobío,82,Arauco,8207,Tirúa,36.30093474906979
+8,8207.0,11019,4,2020/04/08,8,Biobío,82,Arauco,8207,Tirúa,36.30093474906979
+8,8207.0,11019,-,2020/04/03,8,Biobío,82,Arauco,8207,Tirúa,-
+8,8207.0,11019,4,2020/04/06,8,Biobío,82,Arauco,8207,Tirúa,36.30093474906979
+8,8207.0,11019,-,2020/03/30,8,Biobío,82,Arauco,8207,Tirúa,-
+8,8111.0,58729,6,2020/04/01,8,Biobío,81,Concepción,8111,Tomé,10.216417783377889
+8,8111.0,58729,30,2020/04/10,8,Biobío,81,Concepción,8111,Tomé,51.08208891688944
+8,8111.0,58729,30,2020/04/08,8,Biobío,81,Concepción,8111,Tomé,51.08208891688944
+8,8111.0,58729,9,2020/04/03,8,Biobío,81,Concepción,8111,Tomé,15.324626675066833
+8,8111.0,58729,25,2020/04/06,8,Biobío,81,Concepción,8111,Tomé,42.5684074307412
+8,8111.0,58729,4,2020/03/30,8,Biobío,81,Concepción,8111,Tomé,6.810945188918592
+8,8312.0,15205,-,2020/04/01,8,Biobío,83,Biobío,8312,Tucapel,-
+8,8312.0,15205,-,2020/04/10,8,Biobío,83,Biobío,8312,Tucapel,-
+8,8312.0,15205,-,2020/04/08,8,Biobío,83,Biobío,8312,Tucapel,-
+8,8312.0,15205,-,2020/04/03,8,Biobío,83,Biobío,8312,Tucapel,-
+8,8312.0,15205,-,2020/04/06,8,Biobío,83,Biobío,8312,Tucapel,-
+8,8312.0,15205,-,2020/03/30,8,Biobío,83,Biobío,8312,Tucapel,-
+8,8313.0,22132,5,2020/04/01,8,Biobío,83,Biobío,8313,Yumbel,22.591722392915237
+8,8313.0,22132,5,2020/04/10,8,Biobío,83,Biobío,8313,Yumbel,22.591722392915237
+8,8313.0,22132,5,2020/04/08,8,Biobío,83,Biobío,8313,Yumbel,22.591722392915237
+8,8313.0,22132,5,2020/04/03,8,Biobío,83,Biobío,8313,Yumbel,22.591722392915237
+8,8313.0,22132,5,2020/04/06,8,Biobío,83,Biobío,8313,Yumbel,22.591722392915237
+8,8313.0,22132,5,2020/03/30,8,Biobío,83,Biobío,8313,Yumbel,22.591722392915237
+9,9201.0,56058,13,2020/04/01,9,La Araucanía,92,Malleco,9201,Angol,23.19026722323308
+9,9201.0,56058,24,2020/04/10,9,La Araucanía,92,Malleco,9201,Angol,42.81280102750723
+9,9201.0,56058,23,2020/04/08,9,La Araucanía,92,Malleco,9201,Angol,41.02893431802776
+9,9201.0,56058,12,2020/04/03,9,La Araucanía,92,Malleco,9201,Angol,21.406400513753614
+9,9201.0,56058,15,2020/04/06,9,La Araucanía,92,Malleco,9201,Angol,26.758000642192016
+9,9201.0,56058,7,2020/03/30,9,La Araucanía,92,Malleco,9201,Angol,12.487066966356274
+9,9102.0,25486,-,2020/04/01,9,La Araucanía,91,Cautín,9102,Carahue,-
+9,9102.0,25486,6,2020/04/10,9,La Araucanía,91,Cautín,9102,Carahue,23.542336969316487
+9,9102.0,25486,6,2020/04/08,9,La Araucanía,91,Cautín,9102,Carahue,23.542336969316487
+9,9102.0,25486,-,2020/04/03,9,La Araucanía,91,Cautín,9102,Carahue,-
+9,9102.0,25486,-,2020/04/06,9,La Araucanía,91,Cautín,9102,Carahue,-
+9,9102.0,25486,-,2020/03/30,9,La Araucanía,91,Cautín,9102,Carahue,-
+9,9121.0,12341,-,2020/04/01,9,La Araucanía,91,Cautín,9121,Cholchol,-
+9,9121.0,12341,4,2020/04/10,9,La Araucanía,91,Cautín,9121,Cholchol,32.41228425573292
+9,9121.0,12341,-,2020/04/08,9,La Araucanía,91,Cautín,9121,Cholchol,-
+9,9121.0,12341,-,2020/04/03,9,La Araucanía,91,Cautín,9121,Cholchol,-
+9,9121.0,12341,-,2020/04/06,9,La Araucanía,91,Cautín,9121,Cholchol,-
+9,9121.0,12341,-,2020/03/30,9,La Araucanía,91,Cautín,9121,Cholchol,-
+9,9202.0,26148,-,2020/04/01,9,La Araucanía,92,Malleco,9202,Collipulli,-
+9,9202.0,26148,-,2020/04/10,9,La Araucanía,92,Malleco,9202,Collipulli,-
+9,9202.0,26148,-,2020/04/08,9,La Araucanía,92,Malleco,9202,Collipulli,-
+9,9202.0,26148,-,2020/04/03,9,La Araucanía,92,Malleco,9202,Collipulli,-
+9,9202.0,26148,-,2020/04/06,9,La Araucanía,92,Malleco,9202,Collipulli,-
+9,9202.0,26148,-,2020/03/30,9,La Araucanía,92,Malleco,9202,Collipulli,-
+9,9103.0,18055,-,2020/04/01,9,La Araucanía,91,Cautín,9103,Cunco,-
+9,9103.0,18055,5,2020/04/10,9,La Araucanía,91,Cautín,9103,Cunco,27.693159789531986
+9,9103.0,18055,5,2020/04/08,9,La Araucanía,91,Cautín,9103,Cunco,27.693159789531986
+9,9103.0,18055,-,2020/04/03,9,La Araucanía,91,Cautín,9103,Cunco,-
+9,9103.0,18055,5,2020/04/06,9,La Araucanía,91,Cautín,9103,Cunco,27.693159789531986
+9,9103.0,18055,-,2020/03/30,9,La Araucanía,91,Cautín,9103,Cunco,-
+9,9203.0,18178,-,2020/04/01,9,La Araucanía,92,Malleco,9203,Curacautín,-
+9,9203.0,18178,5,2020/04/10,9,La Araucanía,92,Malleco,9203,Curacautín,27.50577621300473
+9,9203.0,18178,-,2020/04/08,9,La Araucanía,92,Malleco,9203,Curacautín,-
+9,9203.0,18178,-,2020/04/03,9,La Araucanía,92,Malleco,9203,Curacautín,-
+9,9203.0,18178,-,2020/04/06,9,La Araucanía,92,Malleco,9203,Curacautín,-
+9,9203.0,18178,-,2020/03/30,9,La Araucanía,92,Malleco,9203,Curacautín,-
+9,9104.0,7802,-,2020/04/01,9,La Araucanía,91,Cautín,9104,Curarrehue,-
+9,9104.0,7802,4,2020/04/10,9,La Araucanía,91,Cautín,9104,Curarrehue,51.26890540886952
+9,9104.0,7802,4,2020/04/08,9,La Araucanía,91,Cautín,9104,Curarrehue,51.26890540886952
+9,9104.0,7802,-,2020/04/03,9,La Araucanía,91,Cautín,9104,Curarrehue,-
+9,9104.0,7802,-,2020/04/06,9,La Araucanía,91,Cautín,9104,Curarrehue,-
+9,9104.0,7802,-,2020/03/30,9,La Araucanía,91,Cautín,9104,Curarrehue,-
+9,9204.0,8458,-,2020/04/01,9,La Araucanía,92,Malleco,9204,Ercilla,-
+9,9204.0,8458,-,2020/04/10,9,La Araucanía,92,Malleco,9204,Ercilla,-
+9,9204.0,8458,-,2020/04/08,9,La Araucanía,92,Malleco,9204,Ercilla,-
+9,9204.0,8458,-,2020/04/03,9,La Araucanía,92,Malleco,9204,Ercilla,-
+9,9204.0,8458,-,2020/04/06,9,La Araucanía,92,Malleco,9204,Ercilla,-
+9,9204.0,8458,-,2020/03/30,9,La Araucanía,92,Malleco,9204,Ercilla,-
+9,9105.0,25446,-,2020/04/01,9,La Araucanía,91,Cautín,9105,Freire,-
+9,9105.0,25446,5,2020/04/10,9,La Araucanía,91,Cautín,9105,Freire,19.649453745185884
+9,9105.0,25446,5,2020/04/08,9,La Araucanía,91,Cautín,9105,Freire,19.649453745185884
+9,9105.0,25446,5,2020/04/03,9,La Araucanía,91,Cautín,9105,Freire,19.649453745185884
+9,9105.0,25446,5,2020/04/06,9,La Araucanía,91,Cautín,9105,Freire,19.649453745185884
+9,9105.0,25446,-,2020/03/30,9,La Araucanía,91,Cautín,9105,Freire,-
+9,9106.0,12633,-,2020/04/01,9,La Araucanía,91,Cautín,9106,Galvarino,-
+9,9106.0,12633,-,2020/04/10,9,La Araucanía,91,Cautín,9106,Galvarino,-
+9,9106.0,12633,-,2020/04/08,9,La Araucanía,91,Cautín,9106,Galvarino,-
+9,9106.0,12633,-,2020/04/03,9,La Araucanía,91,Cautín,9106,Galvarino,-
+9,9106.0,12633,-,2020/04/06,9,La Araucanía,91,Cautín,9106,Galvarino,-
+9,9106.0,12633,-,2020/03/30,9,La Araucanía,91,Cautín,9106,Galvarino,-
+9,9107.0,15148,6,2020/04/01,9,La Araucanía,91,Cautín,9107,Gorbea,39.60918933192501
+9,9107.0,15148,10,2020/04/10,9,La Araucanía,91,Cautín,9107,Gorbea,66.01531555320834
+9,9107.0,15148,10,2020/04/08,9,La Araucanía,91,Cautín,9107,Gorbea,66.01531555320834
+9,9107.0,15148,7,2020/04/03,9,La Araucanía,91,Cautín,9107,Gorbea,46.21072088724584
+9,9107.0,15148,10,2020/04/06,9,La Araucanía,91,Cautín,9107,Gorbea,66.01531555320834
+9,9107.0,15148,4,2020/03/30,9,La Araucanía,91,Cautín,9107,Gorbea,26.406126221283337
+9,9108.0,40746,8,2020/04/01,9,La Araucanía,91,Cautín,9108,Lautaro,19.633829087517793
+9,9108.0,40746,19,2020/04/10,9,La Araucanía,91,Cautín,9108,Lautaro,46.63034408285476
+9,9108.0,40746,19,2020/04/08,9,La Araucanía,91,Cautín,9108,Lautaro,46.63034408285476
+9,9108.0,40746,10,2020/04/03,9,La Araucanía,91,Cautín,9108,Lautaro,24.54228635939724
+9,9108.0,40746,16,2020/04/06,9,La Araucanía,91,Cautín,9108,Lautaro,39.267658175035585
+9,9108.0,40746,-,2020/03/30,9,La Araucanía,91,Cautín,9108,Lautaro,-
+9,9109.0,24739,-,2020/04/01,9,La Araucanía,91,Cautín,9109,Loncoche,-
+9,9109.0,24739,6,2020/04/10,9,La Araucanía,91,Cautín,9109,Loncoche,24.253203443954888
+9,9109.0,24739,6,2020/04/08,9,La Araucanía,91,Cautín,9109,Loncoche,24.253203443954888
+9,9109.0,24739,4,2020/04/03,9,La Araucanía,91,Cautín,9109,Loncoche,16.168802295969925
+9,9109.0,24739,4,2020/04/06,9,La Araucanía,91,Cautín,9109,Loncoche,16.168802295969925
+9,9109.0,24739,-,2020/03/30,9,La Araucanía,91,Cautín,9109,Loncoche,-
+9,9205.0,11049,-,2020/04/01,9,La Araucanía,92,Malleco,9205,Lonquimay,-
+9,9205.0,11049,-,2020/04/10,9,La Araucanía,92,Malleco,9205,Lonquimay,-
+9,9205.0,11049,-,2020/04/08,9,La Araucanía,92,Malleco,9205,Lonquimay,-
+9,9205.0,11049,-,2020/04/03,9,La Araucanía,92,Malleco,9205,Lonquimay,-
+9,9205.0,11049,-,2020/04/06,9,La Araucanía,92,Malleco,9205,Lonquimay,-
+9,9205.0,11049,-,2020/03/30,9,La Araucanía,92,Malleco,9205,Lonquimay,-
+9,9206.0,7517,-,2020/04/01,9,La Araucanía,92,Malleco,9206,Los Sauces,-
+9,9206.0,7517,-,2020/04/10,9,La Araucanía,92,Malleco,9206,Los Sauces,-
+9,9206.0,7517,-,2020/04/08,9,La Araucanía,92,Malleco,9206,Los Sauces,-
+9,9206.0,7517,-,2020/04/03,9,La Araucanía,92,Malleco,9206,Los Sauces,-
+9,9206.0,7517,-,2020/04/06,9,La Araucanía,92,Malleco,9206,Los Sauces,-
+9,9206.0,7517,-,2020/03/30,9,La Araucanía,92,Malleco,9206,Los Sauces,-
+9,9207.0,10050,-,2020/04/01,9,La Araucanía,92,Malleco,9207,Lumaco,-
+9,9207.0,10050,-,2020/04/10,9,La Araucanía,92,Malleco,9207,Lumaco,-
+9,9207.0,10050,-,2020/04/08,9,La Araucanía,92,Malleco,9207,Lumaco,-
+9,9207.0,10050,-,2020/04/03,9,La Araucanía,92,Malleco,9207,Lumaco,-
+9,9207.0,10050,-,2020/04/06,9,La Araucanía,92,Malleco,9207,Lumaco,-
+9,9207.0,10050,-,2020/03/30,9,La Araucanía,92,Malleco,9207,Lumaco,-
+9,9110.0,6265,-,2020/04/01,9,La Araucanía,91,Cautín,9110,Melipeuco,-
+9,9110.0,6265,-,2020/04/10,9,La Araucanía,91,Cautín,9110,Melipeuco,-
+9,9110.0,6265,-,2020/04/08,9,La Araucanía,91,Cautín,9110,Melipeuco,-
+9,9110.0,6265,-,2020/04/03,9,La Araucanía,91,Cautín,9110,Melipeuco,-
+9,9110.0,6265,-,2020/04/06,9,La Araucanía,91,Cautín,9110,Melipeuco,-
+9,9110.0,6265,-,2020/03/30,9,La Araucanía,91,Cautín,9110,Melipeuco,-
+9,9111.0,33777,-,2020/04/01,9,La Araucanía,91,Cautín,9111,Nueva Imperial,-
+9,9111.0,33777,22,2020/04/10,9,La Araucanía,91,Cautín,9111,Nueva Imperial,65.13307872220742
+9,9111.0,33777,20,2020/04/08,9,La Araucanía,91,Cautín,9111,Nueva Imperial,59.21188974746129
+9,9111.0,33777,11,2020/04/03,9,La Araucanía,91,Cautín,9111,Nueva Imperial,32.56653936110371
+9,9111.0,33777,16,2020/04/06,9,La Araucanía,91,Cautín,9111,Nueva Imperial,47.36951179796903
+9,9111.0,33777,-,2020/03/30,9,La Araucanía,91,Cautín,9111,Nueva Imperial,-
+9,9112.0,82110,14,2020/04/01,9,La Araucanía,91,Cautín,9112,Padre Las Casas,17.050298380221655
+9,9112.0,82110,49,2020/04/10,9,La Araucanía,91,Cautín,9112,Padre Las Casas,59.67604433077579
+9,9112.0,82110,49,2020/04/08,9,La Araucanía,91,Cautín,9112,Padre Las Casas,59.67604433077579
+9,9112.0,82110,33,2020/04/03,9,La Araucanía,91,Cautín,9112,Padre Las Casas,40.189989039093895
+9,9112.0,82110,44,2020/04/06,9,La Araucanía,91,Cautín,9112,Padre Las Casas,53.586652052125196
+9,9112.0,82110,9,2020/03/30,9,La Araucanía,91,Cautín,9112,Padre Las Casas,10.960906101571064
+9,9113.0,7223,-,2020/04/01,9,La Araucanía,91,Cautín,9113,Perquenco,-
+9,9113.0,7223,-,2020/04/10,9,La Araucanía,91,Cautín,9113,Perquenco,-
+9,9113.0,7223,-,2020/04/08,9,La Araucanía,91,Cautín,9113,Perquenco,-
+9,9113.0,7223,-,2020/04/03,9,La Araucanía,91,Cautín,9113,Perquenco,-
+9,9113.0,7223,-,2020/04/06,9,La Araucanía,91,Cautín,9113,Perquenco,-
+9,9113.0,7223,-,2020/03/30,9,La Araucanía,91,Cautín,9113,Perquenco,-
+9,9114.0,26096,6,2020/04/01,9,La Araucanía,91,Cautín,9114,Pitrufquén,22.99202942979767
+9,9114.0,26096,12,2020/04/10,9,La Araucanía,91,Cautín,9114,Pitrufquén,45.98405885959534
+9,9114.0,26096,12,2020/04/08,9,La Araucanía,91,Cautín,9114,Pitrufquén,45.98405885959534
+9,9114.0,26096,7,2020/04/03,9,La Araucanía,91,Cautín,9114,Pitrufquén,26.824034334763947
+9,9114.0,26096,11,2020/04/06,9,La Araucanía,91,Cautín,9114,Pitrufquén,42.15205395462906
+9,9114.0,26096,4,2020/03/30,9,La Araucanía,91,Cautín,9114,Pitrufquén,15.328019619865113
+9,9115.0,29782,-,2020/04/01,9,La Araucanía,91,Cautín,9115,Pucón,-
+9,9115.0,29782,5,2020/04/10,9,La Araucanía,91,Cautín,9115,Pucón,16.78866429386878
+9,9115.0,29782,5,2020/04/08,9,La Araucanía,91,Cautín,9115,Pucón,16.78866429386878
+9,9115.0,29782,-,2020/04/03,9,La Araucanía,91,Cautín,9115,Pucón,-
+9,9115.0,29782,4,2020/04/06,9,La Araucanía,91,Cautín,9115,Pucón,13.430931435095024
+9,9115.0,29782,-,2020/03/30,9,La Araucanía,91,Cautín,9115,Pucón,-
+9,9208.0,12188,-,2020/04/01,9,La Araucanía,92,Malleco,9208,Purén,-
+9,9208.0,12188,-,2020/04/10,9,La Araucanía,92,Malleco,9208,Purén,-
+9,9208.0,12188,-,2020/04/08,9,La Araucanía,92,Malleco,9208,Purén,-
+9,9208.0,12188,-,2020/04/03,9,La Araucanía,92,Malleco,9208,Purén,-
+9,9208.0,12188,-,2020/04/06,9,La Araucanía,92,Malleco,9208,Purén,-
+9,9208.0,12188,-,2020/03/30,9,La Araucanía,92,Malleco,9208,Purén,-
+9,9209.0,10833,-,2020/04/01,9,La Araucanía,92,Malleco,9209,Renaico,-
+9,9209.0,10833,-,2020/04/10,9,La Araucanía,92,Malleco,9209,Renaico,-
+9,9209.0,10833,-,2020/04/08,9,La Araucanía,92,Malleco,9209,Renaico,-
+9,9209.0,10833,-,2020/04/03,9,La Araucanía,92,Malleco,9209,Renaico,-
+9,9209.0,10833,-,2020/04/06,9,La Araucanía,92,Malleco,9209,Renaico,-
+9,9209.0,10833,-,2020/03/30,9,La Araucanía,92,Malleco,9209,Renaico,-
+9,9116.0,12793,-,2020/04/01,9,La Araucanía,91,Cautín,9116,Saavedra,-
+9,9116.0,12793,-,2020/04/10,9,La Araucanía,91,Cautín,9116,Saavedra,-
+9,9116.0,12793,-,2020/04/08,9,La Araucanía,91,Cautín,9116,Saavedra,-
+9,9116.0,12793,-,2020/04/03,9,La Araucanía,91,Cautín,9116,Saavedra,-
+9,9116.0,12793,-,2020/04/06,9,La Araucanía,91,Cautín,9116,Saavedra,-
+9,9116.0,12793,-,2020/03/30,9,La Araucanía,91,Cautín,9116,Saavedra,-
+9,9101.0,302931,225,2020/04/01,9,La Araucanía,91,Cautín,9101,Temuco,74.27433970112006
+9,9101.0,302931,443,2020/04/10,9,La Araucanía,91,Cautín,9101,Temuco,146.23792216709415
+9,9101.0,302931,407,2020/04/08,9,La Araucanía,91,Cautín,9101,Temuco,134.35402781491496
+9,9101.0,302931,293,2020/04/03,9,La Araucanía,91,Cautín,9101,Temuco,96.72169569968078
+9,9101.0,302931,365,2020/04/06,9,La Araucanía,91,Cautín,9101,Temuco,120.4894844040392
+9,9101.0,302931,154,2020/03/30,9,La Araucanía,91,Cautín,9101,Temuco,50.83665917321106
+9,9117.0,15786,4,2020/04/01,9,La Araucanía,91,Cautín,9117,Teodoro Schmidt,25.33890789306981
+9,9117.0,15786,4,2020/04/10,9,La Araucanía,91,Cautín,9117,Teodoro Schmidt,25.33890789306981
+9,9117.0,15786,-,2020/04/08,9,La Araucanía,91,Cautín,9117,Teodoro Schmidt,-
+9,9117.0,15786,-,2020/04/03,9,La Araucanía,91,Cautín,9117,Teodoro Schmidt,-
+9,9117.0,15786,-,2020/04/06,9,La Araucanía,91,Cautín,9117,Teodoro Schmidt,-
+9,9117.0,15786,-,2020/03/30,9,La Araucanía,91,Cautín,9117,Teodoro Schmidt,-
+9,9118.0,10055,-,2020/04/01,9,La Araucanía,91,Cautín,9118,Toltén,-
+9,9118.0,10055,7,2020/04/10,9,La Araucanía,91,Cautín,9118,Toltén,69.617105917454
+9,9118.0,10055,7,2020/04/08,9,La Araucanía,91,Cautín,9118,Toltén,69.617105917454
+9,9118.0,10055,4,2020/04/03,9,La Araucanía,91,Cautín,9118,Toltén,39.781203381402285
+9,9118.0,10055,5,2020/04/06,9,La Araucanía,91,Cautín,9118,Toltén,49.72650422675286
+9,9118.0,10055,-,2020/03/30,9,La Araucanía,91,Cautín,9118,Toltén,-
+9,9210.0,19314,-,2020/04/01,9,La Araucanía,92,Malleco,9210,Traiguén,-
+9,9210.0,19314,-,2020/04/10,9,La Araucanía,92,Malleco,9210,Traiguén,-
+9,9210.0,19314,-,2020/04/08,9,La Araucanía,92,Malleco,9210,Traiguén,-
+9,9210.0,19314,-,2020/04/03,9,La Araucanía,92,Malleco,9210,Traiguén,-
+9,9210.0,19314,-,2020/04/06,9,La Araucanía,92,Malleco,9210,Traiguén,-
+9,9210.0,19314,-,2020/03/30,9,La Araucanía,92,Malleco,9210,Traiguén,-
+9,9211.0,35467,7,2020/04/01,9,La Araucanía,92,Malleco,9211,Victoria,19.736656610370204
+9,9211.0,35467,15,2020/04/10,9,La Araucanía,92,Malleco,9211,Victoria,42.29283559365044
+9,9211.0,35467,15,2020/04/08,9,La Araucanía,92,Malleco,9211,Victoria,42.29283559365044
+9,9211.0,35467,11,2020/04/03,9,La Araucanía,92,Malleco,9211,Victoria,31.01474610201032
+9,9211.0,35467,12,2020/04/06,9,La Araucanía,92,Malleco,9211,Victoria,33.83426847492035
+9,9211.0,35467,5,2020/03/30,9,La Araucanía,92,Malleco,9211,Victoria,14.097611864550146
+9,9119.0,30766,5,2020/04/01,9,La Araucanía,91,Cautín,9119,Vilcún,16.251706429175062
+9,9119.0,30766,20,2020/04/10,9,La Araucanía,91,Cautín,9119,Vilcún,65.00682571670025
+9,9119.0,30766,20,2020/04/08,9,La Araucanía,91,Cautín,9119,Vilcún,65.00682571670025
+9,9119.0,30766,11,2020/04/03,9,La Araucanía,91,Cautín,9119,Vilcún,35.75375414418514
+9,9119.0,30766,18,2020/04/06,9,La Araucanía,91,Cautín,9119,Vilcún,58.50614314503023
+9,9119.0,30766,4,2020/03/30,9,La Araucanía,91,Cautín,9119,Vilcún,13.00136514334005
+9,9120.0,59103,4,2020/04/01,9,La Araucanía,91,Cautín,9120,Villarrica,6.767845963825863
+9,9120.0,59103,15,2020/04/10,9,La Araucanía,91,Cautín,9120,Villarrica,25.379422364346986
+9,9120.0,59103,15,2020/04/08,9,La Araucanía,91,Cautín,9120,Villarrica,25.379422364346986
+9,9120.0,59103,6,2020/04/03,9,La Araucanía,91,Cautín,9120,Villarrica,10.151768945738795
+9,9120.0,59103,11,2020/04/06,9,La Araucanía,91,Cautín,9120,Villarrica,18.611576400521123
+9,9120.0,59103,-,2020/03/30,9,La Araucanía,91,Cautín,9120,Villarrica,-
+14,14102.0,5447,-,2020/04/01,14,Los Ríos,141,Valdivia,14102,Corral,-
+14,14102.0,5447,-,2020/04/10,14,Los Ríos,141,Valdivia,14102,Corral,-
+14,14102.0,5447,-,2020/04/08,14,Los Ríos,141,Valdivia,14102,Corral,-
+14,14102.0,5447,-,2020/04/03,14,Los Ríos,141,Valdivia,14102,Corral,-
+14,14102.0,5447,-,2020/04/06,14,Los Ríos,141,Valdivia,14102,Corral,-
+14,14102.0,5447,-,2020/03/30,14,Los Ríos,141,Valdivia,14102,Corral,-
+14,14202.0,15261,-,2020/04/01,14,Los Ríos,142,Ranco,14202,Futrono,-
+14,14202.0,15261,5,2020/04/10,14,Los Ríos,142,Ranco,14202,Futrono,32.763252735731605
+14,14202.0,15261,5,2020/04/08,14,Los Ríos,142,Ranco,14202,Futrono,32.763252735731605
+14,14202.0,15261,-,2020/04/03,14,Los Ríos,142,Ranco,14202,Futrono,-
+14,14202.0,15261,5,2020/04/06,14,Los Ríos,142,Ranco,14202,Futrono,32.763252735731605
+14,14202.0,15261,-,2020/03/30,14,Los Ríos,142,Ranco,14202,Futrono,-
+14,14201.0,39538,9,2020/04/01,14,Los Ríos,142,Ranco,14201,La Unión,22.76291162931863
+14,14201.0,39538,18,2020/04/10,14,Los Ríos,142,Ranco,14201,La Unión,45.52582325863726
+14,14201.0,39538,18,2020/04/08,14,Los Ríos,142,Ranco,14201,La Unión,45.52582325863726
+14,14201.0,39538,10,2020/04/03,14,Los Ríos,142,Ranco,14201,La Unión,25.292124032576258
+14,14201.0,39538,17,2020/04/06,14,Los Ríos,142,Ranco,14201,La Unión,42.996610855379636
+14,14201.0,39538,-,2020/03/30,14,Los Ríos,142,Ranco,14201,La Unión,-
+14,14203.0,10292,-,2020/04/01,14,Los Ríos,142,Ranco,14203,Lago Ranco,-
+14,14203.0,10292,-,2020/04/10,14,Los Ríos,142,Ranco,14203,Lago Ranco,-
+14,14203.0,10292,-,2020/04/08,14,Los Ríos,142,Ranco,14203,Lago Ranco,-
+14,14203.0,10292,-,2020/04/03,14,Los Ríos,142,Ranco,14203,Lago Ranco,-
+14,14203.0,10292,-,2020/04/06,14,Los Ríos,142,Ranco,14203,Lago Ranco,-
+14,14203.0,10292,-,2020/03/30,14,Los Ríos,142,Ranco,14203,Lago Ranco,-
+14,14103.0,17652,-,2020/04/01,14,Los Ríos,141,Valdivia,14103,Lanco,-
+14,14103.0,17652,-,2020/04/10,14,Los Ríos,141,Valdivia,14103,Lanco,-
+14,14103.0,17652,-,2020/04/08,14,Los Ríos,141,Valdivia,14103,Lanco,-
+14,14103.0,17652,-,2020/04/03,14,Los Ríos,141,Valdivia,14103,Lanco,-
+14,14103.0,17652,-,2020/04/06,14,Los Ríos,141,Valdivia,14103,Lanco,-
+14,14103.0,17652,-,2020/03/30,14,Los Ríos,141,Valdivia,14103,Lanco,-
+14,14104.0,20518,-,2020/04/01,14,Los Ríos,141,Valdivia,14104,Los Lagos,-
+14,14104.0,20518,-,2020/04/10,14,Los Ríos,141,Valdivia,14104,Los Lagos,-
+14,14104.0,20518,-,2020/04/08,14,Los Ríos,141,Valdivia,14104,Los Lagos,-
+14,14104.0,20518,-,2020/04/03,14,Los Ríos,141,Valdivia,14104,Los Lagos,-
+14,14104.0,20518,-,2020/04/06,14,Los Ríos,141,Valdivia,14104,Los Lagos,-
+14,14104.0,20518,-,2020/03/30,14,Los Ríos,141,Valdivia,14104,Los Lagos,-
+14,14105.0,7389,-,2020/04/01,14,Los Ríos,141,Valdivia,14105,Máfil,-
+14,14105.0,7389,-,2020/04/10,14,Los Ríos,141,Valdivia,14105,Máfil,-
+14,14105.0,7389,-,2020/04/08,14,Los Ríos,141,Valdivia,14105,Máfil,-
+14,14105.0,7389,-,2020/04/03,14,Los Ríos,141,Valdivia,14105,Máfil,-
+14,14105.0,7389,-,2020/04/06,14,Los Ríos,141,Valdivia,14105,Máfil,-
+14,14105.0,7389,-,2020/03/30,14,Los Ríos,141,Valdivia,14105,Máfil,-
+14,14106.0,23250,-,2020/04/01,14,Los Ríos,141,Valdivia,14106,Mariquina,-
+14,14106.0,23250,8,2020/04/10,14,Los Ríos,141,Valdivia,14106,Mariquina,34.40860215053763
+14,14106.0,23250,8,2020/04/08,14,Los Ríos,141,Valdivia,14106,Mariquina,34.40860215053763
+14,14106.0,23250,-,2020/04/03,14,Los Ríos,141,Valdivia,14106,Mariquina,-
+14,14106.0,23250,6,2020/04/06,14,Los Ríos,141,Valdivia,14106,Mariquina,25.806451612903224
+14,14106.0,23250,-,2020/03/30,14,Los Ríos,141,Valdivia,14106,Mariquina,-
+14,14107.0,20798,-,2020/04/01,14,Los Ríos,141,Valdivia,14107,Paillaco,-
+14,14107.0,20798,-,2020/04/10,14,Los Ríos,141,Valdivia,14107,Paillaco,-
+14,14107.0,20798,-,2020/04/08,14,Los Ríos,141,Valdivia,14107,Paillaco,-
+14,14107.0,20798,-,2020/04/03,14,Los Ríos,141,Valdivia,14107,Paillaco,-
+14,14107.0,20798,-,2020/04/06,14,Los Ríos,141,Valdivia,14107,Paillaco,-
+14,14107.0,20798,-,2020/03/30,14,Los Ríos,141,Valdivia,14107,Paillaco,-
+14,14108.0,35991,-,2020/04/01,14,Los Ríos,141,Valdivia,14108,Panguipulli,-
+14,14108.0,35991,-,2020/04/10,14,Los Ríos,141,Valdivia,14108,Panguipulli,-
+14,14108.0,35991,-,2020/04/08,14,Los Ríos,141,Valdivia,14108,Panguipulli,-
+14,14108.0,35991,-,2020/04/03,14,Los Ríos,141,Valdivia,14108,Panguipulli,-
+14,14108.0,35991,-,2020/04/06,14,Los Ríos,141,Valdivia,14108,Panguipulli,-
+14,14108.0,35991,-,2020/03/30,14,Los Ríos,141,Valdivia,14108,Panguipulli,-
+14,14204.0,32925,-,2020/04/01,14,Los Ríos,142,Ranco,14204,Río Bueno,-
+14,14204.0,32925,5,2020/04/10,14,Los Ríos,142,Ranco,14204,Río Bueno,15.186028853454822
+14,14204.0,32925,5,2020/04/08,14,Los Ríos,142,Ranco,14204,Río Bueno,15.186028853454822
+14,14204.0,32925,-,2020/04/03,14,Los Ríos,142,Ranco,14204,Río Bueno,-
+14,14204.0,32925,5,2020/04/06,14,Los Ríos,142,Ranco,14204,Río Bueno,15.186028853454822
+14,14204.0,32925,-,2020/03/30,14,Los Ríos,142,Ranco,14204,Río Bueno,-
+14,14101.0,176774,45,2020/04/01,14,Los Ríos,141,Valdivia,14101,Valdivia,25.45623225134918
+14,14101.0,176774,82,2020/04/10,14,Los Ríos,141,Valdivia,14101,Valdivia,46.38691210245851
+14,14101.0,176774,72,2020/04/08,14,Los Ríos,141,Valdivia,14101,Valdivia,40.72997160215869
+14,14101.0,176774,47,2020/04/03,14,Los Ríos,141,Valdivia,14101,Valdivia,26.587620351409143
+14,14101.0,176774,65,2020/04/06,14,Los Ríos,141,Valdivia,14101,Valdivia,36.770113251948814
+14,14101.0,176774,12,2020/03/30,14,Los Ríos,141,Valdivia,14101,Valdivia,6.788328600359781
+10,10202.0,42458,-,2020/04/01,10,Los Lagos,102,Chiloé,10202,Ancud,-
+10,10202.0,42458,-,2020/04/10,10,Los Lagos,102,Chiloé,10202,Ancud,-
+10,10202.0,42458,-,2020/04/08,10,Los Lagos,102,Chiloé,10202,Ancud,-
+10,10202.0,42458,-,2020/04/03,10,Los Lagos,102,Chiloé,10202,Ancud,-
+10,10202.0,42458,-,2020/04/06,10,Los Lagos,102,Chiloé,10202,Ancud,-
+10,10202.0,42458,-,2020/03/30,10,Los Lagos,102,Chiloé,10202,Ancud,-
+10,10102.0,36744,5,2020/04/01,10,Los Lagos,101,Llanquihue,10102,Calbuco,13.60766383627259
+10,10102.0,36744,5,2020/04/10,10,Los Lagos,101,Llanquihue,10102,Calbuco,13.60766383627259
+10,10102.0,36744,5,2020/04/08,10,Los Lagos,101,Llanquihue,10102,Calbuco,13.60766383627259
+10,10102.0,36744,5,2020/04/03,10,Los Lagos,101,Llanquihue,10102,Calbuco,13.60766383627259
+10,10102.0,36744,5,2020/04/06,10,Los Lagos,101,Llanquihue,10102,Calbuco,13.60766383627259
+10,10102.0,36744,4,2020/03/30,10,Los Lagos,101,Llanquihue,10102,Calbuco,10.88613106901807
+10,10201.0,47607,-,2020/04/01,10,Los Lagos,102,Chiloé,10201,Castro,-
+10,10201.0,47607,7,2020/04/10,10,Los Lagos,102,Chiloé,10201,Castro,14.703720041170417
+10,10201.0,47607,6,2020/04/08,10,Los Lagos,102,Chiloé,10201,Castro,12.603188606717499
+10,10201.0,47607,-,2020/04/03,10,Los Lagos,102,Chiloé,10201,Castro,-
+10,10201.0,47607,4,2020/04/06,10,Los Lagos,102,Chiloé,10201,Castro,8.402125737811666
+10,10201.0,47607,-,2020/03/30,10,Los Lagos,102,Chiloé,10201,Castro,-
+10,10401.0,5020,-,2020/04/01,10,Los Lagos,104,Palena,10401,Chaitén,-
+10,10401.0,5020,-,2020/04/10,10,Los Lagos,104,Palena,10401,Chaitén,-
+10,10401.0,5020,-,2020/04/08,10,Los Lagos,104,Palena,10401,Chaitén,-
+10,10401.0,5020,-,2020/04/03,10,Los Lagos,104,Palena,10401,Chaitén,-
+10,10401.0,5020,-,2020/04/06,10,Los Lagos,104,Palena,10401,Chaitén,-
+10,10401.0,5020,-,2020/03/30,10,Los Lagos,104,Palena,10401,Chaitén,-
+10,10203.0,16013,-,2020/04/01,10,Los Lagos,102,Chiloé,10203,Chonchi,-
+10,10203.0,16013,-,2020/04/10,10,Los Lagos,102,Chiloé,10203,Chonchi,-
+10,10203.0,16013,-,2020/04/08,10,Los Lagos,102,Chiloé,10203,Chonchi,-
+10,10203.0,16013,-,2020/04/03,10,Los Lagos,102,Chiloé,10203,Chonchi,-
+10,10203.0,16013,-,2020/04/06,10,Los Lagos,102,Chiloé,10203,Chonchi,-
+10,10203.0,16013,-,2020/03/30,10,Los Lagos,102,Chiloé,10203,Chonchi,-
+10,10103.0,4006,-,2020/04/01,10,Los Lagos,101,Llanquihue,10103,Cochamó,-
+10,10103.0,4006,-,2020/04/10,10,Los Lagos,101,Llanquihue,10103,Cochamó,-
+10,10103.0,4006,-,2020/04/08,10,Los Lagos,101,Llanquihue,10103,Cochamó,-
+10,10103.0,4006,-,2020/04/03,10,Los Lagos,101,Llanquihue,10103,Cochamó,-
+10,10103.0,4006,-,2020/04/06,10,Los Lagos,101,Llanquihue,10103,Cochamó,-
+10,10103.0,4006,-,2020/03/30,10,Los Lagos,101,Llanquihue,10103,Cochamó,-
+10,10204.0,4066,-,2020/04/01,10,Los Lagos,102,Chiloé,10204,Curaco de Vélez,-
+10,10204.0,4066,-,2020/04/10,10,Los Lagos,102,Chiloé,10204,Curaco de Vélez,-
+10,10204.0,4066,-,2020/04/08,10,Los Lagos,102,Chiloé,10204,Curaco de Vélez,-
+10,10204.0,4066,-,2020/04/03,10,Los Lagos,102,Chiloé,10204,Curaco de Vélez,-
+10,10204.0,4066,-,2020/04/06,10,Los Lagos,102,Chiloé,10204,Curaco de Vélez,-
+10,10204.0,4066,-,2020/03/30,10,Los Lagos,102,Chiloé,10204,Curaco de Vélez,-
+10,10205.0,15069,-,2020/04/01,10,Los Lagos,102,Chiloé,10205,Dalcahue,-
+10,10205.0,15069,-,2020/04/10,10,Los Lagos,102,Chiloé,10205,Dalcahue,-
+10,10205.0,15069,-,2020/04/08,10,Los Lagos,102,Chiloé,10205,Dalcahue,-
+10,10205.0,15069,-,2020/04/03,10,Los Lagos,102,Chiloé,10205,Dalcahue,-
+10,10205.0,15069,-,2020/04/06,10,Los Lagos,102,Chiloé,10205,Dalcahue,-
+10,10205.0,15069,-,2020/03/30,10,Los Lagos,102,Chiloé,10205,Dalcahue,-
+10,10104.0,12656,-,2020/04/01,10,Los Lagos,101,Llanquihue,10104,Fresia,-
+10,10104.0,12656,-,2020/04/10,10,Los Lagos,101,Llanquihue,10104,Fresia,-
+10,10104.0,12656,-,2020/04/08,10,Los Lagos,101,Llanquihue,10104,Fresia,-
+10,10104.0,12656,-,2020/04/03,10,Los Lagos,101,Llanquihue,10104,Fresia,-
+10,10104.0,12656,-,2020/04/06,10,Los Lagos,101,Llanquihue,10104,Fresia,-
+10,10104.0,12656,-,2020/03/30,10,Los Lagos,101,Llanquihue,10104,Fresia,-
+10,10105.0,20223,-,2020/04/01,10,Los Lagos,101,Llanquihue,10105,Frutillar,-
+10,10105.0,20223,-,2020/04/10,10,Los Lagos,101,Llanquihue,10105,Frutillar,-
+10,10105.0,20223,-,2020/04/08,10,Los Lagos,101,Llanquihue,10105,Frutillar,-
+10,10105.0,20223,-,2020/04/03,10,Los Lagos,101,Llanquihue,10105,Frutillar,-
+10,10105.0,20223,-,2020/04/06,10,Los Lagos,101,Llanquihue,10105,Frutillar,-
+10,10105.0,20223,-,2020/03/30,10,Los Lagos,101,Llanquihue,10105,Frutillar,-
+10,10402.0,2806,-,2020/04/01,10,Los Lagos,104,Palena,10402,Futaleufú,-
+10,10402.0,2806,-,2020/04/10,10,Los Lagos,104,Palena,10402,Futaleufú,-
+10,10402.0,2806,-,2020/04/08,10,Los Lagos,104,Palena,10402,Futaleufú,-
+10,10402.0,2806,-,2020/04/03,10,Los Lagos,104,Palena,10402,Futaleufú,-
+10,10402.0,2806,-,2020/04/06,10,Los Lagos,104,Palena,10402,Futaleufú,-
+10,10402.0,2806,-,2020/03/30,10,Los Lagos,104,Palena,10402,Futaleufú,-
+10,10403.0,9525,-,2020/04/01,10,Los Lagos,104,Palena,10403,Hualaihué,-
+10,10403.0,9525,-,2020/04/10,10,Los Lagos,104,Palena,10403,Hualaihué,-
+10,10403.0,9525,-,2020/04/08,10,Los Lagos,104,Palena,10403,Hualaihué,-
+10,10403.0,9525,-,2020/04/03,10,Los Lagos,104,Palena,10403,Hualaihué,-
+10,10403.0,9525,-,2020/04/06,10,Los Lagos,104,Palena,10403,Hualaihué,-
+10,10403.0,9525,-,2020/03/30,10,Los Lagos,104,Palena,10403,Hualaihué,-
+10,10107.0,18621,-,2020/04/01,10,Los Lagos,101,Llanquihue,10107,Llanquihue,-
+10,10107.0,18621,-,2020/04/10,10,Los Lagos,101,Llanquihue,10107,Llanquihue,-
+10,10107.0,18621,-,2020/04/08,10,Los Lagos,101,Llanquihue,10107,Llanquihue,-
+10,10107.0,18621,-,2020/04/03,10,Los Lagos,101,Llanquihue,10107,Llanquihue,-
+10,10107.0,18621,-,2020/04/06,10,Los Lagos,101,Llanquihue,10107,Llanquihue,-
+10,10107.0,18621,-,2020/03/30,10,Los Lagos,101,Llanquihue,10107,Llanquihue,-
+10,10106.0,17817,-,2020/04/01,10,Los Lagos,101,Llanquihue,10106,Los Muermos,-
+10,10106.0,17817,-,2020/04/10,10,Los Lagos,101,Llanquihue,10106,Los Muermos,-
+10,10106.0,17817,-,2020/04/08,10,Los Lagos,101,Llanquihue,10106,Los Muermos,-
+10,10106.0,17817,-,2020/04/03,10,Los Lagos,101,Llanquihue,10106,Los Muermos,-
+10,10106.0,17817,-,2020/04/06,10,Los Lagos,101,Llanquihue,10106,Los Muermos,-
+10,10106.0,17817,-,2020/03/30,10,Los Lagos,101,Llanquihue,10106,Los Muermos,-
+10,10108.0,14894,-,2020/04/01,10,Los Lagos,101,Llanquihue,10108,Maullín,-
+10,10108.0,14894,-,2020/04/10,10,Los Lagos,101,Llanquihue,10108,Maullín,-
+10,10108.0,14894,-,2020/04/08,10,Los Lagos,101,Llanquihue,10108,Maullín,-
+10,10108.0,14894,-,2020/04/03,10,Los Lagos,101,Llanquihue,10108,Maullín,-
+10,10108.0,14894,-,2020/04/06,10,Los Lagos,101,Llanquihue,10108,Maullín,-
+10,10108.0,14894,-,2020/03/30,10,Los Lagos,101,Llanquihue,10108,Maullín,-
+10,10301.0,173410,120,2020/04/01,10,Los Lagos,103,Osorno,10301,Osorno,69.20016146704343
+10,10301.0,173410,220,2020/04/10,10,Los Lagos,103,Osorno,10301,Osorno,126.86696268957961
+10,10301.0,173410,207,2020/04/08,10,Los Lagos,103,Osorno,10301,Osorno,119.3702785306499
+10,10301.0,173410,163,2020/04/03,10,Los Lagos,103,Osorno,10301,Osorno,93.99688599273398
+10,10301.0,173410,190,2020/04/06,10,Los Lagos,103,Osorno,10301,Osorno,109.56692232281875
+10,10301.0,173410,66,2020/03/30,10,Los Lagos,103,Osorno,10301,Osorno,38.060088806873885
+10,10404.0,1827,-,2020/04/01,10,Los Lagos,104,Palena,10404,Palena,-
+10,10404.0,1827,-,2020/04/10,10,Los Lagos,104,Palena,10404,Palena,-
+10,10404.0,1827,-,2020/04/08,10,Los Lagos,104,Palena,10404,Palena,-
+10,10404.0,1827,-,2020/04/03,10,Los Lagos,104,Palena,10404,Palena,-
+10,10404.0,1827,-,2020/04/06,10,Los Lagos,104,Palena,10404,Palena,-
+10,10404.0,1827,-,2020/03/30,10,Los Lagos,104,Palena,10404,Palena,-
+10,10101.0,269398,44,2020/04/01,10,Los Lagos,101,Llanquihue,10101,Puerto Montt,16.332712195339237
+10,10101.0,269398,39,2020/04/10,10,Los Lagos,101,Llanquihue,10101,Puerto Montt,14.476722173141598
+10,10101.0,269398,37,2020/04/08,10,Los Lagos,101,Llanquihue,10101,Puerto Montt,13.73432616426254
+10,10101.0,269398,25,2020/04/03,10,Los Lagos,101,Llanquihue,10101,Puerto Montt,9.279950110988203
+10,10101.0,269398,35,2020/04/06,10,Los Lagos,101,Llanquihue,10101,Puerto Montt,12.991930155383484
+10,10101.0,269398,34,2020/03/30,10,Los Lagos,101,Llanquihue,10101,Puerto Montt,12.620732150943956
+10,10302.0,9192,-,2020/04/01,10,Los Lagos,103,Osorno,10302,Puerto Octay,-
+10,10302.0,9192,-,2020/04/10,10,Los Lagos,103,Osorno,10302,Puerto Octay,-
+10,10302.0,9192,-,2020/04/08,10,Los Lagos,103,Osorno,10302,Puerto Octay,-
+10,10302.0,9192,-,2020/04/03,10,Los Lagos,103,Osorno,10302,Puerto Octay,-
+10,10302.0,9192,-,2020/04/06,10,Los Lagos,103,Osorno,10302,Puerto Octay,-
+10,10302.0,9192,-,2020/03/30,10,Los Lagos,103,Osorno,10302,Puerto Octay,-
+10,10109.0,48620,-,2020/04/01,10,Los Lagos,101,Llanquihue,10109,Puerto Varas,-
+10,10109.0,48620,-,2020/04/10,10,Los Lagos,101,Llanquihue,10109,Puerto Varas,-
+10,10109.0,48620,-,2020/04/08,10,Los Lagos,101,Llanquihue,10109,Puerto Varas,-
+10,10109.0,48620,-,2020/04/03,10,Los Lagos,101,Llanquihue,10109,Puerto Varas,-
+10,10109.0,48620,4,2020/04/06,10,Los Lagos,101,Llanquihue,10109,Puerto Varas,8.227067050596462
+10,10109.0,48620,-,2020/03/30,10,Los Lagos,101,Llanquihue,10109,Puerto Varas,-
+10,10206.0,4201,-,2020/04/01,10,Los Lagos,102,Chiloé,10206,Puqueldón,-
+10,10206.0,4201,-,2020/04/10,10,Los Lagos,102,Chiloé,10206,Puqueldón,-
+10,10206.0,4201,-,2020/04/08,10,Los Lagos,102,Chiloé,10206,Puqueldón,-
+10,10206.0,4201,-,2020/04/03,10,Los Lagos,102,Chiloé,10206,Puqueldón,-
+10,10206.0,4201,-,2020/04/06,10,Los Lagos,102,Chiloé,10206,Puqueldón,-
+10,10206.0,4201,-,2020/03/30,10,Los Lagos,102,Chiloé,10206,Puqueldón,-
+10,10303.0,21080,-,2020/04/01,10,Los Lagos,103,Osorno,10303,Purranque,-
+10,10303.0,21080,16,2020/04/10,10,Los Lagos,103,Osorno,10303,Purranque,75.90132827324479
+10,10303.0,21080,11,2020/04/08,10,Los Lagos,103,Osorno,10303,Purranque,52.182163187855785
+10,10303.0,21080,5,2020/04/03,10,Los Lagos,103,Osorno,10303,Purranque,23.719165085388994
+10,10303.0,21080,5,2020/04/06,10,Los Lagos,103,Osorno,10303,Purranque,23.719165085388994
+10,10303.0,21080,-,2020/03/30,10,Los Lagos,103,Osorno,10303,Purranque,-
+10,10304.0,11787,-,2020/04/01,10,Los Lagos,103,Osorno,10304,Puyehue,-
+10,10304.0,11787,-,2020/04/10,10,Los Lagos,103,Osorno,10304,Puyehue,-
+10,10304.0,11787,-,2020/04/08,10,Los Lagos,103,Osorno,10304,Puyehue,-
+10,10304.0,11787,-,2020/04/03,10,Los Lagos,103,Osorno,10304,Puyehue,-
+10,10304.0,11787,-,2020/04/06,10,Los Lagos,103,Osorno,10304,Puyehue,-
+10,10304.0,11787,-,2020/03/30,10,Los Lagos,103,Osorno,10304,Puyehue,-
+10,10207.0,5543,-,2020/04/01,10,Los Lagos,102,Chiloé,10207,Queilén,-
+10,10207.0,5543,-,2020/04/10,10,Los Lagos,102,Chiloé,10207,Queilén,-
+10,10207.0,5543,-,2020/04/08,10,Los Lagos,102,Chiloé,10207,Queilén,-
+10,10207.0,5543,-,2020/04/03,10,Los Lagos,102,Chiloé,10207,Queilén,-
+10,10207.0,5543,-,2020/04/06,10,Los Lagos,102,Chiloé,10207,Queilén,-
+10,10207.0,5543,-,2020/03/30,10,Los Lagos,102,Chiloé,10207,Queilén,-
+10,10208.0,29309,-,2020/04/01,10,Los Lagos,102,Chiloé,10208,Quellón,-
+10,10208.0,29309,-,2020/04/10,10,Los Lagos,102,Chiloé,10208,Quellón,-
+10,10208.0,29309,-,2020/04/08,10,Los Lagos,102,Chiloé,10208,Quellón,-
+10,10208.0,29309,-,2020/04/03,10,Los Lagos,102,Chiloé,10208,Quellón,-
+10,10208.0,29309,-,2020/04/06,10,Los Lagos,102,Chiloé,10208,Quellón,-
+10,10208.0,29309,-,2020/03/30,10,Los Lagos,102,Chiloé,10208,Quellón,-
+10,10209.0,8783,-,2020/04/01,10,Los Lagos,102,Chiloé,10209,Quemchi,-
+10,10209.0,8783,-,2020/04/10,10,Los Lagos,102,Chiloé,10209,Quemchi,-
+10,10209.0,8783,-,2020/04/08,10,Los Lagos,102,Chiloé,10209,Quemchi,-
+10,10209.0,8783,-,2020/04/03,10,Los Lagos,102,Chiloé,10209,Quemchi,-
+10,10209.0,8783,-,2020/04/06,10,Los Lagos,102,Chiloé,10209,Quemchi,-
+10,10209.0,8783,-,2020/03/30,10,Los Lagos,102,Chiloé,10209,Quemchi,-
+10,10210.0,8298,-,2020/04/01,10,Los Lagos,102,Chiloé,10210,Quinchao,-
+10,10210.0,8298,-,2020/04/10,10,Los Lagos,102,Chiloé,10210,Quinchao,-
+10,10210.0,8298,-,2020/04/08,10,Los Lagos,102,Chiloé,10210,Quinchao,-
+10,10210.0,8298,-,2020/04/03,10,Los Lagos,102,Chiloé,10210,Quinchao,-
+10,10210.0,8298,-,2020/04/06,10,Los Lagos,102,Chiloé,10210,Quinchao,-
+10,10210.0,8298,-,2020/03/30,10,Los Lagos,102,Chiloé,10210,Quinchao,-
+10,10305.0,14275,-,2020/04/01,10,Los Lagos,103,Osorno,10305,Río Negro,-
+10,10305.0,14275,-,2020/04/10,10,Los Lagos,103,Osorno,10305,Río Negro,-
+10,10305.0,14275,-,2020/04/08,10,Los Lagos,103,Osorno,10305,Río Negro,-
+10,10305.0,14275,-,2020/04/03,10,Los Lagos,103,Osorno,10305,Río Negro,-
+10,10305.0,14275,-,2020/04/06,10,Los Lagos,103,Osorno,10305,Río Negro,-
+10,10305.0,14275,-,2020/03/30,10,Los Lagos,103,Osorno,10305,Río Negro,-
+10,10306.0,7639,-,2020/04/01,10,Los Lagos,103,Osorno,10306,San Juan de la Costa,-
+10,10306.0,7639,11,2020/04/10,10,Los Lagos,103,Osorno,10306,San Juan de la Costa,143.99790548501113
+10,10306.0,7639,11,2020/04/08,10,Los Lagos,103,Osorno,10306,San Juan de la Costa,143.99790548501113
+10,10306.0,7639,-,2020/04/03,10,Los Lagos,103,Osorno,10306,San Juan de la Costa,-
+10,10306.0,7639,7,2020/04/06,10,Los Lagos,103,Osorno,10306,San Juan de la Costa,91.6350307631889
+10,10306.0,7639,-,2020/03/30,10,Los Lagos,103,Osorno,10306,San Juan de la Costa,-
+10,10307.0,10553,-,2020/04/01,10,Los Lagos,103,Osorno,10307,San Pablo,-
+10,10307.0,10553,6,2020/04/10,10,Los Lagos,103,Osorno,10307,San Pablo,56.85587036861556
+10,10307.0,10553,6,2020/04/08,10,Los Lagos,103,Osorno,10307,San Pablo,56.85587036861556
+10,10307.0,10553,-,2020/04/03,10,Los Lagos,103,Osorno,10307,San Pablo,-
+10,10307.0,10553,-,2020/04/06,10,Los Lagos,103,Osorno,10307,San Pablo,-
+10,10307.0,10553,-,2020/03/30,10,Los Lagos,103,Osorno,10307,San Pablo,-
+11,11201.0,25002,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11201,Aisén,-
+11,11201.0,25002,4,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11201,Aisén,15.99872010239181
+11,11201.0,25002,4,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11201,Aisén,15.99872010239181
+11,11201.0,25002,4,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11201,Aisén,15.99872010239181
+11,11201.0,25002,5,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11201,Aisén,19.99840012798976
+11,11201.0,25002,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11201,Aisén,-
+11,11401.0,5121,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11401,Chile Chico,-
+11,11401.0,5121,-,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11401,Chile Chico,-
+11,11401.0,5121,-,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11401,Chile Chico,-
+11,11401.0,5121,-,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11401,Chile Chico,-
+11,11401.0,5121,-,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11401,Chile Chico,-
+11,11401.0,5121,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11401,Chile Chico,-
+11,11202.0,5828,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11202,Cisnes,-
+11,11202.0,5828,-,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11202,Cisnes,-
+11,11202.0,5828,-,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11202,Cisnes,-
+11,11202.0,5828,-,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11202,Cisnes,-
+11,11202.0,5828,-,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11202,Cisnes,-
+11,11202.0,5828,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11202,Cisnes,-
+11,11301.0,3685,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11301,Cochrane,-
+11,11301.0,3685,-,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11301,Cochrane,-
+11,11301.0,3685,-,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11301,Cochrane,-
+11,11301.0,3685,-,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11301,Cochrane,-
+11,11301.0,3685,-,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11301,Cochrane,-
+11,11301.0,3685,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11301,Cochrane,-
+11,,61210,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11101,Coihaique,-
+11,,61210,-,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11101,Coihaique,-
+11,,61210,-,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11101,Coihaique,-
+11,,61210,-,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11101,Coihaique,-
+11,,61210,-,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11101,Coihaique,-
+11,,61210,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11101,Coihaique,-
+11,11203.0,1599,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11203,Guaitecas,-
+11,11203.0,1599,-,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11203,Guaitecas,-
+11,11203.0,1599,-,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11203,Guaitecas,-
+11,11203.0,1599,-,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11203,Guaitecas,-
+11,11203.0,1599,-,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11203,Guaitecas,-
+11,11203.0,1599,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,112,Aisén,11203,Guaitecas,-
+11,11102.0,920,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11102,Lago Verde,-
+11,11102.0,920,-,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11102,Lago Verde,-
+11,11102.0,920,-,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11102,Lago Verde,-
+11,11102.0,920,-,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11102,Lago Verde,-
+11,11102.0,920,-,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11102,Lago Verde,-
+11,11102.0,920,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,111,Coihaique,11102,Lago Verde,-
+11,,661,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11302,O'Higgins,-
+11,,661,-,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11302,O'Higgins,-
+11,,661,-,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11302,O'Higgins,-
+11,,661,-,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11302,O'Higgins,-
+11,,661,-,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11302,O'Higgins,-
+11,,661,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11302,O'Higgins,-
+11,11402.0,2699,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11402,Río Ibáñez,-
+11,11402.0,2699,-,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11402,Río Ibáñez,-
+11,11402.0,2699,-,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11402,Río Ibáñez,-
+11,11402.0,2699,-,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11402,Río Ibáñez,-
+11,11402.0,2699,-,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11402,Río Ibáñez,-
+11,11402.0,2699,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11402,Río Ibáñez,-
+11,11303.0,572,-,2020/04/01,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11303,Tortel,-
+11,11303.0,572,-,2020/04/10,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11303,Tortel,-
+11,11303.0,572,-,2020/04/08,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11303,Tortel,-
+11,11303.0,572,-,2020/04/03,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11303,Tortel,-
+11,11303.0,572,-,2020/04/06,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11303,Tortel,-
+11,11303.0,572,-,2020/03/30,11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11303,Tortel,-
+12,12202.0,137,-,2020/04/01,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12202,Antártica,-
+12,12202.0,137,-,2020/04/10,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12202,Antártica,-
+12,12202.0,137,-,2020/04/08,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12202,Antártica,-
+12,12202.0,137,-,2020/04/03,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12202,Antártica,-
+12,12202.0,137,-,2020/04/06,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12202,Antártica,-
+12,12202.0,137,-,2020/03/30,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12202,Antártica,-
+12,12201.0,1983,6,2020/04/01,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12201,Cabo de Hornos,302.571860816944
+12,12201.0,1983,13,2020/04/10,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12201,Cabo de Hornos,655.5723651033787
+12,12201.0,1983,11,2020/04/08,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12201,Cabo de Hornos,554.7150781643974
+12,12201.0,1983,6,2020/04/03,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12201,Cabo de Hornos,302.571860816944
+12,12201.0,1983,10,2020/04/06,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12201,Cabo de Hornos,504.2864346949067
+12,12201.0,1983,5,2020/03/30,12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12201,Cabo de Hornos,252.14321734745334
+12,12102.0,264,-,2020/04/01,12,Magallanes y de la Antártica Chilena,121,Magallanes,12102,Laguna Blanca,-
+12,12102.0,264,-,2020/04/10,12,Magallanes y de la Antártica Chilena,121,Magallanes,12102,Laguna Blanca,-
+12,12102.0,264,-,2020/04/08,12,Magallanes y de la Antártica Chilena,121,Magallanes,12102,Laguna Blanca,-
+12,12102.0,264,-,2020/04/03,12,Magallanes y de la Antártica Chilena,121,Magallanes,12102,Laguna Blanca,-
+12,12102.0,264,-,2020/04/06,12,Magallanes y de la Antártica Chilena,121,Magallanes,12102,Laguna Blanca,-
+12,12102.0,264,-,2020/03/30,12,Magallanes y de la Antártica Chilena,121,Magallanes,12102,Laguna Blanca,-
+12,12401.0,23782,4,2020/04/01,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12401,Natales,16.81944327642755
+12,12401.0,23782,6,2020/04/10,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12401,Natales,25.229164914641327
+12,12401.0,23782,5,2020/04/08,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12401,Natales,21.024304095534436
+12,12401.0,23782,5,2020/04/03,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12401,Natales,21.024304095534436
+12,12401.0,23782,5,2020/04/06,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12401,Natales,21.024304095534436
+12,12401.0,23782,-,2020/03/30,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12401,Natales,-
+12,12301.0,7323,-,2020/04/01,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12301,Porvenir,-
+12,12301.0,7323,-,2020/04/10,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12301,Porvenir,-
+12,12301.0,7323,-,2020/04/08,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12301,Porvenir,-
+12,12301.0,7323,-,2020/04/03,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12301,Porvenir,-
+12,12301.0,7323,-,2020/04/06,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12301,Porvenir,-
+12,12301.0,7323,-,2020/03/30,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12301,Porvenir,-
+12,12302.0,694,-,2020/04/01,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12302,Primavera,-
+12,12302.0,694,-,2020/04/10,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12302,Primavera,-
+12,12302.0,694,-,2020/04/08,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12302,Primavera,-
+12,12302.0,694,-,2020/04/03,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12302,Primavera,-
+12,12302.0,694,-,2020/04/06,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12302,Primavera,-
+12,12302.0,694,-,2020/03/30,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12302,Primavera,-
+12,12101.0,141984,87,2020/04/01,12,Magallanes y de la Antártica Chilena,121,Magallanes,12101,Punta Arenas,61.27450980392157
+12,12101.0,141984,299,2020/04/10,12,Magallanes y de la Antártica Chilena,121,Magallanes,12101,Punta Arenas,210.58710840658102
+12,12101.0,141984,207,2020/04/08,12,Magallanes y de la Antártica Chilena,121,Magallanes,12101,Punta Arenas,145.79107505070994
+12,12101.0,141984,143,2020/04/03,12,Magallanes y de la Antártica Chilena,121,Magallanes,12101,Punta Arenas,100.71557358575615
+12,12101.0,141984,203,2020/04/06,12,Magallanes y de la Antártica Chilena,121,Magallanes,12101,Punta Arenas,142.9738562091503
+12,12101.0,141984,29,2020/03/30,12,Magallanes y de la Antártica Chilena,121,Magallanes,12101,Punta Arenas,20.424836601307188
+12,12103.0,211,-,2020/04/01,12,Magallanes y de la Antártica Chilena,121,Magallanes,12103,Río Verde,-
+12,12103.0,211,-,2020/04/10,12,Magallanes y de la Antártica Chilena,121,Magallanes,12103,Río Verde,-
+12,12103.0,211,-,2020/04/08,12,Magallanes y de la Antártica Chilena,121,Magallanes,12103,Río Verde,-
+12,12103.0,211,-,2020/04/03,12,Magallanes y de la Antártica Chilena,121,Magallanes,12103,Río Verde,-
+12,12103.0,211,-,2020/04/06,12,Magallanes y de la Antártica Chilena,121,Magallanes,12103,Río Verde,-
+12,12103.0,211,-,2020/03/30,12,Magallanes y de la Antártica Chilena,121,Magallanes,12103,Río Verde,-
+12,12104.0,681,-,2020/04/01,12,Magallanes y de la Antártica Chilena,121,Magallanes,12104,San Gregorio,-
+12,12104.0,681,-,2020/04/10,12,Magallanes y de la Antártica Chilena,121,Magallanes,12104,San Gregorio,-
+12,12104.0,681,-,2020/04/08,12,Magallanes y de la Antártica Chilena,121,Magallanes,12104,San Gregorio,-
+12,12104.0,681,-,2020/04/03,12,Magallanes y de la Antártica Chilena,121,Magallanes,12104,San Gregorio,-
+12,12104.0,681,-,2020/04/06,12,Magallanes y de la Antártica Chilena,121,Magallanes,12104,San Gregorio,-
+12,12104.0,681,-,2020/03/30,12,Magallanes y de la Antártica Chilena,121,Magallanes,12104,San Gregorio,-
+12,12303.0,282,-,2020/04/01,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12303,Timaukel,-
+12,12303.0,282,-,2020/04/10,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12303,Timaukel,-
+12,12303.0,282,-,2020/04/08,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12303,Timaukel,-
+12,12303.0,282,-,2020/04/03,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12303,Timaukel,-
+12,12303.0,282,-,2020/04/06,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12303,Timaukel,-
+12,12303.0,282,-,2020/03/30,12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12303,Timaukel,-
+12,12402.0,1021,-,2020/04/01,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12402,Torres del Paine,-
+12,12402.0,1021,-,2020/04/10,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12402,Torres del Paine,-
+12,12402.0,1021,-,2020/04/08,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12402,Torres del Paine,-
+12,12402.0,1021,-,2020/04/03,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12402,Torres del Paine,-
+12,12402.0,1021,-,2020/04/06,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12402,Torres del Paine,-
+12,12402.0,1021,-,2020/03/30,12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12402,Torres del Paine,-

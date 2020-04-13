@@ -33,7 +33,6 @@ if __name__ == '__main__':
 
     mypath = "../output/producto4/"
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
-    print(type(onlyfiles))
     cumulativoCasosNuevos = pd.DataFrame({'Region':[],
                                'Casos nuevos':[]})
     cumulativoCasosTotales = pd.DataFrame({'Region': [],
