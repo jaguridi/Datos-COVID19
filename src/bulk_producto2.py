@@ -22,7 +22,7 @@ df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD")
 
 df = df.merge(df_dim_comunas, on="Comuna", how="outer")
 
-df = df.drop(columns=["Comuna", "Region"])
+df = df.drop(columns=["Comuna", "Region", "Codigo region", "Codigo comuna"])
 df = df.rename(columns={
     "Nombre Región": "Region",
     "Nombre Provincia": "Provincia", 
@@ -37,5 +37,5 @@ df["Casos Confirmados"] = df["Casos Confirmados"].fillna("-")
 df["Tasa"] = df.apply(lambda x: (100000 * int(x["Casos Confirmados"]) / x["Poblacion"]) if x["Casos Confirmados"] != "-" else "-", axis=1) 
 
 # Crea output de datos en CSV / JSON
-df.to_csv("../output/producto6/bulk/producto2.csv", index=False)
-df.to_json("../output/producto6/bulk/producto2.json", orient="records")
+df.to_csv("../output/producto6/bulk/data.csv", index=False)
+df.to_json("../output/producto6/bulk/data.json", orient="records")
