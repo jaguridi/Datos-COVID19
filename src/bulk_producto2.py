@@ -22,7 +22,7 @@ df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD")
 
 df = df.merge(df_dim_comunas, on="Comuna", how="outer")
 
-df = df.drop(columns=["Comuna", "Region"])
+df = df.drop(columns=["Comuna", "Region", "Codigo region", "Codigo comuna"])
 df = df.rename(columns={
     "Nombre Región": "Region",
     "Nombre Provincia": "Provincia", 
