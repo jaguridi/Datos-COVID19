@@ -33,9 +33,17 @@ def transpone_csv(csvfile):
 if __name__ == '__main__':
     copyfile('../input/PCR.csv', '../output/producto7/PCR.csv')
     copyfile('../input/UCI.csv', '../output/producto8/UCI.csv')
+    copyfile('../input/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario.csv')
+    copyfile('../input/FallecidosEtario.csv', '../output/producto10/FallecidosEtario.csv')
 
     PCR_T = transpone_csv('../output/producto7/PCR.csv')
-    UCI_T = transpone_csv('../output/producto8/UCI.csv')
-
     PCR_T.to_csv('../output/producto7/PCR_T.csv', header=False)
+
+    UCI_T = transpone_csv('../output/producto8/UCI.csv')
     UCI_T.to_csv('../output/producto8/UCI_T.csv', header=False)
+
+    HospitalizadosUCIEtario_T = transpone_csv('../output/producto9/HospitalizadosUCIEtario.csv')
+    HospitalizadosUCIEtario_T.to_csv('../output/producto9/HospitalizadosUCIEtario_T.csv', header=False)
+
+    FallecidosEtario_T = transpone_csv('../output/producto10/FallecidosEtario.csv')
+    FallecidosEtario_T.to_csv('../output/producto10/FallecidosEtario_T.csv', header=False)
