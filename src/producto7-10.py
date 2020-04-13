@@ -47,4 +47,3 @@ if __name__ == '__main__':
 
     FallecidosEtario_T = transpone_csv('../output/producto10/FallecidosEtario.csv')
     FallecidosEtario_T.to_csv('../output/producto10/FallecidosEtario_T.csv', header=False)
-    

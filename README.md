@@ -21,6 +21,9 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 8: Pacientes en UCI por región](output/producto8): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de hospitalizados UCI, y el segundo, a la serie de tiempo de los datos anteriores, por región.
 
+[data product 9: Pacientes en UCI por rango etario](output/producto9): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de hospitalizados UCI, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario.
+
+[data product 10: Fallecidos por rango etario](output/producto10): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de fallecidos, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario.
 
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAl del registro del día anterior**
 
