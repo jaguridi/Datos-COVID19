@@ -58,16 +58,19 @@ if __name__ == '__main__':
             cumulativoCasosNuevos.rename(columns={'Casos nuevos': date}, inplace=True)
             cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
             cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
-            cumulativoFallecidos[['Region', 'Fallecidos']] = dataframe[['Region', 'Casos totales']]
-            cumulativoFallecidos.rename(columns={'Fallecidos': date}, inplace=True)
         else:
             cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
             cumulativoCasosTotales[date] = dataframe['Casos totales']
-            if 'Fallecidos' in dataframe.columns:
+
+        if 'Fallecidos' in dataframe.columns:
+            if cumulativoFallecidos['Region'].empty:
+                cumulativoFallecidos[['Region', 'Fallecidos']] = dataframe[['Region', 'Fallecidos']]
+                cumulativoFallecidos.rename(columns={'Fallecidos': date}, inplace=True)
+            else:
                 cumulativoFallecidos[date] = dataframe['Fallecidos']
 
-    print(cumulativoCasosNuevos.columns)
-    print(cumulativoCasosTotales.columns)
+    #print(cumulativoCasosNuevos.columns)
+    #print(cumulativoCasosTotales.columns)
     print(cumulativoFallecidos.columns)
     cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
     cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
