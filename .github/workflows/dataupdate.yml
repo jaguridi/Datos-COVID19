@@ -34,7 +34,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: get data and commit it
-      run: cd src; python webscrapper.py
+      run: cd src; python producto4-5.py
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
