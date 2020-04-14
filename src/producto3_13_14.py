@@ -37,6 +37,9 @@ if __name__ == '__main__':
                                'Casos nuevos':[]})
     cumulativoCasosTotales = pd.DataFrame({'Region': [],
                                           'Casos totales': []})
+    cumulativoFallecidos = pd.DataFrame({'Region': [],
+                                           'Fallecidos': []})
+
 
     print(onlyfiles.sort())
     for eachfile in onlyfiles:
@@ -48,17 +51,24 @@ if __name__ == '__main__':
         dataframe.rename(columns={' Casos nuevos': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={'Casos  totales': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={' Casos totales': 'Casos totales'}, inplace=True)
-        print(dataframe.columns)
+        dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
+
         if cumulativoCasosNuevos['Region'].empty:
             cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
             cumulativoCasosNuevos.rename(columns={'Casos nuevos': date}, inplace=True)
             cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
             cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
+            cumulativoFallecidos[['Region', 'Fallecidos']] = dataframe[['Region', 'Casos totales']]
+            cumulativoFallecidos.rename(columns={'Fallecidos': date}, inplace=True)
         else:
             cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
             cumulativoCasosTotales[date] = dataframe['Casos totales']
+            if 'Fallecidos' in dataframe.columns:
+                cumulativoFallecidos[date] = dataframe['Fallecidos']
 
     print(cumulativoCasosNuevos.columns)
     print(cumulativoCasosTotales.columns)
-    cumulativoCasosNuevos.to_csv("../output/producto13/CasosNuevosCumulativo.csv", index=False)
-    cumulativoCasosTotales.to_csv("../output/producto3/CasosTotalesCumulativo.csv", index=False)
+    print(cumulativoFallecidos.columns)
+    cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
+    cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
+    cumulativoFallecidos.to_csv('../output/producto14/FallecidosCumulativo.csv', index=False)
