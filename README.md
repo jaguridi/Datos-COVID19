@@ -31,7 +31,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 14: Fallecidos por región incremental](output/producto14): 2 archivos con valores separados por coma (csv), el primero corresponde a casos fallecidos por región con los valores diarios reportados por el MINSAL, y el segundo a la serie de tiempo de los datos anteriores.
 
-**Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAl del registro del día anterior**
+**Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
 ## Como funciona?
 En cuanto a los archivos a nivel comunal: Transcribimos los datos publicados por el Ministerio de Salud en pdf en:
@@ -53,4 +53,4 @@ Geógrafo Virginia Behm - académica Escuela de Salud Pública U. Chile.
 
 Miguel A. Bustos Valdebenito | Estudiante Dr. Ing. Mec. - U.Chile | Mtr. Ing. Ind. - UAI  | Ing. Civil y Ejec. Mec. - U. de Santiago
 
-Carlos Navarrete, Chilecracia y Datawheel
+Annabella Zapata y Carlos Navarrete, Chilecracia y Datawheel
