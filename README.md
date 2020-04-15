@@ -36,6 +36,12 @@ por coma (csv), el primero corresponde a el cumulativo de inicio de sintomas par
 
 [data product 16: Casos por genero y rango etario](output/producto16): 2 archivos con valores separados por coma (csv), el primero corresponde a casos totales separados por genero y rango etario (valores reportados por el MINSAL), y el segundo a la serie de tiempo de los datos anteriores.
 
+[data product 17:PCR acumulado e informado en el ultimo día por tipo de establecimientos](output/producto17):
+archivo con valores separados por coma (csv), corresponde al numero de
+test realizados por establecimiento, y al numero informado en las
+últimas 24 horas
+
+
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
 ## Como funciona?
