@@ -17,7 +17,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 6[contributed]: enriquecimiento del data product2](output/producto6/bulk): producto2 con todos los datos compilados en formato CSV y JSON, llamados producto2.csv y producto2.json respectivamente.
 
-[data product 7: Exámenes PCR por región](output/producto7): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de exámenes PCR realizados, y el segundo, a la serie de tiempo de los datos anteriores, por región. **Nota: en algunos casos se toman más muestras que la capacidad de exámenes PCR que tiene la región, por ende se envían a laboratorios fuera de la región** 
+[data product 7: Exámenes PCR por región](output/producto7): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de exámenes PCR realizados, y el segundo, a la serie de tiempo de los datos anteriores, por región. Contiene los campos 'Región', 'Población', '[fecha]', este último con el valor de 'Exámenes PCR' reportados por el MINSAL diariamente. **Nota: el dato no refleja la cantidad de muestras por región, en algunos casos se toman más muestras que la capacidad de exámenes PCR que tiene la región, por ende se envían a laboratorios fuera de la región** 
 
 [data product 8: Pacientes en UCI por región](output/producto8): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de hospitalizados UCI, y el segundo, a la serie de tiempo de los datos anteriores, por región.
 
