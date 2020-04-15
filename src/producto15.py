@@ -38,5 +38,4 @@ if __name__ == '__main__':
     copyfile('../input/SemanasEpidemiologicas.csv', '../output/producto15/SemanasEpidemiologicas.csv')
 
     df_t = transpone_csv('../output/producto15/Fecha_de_inicio_de_Sintomas.csv')
-    print(df_t)
     df_t.to_csv('../output/producto15/Fecha_de_inicio_de_Sintomas_T.csv', header=False)
