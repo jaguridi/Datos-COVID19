@@ -31,19 +31,16 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 14: Fallecidos por región incremental](output/producto14): 2 archivos con valores separados por coma (csv), el primero corresponde a casos fallecidos por región con los valores diarios reportados por el MINSAL, y el segundo a la serie de tiempo de los datos anteriores.
 
-[data product 15: Fecha de inicio de sintomas de casos confirmados](output/producto15): 3 archivos con valores separados
-por coma (csv), el primero reporta el total de casos confirmados con inicio de síntomas en la semana epidemiológica, el segundo la serie de tiempo de los datos anteriores y el tercero indica las fechas que marcan los inicios y términos de cada semana semana epidemiológica. El primer archivo contiene los campos 'Región', 'Comuna', 'Población', '[semana epidemiológica]', donde la última columna tiene el 'Total de casos confirmados con inicio de síntomas' reportados en cada publicación para cada semana. **Nota: estos datos son provisorios a la fecha del ultimo reporte, pues se van actualizando retroactivamente a medida que se confirman casos**
+[data product 15: Fecha de inicio de síntomas de casos confirmados](output/producto15): 3 archivos con valores separados
+por coma (csv), el primero reporta el inicio de síntomas para los casos confirmados por comuna y semana epidemiológica, el segundo la serie de tiempo de los datos anteriores y el tercero indica las fechas que marcan los inicios y términos de cada semana epidemiológica. El primer archivo contiene los campos 'Región', 'Comuna', 'Población', '[semana epidemiológica]', donde la última columna tiene el 'Total de casos con inicio de síntomas' reportados para casos confirmados en cada comuna del país, para cada semana. **Nota: estos datos son provisorios a la fecha del ultimo reporte, pues se van actualizando retroactivamente a medida que se confirman casos**
 
 [data product 16: Casos por genero y rango etario](output/producto16): 2 archivos con valores separados por coma (csv), el primero corresponde a casos totales separados por genero y rango etario (valores reportados por el MINSAL), y el segundo a la serie de tiempo de los datos anteriores.
 
 [data product 17:PCR acumulado e informado en el ultimo día por tipo de establecimientos](output/producto17):
-archivo con valores separados por coma (csv), corresponde al numero de
-test realizados por establecimiento, y al numero informado en las
-últimas 24 horas
+archivo con valores separados por coma (csv), corresponde al numero de test realizados por establecimiento, y al numero informado en las últimas 24 horas
 
 [data product 18:Tasa de incidencia historica](output/producto18):
-archivo con valores separados por coma (csv), corresponde a la tasa de
-incidencia por comuna y total regional, reportado por el MINSAL
+archivo con valores separados por coma (csv), corresponde a la tasa de incidencia por comuna y total regional, reportado por el MINSAL
 
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
