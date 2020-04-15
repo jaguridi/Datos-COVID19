@@ -24,6 +24,7 @@ SOFTWARE.
 from shutil import copyfile
 import pandas as pd
 
+# Estos productos salen del reporte diario del MINSAL
 
 def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)

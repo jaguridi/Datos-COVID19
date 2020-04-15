@@ -24,6 +24,8 @@ SOFTWARE.
 
 import pandas as pd
 
+# este producto depende de producto 5, que se genera del scrapping
+# y del producto 10, que sale del reporte diario del MINSAL
 
 def producto13(producto5, producto10):
     print('generating producto13')

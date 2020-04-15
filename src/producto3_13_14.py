@@ -28,6 +28,7 @@ from os import listdir
 from os.path import isfile, join
 
 # product3 simplemente es una compilacion de los casos confirmados por dia en una tabla.
+# Todos estos productos dependen del webscrapping
 
 if __name__ == '__main__':
 
