@@ -25,7 +25,7 @@ SOFTWARE.
 import pandas as pd
 from shutil import copyfile
 
-# este producto depende del informe epidemiologico
+# el producto 15 y 16 dependen del informe epidemiologico
 
 def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)
@@ -34,8 +34,9 @@ def transpone_csv(csvfile):
 
 if __name__ == '__main__':
 
-    output = '../output/producto15/Fecha_de_inicio_de_Sintomas.csv'
-    copyfile("../input/Fecha_de_inicio_de_Sintomas.csv", output)
+    copyfile('../input/Fecha_de_inicio_de_Sintomas.csv', '../output/producto15/Fecha_de_inicio_de_Sintomas.csv')
+    copyfile('../input/SemanasEpidemiologicas.csv', '../output/producto15/SemanasEpidemiologicas.csv')
 
-    df_t = transpone_csv(output)
+    df_t = transpone_csv('../output/producto15/Fecha_de_inicio_de_Sintomas.csv')
+    print(df_t)
     df_t.to_csv('../output/producto15/Fecha_de_inicio_de_Sintomas_T.csv', header=False)
