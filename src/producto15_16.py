@@ -39,3 +39,7 @@ if __name__ == '__main__':
 
     df_t = transpone_csv('../output/producto15/Fecha_de_inicio_de_Sintomas.csv')
     df_t.to_csv('../output/producto15/Fecha_de_inicio_de_Sintomas_T.csv', header=False)
+
+    copyfile('../input/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario.csv')
+    df2_t = transpone_csv('../output/producto16/CasosGeneroEtario.csv')
+    df2_t.to_csv('../output/producto16/CasosGeneroEtario_T.csv', header=False)

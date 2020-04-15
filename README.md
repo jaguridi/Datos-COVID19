@@ -31,6 +31,18 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 14: Fallecidos por región incremental](output/producto14): 2 archivos con valores separados por coma (csv), el primero corresponde a casos fallecidos por región con los valores diarios reportados por el MINSAL, y el segundo a la serie de tiempo de los datos anteriores.
 
+[data product 15:](output/producto15): 2 archivos con valores separados
+por coma (csv),  
+el primero corresponde a TBD, y el segundo a las fechas que marcan los
+inicios y términos de cada semana.
+
+[data product 16: Casos por genero y rango etario](output/producto16): 2
+archivos con valores separados por coma (csv), el primero corresponde a
+casos totales separados por genero y rango etario (valores reportados
+por el MINSAL), y el segundo a la serie de tiempo de los datos
+anteriores.
+
+
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
 ## Como funciona?
