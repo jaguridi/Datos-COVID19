@@ -33,6 +33,7 @@ def transpone_csv(csvfile):
 
 if __name__ == '__main__':
     copyfile('../input/PCR.csv', '../output/producto7/PCR.csv')
+    copyfile('../input/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
     copyfile('../input/UCI.csv', '../output/producto8/UCI.csv')
     copyfile('../input/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario.csv')
     copyfile('../input/FallecidosEtario.csv', '../output/producto10/FallecidosEtario.csv')
