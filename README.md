@@ -41,6 +41,9 @@ archivo con valores separados por coma (csv), corresponde al numero de
 test realizados por establecimiento, y al numero informado en las
 últimas 24 horas
 
+[data product 18:Tasa de incidencia historica](output/producto18):
+archivo con valores separados por coma (csv), corresponde a la tasa de
+incidencia por comuna y total regional, reportado por el MINSAL
 
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
