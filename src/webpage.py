@@ -28,13 +28,17 @@ Los productos que salen de la pagina web del minsal son:
 5
 11
 """
+
+
 import requests
 from bs4 import BeautifulSoup
 import csv
 import unidecode
 import pandas as pd
 from datetime import datetime, timedelta
-
+from os import listdir
+from os.path import isfile, join
+import utils
 
 def get_minsal_page(minsalURL):
     page = requests.get(minsalURL)
@@ -180,6 +184,62 @@ def prod5(fte, producto):
                 myfile.write(row)
     add_column_to_csv(casos, out)
 
+def prod3_13_14(fte):
+    print('Generando productos 3, 13 y 14')
+    onlyfiles = [f for f in listdir(fte) if isfile(join(fte, f))]
+    cumulativoCasosNuevos = pd.DataFrame({'Region': [],
+                                          'Casos nuevos': []})
+    cumulativoCasosTotales = pd.DataFrame({'Region': [],
+                                           'Casos totales': []})
+    cumulativoFallecidos = pd.DataFrame({'Region': [],
+                                         'Fallecidos': []})
+
+    print(onlyfiles.sort())
+    for eachfile in onlyfiles:
+        date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
+        dataframe = pd.read_csv(fte + eachfile)
+        # sanitize headers
+        dataframe.rename(columns={'Región': 'Region'}, inplace=True)
+        dataframe.rename(columns={'Casos  nuevos': 'Casos nuevos'}, inplace=True)
+        dataframe.rename(columns={' Casos nuevos': 'Casos nuevos'}, inplace=True)
+        dataframe.rename(columns={'Casos  totales': 'Casos totales'}, inplace=True)
+        dataframe.rename(columns={' Casos totales': 'Casos totales'}, inplace=True)
+        dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
+
+        if cumulativoCasosNuevos['Region'].empty:
+            cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
+            cumulativoCasosNuevos.rename(columns={'Casos nuevos': date}, inplace=True)
+            cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
+            cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
+        else:
+            cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
+            cumulativoCasosTotales[date] = dataframe['Casos totales']
+
+        if 'Fallecidos' in dataframe.columns:
+            if cumulativoFallecidos['Region'].empty:
+                cumulativoFallecidos[['Region', 'Fallecidos']] = dataframe[['Region', 'Fallecidos']]
+                cumulativoFallecidos.rename(columns={'Fallecidos': date}, inplace=True)
+            else:
+                cumulativoFallecidos[date] = dataframe['Fallecidos']
+
+    # estandarizar nombres de regiones
+    utils.regionName(cumulativoCasosNuevos)
+    utils.regionName(cumulativoCasosTotales)
+    utils.regionName(cumulativoFallecidos)
+
+    cumulativoCasosNuevos_T = cumulativoCasosNuevos.transpose()
+    cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
+    cumulativoFallecidos_T = cumulativoFallecidos.transpose()
+
+    cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
+    cumulativoCasosNuevos_T.to_csv('../output/producto13/CasosNuevosCumulativo_T.csv', header=False)
+
+    cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
+    cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
+
+    cumulativoFallecidos.to_csv('../output/producto14/FallecidosCumulativo.csv', index=False)
+    cumulativoFallecidos_T.to_csv('../output/producto14/FallecidosCumulativo_T.csv', header=False)
+
 
 if __name__ == '__main__':
     # Aca se genera el producto 4 y 5
@@ -194,3 +254,5 @@ if __name__ == '__main__':
 
         print('Generando producto 11')
         #exec(open('bulk_producto4.py').read())
+
+        prod3_13_14('../output/producto4/')

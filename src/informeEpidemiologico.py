@@ -100,15 +100,15 @@ def prod18(fte, producto):
 if __name__ == '__main__':
     # Aqui se generan los productos 1 y 2 a partir del informe epidemiologico
 
-    prod1('../input/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
+    prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
 
-    prod2('../input/CasosAcumuladosPorComuna.csv', '../output/producto2/')
+    prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
 
     print('Generando producto 6')
     exec(open('bulk_producto2.py').read())
 
-    prod15('../input/FechaInicioSintomas.csv', '../output/producto15/Fecha_de_Inicio_de_Sintomas')
+    prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/Fecha_de_Inicio_de_Sintomas')
 
-    prod16('../input/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
+    prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
-    prod18('../input/Tasadeincidencia.csv', '../output/producto18/TasadeIncidencia')
+    prod18('../input/InformeEpidemiologico/Tasadeincidencia.csv', '../output/producto18/TasadeIncidencia')
