@@ -30,6 +30,16 @@ from os.path import isfile, join
 # product3 simplemente es una compilacion de los casos confirmados por dia en una tabla.
 # Todos estos productos dependen del webscrapping
 
+
+def regionName(df):
+    df["Region"] = df["Region"].replace({"Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
+                                         "Del Libertador General Bernardo O’Higgins": "O’Higgins", "Nuble": "Ñuble",
+                                         "Biobio": "Biobío", "La Araucania": "Araucanía", "Los Rios": "Los Ríos",
+                                         "Aysen": "Aysén", "Magallanes y la Antartica": "Magallanes"
+                                         })
+    return df
+
+
 if __name__ == '__main__':
 
     mypath = "../output/producto4/"
@@ -70,9 +80,11 @@ if __name__ == '__main__':
             else:
                 cumulativoFallecidos[date] = dataframe['Fallecidos']
 
-    #print(cumulativoCasosNuevos.columns)
-    #print(cumulativoCasosTotales.columns)
-    print(cumulativoFallecidos.columns)
+    #estandarizar nombres de regiones
+    regionName(cumulativoCasosNuevos)
+    regionName(cumulativoCasosTotales)
+    regionName(cumulativoFallecidos)
+
     cumulativoCasosNuevos_T = cumulativoCasosNuevos.transpose()
     cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
     cumulativoFallecidos_T = cumulativoFallecidos.transpose()
@@ -85,5 +97,3 @@ if __name__ == '__main__':
 
     cumulativoFallecidos.to_csv('../output/producto14/FallecidosCumulativo.csv', index=False)
     cumulativoFallecidos_T.to_csv('../output/producto14/FallecidosCumulativo_T.csv', header=False)
-
-
