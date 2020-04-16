@@ -21,29 +21,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
-from shutil import copyfile
+
+import csv
 import pandas as pd
-
-
-def transpone_csv(csvfile):
-    df = pd.read_csv(csvfile)
-    return(df.T)
-
+from os import listdir
 
 if __name__ == '__main__':
-    copyfile('../input/PCR.csv', '../output/producto7/PCR.csv')
-    copyfile('../input/UCI.csv', '../output/producto8/UCI.csv')
-    copyfile('../input/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario.csv')
-    copyfile('../input/FallecidosEtario.csv', '../output/producto10/FallecidosEtario.csv')
-
-    PCR_T = transpone_csv('../output/producto7/PCR.csv')
-    PCR_T.to_csv('../output/producto7/PCR_T.csv', header=False)
-
-    UCI_T = transpone_csv('../output/producto8/UCI.csv')
-    UCI_T.to_csv('../output/producto8/UCI_T.csv', header=False)
-
-    HospitalizadosUCIEtario_T = transpone_csv('../output/producto9/HospitalizadosUCIEtario.csv')
-    HospitalizadosUCIEtario_T.to_csv('../output/producto9/HospitalizadosUCIEtario_T.csv', header=False)
-
-    FallecidosEtario_T = transpone_csv('../output/producto10/FallecidosEtario.csv')
-    FallecidosEtario_T.to_csv('../output/producto10/FallecidosEtario_T.csv', header=False)
+    # producto 18: tasa de incidencia total e histórica
+    df = pd.read_csv('../input/Tasadeincidencia.csv')
+    df.dropna(how='all', inplace=True)
+    df.to_csv('../output/producto18/TasadeIncidencia.csv')

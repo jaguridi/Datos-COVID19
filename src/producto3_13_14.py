@@ -28,6 +28,7 @@ from os import listdir
 from os.path import isfile, join
 
 # product3 simplemente es una compilacion de los casos confirmados por dia en una tabla.
+# Todos estos productos dependen del webscrapping
 
 if __name__ == '__main__':
 
@@ -72,6 +73,17 @@ if __name__ == '__main__':
     #print(cumulativoCasosNuevos.columns)
     #print(cumulativoCasosTotales.columns)
     print(cumulativoFallecidos.columns)
+    cumulativoCasosNuevos_T = cumulativoCasosNuevos.transpose()
+    cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
+    cumulativoFallecidos_T = cumulativoFallecidos.transpose()
+
     cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
+    cumulativoCasosNuevos_T.to_csv('../output/producto13/CasosNuevosCumulativo_T.csv', header=False)
+
     cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
+    cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
+
     cumulativoFallecidos.to_csv('../output/producto14/FallecidosCumulativo.csv', index=False)
+    cumulativoFallecidos_T.to_csv('../output/producto14/FallecidosCumulativo_T.csv', header=False)
+
+
