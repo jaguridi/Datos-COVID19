@@ -22,6 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
+"""
+Los productos que salen de la pagina web del minsal son:
+4
+5
+
+"""
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -174,21 +180,14 @@ def producto5(fte, producto):
                 myfile.write(row)
     add_column_to_csv(casos, out)
 
+
 if __name__ == '__main__':
     # Aca se genera el producto 4 y 5
     test = False
     if test:
         producto4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
         producto5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
-        # myMinsal = get_table_regional(myMinsalsoup)
-        # for element in myMinsal:
-        #     print(element)
-        # casos = get_casos_recuperados(myMinsalsoup)
-        # print(casos)
-        # print('testing add_column_to_csv' )
-        # add_column_to_csv(casos, '../output/producto5/recuperados.csv' )
 
     else:
-
         producto4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
         producto5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
