@@ -28,6 +28,6 @@ from os import listdir
 
 if __name__ == '__main__':
     # producto 18: tasa de incidencia total e histórica
-    df = pd.read_csv('../input/Tasadeincidencia.csv')
+    df = pd.read_csv('../input/Tasadeincidencia.csv', dtype={'Codigo region': object})
     df.dropna(how='all', inplace=True)
-    df.to_csv('../output/producto18/TasadeIncidencia.csv')
+    df.to_csv('../output/producto18/TasadeIncidencia.csv', index=False)
