@@ -21,7 +21,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 8: Pacientes en UCI por región](output/producto8): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de hospitalizados UCI, y el segundo, a la serie de tiempo de los datos anteriores, por región. Contiene los campos ''Grupo de edad', '[fecha]', donde esta última columna contiene 'Pacientes en UCI' reportados por día.
 
-[data product 9: Pacientes en UCI por rango etario](output/producto9): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de hospitalizados UCI, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario.
+[data product 10: Fallecidos por grupo de edad](output/producto10): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de fallecidos, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario. Contiene los campos ''Grupo de edad', '[fecha]', donde esta última columna contiene 'Fallecidos' reportados por día.
 
 [data product 10: Fallecidos por grupo de edad](output/producto10): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de fallecidos, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario. Contiene los campos ''Grupo de edad', '[fecha]', donde esta última columna contiene 'Fallecidos' reportados por día.
 
