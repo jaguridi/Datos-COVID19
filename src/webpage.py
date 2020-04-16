@@ -246,6 +246,7 @@ if __name__ == '__main__':
     prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
 
     print('Generando producto 11')
+    print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
     #exec(open('bulk_producto4.py').read())
 
     print('Generando productos 3, 13 y 14')
