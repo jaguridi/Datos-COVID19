@@ -107,8 +107,8 @@ if __name__ == '__main__':
     print('Generando producto 6')
     exec(open('bulk_producto2.py').read())
 
-    prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/Fecha_de_Inicio_de_Sintomas')
+    prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
-    prod18('../input/InformeEpidemiologico/Tasadeincidencia.csv', '../output/producto18/TasadeIncidencia')
+    prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
