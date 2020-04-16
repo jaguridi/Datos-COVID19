@@ -66,6 +66,7 @@ def prod2(fte, producto):
         filename = eachdate + '-CasosConfirmados.csv'
         print('escribiendo archivo ' + filename)
         aux = df[['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', eachdate]]
+        aux.rename(columns={eachdate: 'Casos Confirmados'}, inplace=True)
         aux.to_csv(producto + filename, index=False)
 
 
