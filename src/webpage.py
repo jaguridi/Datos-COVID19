@@ -26,7 +26,7 @@ SOFTWARE.
 Los productos que salen de la pagina web del minsal son:
 4
 5
-
+11
 """
 import requests
 from bs4 import BeautifulSoup
@@ -149,7 +149,7 @@ def add_column_to_csv(data, filename):
         for eachrow in output:
             myCsvwriter.writerow(eachrow)
 
-def producto4(fte, producto):
+def prod4(fte, producto):
     """
     Cada archivo en generado para producto4 corresponde a un csv que contiene los datos publicados por minsal en
     https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/
@@ -160,7 +160,7 @@ def producto4(fte, producto):
     writer('CasosConfirmados-totalRegional', myTable, producto)
 
 
-def producto5(fte, producto):
+def prod5(fte, producto):
     """
     Producto5 correponde a un archivo csv que añande una columna con cada publicacion de casos recuperados en
     https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/
@@ -185,9 +185,12 @@ if __name__ == '__main__':
     # Aca se genera el producto 4 y 5
     test = False
     if test:
-        producto4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
-        producto5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
+        prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
+        prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
 
     else:
-        producto4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
-        producto5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
+        prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
+        prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
+
+        print('Generando producto 11')
+        #exec(open('bulk_producto4.py').read())
