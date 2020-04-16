@@ -62,7 +62,7 @@ if __name__ == '__main__':
     prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
 
     print('Generando producto 10')
-    prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto9/FallecidosEtario')
+    prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
 
     print('Generando producto 12')
     exec(open('bulk_producto7.py').read())
