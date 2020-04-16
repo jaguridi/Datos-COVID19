@@ -83,11 +83,19 @@ def prod15(fte, producto):
     df_t.to_csv(producto + '_T.csv', header=False)
     copyfile('../input/SemanasEpidemiologicas.csv', '../output/producto15/SemanasEpidemiologicas.csv')
 
+
 def prod16(fte, producto):
     print('Generando producto 16')
     copyfile(fte, producto + '.csv')
     df2_t = utils.transpone_csv(producto + '.csv')
     df2_t.to_csv(producto + '_T.csv', header=False)
+
+def prod18(fte, producto):
+    df = pd.read_csv(fte, dtype={'Codigo region': object})
+    df.dropna(how='all', inplace=True)
+    df.to_csv(producto + '.csv', index=False)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
 
 if __name__ == '__main__':
     # Aqui se generan los productos 1 y 2 a partir del informe epidemiologico
@@ -102,3 +110,5 @@ if __name__ == '__main__':
     prod15('../input/FechaInicioSintomas.csv', '../output/producto15/Fecha_de_Inicio_de_Sintomas')
 
     prod16('../input/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
+
+    prod18('../input/Tasadeincidencia.csv', '../output/producto18/TasadeIncidencia')
