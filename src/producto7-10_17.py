@@ -44,7 +44,7 @@ def regionName(df):
 
 def prod7_8(fte, producto):
     print('Generando producto ' + producto)
-    df = pd.read_csv(fte)
+    df = pd.read_csv(fte, dtype={'Codigo region': object})
     regionName(df)
     df_t = df.T
     df.to_csv(producto + '.csv', index=False)
