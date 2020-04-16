@@ -26,7 +26,8 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import unidecode
-from datetime import datetime
+import pandas as pd
+from datetime import datetime, timedelta
 
 
 def get_minsal_page(minsalURL):
@@ -64,13 +65,41 @@ def get_table_regional(minsalsoup):
 def writer(fileid, mylist, outputpath):
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
+    yesterday = now - timedelta(days=1)
+    lastfiletimestamp = yesterday.strftime("%Y-%m-%d")
+    lastfilename = outputpath + lastfiletimestamp + '-' + fileid + '.csv'
     filename = outputpath + timestamp + '-' + fileid + '.csv'
-    print('Escribiendo en ' + filename)
-    with open(filename, 'w', newline='') as myfile:
-        wr = csv.writer(myfile, quoting=csv.QUOTE_NONE, escapechar=' ')
-        for element in mylist:
-            wr.writerow(element)
+    # Check if new data is the same as on last file in output
 
+    print('Comparando valores de ' + filename + ' con ' + lastfilename)
+    last_df = pd.read_csv(lastfilename)
+    last_df_list = last_df.values.tolist()
+    process = False
+    if len(last_df_list) != len(mylist[1:]):
+        print('yesterday\'s list was ' + str(len(last_df_list)) + ' elements long')
+        #skip header as it changes often
+        print('today\'s list is ' + str(len(mylist[1:])) + ' elements long')
+        print('You should check minsal table to see what happened')
+        return
+    else:
+        i = 0
+        while i < len(last_df_list):
+            j = 0
+            while j < len(last_df_list[i]):
+                if str(last_df_list[i][j]).replace(' ', '') != str(mylist[i + 1][j]).replace(' ', ''):
+                    print('de ayer : ' + str(last_df_list[i][j]).replace(' ', '') + ' no coincide con lo de hoy: ' + str(mylist[i + 1][j]).replace(' ', ''))
+                    process = True
+                j += 1
+            i += 1
+
+    if process:
+        print('Escribiendo en ' + filename)
+        with open(filename, 'w', newline='') as myfile:
+            wr = csv.writer(myfile, quoting=csv.QUOTE_NONE, escapechar=' ')
+            for element in mylist:
+                wr.writerow(element)
+    else:
+        raise Exception('La tabla de minsal no ha cambiado')
 
 def add_row_to_csv(data, filename):
     now = datetime.now()
@@ -147,7 +176,7 @@ def producto5(fte, producto):
 
 if __name__ == '__main__':
     # Aca se genera el producto 4 y 5
-    test =True
+    test = False
     if test:
         producto4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
         producto5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
@@ -161,8 +190,5 @@ if __name__ == '__main__':
 
     else:
 
-        writer('CasosConfirmados-totalRegional',
-               get_table_regional(myMinsalsoup))
-        casos = get_casos_recuperados(myMinsalsoup)
-        #add_row_to_csv(casos, '../output/producto5/recuperados.csv')
-        add_column_to_csv(casos, '../output/producto5/recuperados.csv')
+        producto4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
+        producto5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
