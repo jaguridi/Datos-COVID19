@@ -185,7 +185,6 @@ def prod5(fte, producto):
     add_column_to_csv(casos, out)
 
 def prod3_13_14(fte):
-    print('Generando productos 3, 13 y 14')
     onlyfiles = [f for f in listdir(fte) if isfile(join(fte, f))]
     cumulativoCasosNuevos = pd.DataFrame({'Region': [],
                                           'Casos nuevos': []})
@@ -242,17 +241,12 @@ def prod3_13_14(fte):
 
 
 if __name__ == '__main__':
-    # Aca se genera el producto 4 y 5
-    test = False
-    if test:
-        prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
-        prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../temp/')
 
-    else:
-        prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
-        prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
+    prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
+    prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
 
-        print('Generando producto 11')
-        #exec(open('bulk_producto4.py').read())
+    print('Generando producto 11')
+    #exec(open('bulk_producto4.py').read())
 
-        prod3_13_14('../output/producto4/')
+    print('Generando productos 3, 13 y 14')
+    prod3_13_14('../output/producto4/')

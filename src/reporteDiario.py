@@ -24,13 +24,48 @@ SOFTWARE.
 
 """
 Los productos que salen del reporte diario son:
-3
 7
 8
 9
 10
 12
-13
-14
 17
 """
+
+import pandas as pd
+import utils
+from shutil import copyfile
+
+
+def prod7_8(fte, producto):
+    df = pd.read_csv(fte, dtype={'Codigo region': object})
+    utils.regionName(df)
+    df_t = df.T
+    df.to_csv(producto + '.csv', index=False)
+    df_t.to_csv(producto + '_T.csv', header=False)
+
+
+def prod9_10(fte, producto):
+    copyfile(fte, producto + '.csv')
+    HospitalizadosUCIEtario_T = utils.transpone_csv(producto + '.csv')
+    HospitalizadosUCIEtario_T.to_csv(producto + '_T.csv', header=False)
+
+
+if __name__ == '__main__':
+    print('Generando producto 7')
+    prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
+
+    print('Generando producto 8')
+    prod7_8('../input/ReporteDiario//UCI.csv', '../output/producto8/UCI')
+
+    print('Generando producto 9')
+    prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
+
+    print('Generando producto 10')
+    prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto9/FallecidosEtario')
+
+    print('Generando producto 12')
+    exec(open('bulk_producto7.py').read())
+
+    print('Generando producto 17')
+    copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')

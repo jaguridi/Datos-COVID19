@@ -81,7 +81,7 @@ def prod15(fte, producto):
     df.to_csv(producto + '.csv', index=False)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
-    copyfile('../input/SemanasEpidemiologicas.csv', '../output/producto15/SemanasEpidemiologicas.csv')
+    copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv', '../output/producto15/SemanasEpidemiologicas.csv')
 
 
 def prod16(fte, producto):
