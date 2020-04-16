@@ -33,7 +33,7 @@ Los productos que salen del informe epidemiologico son:
 
 import utils
 import pandas as pd
-
+from shutil import copyfile
 
 def prod1(fte, producto):
     # Generando producto 1
@@ -70,6 +70,19 @@ def prod2(fte, producto):
         aux.rename(columns={eachdate: 'Casos Confirmados'}, inplace=True)
         aux.to_csv(producto + filename, index=False)
 
+def prod15(fte, producto):
+    print('Generando producto 15')
+    df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
+    df.dropna(how='all', inplace=True)
+    utils.regionName(df)
+    # Drop filas de totales por region
+    todrop = df.loc[df['Comuna'] == 'Total']
+    df.drop(todrop.index, inplace=True)
+    df.to_csv(producto + '.csv', index=False)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    copyfile('../input/SemanasEpidemiologicas.csv', '../output/producto15/SemanasEpidemiologicas.csv')
+
 if __name__ == '__main__':
     # Aqui se generan los productos 1 y 2 a partir del informe epidemiologico
 
@@ -79,3 +92,5 @@ if __name__ == '__main__':
 
     print('Generando producto 6')
     exec(open('bulk_producto2.py').read())
+
+    prod15('../input/FechaInicioSintomas.csv', '../output/producto15/Fecha_de_Inicio_de_Sintomas')

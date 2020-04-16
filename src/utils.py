@@ -25,7 +25,7 @@ SOFTWARE.
 """
 Utilidades genéricas
 """
-
+import pandas as pd
 
 def regionName(df):
     df["Region"] = df["Region"].replace({"Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
@@ -33,3 +33,7 @@ def regionName(df):
                                          "Biobio": "Biobío", "La Araucania": "Araucanía", "Los Rios": "Los Ríos",
                                          "Aysen": "Aysén", "Magallanes y la Antartica": "Magallanes"
                                          })
+
+def transpone_csv(csvfile):
+    df = pd.read_csv(csvfile)
+    return(df.T)
