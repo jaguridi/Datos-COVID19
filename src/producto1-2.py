@@ -39,7 +39,7 @@ def regionName(df):
 def prod1(fte, producto):
     # Generando producto 1
     print('Generando producto 1')
-    df = pd.read_csv(fte)
+    df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
     df.dropna(how='all', inplace=True)
     regionName(df)
     # Drop filas de totales por region
@@ -51,7 +51,7 @@ def prod1(fte, producto):
 
 def prod2(fte, producto):
     print('Generando producto 2')
-    df = pd.read_csv(fte)
+    df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
     df.dropna(how='all', inplace=True)
     regionName(df)
     # Drop filas de totales por region
