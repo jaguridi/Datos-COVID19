@@ -31,3 +31,5 @@ if __name__ == '__main__':
     df = pd.read_csv('../input/Tasadeincidencia.csv', dtype={'Codigo region': object})
     df.dropna(how='all', inplace=True)
     df.to_csv('../output/producto18/TasadeIncidencia.csv', index=False)
+    df_t = df.T
+    df_t.to_csv('../output/producto18/TasadeIncidencia_T.csv', header=False)
