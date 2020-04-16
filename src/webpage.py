@@ -169,20 +169,22 @@ def prod5(fte, producto):
     Producto5 correponde a un archivo csv que añande una columna con cada publicacion de casos recuperados en
     https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/
     """
-    print('generando producto 5 a partir de ' + fte + ' en ' + producto)
     myMinsalsoup = get_minsal_page(fte)
     casos = get_casos_recuperados(myMinsalsoup)
     out = producto + 'recuperados.csv'
-    # check if the file exist
-    try:
-        f = open(out)
-    except FileNotFoundError:
-        print(out + ' no existe, creando')
-        with open(out, 'a+') as myfile:
-            rows = ['Fecha\nRecuperados']
-            for row in rows:
-                myfile.write(row)
-    add_column_to_csv(casos, out)
+    print('Abriendo ' + out)
+    df = pd.read_csv(out)
+    # hay que comparar con el de ayer, a ver si estamos corriendo a buena hora
+    now = datetime.now()
+    timestamp = now.strftime("%Y-%m-%d")
+    if timestamp in df.columns:
+        print(timestamp + ' ya fue agregada')
+        return
+    else:
+        df[timestamp] = casos[1]
+        print(df)
+        df.to_csv(out, index=0)
+
 
 def prod3_13_14(fte):
     onlyfiles = [f for f in listdir(fte) if isfile(join(fte, f))]
@@ -251,3 +253,4 @@ if __name__ == '__main__':
 
     print('Generando productos 3, 13 y 14')
     prod3_13_14('../output/producto4/')
+
