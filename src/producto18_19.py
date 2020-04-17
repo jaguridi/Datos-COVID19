@@ -26,6 +26,13 @@ import csv
 import pandas as pd
 from os import listdir
 
+def prod19(fte, producto):
+    df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
+    df.dropna(how='all', inplace=True)
+    df.to_csv(producto + '.csv', index=False)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+
 if __name__ == '__main__':
     # producto 18: tasa de incidencia total e histórica
     df = pd.read_csv('../input/Tasadeincidencia.csv', dtype={'Codigo region': object})
@@ -33,3 +40,6 @@ if __name__ == '__main__':
     df.to_csv('../output/producto18/TasadeIncidencia.csv', index=False)
     df_t = df.T
     df_t.to_csv('../output/producto18/TasadeIncidencia_T.csv', header=False)
+
+    # producto19: casos activos por comuna
+    prod19('../input/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
