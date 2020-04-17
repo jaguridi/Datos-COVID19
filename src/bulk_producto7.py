@@ -8,6 +8,7 @@ regions_id = {"Arica y Parinacota": 15, "Tarapacá": 1, "Antofagasta": 2, "Ataca
               }
 
 df = pd.read_csv("../output/producto7/PCR.csv", sep=",", encoding="utf-8")
+df = df.drop('Codigo region', axis='columns')
 df = pd.melt(df, id_vars=["Region", "Poblacion"],
              var_name="Fecha", value_name="PCR Realizados")
 
@@ -20,6 +21,8 @@ df["Region"] = df["Region"].replace({"Tarapaca": "Tarapacá", "Valparaiso": "Val
 df["Region ID"] = df["Region"].replace(regions_id)
 
 df["PCR Realizados"] = df["PCR Realizados"].fillna("-")
+
+
 
 df["Fecha"] = df["Fecha"].str.replace("-", "/")
 
