@@ -28,6 +28,8 @@ import csv
 import unidecode
 from datetime import datetime
 import pandas as pd
+import glob
+import re
 
 
 def get_minsal_page(minsalURL):
@@ -75,19 +77,43 @@ def writer(fileprefix, mylist):
 
 
 def prod5Nuevo(fte, producto):
+    now = datetime.now()
+    timestamp = now.strftime("%Y-%m-%d")
     myMinsalsoup = get_minsal_page(fte)
     tabla_regional = get_table_regional(myMinsalsoup)
     casos_recuperados = get_casos_recuperados(myMinsalsoup)
 
     df_tr = pd.DataFrame.from_records(tabla_regional)
-    print(df_tr)
-    df_cr = pd.DataFrame(casos_recuperados)
-    print(df_cr)
+    #print(df_tr)
+
+    #print(df_cr)
     header = (df_tr.loc[df_tr[0] == 'Region'])
     total = (df_tr.loc[df_tr[0] == 'Total'])
-    print(header)
-    print(total)
+    a = header.append(total, ignore_index=True)
+    #drop ** porcentaje casos fallecidos
+    a.drop(3, axis='columns', inplace=True)
+    a.rename(columns={0: 'Fecha', 1: 'Casos nuevos', 2: 'Casos totales', 4: 'Fallecidos'}, inplace=True)
+    a['Fecha'] = timestamp
+    a.drop(0, inplace=True)
+    a['Casos recuperados'] = casos_recuperados[1]
 
+    a['Casos activos'] = int(a['Casos totales']) - int(a['Casos recuperados']) - int(a['Fallecidos'])
+
+    totales = pd.read_csv(producto)
+
+    if (a['Fecha'][1]) in totales.columns:
+        print(a['Fecha'] + ' ya esta en el dataframe. No actualizamos')
+        return
+    else:
+        print(totales.iloc[:, 0])
+        newColumn=[]
+        for eachValue in totales.iloc[:, 0]:
+            print(eachValue)
+            newColumn.append(a[eachValue][1])
+
+        totales[timestamp] = newColumn
+        print(totales)
+        totales.to_csv(producto, index=False)
 
 def add_row_to_csv(data, filename):
     now = datetime.now()
@@ -134,7 +160,7 @@ def add_column_to_csv(data, filename):
 
 if __name__ == '__main__':
     # Aca se genera el producto 4 y 5
-    test = True
+    test = False
     myMinsalsoup = get_minsal_page(
         'https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
     if test:
@@ -145,7 +171,7 @@ if __name__ == '__main__':
         #print(casos)
         #print('testing add_column_to_csv' )
         #add_column_to_csv(casos, '../output/producto5/recuperados.csv' )
-        prod5Nuevo('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', 'lala')
+        prod5Nuevo('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/test.csv')
 
     else:
 
@@ -154,3 +180,5 @@ if __name__ == '__main__':
         casos = get_casos_recuperados(myMinsalsoup)
         #add_row_to_csv(casos, '../output/producto5/recuperados.csv')
         add_column_to_csv(casos, '../output/producto5/recuperados.csv')
+        prod5Nuevo('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/',
+                   '../output/producto5/TotalesNacionales.csv')
