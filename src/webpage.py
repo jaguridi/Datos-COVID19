@@ -111,6 +111,7 @@ def writer(fileid, mylist, outputpath):
     else:
         raise Exception('La tabla de minsal no ha cambiado')
 
+
 def add_row_to_csv(data, filename):
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
@@ -153,6 +154,7 @@ def add_column_to_csv(data, filename):
         for eachrow in output:
             myCsvwriter.writerow(eachrow)
 
+
 def prod4(fte, producto):
     """
     Cada archivo en generado para producto4 corresponde a un csv que contiene los datos publicados por minsal en
@@ -184,6 +186,45 @@ def prod5(fte, producto):
         df[timestamp] = casos[1]
         print(df)
         df.to_csv(out, index=0)
+
+def prod5Nuevo(fte, producto):
+    now = datetime.now()
+    timestamp = now.strftime("%Y-%m-%d")
+    myMinsalsoup = get_minsal_page(fte)
+    tabla_regional = get_table_regional(myMinsalsoup)
+    casos_recuperados = get_casos_recuperados(myMinsalsoup)
+
+    df_tr = pd.DataFrame.from_records(tabla_regional)
+    #print(df_tr)
+
+    #print(df_cr)
+    header = (df_tr.loc[df_tr[0] == 'Region'])
+    total = (df_tr.loc[df_tr[0] == 'Total'])
+    a = header.append(total, ignore_index=True)
+    #drop ** porcentaje casos fallecidos
+    a.drop(3, axis='columns', inplace=True)
+    a.rename(columns={0: 'Fecha', 1: 'Casos nuevos', 2: 'Casos totales', 4: 'Fallecidos'}, inplace=True)
+    a['Fecha'] = timestamp
+    a.drop(0, inplace=True)
+    a['Casos recuperados'] = casos_recuperados[1]
+
+    a['Casos activos'] = int(a['Casos totales']) - int(a['Casos recuperados']) - int(a['Fallecidos'])
+
+    totales = pd.read_csv(producto)
+
+    if (a['Fecha'][1]) in totales.columns:
+        print(a['Fecha'] + ' ya esta en el dataframe. No actualizamos')
+        return
+    else:
+        print(totales.iloc[:, 0])
+        newColumn=[]
+        for eachValue in totales.iloc[:, 0]:
+            print(eachValue)
+            newColumn.append(a[eachValue][1])
+
+        totales[timestamp] = newColumn
+        print(totales)
+        totales.to_csv(producto, index=False)
 
 
 def prod3_13_14(fte):
@@ -247,10 +288,15 @@ if __name__ == '__main__':
     prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
     prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
 
+
+    prod5Nuevo('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
+
+
     print('Generando producto 11')
     print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
     #exec(open('bulk_producto4.py').read())
 
     print('Generando productos 3, 13 y 14')
     prod3_13_14('../output/producto4/')
+
 
