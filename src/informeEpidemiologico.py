@@ -29,6 +29,7 @@ Los productos que salen del informe epidemiologico son:
 6
 16
 18
+19
 """
 
 import utils
@@ -97,6 +98,14 @@ def prod18(fte, producto):
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
 
+def prod19(fte, producto):
+    df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
+    df.dropna(how='all', inplace=True)
+    df.to_csv(producto + '.csv', index=False)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+
+
 if __name__ == '__main__':
     # Aqui se generan los productos 1 y 2 a partir del informe epidemiologico
 
@@ -112,3 +121,5 @@ if __name__ == '__main__':
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
     prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
+
+    prod19('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
