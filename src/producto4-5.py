@@ -27,6 +27,7 @@ from bs4 import BeautifulSoup
 import csv
 import unidecode
 from datetime import datetime
+import pandas as pd
 
 
 def get_minsal_page(minsalURL):
@@ -71,6 +72,21 @@ def writer(fileprefix, mylist):
         wr = csv.writer(myfile, quoting=csv.QUOTE_NONE, escapechar=' ')
         for element in mylist:
             wr.writerow(element)
+
+
+def prod5Nuevo(fte, producto):
+    myMinsalsoup = get_minsal_page(fte)
+    tabla_regional = get_table_regional(myMinsalsoup)
+    casos_recuperados = get_casos_recuperados(myMinsalsoup)
+
+    df_tr = pd.DataFrame.from_records(tabla_regional)
+    print(df_tr)
+    df_cr = pd.DataFrame(casos_recuperados)
+    print(df_cr)
+    header = (df_tr.loc[df_tr[0] == 'Region'])
+    total = (df_tr.loc[df_tr[0] == 'Total'])
+    print(header)
+    print(total)
 
 
 def add_row_to_csv(data, filename):
@@ -118,17 +134,18 @@ def add_column_to_csv(data, filename):
 
 if __name__ == '__main__':
     # Aca se genera el producto 4 y 5
-    test = False
+    test = True
     myMinsalsoup = get_minsal_page(
         'https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/')
     if test:
-        myMinsal = get_table_regional(myMinsalsoup)
-        for element in myMinsal:
-            print(element)
-        casos = get_casos_recuperados(myMinsalsoup)
-        print(casos)
-        print('testing add_column_to_csv' )
-        add_column_to_csv(casos, '../output/producto5/recuperados.csv' )
+        #myMinsal = get_table_regional(myMinsalsoup)
+        #for element in myMinsal:
+        #    print(element)
+        #casos = get_casos_recuperados(myMinsalsoup)
+        #print(casos)
+        #print('testing add_column_to_csv' )
+        #add_column_to_csv(casos, '../output/producto5/recuperados.csv' )
+        prod5Nuevo('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', 'lala')
 
     else:
 
