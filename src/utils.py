@@ -22,24 +22,20 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
+"""
+Utilidades genéricas
+"""
 import pandas as pd
-from shutil import copyfile
 
-# el producto 15 y 16 dependen del informe epidemiologico
+
+def regionName(df):
+    df["Region"] = df["Region"].replace({"Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
+                                         "Del Libertador General Bernardo O’Higgins": "O’Higgins", "Nuble": "Ñuble",
+                                         "Biobio": "Biobío", "La Araucania": "Araucanía", "Los Rios": "Los Ríos",
+                                         "Aysen": "Aysén", "Magallanes y la Antartica": "Magallanes"
+                                         })
 
 def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)
     return(df.T)
 
-
-if __name__ == '__main__':
-
-    copyfile('../input/Fecha_de_inicio_de_Sintomas.csv', '../output/producto15/Fecha_de_inicio_de_Sintomas.csv')
-    copyfile('../input/SemanasEpidemiologicas.csv', '../output/producto15/SemanasEpidemiologicas.csv')
-
-    df_t = transpone_csv('../output/producto15/Fecha_de_inicio_de_Sintomas.csv')
-    df_t.to_csv('../output/producto15/Fecha_de_inicio_de_Sintomas_T.csv', header=False)
-
-    copyfile('../input/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario.csv')
-    df2_t = transpone_csv('../output/producto16/CasosGeneroEtario.csv')
-    df2_t.to_csv('../output/producto16/CasosGeneroEtario_T.csv', header=False)
