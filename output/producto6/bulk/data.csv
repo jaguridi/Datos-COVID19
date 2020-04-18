@@ -1,4 +1,4 @@
-Poblacion,Casos Confirmados,Fecha,Region ID,Region,Provincia ID,Provincia,Comuna ID,Comuna,Tasa
+Poblacion,Casos Confirmados,Fecha,Código Región,Nombre Región,Código Provincia,Provincia,Código Comuna 2017,Comuna,Tasa
 247552.0,6,2020/03/30,15,Arica y Parinacota,151,Arica,15101,Arica,2.4237331954498447
 247552.0,6,2020/04/01,15,Arica y Parinacota,151,Arica,15101,Arica,2.4237331954498447
 247552.0,12,2020/04/03,15,Arica y Parinacota,151,Arica,15101,Arica,4.847466390899689
