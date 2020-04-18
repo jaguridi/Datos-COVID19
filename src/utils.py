@@ -22,12 +22,20 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-import csv
+"""
+Utilidades genéricas
+"""
 import pandas as pd
-from os import listdir
 
-if __name__ == '__main__':
-    # producto 18: tasa de incidencia total e histórica
-    df = pd.read_csv('../input/Tasadeincidencia.csv')
-    df.dropna(how='all', inplace=True)
-    df.to_csv('../output/producto18/TasadeIncidencia.csv')
+
+def regionName(df):
+    df["Region"] = df["Region"].replace({"Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
+                                         "Del Libertador General Bernardo O’Higgins": "O’Higgins", "Nuble": "Ñuble",
+                                         "Biobio": "Biobío", "La Araucania": "Araucanía", "Los Rios": "Los Ríos",
+                                         "Aysen": "Aysén", "Magallanes y la Antartica": "Magallanes"
+                                         })
+
+def transpone_csv(csvfile):
+    df = pd.read_csv(csvfile)
+    return(df.T)
+

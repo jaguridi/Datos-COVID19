@@ -5,15 +5,15 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 # Data Products
 
-[data product 1: Casos totales por comuna incremental](output/producto1): archivo con valores separados por coma (csv) que concatena historia de publicaciones de MINSAL sobre casos totales por comuna. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos Confirmados' reportados en cada publicación.
+[data product 1: Casos totales por comuna incremental](output/producto1): archivo con valores separados por coma (csv) que concatena historia de publicaciones de MINSAL sobre casos totales por comuna. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos Confirmados' reportados en cada publicación. **Nota: previo a 15/4 no se reportaban casos por parte de MINSAL en comunas con pocos contagiados para proteger identidad**
 
-[data product 2: Casos totales por comuna](output/producto2) (un archivo por informe): archivos con valores separados por coma (csv) con la información a nivel comunal por cada informe publicado. Cada archivo contiene los campos 'Región', 'Comuna', 'Población', 'Casos Confirmados'.
+[data product 2: Casos totales por comuna](output/producto2) (un archivo por informe): archivos con valores separados por coma (csv) con la información a nivel comunal por cada informe publicado. Cada archivo contiene los campos 'Región', 'Comuna', 'Población', 'Casos Confirmados'.**Nota: previo a 15/4 no se reportaban por parte de MINSAL casos en comunas con pocos contagiados para proteger identidad**
 
 [data product 3: Casos totales por región incremental](output/producto3): archivo con valores separados por coma (csv) que concatena historia de publicaciones de casos totales por parte de MINSAL. Contiene los campos 'Región', '[fecha]', este último con el valor de la columna 'Casos totales' reportados por el MINSAL diariamente.
 
 [data product 4: Casos totales por región](output/producto4) (un archivo por informe): archivos con valores separados por coma (csv) con la información a nivel regional publicada diariamente por MINSAL, las columnas varían a mediada que MINSAL dispone la información. Los campos para archivos posteriores a 31/3  son 'Región', 'Casos Nuevos', 'Casos totales', '%Casos Totales', 'Fallecidos'; para archivos anteriores son 'Región', 'Casos Nuevos', 'Casos totales', 'Recuperados'.  
 
-[data product 5: Casos totales recuperados](output/producto5): archivo con valores separados por coma (csv) con casos recuperados totales con el valor diario reportado por el MINSAL. Contiene los campos '[fecha]', 'Recuperados'
+[data product 5: Totales Nacionales Diarios](output/producto5): archivo con valores separados por coma (csv) con casos totales, nuevos, activos, recuperados y fallecidos totales con el valor diario reportado por el MINSAL. Contiene los campos 'Casos Nuevos', 'Casos totales', 'Casos nevos', 'Casos Activos', 'Casos Recuperados', 'Fallecidos', '[fecha]', donde la última columna tiene los valores reportados diariamente por MINSAL. **Nota: Casos activos en este reporte (a diferencia del reporte en el producto 19) corresponde al resultado de restar fallecidos y personas recuperadas al total de casos diagnosticados. Las personas recuperadas son casos que tras ser confirmados, ha estado en cuarentena pasando 14 días sin síntomas.**
 
 [data product 6[contributed]: enriquecimiento del data product2](output/producto6/bulk): producto2 con todos los datos compilados en formato CSV y JSON, llamados producto2.csv y producto2.json respectivamente.
 
@@ -21,7 +21,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 8: Pacientes en UCI por región](output/producto8): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de hospitalizados UCI, y el segundo, a la serie de tiempo de los datos anteriores, por región. Contiene los campos ''Grupo de edad', '[fecha]', donde esta última columna contiene 'Pacientes en UCI' reportados por día.
 
-[data product 9: Pacientes en UCI por rango etario](output/producto9): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de hospitalizados UCI, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario.
+[data product 9: Pacientes en UCI por grupo de edad](output/producto9): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de hospitalizados UCI, y el segundo, a la serie de tiempo de los datos anteriores, por grupo de edad. Contiene los campos 'Grupo de edad', '[fecha]', donde esta última columna contiene 'Pacientes en UCI' reportados por día por grupo de edad.
 
 [data product 10: Fallecidos por grupo de edad](output/producto10): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de fallecidos, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario. Contiene los campos ''Grupo de edad', '[fecha]', donde esta última columna contiene 'Fallecidos' reportados por día.
 
@@ -39,6 +39,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 18: Tasa de incidencia historica por comuna y total regional](output/producto18): archivo con valores separados por coma (csv), corresponde a la tasa de incidencia por comuna y total regional, reportado por el MINSAL. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde esta última columna contiene la 'tasa de incidencia' reportada para comunas y total regional por informe epidemiológico.
 
+[data product 19: Casos activos por comuna](output/producto19): archivo con valores separados por coma (csv), corresponde a el total de personas que mantienen capacidad de contagio, reportado por el MINSAL. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos activos' reportados en cada publicación de Epidemiología. **Nota: Casos activos en este reporte (a diferencia del reporte en el producto 5) corresponde al resultado de la investigación epidemiológica detallada y considera activos a casos durante los primeros 14 días después de la fecha de inicio de sus síntomas**
 
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
@@ -48,7 +49,7 @@ https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-1
 A partir de esa transcripción se genera un archivo csv, ubicado en la carpeta input.
 Este se procesa con el código en src, para generar los archivos csv en output.
 
-En cuanto a los archivos a nivel regional: Hacemos scrapping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/ y generamos archivo csv por día.
+En cuanto a los archivos a nivel regional: Hacemos scraping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/ y generamos archivo csv por día.
 
 ![dataUpdate](https://github.com/MinCiencia/Datos-COVID19/workflows/dataUpdate/badge.svg)
 
