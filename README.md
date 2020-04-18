@@ -13,7 +13,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 4: Casos totales por región](output/producto4) (un archivo por informe): archivos con valores separados por coma (csv) con la información a nivel regional publicada diariamente por MINSAL, las columnas varían a mediada que MINSAL dispone la información. Los campos para archivos posteriores a 31/3  son 'Región', 'Casos Nuevos', 'Casos totales', '%Casos Totales', 'Fallecidos'; para archivos anteriores son 'Región', 'Casos Nuevos', 'Casos totales', 'Recuperados'.  
 
-[data product 5: Totales Nacionales Diarios](output/producto5): archivo con valores separados por coma (csv) con casos totales, nuevos, activos, recuperados y fallecidos totales con el valor diario reportado por el MINSAL. Contiene los campos 'Casos Nuevos', 'Casos totales', 'Casos nevos', 'Casos Activos', 'Casos Recuperados', 'Fallecidos', '[fecha]', donde la última columna tiene los valores reportados diariamente por MINSAL.
+[data product 5: Totales Nacionales Diarios](output/producto5): archivo con valores separados por coma (csv) con casos totales, nuevos, activos, recuperados y fallecidos totales con el valor diario reportado por el MINSAL. Contiene los campos 'Casos Nuevos', 'Casos totales', 'Casos nevos', 'Casos Activos', 'Casos Recuperados', 'Fallecidos', '[fecha]', donde la última columna tiene los valores reportados diariamente por MINSAL. **Nota: Casos activos en este reporte (a diferencia del reporte en el producto 19 corresponde al resultado de restar fallecidos y personas recuperadas al total de casos diagnosticados. Las personas recuperadas son casos que tras ser confirmados, ha estado en cuarentena pasando 14 días sin síntomas.**
 
 [data product 6[contributed]: enriquecimiento del data product2](output/producto6/bulk): producto2 con todos los datos compilados en formato CSV y JSON, llamados producto2.csv y producto2.json respectivamente.
 
@@ -39,7 +39,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 18: Tasa de incidencia historica por comuna y total regional](output/producto18): archivo con valores separados por coma (csv), corresponde a la tasa de incidencia por comuna y total regional, reportado por el MINSAL. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde esta última columna contiene la 'tasa de incidencia' reportada para comunas y total regional por informe epidemiológico.
 
-[data product 19: Casos activos por comuna](output/producto19): archivo con valores separados por coma (csv), corresponde a el total de personas que mantienen capacidad de contagio, reportado por el MINSAL. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos activos' reportados en cada publicación de Epidemiología. **Nota: Casos activos corresponde al resultado de restar fallecidos y personas recuperadas al total de casos diagnosticados. Las personas recuperadas son casos que tras ser confirmados, ha estado en cuarentena pasando 14 días sin síntomas.**
+[data product 19: Casos activos por comuna](output/producto19): archivo con valores separados por coma (csv), corresponde a el total de personas que mantienen capacidad de contagio, reportado por el MINSAL. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos activos' reportados en cada publicación de Epidemiología. 
 
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
