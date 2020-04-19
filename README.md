@@ -41,7 +41,14 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 19: Casos activos por comuna](output/producto19): archivo con valores separados por coma (csv), corresponde a el total de personas que mantienen capacidad de contagio, reportado por el MINSAL. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos activos' reportados en cada publicación de Epidemiología. **Nota: Casos activos en este reporte (a diferencia del reporte en el producto 5) corresponde al resultado de la investigación epidemiológica detallada y considera activos a casos durante los primeros 14 días después de la fecha de inicio de sus síntomas**
 
+[data product 20: Número de ventiladores](output/producto20): 2 archivos con valores separados por coma (csv). Uno de ellos corresponde a la serie de tiempo del número total de ventiladores, el número de ventiladores disponibles y el número de ocupados, reportado por el MINSAL. El segundo corresponde a la serie de tiempo de los datos anteriores por número de ventiladores en cada categoría. Contienane los campos 'Ventiladores', '[fecha]', donde la última columna tiene los numeros reportados en cada publicación de Epidemiología.
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
+
+[data product 21: Sintomas por Casos Confirmados e informado en el último día](output/producto21): 4 archivos con valores separados por coma (csv). 2 archivos corresponden a los síntomas informados por personas confirmadas con COVID-19, y 2 archivos a los síntomas informados por personas hospitalizadas por COVID-19, ambos en números acumulados. Contienen los campos 'Sintomas' y '[fecha]' que contiene la cantidad de casos que reportan cada síntoma. 
+*Nota: No todos los informes de situación COVID - 19 de EPI MINSAL contienen información sobre los síntomas*
+**Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
+
+[data product 22: Hospitalizados por grupo de edad](output/producto10): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de hospitalizados, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario. Contiene los campos ''Grupo de edad', '[fecha]', donde esta última columna contiene el número de 'Hospitalizados' reportados acumulados.
 
 ## Como funciona?
 En cuanto a los archivos a nivel comunal: Transcribimos los datos publicados por el Ministerio de Salud en pdf en:
