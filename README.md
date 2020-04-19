@@ -41,6 +41,8 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 19: Casos activos por comuna](output/producto19): archivo con valores separados por coma (csv), corresponde a el total de personas que mantienen capacidad de contagio, reportado por el MINSAL. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos activos' reportados en cada publicación de Epidemiología. **Nota: Casos activos en este reporte (a diferencia del reporte en el producto 5) corresponde al resultado de la investigación epidemiológica detallada y considera activos a casos durante los primeros 14 días después de la fecha de inicio de sus síntomas**
 
+[data product 20: Ventiladores a nivel nacional](output/producto20): archivo con valores separados por coma (csv), corresponde a el total nacional de ventiladores, los ocupados y los disponibles reportado por el MINSAL. Contiene los campos 'Estado' (con valores total, disponibles, ocupados), '[fecha]', donde esta última columna contiene los valores reportados a nivel nacional.
+
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
 ## Como funciona?
