@@ -30,6 +30,7 @@ Los productos que salen del reporte diario son:
 10
 12
 17
+20
 """
 
 import pandas as pd
@@ -45,7 +46,7 @@ def prod7_8(fte, producto):
     df_t.to_csv(producto + '_T.csv', header=False)
 
 
-def prod9_10(fte, producto):
+def prod9_10_20(fte, producto):
     copyfile(fte, producto + '.csv')
     HospitalizadosUCIEtario_T = utils.transpone_csv(producto + '.csv')
     HospitalizadosUCIEtario_T.to_csv(producto + '_T.csv', header=False)
@@ -59,13 +60,16 @@ if __name__ == '__main__':
     prod7_8('../input/ReporteDiario//UCI.csv', '../output/producto8/UCI')
 
     print('Generando producto 9')
-    prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
+    prod9_10_20('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
 
     print('Generando producto 10')
-    prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
+    prod9_10_20('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
 
     print('Generando producto 12')
     exec(open('bulk_producto7.py').read())
 
     print('Generando producto 17')
     copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
+
+    print('Generando producto 20')
+    prod9_10_20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
