@@ -45,6 +45,12 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
+[data product 21: Sintomas por Casos Confirmados e informado en el último día](output/producto21): 4 archivos con valores separados por coma (csv). 2 archivos corresponden a los síntomas informados por personas confirmadas con COVID-19, y 2 archivos a los síntomas informados por personas hospitalizadas por COVID-19, ambos en números acumulados. Contienen los campos 'Sintomas' y '[fecha]' que contiene la cantidad de casos que reportan cada síntoma. 
+*Nota: No todos los informes de situación COVID - 19 de EPI MINSAL contienen información sobre los síntomas*.
+**Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
+
+[data product 22: Hospitalizados por grupo de edad](output/producto10): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de hospitalizados, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario. Contiene los campos ''Grupo de edad', '[fecha]', donde esta última columna contiene el número de 'Hospitalizados' reportados acumulados.
+
 ## Como funciona?
 En cuanto a los archivos a nivel comunal: Transcribimos los datos publicados por el Ministerio de Salud en pdf en:
 https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
