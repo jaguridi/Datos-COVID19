@@ -48,7 +48,9 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 *Nota: No todos los informes de situación COVID - 19 de EPI MINSAL contienen información sobre los síntomas*.
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL del registro del día anterior**
 
-[data product 22: Hospitalizados por grupo de edad](output/producto10): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de hospitalizados, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario. Contiene los campos ''Grupo de edad', '[fecha]', donde esta última columna contiene el número de 'Hospitalizados' reportados acumulados.
+[data product 22: Hospitalizados por grupo de edad](output/producto22): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte dde hospitalizados por grupo de edad, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Grupo de edad', '[fecha]', donde esta última columna contiene el número de 'Hospitalizados' reportados acumulados.
+
+[data product 23: Pacientes críticos](output/producto23): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes críticos, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Pacientes críticos', '[fecha]', donde esta última columna contiene el número reportado diariamente.
 
 ## Como funciona?
 En cuanto a los archivos a nivel comunal: Transcribimos los datos publicados por el Ministerio de Salud en pdf en:
