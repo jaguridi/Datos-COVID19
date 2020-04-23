@@ -1,5 +1,5 @@
 # Descripción
-Este producto da cuenta del número acumulado del total de pacientes hospitalizados por rango de edad y género. También, en otro archivo, da cuenta del número acumulado de pacientes internados en la Unidad de Cuidados Intensivos (UCI) por rango de edad. Se concatena la historia de informede Situación Epidemiológica  publicados por el Ministerio de Salud del país.
+Este producto da cuenta del número acumulado del total de pacientes hospitalizados por rango de edad y género. También, en otro archivo, da cuenta del número acumulado de pacientes internados en la Unidad de Cuidados Intensivos (UCI) por rango de edad. Se concatena la historia de los informes de Situación Epidemiológica publicados por el Ministerio de Salud del país.
 
 Se entiende por paciente en hospitalización la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2 que ha sido ingresado en el sistema integrado y reportado por EPIVIGILA.
 
