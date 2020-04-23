@@ -19,7 +19,7 @@ A su vez, el Ministerio de Salud utiliza como fuente para la elaboración de est
 
 # Frecuencia de actualización
 
-Última actualización: 10-04-2020.
+Cada 2 a 3 días.
 
 # Columnas y valores
 
