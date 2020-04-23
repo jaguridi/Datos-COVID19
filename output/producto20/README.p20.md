@@ -1,0 +1,1 @@
+[data product 20: Ventiladores a nivel nacional](output/producto20): archivo con valores separados por coma (csv), corresponde a el total nacional de ventiladores, los ocupados y los disponibles reportado por el MINSAL. Contiene los campos 'Estado' (con valores total, disponibles, ocupados), '[fecha]', donde esta última columna contiene los valores reportados a nivel nacional.

@@ -1,0 +1,1 @@
+[data product 6[contributed]: enriquecimiento del data product2](output/producto6/bulk): producto2 con todos los datos compilados en formato CSV y JSON, llamados producto2.csv y producto2.json respectivamente.
