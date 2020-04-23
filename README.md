@@ -27,6 +27,8 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 11 [contributed]: enriquecimiento del data product4](output/producto11/bulk): producto4 con todos los datos compilados en formato CSV y JSON, llamados producto4.csv y producto4.json respectivamente.
 
+[data product 12 [contributed]: enriquecimiento del data product7](output/producto12/bulk): producto7 con todos los datos compilados en formato CSV y JSON, llamados producto7.csv y producto7.json respectivamente.
+
 [data product 13: Casos nuevos por región incremental](output/producto13): 2 archivos con valores separados por coma (csv), el primero corresponde a casos nuevos por región con los valores diarios reportados por el MINSAL, y el segundo a la serie de tiempo de los datos anteriores. Contiene los campos 'Región', '[fecha]', donde esta última columna contiene 'Casos Nuevos' reportados por región.
 
 [data product 14: Fallecidos por región incremental](output/producto14): 2 archivos con valores separados por coma (csv), el primero corresponde a casos fallecidos por región con los valores diarios reportados por el MINSAL, y el segundo a la serie de tiempo de los datos anteriores. Contiene los campos 'Región', '[fecha]', donde esta última columna contiene 'Fallecidos' reportados por región.
