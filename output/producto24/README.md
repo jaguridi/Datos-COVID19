@@ -12,4 +12,4 @@ Reportes diarios publicados períodicamente por el Ministerio de Salud con los d
 # Frecuencia de actualización
 Diaria.
 # Columnas y Valores
-2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes en camas Básicas, Media, UCI o en UTI, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Tipo de Cama' (con las categorías 'Básicas', 'Media', 'UCI', 'UTI', '[fecha]', donde esta última columna contiene el número de ocupación por día
+2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes en camas Básica, Media, UCI o en UTI, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Tipo de Cama' (con las categorías 'Basica', 'Media', 'UCI', 'UTI', '[fecha]', donde esta última columna contiene el número de ocupación por día
