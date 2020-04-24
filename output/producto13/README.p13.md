@@ -1,9 +1,9 @@
 # Descripción
-Set de 2 archivos que dan cuenta del número de casos nuevos por día, por región de residencia, reportados por el Ministerio de Salud desde el 03-03-2020. 
+Set de 2 archivos que dan cuenta del número de casos nuevos por día según resultado del diagnóstico, por región de residencia, reportados por el Ministerio de Salud desde el 03-03-2020. 
 
-**Nota aclaratoria 1: Los reportes del Ministerio de Salud informan del último día contabilizado para efectos de la elaboración de cada uno de ellos, habitualmente con corte a las 21 hrs.
+**Nota aclaratoria 1:** Los reportes del Ministerio de Salud informan del último día contabilizado para efectos de la elaboración de cada uno de ellos, habitualmente con corte a las 21 hrs.
 
-**Nota aclaratoria 2: Los datos son provisorios a la fecha del último reporte, pues se van actualizando retroactivamente a medida que se confirman casos y evoluciona la vigilancia e investigación epidemiológica desarrollada por el Departamento de Epidemiología del Ministerio de Salud del país.
+**Nota aclaratoria 2:** También existe el [producto 15: Casos nuevos por fecha de inicio de sintomas](https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto15) que reporta por fecha de inicio de síntomas, resultado de la vigilancia e investigación epidemiológica del Ministerio de Salud de Chile.
 
 # Fuente
 Reporte diario del Ministerio de Salud. Ver en:
