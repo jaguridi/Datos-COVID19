@@ -5,9 +5,9 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 # Data Products
 
-[data product 1: Casos totales por comuna incremental](output/producto1): archivo con valores separados por coma (csv) que concatena historia de publicaciones de MINSAL sobre casos totales por comuna. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos Confirmados' reportados en cada publicación. **Nota: previo a 15/4 no se reportaban casos por parte de MINSAL en comunas con pocos contagiados para proteger identidad**
+[data product 1: Casos totales por comuna incremental](output/producto1): archivo con valores separados por coma (csv) que concatena historia de publicaciones de MINSAL sobre casos confirmados totales por comuna. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos Confirmados Confirmados' reportados en cada publicación. **Nota: previo a 15/4 no se reportaban casos por parte de MINSAL en comunas con menos de 1000 habitantes con pocos contagiados para proteger identidad**
 
-[data product 2: Casos totales por comuna](output/producto2) (un archivo por informe): archivos con valores separados por coma (csv) con la información a nivel comunal por cada informe publicado. Cada archivo contiene los campos 'Región', 'Comuna', 'Población', 'Casos Confirmados'.**Nota: previo a 15/4 no se reportaban por parte de MINSAL casos en comunas con pocos contagiados para proteger identidad**
+[data product 2: Casos totales por comuna](output/producto2) (un archivo por informe): archivos con valores separados por coma (csv) con la información de casos confirmados notificados a nivel comunal por cada informe publicado. Cada archivo contiene los campos 'Región', 'Comuna', 'Población', 'Casos Confirmados'. **Nota: previo a 15/4 no se reportaban casos por parte de MINSAL en comunas con menos de 1000 habitantes con pocos contagiados para proteger identidad**
 
 [data product 3: Casos totales por región incremental](output/producto3): archivo con valores separados por coma (csv) que concatena historia de publicaciones de casos totales por parte de MINSAL. Contiene los campos 'Región', '[fecha]', este último con el valor de la columna 'Casos totales' reportados por el MINSAL diariamente.
 
@@ -26,6 +26,8 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 [data product 10: Fallecidos por grupo de edad](output/producto10): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte de serie de tiempo de fallecidos, y el segundo, a la serie de tiempo de los datos anteriores, por rango etario. Contiene los campos ''Grupo de edad', '[fecha]', donde esta última columna contiene 'Fallecidos' reportados por día.
 
 [data product 11 [contributed]: enriquecimiento del data product4](output/producto11/bulk): producto4 con todos los datos compilados en formato CSV y JSON, llamados producto4.csv y producto4.json respectivamente.
+
+[data product 12 [contributed]: enriquecimiento del data product7](output/producto12/bulk): producto7 con todos los datos compilados en formato CSV y JSON, llamados producto7.csv y producto7.json respectivamente.
 
 [data product 13: Casos nuevos por región incremental](output/producto13): 2 archivos con valores separados por coma (csv), el primero corresponde a casos nuevos por región con los valores diarios reportados por el MINSAL, y el segundo a la serie de tiempo de los datos anteriores. Contiene los campos 'Región', '[fecha]', donde esta última columna contiene 'Casos Nuevos' reportados por región.
 
@@ -49,7 +51,9 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 23: Pacientes críticos](output/producto23): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes críticos, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Pacientes críticos', '[fecha]', donde esta última columna contiene el número reportado diariamente.
 
-[data product 24: Hospitalización de pacientes en sistema integegrado](output/producto24): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes en camas Básicas, Media, UCI o en UTI, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Tipo de Cama' (con las categorías 'Básicas', 'Media', 'UCI', 'UTI', '[fecha]', donde esta última columna contiene el número de ocupación por día reportado por la Unidad de Gestión de Camas Críticas de MINSAL para cada categoría. 
+[data product 24: Hospitalización de pacientes en sistema integrado](output/producto24): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes en cama Básica, Media, UCI o en UTI, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Tipo de Cama' (con las categorías 'Basica', 'Media', 'UCI', 'UTI', '[fecha]', donde esta última columna contiene el número de ocupación por día reportado por la Unidad de Gestión de Camas Críticas de MINSAL para cada categoría. 
+
+[data product 25: Casos actuales por fecha de inicio de síntomas y comuna](output/producto25): archivo con valores separados por coma (csv), corresponde al total de personas confirmadas cuya fecha de inicio de síntomas en la notificación es menor o igual a 14 días a la fecha del reporte epidemiológico (MINSAL), considera los casos confirmados vivos y fallecidos. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos actuales' reportados en cada publicación de Epidemiología. 
 
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL. Habitualmente refleja el registro del día anterior, salvo que se indique lo contrario**
 
