@@ -51,7 +51,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 23: Pacientes críticos](output/producto23): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes críticos, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Pacientes críticos', '[fecha]', donde esta última columna contiene el número reportado diariamente.
 
-[data product 24: Hospitalización de pacientes en sistema integegrado](output/producto24): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes en camas Básicas, Media, UCI o en UTI, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Tipo de Cama' (con las categorías 'Básicas', 'Media', 'UCI', 'UTI', '[fecha]', donde esta última columna contiene el número de ocupación por día reportado por la Unidad de Gestión de Camas Críticas de MINSAL para cada categoría. 
+[data product 24: Hospitalización de pacientes en sistema integrado](output/producto24): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes en camas Básicas, Media, UCI o en UTI, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Tipo de Cama' (con las categorías 'Básicas', 'Media', 'UCI', 'UTI', '[fecha]', donde esta última columna contiene el número de ocupación por día reportado por la Unidad de Gestión de Camas Críticas de MINSAL para cada categoría. 
 
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL. Habitualmente refleja el registro del día anterior, salvo que se indique lo contrario**
 
