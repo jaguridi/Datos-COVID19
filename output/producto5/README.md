@@ -1,5 +1,5 @@
 # Descripción
-Set de 2 archivos sobre casos a nivel nacional. El primero de ellos incluye los casos nuevos confirmados, totales o acumulados, recuperados, activos según fecha de diagnóstico y fallecidos a nivel nacional, reportados diariamente por el Ministerio de Salud desde el 03-03-2020. El segundo incluye exclusivamente los casos recuperados a nivel nacional, reportados diariamente por el Ministerio de salud desde el 17-03-2020. 
+Set de 2 archivos sobre casos a nivel nacional. El primero de ellos incluye los casos nuevos confirmados, totales o acumulados, recuperados, activos según fecha de diagnóstico y fallecidos a nivel nacional, reportados diariamente por el Ministerio de Salud desde el 03-03-2020. 
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
 
