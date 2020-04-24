@@ -17,4 +17,4 @@ https://www.gob.cl/coronavirus/cifrasoficiales/#reportes
 Actualización diaria. 
 
 # Columnas y valores
-Los archivos contienen las columnas ‘Región’, ‘Población’, ‘Fecha’, ‘PCR Realizados’, ‘Región ID’, y ‘Tasa’. Estos valores están separados entre sí por comas (csv).
+Los archivos contienen las columnas ‘Región’, ‘Población’, ‘Fecha’, ‘PCR Realizados’, ‘Región ID’, y ‘Tasa’. Estos valores están separados entre sí por comas (csv) y organizados en tuplas en el JSON.
