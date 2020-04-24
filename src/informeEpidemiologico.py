@@ -30,6 +30,7 @@ Los productos que salen del informe epidemiologico son:
 16
 18
 19
+25
 """
 
 import utils
@@ -125,3 +126,6 @@ if __name__ == '__main__':
 
     print('Generando producto 19')
     prod19('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
+
+    print('Generando producto 25')
+    prod19('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
