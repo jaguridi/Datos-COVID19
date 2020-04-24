@@ -3,7 +3,7 @@ Serie de archivos que dan cuenta del total de casos confirmados, casos recuperad
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
 
-Se entiende en este reporte los casos recuperados como las personas que tras ser confirmadas de COVID-19, han estado en cuarentena pasando 14 días sin síntomas, para caulcular recuperados de otra manera, se puede utilizar el [producto 15: Casos nuevos por fecha de inicio de sintomas](output/producto15). 
+Se entiende en este reporte los casos recuperados como las personas que tras ser confirmadas de COVID-19, han estado en cuarentena pasando 14 días sin síntomas, para caulcular recuperados de otra manera, se puede utilizar el [producto 15: Casos nuevos por fecha de inicio de sintomas](https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto15). 
 
 Se entiende por región de residencia la región que la persona declara como su vivienda habitual. 
 
