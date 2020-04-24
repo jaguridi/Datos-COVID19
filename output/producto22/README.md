@@ -11,6 +11,8 @@ Se entiende por paciente en hospitalización la persona que cumple con los crite
 
 # Fuente
 Informes de Situación Epidemiológica publicados períodicamente por el departamento de Epidemiología del Ministerio de Salud con los datos reportados por EPIVIGILA. Ver en: http://epi.minsal.cl/informes-covid-19/
+
+*Nota aclaratoria 4:* Los informes de situación Epidemiológica del Ministerio de Salud se publican con fecha del día de corte. Los datos en este repositorio cotejan las fechas indicadas en el texto de la fuente utilizada con las dadas en el reporte diario e informe Epidemiológico del Ministerio de Salud.
  
 # Frecuencia de actualización
 Diaria.
