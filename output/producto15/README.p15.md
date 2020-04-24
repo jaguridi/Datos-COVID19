@@ -1,7 +1,7 @@
 # Descripción
-Archivo que da cuenta de los casos nuevos por fecha de inicio de sus síntomas en cada una de las comunas de Chile, según residencia, y concatena la historia de los informes epidemiológicos publicados por el Ministerio de Salud del país.
+Archivo que da cuenta de los casos nuevos por fecha de inicio de sus síntomas en cada una de las comunas de Chile, según residencia. Refleja la información del último informe epidemiológico publicado por el Ministerio de Salud del país.
 
-Se entiende por casos nuevo por fecha de inicio de síntomas al momento de la manifestación clínica de la enfermedad.
+Se entiende por fecha de inicio de síntomas el momento de la manifestación clínica de la enfermedad.
 
 Se entiende por comuna de residencia la comuna que la persona declara como su vivienda habitual. 
 
