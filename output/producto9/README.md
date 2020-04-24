@@ -1,7 +1,7 @@
 # Descripción
 Set de 2 archivos que dan cuenta del número de pacientes en UCI por grupos etarios (<=39; 40-49; 50-59; 60-69; y >=70) reportados diariamente por el Ministerio de Salud, desde el 01-04-2020.
 
-**Nota aclaratoria 1: Los reportes del Ministerio de Salud informan del último día contabilizado para efectos de la elaboración de cada uno de ellos, habitualmente con corte a las 21 hrs. 
+**Nota aclaratoria 1:** Los reportes del Ministerio de Salud informan del último día contabilizado para efectos de la elaboración de cada uno de ellos, habitualmente con corte a las 21 hrs. 
 
 # Fuente
 Reporte diario del Ministerio de Salud. Ver en:
