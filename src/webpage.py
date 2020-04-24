@@ -231,6 +231,7 @@ def prod5Nuevo(fte, producto):
 
 
 def prod3_13_14(fte):
+
     onlyfiles = [f for f in listdir(fte) if isfile(join(fte, f))]
     cumulativoCasosNuevos = pd.DataFrame({'Region': [],
                                           'Casos nuevos': []})
@@ -240,6 +241,7 @@ def prod3_13_14(fte):
                                          'Fallecidos': []})
 
     print(onlyfiles.sort())
+    onlyfiles.remove('README.md')
     for eachfile in onlyfiles:
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(fte + eachfile)
