@@ -1,9 +1,11 @@
 # Descripción
 Set de 2 archivos que dan cuenta del número de exámenes PCR realizados por región reportados diariamente por el Ministerio de Salud, desde el 09-04-2020. 
 
-**Nota aclaratoria 1: Los reportes del Ministerio de Salud informan del último día contabilizado para efectos de la elaboración de cada uno de ellos, habitualmente con corte a las 21 hrs. 
+El número de exámenes PCR realizados no refleja necesariamente la cantidad de muestras tomadas por región. En algunos casos el número de exámenes PCR realizados es menor al número de muestras dado que ha sido alcanzada la capacidad máxima de diagnóstico de la región. Por lo mismo, algunas de las muestras son enviadas a laboratorios ubicados fuera de la región de referencia. 
 
-**Nota aclaratoria 2: El número de exámenes PCR realizados no refleja necesariamente la cantidad de muestras tomadas por región. En algunos casos el número de exámenes PCR realizados es menor al número de muestras dado que ha sido alcanzada la capacidad máxima de diagnóstico de la región. Por lo mismo, algunas de las muestras son enviadas a laboratorios ubicados fuera de la región de referencia. 
+El proceso ocurre hasta la fecha de la siguiente manera: 1) paciente va al médico 2) médico identifica síntomas que constituyen caso sospechoso y ordena tomar muestras y realizar test PCR 3) las muestras van al laboratorio para test PCR.
+
+**Nota aclaratoria 1:** Los reportes del Ministerio de Salud informan del último día contabilizado para efectos de la elaboración de cada uno de ellos, habitualmente con corte a las 21 hrs. 
 
 # Fuente
 Reporte diario del Ministerio de Salud. Ver en:https://www.gob.cl/coronavirus/cifrasoficiales/#reportes
