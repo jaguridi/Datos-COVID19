@@ -3,9 +3,9 @@ Este producto da cuenta del número de pacientes hospitalizados en la Unidad de 
 
 Se entiende por paciente en hospitalización la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2 que ha sido ingresado en el sistema integrado y reportado por la Unidad de Gestión Centralizada de Camas (UGCC).
 
-*Nota aclaratoria 1:* El archivo contempla el número de pacientes internados en UCI en condición crítica, reportado al día.
+**Nota aclaratoria 1:** El archivo contempla el número de pacientes internados en UCI en condición crítica, reportado al día.
 
-*Nota aclaratoria 2:* Previo al 23 de marzo del 2020, los reportes diarios del Ministerio de Salud no entregaban datos sobre el número de pacientes en UCI en situación crítica.
+**Nota aclaratoria 2:** Previo al 23 de marzo del 2020, los reportes diarios del Ministerio de Salud no entregaban datos sobre el número de pacientes en UCI en situación crítica.
 
 # Fuente
 Reportes diarios publicados períodicamente por el Ministerio de Salud con los datos reportados por la Unidad de Gestión de Camas Críticas. Ver en: https://www.gob.cl/coronavirus/cifrasoficiales/#reportes
