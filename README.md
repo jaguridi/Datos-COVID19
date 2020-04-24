@@ -53,6 +53,8 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 24: Hospitalización de pacientes en sistema integegrado](output/producto24): 2 archivos con valores separados por coma (csv), el primero corresponde al reporte diario de la cantidad de pacientes en camas Básicas, Media, UCI o en UTI, y el segundo, a la serie de tiempo de los datos anteriores. Contiene los campos 'Tipo de Cama' (con las categorías 'Básicas', 'Media', 'UCI', 'UTI', '[fecha]', donde esta última columna contiene el número de ocupación por día reportado por la Unidad de Gestión de Camas Críticas de MINSAL para cada categoría. 
 
+[data product 25: Casos actuales por fecha de inicio de síntomas y comuna](output/producto25): archivo con valores separados por coma (csv), corresponde al total de personas confirmadas cuya fecha de inicio de síntomas en la notificación es menor o igual a 14 días a la fecha del reporte epidemiológico (MINSAL), considera los casos confirmados vivos y fallecidos. Contiene los campos 'Región', 'Comuna', 'Población', '[fecha]', donde la última columna tiene los 'Casos actuales' reportados en cada publicación de Epidemiología. 
+
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL. Habitualmente refleja el registro del día anterior, salvo que se indique lo contrario**
 
 
