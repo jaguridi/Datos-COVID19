@@ -1,5 +1,5 @@
 # Descripción
-Set de 2 archivos, en formato CSV y JSON, que dan cuenta de la tasa de incidencia acumulada y de los casos confirmados acumulados en cada una de las comunas de Chile, según residencia, conforme a los informes epidemiológicos publicados por el Ministerio de Salud del país. 
+Set de 2 archivos, en formato CSV y JSON, que dan cuenta de la tasa de incidencia acumulada y los casos confirmados acumulados en cada una de las comunas de Chile, según residencia, conforme a los informes epidemiológicos publicados por el Ministerio de Salud del país. 
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
 
@@ -25,4 +25,6 @@ A su vez, el Ministerio de Salud utiliza como fuente para la elaboración de est
 Cada 2 a 3 días. 
 
 # Columnas y valores
-Los archivos contienen las columnas ‘Población’, ‘Casos Confirmados’, ‘Fecha’, ‘Código Región’’, ‘Nombre Región’, ‘Código Provincia’, ‘Provincia’, ‘Código Comuna 2017’ y ‘Tasa’’. Estos valores están separados entre sí por comas (csv). 
+El archivo con valores separados entre sí por comas (csv) contiene las columnas ‘Población’, ‘Casos Confirmados’, ‘Fecha’, ‘Código Región’’, ‘Nombre Región’, ‘Código Provincia’, ‘Provincia’, ‘Código Comuna 2017’ y ‘Tasa’’. 
+
+El archivo json contiene las tuplas correspondiente a esta información por comuna.
