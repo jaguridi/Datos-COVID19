@@ -2,7 +2,7 @@
 Set de 2 archivos que dan cuenta del número de casos nuevos por día según resultado del diagnóstico, por región de residencia, reportados por el Ministerio de Salud desde el 03-03-2020. 
 
 # Columnas y valores
-El primer archivo (CasosNuevosCumulativo.csv) contiene la columna ‘Región’, seguida por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’, indican el número de casos nuevos acumulativos, por región, desde el 03-03-2020 hasta la fecha. El segundo archivo (CasosNuevosCumulativo_T.csv) es la versión traspuesta del primer archivo. Estos valores están separados entre sí por comas (csv).
+El archivo CasosNuevosCumulativo.csv contiene la columna ‘Región’, seguida por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’, indican el número de casos nuevos acumulativos, por región, desde el 03-03-2020 hasta la fecha. El archivo CasosNuevosCumulativo_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Reporte diario del Ministerio de Salud. Ver en:
