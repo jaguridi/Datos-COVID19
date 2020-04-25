@@ -1,4 +1,4 @@
-# Descripción
+# DP9 - Pacientes en UCI por grupo de edad: Descripción
 Set de 2 archivos que dan cuenta del número de pacientes en UCI por grupos etarios (<=39; 40-49; 50-59; 60-69; y >=70) reportados diariamente por el Ministerio de Salud, desde el 01-04-2020.
 
 # Columnas y valores
