@@ -16,7 +16,7 @@ El archivo contiene una columna 'Región', seguida por columnas correspondientes
 Ministerio de Salud. Ver en:
 https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/
 
-# Frecuencia de Actualización
+# Frecuencia de actualización
 Actualización diaria. 
 
 # Notas aclaratorias
