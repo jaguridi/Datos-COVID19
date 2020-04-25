@@ -1,4 +1,4 @@
-# Descripción
+# Casos totales por comuna: Descripción
 Serie de archivos que dan cuenta de los casos confirmados notificados en cada una de las comunas de Chile, según residencia. Cada uno de los archivos corresponde a un informe publicado por el Ministerio de Salud del país, por fechas en que fueron publicados. 
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
