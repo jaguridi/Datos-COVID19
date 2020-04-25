@@ -27,7 +27,7 @@ https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-cov
 # Frecuencia de actualización
 Actualización diaria.
 
-# Notas Aclaratorias
+# Notas aclaratorias
 
 **Nota aclaratoria 1:** El archivo no contempla los casos con región o comuna desconocida, es decir, aquellos casos en que no se registró la región de vivienda habitual en la notificación o bien son casos con domicilio en el extranjero. 
 
