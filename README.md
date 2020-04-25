@@ -59,12 +59,18 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 
 ## ¿Cómo funciona?
-En cuanto a los archivos a nivel comunal: Transcribimos los datos publicados por el Ministerio de Salud en pdf en:
-https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
-A partir de esa transcripción se genera un archivo csv, ubicado en la carpeta input.
-Este se procesa con el código en src, para generar los archivos csv en output.
+Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiológico, informe de situación covid19 y la pagina web del MINSAL.
+Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV, que son utilizados para generar los productos relevantes:
+
+   * [Reporte diario](src/reporteDiario.py)
+   * [Informe epidemiológico](src/informeEpidemiologico.py) 
+   * [Informe de situación epidemiológica](src/informeSituacionCOVID19.py)
+
 
 En cuanto a los archivos a nivel regional: Hacemos scraping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/ y generamos archivo csv por día.
+   * [Webscraper](src/webpage.py)
+
+Este esta automatizado a ~ 12:00, usando github actions.
 
 ![dataUpdate](https://github.com/MinCiencia/Datos-COVID19/workflows/dataUpdate/badge.svg)
 
