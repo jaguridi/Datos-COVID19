@@ -25,3 +25,5 @@ Actualización diaria.
 
 **Nota aclaratoria 2**: Previo al 15 de abril de 2020 los reportes del Ministerio de Salud no entregaban datos de confirmados notificados en comunas con bajo número de casos, para proteger la identidad de las personas contagiadas.
 
+**Nota aclaratoria 3**: Casos activos en este reporte (a diferencia del reporte en el [producto 19](../producto19) corresponde al resultado de restar fallecidos y personas recuperadas al total de casos diagnosticados. Las personas recuperadas son casos que tras ser confirmados, ha estado en cuarentena pasando 14 días sin síntomas.
+
