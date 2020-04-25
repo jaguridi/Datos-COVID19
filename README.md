@@ -62,14 +62,15 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiologico, informe de situacion covid19 y la pagina web del MINSAL.
 Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV, que son utilizados para generar los productos relevantes:
 
-[Reporte diario](src/reporteDiario.py)
-[Informe epidemiologico](src/informeEpidemiologico.py) 
-[Informe de situacion](src/informeSituacionCOVID19.py)
+   * [Reporte diario](src/reporteDiario.py)
+   * [Informe epidemiologico](src/informeEpidemiologico.py) 
+   * [Informe de situacion](src/informeSituacionCOVID19.py)
 
 
 En cuanto a los archivos a nivel regional: Hacemos scraping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/ y generamos archivo csv por día.
-[Webscrapper](src/webpage.py)
-Este ultimo proceso corre automatizado a ~ 12:00, usando github actions.
+   * [Webscrapper](src/webpage.py)
+
+Este esta automatizado a ~ 12:00, usando github actions.
 
 ![dataUpdate](https://github.com/MinCiencia/Datos-COVID19/workflows/dataUpdate/badge.svg)
 
