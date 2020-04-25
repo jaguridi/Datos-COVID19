@@ -1,4 +1,4 @@
-# Descripción
+# DP7 - Exámenes PCR por región: Descripción
 Set de 2 archivos que dan cuenta del número de exámenes PCR realizados por región reportados diariamente por el Ministerio de Salud, desde el 09-04-2020. 
 
 El proceso ocurre hasta la fecha de la siguiente manera: 1) Paciente va al médico 2) Médico identifica síntomas que constituyen caso sospechoso y ordena tomar muestras y realizar test PCR 3) Las muestras van al laboratorio para test PCR.
