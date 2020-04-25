@@ -4,7 +4,7 @@ Archivo que da cuenta del número acumulado de casos confirmados distribuidos po
 Se entiendo por caso confirmado a la persona que cumple con los criterios de definición de casos sospechoso con una muestra positiva de SARS-CoV-2.
 
 # Columnas y valores
-El primer archivo (CasosGeneroEtario.csv) contiene las columnas 'Grupo de edad' tal como lo reporta el departamento de Epidemiología para esta categoría, en incrementos de 5 años, desde 0 hasta 79, con '80 y más' como último rango; 'Sexo' con dos distinciones 'M' (las 17 primeras filas) y 'F' (las 17 últimas filas); y una serie de columnas '[Fecha]', donde se encuentra el número acumulado de casos confirmados para el rango etario y género reportados en cada publicación de Epidemiología MINSAL. El segundo archivo (CasosGeneroEtario_T.csv) es la versión traspuesta del primer archivo. 
+El archivo CasosGeneroEtario.csv contiene las columnas 'Grupo de edad' tal como lo reporta el departamento de Epidemiología para esta categoría, en incrementos de 5 años, desde 0 hasta 79, con '80 y más' como último rango; 'Sexo' con dos distinciones 'M' (las 17 primeras filas) y 'F' (las 17 últimas filas); y una serie de columnas '[Fecha]', donde se encuentra el número acumulado de casos confirmados para el rango etario y género reportados en cada publicación de Epidemiología MINSAL. El archivo CasosGeneroEtario_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Informes epidemiológicos publicados periódicamente por el Ministerio de Salud de Chile. Ver en: https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
