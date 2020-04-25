@@ -1,4 +1,4 @@
-# Descripción
+# DP3 - Casos totales por región incremental: Descripción
 Archivo que da cuenta de los casos totales diarios confirmados por laboratorio en cada una de las regiones de Chile, según residencia, y concatena la información reportada por el Ministerio de Salud del país.
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
