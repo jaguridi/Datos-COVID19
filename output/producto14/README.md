@@ -1,4 +1,4 @@
-# Descripción
+# DP14 - Fallecidos por región incremental: Descripción
 Set de 2 archivos que dan cuenta del número de fallecidos por día, según región de residencia, y concatena la historia de los reportes del Ministerio de Salud desde el 22-03-2020.
 
 Se entiende por región de residencia la región que la persona declara como la de su vivienda habitual. 
