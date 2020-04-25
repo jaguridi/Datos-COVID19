@@ -4,7 +4,7 @@ Set de 2 archivos que dan cuenta del número de fallecidos por día, según regi
 Se entiende por región de residencia la región que la persona declara como la de su vivienda habitual. 
 
 # Columnas y valores
-El primer archivo (FallecidosCumulativo.csv) contiene la columna ‘Región’, seguida por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’, indican el número de fallecidos acumulativo, por región, desde el 22-03-2020 hasta la fecha. El segundo archivo (FallecidosCumulativo_T.csv) es la versión traspuesta del primer archivo. Estos valores están separados entre sí por comas (csv).
+El archivo FallecidosCumulativo.csv contiene la columna ‘Región’, seguida por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’, indican el número de fallecidos acumulativo, por región, desde el 22-03-2020 hasta la fecha. El archivo FallecidosCumulativo_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Reporte diario del Ministerio de Salud. Ver en: https://www.gob.cl/coronavirus/cifrasoficiales/#reportes
