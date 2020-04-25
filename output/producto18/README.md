@@ -6,7 +6,7 @@ Se entiende por tasa de incidencia al número total de casos confirmados desde e
 Se entiendo por caso confirmado a la persona que cumple con los criterios de definición de casos sospechoso con una muestra positiva de SARS-CoV-2.
 
 # Columnas y valores
-El archivo (TasadeIncidencia.csv), contiene las columnas 'Región', 'Código región', 'Comuna', 'Código comuna', 'Población', y varias columnas '[Fecha]', donde cada una tiene la 'Tasa de incidencia' reportadas en cada publicación de Epidemiología, para cada comuna, en las fechas reportadas.
+El archivo TasadeIncidencia.csv, contiene las columnas 'Región', 'Código región', 'Comuna', 'Código comuna', 'Población', y varias columnas '[Fecha]', donde cada una tiene la 'Tasa de incidencia' reportadas en cada publicación de Epidemiología, para cada comuna, en las fechas reportadas. El archivo TasadeIncidencia_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Informes epidemiológicos publicados periódicamente por el Ministerio de Salud de Chile. Ver en: https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
