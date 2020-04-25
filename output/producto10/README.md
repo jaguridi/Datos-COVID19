@@ -1,4 +1,4 @@
-# Descripción
+# DP10 - Fallecidos por grupo de edad: Descripción
 Set de 2 archivos que dan cuenta del número de fallecidos por grupos etarios (<=39; 40-49; 50-59; 60-69; 70-79; 80-89; y >=90) reportados diariamente por el Ministerio de Salud, desde el 09-04-2020.
 
 # Columnas y valores
