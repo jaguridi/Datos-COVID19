@@ -3,14 +3,10 @@ Archivo que da cuenta de los casos totales diarios confirmados por laboratorio e
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
 
-Se entiende por región de residencia la región que la persona declara como su vivienda habitual. 
-
-Se entiende por porcentaje de casos totales el porcentaje del número total de casos registrados en el país. 
-
-La versión con sufijo "\_T" es la versión traspuesta.
+Se entiende por región de residencia la región que la persona declara como su vivienda habitual. Se entiende por porcentaje de casos totales el porcentaje del número total de casos registrados en el país. 
 
 # Columnas y valores
-El archivo contiene una columna 'Región', seguida por columnas correspondientes a '[fecha]'. Estas últimas columnas, ‘[fecha]’, contienen los 'Casos Confirmados' reportados por el Ministerio de Salud de Chile en cada una de las fechas que se indican en las respectivas columnas. En las filas, la última fila es un Total. Estos valores están separados entre sí por comas (csv).
+El archivo CasosTotalesCumulativo.csv contiene una columna 'Región', seguida por columnas correspondientes a '[fecha]'. Estas últimas columnas, ‘[fecha]’, contienen los 'Casos Confirmados' reportados por el Ministerio de Salud de Chile en cada una de las fechas que se indican en las respectivas columnas. El archivo CasosTotalesCumulativo_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Ministerio de Salud. Ver en:
