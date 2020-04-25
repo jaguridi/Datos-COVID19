@@ -1,4 +1,4 @@
-# Descripción
+# DP12 - Enriquecimiento del Data Product 7: Descripción
 El [Data Product 7](../producto7) con todos los datos compilados en formato CSV y JSON, en un solo archivo, llamados producto7.csv y producto7.json respectivamente. Set de 2 archivos, en formato CSV y JSON, que dan cuenta de la tasa de incidencia acumulada y el número de PCR realizados en cada una de las regiones de Chile, según los datos diariamente reportados por el Ministerio de Salud, desde el 09-04-2020.
 
 Se entiende por casos acumulados el número total de casos confirmados desde el primer caso confirmado hasta la fecha de elaboración del reporte o informe. 
