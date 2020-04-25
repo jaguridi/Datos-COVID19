@@ -4,7 +4,7 @@ Archivo que da cuenta del número de casos confirmados activos notificados en ca
 Se entiende por caso confirmado activo a la persona viva que cumple con los criterios de definición de casos sospechoso con una muestra positiva de SARS-CoV-2, cuya fecha de inicio de síntomas en la notificación es menor o igual a 14 días a la fecha del reporte actual (considera solo vivos).
 
 # Columnas y valores
-El archivo (CasosActivosPorComuna.csv), contiene las columnas 'Región', 'Código región', 'Comuna', 'Código comuna', 'Población', y una serie de columnas '[Fecha]', donde en cada una están los 'Casos activos' reportados en cada publicación de Epidemiología, por cada comuna, en cada fecha reportada. El segundo archivo (CasosActivosPorComuna_T.csv) es la versión traspuesta del primer archivo. 
+El archivo CasosActivosPorComuna.csv, contiene las columnas 'Región', 'Código región', 'Comuna', 'Código comuna', 'Población', y una serie de columnas '[Fecha]', donde en cada una están los 'Casos activos' reportados en cada publicación de Epidemiología, por cada comuna, en cada fecha reportada. El archivo CasosActivosPorComuna_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Informes epidemiológicos publicados periódicamente por el Ministerio de Salud de Chile. Ver en: https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
