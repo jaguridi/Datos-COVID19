@@ -1,4 +1,4 @@
-# Descripción
+# DP11 - Enriquecimiento del Data Product 4: Descripción
 El [Data Product 4](../producto4) con todos los datos compilados en formato CSV y JSON, en un solo archivo, llamados producto4.csv y producto4.json respectivamente. Set de 2 archivos, en formato CSV y JSON, que dan cuenta de la tasa de incidencia acumulada y los casos nuevos, los acumulados confirmados y los fallecidos en cada una de las regiones de Chile, según los datos diariamente reportados por el Ministerio de Salud, desde el 03-03-2020. 
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
