@@ -1,4 +1,4 @@
-# Descripción
+# DP - Enriquecimiento del Data Product 2: Descripción
 Set de 2 archivos, en formato CSV y JSON, que dan cuenta de la tasa de incidencia acumulada y los casos confirmados acumulados en cada una de las comunas de Chile, según residencia, conforme a los informes epidemiológicos publicados por el Ministerio de Salud del país. Esto es una mejora derivada del [producto 2](https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto2), al colocar varios archivos de aquel producto en un solo archivo.
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
