@@ -19,7 +19,7 @@ https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-cov
 # Frecuencia de actualización
 Actualización diaria. 
 
-# Notas Aclaratorias
+# Notas aclaratorias
 
 **Nota aclaratoria 1**:  Los reportes del Ministerio de Salud informan del último día contabilizado para efectos de la elaboración de cada uno de ellos, habitualmente con corte a las 21 hrs. 
 
