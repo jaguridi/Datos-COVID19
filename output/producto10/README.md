@@ -2,7 +2,7 @@
 Set de 2 archivos que dan cuenta del número de fallecidos por grupos etarios (<=39; 40-49; 50-59; 60-69; 70-79; 80-89; y >=90) reportados diariamente por el Ministerio de Salud, desde el 09-04-2020.
 
 # Columnas y valores
-El primer archivo (FallecidosEtario.csv) contiene la columna ‘Grupo de edad’, seguida por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’, indican el número de personas fallecidas por grupo etario, desde el 09-04-2020 hasta la fecha. El segundo archivo (FallecidosEtario_T.csv) es la versión traspuesta del primer archivo. Estos valores están separados entre sí por comas (csv).
+El archivo FallecidosEtario.csv contiene la columna ‘Grupo de edad’, seguida por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’, indican el número de personas fallecidas por grupo etario, desde el 09-04-2020 hasta la fecha. El archivo FallecidosEtario_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Reporte diario del Ministerio de Salud. Ver en:
