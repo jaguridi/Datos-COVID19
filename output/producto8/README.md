@@ -2,7 +2,7 @@
 Set de 2 archivos que dan cuenta del número de pacientes en UCI por región reportados diariamente por el Ministerio de Salud, desde el 01-04-2020.
 
 # Columnas y valores
-El primer archivo (UCI.csv) contiene las columnas ‘Región’, ‘Código Región’ y ‘Población’, y múltiples columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’ indican el número de pacientes en UCI por región, desde el 01-04-2020 hasta la fecha. El segundo archivo (UCI_T.csv) es la versión traspuesta del primer archivo. Estos valores están separados entre sí por comas (csv).
+El archivo UCI.csv contiene las columnas ‘Región’, ‘Código Región’ y ‘Población’, y múltiples columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’ indican el número de pacientes en UCI por región, desde el 01-04-2020 hasta la fecha. El archivo UCI_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Reporte diario del Ministerio de Salud. Ver en:
