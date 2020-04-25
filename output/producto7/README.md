@@ -4,7 +4,7 @@ Set de 2 archivos que dan cuenta del número de exámenes PCR realizados por reg
 El proceso ocurre hasta la fecha de la siguiente manera: 1) Paciente va al médico 2) Médico identifica síntomas que constituyen caso sospechoso y ordena tomar muestras y realizar test PCR 3) Las muestras van al laboratorio para test PCR.
 
 # Columnas y valores
-El primer archivo (PCR.csv) contiene las columnas ‘Región’, ‘Código Región’ y ‘Población’, seguidas por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’ indican el número exámenes realizados por región, desde el 09-04-2020 hasta la fecha. El segundo archivo (PCR_T.csv) es la versión traspuesta del primer archivo. Estos valores están separados entre sí por comas (csv).
+El primer archivo (PCR.csv) contiene las columnas ‘Región’, ‘Código Región’ y ‘Población’, seguidas por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’ indican el número de exámenes realizados por región, desde el 09-04-2020 hasta la fecha. El segundo archivo (PCR_T.csv) es la versión traspuesta del primer archivo. Estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Reporte diario del Ministerio de Salud. Ver en: https://www.gob.cl/coronavirus/cifrasoficiales/#reportes
