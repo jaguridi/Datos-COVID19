@@ -5,11 +5,8 @@ Se entiende por caso confirmado la persona que cumple con los criterios de defin
 
 Se entiende por comuna de residencia la comuna que la persona declara como su vivienda habitual. 
 
-La versión con sufijo "\_T" es la versión traspuesta.
-
 # Columnas y valores
-
-El archivo contiene las columnas 'Región', ‘Código Región’, 'Comuna', ‘Código comuna’, 'Población', múltiples columnas correspondientes a '[fecha]', y una columna 'Tasa'. Estas últimas columnas, ‘[fecha]’, contienen los 'Casos Confirmados' reportados por el Ministerio de Salud de Chile en cada una de las fechas que se indican en las respectivas columnas. La columna 'Tasa' contiene el número de casos confirmados por cada 100 mil habitantes de una población. Todos estos valores están separados entre sí por comas (csv).
+El archivo Covid-19.csv contiene las columnas 'Región', ‘Código Región’, 'Comuna', ‘Código comuna’, 'Población', múltiples columnas correspondientes a '[fecha]', y una columna 'Tasa'. Estas últimas columnas, ‘[fecha]’, contienen los 'Casos Confirmados' reportados por el Ministerio de Salud de Chile en cada una de las fechas que se indican en las respectivas columnas. La columna 'Tasa' contiene el número de casos confirmados por cada 100 mil habitantes de una población. El archivo Covid-19_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 Informes epidemiológicos publicados periódicamente por el Ministerio de Salud de Chile. Ver en:
