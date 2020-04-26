@@ -1,7 +1,7 @@
 # DP25 - Casos actuales por fecha de inicio de síntomas y comuna: Descripción
-Archivo que da cuenta del número de casos confirmados actuales notificados en cada una de las comunas de Chile, según residencia, y concatena la historia de los informes epidemiológicos publicados por el Ministerio de Salud del país.
+Archivo que da cuenta del número de casos actuales en cada una de las comunas de Chile según su fecha de inicio de síntomas, residencia, y concatena la historia de los informes epidemiológicos publicados por el Ministerio de Salud del país.
 
-Se entiende por caso confirmado actual a la persona que cumple con los criterios de definición de casos sospechoso con una muestra positiva de SARS-CoV-2, cuya fecha de inicio de síntomas en la notificación es menor o igual a 14 días a la fecha del reporte actual (considera vivos y fallecidos).
+Se entiende por caso  actual por fecha de inicio de síntomas a la persona que cumple con los criterios de definición de casos sospechoso con una muestra positiva de SARS-CoV-2, cuya fecha de inicio de síntomas en la notificación es menor o igual a 14 días a la fecha del reporte (considera vivos y fallecidos).
 
 Se entiende por fecha de inicio de síntomas el momento de la manifestación clínica de la enfermedad. Se entiende por comuna de residencia la comuna que la persona declara como su vivienda habitual.
 
