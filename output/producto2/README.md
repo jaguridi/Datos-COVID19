@@ -26,3 +26,4 @@ Cada 2 a 3 días.
 
 **Nota aclaratoria 3:** Previo al 15 de abril de 2020 los informes epidemiológicos del Ministerio de Salud no entregaban datos de confirmados notificados en comunas con bajo número de casos, para proteger la identidad de las personas contagiadas. 
 
+**Nota aclaratoria 4:** Acorde a lo informado por Epidemiología MINSAL, los datos de residencia son provisorios a la fecha del último reporte, pues se van actualizando retroactivamente a medida que se confirman casos y evoluciona la investigación epidemiológica. A raíz de eso se recomienda utilizar el [Data Product 3 - Casos totales por región incremental](https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto3) para contar con la información más actualizada.
