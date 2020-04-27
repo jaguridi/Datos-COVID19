@@ -1,5 +1,5 @@
 # DP4 - Casos totales por región: Descripción
-Serie de archivos que dan cuenta del número de casos nuevos, del total de casos confirmados, % de casos totales y casos fallecidos en cada una de las regiones de Chile, según residencia. Cada uno de los archivos corresponde a la información diaria que reporta el Ministerio de Salud del país. Existe variabilidad en los campos según la fecha (ver sección Columnas y valores).
+Serie de archivos que dan cuenta del número de casos nuevos, del total de casos confirmados, recuperados (antes del 21 de marzo) % de casos totales y casos fallecidos en cada una de las regiones de Chile, según residencia. Cada uno de los archivos corresponde a la información diaria que reporta el Ministerio de Salud del país. Existe variabilidad en los campos según la fecha (ver sección Columnas y valores).
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
 
