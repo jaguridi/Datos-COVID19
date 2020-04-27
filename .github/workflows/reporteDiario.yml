@@ -37,8 +37,8 @@ jobs:
 
     - uses: peter-evans/create-pull-request@v2
       with:
-          commit_message: "POr favor confirma que esta todo bien"
-          title: "Se actualizo el reporte diario, y generamos los productos correspondientes"
+          commit_message: "Por favor confirma que esta todo bien"
+          title: "Se actualizo el input del reporte diario, y generamos los productos correspondientes"
           branch-suffix: timestamp
           committer: minciencia github bot <actions@github.com>
           reviewers: pdaire, fzmolina, raliaga, dna33, scornejo, MinCiencia
