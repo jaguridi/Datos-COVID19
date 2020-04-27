@@ -36,7 +36,7 @@ jobs:
       run: cd src; python reporteDiario.py
 
     - uses: peter-evans/create-pull-request@v2
-        with:
+      with:
           commit_message: "Se actualizo el reporte diario, y generamos los productos correspondientes"
           title: "Por favor confirma que esta todo bien"
           branch-suffix: timestamp
