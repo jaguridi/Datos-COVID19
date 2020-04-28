@@ -102,7 +102,6 @@ def prod16(fte, producto):
     df2_t = utils.transpone_csv(producto + '.csv')
     df2_t.to_csv(producto + '_T.csv', header=False)
     df = pd.read_csv(fte)
-    print(df)
     identifiers = ['Grupo de edad','Sexo']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
@@ -111,11 +110,16 @@ def prod16(fte, producto):
 
 
 def prod18(fte, producto):
-    df = pd.read_csv(fte, dtype={'Codigo region': object})
+    df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
     df.dropna(how='all', inplace=True)
     df.to_csv(producto + '.csv', index=False)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Region','Codigo region','Comuna','Codigo comuna','Poblacion']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Tasa de incidencia')
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 
 def prod19(fte, producto):
@@ -138,10 +142,10 @@ if __name__ == '__main__':
     #
     # prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
 
-    prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
+    # prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
     # print('Generando producto 18')
-    # prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
+    prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
     #
     # print('Generando producto 19')
     # prod19('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
