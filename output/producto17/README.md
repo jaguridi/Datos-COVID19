@@ -13,4 +13,4 @@ Actualización diaria.
 
 # Notas aclaratorias
 
-**Nota aclaratoria 1:** Previo al 9 de abril de 2020 los reportes diarios del Ministerio de Salud no entregaban datos de exámenes PCR realizados en el país.
+**Nota aclaratoria 1:** Previo al 30 de marzo de 2020 los reportes diarios del Ministerio de Salud no entregaban datos de exámenes PCR realizados en el país.
