@@ -55,7 +55,7 @@ def prod9_10(fte, producto):
     df = pd.read_csv(fte)
     identifiers = ['Grupo de edad']
     variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='rango edad', value_name='Casos confirmados')
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
 def prod20(fte, producto):
@@ -63,7 +63,7 @@ def prod20(fte, producto):
     df = pd.read_csv(fte)
     identifiers = ['Ventiladores']
     variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='estado', value_name='numero')
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
     df_std.to_csv(producto + '_std.csv', index=False)
 
 def prod23(fte, producto):
@@ -71,7 +71,7 @@ def prod23(fte, producto):
     df = pd.read_csv(fte)
     identifiers = ['Casos']
     variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Pacientes criticos', value_name='Casos confirmados')
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
 def prod24(fte, producto):
@@ -79,7 +79,7 @@ def prod24(fte, producto):
     df = pd.read_csv(fte)
     identifiers = ['Tipo de cama']
     variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='cama', value_name='Casos confirmados')
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
