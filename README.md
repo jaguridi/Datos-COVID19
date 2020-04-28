@@ -85,3 +85,5 @@ Geógrafo Virginia Behm - académica Escuela de Salud Pública U. Chile.
 Miguel A. Bustos Valdebenito | Estudiante Dr. Ing. Mec. - U.Chile | Mtr. Ing. Ind. - UAI  | Ing. Civil y Ejec. Mec. - U. de Santiago
 
 Annabella Zapata y Carlos Navarrete, Chilecracia y Datawheel
+
+Leandro Zamudio León y Luis Meneses Retamal | Soporta Ltda.
