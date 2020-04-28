@@ -96,12 +96,19 @@ def prod15(fte, producto):
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
-
 def prod16(fte, producto):
     print('Generando producto 16')
     copyfile(fte, producto + '.csv')
     df2_t = utils.transpone_csv(producto + '.csv')
     df2_t.to_csv(producto + '_T.csv', header=False)
+    df = pd.read_csv(fte)
+    print(df)
+    identifiers = ['Grupo de edad','Sexo']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
 
 def prod18(fte, producto):
     df = pd.read_csv(fte, dtype={'Codigo region': object})
@@ -109,6 +116,7 @@ def prod18(fte, producto):
     df.to_csv(producto + '.csv', index=False)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
+
 
 def prod19(fte, producto):
     df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
@@ -121,22 +129,22 @@ def prod19(fte, producto):
 if __name__ == '__main__':
     # Aqui se generan los productos 1 y 2 a partir del informe epidemiologico
 
-    prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
-
-    prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
-
-    print('Generando producto 6')
-    exec(open('bulk_producto2.py').read())
-
-    prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
+    # prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
+    #
+    # prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
+    #
+    # print('Generando producto 6')
+    # exec(open('bulk_producto2.py').read())
+    #
+    # prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
-    print('Generando producto 18')
-    prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
-
-    print('Generando producto 19')
-    prod19('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
-
-    print('Generando producto 25')
-    prod19('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
+    # print('Generando producto 18')
+    # prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
+    #
+    # print('Generando producto 19')
+    # prod19('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
+    #
+    # print('Generando producto 25')
+    # prod19('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
