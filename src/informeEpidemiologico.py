@@ -52,8 +52,7 @@ def prod1(fte, producto):
     identifiers = ['Region','Codigo region','Comuna','Codigo comuna','Poblacion']
     variables = [x for x in df.columns if x not in identifiers]
     variables.remove('Tasa')
-    #print(variables)
-    df_std = pd.melt(df, id_vars= identifiers, value_vars=variables, var_name='Fecha', value_name='Casos confirmados')
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
@@ -77,6 +76,7 @@ def prod2(fte, producto):
         aux = df[['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', eachdate]]
         aux.rename(columns={eachdate: 'Casos Confirmados'}, inplace=True)
         aux.to_csv(producto + filename, index=False)
+
 
 def prod15(fte, producto):
     print('Generando producto 15')
