@@ -191,6 +191,7 @@ def prod5(fte, producto):
         df.to_csv(out, index=0)
 
 def prod5Nuevo(fte, producto):
+    print('Generando nuevo producto5')
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
     myMinsalsoup = get_minsal_page(fte)
@@ -198,9 +199,7 @@ def prod5Nuevo(fte, producto):
     casos_recuperados = get_casos_recuperados(myMinsalsoup)
 
     df_tr = pd.DataFrame.from_records(tabla_regional)
-    #print(df_tr)
 
-    #print(df_cr)
     header = (df_tr.loc[df_tr[0] == 'Region'])
     total = (df_tr.loc[df_tr[0] == 'Total'])
     a = header.append(total, ignore_index=True)
@@ -215,7 +214,7 @@ def prod5Nuevo(fte, producto):
 
     totales = pd.read_csv(producto)
 
-    if (a['Fecha'][1]) in totales.columns:
+    if (a['Fecha'][1])  in totales.columns:
         print(a['Fecha'] + ' ya esta en el dataframe. No actualizamos')
         return
     else:
@@ -226,8 +225,13 @@ def prod5Nuevo(fte, producto):
             newColumn.append(a[eachValue][1])
 
         totales[timestamp] = newColumn
-        print(totales)
         totales.to_csv(producto, index=False)
+        totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
+        identifiers = ['Dato']
+        variables = [x for x in totales.columns if x not in identifiers]
+        df_std = pd.melt(totales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                         value_name='Total')
+        df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
 def prod3_13_14(fte):
@@ -278,14 +282,22 @@ def prod3_13_14(fte):
     cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
     cumulativoFallecidos_T = cumulativoFallecidos.transpose()
 
+    cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
+    cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
+    identifiers = ['Region']
+    variables = [x for x in cumulativoCasosTotales.columns if x not in identifiers]
+    df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Total')
+    df_std.to_csv('../output/producto3/CasosTotalesCumulativo_std.csv', index=False)
+
     cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
     cumulativoCasosNuevos_T.to_csv('../output/producto13/CasosNuevosCumulativo_T.csv', header=False)
 
-    cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
-    cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
+
 
     cumulativoFallecidos.to_csv('../output/producto14/FallecidosCumulativo.csv', index=False)
     cumulativoFallecidos_T.to_csv('../output/producto14/FallecidosCumulativo_T.csv', header=False)
+
 
 
 if __name__ == '__main__':

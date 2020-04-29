@@ -7,7 +7,7 @@ name: Actualiza_productos_de_informe_situacion
 on:
     push:
         branches: master
-        paths: 'input/informeSituacionCOVID19/*.csv'
+        paths: 'input/InformeSituacionCOVID19/*.csv'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -33,7 +33,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: get data and commit it
+    - name: generate products from Informe Situacion
       run: cd src; python informeSituacionCOVID19.py
 
     - uses: peter-evans/create-pull-request@v2

@@ -33,7 +33,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: get data and commit it
+    - name: generate products from Informe Epidemiologico
       run: cd src; python informeEpidemiologico.py
 
     - uses: peter-evans/create-pull-request@v2
