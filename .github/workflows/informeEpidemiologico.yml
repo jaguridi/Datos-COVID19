@@ -6,7 +6,8 @@ name: Actualiza_productos_de_informe_epidemiologico
 # events but only for the master branch
 on:
     push:
-        paths: 'input/informeEpidemiologico/*.csv'
+        branches: master
+        paths: 'input/InformeEpidemiologico/*.csv'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
