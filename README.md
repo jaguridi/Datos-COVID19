@@ -63,8 +63,11 @@ Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiológico, inf
 Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV, que son utilizados para generar los productos relevantes:
 
    * [Reporte diario](src/reporteDiario.py)
+   ![Actualiza_productos_de_reporte_diario](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_reporte_diario/badge.svg)
    * [Informe epidemiológico](src/informeEpidemiologico.py) 
+   ![Actualiza_productos_de_informe_epidemiologico](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_informe_epidemiologico/badge.svg)
    * [Informe de situación epidemiológica](src/informeSituacionCOVID19.py)
+   ![Actualiza_productos_de_informe_situacion](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_informe_situacion/badge.svg)
 
 
 En cuanto a los archivos a nivel regional: Hacemos scraping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/ y generamos archivo csv por día.
@@ -72,7 +75,7 @@ En cuanto a los archivos a nivel regional: Hacemos scraping de tabla en https://
 
 Este esta automatizado a ~ 12:00, usando github actions.
 
-![dataUpdate](https://github.com/MinCiencia/Datos-COVID19/workflows/dataUpdate/badge.svg)
+![Actualiza_productos_de_webpage_MINSAL](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_webpage_MINSAL/badge.svg)
 
 # Contacto
 Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues). La automatización de este proceso y disposición de datos ha sido inicializada por el equipo del Data Observatory (http://www.dataobservatory.net), estan todos invitados a colaborar.
