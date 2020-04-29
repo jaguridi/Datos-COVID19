@@ -33,7 +33,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: get data and commit it
+    - name: parse webpage MINSAL and generate products from it
       run: cd src; python webpage.py
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
