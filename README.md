@@ -60,7 +60,9 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 ## ¿Cómo funciona?
 Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiológico, informe de situación covid19 y la pagina web del MINSAL.
-Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV, que son utilizados para generar los productos relevantes:
+Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV, que son utilizados para generar los productos relevantes.
+Cada vez que se actualizan los archivos de entrada, se gatillan las acciones abajo. Si hay fallas, los productos son generados 
+utilizando los mismos scripts, pero manualmente.
 
    * [Reporte diario](src/reporteDiario.py)
    ![Actualiza_productos_de_reporte_diario](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_reporte_diario/badge.svg)
