@@ -72,10 +72,10 @@ Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV
 
 En cuanto a los archivos a nivel regional: Hacemos scraping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/ y generamos archivo csv por día.
    * [Webscraper](src/webpage.py)
+![Actualiza_productos_de_webpage_MINSAL](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_webpage_MINSAL/badge.svg)
 
 Este esta automatizado a ~ 12:00, usando github actions.
 
-![Actualiza_productos_de_webpage_MINSAL](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_webpage_MINSAL/badge.svg)
 
 # Contacto
 Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues). La automatización de este proceso y disposición de datos ha sido inicializada por el equipo del Data Observatory (http://www.dataobservatory.net), estan todos invitados a colaborar.
