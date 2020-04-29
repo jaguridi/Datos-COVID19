@@ -37,6 +37,23 @@ def prod21_22(fte, producto):
     copyfile(fte, producto + '.csv')
     HospitalizadosEtario_T = utils.transpone_csv(producto + '.csv')
     HospitalizadosEtario_T.to_csv(producto + '_T.csv', header=False)
+    df = pd.read_csv(fte)
+    if '21' in producto:
+        print('prod21')
+        identifiers = ['Sintomas']
+        variables = [x for x in df.columns if x not in identifiers]
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
+        df_std.to_csv(producto + '_std.csv', index=False)
+    if '22' in producto:
+        print('prod22')
+        if 'Sexo' in df.columns:
+            identifiers = ['Grupo de edad', 'Sexo']
+        else:
+            identifiers = ['Grupo de edad']
+        variables = [x for x in df.columns if x not in identifiers]
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
+        df_std.to_csv(producto + '_std.csv', index=False)
+
 
 
 if __name__ == '__main__':
@@ -47,4 +64,10 @@ if __name__ == '__main__':
     print('Generando producto 22')
     prod21_22('../input/InformeSituacionCOVID19/HospitalizadosEtario_Acumulado_Post20200422.csv', '../output/producto22/HospitalizadosEtario_Acumulado_Post20200422')
     prod21_22('../input/InformeSituacionCOVID19/HospitalizadosUCI_Acumulado_Post20200422.csv', '../output/producto22/HospitalizadosUCI_Acumulado_Post20200422')
+
+    print('Generando producto 22')
+    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosGeneroEtario_Acumulado.csv',
+              '../output/producto22/HospitalizadosEtario_Acumulado')
+    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosUCI_Acumulado.csv',
+              '../output/producto22/HospitalizadosUCI_Acumulado')
 
