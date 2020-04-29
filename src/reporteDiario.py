@@ -46,12 +46,45 @@ def prod7_8(fte, producto):
     df_t = df.T
     df.to_csv(producto + '.csv', index=False)
     df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Region','Codigo region','Poblacion']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 
-def prod9_10_20_23_24(fte, producto):
+def prod9_10(fte, producto):
     copyfile(fte, producto + '.csv')
     HospitalizadosUCIEtario_T = utils.transpone_csv(producto + '.csv')
     HospitalizadosUCIEtario_T.to_csv(producto + '_T.csv', header=False)
+    df = pd.read_csv(fte)
+    identifiers = ['Grupo de edad']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
+def prod20(fte, producto):
+    copyfile(fte, producto + '.csv')
+    df = pd.read_csv(fte)
+    identifiers = ['Ventiladores']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
+def prod23(fte, producto):
+    copyfile(fte, producto + '.csv')
+    df = pd.read_csv(fte)
+    identifiers = ['Casos']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
+def prod24(fte, producto):
+    copyfile(fte, producto + '.csv')
+    df = pd.read_csv(fte)
+    identifiers = ['Tipo de cama']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 
 if __name__ == '__main__':
@@ -62,10 +95,10 @@ if __name__ == '__main__':
     prod7_8('../input/ReporteDiario//UCI.csv', '../output/producto8/UCI')
 
     print('Generando producto 9')
-    prod9_10_20_23_24('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
+    prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
 
     print('Generando producto 10')
-    prod9_10_20_23_24('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
+    prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
 
     print('Generando producto 12')
     exec(open('bulk_producto7.py').read())
@@ -74,10 +107,10 @@ if __name__ == '__main__':
     copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
 
     print('Generando producto 20')
-    prod9_10_20_23_24('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
+    prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
 
     print('Generando producto 23')
-    prod9_10_20_23_24('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
+    prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
 
     print('Generando producto 24')
-    prod9_10_20_23_24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
+    prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')

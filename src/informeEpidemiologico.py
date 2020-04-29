@@ -49,6 +49,11 @@ def prod1(fte, producto):
     df.to_csv(producto + '.csv', index=False)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Region','Codigo region','Comuna','Codigo comuna','Poblacion']
+    variables = [x for x in df.columns if x not in identifiers]
+    variables.remove('Tasa')
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 
 def prod2(fte, producto):
@@ -72,6 +77,7 @@ def prod2(fte, producto):
         aux.rename(columns={eachdate: 'Casos Confirmados'}, inplace=True)
         aux.to_csv(producto + filename, index=False)
 
+
 def prod15(fte, producto):
     print('Generando producto 15')
     df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
@@ -84,6 +90,10 @@ def prod15(fte, producto):
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv', '../output/producto15/SemanasEpidemiologicas.csv')
+    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica', value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 
 def prod16(fte, producto):
@@ -91,20 +101,42 @@ def prod16(fte, producto):
     copyfile(fte, producto + '.csv')
     df2_t = utils.transpone_csv(producto + '.csv')
     df2_t.to_csv(producto + '_T.csv', header=False)
+    df = pd.read_csv(fte)
+    identifiers = ['Grupo de edad','Sexo']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
 
 def prod18(fte, producto):
-    df = pd.read_csv(fte, dtype={'Codigo region': object})
-    df.dropna(how='all', inplace=True)
-    df.to_csv(producto + '.csv', index=False)
-    df_t = df.T
-    df_t.to_csv(producto + '_T.csv', header=False)
-
-def prod19(fte, producto):
     df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
     df.dropna(how='all', inplace=True)
     df.to_csv(producto + '.csv', index=False)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Region','Codigo region','Comuna','Codigo comuna','Poblacion']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Tasa de incidencia')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
+
+def prod19_25(fte, producto):
+    df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
+    df.dropna(how='all', inplace=True)
+    df.to_csv(producto + '.csv', index=False)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+    variables = [x for x in df.columns if x not in identifiers]
+    if '19' in producto:
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Casos activos')
+    elif '25' in producto:
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                             value_name='Casos actuales')
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 
 if __name__ == '__main__':
@@ -125,7 +157,7 @@ if __name__ == '__main__':
     prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
 
     print('Generando producto 19')
-    prod19('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
+    prod19_25('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
 
     print('Generando producto 25')
-    prod19('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
+    prod19_25('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
