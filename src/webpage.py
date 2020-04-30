@@ -66,11 +66,14 @@ def get_table_regional(minsalsoup):
     for row in rows:
         cols = row.findAll('td')
         cols = [ele.text.strip().replace('–', '0') for ele in cols]
-        data_minsal.append([unidecode.unidecode(ele.replace('.', '').replace(',', '.')) for ele in cols if ele])
+        data_minsal.append([unidecode.unidecode(ele.replace('.', '').replace(',', '.').replace('\n', ' ')) for ele in cols if ele])
     data_clean = []
     for element in data_minsal:
+        #normalize headers
+        if len(element) == 7:
+            element.insert(0,'Region')
         # Sanity check: minsal table changes often
-        if len(element) == 5:
+        if len(element) == 8:
             data_clean.append(element)
     return data_clean
 
@@ -81,6 +84,7 @@ def writer(fileid, mylist, outputpath):
     yesterday = now - timedelta(days=1)
     lastfiletimestamp = yesterday.strftime("%Y-%m-%d")
     lastfilename = outputpath + lastfiletimestamp + '-' + fileid + '.csv'
+    #lastfilename='../output/producto4/2020-04-28-CasosConfirmados-totalRegional.csv'
     filename = outputpath + timestamp + '-' + fileid + '.csv'
     # Check if new data is the same as on last file in output
 
@@ -93,7 +97,7 @@ def writer(fileid, mylist, outputpath):
         #skip header as it changes often
         print('today\'s list is ' + str(len(mylist[1:])) + ' elements long')
         print('You should check minsal table to see what happened')
-        return
+        #return
     else:
         i = 0
         while i < len(last_df_list):
@@ -190,6 +194,7 @@ def prod5(fte, producto):
         print(df)
         df.to_csv(out, index=0)
 
+
 def prod5Nuevo(fte, producto):
     print('Generando nuevo producto5')
     now = datetime.now()
@@ -203,8 +208,11 @@ def prod5Nuevo(fte, producto):
     header = (df_tr.loc[df_tr[0] == 'Region'])
     total = (df_tr.loc[df_tr[0] == 'Total'])
     a = header.append(total, ignore_index=True)
+    print(a.columns)
     #drop ** porcentaje casos fallecidos
-    a.drop(3, axis='columns', inplace=True)
+    a.drop(5, axis='columns', inplace=True)
+    print(a.columns)
+    #print(a)
     a.rename(columns={0: 'Fecha', 1: 'Casos nuevos', 2: 'Casos totales', 4: 'Fallecidos'}, inplace=True)
     a['Fecha'] = timestamp
     a.drop(0, inplace=True)
@@ -302,8 +310,8 @@ def prod3_13_14(fte):
 
 if __name__ == '__main__':
 
-    prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
-    prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
+    #prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
+    #prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
 
 
     prod5Nuevo('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/TotalesNacionales.csv')
@@ -314,6 +322,6 @@ if __name__ == '__main__':
     #exec(open('bulk_producto4.py').read())
 
     print('Generando productos 3, 13 y 14')
-    prod3_13_14('../output/producto4/')
+    #prod3_13_14('../output/producto4/')
 
 
