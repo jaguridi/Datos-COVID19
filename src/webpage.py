@@ -335,12 +335,16 @@ def prod3_13_14(fte):
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
+        print(eachfile)
         dataframe.rename(columns={'Región': 'Region'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos': 'Casos nuevos'}, inplace=True)
+        dataframe.rename(columns={'Casos  nuevos  totales': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={'Casos  totales': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={' Casos totales': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
+        dataframe.rename(columns={'Casos nuevos totales': 'Casos nuevos'}, inplace=True)
+        dataframe.rename(columns={'Casos  totales  acumulados': 'Casos totales'}, inplace=True)
 
         if cumulativoCasosNuevos['Region'].empty:
             cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
@@ -348,6 +352,7 @@ def prod3_13_14(fte):
             cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
             cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
         else:
+            print(dataframe.columns)
             cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
             cumulativoCasosTotales[date] = dataframe['Casos totales']
 
