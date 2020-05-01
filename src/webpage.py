@@ -70,10 +70,10 @@ def get_table_regional(minsalsoup):
     data_clean = []
     for element in data_minsal:
         #normalize headers
-        if len(element) == 7:
-            element.insert(0,'Region')
+        if len(element) == 6:
+            element.insert(0, 'Region')
         # Sanity check: minsal table changes often
-        if len(element) == 8:
+        if len(element) == 7:
             data_clean.append(element)
     return data_clean
 
@@ -204,6 +204,7 @@ def prod5Nuevo(fte, producto):
     casos_recuperados = get_casos_recuperados(myMinsalsoup)
 
     df_tr = pd.DataFrame.from_records(tabla_regional)
+    print(df_tr)
 
     header = (df_tr.loc[df_tr[0] == 'Region'])
     total = (df_tr.loc[df_tr[0] == 'Total'])
