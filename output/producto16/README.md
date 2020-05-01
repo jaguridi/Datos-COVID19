@@ -10,9 +10,12 @@ El archivo CasosGeneroEtario.csv contiene las columnas 'Grupo de edad' tal como 
 Informes epidemiológicos publicados periódicamente por el Ministerio de Salud de Chile. Ver en: https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
 
 A su vez, el Ministerio de Salud utiliza como fuente para la elaboración de estos informes el Sistema de notificación EPIVIGILA, del Departamento de Epidemiología, DIPLAS.
+
+Informes de situación COVID-19 publicados periódicamente por el Ministerio de Salud de Chile. Ver en: http://epi.minsal.cl/informes-covid-19/
  
 # Frecuencia de actualización
-Cada 2 a 3 días.
+Informe epidemiológico: Cada 2 a 3 días.
+Informe situación COVID-19: Diaria
 
 # Notas aclaratorias
 
