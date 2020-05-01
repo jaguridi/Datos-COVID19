@@ -397,6 +397,6 @@ if __name__ == '__main__':
     #exec(open('bulk_producto4.py').read())
 
     print('Generando productos 3, 13 y 14')
-    #prod3_13_14('../output/producto4/')
+    prod3_13_14('../output/producto4/')
 
 
