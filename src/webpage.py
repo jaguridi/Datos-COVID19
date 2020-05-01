@@ -240,7 +240,7 @@ def prod5Nuevo(fte, producto):
         rowCasosNuevosTotales = totales.index[totales['Fecha'] == 'Casos nuevos totales'].values[0]
         #print('row con ' + str(rowConSintomas))
         #print('row sin ' + str(rowSinSintomas))
-        print('expected is ' + str(totales.at[rowConSintomas, eachColumn]) + ' + ' + str(totales.at[rowSinSintomas, eachColumn]))
+        #print('expected is ' + str(totales.at[rowConSintomas, eachColumn]) + ' + ' + str(totales.at[rowSinSintomas, eachColumn]))
         #check for NaN
         if not np.isnan(totales.at[rowConSintomas, eachColumn]) and not np.isnan(totales.at[rowSinSintomas, eachColumn]):
             expectedTotal = totales.at[rowConSintomas, eachColumn] + totales.at[rowSinSintomas, eachColumn]
@@ -252,11 +252,11 @@ def prod5Nuevo(fte, producto):
         registeredTotal = totales.at[rowCasosNuevosTotales, eachColumn]
         if registeredTotal != expectedTotal:
             print('Casos nuevos totales debería ser ' + str(expectedTotal) + ' pero es ' + str(registeredTotal))
-            print(totales.at[rowCasosNuevosTotales, eachColumn])
+            #print(totales.at[rowCasosNuevosTotales, eachColumn])
             totales.at[rowCasosNuevosTotales, eachColumn] = expectedTotal
-            print(totales.at[rowCasosNuevosTotales, eachColumn])
+            #print(totales.at[rowCasosNuevosTotales, eachColumn])
 
-    print(totales.to_string())
+    #print(totales.to_string())
     #normalizamos headers
     #expectedHeaders=['Casos nuevos con sintomas', 'Casos totales', 'Casos recuperados', 'Fallecidos',
      #               'Casos activos', 'Casos nuevos sin sintomas', 'Casos totales acumulados', 'Casos nuevos totales']
@@ -286,10 +286,10 @@ def prod5Nuevo(fte, producto):
         row = pd.DataFrame([ax], columns=totales.columns)
         aux = pd.concat([totales, row], ignore_index=True)
         totales = aux
-        print(totales)
+        #print(totales)
 
     #print(totales['Fecha'])
-    #print(a['Fecha'])
+    print(a['Fecha'])
     if (a['Fecha'][1]) in totales.columns:
         print(a['Fecha'] + ' ya esta en el dataframe. No actualizamos')
         return
@@ -309,14 +309,14 @@ def prod5Nuevo(fte, producto):
                 newColumn.append('')
         print(newColumn)
         totales[timestamp] = newColumn
-        totales.to_csv(producto, index=False)
+        #totales.to_csv(producto, index=False)
         print(totales.to_string())
         totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
         identifiers = ['Dato']
         variables = [x for x in totales.columns if x not in identifiers]
         df_std = pd.melt(totales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Total')
-        df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
+        #df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
 def prod3_13_14(fte):
@@ -388,7 +388,6 @@ def prod3_13_14(fte):
 if __name__ == '__main__':
 
     prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
-
 
     prod5Nuevo('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/TotalesNacionales.csv')
 
