@@ -38,6 +38,7 @@ from bs4 import BeautifulSoup
 import csv
 import unidecode
 import pandas as pd
+import numpy as np
 from datetime import datetime, timedelta
 from os import listdir
 from os.path import isfile, join
@@ -228,11 +229,37 @@ def prod5Nuevo(fte, producto):
 
     #print(a.to_string())
     totales = pd.read_csv(producto)
-    #print(totales)
-    print(totales['Fecha'])
+    print(totales.columns[1:])
+    # add Casos nuevos totales = Casos nuevos con sintomas + Casos nuevos sin sintomas
+    for eachColumn in totales.columns[1:]:
+        print('Checking if Casos nuevos totales is fine on ' + eachColumn)
+        #print(totales.index[totales['Fecha'] == 'Casos nuevos con sintomas'].values[0])
+        #print(totales.at[totales.index[totales['Fecha'] == 'Casos nuevos con sintomas'].values[0], eachColumn])
+        rowConSintomas = totales.index[totales['Fecha'] == 'Casos nuevos con sintomas'].values[0]
+        rowSinSintomas = totales.index[totales['Fecha'] == 'Casos nuevos sin sintomas'].values[0]
+        rowCasosNuevosTotales = totales.index[totales['Fecha'] == 'Casos nuevos totales'].values[0]
+        #print('row con ' + str(rowConSintomas))
+        #print('row sin ' + str(rowSinSintomas))
+        print('expected is ' + str(totales.at[rowConSintomas, eachColumn]) + ' + ' + str(totales.at[rowSinSintomas, eachColumn]))
+        #check for NaN
+        if not np.isnan(totales.at[rowConSintomas, eachColumn]) and not np.isnan(totales.at[rowSinSintomas, eachColumn]):
+            expectedTotal = totales.at[rowConSintomas, eachColumn] + totales.at[rowSinSintomas, eachColumn]
+        elif not np.isnan(totales.at[rowConSintomas, eachColumn]) and np.isnan(totales.at[rowSinSintomas, eachColumn]):
+            expectedTotal = totales.at[rowConSintomas, eachColumn]
+        elif np.isnan(totales.at[rowConSintomas, eachColumn]) and not np.isnan(totales.at[rowSinSintomas, eachColumn]):
+            expectedTotal = totales.at[rowSinSintomas, eachColumn]
+
+        registeredTotal = totales.at[rowCasosNuevosTotales, eachColumn]
+        if registeredTotal != expectedTotal:
+            print('Casos nuevos totales debería ser ' + str(expectedTotal) + ' pero es ' + str(registeredTotal))
+            print(totales.at[rowCasosNuevosTotales, eachColumn])
+            totales.at[rowCasosNuevosTotales, eachColumn] = expectedTotal
+            print(totales.at[rowCasosNuevosTotales, eachColumn])
+
+    print(totales.to_string())
     #normalizamos headers
-    expectedHeaders=['Casos nuevos con sintomas', 'Casos totales', 'Casos recuperados', 'Fallecidos',
-                    'Casos activos', 'Casos nuevos sin sintomas', 'Casos totales acumulados', 'Casos nuevos totales']
+    #expectedHeaders=['Casos nuevos con sintomas', 'Casos totales', 'Casos recuperados', 'Fallecidos',
+     #               'Casos activos', 'Casos nuevos sin sintomas', 'Casos totales acumulados', 'Casos nuevos totales']
     emptyrow = [] * len(totales.columns)
     if 'Casos nuevos con sintomas' not in totales['Fecha'].values:
         totales['Fecha'][0] = 'Casos nuevos con sintomas'
@@ -245,7 +272,7 @@ def prod5Nuevo(fte, producto):
         totales = aux
         #totales['Fecha'][len(totales['Fecha']) + 1] = 'Casos nuevos sin sintomas'
     if 'Casos totales' not in totales['Fecha'].values:
-        print('Casos totales not found' )
+        print('Casos totales not found')
         ax = ['Casos totales']
         bx = [''] * (len(totales.columns) - 1)
         ax.extend(bx)
@@ -360,7 +387,7 @@ def prod3_13_14(fte):
 
 if __name__ == '__main__':
 
-    prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
+    #prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
     #prod5('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/')
 
 
