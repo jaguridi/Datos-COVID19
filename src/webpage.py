@@ -309,14 +309,14 @@ def prod5Nuevo(fte, producto):
                 newColumn.append('')
         print(newColumn)
         totales[timestamp] = newColumn
-        #totales.to_csv(producto, index=False)
+        totales.to_csv(producto, index=False)
         print(totales.to_string())
         totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
         identifiers = ['Dato']
         variables = [x for x in totales.columns if x not in identifiers]
         df_std = pd.melt(totales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Total')
-        #df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
+        df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
 def prod3_13_14(fte):
@@ -335,12 +335,16 @@ def prod3_13_14(fte):
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
+        print(eachfile)
         dataframe.rename(columns={'Región': 'Region'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos': 'Casos nuevos'}, inplace=True)
+        dataframe.rename(columns={'Casos  nuevos  totales': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={'Casos  totales': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={' Casos totales': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
+        dataframe.rename(columns={'Casos nuevos totales': 'Casos nuevos'}, inplace=True)
+        dataframe.rename(columns={'Casos  totales  acumulados': 'Casos totales'}, inplace=True)
 
         if cumulativoCasosNuevos['Region'].empty:
             cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
@@ -348,6 +352,7 @@ def prod3_13_14(fte):
             cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
             cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
         else:
+            print(dataframe.columns)
             cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
             cumulativoCasosTotales[date] = dataframe['Casos totales']
 

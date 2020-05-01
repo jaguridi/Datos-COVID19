@@ -974,7 +974,7 @@ Antofagasta,2020-04-29,514
 Atacama,2020-04-29,42
 Coquimbo,2020-04-29,76
 Valparaíso,2020-04-29,526
-Metropolitana,2020-04-29,8889
+Metropolitana,2020-04-29,8639
 O’Higgins,2020-04-29,104
 Maule,2020-04-29,392
 Ñuble,2020-04-29,761
@@ -984,7 +984,7 @@ Los Ríos,2020-04-29,182
 Los Lagos,2020-04-29,481
 Aysén,2020-04-29,7
 Magallanes,2020-04-29,714
-Total,2020-04-29,15135
+Total,2020-04-29,14885
 Arica y Parinacota,2020-04-30,279
 Tarapacá,2020-04-30,198
 Antofagasta,2020-04-30,546
@@ -1002,3 +1002,20 @@ Los Lagos,2020-04-30,487
 Aysén,2020-04-30,7
 Magallanes,2020-04-30,725
 Total,2020-04-30,16023
+Arica y Parinacota,2020-05-01,297
+Tarapacá,2020-05-01,200
+Antofagasta,2020-05-01,589
+Atacama,2020-05-01,43
+Coquimbo,2020-05-01,77
+Valparaíso,2020-05-01,568
+Metropolitana,2020-05-01,10516
+O’Higgins,2020-05-01,109
+Maule,2020-05-01,394
+Ñuble,2020-05-01,768
+Biobío,2020-05-01,729
+Araucanía,2020-05-01,1295
+Los Ríos,2020-05-01,189
+Los Lagos,2020-05-01,501
+Aysén,2020-05-01,7
+Magallanes,2020-05-01,726
+Total,2020-05-01,17008
