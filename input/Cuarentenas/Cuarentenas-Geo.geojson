@@ -241,7 +241,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 1, 
         "Nombre" : "Arica", 
         "Estado" : 1, 
         "Alcance" : 2, 
@@ -249,8 +248,9 @@
         "FTermino" : 1588903200000, 
         "Cut_Com" : 15101, 
         "Detalle" : "Corresponde al Radio Urbano de la Ciudad de Arica incluyendo la población San Miguel de Azapa", 
+        "Shape__Area" : 28050418.8017578, 
         "Shape__Length" : 48722.3000133714, 
-        "Shape__Area" : 28050418.8017578
+        "CuarentenaID" : 1
       }
     }, 
     {
@@ -325,7 +325,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 2, 
         "Nombre" : "Santiago Norte", 
         "Estado" : 1, 
         "Alcance" : 4, 
@@ -333,8 +332,9 @@
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13101, 
         "Detalle" : "Corresponde a la extensión de la cuarentena en la comuna de Santiago con límite en la línea contínua de las calles Av.Matta y Blanco Encalada", 
+        "Shape__Area" : 19939218.5703125, 
         "Shape__Length" : 21599.3513430565, 
-        "Shape__Area" : 19939218.5703125
+        "CuarentenaID" : 2
       }
     }, 
     {
@@ -411,7 +411,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 3, 
         "Nombre" : "Puente Alto Poniente", 
         "Estado" : 1, 
         "Alcance" : 4, 
@@ -419,8 +418,9 @@
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13201, 
         "Detalle" : "Corresponde al sector delimitado por la Av. Concha y Toro hacia el poniente", 
+        "Shape__Area" : 42364268.2128906, 
         "Shape__Length" : 30428.0515226124, 
-        "Shape__Area" : 42364268.2128906
+        "CuarentenaID" : 3
       }
     }, 
     {
@@ -459,7 +459,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 4, 
         "Nombre" : "El Bosque", 
         "Estado" : 1, 
         "Alcance" : 1, 
@@ -467,8 +466,9 @@
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13105, 
         "Detalle" : null, 
+        "Shape__Area" : 20622713.2285156, 
         "Shape__Length" : 18788.8707505944, 
-        "Shape__Area" : 20622713.2285156
+        "CuarentenaID" : 4
       }
     }, 
     {
@@ -507,7 +507,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 5, 
         "Nombre" : "San Bernardo Nororiente", 
         "Estado" : 1, 
         "Alcance" : 4, 
@@ -515,8 +514,9 @@
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13401, 
         "Detalle" : "Corresponde al sector delimitado por los limites comunales y al interior en Av. Colon, Av. Balmaceda y Autopista Central", 
+        "Shape__Area" : 16326216.8320313, 
         "Shape__Length" : 24929.1457196278, 
-        "Shape__Area" : 16326216.8320313
+        "CuarentenaID" : 5
       }
     }, 
     {
@@ -697,7 +697,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 6, 
         "Nombre" : "Chillán", 
         "Estado" : 2, 
         "Alcance" : 2, 
@@ -705,8 +704,9 @@
         "FTermino" : 1587693600000, 
         "Cut_Com" : 16101, 
         "Detalle" : null, 
+        "Shape__Area" : 37835429.3652344, 
         "Shape__Length" : 49337.0245698048, 
-        "Shape__Area" : 37835429.3652344
+        "CuarentenaID" : 6
       }
     }, 
     {
@@ -892,16 +892,16 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 8, 
         "Nombre" : "Osorno", 
-        "Estado" : 1, 
+        "Estado" : 2, 
         "Alcance" : 2, 
         "FInicio" : 1585616400000, 
         "FTermino" : 1588298400000, 
         "Cut_Com" : 10301, 
         "Detalle" : null, 
+        "Shape__Area" : 42268789.140625, 
         "Shape__Length" : 59804.1628428412, 
-        "Shape__Area" : 42268789.140625
+        "CuarentenaID" : 8
       }
     }, 
     {
@@ -1029,7 +1029,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 9, 
         "Nombre" : "Punta Arenas", 
         "Estado" : 1, 
         "Alcance" : 2, 
@@ -1037,8 +1036,9 @@
         "FTermino" : 1588903200000, 
         "Cut_Com" : 12101, 
         "Detalle" : null, 
+        "Shape__Area" : 112704517.078125, 
         "Shape__Length" : 77228.204896619, 
-        "Shape__Area" : 112704517.078125
+        "CuarentenaID" : 9
       }
     }, 
     {
@@ -1127,7 +1127,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 10, 
         "Nombre" : "Nueva Imperial", 
         "Estado" : 2, 
         "Alcance" : 2, 
@@ -1135,8 +1134,9 @@
         "FTermino" : 1587009600000, 
         "Cut_Com" : 9111, 
         "Detalle" : null, 
+        "Shape__Area" : 5981050.984375, 
         "Shape__Length" : 16614.822382882, 
-        "Shape__Area" : 5981050.984375
+        "CuarentenaID" : 10
       }
     }, 
     {
@@ -1259,7 +1259,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 11, 
         "Nombre" : "Lo Barnechea", 
         "Estado" : 2, 
         "Alcance" : 2, 
@@ -1267,8 +1266,9 @@
         "FTermino" : 1586768400000, 
         "Cut_Com" : 13115, 
         "Detalle" : null, 
+        "Shape__Area" : 94313826.9785156, 
         "Shape__Length" : 56084.0080581598, 
-        "Shape__Area" : 94313826.9785156
+        "CuarentenaID" : 11
       }
     }, 
     {
@@ -1359,7 +1359,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 12, 
         "Nombre" : "Vitacura", 
         "Estado" : 2, 
         "Alcance" : 1, 
@@ -1367,8 +1366,9 @@
         "FTermino" : 1586768400000, 
         "Cut_Com" : 13132, 
         "Detalle" : null, 
+        "Shape__Area" : 40092348.3789063, 
         "Shape__Length" : 30500.0584721577, 
-        "Shape__Area" : 40092348.3789063
+        "CuarentenaID" : 12
       }
     }, 
     {
@@ -1470,7 +1470,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 13, 
         "Nombre" : "Las Condes", 
         "Estado" : 2, 
         "Alcance" : 1, 
@@ -1478,8 +1477,9 @@
         "FTermino" : 1587088800000, 
         "Cut_Com" : 13114, 
         "Detalle" : null, 
+        "Shape__Area" : 144758812.962891, 
         "Shape__Length" : 60443.7678527517, 
-        "Shape__Area" : 144758812.962891
+        "CuarentenaID" : 13
       }
     }, 
     {
@@ -1538,7 +1538,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 14, 
         "Nombre" : "Providencia", 
         "Estado" : 2, 
         "Alcance" : 1, 
@@ -1546,8 +1545,9 @@
         "FTermino" : 1586768400000, 
         "Cut_Com" : 13123, 
         "Detalle" : null, 
+        "Shape__Area" : 20592014.8886719, 
         "Shape__Length" : 19208.8849554509, 
-        "Shape__Area" : 20592014.8886719
+        "CuarentenaID" : 14
       }
     }, 
     {
@@ -1599,7 +1599,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 15, 
         "Nombre" : "Ñuñoa Norte", 
         "Estado" : 1, 
         "Alcance" : 4, 
@@ -1607,8 +1606,9 @@
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13120, 
         "Detalle" : "Corresponde a la extensión de la cuarentena en la comuna de Ñuñoa con límite en Av. Grecia", 
+        "Shape__Area" : 16724738.7675781, 
         "Shape__Length" : 19686.674515162, 
-        "Shape__Area" : 16724738.7675781
+        "CuarentenaID" : 15
       }
     }, 
     {
@@ -1762,7 +1762,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 18, 
         "Nombre" : "Hualpén", 
         "Estado" : 2, 
         "Alcance" : 2, 
@@ -1770,8 +1769,9 @@
         "FTermino" : 1587088800000, 
         "Cut_Com" : 8112, 
         "Detalle" : null, 
+        "Shape__Area" : 18355421.3046875, 
         "Shape__Length" : 29232.3539224448, 
-        "Shape__Area" : 18355421.3046875
+        "CuarentenaID" : 18
       }
     }, 
     {
@@ -2013,7 +2013,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 19, 
         "Nombre" : "San Pedro de la Paz", 
         "Estado" : 2, 
         "Alcance" : 2, 
@@ -2021,8 +2020,9 @@
         "FTermino" : 1587088800000, 
         "Cut_Com" : 8108, 
         "Detalle" : null, 
+        "Shape__Area" : 44074427.265625, 
         "Shape__Length" : 57975.6829409972, 
-        "Shape__Area" : 44074427.265625
+        "CuarentenaID" : 19
       }
     }, 
     {
@@ -2358,16 +2358,16 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 20, 
         "Nombre" : "Temuco", 
-        "Estado" : 1, 
+        "Estado" : 2, 
         "Alcance" : 2, 
         "FInicio" : 1585443600000, 
         "FTermino" : 1588298400000, 
         "Cut_Com" : 9101, 
         "Detalle" : null, 
+        "Shape__Area" : 101423669.53125, 
         "Shape__Length" : 129552.626170398, 
-        "Shape__Area" : 101423669.53125
+        "CuarentenaID" : 20
       }
     }, 
     {
@@ -2455,7 +2455,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 21, 
         "Nombre" : "Santiago", 
         "Estado" : 2, 
         "Alcance" : 1, 
@@ -2463,8 +2462,9 @@
         "FTermino" : 1586768400000, 
         "Cut_Com" : 13101, 
         "Detalle" : null, 
+        "Shape__Area" : 33432633.3300781, 
         "Shape__Length" : 28873.1965573892, 
-        "Shape__Area" : 33432633.3300781
+        "CuarentenaID" : 21
       }
     }, 
     {
@@ -2523,7 +2523,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 22, 
         "Nombre" : "Ñuñoa", 
         "Estado" : 2, 
         "Alcance" : 1, 
@@ -2531,8 +2530,9 @@
         "FTermino" : 1586768400000, 
         "Cut_Com" : 13120, 
         "Detalle" : null, 
+        "Shape__Area" : 24305861.1210938, 
         "Shape__Length" : 21540.5882083684, 
-        "Shape__Area" : 24305861.1210938
+        "CuarentenaID" : 22
       }
     }, 
     {
@@ -2640,7 +2640,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 24, 
         "Nombre" : "Chillán viejo", 
         "Estado" : 2, 
         "Alcance" : 2, 
@@ -2648,8 +2647,9 @@
         "FTermino" : 1587693600000, 
         "Cut_Com" : 16103, 
         "Detalle" : null, 
+        "Shape__Area" : 10541904.5351563, 
         "Shape__Length" : 16827.6726350091, 
-        "Shape__Area" : 10541904.5351563
+        "CuarentenaID" : 24
       }
     }, 
     {
@@ -2711,7 +2711,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 26, 
         "Nombre" : "Padre Las Casas", 
         "Estado" : 2, 
         "Alcance" : 2, 
@@ -2719,8 +2718,9 @@
         "FTermino" : 1587009600000, 
         "Cut_Com" : 9112, 
         "Detalle" : null, 
+        "Shape__Area" : 11026951.7929688, 
         "Shape__Length" : 16203.4065525269, 
-        "Shape__Area" : 11026951.7929688
+        "CuarentenaID" : 26
       }
     }, 
     {
@@ -4121,7 +4121,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 27, 
         "Nombre" : "Rapa Nui", 
         "Estado" : 2, 
         "Alcance" : 1, 
@@ -4129,8 +4128,9 @@
         "FTermino" : 1586163600000, 
         "Cut_Com" : 5201, 
         "Detalle" : null, 
+        "Shape__Area" : 205901011.117188, 
         "Shape__Length" : 79899.0823228499, 
-        "Shape__Area" : 205901011.117188
+        "CuarentenaID" : 27
       }
     }, 
     {
@@ -4273,7 +4273,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 28, 
         "Nombre" : "Independencia", 
         "Estado" : 2, 
         "Alcance" : 1, 
@@ -4281,8 +4280,9 @@
         "FTermino" : 1585875600000, 
         "Cut_Com" : 13108, 
         "Detalle" : null, 
+        "Shape__Area" : 10582914.0410156, 
         "Shape__Length" : 13699.9128448973, 
-        "Shape__Area" : 10582914.0410156
+        "CuarentenaID" : 28
       }
     }, 
     {
@@ -5150,7 +5150,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 29, 
         "Nombre" : "Puerto Williams", 
         "Estado" : 2, 
         "Alcance" : 2, 
@@ -5158,8 +5157,9 @@
         "FTermino" : 1586163600000, 
         "Cut_Com" : 12201, 
         "Detalle" : null, 
+        "Shape__Area" : 2973458.34765625, 
         "Shape__Length" : 9302.18440182724, 
-        "Shape__Area" : 2973458.34765625
+        "CuarentenaID" : 29
       }
     }, 
     {
@@ -6213,7 +6213,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 30, 
         "Nombre" : "Caleta Tortel", 
         "Estado" : 2, 
         "Alcance" : 4, 
@@ -6221,8 +6220,9 @@
         "FTermino" : 1585357200000, 
         "Cut_Com" : 11303, 
         "Detalle" : null, 
+        "Shape__Area" : 15336560.5195313, 
         "Shape__Length" : 25455.5653612886, 
-        "Shape__Area" : 15336560.5195313
+        "CuarentenaID" : 30
       }
     }, 
     {
@@ -8014,7 +8014,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 31, 
         "Nombre" : "Quinta Normal", 
         "Estado" : 1, 
         "Alcance" : 1, 
@@ -8022,8 +8021,9 @@
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13126, 
         "Detalle" : null, 
+        "Shape__Area" : 17014139.1523438, 
         "Shape__Length" : 21243.797016579, 
-        "Shape__Area" : 17014139.1523438
+        "CuarentenaID" : 31
       }
     }, 
     {
@@ -9206,7 +9206,6 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 32, 
         "Nombre" : "Pedro Aguirre Cerda", 
         "Estado" : 1, 
         "Alcance" : 1, 
@@ -9214,8 +9213,9 @@
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13121, 
         "Detalle" : null, 
+        "Shape__Area" : 12625146.265625, 
         "Shape__Length" : 15651.7189634514, 
-        "Shape__Area" : 12625146.265625
+        "CuarentenaID" : 32
       }
     }, 
     {
@@ -9293,16 +9293,16 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 33, 
         "Nombre" : "Independencia Sur", 
-        "Estado" : 1, 
+        "Estado" : 2, 
         "Alcance" : 4, 
         "FInicio" : 1587693600000, 
         "FTermino" : 1588298400000, 
         "Cut_Com" : 13108, 
         "Detalle" : "Corresponde al sector delimitado por la linea comprendida de las calles Gamero y Santos Dumont hacia el sur, se extiende a cuarentena total el 30 de abril", 
+        "Shape__Area" : 2460063.44140625, 
         "Shape__Length" : 8284.04113571919, 
-        "Shape__Area" : 2460063.44140625
+        "CuarentenaID" : 33
       }
     }, 
     {
@@ -9745,16 +9745,16 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 34, 
         "Nombre" : "Victoria", 
-        "Estado" : 3, 
+        "Estado" : 1, 
         "Alcance" : 2, 
         "FInicio" : 1588298400000, 
         "FTermino" : 1588903200000, 
         "Cut_Com" : 9211, 
         "Detalle" : "Aplica solo al límite urbano de la ciudad", 
+        "Shape__Area" : 9256998.9140625, 
         "Shape__Length" : 36013.0185048258, 
-        "Shape__Area" : 9256998.9140625
+        "CuarentenaID" : 34
       }
     }, 
     {
@@ -10845,16 +10845,16 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 35, 
         "Nombre" : "Angol", 
-        "Estado" : 3, 
+        "Estado" : 1, 
         "Alcance" : 2, 
         "FInicio" : 1588298400000, 
         "FTermino" : 1588903200000, 
         "Cut_Com" : 9201, 
         "Detalle" : "Aplicada solo al área urbana", 
+        "Shape__Area" : 16903887.625, 
         "Shape__Length" : 56627.2046086798, 
-        "Shape__Area" : 16903887.625
+        "CuarentenaID" : 35
       }
     }, 
     {
@@ -11331,16 +11331,16 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 37, 
         "Nombre" : "San Ramon Sur", 
-        "Estado" : 3, 
+        "Estado" : 1, 
         "Alcance" : 4, 
         "FInicio" : 1588298400000, 
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13131, 
         "Detalle" : "Se aplica cuarentena en sector sur de la comuna delimitado por la Avenida Américo Vespucio", 
+        "Shape__Area" : 4606059.17382813, 
         "Shape__Length" : 8714.79986943619, 
-        "Shape__Area" : 4606059.17382813
+        "CuarentenaID" : 37
       }
     }, 
     {
@@ -13835,16 +13835,16 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 38, 
         "Nombre" : "Estación Central", 
-        "Estado" : 3, 
+        "Estado" : 1, 
         "Alcance" : 1, 
         "FInicio" : 1588298400000, 
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13106, 
         "Detalle" : null, 
+        "Shape__Area" : 20682566.4921875, 
         "Shape__Length" : 22689.2274650058, 
-        "Shape__Area" : 20682566.4921875
+        "CuarentenaID" : 38
       }
     }, 
     {
@@ -13987,16 +13987,16 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 39, 
-        "Nombre" : "Independencia", 
-        "Estado" : 3, 
+        "Nombre" : "Independencia (Re-Ingreso Total)", 
+        "Estado" : 1, 
         "Alcance" : 1, 
         "FInicio" : 1588298400000, 
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13108, 
         "Detalle" : null, 
+        "Shape__Area" : 10582914.0429688, 
         "Shape__Length" : 13699.9128448926, 
-        "Shape__Area" : 10582914.0429688
+        "CuarentenaID" : 39
       }
     }, 
     {
@@ -14525,16 +14525,16 @@
         ]
       }, 
       "properties" : {
-        "CuarentenaID" : 36, 
         "Nombre" : "La Pintana Norte", 
-        "Estado" : 3, 
+        "Estado" : 1, 
         "Alcance" : 4, 
         "FInicio" : 1588298400000, 
         "FTermino" : 1588903200000, 
         "Cut_Com" : 13112, 
         "Detalle" : "Se aplica cuarentena en el sector norte de la comuna delimitado por la Avenida el Observatorio hacia el norte", 
+        "Shape__Area" : 4883155.13476563, 
         "Shape__Length" : 12416.9778362389, 
-        "Shape__Area" : 4883155.13476563
+        "CuarentenaID" : 36
       }
     }
   ]
