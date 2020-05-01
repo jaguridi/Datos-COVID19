@@ -75,6 +75,8 @@ def get_table_regional(minsalsoup):
         # Sanity check: minsal table changes often
         if len(element) == 7:
             data_clean.append(element)
+
+    print(data_clean)
     return data_clean
 
 
@@ -204,37 +206,84 @@ def prod5Nuevo(fte, producto):
     casos_recuperados = get_casos_recuperados(myMinsalsoup)
 
     df_tr = pd.DataFrame.from_records(tabla_regional)
-    print(df_tr)
 
     header = (df_tr.loc[df_tr[0] == 'Region'])
     total = (df_tr.loc[df_tr[0] == 'Total'])
     a = header.append(total, ignore_index=True)
-    print(a.columns)
+    #print(a.to_string())
     #drop ** porcentaje casos fallecidos
-    a.drop(5, axis='columns', inplace=True)
-    print(a.columns)
-    #print(a)
-    a.rename(columns={0: 'Fecha', 1: 'Casos nuevos', 2: 'Casos totales', 4: 'Fallecidos'}, inplace=True)
+    a.drop(6, axis='columns', inplace=True)
+    #print(a.columns)
+
+    #'Region', 'Casos totales acumulados', 'Casos nuevos totales', 'Casos nuevos con sintomas', 'Casos nuevos sin sintomas*', 'Fallecidos', '% Total'
+    a.rename(columns={0: 'Fecha', 1: 'Casos totales', 2: 'Casos nuevos totales',
+                      3: 'Casos nuevos con sintomas', 4: 'Casos nuevos sin sintomas',
+                      5: 'Fallecidos'}, inplace=True)
     a['Fecha'] = timestamp
     a.drop(0, inplace=True)
     a['Casos recuperados'] = casos_recuperados[1]
 
     a['Casos activos'] = int(a['Casos totales']) - int(a['Casos recuperados']) - int(a['Fallecidos'])
 
-    totales = pd.read_csv(producto)
 
-    if (a['Fecha'][1])  in totales.columns:
+    #print(a.to_string())
+    totales = pd.read_csv(producto)
+    #print(totales)
+    print(totales['Fecha'])
+    #normalizamos headers
+    expectedHeaders=['Casos nuevos con sintomas', 'Casos totales', 'Casos recuperados', 'Fallecidos',
+                    'Casos activos', 'Casos nuevos sin sintomas', 'Casos totales acumulados', 'Casos nuevos totales']
+    emptyrow = [] * len(totales.columns)
+    if 'Casos nuevos con sintomas' not in totales['Fecha'].values:
+        totales['Fecha'][0] = 'Casos nuevos con sintomas'
+    if 'Casos nuevos sin sintomas' not in totales['Fecha'].values:
+        ax = ['Casos nuevos sin sintomas']
+        bx = [''] * (len(totales.columns) - 1)
+        ax.extend(bx)
+        row = pd.DataFrame([ax], columns=totales.columns)
+        aux = pd.concat([totales, row], ignore_index=True)
+        totales = aux
+        #totales['Fecha'][len(totales['Fecha']) + 1] = 'Casos nuevos sin sintomas'
+    if 'Casos totales' not in totales['Fecha'].values:
+        print('Casos totales not found' )
+        ax = ['Casos totales']
+        bx = [''] * (len(totales.columns) - 1)
+        ax.extend(bx)
+        row = pd.DataFrame([ax], columns=totales.columns)
+        aux = pd.concat([totales, row], ignore_index=True)
+        totales = aux
+    if 'Casos nuevos totales' not in totales['Fecha'].values:
+        ax = ['Casos nuevos totales']
+        bx = [''] * (len(totales.columns) - 1)
+        ax.extend(bx)
+        row = pd.DataFrame([ax], columns=totales.columns)
+        aux = pd.concat([totales, row], ignore_index=True)
+        totales = aux
+        print(totales)
+
+    #print(totales['Fecha'])
+    #print(a['Fecha'])
+    if (a['Fecha'][1]) in totales.columns:
         print(a['Fecha'] + ' ya esta en el dataframe. No actualizamos')
         return
     else:
-        print(totales.iloc[:, 0])
+        #print(totales.iloc[:, 0])
         newColumn=[]
+        #Need to add new rows to totales:
         for eachValue in totales.iloc[:, 0]:
-            print(eachValue)
-            newColumn.append(a[eachValue][1])
+            #print('each values is ' + eachValue)
 
+            if eachValue in a.columns:
+                #print(type(a[eachValue].values))
+                newColumn.append(str(a[eachValue].values[0]))
+
+            else:
+                #print('appending ""')
+                newColumn.append('')
+        print(newColumn)
         totales[timestamp] = newColumn
         totales.to_csv(producto, index=False)
+        print(totales.to_string())
         totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
         identifiers = ['Dato']
         variables = [x for x in totales.columns if x not in identifiers]
