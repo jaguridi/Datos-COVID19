@@ -309,14 +309,14 @@ def prod5Nuevo(fte, producto):
                 newColumn.append('')
         print(newColumn)
         totales[timestamp] = newColumn
-        #totales.to_csv(producto, index=False)
+        totales.to_csv(producto, index=False)
         print(totales.to_string())
         totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
         identifiers = ['Dato']
         variables = [x for x in totales.columns if x not in identifiers]
         df_std = pd.melt(totales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Total')
-        #df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
+        df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
 def prod3_13_14(fte):
