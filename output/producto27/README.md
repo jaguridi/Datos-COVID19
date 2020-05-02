@@ -3,8 +3,6 @@ Set de 3 archivos que dan cuenta del número de casos confirmados nuevos por dí
 
 Estos archivos incluyen datos a partir del 29 de abril. Esta serie de tiempo incluye los casos nuevos denominados "sin síntomas" por la autoridad sanitaria a partir de tal fecha. 
 
-También existe el [producto 15: Casos nuevos por fecha de inicio de sintomas](https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto15) que reporta casos nuevos por fecha de inicio de síntomas, resultado de la vigilancia e investigación epidemiológica del Ministerio de Salud de Chile.
-
 # Columnas y valores
 El archivo CasosNuevosSinSintomas.csv contiene la columna ‘Región’, seguida por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’, indican el número de casos nuevos sin síntomas por día, por región, desde el 29-04-2020 hasta la fecha. El archivo CasosNuevosSinSintomas_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. El archivo CasosNuevosSinSintomas_std.csv contiene la misma data de CasosNuevosSinSintomas.csv en formato estándar (unpivoted). Todos estos valores están separados entre sí por comas (csv).
 
