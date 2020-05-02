@@ -1,69 +1,86 @@
 Region,Fecha,Casos confirmados
-Arica y Parinacota,Casos nuevos sin sintomas,0
-Tarapacá,Casos nuevos sin sintomas,0
-Antofagasta,Casos nuevos sin sintomas,0
-Atacama,Casos nuevos sin sintomas,0
-Coquimbo,Casos nuevos sin sintomas,0
-Valparaíso,Casos nuevos sin sintomas,0
-Metropolitana,Casos nuevos sin sintomas,250
-O'Higgins,Casos nuevos sin sintomas,0
-Maule,Casos nuevos sin sintomas,0
-Ñuble,Casos nuevos sin sintomas,0
-Biobío,Casos nuevos sin sintomas,0
-Araucania,Casos nuevos sin sintomas,0
-Los Ríos,Casos nuevos sin sintomas,0
-Los Lagos,Casos nuevos sin sintomas,0
-Aysén,Casos nuevos sin sintomas,0
-Magallanes,Casos nuevos sin sintomas,0
-Total,Casos nuevos sin sintomas,250
-Arica y Parinacota,2020-04-30,5
-Tarapacá,2020-04-30,0
-Antofagasta,2020-04-30,5
-Atacama,2020-04-30,0
-Coquimbo,2020-04-30,0
-Valparaíso,2020-04-30,5
-Metropolitana,2020-04-30,86
-O'Higgins,2020-04-30,1
-Maule,2020-04-30,1
-Ñuble,2020-04-30,0
-Biobío,2020-04-30,2
-Araucania,2020-04-30,2
-Los Ríos,2020-04-30,0
-Los Lagos,2020-04-30,1
-Aysén,2020-04-30,0
-Magallanes,2020-04-30,0
-Total,2020-04-30,108
-Arica y Parinacota,2020-05-01,5
-Tarapacá,2020-05-01,2
-Antofagasta,2020-05-01,6
-Atacama,2020-05-01,0
-Coquimbo,2020-05-01,1
-Valparaíso,2020-05-01,5
-Metropolitana,2020-05-01,79
-O'Higgins,2020-05-01,0
-Maule,2020-05-01,0
-Ñuble,2020-05-01,0
-Biobío,2020-05-01,2
-Araucania,2020-05-01,2
-Los Ríos,2020-05-01,0
-Los Lagos,2020-05-01,1
-Aysén,2020-05-01,0
-Magallanes,2020-05-01,0
-Total,2020-05-01,103
-Arica y Parinacota,2020-05-02,6
-Tarapacá,2020-05-02,1
-Antofagasta,2020-05-02,10
-Atacama,2020-05-02,3
-Coquimbo,2020-05-02,0
-Valparaíso,2020-05-02,4
-Metropolitana,2020-05-02,147
-O'Higgins,2020-05-02,1
-Maule,2020-05-02,0
-Ñuble,2020-05-02,4
-Biobío,2020-05-02,3
-Araucania,2020-05-02,0
-Los Ríos,2020-05-02,0
-Los Lagos,2020-05-02,1
-Aysén,2020-05-02,0
-Magallanes,2020-05-02,1
-Total,2020-05-02,181
+Arica y Parinacota,Fecha,
+Tarapacá,Fecha,
+Antofagasta,Fecha,
+Atacama,Fecha,
+Coquimbo,Fecha,
+Valparaíso,Fecha,
+Metropolitana,Fecha,
+O'Higgins,Fecha,
+Maule,Fecha,
+Ñuble,Fecha,
+Biobío,Fecha,
+Araucania,Fecha,
+Los Ríos,Fecha,
+Los Lagos,Fecha,
+Aysén,Fecha,
+Magallanes,Fecha,
+Total,Fecha,
+Arica y Parinacota,Casos nuevos sin sintomas,0.0
+Tarapacá,Casos nuevos sin sintomas,0.0
+Antofagasta,Casos nuevos sin sintomas,0.0
+Atacama,Casos nuevos sin sintomas,0.0
+Coquimbo,Casos nuevos sin sintomas,0.0
+Valparaíso,Casos nuevos sin sintomas,0.0
+Metropolitana,Casos nuevos sin sintomas,250.0
+O'Higgins,Casos nuevos sin sintomas,0.0
+Maule,Casos nuevos sin sintomas,0.0
+Ñuble,Casos nuevos sin sintomas,0.0
+Biobío,Casos nuevos sin sintomas,0.0
+Araucania,Casos nuevos sin sintomas,0.0
+Los Ríos,Casos nuevos sin sintomas,0.0
+Los Lagos,Casos nuevos sin sintomas,0.0
+Aysén,Casos nuevos sin sintomas,0.0
+Magallanes,Casos nuevos sin sintomas,0.0
+Total,Casos nuevos sin sintomas,250.0
+Arica y Parinacota,2020-04-30,5.0
+Tarapacá,2020-04-30,0.0
+Antofagasta,2020-04-30,5.0
+Atacama,2020-04-30,0.0
+Coquimbo,2020-04-30,0.0
+Valparaíso,2020-04-30,5.0
+Metropolitana,2020-04-30,86.0
+O'Higgins,2020-04-30,1.0
+Maule,2020-04-30,1.0
+Ñuble,2020-04-30,0.0
+Biobío,2020-04-30,2.0
+Araucania,2020-04-30,2.0
+Los Ríos,2020-04-30,0.0
+Los Lagos,2020-04-30,1.0
+Aysén,2020-04-30,0.0
+Magallanes,2020-04-30,0.0
+Total,2020-04-30,108.0
+Arica y Parinacota,2020-05-01,5.0
+Tarapacá,2020-05-01,2.0
+Antofagasta,2020-05-01,6.0
+Atacama,2020-05-01,0.0
+Coquimbo,2020-05-01,1.0
+Valparaíso,2020-05-01,5.0
+Metropolitana,2020-05-01,79.0
+O'Higgins,2020-05-01,0.0
+Maule,2020-05-01,0.0
+Ñuble,2020-05-01,0.0
+Biobío,2020-05-01,2.0
+Araucania,2020-05-01,2.0
+Los Ríos,2020-05-01,0.0
+Los Lagos,2020-05-01,1.0
+Aysén,2020-05-01,0.0
+Magallanes,2020-05-01,0.0
+Total,2020-05-01,103.0
+Arica y Parinacota,2020-05-02,6.0
+Tarapacá,2020-05-02,1.0
+Antofagasta,2020-05-02,10.0
+Atacama,2020-05-02,3.0
+Coquimbo,2020-05-02,0.0
+Valparaíso,2020-05-02,4.0
+Metropolitana,2020-05-02,147.0
+O'Higgins,2020-05-02,1.0
+Maule,2020-05-02,0.0
+Ñuble,2020-05-02,4.0
+Biobío,2020-05-02,3.0
+Araucania,2020-05-02,0.0
+Los Ríos,2020-05-02,0.0
+Los Lagos,2020-05-02,1.0
+Aysén,2020-05-02,0.0
+Magallanes,2020-05-02,1.0
+Total,2020-05-02,181.0
