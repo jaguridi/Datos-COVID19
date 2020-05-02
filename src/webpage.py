@@ -396,7 +396,7 @@ def prod3_13_14_26_27(fte):
         if 'Casos nuevos sin sintomas' in dataframe.columns:
             if casosNuevosSinSintomas['Region'].empty:
                 casosNuevosSinSintomas[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos sin sintomas']]
-                casosNuevosSinSintomas.rename(columns={'casosNuevosSinSintomas': date}, inplace=True)
+                casosNuevosSinSintomas.rename(columns={'Fecha': date}, inplace=True)
             else:
                 casosNuevosSinSintomas[date] = dataframe['Casos nuevos sin sintomas']
 
