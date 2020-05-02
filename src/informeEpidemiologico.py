@@ -165,7 +165,7 @@ if __name__ == '__main__':
     exec(open('bulk_producto2.py').read())
 
     prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
-    prod15B('../input/InformeEpidemiologico/SEREMIRegionalInicioSintomas.csv', '../output/producto15/SEREMIRegionalInicioSintomas')
+    prod15B('../input/InformeEpidemiologico/FechaInicioSintomas_reportadosSEREMI.csv', '../output/producto15/FechaInicioSintomas_reportadosSEREMI')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
