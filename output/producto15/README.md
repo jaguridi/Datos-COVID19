@@ -1,7 +1,7 @@
 # DP15 - Casos nuevos por fecha de inicio de síntomas por comuna: Descripción
 Set de 3 archivos que dan cuenta de los casos nuevos por fecha de inicio de sus síntomas en cada una de las comunas de Chile, según residencia. Refleja la información del último informe epidemiológico publicado por el Ministerio de Salud del país. Se indexan estos casos según semana epidemiológica reportada en el informe, con fechas incluidas en los archivos.
 
-Se incluye también un set de 3 archivos que dan cuenta de los casos nuevos por fecha de inicio de síntomas notificados por SEREMI regionales. Se indexan según semana epidemiológica reportada en el informe. Estos casos tienen residencia indeterminada al momento de notificación (turistas sin domicilio conocido, pasajeros de cruceros, tripulantes de barcos mercantes, entre otros). Estos reflejan la información del último informe epidemiológico publicado por el Ministerio de Salud.
+Se incluye también un set de 3 archivos que dan cuenta de los casos nuevos por fecha de inicio de síntomas notificados por SEREMI regionales. Se indexan según semana epidemiológica reportada en el informe. Estos casos tienen residencia indeterminada al momento de notificación (turistas sin domicilio conocido, pasajeros de cruceros, tripulantes de barcos mercantes, entre otros). Estos reflejan la información del último informe epidemiológico publicado por el Ministerio de Salud. Se recomienda sumar estos casos confirmados e informados por SEREMI a la suma de casos confirmados por comuna dados por los archivos descritos en el párrafo anterior.
 
 Se entiende por fecha de inicio de síntomas el momento de la manifestación clínica de la enfermedad. Se entiende por comuna de residencia la comuna que la persona declara como su vivienda habitual. 
 
