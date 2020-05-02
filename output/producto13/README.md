@@ -1,5 +1,7 @@
-# DP13 - Casos nuevos por región incremental: Descripción
+# DP13 - Casos nuevos totales por región incremental: Descripción
 Set de 2 archivos que dan cuenta del número de casos nuevos por día según resultado del diagnóstico, por región de residencia, reportados por el Ministerio de Salud desde el 03-03-2020. 
+
+A partir del 29 de abril esta serie de tiempo incluye los casos nuevos sin síntomas, es decir es el total de casos nuevos (sin síntomas + con síntomas)
 
 # Columnas y valores
 El archivo CasosNuevosCumulativo.csv contiene la columna ‘Región’, seguida por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’, indican el número de casos nuevos acumulativos, por región, desde el 03-03-2020 hasta la fecha. El archivo CasosNuevosCumulativo_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
