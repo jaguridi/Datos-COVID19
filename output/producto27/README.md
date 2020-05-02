@@ -1,4 +1,4 @@
-# DP26 - Casos nuevos con síntomas por región: Descripción
+# DP27 - Casos nuevos sin síntomas por región: Descripción
 Set de 3 archivos que dan cuenta del número de casos confirmados nuevos por día según resultado del diagnóstico y que son asintomáticos, por región de residencia, reportados por el Ministerio de Salud.
 
 Estos archivos incluyen datos a partir del 29 de abril. Esta serie de tiempo incluye los casos nuevos denominados "sin síntomas" por la autoridad sanitaria a partir de tal fecha. 
