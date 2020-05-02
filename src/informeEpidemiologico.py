@@ -27,6 +27,7 @@ Los productos que salen del informe epidemiologico son:
 1
 2
 6
+15
 16
 18
 19
@@ -95,6 +96,20 @@ def prod15(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod15B(fte, producto):
+    print('Generando producto 15 TABLA SEREMI')
+    df = pd.read_csv(fte, dtype={'Codigo region': object})
+    df.dropna(how='all', inplace=True)
+    #utils.regionName(df)
+    # Drop filas de totales por region
+    df.to_csv(producto + '.csv', index=False)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['SEREMI notificacion', 'Codigo region']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables,var_name='Semana Epidemiologica', value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
 
 def prod16(fte, producto):
     print('Generando producto 16')
@@ -150,6 +165,7 @@ if __name__ == '__main__':
     exec(open('bulk_producto2.py').read())
 
     prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
+    prod15B('../input/InformeEpidemiologico/SEREMIRegionalInicioSintomas.csv', '../output/producto15/SEREMIRegionalInicioSintomas')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
