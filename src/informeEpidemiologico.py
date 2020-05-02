@@ -32,6 +32,7 @@ Los productos que salen del informe epidemiologico son:
 18
 19
 25
+28
 """
 
 import utils
@@ -96,20 +97,6 @@ def prod15(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
-def prod15B(fte, producto):
-    print('Generando producto 15 TABLA SEREMI')
-    df = pd.read_csv(fte, dtype={'Codigo region': object})
-    df.dropna(how='all', inplace=True)
-    #utils.regionName(df)
-    # Drop filas de totales por region
-    df.to_csv(producto + '.csv', index=False)
-    df_t = df.T
-    df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['SEREMI notificacion', 'Codigo region']
-    variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables,var_name='Semana Epidemiologica', value_name='Casos confirmados')
-    df_std.to_csv(producto + '_std.csv', index=False)
-
 
 def prod16(fte, producto):
     print('Generando producto 16')
@@ -153,6 +140,20 @@ def prod19_25(fte, producto):
                              value_name='Casos actuales')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod28(fte, producto):
+    print('Generando producto 28')
+    df = pd.read_csv(fte, dtype={'Codigo region': object})
+    df.dropna(how='all', inplace=True)
+    #utils.regionName(df)
+    # Drop filas de totales por region
+    df.to_csv(producto + '.csv', index=False)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['SEREMI notificacion', 'Codigo region']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables,var_name='Semana Epidemiologica', value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
 
 if __name__ == '__main__':
     # Aqui se generan los productos 1 y 2 a partir del informe epidemiologico
@@ -165,7 +166,6 @@ if __name__ == '__main__':
     exec(open('bulk_producto2.py').read())
 
     prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
-    prod15B('../input/InformeEpidemiologico/FechaInicioSintomas_reportadosSEREMI.csv', '../output/producto15/FechaInicioSintomas_reportadosSEREMI')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
@@ -177,3 +177,5 @@ if __name__ == '__main__':
 
     print('Generando producto 25')
     prod19_25('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
+
+    prod28('../input/InformeEpidemiologico/FechaInicioSintomas_reportadosSEREMI.csv', '../output/producto28/FechaInicioSintomas_reportadosSEREMI')
