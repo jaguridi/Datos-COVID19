@@ -65,6 +65,8 @@ def prod9_10(fte, producto):
 def prod20(fte, producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
     identifiers = ['Ventiladores']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
@@ -73,6 +75,8 @@ def prod20(fte, producto):
 def prod23(fte, producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
     identifiers = ['Casos']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
@@ -81,6 +85,8 @@ def prod23(fte, producto):
 def prod24(fte, producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
     identifiers = ['Tipo de cama']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
