@@ -1,18 +1,18 @@
-Region,2020-04-29,2020-04-30,2020-05-01,2020-05-02
-Arica y Parinacota,4,2,13,4
-Tarapacá,14,15,0,11
-Antofagasta,33,27,37,80
-Atacama,7,1,0,13
-Coquimbo,2,0,0,1
-Valparaíso,33,28,4,42
-Metropolitana,339,650,812,998
-O'Higgins,7,3,1,10
-Maule,8,0,1,2
-Ñuble,14,7,0,4
-Biobío,10,6,0,19
-Araucania,22,18,0,19
-Los Ríos,2,7,0,7
-Los Lagos,4,5,13,11
-Aysén,0,0,0,0
-Magallanes,21,11,1,25
-Total,520,780,882,1246
+Region,2020-04-29,2020-04-30,2020-05-01,2020-05-02,2020-05-03
+Arica y Parinacota,4,2,13,4,1
+Tarapacá,14,15,0,11,54
+Antofagasta,33,27,37,80,45
+Atacama,7,1,0,13,8
+Coquimbo,2,0,0,1,5
+Valparaíso,33,28,4,42,23
+Metropolitana,339,650,812,998,912
+O'Higgins,7,3,1,10,4
+Maule,8,0,1,2,1
+Ñuble,14,7,0,4,7
+Biobío,10,6,0,19,7
+Araucania,22,18,0,19,14
+Los Ríos,2,7,0,7,2
+Los Lagos,4,5,13,11,4
+Aysén,0,0,0,0,0
+Magallanes,21,11,1,25,25
+Total,520,780,882,1246,1112
