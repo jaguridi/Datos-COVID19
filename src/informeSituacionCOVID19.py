@@ -62,7 +62,7 @@ if __name__ == '__main__':
     prod21_22('../input/InformeSituacionCOVID19/SintomasHospitalizados.csv', '../output/producto21/SintomasHospitalizados')
 
     print('Generando producto 22')
-    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosEtario_Acumulado.csv', '../output/producto22/HospitalizadosEtario_Acumulado')
+    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosGeneroEtario_Acumulado.csv', '../output/producto22/HospitalizadosEtario_Acumulado')
     prod21_22('../input/InformeSituacionCOVID19/HospitalizadosUCI_Acumulado.csv', '../output/producto22/HospitalizadosUCI_Acumulado')
 
 
