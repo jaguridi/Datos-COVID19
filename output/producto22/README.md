@@ -6,17 +6,12 @@ El archivo HospitalizadosEtario_Acumulado.csv contiene las columnas 'Grupo de ed
 
 Debido a un cambio en los rangos etareos el 22 de abril del 2020 los archivos presentan dos bloques con rangos de edad diferentes. Entre las filas 2 a 13 del archivo HospitalizadosEtario_Acumulado.csv, se encuentran los registros entre el 24 de marzo del 2020 al 20 de abril del 2020, para los géneros Masculino y Femenino, con rangos de edad:
 
-00-15 años
-
-15-29 años
-
-30-44 años
-
-45-59 años
-
-60-79 años
-
-80 y más años 
+00-15 años<br/>
+15-29 años<br/>
+30-44 años<br/>
+45-59 años<br/>
+60-79 años<br/>
+80 y más años<br/>
 
 A partir del 22 de abril del 2020 los rangos de edad, para los género Masculino y Femenino, publicados se describen entre las filas 14 a 27 como:
 
