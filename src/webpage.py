@@ -414,6 +414,7 @@ def prod3_13_14_26_27(fte):
     casosNuevosConSintomas_T = casosNuevosConSintomas.transpose()
     casosNuevosSinSintomas_T = casosNuevosSinSintomas.transpose()
 
+    #### PRODUCTO 3
     cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
     cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
     identifiers = ['Region']
@@ -422,24 +423,35 @@ def prod3_13_14_26_27(fte):
                      value_name='Total')
     df_std.to_csv('../output/producto3/CasosTotalesCumulativo_std.csv', index=False)
 
+    #### PRODUCTO 13
     cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
     cumulativoCasosNuevos_T.to_csv('../output/producto13/CasosNuevosCumulativo_T.csv', header=False)
+    identifiers = ['Region']
+    variables = [x for x in cumulativoCasosTotales.columns if x not in identifiers]
+    df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Total')
+    df_std.to_csv('../output/producto13/CasosNuevosCumulativo_std.csv', index=False)
 
+    #### PRODUCTO 14
     cumulativoFallecidos.to_csv('../output/producto14/FallecidosCumulativo.csv', index=False)
     cumulativoFallecidos_T.to_csv('../output/producto14/FallecidosCumulativo_T.csv', header=False)
+    variables = [x for x in cumulativoCasosTotales.columns if x not in identifiers]
+    df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Total')
+    df_std.to_csv('../output/producto14/FallecidosCumulativo_std.csv', index=False)
 
+    #### PRODUCTO 26
     casosNuevosConSintomas.to_csv('../output/producto26/CasosNuevosConSintomas.csv', index=False)
     casosNuevosConSintomas_T.to_csv('../output/producto26/CasosNuevosConSintomas_T.csv', header=False)
-
     identifiers = ['Region']
     variables = [x for x in casosNuevosConSintomas.columns if x not in identifiers]
     df_std = pd.melt(casosNuevosConSintomas, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Casos confirmados')
     df_std.to_csv('../output/producto26/CasosNuevosConSintomas_std.csv', index=False)
 
+    #### PRODUCTO 27
     casosNuevosSinSintomas.to_csv('../output/producto27/CasosNuevosSinSintomas.csv', index=False)
     casosNuevosSinSintomas_T.to_csv('../output/producto27/CasosNuevosSinSintomas_T.csv', header=False)
-
     identifiers = ['Region']
     variables = [x for x in casosNuevosSinSintomas.columns if x not in identifiers]
     df_std = pd.melt(casosNuevosSinSintomas, id_vars=identifiers, value_vars=variables, var_name='Fecha',
