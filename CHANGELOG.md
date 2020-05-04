@@ -1,4 +1,9 @@
-### 2020-05-01
-Debido al cambio en el reporte del MINSAL respecto a casos nuevos con y sin sintomas, tuvimos que actualizar el producto 5,
-y aprovechamos la oportunidad para deprecar el antiguo producto5, que correspondia a los casos recuperados. 
-Esta serie se incluye en el producto 5 que contiene todos los totales nacionales
+| Fecha         | Data Product  | Cambio        |
+| ------------- | ------------- | ------------- |
+| 07-04-2020    | 1 to 4        | Created       |
+| Content Cell  | Content Cell  | Content Cell  | 
+
+
+
+### 20200502 - Data Product 5
+Se depreca el archivo recuperados.csv que se incluía como columna de totalesnacionales.csv desde el 7 de abril.
