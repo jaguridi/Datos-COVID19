@@ -156,7 +156,6 @@ def prod28(fte, producto):
 
 
 if __name__ == '__main__':
-    # Aqui se generan los productos 1 y 2 a partir del informe epidemiologico
 
     prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
 
