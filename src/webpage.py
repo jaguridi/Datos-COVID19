@@ -229,7 +229,7 @@ def prod5Nuevo(fte, producto):
 
     #print(a.to_string())
     totales = pd.read_csv(producto)
-    print(totales.columns[1:])
+    #print(totales.columns[1:])
     # add Casos nuevos totales = Casos nuevos con sintomas + Casos nuevos sin sintomas
     for eachColumn in totales.columns[1:]:
         print('Checking if Casos nuevos totales is fine on ' + eachColumn)
@@ -289,7 +289,7 @@ def prod5Nuevo(fte, producto):
         #print(totales)
 
     #print(totales['Fecha'])
-    print(a['Fecha'])
+    #print(a['Fecha'])
     if (a['Fecha'][1]) in totales.columns:
         print(a['Fecha'] + ' ya esta en el dataframe. No actualizamos')
         return
@@ -307,10 +307,12 @@ def prod5Nuevo(fte, producto):
             else:
                 #print('appending ""')
                 newColumn.append('')
-        print(newColumn)
+        #print(newColumn)
         totales[timestamp] = newColumn
         totales.to_csv(producto, index=False)
-        print(totales.to_string())
+        totales_t = totales.transpose()
+        totales_t.to_csv(producto.replace('.csv', '_T.csv'), header=False)
+        #print(totales.to_string())
         totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
         identifiers = ['Dato']
         variables = [x for x in totales.columns if x not in identifiers]
@@ -339,7 +341,7 @@ def prod3_13_14_26_27(fte):
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
-        print(eachfile)
+        #print(eachfile)
         dataframe.rename(columns={'Región': 'Region'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos': 'Casos nuevos'}, inplace=True)
@@ -375,7 +377,7 @@ def prod3_13_14_26_27(fte):
             cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
             cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
         else:
-            print(dataframe.columns)
+            #print(dataframe.columns)
             cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
             cumulativoCasosTotales[date] = dataframe['Casos totales']
 
