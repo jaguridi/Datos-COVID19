@@ -1,0 +1,41 @@
+ID,Nombre,Estado,Alcance,Fecha de Inicio,Fecha de Término,Código CUT Comuna,Detalle,Superficie en m2,Perímetro en m
+1,Arica,Activa,Área Urbana Completa,2020-04-17 02:00:00,2020-05-08 02:00:00,15101,Corresponde al Radio Urbano de la Ciudad de Arica incluyendo la población San Miguel de Azapa,28050418.8017578,48722.3000133714
+2,Santiago Norte,Activa,Sector Específico,2020-04-13 09:00:00,2020-05-08 02:00:00,13101,Corresponde a la extensión de la cuarentena en la comuna de Santiago con límite en la línea contínua de las calles Av.Matta y Blanco Encalada,19939218.5703125,21599.3513430565
+3,Puente Alto Poniente,Activa,Sector Específico,2020-04-10 02:00:00,2020-05-08 02:00:00,13201,Corresponde al sector delimitado por la Av. Concha y Toro hacia el poniente,42364268.2128906,30428.0515226124
+4,El Bosque,Activa,Comuna completa,2020-04-17 02:00:00,2020-05-08 02:00:00,13105,,20622713.2285156,18788.8707505944
+5,San Bernardo Nororiente,Activa,Sector Específico,2020-04-17 02:00:00,2020-05-08 02:00:00,13401,"Corresponde al sector delimitado por los limites comunales y al interior en Av. Colon, Av. Balmaceda y Autopista Central",16326216.8320313,24929.1457196278
+6,Chillán,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-04-24 02:00:00,16101,,37835429.3652344,49337.0245698048
+8,Osorno,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-05-01 02:00:00,10301,,42268789.140625,59804.1628428412
+9,Punta Arenas,Activa,Área Urbana Completa,2020-04-02 01:00:00,2020-05-08 02:00:00,12101,,112704517.078125,77228.204896619
+10,Nueva Imperial,Histórica,Área Urbana Completa,2020-04-10 02:00:00,2020-04-16 04:00:00,9111,,5981050.984375,16614.822382882
+11,Lo Barnechea,Histórica,Área Urbana Completa,2020-03-27 01:00:00,2020-04-13 09:00:00,13115,,94313826.9785156,56084.0080581598
+12,Vitacura,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-13 09:00:00,13132,,40092348.3789063,30500.0584721577
+13,Las Condes,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-17 02:00:00,13114,,144758812.962891,60443.7678527517
+14,Providencia,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-13 09:00:00,13123,,20592014.8886719,19208.8849554509
+15,Ñuñoa Norte,Activa,Sector Específico,2020-04-13 09:00:00,2020-05-08 02:00:00,13120,Corresponde a la extensión de la cuarentena en la comuna de Ñuñoa con límite en Av. Grecia,16724738.7675781,19686.674515162
+18,Hualpén,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-04-17 02:00:00,8112,,18355421.3046875,29232.3539224448
+19,San Pedro de la Paz,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-04-17 02:00:00,8108,,44074427.265625,57975.6829409972
+20,Temuco,Histórica,Área Urbana Completa,2020-03-29 01:00:00,2020-05-01 02:00:00,9101,,101423669.53125,129552.626170398
+21,Santiago,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-13 09:00:00,13101,,33432633.3300781,28873.1965573892
+22,Ñuñoa,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-13 09:00:00,13120,,24305861.1210938,21540.5882083684
+24,Chillán viejo,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-04-24 02:00:00,16103,,10541904.5351563,16827.6726350091
+26,Padre Las Casas,Histórica,Área Urbana Completa,2020-03-28 03:00:00,2020-04-16 04:00:00,9112,,11026951.7929688,16203.4065525269
+27,Rapa Nui,Histórica,Comuna completa,2020-03-21 01:00:00,2020-04-06 09:00:00,5201,,205901011.117188,79899.0823228499
+28,Independencia,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-03 01:00:00,13108,,10582914.0410156,13699.9128448973
+29,Puerto Williams,Histórica,Área Urbana Completa,2020-04-26 02:00:00,2020-04-06 09:00:00,12201,,2973458.34765625,9302.18440182724
+30,Caleta Tortel,Histórica,Sector Específico,2020-03-13 01:00:00,2020-03-28 01:00:00,11303,,15336560.5195313,25455.5653612886
+31,Quinta Normal,Activa,Comuna completa,2020-04-24 02:00:00,2020-05-08 02:00:00,13126,,17014139.1523438,21243.797016579
+32,Pedro Aguirre Cerda,Activa,Comuna completa,2020-04-24 02:00:00,2020-05-08 02:00:00,13121,,12625146.265625,15651.7189634514
+33,Independencia Sur,Histórica,Sector Específico,2020-04-24 02:00:00,2020-05-01 02:00:00,13108,"Corresponde al sector delimitado por la linea comprendida de las calles Gamero y Santos Dumont hacia el sur, se extiende a cuarentena total el 30 de abril",2460063.44140625,8284.04113571919
+34,Victoria,Activa,Área Urbana Completa,2020-05-01 02:00:00,2020-05-08 02:00:00,9211,Aplica solo al límite urbano de la ciudad,9256998.9140625,36013.0185048258
+35,Angol,Activa,Área Urbana Completa,2020-05-01 02:00:00,2020-05-08 02:00:00,9201,Aplicada solo al área urbana,16903887.625,56627.2046086798
+37,San Ramon Sur,Activa,Sector Específico,2020-05-01 02:00:00,2020-05-08 02:00:00,13131,Se aplica cuarentena en sector sur de la comuna delimitado por la Avenida Américo Vespucio,4606059.17382813,8714.79986943619
+38,Estación Central,Activa,Comuna completa,2020-05-01 02:00:00,2020-05-08 02:00:00,13106,,20682566.4921875,22689.2274650058
+39,Independencia (Re-Ingreso Total),Activa,Comuna completa,2020-05-01 02:00:00,2020-05-08 02:00:00,13108,,10582914.0429688,13699.9128448926
+36,La Pintana Norte,Activa,Sector Específico,2020-05-01 02:00:00,2020-05-08 02:00:00,13112,Se aplica cuarentena en el sector norte de la comuna delimitado por la Avenida el Observatorio hacia el norte,4883155.13476563,12416.9778362389
+37,Antofagasta,Futura,Área Urbana Completa,2020-05-06 02:00:00,,2101,Aplicable solo al área urbana,43532156.4257813,134484.167871907
+38,Mejillones,Futura,Área Urbana Completa,2020-05-06 02:00:00,,2102,Aplicable solo a la zona urbana (Puerto de Mejillones),7391563.77148438,35405.5396978546
+39,Recoleta,Futura,Comuna completa,2020-05-06 02:00:00,,13127,Comuna Completa,22715640.5234375,22324.0747754827
+40,Cerrillos,Futura,Comuna completa,2020-05-06 02:00:00,,13102,Comuna Completa,24198337.6621094,25227.7694753954
+41,Quilicura,Futura,Comuna completa,2020-05-06 02:00:00,,13125,Comuna Completa,82391551.0488281,41916.2560534792
+42,Santiago (Reingreso Total),Futura,Comuna completa,2020-05-06 02:00:00,,13101,Comuna Completa,33329909.4960938,29265.4336900164
