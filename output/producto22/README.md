@@ -15,32 +15,32 @@ Debido a un cambio en los rangos etareos el 22 de abril del 2020 los archivos pr
 
 A partir del 22 de abril del 2020 los rangos de edad, para los género Masculino y Femenino, publicados se describen entre las filas 14 a 27 como:
 
-00-5 años
-5-17 años
-18-49 años
-50-59 años
-60-69 años
-70-79 años
-80 y más años
+00-5 años<br/>
+5-17 años<br/>
+18-49 años<br/>
+50-59 años<br/>
+60-69 años<br/>
+70-79 años<br/>
+80 y más años<br/>
 
 En el caso del archivo HospitalizadosUCI_Acumulado.csv, entre el 13 y el 20 de abril del 2020, los rangos de edad que presentan registros se encuentran entre las filas 2 a 7, y están descritos por:
 
-< 1 años
-1 - 4 años
-5 - 14 años
-15 - 44 años
-45 - 64 años
-65 y más años
+< 1 años<br/>
+1 - 4 años<br/>
+5 - 14 años<br/>
+15 - 44 años<br/>
+45 - 64 años<br/>
+65 y más años<br/>
 
 A partir del 22 de abril del 2020 los rangos de edad que presentan registros se encuentran entre las filas 8 a 14, descritos como:
 
-00-5 años
-5-17 años
-18-49 años
-50-59 años
-60-69 años
-70-79 años
-80 y más años
+00-5 años<br/>
+5-17 años<br/>
+18-49 años<br/>
+50-59 años<br/>
+60-69 años<br/>
+70-79 años<br/>
+80 y más años<br/>
 
 # Fuente
 
