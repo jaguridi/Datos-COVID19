@@ -394,6 +394,15 @@ def prod3_13_14_26_27(fte):
                 casosNuevosConSintomas.rename(columns={'Fecha': date}, inplace=True)
             else:
                 casosNuevosConSintomas[date] = dataframe['Casos nuevos con sintomas']
+        else:
+            date2 = (pd.to_datetime(date)).strftime('%Y-%m-%d')
+            if date2 < '2020-04-29':
+                if casosNuevosConSintomas['Region'].empty:
+                    casosNuevosConSintomas[['Region', 'Fecha']] = dataframe[['Region','Casos nuevos']]
+                    casosNuevosConSintomas.rename(columns={'Fecha': date}, inplace=True)
+                else:
+                    casosNuevosConSintomas[date] = dataframe['Casos nuevos']
+
 
         if 'Casos nuevos sin sintomas' in dataframe.columns:
             if casosNuevosSinSintomas['Region'].empty:
@@ -401,6 +410,7 @@ def prod3_13_14_26_27(fte):
                 casosNuevosSinSintomas.rename(columns={'Fecha': date}, inplace=True)
             else:
                 casosNuevosSinSintomas[date] = dataframe['Casos nuevos sin sintomas']
+
 
 
     # estandarizar nombres de regiones
