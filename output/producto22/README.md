@@ -18,7 +18,7 @@ Actualización diaria.
 
 **Nota aclaratoria 2:** Previo al 23 de marzo del 2020, los informes de situación Epidemiológica del Ministerio de Salud no entregaban datos sobre la distribución del número de pacientes hospitalizados por rango etario.
 
-**Nota aclaratoria 3:** Los informes de Situación Epidemiológica con fecha de publicación posterior al 21 de abril presentan un cambio en los rangos etarios. Por esta razón, los archivos se publican con el sufijo '\_Post20200422'
+**Nota aclaratoria 3:** Los informes de Situación Epidemiológica con fecha de publicación posterior al 21 de abril presentan un cambio en los rangos etarios. Por esta razón, hay dos escalas para los dichos rangos.
 
 **Nota aclaratoria 4:** Los informes de situación Epidemiológica del Ministerio de Salud se publican con fecha del día de corte. Los datos en este repositorio cotejan las fechas indicadas en el texto de la fuente utilizada con las dadas en el reporte diario e informe Epidemiológico del Ministerio de Salud.
 
