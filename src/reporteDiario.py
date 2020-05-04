@@ -62,6 +62,15 @@ def prod9_10(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+
+def prod17(fte, producto):
+    copyfile(fte, producto + '.csv')
+    df = pd.read_csv(fte)
+    identifiers = ['Establecimiento', 'Examenes']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Numero de PCR')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
 def prod20(fte, producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
@@ -72,6 +81,7 @@ def prod20(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+
 def prod23(fte, producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
@@ -81,6 +91,7 @@ def prod23(fte, producto):
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
+
 
 def prod24(fte, producto):
     copyfile(fte, producto + '.csv')
@@ -110,7 +121,8 @@ if __name__ == '__main__':
     exec(open('bulk_producto7.py').read())
 
     print('Generando producto 17')
-    copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
+    #copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
+    prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
 
     print('Generando producto 20')
     prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
