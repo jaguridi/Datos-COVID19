@@ -23,7 +23,7 @@ SOFTWARE.
 '''
 
 """
-Los productos que salen del informe Situaion COVID19 son:
+Los productos que salen del informe Situacion COVID19 son:
 21
 22
 """
@@ -62,12 +62,8 @@ if __name__ == '__main__':
     prod21_22('../input/InformeSituacionCOVID19/SintomasHospitalizados.csv', '../output/producto21/SintomasHospitalizados')
 
     print('Generando producto 22')
-    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosEtario_Acumulado_Post20200422.csv', '../output/producto22/HospitalizadosEtario_Acumulado_Post20200422')
-    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosUCI_Acumulado_Post20200422.csv', '../output/producto22/HospitalizadosUCI_Acumulado_Post20200422')
+    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosGeneroEtario_Acumulado.csv', '../output/producto22/HospitalizadosEtario_Acumulado')
+    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosUCI_Acumulado.csv', '../output/producto22/HospitalizadosUCI_Acumulado')
 
-    print('Generando producto 22')
-    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosGeneroEtario_Acumulado.csv',
-              '../output/producto22/HospitalizadosEtario_Acumulado')
-    prod21_22('../input/InformeSituacionCOVID19/HospitalizadosUCI_Acumulado.csv',
-              '../output/producto22/HospitalizadosUCI_Acumulado')
+
 
