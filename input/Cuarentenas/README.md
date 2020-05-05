@@ -16,7 +16,7 @@ Plan de Acción del Gobierno de Chile para el COVID-19. Ver en:
 https://www.gob.cl/coronavirus/plandeaccion/
 
 API Externa de Respaldo de Servicios para consulta.
-https://covid19.soporta.cl/datasets/0b944d9bf1954c71a7fae96bdddee464_1?geometry=-105.067%2C-44.515%2C-45.784%2C-32.531
+https://covid19.soporta.cl/datasets/0b944d9bf1954c71a7fae96bdddee464_1?geometry=-75.445%2C-34.423%2C-64.991%2C-32.822
 
 # Frecuencia de Actualización
 Dos veces a la semana: días martes para cambios en áreas, días jueves para cambio de estado de las cuarentenas.
@@ -26,8 +26,8 @@ El archivo posee una estructura GeoJSON (https://geojson.org/) con las siguiente
 - Nombre: Nombre descriptivo de la zona de cuarentena.
 - Estado: Valor codificado para estado de la cuarentena [1] Activa, [2] No-Activa, [3] Futura, [99] Sin Información.
 - Alcance: Valor codificado para el alcance territorial de la cuarentena [1] Comuna completa, [2] Área Urbana Completa, [3] Área Rural Completa, [4] Sector Específico.
-- FInicio: Fecha y hora de inicio en formato UNIX.
-- FTermino: Fecha y hora de término en formato UNIX.
+- FInicio: Fecha y hora de inicio en formato EPOCH (milisegundos).
+- FTermino: Fecha y hora de término en formato EPOCH (milisegundos).
 - Cut_Com: Código Único Territorial de comuna asociada.
 - Detalle: Observaciones adicionales al alcance de la cuarentena.
 - Shape_Area: Superficie en m2.
