@@ -447,8 +447,9 @@ def prod3_13_14_26_27(fte):
     #### PRODUCTO 14
     cumulativoFallecidos.to_csv('../output/producto14/FallecidosCumulativo.csv', index=False)
     cumulativoFallecidos_T.to_csv('../output/producto14/FallecidosCumulativo_T.csv', header=False)
-    variables = [x for x in cumulativoCasosTotales.columns if x not in identifiers]
-    df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+    identifiers = ['Region']
+    variables = [x for x in cumulativoFallecidos.columns if x not in identifiers]
+    df_std = pd.melt(cumulativoFallecidos, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Total')
     df_std.to_csv('../output/producto14/FallecidosCumulativo_std.csv', index=False)
 
