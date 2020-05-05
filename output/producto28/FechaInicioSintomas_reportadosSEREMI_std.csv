@@ -94,7 +94,7 @@ La Araucania,09,SE12,0
 Los Rios,14,SE12,0
 Los Lagos,10,SE12,10
 Aysen,11,SE12,0
-Magallanes y la Antartica,12,SE12,1
+Magallanes y la Antartica,12,SE12,0
 Arica y Parinacota,15,SE13,0
 Tarapaca,01,SE13,0
 Antofagasta,02,SE13,0
@@ -158,14 +158,14 @@ La Araucania,09,SE16,0
 Los Rios,14,SE16,0
 Los Lagos,10,SE16,0
 Aysen,11,SE16,0
-Magallanes y la Antartica,12,SE16,1
+Magallanes y la Antartica,12,SE16,0
 Arica y Parinacota,15,SE17,0
 Tarapaca,01,SE17,0
 Antofagasta,02,SE17,0
 Atacama,03,SE17,0
 Coquimbo,04,SE17,0
 Valparaiso,05,SE17,0
-Metropolitana,13,SE17,2
+Metropolitana,13,SE17,1
 Del Libertador General Bernardo O’Higgins,06,SE17,0
 Maule,07,SE17,0
 Nuble,16,SE17,0
@@ -181,7 +181,7 @@ Antofagasta,02,SE18,0
 Atacama,03,SE18,0
 Coquimbo,04,SE18,0
 Valparaiso,05,SE18,0
-Metropolitana,13,SE18,1
+Metropolitana,13,SE18,0
 Del Libertador General Bernardo O’Higgins,06,SE18,0
 Maule,07,SE18,0
 Nuble,16,SE18,0
@@ -191,3 +191,19 @@ Los Rios,14,SE18,0
 Los Lagos,10,SE18,0
 Aysen,11,SE18,0
 Magallanes y la Antartica,12,SE18,0
+Arica y Parinacota,15,SE19,0
+Tarapaca,01,SE19,0
+Antofagasta,02,SE19,0
+Atacama,03,SE19,0
+Coquimbo,04,SE19,0
+Valparaiso,05,SE19,0
+Metropolitana,13,SE19,0
+Del Libertador General Bernardo O’Higgins,06,SE19,0
+Maule,07,SE19,0
+Nuble,16,SE19,0
+Biobio,08,SE19,0
+La Araucania,09,SE19,0
+Los Rios,14,SE19,0
+Los Lagos,10,SE19,0
+Aysen,11,SE19,0
+Magallanes y la Antartica,12,SE19,0
