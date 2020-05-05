@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
-        args: --exclude "*" --include "_std.csv" --include "bulk/*.csv" --include "SemanasEpidemiologicas.csv" -- include "README.md"
+        args: --exclude '*' --include '*_std.csv' --include 'bulk/*.csv' --include 'SemanasEpidemiologicas.csv' --include 'README.md'
       env:
         AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.COVID_AWS_ACCESS_KEY_ID }}
