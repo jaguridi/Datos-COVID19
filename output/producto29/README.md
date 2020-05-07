@@ -38,4 +38,4 @@ Dos veces a la semana: días martes para cambios en áreas, días jueves para ca
 
 # Notas aclaratorias
 
-**Nota aclaratoria 1:** La cartografía de delimitación de cuarentenas es de caracter referencial cuyos límites son obtenidos en base a fuentes oficiales para límites comunales y áreas urbanas y pueden ser encontradas en formato GeoJSON [aqui](input/Cuarentenas).
+**Nota aclaratoria 1:** La cartografía de delimitación de cuarentenas es de caracter referencial cuyos límites son obtenidos en base a fuentes oficiales para límites comunales y áreas urbanas y pueden ser encontradas en formato GeoJSON [aqui](../input/Cuarentenas).
