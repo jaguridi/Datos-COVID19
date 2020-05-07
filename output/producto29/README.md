@@ -32,6 +32,8 @@ Plan de Acción del Gobierno de Chile para el COVID-19. Ver en: https://www.gob.
 
 API Externa de Respaldo de Servicios para consulta. https://covid19.soporta.cl/datasets/0b944d9bf1954c71a7fae96bdddee464_1?geometry=-105.067%2C-44.515%2C-45.784%2C-32.531
 
+Ejemplo de Uso: https://www.arcgis.com/apps/opsdashboard/index.html#/6d03fef7ffff4c7cbd11ef1e192e6bf2
+
 # Frecuencia de actualización
 
 Dos veces a la semana: días martes para cambios en áreas, días jueves para cambio de estado de las cuarentenas.
