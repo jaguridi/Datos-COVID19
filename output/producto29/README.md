@@ -13,7 +13,7 @@ Los criterios para la definir la cuarentena son:
 Los archivos incluidos en el presente DP son:
 - Cuarentenas-Activas.csv (Cuarentenas actualmente vigentes y futuras)
 - Cuarentenas-Historicas.csv (Cuarentenas ya cumplidas incluyendo cambios dentro de una misma comuna)
-- Cuarentenas-Totales.csv (Suma de cuarentenas vigentes e históricas)
+- Cuarentenas-Totales.csv (Suma de cuarentenas vigentes, históricas y futuras)
 
 # Columnas y valores
 
