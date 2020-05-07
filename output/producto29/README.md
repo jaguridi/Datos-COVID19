@@ -13,7 +13,7 @@ Los criterios para la definir la cuarentena son:
 Los archivos incluidos en el presente DP son:
 - Cuarentenas-Activas.csv (Cuarentenas actualmente vigentes y futuras)
 - Cuarentenas-Historicas.csv (Cuarentenas ya cumplidas incluyendo cambios dentro de una misma comuna)
-- Cuarentenas-Totales.csv (Suma de cuarentenas vigentes e históricas)
+- Cuarentenas-Totales.csv (Suma de cuarentenas vigentes, históricas y futuras)
 
 # Columnas y valores
 
@@ -32,10 +32,12 @@ Plan de Acción del Gobierno de Chile para el COVID-19. Ver en: https://www.gob.
 
 API Externa de Respaldo de Servicios para consulta. https://covid19.soporta.cl/datasets/0b944d9bf1954c71a7fae96bdddee464_1?geometry=-105.067%2C-44.515%2C-45.784%2C-32.531
 
+Ejemplo de Uso: https://www.arcgis.com/apps/opsdashboard/index.html#/6d03fef7ffff4c7cbd11ef1e192e6bf2
+
 # Frecuencia de actualización
 
 Dos veces a la semana: días martes para cambios en áreas, días jueves para cambio de estado de las cuarentenas.
 
 # Notas aclaratorias
 
-**Nota aclaratoria 1:** La cartografía de delimitación de cuarentenas es de caracter referencial cuyos límites son obtenidos en base a fuentes oficiales para límites comunales y áreas urbanas y pueden ser encontradas en formato GeoJSON [aqui](input/Cuarentenas).
+**Nota aclaratoria 1:** La cartografía de delimitación de cuarentenas es de caracter referencial cuyos límites son obtenidos en base a fuentes oficiales para límites comunales y áreas urbanas y pueden ser encontradas en formato GeoJSON [aqui](../../input/Cuarentenas).

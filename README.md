@@ -61,6 +61,8 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 28 - Casos nuevos por fecha de inicio de síntomas y región, informado por SEREMI](output/producto28): Set de 3 archivos que dan cuenta de los casos nuevos por fecha de inicio de síntomas notificados por SEREMI regionales. Se indexan según semana epidemiológica reportada en el último informe epidemiológico publicado por el Ministerio de Salud del país. Estos casos tienen residencia indeterminada al momento de notificación (turistas sin domicilio conocido, pasajeros de cruceros, tripulantes de barcos mercantes, entre otros). Estos reflejan la información del último informe epidemiológico publicado por el Ministerio de Salud. [Ver más](output/producto28)
 
+[Data Product 29 (contribuido)- Cuarentenas Activas e Históricas](output/producto29) Set de 3 archivos en formato csv que contiene la identificación, trazabilidad por comuna y características de las zonas de cuarentena establecidas por el Ministerio de Salud a través del Plan de Acción por Coronavirus del Gobierno de Chile. [Ver Más](output/producto29)
+
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL. Habitualmente refleja el registro del día anterior, salvo que se indique lo contrario**
 
 
