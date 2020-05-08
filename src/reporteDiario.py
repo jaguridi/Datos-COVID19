@@ -43,6 +43,7 @@ from shutil import copyfile
 def prod7_8(fte, producto):
     df = pd.read_csv(fte, dtype={'Codigo region': object})
     utils.regionName(df)
+    df = df.replace('-', '',regex=True)
     df_t = df.T
     df.to_csv(producto + '.csv', index=False)
     df_t.to_csv(producto + '_T.csv', header=False)
@@ -109,7 +110,7 @@ if __name__ == '__main__':
     prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
 
     print('Generando producto 8')
-    prod7_8('../input/ReporteDiario//UCI.csv', '../output/producto8/UCI')
+    prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
 
     print('Generando producto 9')
     prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')

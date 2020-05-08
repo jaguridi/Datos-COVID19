@@ -34,10 +34,13 @@ from shutil import copyfile
 
 
 def prod21_22(fte, producto):
-    copyfile(fte, producto + '.csv')
+    #copyfile(fte, producto + '.csv')
+
     HospitalizadosEtario_T = utils.transpone_csv(producto + '.csv')
     HospitalizadosEtario_T.to_csv(producto + '_T.csv', header=False)
     df = pd.read_csv(fte)
+    df = df.replace('-', '', regex=True)
+    df.to_csv(producto + '.csv', index=False)
     if '21' in producto:
         print('prod21')
         identifiers = ['Sintomas']

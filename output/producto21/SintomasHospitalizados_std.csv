@@ -11,7 +11,7 @@ Taquipnea,2020-03-25,10
 Dolor abdominal,2020-03-25,3
 Cianosis,2020-03-25,3
 Postración,2020-03-25,1
-Congestión nasal,2020-03-25,-
+Congestión nasal,2020-03-25,
 Tos,2020-03-26,129
 Fiebre,2020-03-26,122
 Mialgia,2020-03-26,88
@@ -24,7 +24,7 @@ Taquipnea,2020-03-26,15
 Dolor abdominal,2020-03-26,4
 Cianosis,2020-03-26,3
 Postración,2020-03-26,1
-Congestión nasal,2020-03-26,-
+Congestión nasal,2020-03-26,
 Tos,2020-03-27,147
 Fiebre,2020-03-27,141
 Mialgia,2020-03-27,97
@@ -37,7 +37,7 @@ Taquipnea,2020-03-27,18
 Dolor abdominal,2020-03-27,4
 Cianosis,2020-03-27,4
 Postración,2020-03-27,1
-Congestión nasal,2020-03-27,-
+Congestión nasal,2020-03-27,
 Tos,2020-03-28,173
 Fiebre,2020-03-28,171
 Mialgia,2020-03-28,116
@@ -50,7 +50,7 @@ Taquipnea,2020-03-28,25
 Dolor abdominal,2020-03-28,7
 Cianosis,2020-03-28,4
 Postración,2020-03-28,1
-Congestión nasal,2020-03-28,-
+Congestión nasal,2020-03-28,
 Tos,2020-03-29,180
 Fiebre,2020-03-29,178
 Mialgia,2020-03-29,118
@@ -63,7 +63,7 @@ Taquipnea,2020-03-29,27
 Dolor abdominal,2020-03-29,7
 Cianosis,2020-03-29,4
 Postración,2020-03-29,1
-Congestión nasal,2020-03-29,-
+Congestión nasal,2020-03-29,
 Tos,2020-03-30,200
 Fiebre,2020-03-30,195
 Mialgia,2020-03-30,132
@@ -75,8 +75,8 @@ Dolor torácico,2020-03-30,26
 Taquipnea,2020-03-30,33
 Dolor abdominal,2020-03-30,9
 Cianosis,2020-03-30,6
-Postración,2020-03-30,-
-Congestión nasal,2020-03-30,-
+Postración,2020-03-30,
+Congestión nasal,2020-03-30,
 Tos,2020-03-31,234
 Fiebre,2020-03-31,231
 Mialgia,2020-03-31,154
@@ -88,8 +88,8 @@ Dolor torácico,2020-03-31,32
 Taquipnea,2020-03-31,39
 Dolor abdominal,2020-03-31,12
 Cianosis,2020-03-31,6
-Postración,2020-03-31,-
-Congestión nasal,2020-03-31,-
+Postración,2020-03-31,
+Congestión nasal,2020-03-31,
 Tos,2020-04-01,273
 Fiebre,2020-04-01,264
 Mialgia,2020-04-01,174
@@ -101,8 +101,8 @@ Dolor torácico,2020-04-01,34
 Taquipnea,2020-04-01,48
 Dolor abdominal,2020-04-01,16
 Cianosis,2020-04-01,7
-Postración,2020-04-01,-
-Congestión nasal,2020-04-01,-
+Postración,2020-04-01,
+Congestión nasal,2020-04-01,
 Tos,2020-04-02,284
 Fiebre,2020-04-02,274
 Mialgia,2020-04-02,181
@@ -114,8 +114,8 @@ Dolor torácico,2020-04-02,36
 Taquipnea,2020-04-02,52
 Dolor abdominal,2020-04-02,17
 Cianosis,2020-04-02,7
-Postración,2020-04-02,-
-Congestión nasal,2020-04-02,-
+Postración,2020-04-02,
+Congestión nasal,2020-04-02,
 Tos,2020-04-03,318
 Fiebre,2020-04-03,320
 Mialgia,2020-04-03,212
@@ -127,8 +127,8 @@ Dolor torácico,2020-04-03,46
 Taquipnea,2020-04-03,61
 Dolor abdominal,2020-04-03,21
 Cianosis,2020-04-03,10
-Postración,2020-04-03,-
-Congestión nasal,2020-04-03,-
+Postración,2020-04-03,
+Congestión nasal,2020-04-03,
 Tos,2020-04-04,362
 Fiebre,2020-04-04,357
 Mialgia,2020-04-04,243
@@ -140,8 +140,8 @@ Dolor torácico,2020-04-04,57
 Taquipnea,2020-04-04,69
 Dolor abdominal,2020-04-04,27
 Cianosis,2020-04-04,9
-Postración,2020-04-04,-
-Congestión nasal,2020-04-04,-
+Postración,2020-04-04,
+Congestión nasal,2020-04-04,
 Tos,2020-04-05,390
 Fiebre,2020-04-05,381
 Mialgia,2020-04-05,257
@@ -153,8 +153,8 @@ Dolor torácico,2020-04-05,63
 Taquipnea,2020-04-05,80
 Dolor abdominal,2020-04-05,27
 Cianosis,2020-04-05,10
-Postración,2020-04-05,-
-Congestión nasal,2020-04-05,-
+Postración,2020-04-05,
+Congestión nasal,2020-04-05,
 Tos,2020-04-06,418
 Fiebre,2020-04-06,405
 Mialgia,2020-04-06,274
@@ -166,8 +166,8 @@ Dolor torácico,2020-04-06,71
 Taquipnea,2020-04-06,91
 Dolor abdominal,2020-04-06,27
 Cianosis,2020-04-06,11
-Postración,2020-04-06,-
-Congestión nasal,2020-04-06,-
+Postración,2020-04-06,
+Congestión nasal,2020-04-06,
 Tos,2020-04-07,451
 Fiebre,2020-04-07,439
 Mialgia,2020-04-07,295
@@ -179,8 +179,8 @@ Dolor torácico,2020-04-07,75
 Taquipnea,2020-04-07,95
 Dolor abdominal,2020-04-07,32
 Cianosis,2020-04-07,13
-Postración,2020-04-07,-
-Congestión nasal,2020-04-07,-
+Postración,2020-04-07,
+Congestión nasal,2020-04-07,
 Tos,2020-04-08,489
 Fiebre,2020-04-08,463
 Mialgia,2020-04-08,314
@@ -192,8 +192,8 @@ Dolor torácico,2020-04-08,84
 Taquipnea,2020-04-08,100
 Dolor abdominal,2020-04-08,38
 Cianosis,2020-04-08,13
-Postración,2020-04-08,-
-Congestión nasal,2020-04-08,-
+Postración,2020-04-08,
+Congestión nasal,2020-04-08,
 Tos,2020-04-09,548
 Fiebre,2020-04-09,528
 Mialgia,2020-04-09,361
@@ -205,8 +205,8 @@ Dolor torácico,2020-04-09,92
 Taquipnea,2020-04-09,108
 Dolor abdominal,2020-04-09,43
 Cianosis,2020-04-09,15
-Postración,2020-04-09,-
-Congestión nasal,2020-04-09,-
+Postración,2020-04-09,
+Congestión nasal,2020-04-09,
 Tos,2020-04-10,619
 Fiebre,2020-04-10,598
 Mialgia,2020-04-10,422
@@ -218,8 +218,8 @@ Dolor torácico,2020-04-10,97
 Taquipnea,2020-04-10,121
 Dolor abdominal,2020-04-10,50
 Cianosis,2020-04-10,15
-Postración,2020-04-10,-
-Congestión nasal,2020-04-10,-
+Postración,2020-04-10,
+Congestión nasal,2020-04-10,
 Tos,2020-04-11,674
 Fiebre,2020-04-11,648
 Mialgia,2020-04-11,456
@@ -231,8 +231,8 @@ Dolor torácico,2020-04-11,103
 Taquipnea,2020-04-11,125
 Dolor abdominal,2020-04-11,52
 Cianosis,2020-04-11,16
-Postración,2020-04-11,-
-Congestión nasal,2020-04-11,-
+Postración,2020-04-11,
+Congestión nasal,2020-04-11,
 Tos,2020-04-12,684
 Fiebre,2020-04-12,657
 Mialgia,2020-04-12,462
@@ -244,5 +244,5 @@ Dolor torácico,2020-04-12,105
 Taquipnea,2020-04-12,126
 Dolor abdominal,2020-04-12,53
 Cianosis,2020-04-12,16
-Postración,2020-04-12,-
-Congestión nasal,2020-04-12,-
+Postración,2020-04-12,
+Congestión nasal,2020-04-12,
