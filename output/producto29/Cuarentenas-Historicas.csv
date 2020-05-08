@@ -2,11 +2,13 @@ ID,Nombre,Estado,Alcance,Fecha de Inicio,Fecha de Término,Código CUT Comuna,De
 2,Santiago Norte,Histórica,Sector Específico,2020-04-13 09:00:00,2020-05-06 02:00:00,13101,Corresponde a la extensión de la cuarentena en la comuna de Santiago con límite en la línea contínua de las calles Av.Matta y Blanco Encalada,19939218.5703125,21599.3513430565
 6,Chillán,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-04-24 02:00:00,16101,Aplica solo hasta el límite urbano de la ciudad,37835429.3652344,49337.0245698048
 7,Osorno,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-05-01 02:00:00,10301,Aplica solo hasta el límite urbano de la ciudad,42268789.140625,59804.1628428391
+8,Punta Arenas,Histórica,Área Urbana Completa,2020-04-02 01:00:00,2020-05-08 02:00:00,12101,Aplica a la zona urbana de la ciudad de Punta Arenas,112704517.082031,77228.2048966254
 9,Nueva Imperial,Histórica,Área Urbana Completa,2020-04-10 02:00:00,2020-04-16 04:00:00,9111,Aplica solo hasta el límite urbano de la ciudad,5981050.97265625,16614.8223828867
 10,Lo Barnechea,Histórica,Área Urbana Completa,2020-03-27 01:00:00,2020-04-13 09:00:00,13115,Aplica solo hasta el límite urbano de la ciudad,94313826.9765625,56084.0080581568
 11,Vitacura,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-13 09:00:00,13132,Aplicada a la totalidad de la comuna,40092348.3808594,30500.0584721527
 12,Las Condes,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-17 02:00:00,13114,Aplicada a la totalidad de la comuna,144758812.964844,60443.7678527491
 13,Providencia,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-13 09:00:00,13123,Aplicada a la totalidad de la comuna,20592014.8867188,19208.8849554496
+14,Ñuñoa Norte,Histórica,Sector Específico,2020-04-13 09:00:00,2020-05-08 02:00:00,13120,Corresponde a la extensión de la cuarentena en la comuna de Ñuñoa con límite en Av. Grecia,16724738.7617188,19686.6745151636
 15,Hualpén,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-04-17 02:00:00,8112,Aplica solo hasta el límite urbano de la ciudad,18355421.2773438,29232.3539224558
 16,San Pedro de la Paz,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-04-17 02:00:00,8108,Aplica solo hasta el límite urbano de la ciudad,44074427.2617188,57975.6829409948
 17,Temuco,Histórica,Área Urbana Completa,2020-03-29 01:00:00,2020-05-01 02:00:00,9101,Aplica solo hasta el límite urbano de la ciudad,101423669.535156,129552.626170396

@@ -3,8 +3,6 @@ ID,Nombre,Estado,Alcance,Fecha de Inicio,Fecha de Término,Código CUT Comuna,De
 3,Puente Alto Poniente,Activa,Sector Específico,2020-04-10 02:00:00,2020-05-09 02:00:00,13201,Corresponde al sector delimitado por la Av. Concha y Toro hacia el poniente. Se extiende posterior al término hacia el oriente hasta el Canal San Carlos,42364268.2128906,30428.0515226124
 4,El Bosque,Activa,Comuna completa,2020-04-17 02:00:00,2020-05-16 02:00:00,13105,Aplicada a la totalidad de la comuna,20622713.2285156,18788.8707505944
 5,San Bernardo Nororiente,Activa,Sector Específico,2020-04-17 02:00:00,2020-05-09 02:00:00,13401,"Corresponde al sector delimitado por los limites comunales y al interior en Av. Colon, Av. Balmaceda y Autopista Central. Se extiende alcance de cuarentena a la linea comprendida entre Camino el Mariscal y Avenida San Jose",16326216.8320313,24929.1457196278
-8,Punta Arenas,Activa,Área Urbana Completa,2020-04-02 01:00:00,2020-05-08 02:00:00,12101,Aplica a la zona urbana de la ciudad de Punta Arenas,112704517.082031,77228.2048966254
-14,Ñuñoa Norte,Activa,Sector Específico,2020-04-13 09:00:00,2020-05-08 02:00:00,13120,Corresponde a la extensión de la cuarentena en la comuna de Ñuñoa con límite en Av. Grecia,16724738.7617188,19686.6745151636
 26,Quinta Normal,Activa,Comuna completa,2020-04-24 02:00:00,2020-05-16 02:00:00,13126,Aplicada a la totalidad de la comuna,17014139.1523438,21243.797016579
 27,Pedro Aguirre Cerda,Activa,Comuna completa,2020-04-24 02:00:00,2020-05-16 02:00:00,13121,Aplicada a la totalidad de la comuna,12625146.265625,15651.7189634514
 29,Victoria,Activa,Área Urbana Completa,2020-05-01 02:00:00,2020-05-16 02:00:00,9211,Aplica solo hasta el límite urbano de la ciudad,9256998.9140625,36013.0185048258
