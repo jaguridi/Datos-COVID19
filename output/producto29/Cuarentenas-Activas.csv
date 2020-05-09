@@ -1,35 +1,31 @@
 ID,Nombre,Estado,Alcance,Fecha de Inicio,Fecha de Término,Código CUT Comuna,Detalle,Superficie en m2,Perímetro en m
 1,Arica,Activa,Área Urbana Completa,2020-04-17 02:00:00,2020-05-13 02:00:00,15101,Corresponde al Radio Urbano de la Ciudad de Arica incluyendo la población San Miguel de Azapa,28050418.8017578,48722.3000133714
-3,Puente Alto Poniente,Activa,Sector Específico,2020-04-10 02:00:00,2020-05-09 02:00:00,13201,Corresponde al sector delimitado por la Av. Concha y Toro hacia el poniente. Se extiende posterior al término hacia el oriente hasta el Canal San Carlos,42364268.2128906,30428.0515226124
 4,El Bosque,Activa,Comuna completa,2020-04-17 02:00:00,2020-05-16 02:00:00,13105,Aplicada a la totalidad de la comuna,20622713.2285156,18788.8707505944
-5,San Bernardo Nororiente,Activa,Sector Específico,2020-04-17 02:00:00,2020-05-09 02:00:00,13401,"Corresponde al sector delimitado por los limites comunales y al interior en Av. Colon, Av. Balmaceda y Autopista Central. Se extiende alcance de cuarentena a la linea comprendida entre Camino el Mariscal y Avenida San Jose",16326216.8320313,24929.1457196278
 26,Quinta Normal,Activa,Comuna completa,2020-04-24 02:00:00,2020-05-16 02:00:00,13126,Aplicada a la totalidad de la comuna,17014139.1523438,21243.797016579
 27,Pedro Aguirre Cerda,Activa,Comuna completa,2020-04-24 02:00:00,2020-05-16 02:00:00,13121,Aplicada a la totalidad de la comuna,12625146.265625,15651.7189634514
 29,Victoria,Activa,Área Urbana Completa,2020-05-01 02:00:00,2020-05-16 02:00:00,9211,Aplica solo hasta el límite urbano de la ciudad,9256998.9140625,36013.0185048258
 30,Angol,Activa,Área Urbana Completa,2020-05-01 02:00:00,2020-05-16 02:00:00,9201,Aplica solo hasta el límite urbano de la ciudad,16903887.625,56627.2046086798
-31,San Ramon Sur,Activa,Sector Específico,2020-05-01 02:00:00,2020-05-09 02:00:00,13131,Se aplica cuarentena en sector sur de la comuna delimitado por la Avenida Américo Vespucio. Se extiende posterior al término a una cuarentena de territorio completo,4606059.17382813,8714.79986943619
 32,Estación Central,Activa,Comuna completa,2020-05-01 02:00:00,2020-05-16 02:00:00,13106,Aplicada a la totalidad de la comuna,20682566.4921875,22689.2274650058
 33,Independencia Extensión a Total,Activa,Comuna completa,2020-05-01 02:00:00,2020-05-16 02:00:00,13108,Aplicada a la totalidad de la comuna. Extendida desde el sector sur a la comuna completa,10582914.0429688,13699.9128448926
-34,La Pintana Norte,Activa,Sector Específico,2020-05-01 02:00:00,2020-05-09 02:00:00,13112,Se aplica cuarentena en el sector norte de la comuna delimitado por la Avenida el Observatorio hacia el norte. . Se extiende posterior al término a una cuarentena de territorio completo,4883155.13476563,12416.9778362389
 35,Antofagasta,Activa,Área Urbana Completa,2020-05-06 02:00:00,2020-05-13 02:00:00,2101,Aplica solo hasta el límite urbano de la ciudad,43532156.4257813,134484.167871907
 36,Mejillones,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-13 02:00:00,2102,Aplicada a la totalidad de la comuna,4230181342.99414,395409.359038385
 37,Recoleta,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-13 02:00:00,13127,Aplicada a la totalidad de la comuna,22715640.5234375,22324.0747754827
 38,Cerrillos,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-13 02:00:00,13102,Aplicada a la totalidad de la comuna,24198337.6621094,25227.7694753954
 39,Quilicura,Activa,Sector Específico,2020-05-06 02:00:00,2020-05-13 02:00:00,13125,Delimitada por la linea ferroviaria que cruza la comuna hacia el poniente,60071059.15625,32915.9895053343
 40,Santiago Extensión a Total,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-13 02:00:00,13101,Aplicada a la totalidad de la comuna,33329909.4960938,29265.4336900164
-41,Cerro Navia,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13103,Aplicada a la totalidad de la comuna,15975127.9863281,19974.248542906
-42,Conchalí,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13104,Aplicada a la totalidad de la comuna,15979605.8085938,16815.7934099155
-43,Lo Espejo,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13116,Aplicada a la totalidad de la comuna,11886614.0898438,13762.0736724309
-44,La Cisterna,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13109,Aplicada a la totalidad de la comuna,14401733.5859375,15356.421889586
-45,La Florida,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13110,Aplicada a la totalidad de la comuna,102214162.755859,59430.2695012662
-46,Peñalolen,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13122,Aplicada a la totalidad de la comuna,77293355.8457031,43926.3659584545
-47,Lo Prado,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13117,Aplicada a la totalidad de la comuna,9448923.36523438,12856.5022905017
-48,Macul,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13118,Aplicada a la totalidad de la comuna,18517268.578125,18417.8115619807
-49,Renca,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13128,Aplicada a la totalidad de la comuna,34181427.8125,34681.9394332968
-50,San Joaquín,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13129,Aplicada a la totalidad de la comuna,14337674.6074219,16946.3826485334
-51,San Miguel,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13130,Aplicada a la totalidad de la comuna,13863805.7050781,16029.8040021794
-52,La Granja,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13111,Aplicada a la totalidad de la comuna,14562829.4550781,16986.3556262322
-53,La Pintana Extensión a Total,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13112,Se amplía a toda la comuna desde su extensión original,44005772.3105469,31961.0278584575
-54,San Ramón Extensión a Total,Futura,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13131,Se amplía a toda la comuna desde su extensión original,9061336.23046875,14097.9605564344
-55,Puente Alto Poniente Extendido,Futura,Sector Específico,2020-05-09 02:00:00,2020-05-16 02:00:00,13201,Se amplia desde el límite actual (Av. Concha y Toro) hacia el oriente con límite en el Canal San Carlos,89693170.625,58094.3823765891
-56,San Bernardo Nororiente Extendido,Futura,Sector Específico,2020-05-09 02:00:00,2020-05-16 02:00:00,13401,"Corresponde al sector delimitado por los limites comunales y al interior a la linea comprendida entre Camino el Mariscal y Avenida San Jose, Av. Balmaceda y Autopista Central.",22289080.8828125,27208.6722808201
+41,Cerro Navia,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13103,Aplicada a la totalidad de la comuna,15975127.9863281,19974.248542906
+42,Conchalí,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13104,Aplicada a la totalidad de la comuna,15979605.8085938,16815.7934099155
+43,Lo Espejo,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13116,Aplicada a la totalidad de la comuna,11886614.0898438,13762.0736724309
+44,La Cisterna,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13109,Aplicada a la totalidad de la comuna,14401733.5859375,15356.421889586
+45,La Florida,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13110,Aplicada a la totalidad de la comuna,102214162.755859,59430.2695012662
+46,Peñalolen,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13122,Aplicada a la totalidad de la comuna,77293355.8457031,43926.3659584545
+47,Lo Prado,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13117,Aplicada a la totalidad de la comuna,9448923.36523438,12856.5022905017
+48,Macul,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13118,Aplicada a la totalidad de la comuna,18517268.578125,18417.8115619807
+49,Renca,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13128,Aplicada a la totalidad de la comuna,34181427.8125,34681.9394332968
+50,San Joaquín,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13129,Aplicada a la totalidad de la comuna,14337674.6074219,16946.3826485334
+51,San Miguel,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13130,Aplicada a la totalidad de la comuna,13863805.7050781,16029.8040021794
+52,La Granja,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13111,Aplicada a la totalidad de la comuna,14562829.4550781,16986.3556262322
+53,La Pintana Extensión a Total,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13112,Se amplía a toda la comuna desde su extensión original,44005772.3105469,31961.0278584575
+54,San Ramón Extensión a Total,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13131,Se amplía a toda la comuna desde su extensión original,9061336.23046875,14097.9605564344
+55,Puente Alto Poniente Extendido,Activa,Sector Específico,2020-05-09 02:00:00,2020-05-16 02:00:00,13201,Se amplia desde el límite actual (Av. Concha y Toro) hacia el oriente con límite en el Canal San Carlos,89693170.625,58094.3823765891
+56,San Bernardo Nororiente Extendido,Activa,Sector Específico,2020-05-09 02:00:00,2020-05-16 02:00:00,13401,"Corresponde al sector delimitado por los limites comunales y al interior a la linea comprendida entre Camino el Mariscal y Avenida San Jose, Av. Balmaceda y Autopista Central.",22289080.8828125,27208.6722808201
