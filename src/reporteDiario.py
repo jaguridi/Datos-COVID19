@@ -33,6 +33,7 @@ Los productos que salen del reporte diario son:
 20
 23
 24
+30
 """
 
 import pandas as pd
@@ -104,6 +105,16 @@ def prod24(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod30(fte, producto):
+    copyfile(fte, producto + '.csv')
+    df = pd.read_csv(fte)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Casos']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
 
 if __name__ == '__main__':
     print('Generando producto 7')
@@ -133,3 +144,7 @@ if __name__ == '__main__':
 
     print('Generando producto 24')
     prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
+
+    print('Generando producto 30')
+    prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
+
