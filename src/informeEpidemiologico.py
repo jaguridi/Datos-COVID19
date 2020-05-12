@@ -38,6 +38,8 @@ Los productos que salen del informe epidemiologico son:
 import utils
 import pandas as pd
 from shutil import copyfile
+import glob
+import re
 
 def prod1(fte, producto):
     # Generando producto 1
@@ -96,6 +98,22 @@ def prod15(fte, producto):
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
+
+
+def prod15Nuevo(fte, prod):
+    data = []
+    for file in glob.glob(fte + '/*FechaInicioSintomas.csv'):
+        date = re.search("\d{4}-\d{2}-\d{2}", file).group(0)
+        print(date)
+        df = pd.read_csv(file, sep=",", encoding="utf-8")
+        print(list(df))
+        df['Publicacion'] = date
+        data.append(df)
+    data = pd.concat(data)
+    print(data)
+    data.to_csv(prod + '_std.csv', index=False)
+    dataT = data.transpose()
+    dataT.to_csv(prod + '_T.csv', header=False)
 
 
 def prod16(fte, producto):
@@ -165,6 +183,8 @@ if __name__ == '__main__':
     exec(open('bulk_producto2.py').read())
 
     prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
+
+    prod15Nuevo('../HistoriaProducto15', '../output/producto15/FechaInicioSintomasHistorico')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
