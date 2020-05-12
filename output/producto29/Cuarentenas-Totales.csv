@@ -33,12 +33,12 @@ ID,Nombre,Estado,Alcance,Fecha de Inicio,Fecha de Término,Código CUT Comuna,De
 32,Estación Central,Activa,Comuna completa,2020-05-01 02:00:00,2020-05-16 02:00:00,13106,Aplicada a la totalidad de la comuna,20682566.4921875,22689.2274650058
 33,Independencia Extensión a Total,Activa,Comuna completa,2020-05-01 02:00:00,2020-05-16 02:00:00,13108,Aplicada a la totalidad de la comuna. Extendida desde el sector sur a la comuna completa,10582914.0429688,13699.9128448926
 34,La Pintana Norte,Histórica,Sector Específico,2020-05-01 02:00:00,2020-05-09 02:00:00,13112,Se aplica cuarentena en el sector norte de la comuna delimitado por la Avenida el Observatorio hacia el norte. . Se extiende posterior al término a una cuarentena de territorio completo,4883155.13476563,12416.9778362389
-35,Antofagasta,Activa,Área Urbana Completa,2020-05-06 02:00:00,2020-05-13 02:00:00,2101,Aplica solo hasta el límite urbano de la ciudad,43532156.4257813,134484.167871907
-36,Mejillones,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-13 02:00:00,2102,Aplicada a la totalidad de la comuna,4230181342.99414,395409.359038385
-37,Recoleta,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-13 02:00:00,13127,Aplicada a la totalidad de la comuna,22715640.5234375,22324.0747754827
-38,Cerrillos,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-13 02:00:00,13102,Aplicada a la totalidad de la comuna,24198337.6621094,25227.7694753954
-39,Quilicura,Activa,Sector Específico,2020-05-06 02:00:00,2020-05-13 02:00:00,13125,Delimitada por la linea ferroviaria que cruza la comuna hacia el poniente,60071059.15625,32915.9895053343
-40,Santiago Extensión a Total,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-13 02:00:00,13101,Aplicada a la totalidad de la comuna,33329909.4960938,29265.4336900164
+35,Antofagasta,Activa,Área Urbana Completa,2020-05-06 02:00:00,2020-05-20 02:00:00,2101,Aplica solo hasta el límite urbano de la ciudad,43532156.4257813,134484.167871907
+36,Mejillones,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-20 02:00:00,2102,Aplicada a la totalidad de la comuna,4230181342.99414,395409.359038385
+37,Recoleta,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-20 02:00:00,13127,Aplicada a la totalidad de la comuna,22715640.5234375,22324.0747754827
+38,Cerrillos,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-20 02:00:00,13102,Aplicada a la totalidad de la comuna,24198337.6621094,25227.7694753954
+39,Quilicura,Activa,Sector Específico,2020-05-06 02:00:00,2020-05-20 02:00:00,13125,Delimitada por la linea ferroviaria que cruza la comuna hacia el poniente,60071059.15625,32915.9895053343
+40,Santiago Extensión a Total,Activa,Comuna completa,2020-05-06 02:00:00,2020-05-20 02:00:00,13101,Aplicada a la totalidad de la comuna,33329909.4960938,29265.4336900164
 41,Cerro Navia,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13103,Aplicada a la totalidad de la comuna,15975127.9863281,19974.248542906
 42,Conchalí,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13104,Aplicada a la totalidad de la comuna,15979605.8085938,16815.7934099155
 43,Lo Espejo,Activa,Comuna completa,2020-05-09 02:00:00,2020-05-16 02:00:00,13116,Aplicada a la totalidad de la comuna,11886614.0898438,13762.0736724309
