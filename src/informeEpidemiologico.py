@@ -184,6 +184,7 @@ if __name__ == '__main__':
 
     prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
 
+    print('Generando producto 15')
     prod15Nuevo('../HistoriaProducto15', '../output/producto15/FechaInicioSintomasHistorico')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
