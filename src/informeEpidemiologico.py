@@ -123,7 +123,13 @@ def prod15Nuevo(fte, prod):
     data = pd.concat(data)
     data = data.fillna(0)
     utils.regionName(data)
-    data.to_csv(prod + '_std.csv', index=False)
+    data.to_csv(prod + '.csv', index=False)
+    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    variables = [x for x in data.columns if x not in identifiers]
+    df_std = pd.melt(data, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+                     value_name='Casos confirmados')
+    df_std.to_csv(prod + '_std.csv', index=False)
+
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
              '../output/producto15/SemanasEpidemiologicas.csv')
 
@@ -143,7 +149,6 @@ def prod15Nuevo(fte, prod):
     df_std = pd.melt(latestdf, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
                      value_name='Casos confirmados')
     df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
-
 
 
 
