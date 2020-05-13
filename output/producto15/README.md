@@ -1,12 +1,25 @@
 # DP15 - Casos nuevos por fecha de inicio de síntomas por comuna: Descripción
-Set de 3 archivos que dan cuenta de los casos nuevos por fecha de inicio de sus síntomas en cada una de las comunas de Chile, según residencia. Refleja la información del último informe epidemiológico publicado por el Ministerio de Salud del país. Se indexan estos casos según semana epidemiológica reportada en el informe, con fechas incluidas en los archivos.
+Set de 4 archivos que dan cuenta de los casos nuevos por fecha de inicio de sus síntomas en cada una de las comunas 
+de Chile, según residencia. Refleja la información del último informe epidemiológico publicado por el Ministerio de 
+Salud del país. Se indexan estos casos según semana epidemiológica reportada en el informe, con fechas incluidas en los archivos.
 
-Se entiende por fecha de inicio de síntomas el momento de la manifestación clínica de la enfermedad. Se entiende por comuna de residencia la comuna que la persona declara como su vivienda habitual. 
+Se entiende por fecha de inicio de síntomas el momento de la manifestación clínica de la enfermedad. Se entiende por 
+comuna de residencia la comuna que la persona declara como su vivienda habitual. 
 
 # Columnas y valores
-El archivo FechaInicioSintomas.csv contiene las columnas 'Region', 'Código región', 'Comuna', 'Código comuna', 'Población' y una serie de columnas 'SE7', 'SE8', ..., que corresponden a semanas epidemiológicas. Los valores por fila corresponden a tuplas de comunas con sus respectivos metadatos, y la cantidad de casos confirmados por semana epidemiológica en cada columna 'SE...'. El archivo FechaInicioSintomas_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Se incluye el archivo FechaInicioSintomas_std.csv que contiene la misma data de FechaInicioSintomas.csv en formato estándar (unpivoted). El tercer archivo (SemanasEpidemiologicas.csv) contiene una columna de Fecha, y columnas 'SE...', con dos filas que indican la fecha de inicio de la semana epidemiológica, y la fecha de término de la misma. Todos estos valores están separados entre sí por comas (csv).
+El archivo FechaInicioSintomas.csv contiene las columnas 'Region', 'Código región', 'Comuna', 'Código comuna', 'Población' 
+y una serie de columnas 'SE7', 'SE8', ..., que corresponden a semanas epidemiológicas. Los valores por fila corresponden 
+a tuplas de comunas con sus respectivos metadatos, y la cantidad de casos confirmados por semana epidemiológica en cada 
+columna 'SE...'. El archivo FechaInicioSintomas_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. 
+Se incluye el archivo FechaInicioSintomas_std.csv que contiene la misma data de FechaInicioSintomas.csv en formato 
+estándar (unpivoted). El tercer archivo (SemanasEpidemiologicas.csv) contiene una columna de Fecha, y columnas 
+'SE...', con dos filas que indican la fecha de inicio de la semana epidemiológica, y la fecha de término de la misma. 
+Todos estos valores están separados entre sí por comas (csv).
 
 El archivo FechaInicioSintomas_std.csv contiene la misma data de FechaInicioSintomas.csv en formato estándar (unpivoted)
+
+El archivo FechaInicioSintomasHistorico_std.csv contiene el registro de los reportes, dado que su naturaleza es dinámica,
+ofreciendo una manera rápida para comparar los datos entregados en distintos períodos para las mismas semanas epidemiológicas.
 
 # Fuente
 Informes epidemiológicos publicados periódicamente por el Ministerio de Salud de Chile. Ver en:
