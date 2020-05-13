@@ -68,12 +68,12 @@ def prod2(fte, producto):
     # Drop filas de totales por region
     todrop = df.loc[df['Comuna'] == 'Total']
     df.drop(todrop.index, inplace=True)
-    print(df.columns)
+    #print(df.columns)
     dates = []
     for eachColumn in df.columns:
         if '2020' in eachColumn:
             dates.append(eachColumn)
-    print('las fechas son ' + str(dates))
+    #print('las fechas son ' + str(dates))
     for eachdate in dates:
         filename = eachdate + '-CasosConfirmados.csv'
         print('escribiendo archivo ' + filename)
@@ -124,11 +124,14 @@ def prod15Nuevo(fte, prod):
     data = data.fillna(0)
     utils.regionName(data)
     data.to_csv(prod + '_std.csv', index=False)
+    copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
+             '../output/producto15/SemanasEpidemiologicas.csv')
 
     #create old prod 15 from latest adition
     latest = max(data['Publicacion'])
     print(latest)
-    latestdf =df.loc[df['Publicacion'] == latest]
+    latestdf =data.loc[data['Publicacion'] == latest]
+    print(latestdf)
     latestdf.drop(['Publicacion'], axis=1, inplace=True)
     latestdf.to_csv(prod.replace('Historico', '.csv'), index=False)
 
