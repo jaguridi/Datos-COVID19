@@ -63,6 +63,10 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 29 (contribuido)- Cuarentenas Activas e Históricas](output/producto29) Set de 3 archivos en formato csv que contiene la identificación, trazabilidad por comuna y características de las zonas de cuarentena establecidas por el Ministerio de Salud a través del Plan de Acción por Coronavirus del Gobierno de Chile. [Ver Más](output/producto29)
 
+[Data Product 30 - Pacientes en Ventilación Mecánica Intensiva confirmados con COVID-19](output/producto30): Set de 3 archivos en formato csv que da cuenta del número de paciente conectados a ventilación mecánica invasiva y que son casos confirmados por COVID-19. Se concatena la historia de reportes diarios publicados por el Ministerio de Salud del país. [Ver Más](output/producto30)
+
+
+
 **Nota: La fecha otorgada a cada reporte corresponde a la publicación por MINSAL. Habitualmente refleja el registro del día anterior, salvo que se indique lo contrario**
 
 

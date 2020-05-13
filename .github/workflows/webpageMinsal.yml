@@ -52,3 +52,8 @@ jobs:
         commit_author: minciencia github bot <actions@github.com>
 
 
+    - name: update_API
+      run: |
+        curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
+        -H 'Accept: application/vnd.github.everest-preview+json'  "https://api.github.com/repos/Data-Observatory/covid19-API/dispatches" \
+        -d '{"event_type": "update_please_from_webpageMinSal"}'
