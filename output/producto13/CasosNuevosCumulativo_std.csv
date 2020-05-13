@@ -7,7 +7,7 @@ Coquimbo,2020-03-03,0
 Valparaíso,2020-03-03,0
 Metropolitana,2020-03-03,0
 O’Higgins,2020-03-03,0
-Maule,2020-03-03,1
+Maule,2020-03-03,0
 Ñuble,2020-03-03,0
 Biobío,2020-03-03,0
 Araucanía,2020-03-03,0
@@ -15,7 +15,7 @@ Los Ríos,2020-03-03,0
 Los Lagos,2020-03-03,0
 Aysén,2020-03-03,0
 Magallanes,2020-03-03,0
-Total,2020-03-03,1
+Total,2020-03-03,0
 Arica y Parinacota,2020-03-04,0
 Tarapacá,2020-03-04,0
 Antofagasta,2020-03-04,0
@@ -24,7 +24,7 @@ Coquimbo,2020-03-04,0
 Valparaíso,2020-03-04,0
 Metropolitana,2020-03-04,1
 O’Higgins,2020-03-04,0
-Maule,2020-03-04,2
+Maule,2020-03-04,1
 Ñuble,2020-03-04,0
 Biobío,2020-03-04,0
 Araucanía,2020-03-04,0
@@ -32,16 +32,16 @@ Los Ríos,2020-03-04,0
 Los Lagos,2020-03-04,0
 Aysén,2020-03-04,0
 Magallanes,2020-03-04,0
-Total,2020-03-04,3
+Total,2020-03-04,2
 Arica y Parinacota,2020-03-05,0
 Tarapacá,2020-03-05,0
 Antofagasta,2020-03-05,0
 Atacama,2020-03-05,0
 Coquimbo,2020-03-05,0
 Valparaíso,2020-03-05,0
-Metropolitana,2020-03-05,2
+Metropolitana,2020-03-05,1
 O’Higgins,2020-03-05,0
-Maule,2020-03-05,2
+Maule,2020-03-05,0
 Ñuble,2020-03-05,0
 Biobío,2020-03-05,0
 Araucanía,2020-03-05,0
@@ -49,16 +49,16 @@ Los Ríos,2020-03-05,0
 Los Lagos,2020-03-05,0
 Aysén,2020-03-05,0
 Magallanes,2020-03-05,0
-Total,2020-03-05,4
+Total,2020-03-05,1
 Arica y Parinacota,2020-03-06,0
 Tarapacá,2020-03-06,0
 Antofagasta,2020-03-06,0
 Atacama,2020-03-06,0
 Coquimbo,2020-03-06,0
 Valparaíso,2020-03-06,0
-Metropolitana,2020-03-06,3
+Metropolitana,2020-03-06,1
 O’Higgins,2020-03-06,0
-Maule,2020-03-06,2
+Maule,2020-03-06,0
 Ñuble,2020-03-06,0
 Biobío,2020-03-06,0
 Araucanía,2020-03-06,0
@@ -66,16 +66,16 @@ Los Ríos,2020-03-06,0
 Los Lagos,2020-03-06,0
 Aysén,2020-03-06,0
 Magallanes,2020-03-06,0
-Total,2020-03-06,5
+Total,2020-03-06,1
 Arica y Parinacota,2020-03-07,0
 Tarapacá,2020-03-07,0
 Antofagasta,2020-03-07,0
 Atacama,2020-03-07,0
 Coquimbo,2020-03-07,0
 Valparaíso,2020-03-07,0
-Metropolitana,2020-03-07,4
+Metropolitana,2020-03-07,1
 O’Higgins,2020-03-07,0
-Maule,2020-03-07,2
+Maule,2020-03-07,0
 Ñuble,2020-03-07,0
 Biobío,2020-03-07,0
 Araucanía,2020-03-07,0
@@ -83,1143 +83,1143 @@ Los Ríos,2020-03-07,0
 Los Lagos,2020-03-07,1
 Aysén,2020-03-07,0
 Magallanes,2020-03-07,0
-Total,2020-03-07,7
+Total,2020-03-07,2
 Arica y Parinacota,2020-03-08,0
 Tarapacá,2020-03-08,0
 Antofagasta,2020-03-08,0
 Atacama,2020-03-08,0
 Coquimbo,2020-03-08,0
 Valparaíso,2020-03-08,0
-Metropolitana,2020-03-08,6
+Metropolitana,2020-03-08,2
 O’Higgins,2020-03-08,0
-Maule,2020-03-08,3
+Maule,2020-03-08,1
 Ñuble,2020-03-08,0
 Biobío,2020-03-08,0
 Araucanía,2020-03-08,0
 Los Ríos,2020-03-08,0
-Los Lagos,2020-03-08,1
+Los Lagos,2020-03-08,0
 Aysén,2020-03-08,0
 Magallanes,2020-03-08,0
-Total,2020-03-08,10
+Total,2020-03-08,3
 Arica y Parinacota,2020-03-09,0
 Tarapacá,2020-03-09,0
 Antofagasta,2020-03-09,0
 Atacama,2020-03-09,0
 Coquimbo,2020-03-09,0
 Valparaíso,2020-03-09,0
-Metropolitana,2020-03-09,9
+Metropolitana,2020-03-09,3
 O’Higgins,2020-03-09,0
-Maule,2020-03-09,4
+Maule,2020-03-09,1
 Ñuble,2020-03-09,0
 Biobío,2020-03-09,1
 Araucanía,2020-03-09,0
 Los Ríos,2020-03-09,0
-Los Lagos,2020-03-09,1
+Los Lagos,2020-03-09,0
 Aysén,2020-03-09,0
 Magallanes,2020-03-09,0
-Total,2020-03-09,15
+Total,2020-03-09,5
 Arica y Parinacota,2020-03-10,0
 Tarapacá,2020-03-10,0
 Antofagasta,2020-03-10,0
 Atacama,2020-03-10,0
 Coquimbo,2020-03-10,0
 Valparaíso,2020-03-10,0
-Metropolitana,2020-03-10,10
+Metropolitana,2020-03-10,1
 O’Higgins,2020-03-10,0
-Maule,2020-03-10,5
+Maule,2020-03-10,1
 Ñuble,2020-03-10,0
-Biobío,2020-03-10,1
+Biobío,2020-03-10,0
 Araucanía,2020-03-10,0
 Los Ríos,2020-03-10,0
-Los Lagos,2020-03-10,1
+Los Lagos,2020-03-10,0
 Aysén,2020-03-10,0
 Magallanes,2020-03-10,0
-Total,2020-03-10,17
+Total,2020-03-10,2
 Arica y Parinacota,2020-03-11,0
 Tarapacá,2020-03-11,0
 Antofagasta,2020-03-11,0
 Atacama,2020-03-11,0
 Coquimbo,2020-03-11,0
 Valparaíso,2020-03-11,0
-Metropolitana,2020-03-11,14
+Metropolitana,2020-03-11,4
 O’Higgins,2020-03-11,0
-Maule,2020-03-11,7
+Maule,2020-03-11,2
 Ñuble,2020-03-11,0
-Biobío,2020-03-11,1
+Biobío,2020-03-11,0
 Araucanía,2020-03-11,0
 Los Ríos,2020-03-11,0
-Los Lagos,2020-03-11,1
+Los Lagos,2020-03-11,0
 Aysén,2020-03-11,0
 Magallanes,2020-03-11,0
-Total,2020-03-11,23
+Total,2020-03-11,6
 Arica y Parinacota,2020-03-12,0
 Tarapacá,2020-03-12,0
 Antofagasta,2020-03-12,0
 Atacama,2020-03-12,0
 Coquimbo,2020-03-12,0
 Valparaíso,2020-03-12,0
-Metropolitana,2020-03-12,23
+Metropolitana,2020-03-12,9
 O’Higgins,2020-03-12,0
-Maule,2020-03-12,7
+Maule,2020-03-12,0
 Ñuble,2020-03-12,1
-Biobío,2020-03-12,1
+Biobío,2020-03-12,0
 Araucanía,2020-03-12,0
 Los Ríos,2020-03-12,0
-Los Lagos,2020-03-12,1
+Los Lagos,2020-03-12,0
 Aysén,2020-03-12,0
 Magallanes,2020-03-12,0
-Total,2020-03-12,33
+Total,2020-03-12,10
 Arica y Parinacota,2020-03-13,0
 Tarapacá,2020-03-13,0
 Antofagasta,2020-03-13,0
 Atacama,2020-03-13,0
 Coquimbo,2020-03-13,0
 Valparaíso,2020-03-13,0
-Metropolitana,2020-03-13,29
+Metropolitana,2020-03-13,6
 O’Higgins,2020-03-13,0
-Maule,2020-03-13,8
-Ñuble,2020-03-13,2
-Biobío,2020-03-13,3
+Maule,2020-03-13,1
+Ñuble,2020-03-13,1
+Biobío,2020-03-13,2
 Araucanía,2020-03-13,0
 Los Ríos,2020-03-13,0
-Los Lagos,2020-03-13,1
+Los Lagos,2020-03-13,0
 Aysén,2020-03-13,0
 Magallanes,2020-03-13,0
-Total,2020-03-13,43
+Total,2020-03-13,10
 Arica y Parinacota,2020-03-14,0
 Tarapacá,2020-03-14,0
 Antofagasta,2020-03-14,2
 Atacama,2020-03-14,1
 Coquimbo,2020-03-14,0
 Valparaíso,2020-03-14,0
-Metropolitana,2020-03-14,40
+Metropolitana,2020-03-14,11
 O’Higgins,2020-03-14,0
-Maule,2020-03-14,9
-Ñuble,2020-03-14,4
-Biobío,2020-03-14,3
+Maule,2020-03-14,1
+Ñuble,2020-03-14,2
+Biobío,2020-03-14,0
 Araucanía,2020-03-14,0
 Los Ríos,2020-03-14,0
-Los Lagos,2020-03-14,1
+Los Lagos,2020-03-14,0
 Aysén,2020-03-14,1
 Magallanes,2020-03-14,0
-Total,2020-03-14,61
+Total,2020-03-14,18
 Arica y Parinacota,2020-03-15,0
 Tarapacá,2020-03-15,0
-Antofagasta,2020-03-15,2
-Atacama,2020-03-15,1
+Antofagasta,2020-03-15,0
+Atacama,2020-03-15,0
 Coquimbo,2020-03-15,0
 Valparaíso,2020-03-15,0
-Metropolitana,2020-03-15,54
+Metropolitana,2020-03-15,14
 O’Higgins,2020-03-15,0
-Maule,2020-03-15,9
-Ñuble,2020-03-15,4
-Biobío,2020-03-15,3
+Maule,2020-03-15,0
+Ñuble,2020-03-15,0
+Biobío,2020-03-15,0
 Araucanía,2020-03-15,0
 Los Ríos,2020-03-15,0
-Los Lagos,2020-03-15,1
-Aysén,2020-03-15,1
+Los Lagos,2020-03-15,0
+Aysén,2020-03-15,0
 Magallanes,2020-03-15,0
-Total,2020-03-15,75
+Total,2020-03-15,14
 Arica y Parinacota,2020-03-16,0
 Tarapacá,2020-03-16,0
-Antofagasta,2020-03-16,2
-Atacama,2020-03-16,1
+Antofagasta,2020-03-16,0
+Atacama,2020-03-16,0
 Coquimbo,2020-03-16,0
 Valparaíso,2020-03-16,1
-Metropolitana,2020-03-16,123
+Metropolitana,2020-03-16,69
 O’Higgins,2020-03-16,0
-Maule,2020-03-16,9
-Ñuble,2020-03-16,12
-Biobío,2020-03-16,4
+Maule,2020-03-16,0
+Ñuble,2020-03-16,8
+Biobío,2020-03-16,1
 Araucanía,2020-03-16,1
 Los Ríos,2020-03-16,1
-Los Lagos,2020-03-16,1
-Aysén,2020-03-16,1
+Los Lagos,2020-03-16,0
+Aysén,2020-03-16,0
 Magallanes,2020-03-16,0
-Total,2020-03-16,156
+Total,2020-03-16,81
 Arica y Parinacota,2020-03-17,0
 Tarapacá,2020-03-17,0
-Antofagasta,2020-03-17,2
-Atacama,2020-03-17,1
+Antofagasta,2020-03-17,0
+Atacama,2020-03-17,0
 Coquimbo,2020-03-17,0
-Valparaíso,2020-03-17,1
-Metropolitana,2020-03-17,152
+Valparaíso,2020-03-17,0
+Metropolitana,2020-03-17,29
 O’Higgins,2020-03-17,0
-Maule,2020-03-17,9
-Ñuble,2020-03-17,26
-Biobío,2020-03-17,4
-Araucanía,2020-03-17,1
-Los Ríos,2020-03-17,1
-Los Lagos,2020-03-17,1
-Aysén,2020-03-17,1
+Maule,2020-03-17,0
+Ñuble,2020-03-17,14
+Biobío,2020-03-17,0
+Araucanía,2020-03-17,0
+Los Ríos,2020-03-17,0
+Los Lagos,2020-03-17,0
+Aysén,2020-03-17,0
 Magallanes,2020-03-17,2
-Total,2020-03-17,201
+Total,2020-03-17,45
 Arica y Parinacota,2020-03-18,0
 Tarapacá,2020-03-18,0
-Antofagasta,2020-03-18,2
-Atacama,2020-03-18,1
+Antofagasta,2020-03-18,0
+Atacama,2020-03-18,0
 Coquimbo,2020-03-18,0
-Valparaíso,2020-03-18,1
-Metropolitana,2020-03-18,174
+Valparaíso,2020-03-18,0
+Metropolitana,2020-03-18,22
 O’Higgins,2020-03-18,0
-Maule,2020-03-18,11
-Ñuble,2020-03-18,26
-Biobío,2020-03-18,7
-Araucanía,2020-03-18,4
-Los Ríos,2020-03-18,1
-Los Lagos,2020-03-18,8
-Aysén,2020-03-18,1
-Magallanes,2020-03-18,2
-Total,2020-03-18,238
+Maule,2020-03-18,2
+Ñuble,2020-03-18,0
+Biobío,2020-03-18,3
+Araucanía,2020-03-18,3
+Los Ríos,2020-03-18,0
+Los Lagos,2020-03-18,7
+Aysén,2020-03-18,0
+Magallanes,2020-03-18,0
+Total,2020-03-18,37
 Arica y Parinacota,2020-03-19,1
 Tarapacá,2020-03-19,0
-Antofagasta,2020-03-19,2
-Atacama,2020-03-19,1
+Antofagasta,2020-03-19,0
+Atacama,2020-03-19,0
 Coquimbo,2020-03-19,2
-Valparaíso,2020-03-19,4
-Metropolitana,2020-03-19,247
+Valparaíso,2020-03-19,3
+Metropolitana,2020-03-19,73
 O’Higgins,2020-03-19,2
-Maule,2020-03-19,14
-Ñuble,2020-03-19,28
-Biobío,2020-03-19,14
-Araucanía,2020-03-19,7
-Los Ríos,2020-03-19,1
-Los Lagos,2020-03-19,16
-Aysén,2020-03-19,1
-Magallanes,2020-03-19,2
-Total,2020-03-19,342
-Arica y Parinacota,2020-03-20,1
+Maule,2020-03-19,3
+Ñuble,2020-03-19,2
+Biobío,2020-03-19,7
+Araucanía,2020-03-19,3
+Los Ríos,2020-03-19,0
+Los Lagos,2020-03-19,8
+Aysén,2020-03-19,0
+Magallanes,2020-03-19,0
+Total,2020-03-19,104
+Arica y Parinacota,2020-03-20,0
 Tarapacá,2020-03-20,0
-Antofagasta,2020-03-20,6
-Atacama,2020-03-20,1
-Coquimbo,2020-03-20,3
-Valparaíso,2020-03-20,5
-Metropolitana,2020-03-20,304
-O’Higgins,2020-03-20,6
-Maule,2020-03-20,14
-Ñuble,2020-03-20,44
-Biobío,2020-03-20,19
-Araucanía,2020-03-20,9
-Los Ríos,2020-03-20,1
-Los Lagos,2020-03-20,18
-Aysén,2020-03-20,1
-Magallanes,2020-03-20,2
-Total,2020-03-20,434
-Arica y Parinacota,2020-03-21,1
+Antofagasta,2020-03-20,4
+Atacama,2020-03-20,0
+Coquimbo,2020-03-20,1
+Valparaíso,2020-03-20,1
+Metropolitana,2020-03-20,57
+O’Higgins,2020-03-20,4
+Maule,2020-03-20,0
+Ñuble,2020-03-20,16
+Biobío,2020-03-20,5
+Araucanía,2020-03-20,2
+Los Ríos,2020-03-20,0
+Los Lagos,2020-03-20,2
+Aysén,2020-03-20,0
+Magallanes,2020-03-20,0
+Total,2020-03-20,92
+Arica y Parinacota,2020-03-21,0
 Tarapacá,2020-03-21,0
-Antofagasta,2020-03-21,10
-Atacama,2020-03-21,1
-Coquimbo,2020-03-21,3
-Valparaíso,2020-03-21,13
-Metropolitana,2020-03-21,359
-O’Higgins,2020-03-21,7
-Maule,2020-03-21,15
-Ñuble,2020-03-21,58
-Biobío,2020-03-21,30
-Araucanía,2020-03-21,15
-Los Ríos,2020-03-21,1
-Los Lagos,2020-03-21,20
-Aysén,2020-03-21,1
-Magallanes,2020-03-21,3
-Total,2020-03-21,537
-Arica y Parinacota,2020-03-22,2
+Antofagasta,2020-03-21,4
+Atacama,2020-03-21,0
+Coquimbo,2020-03-21,0
+Valparaíso,2020-03-21,8
+Metropolitana,2020-03-21,55
+O’Higgins,2020-03-21,1
+Maule,2020-03-21,1
+Ñuble,2020-03-21,14
+Biobío,2020-03-21,11
+Araucanía,2020-03-21,6
+Los Ríos,2020-03-21,0
+Los Lagos,2020-03-21,2
+Aysén,2020-03-21,0
+Magallanes,2020-03-21,1
+Total,2020-03-21,103
+Arica y Parinacota,2020-03-22,1
 Tarapacá,2020-03-22,0
-Antofagasta,2020-03-22,11
-Atacama,2020-03-22,1
-Coquimbo,2020-03-22,5
-Valparaíso,2020-03-22,16
-Metropolitana,2020-03-22,409
-O’Higgins,2020-03-22,8
-Maule,2020-03-22,25
-Ñuble,2020-03-22,64
-Biobío,2020-03-22,35
-Araucanía,2020-03-22,27
-Los Ríos,2020-03-22,1
-Los Lagos,2020-03-22,23
-Aysén,2020-03-22,1
-Magallanes,2020-03-22,4
-Total,2020-03-22,632
-Arica y Parinacota,2020-03-23,2
+Antofagasta,2020-03-22,1
+Atacama,2020-03-22,0
+Coquimbo,2020-03-22,2
+Valparaíso,2020-03-22,3
+Metropolitana,2020-03-22,50
+O’Higgins,2020-03-22,1
+Maule,2020-03-22,10
+Ñuble,2020-03-22,6
+Biobío,2020-03-22,5
+Araucanía,2020-03-22,12
+Los Ríos,2020-03-22,0
+Los Lagos,2020-03-22,3
+Aysén,2020-03-22,0
+Magallanes,2020-03-22,1
+Total,2020-03-22,95
+Arica y Parinacota,2020-03-23,0
 Tarapacá,2020-03-23,1
-Antofagasta,2020-03-23,11
-Atacama,2020-03-23,1
-Coquimbo,2020-03-23,6
-Valparaíso,2020-03-23,19
-Metropolitana,2020-03-23,459
-O’Higgins,2020-03-23,8
-Maule,2020-03-23,28
-Ñuble,2020-03-23,81
-Biobío,2020-03-23,46
-Araucanía,2020-03-23,40
-Los Ríos,2020-03-23,4
-Los Lagos,2020-03-23,33
-Aysén,2020-03-23,1
-Magallanes,2020-03-23,6
-Total,2020-03-23,746
-Arica y Parinacota,2020-03-24,2
-Tarapacá,2020-03-24,4
-Antofagasta,2020-03-24,13
-Atacama,2020-03-24,1
-Coquimbo,2020-03-24,11
-Valparaíso,2020-03-24,25
-Metropolitana,2020-03-24,540
-O’Higgins,2020-03-24,9
-Maule,2020-03-24,29
-Ñuble,2020-03-24,105
-Biobío,2020-03-24,73
-Araucanía,2020-03-24,59
-Los Ríos,2020-03-24,6
-Los Lagos,2020-03-24,36
-Aysén,2020-03-24,1
-Magallanes,2020-03-24,8
-Total,2020-03-24,922
-Arica y Parinacota,2020-03-25,2
-Tarapacá,2020-03-25,4
-Antofagasta,2020-03-25,19
-Atacama,2020-03-25,1
-Coquimbo,2020-03-25,12
-Valparaíso,2020-03-25,32
-Metropolitana,2020-03-25,682
-O’Higgins,2020-03-25,11
-Maule,2020-03-25,30
-Ñuble,2020-03-25,111
-Biobío,2020-03-25,95
-Araucanía,2020-03-25,74
-Los Ríos,2020-03-25,11
-Los Lagos,2020-03-25,44
-Aysén,2020-03-25,1
-Magallanes,2020-03-25,13
-Total,2020-03-25,1142
-Arica y Parinacota,2020-03-26,3
-Tarapacá,2020-03-26,5
-Antofagasta,2020-03-26,20
-Atacama,2020-03-26,1
-Coquimbo,2020-03-26,13
-Valparaíso,2020-03-26,44
-Metropolitana,2020-03-26,746
-O’Higgins,2020-03-26,14
-Maule,2020-03-26,31
-Ñuble,2020-03-26,114
-Biobío,2020-03-26,109
-Araucanía,2020-03-26,111
-Los Ríos,2020-03-26,14
-Los Lagos,2020-03-26,60
-Aysén,2020-03-26,2
-Magallanes,2020-03-26,19
-Total,2020-03-26,1306
-Arica y Parinacota,2020-03-27,3
-Tarapacá,2020-03-27,5
-Antofagasta,2020-03-27,21
-Atacama,2020-03-27,1
-Coquimbo,2020-03-27,14
-Valparaíso,2020-03-27,49
-Metropolitana,2020-03-27,938
-O’Higgins,2020-03-27,16
-Maule,2020-03-27,32
-Ñuble,2020-03-27,144
-Biobío,2020-03-27,135
-Araucanía,2020-03-27,143
-Los Ríos,2020-03-27,22
-Los Lagos,2020-03-27,63
-Aysén,2020-03-27,2
-Magallanes,2020-03-27,22
-Total,2020-03-27,1610
-Arica y Parinacota,2020-03-28,3
-Tarapacá,2020-03-28,5
-Antofagasta,2020-03-28,25
-Atacama,2020-03-28,1
-Coquimbo,2020-03-28,15
-Valparaíso,2020-03-28,71
-Metropolitana,2020-03-28,1084
-O’Higgins,2020-03-28,20
-Maule,2020-03-28,37
-Ñuble,2020-03-28,172
-Biobío,2020-03-28,151
-Araucanía,2020-03-28,177
-Los Ríos,2020-03-28,27
-Los Lagos,2020-03-28,93
-Aysén,2020-03-28,2
-Magallanes,2020-03-28,26
-Total,2020-03-28,1909
-Arica y Parinacota,2020-03-29,4
-Tarapacá,2020-03-29,6
-Antofagasta,2020-03-29,27
-Atacama,2020-03-29,2
-Coquimbo,2020-03-29,18
-Valparaíso,2020-03-29,80
-Metropolitana,2020-03-29,1167
-O’Higgins,2020-03-29,21
-Maule,2020-03-29,42
-Ñuble,2020-03-29,197
-Biobío,2020-03-29,185
-Araucanía,2020-03-29,205
-Los Ríos,2020-03-29,40
-Los Lagos,2020-03-29,104
-Aysén,2020-03-29,2
-Magallanes,2020-03-29,39
-Total,2020-03-29,2139
-Arica y Parinacota,2020-03-30,6
-Tarapacá,2020-03-30,8
-Antofagasta,2020-03-30,35
-Atacama,2020-03-30,2
-Coquimbo,2020-03-30,27
-Valparaíso,2020-03-30,108
-Metropolitana,2020-03-30,1295
-O’Higgins,2020-03-30,21
-Maule,2020-03-30,54
-Ñuble,2020-03-30,229
-Biobío,2020-03-30,201
-Araucanía,2020-03-30,247
-Los Ríos,2020-03-30,47
-Los Lagos,2020-03-30,128
-Aysén,2020-03-30,2
-Magallanes,2020-03-30,39
-Total,2020-03-30,2449
-Arica y Parinacota,2020-03-31,6
-Tarapacá,2020-03-31,10
-Antofagasta,2020-03-31,35
-Atacama,2020-03-31,2
-Coquimbo,2020-03-31,28
-Valparaíso,2020-03-31,115
-Metropolitana,2020-03-31,1420
-O’Higgins,2020-03-31,23
-Maule,2020-03-31,62
-Ñuble,2020-03-31,245
-Biobío,2020-03-31,216
-Araucanía,2020-03-31,302
-Los Ríos,2020-03-31,58
-Los Lagos,2020-03-31,151
-Aysén,2020-03-31,2
-Magallanes,2020-03-31,63
-Total,2020-03-31,2738
-Arica y Parinacota,2020-04-01,6
-Tarapacá,2020-04-01,10
-Antofagasta,2020-04-01,39
-Atacama,2020-04-01,3
-Coquimbo,2020-04-01,30
-Valparaíso,2020-04-01,136
-Metropolitana,2020-04-01,1521
-O’Higgins,2020-04-01,26
-Maule,2020-04-01,71
-Ñuble,2020-04-01,259
-Biobío,2020-04-01,240
-Araucanía,2020-04-01,343
-Los Ríos,2020-04-01,64
-Los Lagos,2020-04-01,181
-Aysén,2020-04-01,3
-Magallanes,2020-04-01,99
-Total,2020-04-01,3031
-Arica y Parinacota,2020-04-02,7
-Tarapacá,2020-04-02,12
-Antofagasta,2020-04-02,47
-Atacama,2020-04-02,3
-Coquimbo,2020-04-02,34
-Valparaíso,2020-04-02,156
-Metropolitana,2020-04-02,1636
-O’Higgins,2020-04-02,32
-Maule,2020-04-02,82
-Ñuble,2020-04-02,341
-Biobío,2020-04-02,275
-Araucanía,2020-04-02,389
-Los Ríos,2020-04-02,68
-Los Lagos,2020-04-02,203
-Aysén,2020-04-02,5
-Magallanes,2020-04-02,114
-Total,2020-04-02,3404
-Arica y Parinacota,2020-04-03,12
-Tarapacá,2020-04-03,13
-Antofagasta,2020-04-03,54
-Atacama,2020-04-03,5
-Coquimbo,2020-04-03,35
-Valparaíso,2020-04-03,176
-Metropolitana,2020-04-03,1742
-O’Higgins,2020-04-03,33
-Maule,2020-04-03,89
-Ñuble,2020-04-03,370
-Biobío,2020-04-03,302
-Araucanía,2020-04-03,432
-Los Ríos,2020-04-03,78
-Los Lagos,2020-04-03,234
-Aysén,2020-04-03,6
-Magallanes,2020-04-03,156
-Total,2020-04-03,3737
-Arica y Parinacota,2020-04-04,12
-Tarapacá,2020-04-04,17
-Antofagasta,2020-04-04,55
-Atacama,2020-04-04,5
-Coquimbo,2020-04-04,44
-Valparaíso,2020-04-04,185
-Metropolitana,2020-04-04,1957
-O’Higgins,2020-04-04,38
-Maule,2020-04-04,97
-Ñuble,2020-04-04,401
-Biobío,2020-04-04,347
-Araucanía,2020-04-04,477
-Los Ríos,2020-04-04,89
-Los Lagos,2020-04-04,259
-Aysén,2020-04-04,6
-Magallanes,2020-04-04,172
-Total,2020-04-04,4161
-Arica y Parinacota,2020-04-05,28
-Tarapacá,2020-04-05,20
-Antofagasta,2020-04-05,60
-Atacama,2020-04-05,5
-Coquimbo,2020-04-05,50
-Valparaíso,2020-04-05,191
-Metropolitana,2020-04-05,2102
-O’Higgins,2020-04-05,41
-Maule,2020-04-05,103
-Ñuble,2020-04-05,425
-Biobío,2020-04-05,365
-Araucanía,2020-04-05,509
-Los Ríos,2020-04-05,99
-Los Lagos,2020-04-05,276
-Aysén,2020-04-05,7
-Magallanes,2020-04-05,190
-Total,2020-04-05,4471
-Arica y Parinacota,2020-04-06,41
-Tarapacá,2020-04-06,21
-Antofagasta,2020-04-06,68
-Atacama,2020-04-06,5
-Coquimbo,2020-04-06,51
-Valparaíso,2020-04-06,198
-Metropolitana,2020-04-06,2244
-O’Higgins,2020-04-06,42
-Maule,2020-04-06,108
-Ñuble,2020-04-06,474
-Biobío,2020-04-06,383
-Araucanía,2020-04-06,562
-Los Ríos,2020-04-06,104
-Los Lagos,2020-04-06,286
-Aysén,2020-04-06,7
-Magallanes,2020-04-06,221
-Total,2020-04-06,4815
-Arica y Parinacota,2020-04-07,53
-Tarapacá,2020-04-07,23
-Antofagasta,2020-04-07,69
-Atacama,2020-04-07,6
-Coquimbo,2020-04-07,52
-Valparaíso,2020-04-07,214
-Metropolitana,2020-04-07,2350
-O’Higgins,2020-04-07,42
-Maule,2020-04-07,108
-Ñuble,2020-04-07,522
-Biobío,2020-04-07,410
-Araucanía,2020-04-07,612
-Los Ríos,2020-04-07,109
-Los Lagos,2020-04-07,299
-Aysén,2020-04-07,7
-Magallanes,2020-04-07,240
-Total,2020-04-07,5116
-Arica y Parinacota,2020-04-08,63
-Tarapacá,2020-04-08,26
-Antofagasta,2020-04-08,77
-Atacama,2020-04-08,8
-Coquimbo,2020-04-08,56
-Valparaíso,2020-04-08,225
-Metropolitana,2020-04-08,2548
-O’Higgins,2020-04-08,43
-Maule,2020-04-08,119
-Ñuble,2020-04-08,561
-Biobío,2020-04-08,439
-Araucanía,2020-04-08,669
-Los Ríos,2020-04-08,114
-Los Lagos,2020-04-08,325
-Aysén,2020-04-08,7
-Magallanes,2020-04-08,266
-Total,2020-04-08,5546
-Arica y Parinacota,2020-04-09,75
-Tarapacá,2020-04-09,29
-Antofagasta,2020-04-09,92
-Atacama,2020-04-09,10
-Coquimbo,2020-04-09,61
-Valparaíso,2020-04-09,230
-Metropolitana,2020-04-09,2832
-O’Higgins,2020-04-09,44
-Maule,2020-04-09,128
-Ñuble,2020-04-09,571
-Biobío,2020-04-09,460
-Araucanía,2020-04-09,689
-Los Ríos,2020-04-09,118
-Los Lagos,2020-04-09,340
-Aysén,2020-04-09,7
-Magallanes,2020-04-09,286
-Total,2020-04-09,5972
-Arica y Parinacota,2020-04-10,87
-Tarapacá,2020-04-10,35
-Antofagasta,2020-04-10,110
-Atacama,2020-04-10,13
-Coquimbo,2020-04-10,61
-Valparaíso,2020-04-10,241
-Metropolitana,2020-04-10,3193
-O’Higgins,2020-04-10,44
-Maule,2020-04-10,131
-Ñuble,2020-04-10,589
-Biobío,2020-04-10,474
-Araucanía,2020-04-10,712
-Los Ríos,2020-04-10,124
-Los Lagos,2020-04-10,349
-Aysén,2020-04-10,7
-Magallanes,2020-04-10,331
-Total,2020-04-10,6501
-Arica y Parinacota,2020-04-11,107
-Tarapacá,2020-04-11,38
-Antofagasta,2020-04-11,117
-Atacama,2020-04-11,13
-Coquimbo,2020-04-11,64
-Valparaíso,2020-04-11,248
-Metropolitana,2020-04-11,3448
-O’Higgins,2020-04-11,45
-Maule,2020-04-11,134
-Ñuble,2020-04-11,606
-Biobío,2020-04-11,490
-Araucanía,2020-04-11,739
-Los Ríos,2020-04-11,130
-Los Lagos,2020-04-11,364
-Aysén,2020-04-11,7
-Magallanes,2020-04-11,377
-Total,2020-04-11,6927
-Arica y Parinacota,2020-04-12,115
-Tarapacá,2020-04-12,46
-Antofagasta,2020-04-12,138
-Atacama,2020-04-12,13
-Coquimbo,2020-04-12,66
-Valparaíso,2020-04-12,254
-Metropolitana,2020-04-12,3599
-O’Higgins,2020-04-12,46
-Maule,2020-04-12,138
-Ñuble,2020-04-12,613
-Biobío,2020-04-12,500
-Araucanía,2020-04-12,775
-Los Ríos,2020-04-12,135
-Los Lagos,2020-04-12,372
-Aysén,2020-04-12,7
-Magallanes,2020-04-12,396
-Total,2020-04-12,7213
-Arica y Parinacota,2020-04-13,115
-Tarapacá,2020-04-13,52
-Antofagasta,2020-04-13,149
-Atacama,2020-04-13,13
-Coquimbo,2020-04-13,66
-Valparaíso,2020-04-13,273
-Metropolitana,2020-04-13,3803
-O’Higgins,2020-04-13,48
-Maule,2020-04-13,141
-Ñuble,2020-04-13,618
-Biobío,2020-04-13,512
-Araucanía,2020-04-13,795
-Los Ríos,2020-04-13,138
-Los Lagos,2020-04-13,380
-Aysén,2020-04-13,7
-Magallanes,2020-04-13,415
-Total,2020-04-13,7525
-Arica y Parinacota,2020-04-14,120
-Tarapacá,2020-04-14,62
-Antofagasta,2020-04-14,155
-Atacama,2020-04-14,13
-Coquimbo,2020-04-14,66
-Valparaíso,2020-04-14,285
-Metropolitana,2020-04-14,4086
-O’Higgins,2020-04-14,53
-Maule,2020-04-14,142
-Ñuble,2020-04-14,622
-Biobío,2020-04-14,528
-Araucanía,2020-04-14,816
-Los Ríos,2020-04-14,148
-Los Lagos,2020-04-14,385
-Aysén,2020-04-14,7
-Magallanes,2020-04-14,429
-Total,2020-04-14,7917
-Arica y Parinacota,2020-04-15,124
-Tarapacá,2020-04-15,62
-Antofagasta,2020-04-15,176
-Atacama,2020-04-15,13
-Coquimbo,2020-04-15,66
-Valparaíso,2020-04-15,299
-Metropolitana,2020-04-15,4334
-O’Higgins,2020-04-15,54
-Maule,2020-04-15,152
-Ñuble,2020-04-15,634
-Biobío,2020-04-15,542
-Araucanía,2020-04-15,826
-Los Ríos,2020-04-15,150
-Los Lagos,2020-04-15,390
-Aysén,2020-04-15,7
-Magallanes,2020-04-15,444
-Total,2020-04-15,8273
-Arica y Parinacota,2020-04-16,129
-Tarapacá,2020-04-16,66
-Antofagasta,2020-04-16,192
-Atacama,2020-04-16,13
-Coquimbo,2020-04-16,68
-Valparaíso,2020-04-16,330
-Metropolitana,2020-04-16,4682
-O’Higgins,2020-04-16,54
-Maule,2020-04-16,167
-Ñuble,2020-04-16,639
-Biobío,2020-04-16,559
-Araucanía,2020-04-16,882
-Los Ríos,2020-04-16,153
-Los Lagos,2020-04-16,399
-Aysén,2020-04-16,7
-Magallanes,2020-04-16,467
-Total,2020-04-16,8807
-Arica y Parinacota,2020-04-17,134
-Tarapacá,2020-04-17,73
-Antofagasta,2020-04-17,211
-Atacama,2020-04-17,13
-Coquimbo,2020-04-17,68
-Valparaíso,2020-04-17,345
-Metropolitana,2020-04-17,4915
-O’Higgins,2020-04-17,55
-Maule,2020-04-17,223
-Ñuble,2020-04-17,656
-Biobío,2020-04-17,578
-Araucanía,2020-04-17,907
-Los Ríos,2020-04-17,154
-Los Lagos,2020-04-17,412
-Aysén,2020-04-17,7
-Magallanes,2020-04-17,501
-Total,2020-04-17,9252
-Arica y Parinacota,2020-04-18,142
-Tarapacá,2020-04-18,81
-Antofagasta,2020-04-18,226
-Atacama,2020-04-18,13
-Coquimbo,2020-04-18,68
-Valparaíso,2020-04-18,359
-Metropolitana,2020-04-18,5192
-O’Higgins,2020-04-18,55
-Maule,2020-04-18,276
-Ñuble,2020-04-18,667
-Biobío,2020-04-18,606
-Araucanía,2020-04-18,944
-Los Ríos,2020-04-18,156
-Los Lagos,2020-04-18,416
-Aysén,2020-04-18,7
-Magallanes,2020-04-18,522
-Total,2020-04-18,9730
-Arica y Parinacota,2020-04-19,145
-Tarapacá,2020-04-19,90
-Antofagasta,2020-04-19,249
-Atacama,2020-04-19,13
-Coquimbo,2020-04-19,68
-Valparaíso,2020-04-19,381
-Metropolitana,2020-04-19,5381
-O’Higgins,2020-04-19,55
-Maule,2020-04-19,302
-Ñuble,2020-04-19,678
-Biobío,2020-04-19,616
-Araucanía,2020-04-19,972
-Los Ríos,2020-04-19,157
-Los Lagos,2020-04-19,421
-Aysén,2020-04-19,7
-Magallanes,2020-04-19,553
-Total,2020-04-19,10088
-Arica y Parinacota,2020-04-20,161
-Tarapacá,2020-04-20,93
-Antofagasta,2020-04-20,263
-Atacama,2020-04-20,13
-Coquimbo,2020-04-20,69
-Valparaíso,2020-04-20,388
-Metropolitana,2020-04-20,5643
-O’Higgins,2020-04-20,56
-Maule,2020-04-20,304
-Ñuble,2020-04-20,687
-Biobío,2020-04-20,626
-Araucanía,2020-04-20,1045
-Los Ríos,2020-04-20,162
-Los Lagos,2020-04-20,424
-Aysén,2020-04-20,7
-Magallanes,2020-04-20,566
-Total,2020-04-20,10507
-Arica y Parinacota,2020-04-21,170
-Tarapacá,2020-04-21,104
-Antofagasta,2020-04-21,291
-Atacama,2020-04-21,13
-Coquimbo,2020-04-21,69
-Valparaíso,2020-04-21,403
-Metropolitana,2020-04-21,5788
-O’Higgins,2020-04-21,57
-Maule,2020-04-21,316
-Ñuble,2020-04-21,694
-Biobío,2020-04-21,636
-Araucanía,2020-04-21,1092
-Los Ríos,2020-04-21,167
-Los Lagos,2020-04-21,432
-Aysén,2020-04-21,7
-Magallanes,2020-04-21,593
-Total,2020-04-21,10832
-Arica y Parinacota,2020-04-22,180
-Tarapacá,2020-04-22,114
-Antofagasta,2020-04-22,326
-Atacama,2020-04-22,13
-Coquimbo,2020-04-22,70
-Valparaíso,2020-04-22,421
-Metropolitana,2020-04-22,6083
-O’Higgins,2020-04-22,59
-Maule,2020-04-22,328
-Ñuble,2020-04-22,703
-Biobío,2020-04-22,658
-Araucanía,2020-04-22,1113
-Los Ríos,2020-04-22,171
-Los Lagos,2020-04-22,445
-Aysén,2020-04-22,7
-Magallanes,2020-04-22,605
-Total,2020-04-22,11296
-Arica y Parinacota,2020-04-23,210
-Tarapacá,2020-04-23,128
-Antofagasta,2020-04-23,340
-Atacama,2020-04-23,18
-Coquimbo,2020-04-23,70
-Valparaíso,2020-04-23,429
-Metropolitana,2020-04-23,6434
-O’Higgins,2020-04-23,76
-Maule,2020-04-23,333
-Ñuble,2020-04-23,708
-Biobío,2020-04-23,675
-Araucanía,2020-04-23,1142
-Los Ríos,2020-04-23,173
-Los Lagos,2020-04-23,454
-Aysén,2020-04-23,7
-Magallanes,2020-04-23,615
-Total,2020-04-23,11812
-Arica y Parinacota,2020-04-24,239
-Tarapacá,2020-04-24,134
-Antofagasta,2020-04-24,366
-Atacama,2020-04-24,21
-Coquimbo,2020-04-24,72
-Valparaíso,2020-04-24,436
-Metropolitana,2020-04-24,6761
-O’Higgins,2020-04-24,81
-Maule,2020-04-24,349
-Ñuble,2020-04-24,715
-Biobío,2020-04-24,683
-Araucanía,2020-04-24,1184
-Los Ríos,2020-04-24,174
-Los Lagos,2020-04-24,460
-Aysén,2020-04-24,7
-Magallanes,2020-04-24,624
-Total,2020-04-24,12306
-Arica y Parinacota,2020-04-25,245
-Tarapacá,2020-04-25,143
-Antofagasta,2020-04-25,391
-Atacama,2020-04-25,24
-Coquimbo,2020-04-25,73
-Valparaíso,2020-04-25,454
-Metropolitana,2020-04-25,7165
-O’Higgins,2020-04-25,85
-Maule,2020-04-25,350
-Ñuble,2020-04-25,725
-Biobío,2020-04-25,696
-Araucanía,2020-04-25,1203
-Los Ríos,2020-04-25,177
-Los Lagos,2020-04-25,465
-Aysén,2020-04-25,7
-Magallanes,2020-04-25,655
-Total,2020-04-25,12858
-Arica y Parinacota,2020-04-26,252
-Tarapacá,2020-04-26,156
-Antofagasta,2020-04-26,443
-Atacama,2020-04-26,29
-Coquimbo,2020-04-26,73
-Valparaíso,2020-04-26,460
-Metropolitana,2020-04-26,7496
-O’Higgins,2020-04-26,92
-Maule,2020-04-26,354
-Ñuble,2020-04-26,731
-Biobío,2020-04-26,703
-Araucanía,2020-04-26,1216
-Los Ríos,2020-04-26,178
-Los Lagos,2020-04-26,473
-Aysén,2020-04-26,7
-Magallanes,2020-04-26,668
-Total,2020-04-26,13331
-Arica y Parinacota,2020-04-27,265
-Tarapacá,2020-04-27,164
-Antofagasta,2020-04-27,457
-Atacama,2020-04-27,35
-Coquimbo,2020-04-27,74
-Valparaíso,2020-04-27,485
-Metropolitana,2020-04-27,7858
-O’Higgins,2020-04-27,94
-Maule,2020-04-27,363
-Ñuble,2020-04-27,741
-Biobío,2020-04-27,706
-Araucanía,2020-04-27,1236
-Los Ríos,2020-04-27,180
-Los Lagos,2020-04-27,477
-Aysén,2020-04-27,7
-Magallanes,2020-04-27,671
-Total,2020-04-27,13813
-Arica y Parinacota,2020-04-28,268
-Tarapacá,2020-04-28,169
-Antofagasta,2020-04-28,481
-Atacama,2020-04-28,35
-Coquimbo,2020-04-28,74
-Valparaíso,2020-04-28,493
-Metropolitana,2020-04-28,8300
-O’Higgins,2020-04-28,97
-Maule,2020-04-28,384
-Ñuble,2020-04-28,747
-Biobío,2020-04-28,709
-Araucanía,2020-04-28,1251
-Los Ríos,2020-04-28,180
-Los Lagos,2020-04-28,477
-Aysén,2020-04-28,7
-Magallanes,2020-04-28,693
-Total,2020-04-28,14365
-Arica y Parinacota,2020-04-29,272
-Tarapacá,2020-04-29,183
-Antofagasta,2020-04-29,514
-Atacama,2020-04-29,42
-Coquimbo,2020-04-29,76
-Valparaíso,2020-04-29,526
-Metropolitana,2020-04-29,8889
-O’Higgins,2020-04-29,104
-Maule,2020-04-29,392
-Ñuble,2020-04-29,761
-Biobío,2020-04-29,719
-Araucanía,2020-04-29,1273
-Los Ríos,2020-04-29,182
-Los Lagos,2020-04-29,481
-Aysén,2020-04-29,7
-Magallanes,2020-04-29,714
-Total,2020-04-29,15135
-Arica y Parinacota,2020-04-30,279
-Tarapacá,2020-04-30,198
-Antofagasta,2020-04-30,546
-Atacama,2020-04-30,43
-Coquimbo,2020-04-30,76
-Valparaíso,2020-04-30,559
-Metropolitana,2020-04-30,9625
-O’Higgins,2020-04-30,108
-Maule,2020-04-30,393
-Ñuble,2020-04-30,768
-Biobío,2020-04-30,727
-Araucanía,2020-04-30,1293
-Los Ríos,2020-04-30,189
-Los Lagos,2020-04-30,487
-Aysén,2020-04-30,7
-Magallanes,2020-04-30,725
-Total,2020-04-30,16023
-Arica y Parinacota,2020-05-01,297
-Tarapacá,2020-05-01,200
-Antofagasta,2020-05-01,589
-Atacama,2020-05-01,43
-Coquimbo,2020-05-01,77
-Valparaíso,2020-05-01,568
-Metropolitana,2020-05-01,10516
-O’Higgins,2020-05-01,109
-Maule,2020-05-01,394
-Ñuble,2020-05-01,768
-Biobío,2020-05-01,729
-Araucanía,2020-05-01,1295
-Los Ríos,2020-05-01,189
-Los Lagos,2020-05-01,501
-Aysén,2020-05-01,7
-Magallanes,2020-05-01,726
-Total,2020-05-01,17008
-Arica y Parinacota,2020-05-02,307
-Tarapacá,2020-05-02,212
-Antofagasta,2020-05-02,679
-Atacama,2020-05-02,59
-Coquimbo,2020-05-02,78
-Valparaíso,2020-05-02,614
-Metropolitana,2020-05-02,11661
-O’Higgins,2020-05-02,120
-Maule,2020-05-02,396
-Ñuble,2020-05-02,776
-Biobío,2020-05-02,751
-Araucanía,2020-05-02,1314
-Los Ríos,2020-05-02,196
-Los Lagos,2020-05-02,513
-Aysén,2020-05-02,7
-Magallanes,2020-05-02,752
-Total,2020-05-02,18435
-Arica y Parinacota,2020-05-03,308
-Tarapacá,2020-05-03,272
-Antofagasta,2020-05-03,740
-Atacama,2020-05-03,67
-Coquimbo,2020-05-03,88
-Valparaíso,2020-05-03,638
-Metropolitana,2020-05-03,12656
-O’Higgins,2020-05-03,125
-Maule,2020-05-03,397
-Ñuble,2020-05-03,786
-Biobío,2020-05-03,759
-Araucanía,2020-05-03,1328
-Los Ríos,2020-05-03,198
-Los Lagos,2020-05-03,517
-Aysén,2020-05-03,7
-Magallanes,2020-05-03,777
-Total,2020-05-03,19663
-Arica y Parinacota,2020-05-04,308
-Tarapacá,2020-05-04,295
-Antofagasta,2020-05-04,760
-Atacama,2020-05-04,70
-Coquimbo,2020-05-04,91
-Valparaíso,2020-05-04,656
-Metropolitana,2020-05-04,13528
-O’Higgins,2020-05-04,131
-Maule,2020-05-04,399
-Ñuble,2020-05-04,787
-Biobío,2020-05-04,762
-Araucanía,2020-05-04,1331
-Los Ríos,2020-05-04,199
-Los Lagos,2020-05-04,524
-Aysén,2020-05-04,7
-Magallanes,2020-05-04,795
-Total,2020-05-04,20643
-Arica y Parinacota,2020-05-05,315
-Tarapacá,2020-05-05,322
-Antofagasta,2020-05-05,811
-Atacama,2020-05-05,78
-Coquimbo,2020-05-05,97
-Valparaíso,2020-05-05,687
-Metropolitana,2020-05-05,14707
-O’Higgins,2020-05-05,136
-Maule,2020-05-05,408
-Ñuble,2020-05-05,789
-Biobío,2020-05-05,774
-Araucanía,2020-05-05,1352
-Los Ríos,2020-05-05,199
-Los Lagos,2020-05-05,525
-Aysén,2020-05-05,7
-Magallanes,2020-05-05,809
-Total,2020-05-05,22016
-Arica y Parinacota,2020-05-06,318
-Tarapacá,2020-05-06,339
-Antofagasta,2020-05-06,855
-Atacama,2020-05-06,80
-Coquimbo,2020-05-06,97
-Valparaíso,2020-05-06,716
-Metropolitana,2020-05-06,15582
-O’Higgins,2020-05-06,145
-Maule,2020-05-06,408
-Ñuble,2020-05-06,791
-Biobío,2020-05-06,789
-Araucanía,2020-05-06,1362
-Los Ríos,2020-05-06,200
-Los Lagos,2020-05-06,541
-Aysén,2020-05-06,7
-Magallanes,2020-05-06,818
-Total,2020-05-06,23048
-Arica y Parinacota,2020-05-07,325
-Tarapacá,2020-05-07,417
-Antofagasta,2020-05-07,895
-Atacama,2020-05-07,87
-Coquimbo,2020-05-07,100
-Valparaíso,2020-05-07,781
-Metropolitana,2020-05-07,16828
-O’Higgins,2020-05-07,151
-Maule,2020-05-07,414
-Ñuble,2020-05-07,793
-Biobío,2020-05-07,814
-Araucanía,2020-05-07,1385
-Los Ríos,2020-05-07,202
-Los Lagos,2020-05-07,545
-Aysén,2020-05-07,8
-Magallanes,2020-05-07,836
-Total,2020-05-07,24581
-Arica y Parinacota,2020-05-08,327
-Tarapacá,2020-05-08,459
-Antofagasta,2020-05-08,923
-Atacama,2020-05-08,88
-Coquimbo,2020-05-08,111
-Valparaíso,2020-05-08,828
-Metropolitana,2020-05-08,17979
-O’Higgins,2020-05-08,167
-Maule,2020-05-08,425
-Ñuble,2020-05-08,794
-Biobío,2020-05-08,842
-Araucanía,2020-05-08,1403
-Los Ríos,2020-05-08,203
-Los Lagos,2020-05-08,548
-Aysén,2020-05-08,8
-Magallanes,2020-05-08,867
-Total,2020-05-08,25972
-Arica y Parinacota,2020-05-09,337
-Tarapacá,2020-05-09,485
-Antofagasta,2020-05-09,947
-Atacama,2020-05-09,117
-Coquimbo,2020-05-09,129
-Valparaíso,2020-05-09,878
-Metropolitana,2020-05-09,18957
-O’Higgins,2020-05-09,182
-Maule,2020-05-09,432
-Ñuble,2020-05-09,801
-Biobío,2020-05-09,882
-Araucanía,2020-05-09,1418
-Los Ríos,2020-05-09,206
-Los Lagos,2020-05-09,559
-Aysén,2020-05-09,8
-Magallanes,2020-05-09,881
-Total,2020-05-09,27219
-Arica y Parinacota,2020-05-10,340
-Tarapacá,2020-05-10,520
-Antofagasta,2020-05-10,978
-Atacama,2020-05-10,124
-Coquimbo,2020-05-10,135
-Valparaíso,2020-05-10,933
-Metropolitana,2020-05-10,20353
-O’Higgins,2020-05-10,195
-Maule,2020-05-10,441
-Ñuble,2020-05-10,812
-Biobío,2020-05-10,899
-Araucanía,2020-05-10,1454
-Los Ríos,2020-05-10,206
-Los Lagos,2020-05-10,575
-Aysén,2020-05-10,8
-Magallanes,2020-05-10,893
-Total,2020-05-10,28866
-Arica y Parinacota,2020-05-11,351
-Tarapacá,2020-05-11,547
-Antofagasta,2020-05-11,1014
-Atacama,2020-05-11,133
-Coquimbo,2020-05-11,140
-Valparaíso,2020-05-11,970
-Metropolitana,2020-05-11,21317
-O’Higgins,2020-05-11,216
-Maule,2020-05-11,454
-Ñuble,2020-05-11,814
-Biobío,2020-05-11,932
-Araucanía,2020-05-11,1466
-Los Ríos,2020-05-11,208
-Los Lagos,2020-05-11,592
-Aysén,2020-05-11,8
-Magallanes,2020-05-11,901
-Total,2020-05-11,30063
-Arica y Parinacota,2020-05-12,351
-Tarapacá,2020-05-12,578
-Antofagasta,2020-05-12,1109
-Atacama,2020-05-12,134
-Coquimbo,2020-05-12,148
-Valparaíso,2020-05-12,1029
-Metropolitana,2020-05-12,22709
-O’Higgins,2020-05-12,224
-Maule,2020-05-12,466
-Ñuble,2020-05-12,826
-Biobío,2020-05-12,942
-Araucanía,2020-05-12,1482
-Los Ríos,2020-05-12,211
-Los Lagos,2020-05-12,594
-Aysén,2020-05-12,8
-Magallanes,2020-05-12,910
-Total,2020-05-12,31721
-Arica y Parinacota,2020-05-13,359
-Tarapacá,2020-05-13,615
-Antofagasta,2020-05-13,1216
-Atacama,2020-05-13,139
-Coquimbo,2020-05-13,153
-Valparaíso,2020-05-13,1123
-Metropolitana,2020-05-13,24965
-O’Higgins,2020-05-13,248
-Maule,2020-05-13,485
-Ñuble,2020-05-13,839
-Biobío,2020-05-13,975
-Araucanía,2020-05-13,1495
-Los Ríos,2020-05-13,212
-Los Lagos,2020-05-13,628
-Aysén,2020-05-13,8
-Magallanes,2020-05-13,921
-Total,2020-05-13,34381
+Antofagasta,2020-03-23,0
+Atacama,2020-03-23,0
+Coquimbo,2020-03-23,1
+Valparaíso,2020-03-23,3
+Metropolitana,2020-03-23,50
+O’Higgins,2020-03-23,0
+Maule,2020-03-23,3
+Ñuble,2020-03-23,17
+Biobío,2020-03-23,11
+Araucanía,2020-03-23,13
+Los Ríos,2020-03-23,3
+Los Lagos,2020-03-23,10
+Aysén,2020-03-23,0
+Magallanes,2020-03-23,2
+Total,2020-03-23,114
+Arica y Parinacota,2020-03-24,0
+Tarapacá,2020-03-24,3
+Antofagasta,2020-03-24,2
+Atacama,2020-03-24,0
+Coquimbo,2020-03-24,5
+Valparaíso,2020-03-24,6
+Metropolitana,2020-03-24,81
+O’Higgins,2020-03-24,1
+Maule,2020-03-24,1
+Ñuble,2020-03-24,24
+Biobío,2020-03-24,27
+Araucanía,2020-03-24,19
+Los Ríos,2020-03-24,2
+Los Lagos,2020-03-24,3
+Aysén,2020-03-24,0
+Magallanes,2020-03-24,2
+Total,2020-03-24,176
+Arica y Parinacota,2020-03-25,0
+Tarapacá,2020-03-25,0
+Antofagasta,2020-03-25,6
+Atacama,2020-03-25,0
+Coquimbo,2020-03-25,1
+Valparaíso,2020-03-25,7
+Metropolitana,2020-03-25,142
+O’Higgins,2020-03-25,2
+Maule,2020-03-25,1
+Ñuble,2020-03-25,6
+Biobío,2020-03-25,22
+Araucanía,2020-03-25,15
+Los Ríos,2020-03-25,5
+Los Lagos,2020-03-25,8
+Aysén,2020-03-25,0
+Magallanes,2020-03-25,5
+Total,2020-03-25,220
+Arica y Parinacota,2020-03-26,1
+Tarapacá,2020-03-26,1
+Antofagasta,2020-03-26,1
+Atacama,2020-03-26,0
+Coquimbo,2020-03-26,1
+Valparaíso,2020-03-26,12
+Metropolitana,2020-03-26,64
+O’Higgins,2020-03-26,3
+Maule,2020-03-26,1
+Ñuble,2020-03-26,3
+Biobío,2020-03-26,14
+Araucanía,2020-03-26,37
+Los Ríos,2020-03-26,3
+Los Lagos,2020-03-26,16
+Aysén,2020-03-26,1
+Magallanes,2020-03-26,6
+Total,2020-03-26,164
+Arica y Parinacota,2020-03-27,0
+Tarapacá,2020-03-27,0
+Antofagasta,2020-03-27,1
+Atacama,2020-03-27,0
+Coquimbo,2020-03-27,1
+Valparaíso,2020-03-27,5
+Metropolitana,2020-03-27,192
+O’Higgins,2020-03-27,2
+Maule,2020-03-27,1
+Ñuble,2020-03-27,30
+Biobío,2020-03-27,26
+Araucanía,2020-03-27,32
+Los Ríos,2020-03-27,8
+Los Lagos,2020-03-27,3
+Aysén,2020-03-27,0
+Magallanes,2020-03-27,3
+Total,2020-03-27,304
+Arica y Parinacota,2020-03-28,0
+Tarapacá,2020-03-28,0
+Antofagasta,2020-03-28,4
+Atacama,2020-03-28,0
+Coquimbo,2020-03-28,1
+Valparaíso,2020-03-28,22
+Metropolitana,2020-03-28,146
+O’Higgins,2020-03-28,4
+Maule,2020-03-28,5
+Ñuble,2020-03-28,28
+Biobío,2020-03-28,16
+Araucanía,2020-03-28,34
+Los Ríos,2020-03-28,5
+Los Lagos,2020-03-28,30
+Aysén,2020-03-28,0
+Magallanes,2020-03-28,4
+Total,2020-03-28,299
+Arica y Parinacota,2020-03-29,1
+Tarapacá,2020-03-29,1
+Antofagasta,2020-03-29,2
+Atacama,2020-03-29,1
+Coquimbo,2020-03-29,3
+Valparaíso,2020-03-29,9
+Metropolitana,2020-03-29,83
+O’Higgins,2020-03-29,1
+Maule,2020-03-29,5
+Ñuble,2020-03-29,25
+Biobío,2020-03-29,34
+Araucanía,2020-03-29,28
+Los Ríos,2020-03-29,13
+Los Lagos,2020-03-29,11
+Aysén,2020-03-29,0
+Magallanes,2020-03-29,13
+Total,2020-03-29,230
+Arica y Parinacota,2020-03-30,2
+Tarapacá,2020-03-30,2
+Antofagasta,2020-03-30,8
+Atacama,2020-03-30,0
+Coquimbo,2020-03-30,9
+Valparaíso,2020-03-30,28
+Metropolitana,2020-03-30,128
+O’Higgins,2020-03-30,0
+Maule,2020-03-30,12
+Ñuble,2020-03-30,32
+Biobío,2020-03-30,16
+Araucanía,2020-03-30,42
+Los Ríos,2020-03-30,7
+Los Lagos,2020-03-30,24
+Aysén,2020-03-30,0
+Magallanes,2020-03-30,0
+Total,2020-03-30,310
+Arica y Parinacota,2020-03-31,0
+Tarapacá,2020-03-31,2
+Antofagasta,2020-03-31,0
+Atacama,2020-03-31,0
+Coquimbo,2020-03-31,1
+Valparaíso,2020-03-31,7
+Metropolitana,2020-03-31,125
+O’Higgins,2020-03-31,2
+Maule,2020-03-31,8
+Ñuble,2020-03-31,16
+Biobío,2020-03-31,15
+Araucanía,2020-03-31,55
+Los Ríos,2020-03-31,11
+Los Lagos,2020-03-31,23
+Aysén,2020-03-31,0
+Magallanes,2020-03-31,24
+Total,2020-03-31,289
+Arica y Parinacota,2020-04-01,0
+Tarapacá,2020-04-01,0
+Antofagasta,2020-04-01,4
+Atacama,2020-04-01,1
+Coquimbo,2020-04-01,2
+Valparaíso,2020-04-01,21
+Metropolitana,2020-04-01,101
+O’Higgins,2020-04-01,3
+Maule,2020-04-01,9
+Ñuble,2020-04-01,14
+Biobío,2020-04-01,24
+Araucanía,2020-04-01,41
+Los Ríos,2020-04-01,6
+Los Lagos,2020-04-01,30
+Aysén,2020-04-01,1
+Magallanes,2020-04-01,36
+Total,2020-04-01,293
+Arica y Parinacota,2020-04-02,1
+Tarapacá,2020-04-02,2
+Antofagasta,2020-04-02,8
+Atacama,2020-04-02,0
+Coquimbo,2020-04-02,4
+Valparaíso,2020-04-02,20
+Metropolitana,2020-04-02,115
+O’Higgins,2020-04-02,6
+Maule,2020-04-02,11
+Ñuble,2020-04-02,82
+Biobío,2020-04-02,35
+Araucanía,2020-04-02,46
+Los Ríos,2020-04-02,4
+Los Lagos,2020-04-02,22
+Aysén,2020-04-02,2
+Magallanes,2020-04-02,15
+Total,2020-04-02,373
+Arica y Parinacota,2020-04-03,5
+Tarapacá,2020-04-03,1
+Antofagasta,2020-04-03,7
+Atacama,2020-04-03,2
+Coquimbo,2020-04-03,1
+Valparaíso,2020-04-03,20
+Metropolitana,2020-04-03,106
+O’Higgins,2020-04-03,1
+Maule,2020-04-03,7
+Ñuble,2020-04-03,29
+Biobío,2020-04-03,27
+Araucanía,2020-04-03,43
+Los Ríos,2020-04-03,10
+Los Lagos,2020-04-03,31
+Aysén,2020-04-03,1
+Magallanes,2020-04-03,42
+Total,2020-04-03,333
+Arica y Parinacota,2020-04-04,0
+Tarapacá,2020-04-04,4
+Antofagasta,2020-04-04,1
+Atacama,2020-04-04,0
+Coquimbo,2020-04-04,9
+Valparaíso,2020-04-04,9
+Metropolitana,2020-04-04,215
+O’Higgins,2020-04-04,5
+Maule,2020-04-04,8
+Ñuble,2020-04-04,31
+Biobío,2020-04-04,45
+Araucanía,2020-04-04,45
+Los Ríos,2020-04-04,11
+Los Lagos,2020-04-04,25
+Aysén,2020-04-04,0
+Magallanes,2020-04-04,16
+Total,2020-04-04,424
+Arica y Parinacota,2020-04-05,16
+Tarapacá,2020-04-05,3
+Antofagasta,2020-04-05,5
+Atacama,2020-04-05,0
+Coquimbo,2020-04-05,6
+Valparaíso,2020-04-05,6
+Metropolitana,2020-04-05,145
+O’Higgins,2020-04-05,3
+Maule,2020-04-05,6
+Ñuble,2020-04-05,24
+Biobío,2020-04-05,18
+Araucanía,2020-04-05,32
+Los Ríos,2020-04-05,10
+Los Lagos,2020-04-05,17
+Aysén,2020-04-05,1
+Magallanes,2020-04-05,18
+Total,2020-04-05,310
+Arica y Parinacota,2020-04-06,13
+Tarapacá,2020-04-06,1
+Antofagasta,2020-04-06,8
+Atacama,2020-04-06,0
+Coquimbo,2020-04-06,1
+Valparaíso,2020-04-06,7
+Metropolitana,2020-04-06,142
+O’Higgins,2020-04-06,1
+Maule,2020-04-06,5
+Ñuble,2020-04-06,49
+Biobío,2020-04-06,18
+Araucanía,2020-04-06,53
+Los Ríos,2020-04-06,5
+Los Lagos,2020-04-06,10
+Aysén,2020-04-06,0
+Magallanes,2020-04-06,31
+Total,2020-04-06,344
+Arica y Parinacota,2020-04-07,12
+Tarapacá,2020-04-07,2
+Antofagasta,2020-04-07,1
+Atacama,2020-04-07,1
+Coquimbo,2020-04-07,1
+Valparaíso,2020-04-07,16
+Metropolitana,2020-04-07,106
+O’Higgins,2020-04-07,0
+Maule,2020-04-07,0
+Ñuble,2020-04-07,48
+Biobío,2020-04-07,27
+Araucanía,2020-04-07,50
+Los Ríos,2020-04-07,5
+Los Lagos,2020-04-07,13
+Aysén,2020-04-07,0
+Magallanes,2020-04-07,19
+Total,2020-04-07,301
+Arica y Parinacota,2020-04-08,10
+Tarapacá,2020-04-08,3
+Antofagasta,2020-04-08,8
+Atacama,2020-04-08,2
+Coquimbo,2020-04-08,4
+Valparaíso,2020-04-08,11
+Metropolitana,2020-04-08,198
+O’Higgins,2020-04-08,1
+Maule,2020-04-08,11
+Ñuble,2020-04-08,39
+Biobío,2020-04-08,29
+Araucanía,2020-04-08,57
+Los Ríos,2020-04-08,5
+Los Lagos,2020-04-08,26
+Aysén,2020-04-08,0
+Magallanes,2020-04-08,26
+Total,2020-04-08,430
+Arica y Parinacota,2020-04-09,12
+Tarapacá,2020-04-09,3
+Antofagasta,2020-04-09,15
+Atacama,2020-04-09,2
+Coquimbo,2020-04-09,5
+Valparaíso,2020-04-09,5
+Metropolitana,2020-04-09,284
+O’Higgins,2020-04-09,1
+Maule,2020-04-09,9
+Ñuble,2020-04-09,10
+Biobío,2020-04-09,21
+Araucanía,2020-04-09,20
+Los Ríos,2020-04-09,4
+Los Lagos,2020-04-09,15
+Aysén,2020-04-09,0
+Magallanes,2020-04-09,20
+Total,2020-04-09,426
+Arica y Parinacota,2020-04-10,12
+Tarapacá,2020-04-10,6
+Antofagasta,2020-04-10,18
+Atacama,2020-04-10,3
+Coquimbo,2020-04-10,0
+Valparaíso,2020-04-10,11
+Metropolitana,2020-04-10,361
+O’Higgins,2020-04-10,0
+Maule,2020-04-10,3
+Ñuble,2020-04-10,18
+Biobío,2020-04-10,14
+Araucanía,2020-04-10,23
+Los Ríos,2020-04-10,6
+Los Lagos,2020-04-10,9
+Aysén,2020-04-10,0
+Magallanes,2020-04-10,45
+Total,2020-04-10,529
+Arica y Parinacota,2020-04-11,20
+Tarapacá,2020-04-11,3
+Antofagasta,2020-04-11,7
+Atacama,2020-04-11,0
+Coquimbo,2020-04-11,3
+Valparaíso,2020-04-11,7
+Metropolitana,2020-04-11,255
+O’Higgins,2020-04-11,1
+Maule,2020-04-11,3
+Ñuble,2020-04-11,17
+Biobío,2020-04-11,16
+Araucanía,2020-04-11,27
+Los Ríos,2020-04-11,6
+Los Lagos,2020-04-11,15
+Aysén,2020-04-11,0
+Magallanes,2020-04-11,46
+Total,2020-04-11,426
+Arica y Parinacota,2020-04-12,8
+Tarapacá,2020-04-12,8
+Antofagasta,2020-04-12,21
+Atacama,2020-04-12,0
+Coquimbo,2020-04-12,2
+Valparaíso,2020-04-12,6
+Metropolitana,2020-04-12,151
+O’Higgins,2020-04-12,1
+Maule,2020-04-12,4
+Ñuble,2020-04-12,7
+Biobío,2020-04-12,10
+Araucanía,2020-04-12,36
+Los Ríos,2020-04-12,5
+Los Lagos,2020-04-12,8
+Aysén,2020-04-12,0
+Magallanes,2020-04-12,19
+Total,2020-04-12,286
+Arica y Parinacota,2020-04-13,0
+Tarapacá,2020-04-13,6
+Antofagasta,2020-04-13,11
+Atacama,2020-04-13,0
+Coquimbo,2020-04-13,0
+Valparaíso,2020-04-13,19
+Metropolitana,2020-04-13,204
+O’Higgins,2020-04-13,2
+Maule,2020-04-13,3
+Ñuble,2020-04-13,5
+Biobío,2020-04-13,12
+Araucanía,2020-04-13,20
+Los Ríos,2020-04-13,3
+Los Lagos,2020-04-13,8
+Aysén,2020-04-13,0
+Magallanes,2020-04-13,19
+Total,2020-04-13,312
+Arica y Parinacota,2020-04-14,5
+Tarapacá,2020-04-14,10
+Antofagasta,2020-04-14,6
+Atacama,2020-04-14,0
+Coquimbo,2020-04-14,0
+Valparaíso,2020-04-14,12
+Metropolitana,2020-04-14,283
+O’Higgins,2020-04-14,5
+Maule,2020-04-14,1
+Ñuble,2020-04-14,4
+Biobío,2020-04-14,16
+Araucanía,2020-04-14,21
+Los Ríos,2020-04-14,10
+Los Lagos,2020-04-14,5
+Aysén,2020-04-14,0
+Magallanes,2020-04-14,14
+Total,2020-04-14,392
+Arica y Parinacota,2020-04-15,4
+Tarapacá,2020-04-15,0
+Antofagasta,2020-04-15,21
+Atacama,2020-04-15,0
+Coquimbo,2020-04-15,0
+Valparaíso,2020-04-15,14
+Metropolitana,2020-04-15,248
+O’Higgins,2020-04-15,1
+Maule,2020-04-15,10
+Ñuble,2020-04-15,12
+Biobío,2020-04-15,14
+Araucanía,2020-04-15,10
+Los Ríos,2020-04-15,2
+Los Lagos,2020-04-15,5
+Aysén,2020-04-15,0
+Magallanes,2020-04-15,15
+Total,2020-04-15,356
+Arica y Parinacota,2020-04-16,5
+Tarapacá,2020-04-16,4
+Antofagasta,2020-04-16,16
+Atacama,2020-04-16,0
+Coquimbo,2020-04-16,2
+Valparaíso,2020-04-16,31
+Metropolitana,2020-04-16,348
+O’Higgins,2020-04-16,0
+Maule,2020-04-16,15
+Ñuble,2020-04-16,5
+Biobío,2020-04-16,17
+Araucanía,2020-04-16,56
+Los Ríos,2020-04-16,3
+Los Lagos,2020-04-16,9
+Aysén,2020-04-16,0
+Magallanes,2020-04-16,23
+Total,2020-04-16,534
+Arica y Parinacota,2020-04-17,5
+Tarapacá,2020-04-17,7
+Antofagasta,2020-04-17,19
+Atacama,2020-04-17,0
+Coquimbo,2020-04-17,0
+Valparaíso,2020-04-17,15
+Metropolitana,2020-04-17,233
+O’Higgins,2020-04-17,1
+Maule,2020-04-17,56
+Ñuble,2020-04-17,17
+Biobío,2020-04-17,19
+Araucanía,2020-04-17,25
+Los Ríos,2020-04-17,1
+Los Lagos,2020-04-17,13
+Aysén,2020-04-17,0
+Magallanes,2020-04-17,34
+Total,2020-04-17,445
+Arica y Parinacota,2020-04-18,8
+Tarapacá,2020-04-18,8
+Antofagasta,2020-04-18,15
+Atacama,2020-04-18,0
+Coquimbo,2020-04-18,0
+Valparaíso,2020-04-18,14
+Metropolitana,2020-04-18,277
+O’Higgins,2020-04-18,0
+Maule,2020-04-18,53
+Ñuble,2020-04-18,11
+Biobío,2020-04-18,28
+Araucanía,2020-04-18,37
+Los Ríos,2020-04-18,2
+Los Lagos,2020-04-18,4
+Aysén,2020-04-18,0
+Magallanes,2020-04-18,21
+Total,2020-04-18,478
+Arica y Parinacota,2020-04-19,3
+Tarapacá,2020-04-19,9
+Antofagasta,2020-04-19,23
+Atacama,2020-04-19,0
+Coquimbo,2020-04-19,0
+Valparaíso,2020-04-19,22
+Metropolitana,2020-04-19,189
+O’Higgins,2020-04-19,0
+Maule,2020-04-19,26
+Ñuble,2020-04-19,11
+Biobío,2020-04-19,10
+Araucanía,2020-04-19,28
+Los Ríos,2020-04-19,1
+Los Lagos,2020-04-19,5
+Aysén,2020-04-19,0
+Magallanes,2020-04-19,31
+Total,2020-04-19,358
+Arica y Parinacota,2020-04-20,16
+Tarapacá,2020-04-20,3
+Antofagasta,2020-04-20,14
+Atacama,2020-04-20,0
+Coquimbo,2020-04-20,1
+Valparaíso,2020-04-20,7
+Metropolitana,2020-04-20,262
+O’Higgins,2020-04-20,1
+Maule,2020-04-20,2
+Ñuble,2020-04-20,9
+Biobío,2020-04-20,10
+Araucanía,2020-04-20,73
+Los Ríos,2020-04-20,5
+Los Lagos,2020-04-20,3
+Aysén,2020-04-20,0
+Magallanes,2020-04-20,13
+Total,2020-04-20,419
+Arica y Parinacota,2020-04-21,9
+Tarapacá,2020-04-21,11
+Antofagasta,2020-04-21,28
+Atacama,2020-04-21,0
+Coquimbo,2020-04-21,0
+Valparaíso,2020-04-21,15
+Metropolitana,2020-04-21,145
+O’Higgins,2020-04-21,1
+Maule,2020-04-21,12
+Ñuble,2020-04-21,7
+Biobío,2020-04-21,10
+Araucanía,2020-04-21,47
+Los Ríos,2020-04-21,5
+Los Lagos,2020-04-21,8
+Aysén,2020-04-21,0
+Magallanes,2020-04-21,27
+Total,2020-04-21,325
+Arica y Parinacota,2020-04-22,10
+Tarapacá,2020-04-22,10
+Antofagasta,2020-04-22,35
+Atacama,2020-04-22,0
+Coquimbo,2020-04-22,1
+Valparaíso,2020-04-22,18
+Metropolitana,2020-04-22,295
+O’Higgins,2020-04-22,2
+Maule,2020-04-22,12
+Ñuble,2020-04-22,9
+Biobío,2020-04-22,22
+Araucanía,2020-04-22,21
+Los Ríos,2020-04-22,4
+Los Lagos,2020-04-22,13
+Aysén,2020-04-22,0
+Magallanes,2020-04-22,12
+Total,2020-04-22,464
+Arica y Parinacota,2020-04-23,30
+Tarapacá,2020-04-23,14
+Antofagasta,2020-04-23,14
+Atacama,2020-04-23,5
+Coquimbo,2020-04-23,0
+Valparaíso,2020-04-23,8
+Metropolitana,2020-04-23,351
+O’Higgins,2020-04-23,17
+Maule,2020-04-23,5
+Ñuble,2020-04-23,5
+Biobío,2020-04-23,17
+Araucanía,2020-04-23,29
+Los Ríos,2020-04-23,2
+Los Lagos,2020-04-23,9
+Aysén,2020-04-23,0
+Magallanes,2020-04-23,10
+Total,2020-04-23,516
+Arica y Parinacota,2020-04-24,29
+Tarapacá,2020-04-24,6
+Antofagasta,2020-04-24,26
+Atacama,2020-04-24,3
+Coquimbo,2020-04-24,2
+Valparaíso,2020-04-24,7
+Metropolitana,2020-04-24,327
+O’Higgins,2020-04-24,5
+Maule,2020-04-24,16
+Ñuble,2020-04-24,7
+Biobío,2020-04-24,8
+Araucanía,2020-04-24,42
+Los Ríos,2020-04-24,1
+Los Lagos,2020-04-24,6
+Aysén,2020-04-24,0
+Magallanes,2020-04-24,9
+Total,2020-04-24,494
+Arica y Parinacota,2020-04-25,6
+Tarapacá,2020-04-25,9
+Antofagasta,2020-04-25,25
+Atacama,2020-04-25,3
+Coquimbo,2020-04-25,1
+Valparaíso,2020-04-25,18
+Metropolitana,2020-04-25,404
+O’Higgins,2020-04-25,4
+Maule,2020-04-25,1
+Ñuble,2020-04-25,10
+Biobío,2020-04-25,13
+Araucanía,2020-04-25,19
+Los Ríos,2020-04-25,3
+Los Lagos,2020-04-25,5
+Aysén,2020-04-25,0
+Magallanes,2020-04-25,31
+Total,2020-04-25,552
+Arica y Parinacota,2020-04-26,7
+Tarapacá,2020-04-26,13
+Antofagasta,2020-04-26,52
+Atacama,2020-04-26,5
+Coquimbo,2020-04-26,0
+Valparaíso,2020-04-26,6
+Metropolitana,2020-04-26,331
+O’Higgins,2020-04-26,7
+Maule,2020-04-26,4
+Ñuble,2020-04-26,6
+Biobío,2020-04-26,7
+Araucanía,2020-04-26,13
+Los Ríos,2020-04-26,1
+Los Lagos,2020-04-26,8
+Aysén,2020-04-26,0
+Magallanes,2020-04-26,13
+Total,2020-04-26,473
+Arica y Parinacota,2020-04-27,13
+Tarapacá,2020-04-27,8
+Antofagasta,2020-04-27,14
+Atacama,2020-04-27,6
+Coquimbo,2020-04-27,1
+Valparaíso,2020-04-27,25
+Metropolitana,2020-04-27,362
+O’Higgins,2020-04-27,2
+Maule,2020-04-27,9
+Ñuble,2020-04-27,10
+Biobío,2020-04-27,3
+Araucanía,2020-04-27,20
+Los Ríos,2020-04-27,2
+Los Lagos,2020-04-27,4
+Aysén,2020-04-27,0
+Magallanes,2020-04-27,3
+Total,2020-04-27,482
+Arica y Parinacota,2020-04-28,3
+Tarapacá,2020-04-28,5
+Antofagasta,2020-04-28,24
+Atacama,2020-04-28,0
+Coquimbo,2020-04-28,0
+Valparaíso,2020-04-28,8
+Metropolitana,2020-04-28,442
+O’Higgins,2020-04-28,3
+Maule,2020-04-28,21
+Ñuble,2020-04-28,6
+Biobío,2020-04-28,3
+Araucanía,2020-04-28,15
+Los Ríos,2020-04-28,0
+Los Lagos,2020-04-28,0
+Aysén,2020-04-28,0
+Magallanes,2020-04-28,22
+Total,2020-04-28,552
+Arica y Parinacota,2020-04-29,4
+Tarapacá,2020-04-29,14
+Antofagasta,2020-04-29,33
+Atacama,2020-04-29,7
+Coquimbo,2020-04-29,2
+Valparaíso,2020-04-29,33
+Metropolitana,2020-04-29,589
+O’Higgins,2020-04-29,7
+Maule,2020-04-29,8
+Ñuble,2020-04-29,14
+Biobío,2020-04-29,10
+Araucanía,2020-04-29,22
+Los Ríos,2020-04-29,2
+Los Lagos,2020-04-29,4
+Aysén,2020-04-29,0
+Magallanes,2020-04-29,21
+Total,2020-04-29,770
+Arica y Parinacota,2020-04-30,7
+Tarapacá,2020-04-30,15
+Antofagasta,2020-04-30,32
+Atacama,2020-04-30,1
+Coquimbo,2020-04-30,0
+Valparaíso,2020-04-30,33
+Metropolitana,2020-04-30,736
+O’Higgins,2020-04-30,4
+Maule,2020-04-30,1
+Ñuble,2020-04-30,7
+Biobío,2020-04-30,8
+Araucanía,2020-04-30,20
+Los Ríos,2020-04-30,7
+Los Lagos,2020-04-30,6
+Aysén,2020-04-30,0
+Magallanes,2020-04-30,11
+Total,2020-04-30,888
+Arica y Parinacota,2020-05-01,18
+Tarapacá,2020-05-01,2
+Antofagasta,2020-05-01,43
+Atacama,2020-05-01,0
+Coquimbo,2020-05-01,1
+Valparaíso,2020-05-01,9
+Metropolitana,2020-05-01,891
+O’Higgins,2020-05-01,1
+Maule,2020-05-01,1
+Ñuble,2020-05-01,0
+Biobío,2020-05-01,2
+Araucanía,2020-05-01,2
+Los Ríos,2020-05-01,0
+Los Lagos,2020-05-01,14
+Aysén,2020-05-01,0
+Magallanes,2020-05-01,1
+Total,2020-05-01,985
+Arica y Parinacota,2020-05-02,10
+Tarapacá,2020-05-02,12
+Antofagasta,2020-05-02,90
+Atacama,2020-05-02,16
+Coquimbo,2020-05-02,1
+Valparaíso,2020-05-02,46
+Metropolitana,2020-05-02,1145
+O’Higgins,2020-05-02,11
+Maule,2020-05-02,2
+Ñuble,2020-05-02,8
+Biobío,2020-05-02,22
+Araucanía,2020-05-02,19
+Los Ríos,2020-05-02,7
+Los Lagos,2020-05-02,12
+Aysén,2020-05-02,0
+Magallanes,2020-05-02,26
+Total,2020-05-02,1427
+Arica y Parinacota,2020-05-03,1
+Tarapacá,2020-05-03,60
+Antofagasta,2020-05-03,61
+Atacama,2020-05-03,8
+Coquimbo,2020-05-03,10
+Valparaíso,2020-05-03,24
+Metropolitana,2020-05-03,995
+O’Higgins,2020-05-03,5
+Maule,2020-05-03,1
+Ñuble,2020-05-03,10
+Biobío,2020-05-03,8
+Araucanía,2020-05-03,14
+Los Ríos,2020-05-03,2
+Los Lagos,2020-05-03,4
+Aysén,2020-05-03,0
+Magallanes,2020-05-03,25
+Total,2020-05-03,1228
+Arica y Parinacota,2020-05-04,0
+Tarapacá,2020-05-04,23
+Antofagasta,2020-05-04,20
+Atacama,2020-05-04,3
+Coquimbo,2020-05-04,3
+Valparaíso,2020-05-04,18
+Metropolitana,2020-05-04,872
+O’Higgins,2020-05-04,6
+Maule,2020-05-04,2
+Ñuble,2020-05-04,1
+Biobío,2020-05-04,3
+Araucanía,2020-05-04,3
+Los Ríos,2020-05-04,1
+Los Lagos,2020-05-04,7
+Aysén,2020-05-04,0
+Magallanes,2020-05-04,18
+Total,2020-05-04,980
+Arica y Parinacota,2020-05-05,7
+Tarapacá,2020-05-05,27
+Antofagasta,2020-05-05,51
+Atacama,2020-05-05,8
+Coquimbo,2020-05-05,6
+Valparaíso,2020-05-05,31
+Metropolitana,2020-05-05,1179
+O’Higgins,2020-05-05,5
+Maule,2020-05-05,9
+Ñuble,2020-05-05,2
+Biobío,2020-05-05,12
+Araucanía,2020-05-05,21
+Los Ríos,2020-05-05,0
+Los Lagos,2020-05-05,1
+Aysén,2020-05-05,0
+Magallanes,2020-05-05,14
+Total,2020-05-05,1317
+Arica y Parinacota,2020-05-06,3
+Tarapacá,2020-05-06,17
+Antofagasta,2020-05-06,44
+Atacama,2020-05-06,2
+Coquimbo,2020-05-06,0
+Valparaíso,2020-05-06,29
+Metropolitana,2020-05-06,875
+O’Higgins,2020-05-06,9
+Maule,2020-05-06,0
+Ñuble,2020-05-06,2
+Biobío,2020-05-06,15
+Araucanía,2020-05-06,10
+Los Ríos,2020-05-06,1
+Los Lagos,2020-05-06,16
+Aysén,2020-05-06,0
+Magallanes,2020-05-06,9
+Total,2020-05-06,1032
+Arica y Parinacota,2020-05-07,7
+Tarapacá,2020-05-07,78
+Antofagasta,2020-05-07,40
+Atacama,2020-05-07,7
+Coquimbo,2020-05-07,3
+Valparaíso,2020-05-07,65
+Metropolitana,2020-05-07,1246
+O’Higgins,2020-05-07,6
+Maule,2020-05-07,6
+Ñuble,2020-05-07,2
+Biobío,2020-05-07,25
+Araucanía,2020-05-07,23
+Los Ríos,2020-05-07,2
+Los Lagos,2020-05-07,4
+Aysén,2020-05-07,1
+Magallanes,2020-05-07,18
+Total,2020-05-07,1533
+Arica y Parinacota,2020-05-08,2
+Tarapacá,2020-05-08,42
+Antofagasta,2020-05-08,28
+Atacama,2020-05-08,1
+Coquimbo,2020-05-08,11
+Valparaíso,2020-05-08,47
+Metropolitana,2020-05-08,1151
+O’Higgins,2020-05-08,16
+Maule,2020-05-08,11
+Ñuble,2020-05-08,1
+Biobío,2020-05-08,28
+Araucanía,2020-05-08,18
+Los Ríos,2020-05-08,1
+Los Lagos,2020-05-08,3
+Aysén,2020-05-08,0
+Magallanes,2020-05-08,31
+Total,2020-05-08,1391
+Arica y Parinacota,2020-05-09,10
+Tarapacá,2020-05-09,26
+Antofagasta,2020-05-09,24
+Atacama,2020-05-09,29
+Coquimbo,2020-05-09,18
+Valparaíso,2020-05-09,50
+Metropolitana,2020-05-09,978
+O’Higgins,2020-05-09,15
+Maule,2020-05-09,7
+Ñuble,2020-05-09,7
+Biobío,2020-05-09,40
+Araucanía,2020-05-09,15
+Los Ríos,2020-05-09,3
+Los Lagos,2020-05-09,11
+Aysén,2020-05-09,0
+Magallanes,2020-05-09,14
+Total,2020-05-09,1247
+Arica y Parinacota,2020-05-10,3
+Tarapacá,2020-05-10,35
+Antofagasta,2020-05-10,31
+Atacama,2020-05-10,7
+Coquimbo,2020-05-10,6
+Valparaíso,2020-05-10,55
+Metropolitana,2020-05-10,1396
+O’Higgins,2020-05-10,13
+Maule,2020-05-10,9
+Ñuble,2020-05-10,11
+Biobío,2020-05-10,17
+Araucanía,2020-05-10,36
+Los Ríos,2020-05-10,0
+Los Lagos,2020-05-10,16
+Aysén,2020-05-10,0
+Magallanes,2020-05-10,12
+Total,2020-05-10,1647
+Arica y Parinacota,2020-05-11,11
+Tarapacá,2020-05-11,27
+Antofagasta,2020-05-11,36
+Atacama,2020-05-11,9
+Coquimbo,2020-05-11,5
+Valparaíso,2020-05-11,37
+Metropolitana,2020-05-11,964
+O’Higgins,2020-05-11,21
+Maule,2020-05-11,13
+Ñuble,2020-05-11,2
+Biobío,2020-05-11,33
+Araucanía,2020-05-11,12
+Los Ríos,2020-05-11,2
+Los Lagos,2020-05-11,17
+Aysén,2020-05-11,0
+Magallanes,2020-05-11,8
+Total,2020-05-11,1197
+Arica y Parinacota,2020-05-12,0
+Tarapacá,2020-05-12,31
+Antofagasta,2020-05-12,95
+Atacama,2020-05-12,1
+Coquimbo,2020-05-12,8
+Valparaíso,2020-05-12,59
+Metropolitana,2020-05-12,1392
+O’Higgins,2020-05-12,8
+Maule,2020-05-12,12
+Ñuble,2020-05-12,12
+Biobío,2020-05-12,10
+Araucanía,2020-05-12,16
+Los Ríos,2020-05-12,3
+Los Lagos,2020-05-12,2
+Aysén,2020-05-12,0
+Magallanes,2020-05-12,9
+Total,2020-05-12,1658
+Arica y Parinacota,2020-05-13,8
+Tarapacá,2020-05-13,37
+Antofagasta,2020-05-13,107
+Atacama,2020-05-13,5
+Coquimbo,2020-05-13,5
+Valparaíso,2020-05-13,94
+Metropolitana,2020-05-13,2256
+O’Higgins,2020-05-13,24
+Maule,2020-05-13,19
+Ñuble,2020-05-13,13
+Biobío,2020-05-13,33
+Araucanía,2020-05-13,13
+Los Ríos,2020-05-13,1
+Los Lagos,2020-05-13,34
+Aysén,2020-05-13,0
+Magallanes,2020-05-13,11
+Total,2020-05-13,2660
