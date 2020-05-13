@@ -104,7 +104,11 @@ def prod15Nuevo(fte, prod):
     data = []
     for file in glob.glob(fte + '/*FechaInicioSintomas.csv'):
         date = re.search("\d{4}-\d{2}-\d{2}", file).group(0)
-        df = pd.read_csv(file, sep=",", encoding="utf-8")
+        df = pd.read_csv(file, sep=",", encoding="utf-8", dtype={'Codigo region': object, 'Codigo comuna': object})
+        df.dropna(how='all', inplace=True)
+        # Drop filas de totales por region
+        todrop = df.loc[df['Comuna'] == 'Total']
+        df.drop(todrop.index, inplace=True)
         # Hay semanas epi que se llam S en vez de SE
         for eachColumn in list(df):
             if re.search("S\d{2}", eachColumn):
@@ -114,11 +118,30 @@ def prod15Nuevo(fte, prod):
         #df['Publicacion'] = date
         df.insert(loc=5, column='Publicacion', value=date)
         data.append(df)
+
+    #normalization
     data = pd.concat(data)
     data = data.fillna(0)
+    utils.regionName(data)
     data.to_csv(prod + '_std.csv', index=False)
-    dataT = data.transpose()
-    dataT.to_csv(prod + '_T.csv', header=False)
+
+    #create old prod 15 from latest adition
+    latest = max(data['Publicacion'])
+    print(latest)
+    latestdf =df.loc[df['Publicacion'] == latest]
+    latestdf.drop(['Publicacion'], axis=1, inplace=True)
+    latestdf.to_csv(prod.replace('Historico', '.csv'), index=False)
+
+    df_t = latestdf.T
+    df_t.to_csv(prod.replace('Historico', '_T.csv'), header=False)
+
+    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+    variables = [x for x in latestdf.columns if x not in identifiers]
+    df_std = pd.melt(latestdf, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+                     value_name='Casos confirmados')
+    df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
+
+
 
 
 def prod16(fte, producto):
@@ -187,10 +210,10 @@ if __name__ == '__main__':
     print('Generando producto 6')
     exec(open('bulk_producto2.py').read())
 
-    prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
+    #prod15('../input/InformeEpidemiologico/FechaInicioSintomas.csv', '../output/producto15/FechaInicioSintomas')
 
     print('Generando producto 15')
-    prod15Nuevo('../HistoriaProducto15', '../output/producto15/FechaInicioSintomasHistorico')
+    prod15Nuevo('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
