@@ -65,9 +65,9 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 30 - Pacientes en Ventilación Mecánica Intensiva confirmados con COVID-19](output/producto30): Set de 3 archivos en formato csv que da cuenta del número de paciente conectados a ventilación mecánica invasiva y que son casos confirmados por COVID-19. Se concatena la historia de reportes diarios publicados por el Ministerio de Salud del país. [Ver Más](output/producto30)
 
-[Data Product 31 - Nacimientos en Chile](output/producto31): Set de 3 archivos en formato csv que dan cuenta del número de Nacimientos inscritos en el Resgisto Civil de Chile, desde el 2010 a la fecha, actualizados diariamente. [Ver Más](output/producto31)
+[Data Product 31 - Nacimientos en Chile](output/producto31): Set de 3 archivos en formato csv que dan cuenta del número de Nacimientos inscritos en el Registro Civil de Chile, desde el 2010 a la fecha, actualizados diariamente. [Ver Más](output/producto31)
 
-[Data Product 32 - Defunciones en Chile](output/producto32): Set de 3 archivos en formato csv que dan cuenta del número de Defunciones inscritas en el Resgisto Civil de Chile, desde el 2010 a la fecha, actualizadas diariamente. [Ver Más](output/producto32)
+[Data Product 32 - Defunciones en Chile](output/producto32): Set de 3 archivos en formato csv que dan cuenta del número de Defunciones inscritas en el Registro Civil de Chile, desde el 2010 a la fecha, actualizadas diariamente. [Ver Más](output/producto32)
 
 
 ## ¿Cómo funciona?
