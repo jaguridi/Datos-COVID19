@@ -127,6 +127,7 @@ def prod15Nuevo(fte, prod):
     data = pd.concat(data)
     data = data.fillna(0)
     utils.regionName(data)
+    data.sort_values(['Publicacion','Region'], ascending=[True, True], inplace=True )
     data.to_csv(prod + '.csv', index=False)
     identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
     variables = [x for x in data.columns if x not in identifiers]
