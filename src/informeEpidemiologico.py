@@ -266,29 +266,26 @@ def prod28Nuevo(fte, prod):
 
 if __name__ == '__main__':
 
-    #prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
+    prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
 
-    #prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
+    prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
 
     print('Generando producto 6')
-    #exec(open('bulk_producto2.py').read())
-
+    exec(open('bulk_producto2.py').read())
 
     print('Generando producto 15')
-    #prod15Nuevo('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
+    prod15Nuevo('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
 
-    #prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
+    prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
 
     print('Generando producto 18')
-    #prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
+    prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
 
     print('Generando producto 19')
-    #prod19_25('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
+    prod19_25('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
 
     print('Generando producto 25')
-    #prod19_25('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
-
-    #prod28('../input/InformeEpidemiologico/FechaInicioSintomas_reportadosSEREMI.csv', '../output/producto28/FechaInicioSintomas_reportadosSEREMI')
+    prod19_25('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
 
     print('Generando producto 28')
     prod28Nuevo('../input/InformeEpidemiologico/', '../output/producto28/FechaInicioSintomas_reportadosSEREMIHistorico')
