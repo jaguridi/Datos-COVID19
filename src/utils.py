@@ -30,10 +30,21 @@ import pandas as pd
 
 def regionName(df):
     df["Region"] = df["Region"].replace({"Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
-                                         "Del Libertador General Bernardo O’Higgins": "O’Higgins", "Nuble": "Ñuble",
-                                         "Biobio": "Biobío", "La Araucania": "Araucanía", "Los Rios": "Los Ríos",
-                                         "Aysen": "Aysén", "Magallanes y la Antartica": "Magallanes"
+                                         "Región Metropolitana de Santiago": "Metropolitana",
+                                         "Del Libertador General Bernardo O’Higgins": "O’Higgins",
+                                         "Libertador General Bernardo OHiggins": "O’Higgins",
+                                         "Nuble": "Ñuble",
+                                         "Biobio": "Biobío", "Concepción": "Biobío",
+                                         "La Araucania": "Araucanía", "la Araucanía": "Araucanía",
+                                         "Los Rios": "Los Ríos", "de Los Ríos": "Los Ríos",
+                                         "Aysen": "Aysén", "Aysén del General Carlos Ibañez del Campo": "Aysén",
+                                         "Magallanes y la Antartica": "Magallanes",
+                                         "Magallanes y de la Antártica Chilena": "Magallanes"
                                          })
+
+def regionNameRegex(df):
+    df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región de ', value=r'')
+    df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región del ', value=r'')
 
 def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)
