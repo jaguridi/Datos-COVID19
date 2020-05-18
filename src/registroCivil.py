@@ -266,4 +266,6 @@ if __name__ == '__main__':
     else:
         URL = 'https://api.sed.srcei.cl/api/estadistica/'
 
-        APIupdate(URL, '../output/producto31/')APIupdate(URL, '../output/producto32/')
+        APIupdate(URL, '../output/producto31/')
+
+        APIupdate(URL, '../output/producto32/')
