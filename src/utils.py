@@ -26,7 +26,7 @@ SOFTWARE.
 Utilidades genéricas
 """
 import pandas as pd
-
+import re
 
 def regionName(df):
     df["Region"] = df["Region"].replace({"Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
@@ -45,6 +45,28 @@ def regionName(df):
 def regionNameRegex(df):
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región de ', value=r'')
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región del ', value=r'')
+
+def insertCodigoRegion(df):
+    # standards:
+    df["Comuna"] = df["Comuna"].replace({"Coyhaique": "Coihaique", "Paihuano": "paiguano"})
+
+    # Lee IDs de comunas desde página web oficial de SUBDERE
+    df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/cut_2018_v03.xls",
+                                   encoding="utf-8")
+
+    # Crea columna sin tildes, para hacer merge con datos publicados
+    #df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")
+    df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD")\
+        .str.encode("ascii", errors="ignore").str.decode("utf-8").str.lower().str.replace(' ', '')
+
+
+    df["Comuna"] = df["Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")\
+        .str.lower().str.replace(' ', '')
+
+    #df = df.merge(df_dim_comunas, on="Comuna", how="outer")
+    df = df.merge(df_dim_comunas, on="Comuna", how="inner")
+    return df
+
 
 def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)
