@@ -31,7 +31,28 @@ import pandas as pd
 import glob
 import numpy as np
 from  utils import *
+import requests
+import datetime as dt
+import io
 
+def normalizeRegCivDF(df):
+    # rename columns
+    df.rename(columns={'REGION': 'Region', 'COMUNA': 'Comuna'}, inplace=True)
+    # title case => Title Case
+    df['Comuna'] = df['Comuna'].str.title()
+    regionNameRegex(df)
+    regionName(df)
+
+    # zero pad fechas
+    df['MES'] = df['MES'].astype(str).apply(lambda x: x.zfill(2))
+    df['DIA'] = df['DIA'].astype(str).apply(lambda x: x.zfill(2))
+    # standard fecha
+    df["Fecha"] = df["AÑO"].astype(str) + '-' + df["MES"].astype(str) + '-' + df["DIA"].astype(str)
+    df = df.drop(columns={'AÑO', 'MES', 'DIA'})
+    # handle duplicates
+    df['TOTAL'] = df.groupby(['Region', 'Comuna', 'Fecha'])['TOTAL'].transform('sum')
+    df.drop_duplicates(inplace=True)
+    return df
 
 
 def prod31_32(fte,prod):
@@ -126,9 +147,114 @@ def prod31_32(fte,prod):
 
     data_t.to_csv(prod + outputPrefix + '_T.csv')
 
-if __name__ == '__main__':
-    print('Generando el producto 31')
-    prod31_32('../input/RegistroCivil/', '../output/producto31/')
+def APIupdate(URL, prod):
+    # check if we're on nacimientos or defunciones and when was the last update to the files
+    suffix = ''
+    outputPrefix = ''
+    if 'producto31' in prod:
+        print('Actualizando el producto 31')
+        suffix = 'nacimiento'
+        outputPrefix = 'Nacimientos'
+        fileName = prod + '/Nacimientos_std.csv'
+    elif 'producto32' in prod:
+        print('Actualizando el producto 32')
+        suffix = 'defuncion'
+        outputPrefix = 'Defunciones'
+        fileName = prod + '/Defunciones_std.csv'
 
-    print('Generando el producto 32')
-    prod31_32('../input/RegistroCivil/', '../output/producto32/')
+    df = pd.read_csv(fileName)
+    print(list(df))
+    # should add 1 day after max fecha to avoid duplications
+    lastDate = max(df['Fecha'])
+    lastDate_as_date = dt.datetime.strptime(lastDate, "%Y-%m-%d")
+    lastDate = lastDate_as_date + dt.timedelta(days=1)
+    lastDate = dt.datetime.strftime(lastDate, "%Y-%m-%d")
+    now = dt.datetime.today().strftime("%Y-%m-%d")
+    if (lastDate == now):
+        print("Todo esta actualizado. No hacemos nada")
+        # return 0
+    print(lastDate)
+    print(now)
+    # get the xlsx from the API
+    headers = {
+        'Content-Type': 'application/json',
+        'Origin': URL.replace('/api/estadistica/', ''),
+        'Connection': 'keep-alive',
+    }
+    myData = {
+        "startdate": lastDate,
+        "enddate": now
+    }
+    call = URL + suffix + '/getXlsxAllComunas'
+    response = requests.post(call, headers=headers, json=myData)
+    xlsx = io.BytesIO(response.content)
+
+    # load the API to a DF
+    df2 = pd.read_excel(xlsx)
+    df2 = normalizeRegCivDF(df2)
+    if 'nacimiento' in suffix:
+        df2.rename(columns={'TOTAL': 'Nacimientos'}, inplace=True)
+        # data.append(df)
+    elif 'defuncion' in suffix:
+        df2.rename(columns={'TOTAL': 'Defunciones'}, inplace=True)
+        # data.append(df)
+
+    print(df2.size)
+    print(df.size)
+    data = []
+    data.append(df)
+    data.append(df2)
+    data = pd.concat(data)
+    print(data.size)
+
+    # Custom sort
+    data['Region'] = pd.Categorical(data['Region'],
+                                    ["Arica y Parinacota",
+                                     "Tarapacá",
+                                     "Antofagasta",
+                                     "Atacama",
+                                     "Coquimbo",
+                                     "Valparaíso",
+                                     "Metropolitana",
+                                     "O’Higgins",
+                                     "Maule",
+                                     "Ñuble",
+                                     "Biobío",
+                                     "Araucanía",
+                                     "Los Ríos",
+                                     "Los Lagos",
+                                     "Aysén",
+                                     "Magallanes",
+                                     ])
+
+    data.to_csv(prod + outputPrefix + '_std.csv', index=False)
+
+    reshaped = pd.pivot_table(data, index=['Region', 'Comuna'], columns=['Fecha'], values=outputPrefix)
+    reshaped.fillna(0, inplace=True)
+    reshaped = reshaped.applymap(np.int64)
+    reshaped.to_csv(prod + outputPrefix + '.csv')
+
+    data_t = reshaped.transpose()
+
+    data_t.index.rename('', inplace=True)
+
+    data_t.to_csv(prod + outputPrefix + '_T.csv')
+
+if __name__ == '__main__':
+    bulk = False
+
+    if bulk:
+        # hay que obtener los xls a mano para generar en bulk.
+        print('Generando el producto 31')
+        prod31_32('../input/RegistroCivil/', '../output/producto31/')
+
+        print('Generando el producto 32')
+        prod31_32('../input/RegistroCivil/', '../output/producto32/')
+    else:
+        URL = 'https://api.sed.srcei.cl/api/estadistica/'
+
+        print('Actualizando el producto 31')
+        APIupdate(URL, '../output/producto31/')
+
+        print('Actualizando el producto 32')
+        APIupdate(URL, '../output/producto32/')
