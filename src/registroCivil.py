@@ -251,6 +251,7 @@ if __name__ == '__main__':
         print('Generando el producto 32')
         prod31_32('../input/RegistroCivil/', '../output/producto32/')
     else:
+        URL = 'https://api.sed.srcei.cl/api/estadistica/'
 
         print('Actualizando el producto 31')
         APIupdate(URL, '../output/producto31/')
