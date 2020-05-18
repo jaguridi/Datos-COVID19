@@ -46,6 +46,50 @@ def regionNameRegex(df):
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región de ', value=r'')
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región del ', value=r'')
 
+def insertCodigoRegion(df):
+    # Lee IDs de comunas desde página web oficial de SUBDERE
+    df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/cut_2018_v03.xls",
+                                   encoding="utf-8")
+
+    # Crea columna sin tildes, para hacer merge con datos publicados
+    #df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")
+    df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")
+
+    df = df.merge(df_dim_comunas, on="Comuna", how="outer")
+    return df
+
+def comunaName(df):
+    df["Comuna"] = df["Comuna"].replace({"Camina": "Camiña", "Ollague": "Ollagüe", "Maria Elena": "María Elena",
+                                         "Copiapo": "Copiapó", "Chanaral": "Chañaral", "Vicuna": "Vicuña",
+                                         "Combarbala": "Combarbalá", "Rio Hurtado": "Río Hurtado",
+                                         "Valparaiso": "Valparaíso", "Concon": "Concón",
+                                         "Juan Fernandez": "Juan Fernández", "Puchuncavi": "Puchuncaví",
+                                         "Vina del Mar": "Viña del Mar", "Santa Maria": "Santa María",
+                                         "Quilpue": "Quilpué", "Olmue": "Olmué", "Donihue": "Doñihue",
+                                         "Machali": "Machalí", "Requinoa": "Requínoa", "Chepica": "Chépica",
+                                         "Constitucion": "Constitución", "Rio Claro": "Río Claro", "Curico": "Curicó",
+                                         "Hualane": "Hualañé", "Licanten": "Licantén", "Vichuquen": "Vichuquén",
+                                         "Colbun": "Colbún", "Longavi": "Longaví", "Concepcion": "Concepción",
+                                         "Tome": "Tomé", "Canete": "Cañete", "Tirua": "Tirúa", "Mulchen": "Mulchén",
+                                         "Santa Barbara": "Santa Bárbara", "Alto Biobio": "Alto Biobío",
+                                         "Pitrufquen": "Pitrufquén", "Pucon": "Pucón", "Tolten": "Toltén",
+                                         "Vilcun": "Vilcún", "Curacautin": "Curacautín", "Puren": "Purén",
+                                         "Traiguen": "Traiguén", "Cochamo": "Cochamó", "Maullin": "Maullín",
+                                         "Curaco de Velez": "Curaco de Vélez", "Puqueldon": "Puqueldón",
+                                         "Queilen": "Queilén", "Quellon": "Quellón", "Rio Negro": "Río Negro",
+                                         "Chaiten": "Chaitén", "Futaleufu": "Futaleufú", "Hualaihue": "Hualaihué",
+                                         "Aisen": "Aisén", "Aysen": "Aisén", "OHiggins": "O'Higgins",
+                                         "Rio Ibanez": "Río Ibáñez", "Rio Verde": "Río Verde", "Antartica": "Antártica",
+                                         "Conchali": "Conchalí", "Estacion Central": "Estación Central",
+                                         "Maipu": "Maipú", "Nunoa": "Ñuñoa", "Penalolen": "Peñalolén",
+                                         "San Joaquin": "San Joaquín", "San Ramon": "San Ramón",
+                                         "San Jose de Maipo": "San José de Maipo", "Alhue": "Alhué",
+                                         "Curacavi": "Curacaví", "Maria Pinto": "María Pinto", "Penaflor": "Peñaflor",
+                                         "Mafil": "Máfil", "La Union": "La Unión", "Rio Bueno": "Río Bueno",
+                                         "Chillan": "Chillán", "Chillan Viejo": "Chillán Viejo", "Quillon": "Quillón",
+                                         "Niquen": "Ñiquén", "San Fabian": "San Fabián", "San Nicolas": "San Nicolás"
+                                         })
+
 def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)
     return(df.T)
