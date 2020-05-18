@@ -42,7 +42,6 @@ def normalizeRegCivDF(df):
     df['Comuna'] = df['Comuna'].str.title()
     regionNameRegex(df)
     regionName(df)
-    comunaName(df)
 
     # zero pad fechas
     df['MES'] = df['MES'].astype(str).apply(lambda x: x.zfill(2))
@@ -164,10 +163,8 @@ def APIupdate(URL, prod):
         fileName = prod + 'Defunciones_std.csv'
 
     df = pd.read_csv(fileName, dtype={'Codigo region': object, 'Codigo Comuna': object, 'Fecha': str})
-    print(fileName)
-    print(list(df))
+
     # should add 1 day after max fecha to avoid duplications
-    print((df['Fecha']))
     lastDate = max(df['Fecha'])
 
     lastDate_as_date = dt.datetime.strptime(lastDate, "%Y-%m-%d")
@@ -204,14 +201,10 @@ def APIupdate(URL, prod):
         elif 'defuncion' in suffix:
             df2.rename(columns={'TOTAL': 'Defunciones'}, inplace=True)
             # data.append(df)
-
-        print(df2.size)
-        print(df.size)
         data = []
         data.append(df)
         data.append(df2)
         data = pd.concat(data)
-        print(data.size)
 
         # Custom sort
         data['Region'] = pd.Categorical(data['Region'],
@@ -234,30 +227,34 @@ def APIupdate(URL, prod):
                                          ])
 
         # normalize all on data, but test on df as it's smaller
+        dfaux = insertCodigoRegion(df)
         if 'Nacimientos' in data.columns:
-            dfaux = insertCodigoRegion(data)
+            # Region,Comuna,Nacimientos,Fecha,Código Región,Nombre Región,Código Provincia,Nombre Provincia,Código Comuna 2017,Nombre Comuna
             data = dfaux[['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Nacimientos', 'Fecha']].copy()
 
-            data['Region'] = data['Nombre Región']
-            data['Codigo region'] = data['Código Región']
-            data['Comuna'] = data['Código Comuna 2017']
-            data.drop(columns={'Nombre Región', 'Código Región', 'Código Comuna 2017'}, inplace=True)
+        elif 'Defunciones' in data.columns:
+            data = dfaux[['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Defunciones', 'Fecha']].copy()
+
+        data.rename(columns={'Nombre Región': 'Region',
+                                 'Código Región': 'Codigo region',
+                                 'Nombre Comuna': 'Comuna',
+                                 'Código Comuna 2017': 'Codigo comuna'}, inplace=True)
 
         data.to_csv(prod + outputPrefix + '_std.csv', index=False)
 
-        # reshaped = pd.pivot_table(data, index=['Region', 'Comuna'], columns=['Fecha'], values=outputPrefix)
-        # reshaped.fillna(0, inplace=True)
-        # reshaped = reshaped.applymap(np.int64)
-        # reshaped.to_csv(prod + outputPrefix + '.csv')
-        #
-        # data_t = reshaped.transpose()
-        #
-        # data_t.index.rename('', inplace=True)
-        #
-        # data_t.to_csv(prod + outputPrefix + '_T.csv')
+        reshaped = pd.pivot_table(data, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'], values=outputPrefix)
+        reshaped.fillna(0, inplace=True)
+        reshaped = reshaped.applymap(np.int64)
+        reshaped.to_csv(prod + outputPrefix + '.csv')
+
+        data_t = reshaped.transpose()
+
+        data_t.index.rename('', inplace=True)
+
+        data_t.to_csv(prod + outputPrefix + '_T.csv')
 
 if __name__ == '__main__':
-    bulk = True
+    bulk = False
 
     if bulk:
         # hay que obtener los xls a mano para generar en bulk.
@@ -269,6 +266,4 @@ if __name__ == '__main__':
     else:
         URL = 'https://api.sed.srcei.cl/api/estadistica/'
 
-        APIupdate(URL, '../output/producto31/')
-
-        #APIupdate(URL, '../output/producto32/')
+        APIupdate(URL, '../output/producto31/')APIupdate(URL, '../output/producto32/')
