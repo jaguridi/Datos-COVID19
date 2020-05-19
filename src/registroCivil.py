@@ -181,7 +181,7 @@ def APIupdate(URL, prod):
 
     else:
         # registro civil inserts retroactively. So we must drop a subset of the table to make sure we're up to date
-        days_to_check = 7
+        days_to_check = 14
         retroactiveDate_as_date = now_as_date - dt.timedelta(days=days_to_check)
         retroactiveDate = dt.datetime.strftime(retroactiveDate_as_date, "%Y-%m-%d")
         print("Dropping data after " + retroactiveDate)
