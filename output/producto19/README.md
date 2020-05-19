@@ -24,4 +24,4 @@ Cada 2 a 3 días.
 
 **Nota aclaratoria 4:** Casos activos en este reporte (a diferencia del reporte en el [Producto 5](../producto5), corresponde al resultado de la investigación epidemiológica y considera activos a casos durante los primeros 14 días después de la fecha de inicio de sus síntomas.
 
-**Nota aclaratoria 5:** Los datos de poblacion provienen de las proyecciones estadísticas del INE, con base en el CENSO 2017 (para más detalles revisar https://www.ine.cl/estadisticas/sociales/demografia-y-vitales/proyecciones-de-poblacion).
+**Nota aclaratoria 5:** Los datos de población provienen de las proyecciones estadísticas del INE, con base en el CENSO 2017 (para más detalles revisar https://www.ine.cl/estadisticas/sociales/demografia-y-vitales/proyecciones-de-poblacion).

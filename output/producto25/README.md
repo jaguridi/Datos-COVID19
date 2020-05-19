@@ -24,4 +24,4 @@ Cada 2 a 3 días.
 
 **Nota aclaratoria 3:** Previo al 13 de abril del 2020, los informes epidemiológicos del Ministerio de Salud no entregaban datos sobre los casos confirmados actuales notificados en comunas.
 
-**Nota aclaratoria 4:** Los datos de poblacion provienen de las proyecciones estadísticas del INE, con base en el CENSO 2017 (para más detalles revisar https://www.ine.cl/estadisticas/sociales/demografia-y-vitales/proyecciones-de-poblacion).
+**Nota aclaratoria 4:** Los datos de población provienen de las proyecciones estadísticas del INE, con base en el CENSO 2017 (para más detalles revisar https://www.ine.cl/estadisticas/sociales/demografia-y-vitales/proyecciones-de-poblacion).
