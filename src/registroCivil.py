@@ -55,7 +55,7 @@ def normalizeRegCivDF(df):
     return df
 
 
-def prod31_32(fte,prod):
+def prod31_32(fte, prod):
     data = []
     outputPrefix = ''
 
@@ -173,11 +173,27 @@ def APIupdate(URL, prod):
     now = dt.datetime.today().strftime("%Y-%m-%d")
     now_as_date = dt.datetime.strptime(now, "%Y-%m-%d")
 
+
+
     if (lastDate_as_date >= now_as_date):
         print("Todo esta actualizado. No hacemos nada")
         return 0
 
     else:
+        # registro civil inserts retroactively. So we must drop a subset of the table to make sure we're up to date
+        days_to_check = 7
+        retroactiveDate_as_date = now_as_date - dt.timedelta(days=days_to_check)
+        retroactiveDate = dt.datetime.strftime(retroactiveDate_as_date, "%Y-%m-%d")
+        print("Dropping data after " + retroactiveDate)
+
+        df_toKeep = df[df['Fecha'] < retroactiveDate]
+        df_toDrop = df[df['Fecha'] >= retroactiveDate]
+        print(len(df_toKeep))
+        print(len(df_toDrop))
+        print(len(df))
+        df = df[df.Fecha < retroactiveDate]
+        print(len(df))
+
         # get the xlsx from the API
         headers = {
             'Content-Type': 'application/json',
@@ -185,7 +201,7 @@ def APIupdate(URL, prod):
             'Connection': 'keep-alive',
         }
         myData = {
-            "startdate": lastDate,
+            "startdate": retroactiveDate,
             "enddate": now
         }
         call = URL + suffix + '/getXlsxAllComunas'
@@ -197,10 +213,10 @@ def APIupdate(URL, prod):
         df2 = normalizeRegCivDF(df2)
         if 'nacimiento' in suffix:
             df2.rename(columns={'TOTAL': 'Nacimientos'}, inplace=True)
-            # data.append(df)
+
         elif 'defuncion' in suffix:
             df2.rename(columns={'TOTAL': 'Defunciones'}, inplace=True)
-            # data.append(df)
+
         data = []
         data.append(df)
         data.append(df2)
@@ -227,7 +243,7 @@ def APIupdate(URL, prod):
                                          ])
 
         # normalize all on data, but test on df as it's smaller
-        dfaux = insertCodigoRegion(df)
+        dfaux = insertCodigoRegion(data)
         if 'Nacimientos' in data.columns:
             # Region,Comuna,Nacimientos,Fecha,Código Región,Nombre Región,Código Provincia,Nombre Provincia,Código Comuna 2017,Nombre Comuna
             data = dfaux[['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Nacimientos', 'Fecha']].copy()
