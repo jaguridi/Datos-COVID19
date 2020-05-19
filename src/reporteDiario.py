@@ -68,6 +68,8 @@ def prod9_10(fte, producto):
 def prod17(fte, producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
     identifiers = ['Establecimiento', 'Examenes']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Numero de PCR')
