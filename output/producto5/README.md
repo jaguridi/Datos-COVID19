@@ -7,7 +7,7 @@ Se entiende por caso nuevo sin síntomas por casos que han sido confirmados COVI
 
 Se entiende por casos totales o acumulados el número total de casos confirmados desde el primer caso confirmado hasta la fecha de elaboración del reporte o informe. 
 
-Se entiende en este reporte por casos recuperados las proyección de personas que tras ser confirmadas de COVID-19, han estado en cuarentena pasando 14 días sin síntomas. Para proyectar casos recuperados considerando la fecha de inicio de síntomas, se puede utilizar el [producto 15: Casos nuevos por fecha de inicio de sintomas](https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto15).
+Se entiende en este reporte por "recuperados" la proyección de personas que tras ser confirmadas de COVID-19, han estado en cuarentena pasando 14 días sin síntomas. Para proyectar casos recuperados considerando la fecha de inicio de síntomas, se puede utilizar el [producto 15: Casos nuevos por fecha de inicio de sintomas](https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto15).
 
 Se entiende en este reporte por casos activos la diferencia entre el total de casos confirmados y (personas recuperadas y personas fallecidas). Para calcular casos activos considerando la fecha de inicio de síntomas, se puede utilizar el [producto 15: Casos nuevos por fecha de inicio de sintomas](https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto15).
 
