@@ -1,5 +1,5 @@
-# DP23 - Pacientes críticos: Descripción
-Este producto da cuenta del número de pacientes hospitalizados en la Unidad de Cuidados Intensivos (UCI) y se consideran en situación médica crítica. Se concatena la historia de reportes diarios publicados por el Ministerio de Salud del país.
+# DP23 - Pacientes críticos COVID-19: Descripción
+Este producto da cuenta del número de pacientes hospitalizados con diagnóstico COVID-19 en la Unidad de Cuidados Intensivos (UCI) y se consideran en situación médica crítica. Se concatena la historia de reportes diarios publicados por el Ministerio de Salud del país.
 
 Se entiende por paciente en hospitalización la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2 que ha sido ingresado en el sistema integrado y reportado por la Unidad de Gestión Centralizada de Camas (UGCC).
 

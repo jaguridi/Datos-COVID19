@@ -1,5 +1,5 @@
-# DP24 - Hospitalización de pacientes en sistema integrado: Descripción
-Este producto da cuenta del número de pacientes en hospitalización según el tipo de cama que ocupan: Básica, Media, UTI y UCI. Se concatena la historia de reportes diarios publicados por el Ministerio de Salud del país.
+# DP24 - Hospitalización de pacientes COVID-19 en sistema integrado: Descripción
+Este producto da cuenta del número de pacientes en hospitalización con diagnóstico COVID-19 según el tipo de cama que ocupan: Básica, Media, UTI y UCI. Se concatena la historia de reportes diarios publicados por el Ministerio de Salud del país.
 
 Se entiende por paciente en hospitalización la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2 que ha sido ingresado en el sistema integrado y reportado por la Unidad de Gestión Centralizada de Camas (UGCC).
 
