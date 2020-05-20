@@ -46,7 +46,7 @@ def regionNameRegex(df):
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región de ', value=r'')
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región del ', value=r'')
 
-def insertCodigoRegion(df):
+def normalizaNombreCodigoRegionYComuna(df):
     # standards:
     df["Comuna"] = df["Comuna"].replace({"Coyhaique": "Coihaique", "Paihuano": "paiguano"})
 
@@ -65,6 +65,23 @@ def insertCodigoRegion(df):
 
     #df = df.merge(df_dim_comunas, on="Comuna", how="outer")
     df = df.merge(df_dim_comunas, on="Comuna", how="inner")
+
+    df['Comuna'] = df['Nombre Comuna']
+    df['Codigo comuna'] = df['Código Comuna 2017']
+    df['Region'] = df['Nombre Región']
+    df['Codigo region'] = df['Código Región']
+
+    df.drop(columns={'Código Región','Nombre Región',
+                     'Código Comuna 2017', 'Nombre Comuna',
+                     'Código Provincia', 'Nombre Provincia'
+                     }, inplace=True)
+
+    # Sort Columns
+    columnsAddedHere = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+    originalColumns = [x for x in list(df) if x not in columnsAddedHere]
+    sortedColumns = columnsAddedHere + originalColumns
+    print(sortedColumns)
+    df = df[sortedColumns]
     return df
 
 
