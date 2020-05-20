@@ -269,6 +269,17 @@ def APIupdate(URL, prod):
 
         data_t.to_csv(prod + outputPrefix + '_T.csv')
 
+        # issue 223: light product to consume raw from gh
+        df_2020 = data[data['Fecha'] >= '2020-01-01']
+        df_2020.to_csv(prod + '2020-' + outputPrefix + '_std.csv', index=False)
+        reshaped = pd.pivot_table(df_2020, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'], values=outputPrefix)
+        reshaped.fillna(0, inplace=True)
+        reshaped = reshaped.applymap(np.int64)
+        reshaped.to_csv(prod + '2020-' + outputPrefix + '.csv')
+        data_t = reshaped.transpose()
+        data_t.index.rename('', inplace=True)
+        data_t.to_csv(prod + '2020-' + outputPrefix + '_T.csv')
+
 if __name__ == '__main__':
     bulk = False
 
