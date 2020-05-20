@@ -80,7 +80,7 @@ def normalizaNombreCodigoRegionYComuna(df):
     columnsAddedHere = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
     originalColumns = [x for x in list(df) if x not in columnsAddedHere]
     sortedColumns = columnsAddedHere + originalColumns
-    print(sortedColumns)
+
     df = df[sortedColumns]
     return df
 
