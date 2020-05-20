@@ -242,20 +242,7 @@ def APIupdate(URL, prod):
                                          ])
 
         # normalize all on data, but test on df as it's smaller
-        # dfaux = normalizaNombreCodigoRegionYComuna(data)
         data = normalizaNombreCodigoRegionYComuna(data)
-        # if 'Nacimientos' in data.columns:
-        #     # Region,Comuna,Nacimientos,Fecha,Código Región,Nombre Región,Código Provincia,Nombre Provincia,Código Comuna 2017,Nombre Comuna
-        #     data = dfaux[['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Nacimientos', 'Fecha']].copy()
-        #
-        # elif 'Defunciones' in data.columns:
-        #     data = dfaux[['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Defunciones', 'Fecha']].copy()
-        #
-        # data.rename(columns={'Nombre Región': 'Region',
-        #                          'Código Región': 'Codigo region',
-        #                          'Nombre Comuna': 'Comuna',
-        #                          'Código Comuna 2017': 'Codigo comuna'}, inplace=True)
-
         data.to_csv(prod + outputPrefix + '_std.csv', index=False)
 
         reshaped = pd.pivot_table(data, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'], values=outputPrefix)
