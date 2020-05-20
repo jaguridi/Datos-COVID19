@@ -84,6 +84,15 @@ def normalizaNombreCodigoRegionYComuna(df):
     df = df[sortedColumns]
     return df
 
+def FechaAlFinal(df):
+    if 'Fecha' in df.columns:
+        columns = [x for x in list(df) if x != 'Fecha']
+        columns.append('Fecha')
+        df = df[columns]
+        return df
+    else:
+        print('No hay una columna Fecha en tu dataframe')
+
 
 def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)

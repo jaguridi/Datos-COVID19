@@ -21,6 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
+import csv
 
 """
 Los productos que salen de la contribucion de la UDD son:
@@ -31,16 +32,25 @@ import pandas as pd
 import glob
 from utils import *
 
+
 def prod34(fte, prod):
+    data = []
     for file in glob.glob(fte + '/*'):
         print('Processing ' + file)
-        df = pd.read_csv(file)
-        print(df)
+        df = pd.read_csv(file, sep=",", encoding="utf-8", decimal=",")
+
         # standardize column names
         df.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
+
         df = normalizaNombreCodigoRegionYComuna(df)
-        print(df.to_string())
+        df = FechaAlFinal(df)
+        data.append(df)
+
+
+    df = pd.concat(data)
+
+    df.to_csv(prod + '_std.csv', index=False)
 
 if __name__ == '__main__':
     print('Generating producto 34')
-    prod34('../input/UDD/', '../output/prod34')
+    prod34('../input/UDD/', '../output/producto34/IndiceDeMovilidad')
