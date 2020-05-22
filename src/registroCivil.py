@@ -390,7 +390,9 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
             df_on_disk.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'],
                                                        keep='last', inplace=True)
             print(changes.to_string()) #NOTIFY THIS
-            message = 'Cambio la historia en el registro civil:\n' + (changes.to_string()) + '"'
+            message = os.environ["MESSAGE_TO_REPORT"] + \
+                      'Cambio la historia en el registro civil entre' + fromDate + ' y ' + toDate + ':\n' \
+                      + (changes.to_string()) + '"'
             os.environ["MESSAGE_TO_REPORT"] = message
         else:
 
