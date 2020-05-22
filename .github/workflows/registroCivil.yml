@@ -38,7 +38,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: querying API to update our products
-      run: cd src; python registroCivil.py; for i in (src/*.tmp);do export MESSAGE_TO_REPORT=${MESSAGE_TO_REPORT}\n$i; export MESSAGE_TO_REPORT=${MESSAGE_TO_REPORT}\n`cat $i; done
+      run: cd src; python registroCivil.py; for i in $(src/*.tmp);do export MESSAGE_TO_REPORT=${MESSAGE_TO_REPORT}\n$i; export MESSAGE_TO_REPORT=${MESSAGE_TO_REPORT}\n`cat $i; done
 
     - name: update_API
       run: |
