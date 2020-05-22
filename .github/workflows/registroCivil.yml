@@ -13,7 +13,6 @@ jobs:
   Actualiza_productos_del_Registro_Civil:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    env:
 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -22,8 +21,8 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: set environment variables
-        uses: allenevans/set-env@v1.0.0
-        with:
+      uses: allenevans/set-env@v1.0.0
+      with:
           MESSAGE_TO_REPORT: "test message"
 
       # Sets up python
@@ -41,7 +40,6 @@ jobs:
     - name: querying API to update our products
       run: cd src; python registroCivil.py; echo $"{{ Actualiza_productos_del_Registro_Civil.MESSAGE_TO_REPORT }}"
 
-
     - name: update_API
       run: |
         curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
@@ -52,7 +50,7 @@ jobs:
       uses: rtCamp/action-slack-notify@master
       env:
         SLACK_CHANNEL: github-notifications
-        SLACK_MESSAGE: "$MESSAGE_TO_REPORT"
+        SLACK_MESSAGE: $"{{ Actualiza_productos_del_Registro_Civil.MESSAGE_TO_REPORT }}"
         SLACK_TITLE: ‘update_en_COVID19’
         SLACK_USERNAME: ‘gitbot’
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
