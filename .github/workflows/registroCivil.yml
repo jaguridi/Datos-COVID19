@@ -33,7 +33,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: parse webpage MINSAL and generate products from it
+    - name: querying API to update our products
       run: cd src; python registroCivil.py
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
