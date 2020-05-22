@@ -35,7 +35,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: querying API to update our products
-      run: cd src; python registroCivil.py
+      run: cd src; python registroCivil.py; echo $"{{ MESSAGE_TO_REPORT }}"
 
 
     - name: update_API
