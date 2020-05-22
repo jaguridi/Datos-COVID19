@@ -445,11 +445,7 @@ if __name__ == '__main__':
             updateHistoryFromAPI(URL, '../output/producto31/')
         else:
             print('something\'s wrong with ' + str(len(sys.argv)) + ' arguments')
+
         #APIupdate(URL, '../output/producto31/')
 
         #APIupdate(URL, '../output/producto32/')
-
-
-
-        #updateHistoryFromAPI(URL, '../output/producto31/', fromDate='2020-01-01', toDate='2020-05-22')
-
