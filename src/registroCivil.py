@@ -383,6 +383,7 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
         print('No changes found on the API records')
     else:
         print('Found changes. Updating disk')
+
         if (changes['Fecha'] < now_as_date).any():
             print('History changed. Notifying')
             # remove rows by dup and replace TOTAL
@@ -390,12 +391,8 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
             df_on_disk.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'],
                                                        keep='last', inplace=True)
             print(changes.to_string()) #NOTIFY THIS
-            message = os.environ["MESSAGE_TO_REPORT"] + \
-                      'Cambio la historia en el registro civil entre' + fromDate + ' y ' + toDate + ':\n' \
-                      + (changes.to_string()) + '"'
-            print('SEBAWTF')
-            print(os.environ['MESSAGE_TO_REPORT'])
-            os.environ["MESSAGE_TO_REPORT"] = message
+            changes.to_csv(fromDate + '-' + toDate + '-changes-on-' + now +'.tmp' )
+
         else:
 
             print('Just new records found. Appending')
