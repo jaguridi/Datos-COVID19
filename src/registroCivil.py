@@ -371,26 +371,24 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
     aux = aux.reset_index(drop=True)
     aux_gpby = aux.groupby(list(aux.columns))
     idx = [x[0] for x in aux_gpby.groups.values() if len(x) == 1]
-    dups = aux.reindex(idx)
-    dups.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'], keep='last', inplace=True)
-    print(list(dups))
+    changes = aux.reindex(idx)
+    changes.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'], keep='last', inplace=True)
+    print(list(changes))
 
     now = dt.datetime.today().strftime("%Y-%m-%d")
     now_as_date = dt.datetime.strptime(now, "%Y-%m-%d")
 
-    if dups.empty:
+    if changes.empty:
         print('No changes found on the API records')
     else:
         print('Found changes. Updating disk')
-        if (dups['Fecha'] < now_as_date).any():
+        if (changes['Fecha'] < now_as_date).any():
             print('History changed. Notifying')
             # remove rows by dup and replace TOTAL
-            print(df_on_disk.size)
-            df_on_disk = pd.concat([df_on_disk, dups])
+            df_on_disk = pd.concat([df_on_disk, changes])
             df_on_disk.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'],
                                                        keep='last', inplace=True)
-            print(df_on_disk.size)
-            print(dups.to_string()) #NOTIFY THIS
+            print(changes.to_string()) #NOTIFY THIS
         else:
 
             print('Just new records found. Appending')
@@ -399,32 +397,32 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
                                        keep='last', inplace=True)
 
 
-    df_on_disk.to_csv(prod + outputPrefix + '_std.csv', index=False)
-    #
-    # reshaped = pd.pivot_table(df_on_disk, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'],
-    #                           values=outputPrefix)
-    # reshaped.fillna(0, inplace=True)
-    # reshaped = reshaped.applymap(np.int64)
-    # reshaped.to_csv(prod + outputPrefix + '.csv')
-    #
-    # data_t = reshaped.transpose()
-    #
-    # data_t.index.rename('', inplace=True)
-    #
-    # data_t.to_csv(prod + outputPrefix + '_T.csv')
-    #
-    # # issue 223: light product to consume raw from gh
-    # if '2020' in fromDate:
-    #     df_2020 = df[df['Fecha'] >= '2020-01-01']
-    #     df_2020.to_csv(prod + '2020-' + outputPrefix + '_std.csv', index=False)
-    #     reshaped = pd.pivot_table(df_2020, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'],
-    #                               values=outputPrefix)
-    #     reshaped.fillna(0, inplace=True)
-    #     reshaped = reshaped.applymap(np.int64)
-    #     reshaped.to_csv(prod + '2020-' + outputPrefix + '.csv')
-    #     data_t = reshaped.transpose()
-    #     data_t.index.rename('', inplace=True)
-    #     data_t.to_csv(prod + '2020-' + outputPrefix + '_T.csv')
+        df_on_disk.to_csv(prod + outputPrefix + '_std.csv', index=False)
+
+        reshaped = pd.pivot_table(df_on_disk, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'],
+                                  values=outputPrefix)
+        reshaped.fillna(0, inplace=True)
+        reshaped = reshaped.applymap(np.int64)
+        reshaped.to_csv(prod + outputPrefix + '.csv')
+
+        data_t = reshaped.transpose()
+
+        data_t.index.rename('', inplace=True)
+
+        data_t.to_csv(prod + outputPrefix + '_T.csv')
+
+        # issue 223: light product to consume raw from gh
+        if '2020' in fromDate:
+            df_2020 = df_on_disk[df_on_disk['Fecha'] >= '2020-01-01']
+            df_2020.to_csv(prod + '2020-' + outputPrefix + '_std.csv', index=False)
+            reshaped = pd.pivot_table(df_2020, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'],
+                                      values=outputPrefix)
+            reshaped.fillna(0, inplace=True)
+            reshaped = reshaped.applymap(np.int64)
+            reshaped.to_csv(prod + '2020-' + outputPrefix + '.csv')
+            data_t = reshaped.transpose()
+            data_t.index.rename('', inplace=True)
+            data_t.to_csv(prod + '2020-' + outputPrefix + '_T.csv')
 
 
 if __name__ == '__main__':
