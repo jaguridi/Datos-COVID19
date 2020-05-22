@@ -37,22 +37,6 @@ jobs:
     - name: querying API to update our products
       run: cd src; python registroCivil.py
 
-    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
-      with:
-        ref: ${{ github.head_ref }}
-        commit_message: "Updated Registro Civil from their API"
-
-        # Optional glob pattern of files which should be added to the commit
-        file_pattern: output/*/*.csv
-
-        # Optional local file path to the repository
-        repository: .
-
-        # Optional commit user and author settings
-        commit_user_name: MinCiencia GitHub Actions Bot
-        commit_user_email: actions@github.com
-        commit_author: minciencia github bot <actions@github.com>
-
 
     - name: update_API
       run: |
