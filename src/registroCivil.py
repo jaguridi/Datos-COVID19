@@ -373,7 +373,7 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
     idx = [x[0] for x in aux_gpby.groups.values() if len(x) == 1]
     changes = aux.reindex(idx)
     changes.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'], keep='last', inplace=True)
-    print(list(changes))
+    #print(list(changes))
 
     now = dt.datetime.today().strftime("%Y-%m-%d")
     now_as_date = dt.datetime.strptime(now, "%Y-%m-%d")
@@ -440,9 +440,11 @@ if __name__ == '__main__':
         if len(sys.argv) == 3:
             print('Actualizando productos entre ' + sys.argv[1] + ' y ' + sys.argv[2])
             updateHistoryFromAPI(URL, '../output/producto31/', fromDate=sys.argv[1], toDate=sys.argv[2])
+            updateHistoryFromAPI(URL, '../output/producto32/', fromDate=sys.argv[1], toDate=sys.argv[2])
         elif len(sys.argv) == 1:
             print('Actualizando productos para el año 2020')
             updateHistoryFromAPI(URL, '../output/producto31/')
+            updateHistoryFromAPI(URL, '../output/producto32/')
         else:
             print('something\'s wrong with ' + str(len(sys.argv)) + ' arguments')
 

@@ -1033,7 +1033,6 @@ Coquimbo,4,Ovalle,4301,2,2020-04-24
 Coquimbo,4,Ovalle,4301,8,2020-04-27
 Coquimbo,4,Ovalle,4301,8,2020-04-28
 Coquimbo,4,Ovalle,4301,3,2020-04-29
-Coquimbo,4,Ovalle,4301,6,2020-04-30
 Coquimbo,4,Ovalle,4301,11,2020-05-04
 Coquimbo,4,Ovalle,4301,5,2020-05-05
 Coquimbo,4,Ovalle,4301,2,2020-05-06
@@ -1748,7 +1747,6 @@ Valparaíso,5,Valparaíso,5101,6,2020-04-23
 Valparaíso,5,Valparaíso,5101,6,2020-04-24
 Valparaíso,5,Valparaíso,5101,12,2020-04-27
 Valparaíso,5,Valparaíso,5101,11,2020-04-28
-Valparaíso,5,Valparaíso,5101,8,2020-04-29
 Valparaíso,5,Valparaíso,5101,13,2020-04-30
 Valparaíso,5,Valparaíso,5101,10,2020-05-04
 Valparaíso,5,Valparaíso,5101,10,2020-05-05
@@ -2856,7 +2854,6 @@ Metropolitana de Santiago,13,San Miguel,13130,7,2020-04-07
 Metropolitana de Santiago,13,San Miguel,13130,26,2020-04-08
 Metropolitana de Santiago,13,San Miguel,13130,17,2020-04-09
 Metropolitana de Santiago,13,San Miguel,13130,19,2020-04-13
-Metropolitana de Santiago,13,San Miguel,13130,21,2020-04-14
 Metropolitana de Santiago,13,San Miguel,13130,5,2020-04-15
 Metropolitana de Santiago,13,San Miguel,13130,16,2020-04-16
 Metropolitana de Santiago,13,San Miguel,13130,16,2020-04-17
@@ -3846,7 +3843,6 @@ Metropolitana de Santiago,13,Cerro Navia,13103,2,2020-04-27
 Metropolitana de Santiago,13,Cerro Navia,13103,5,2020-04-28
 Metropolitana de Santiago,13,Cerro Navia,13103,8,2020-04-29
 Metropolitana de Santiago,13,Cerro Navia,13103,4,2020-04-30
-Metropolitana de Santiago,13,Cerro Navia,13103,10,2020-05-04
 Metropolitana de Santiago,13,Cerro Navia,13103,12,2020-05-05
 Metropolitana de Santiago,13,Cerro Navia,13103,13,2020-05-06
 Metropolitana de Santiago,13,Cerro Navia,13103,11,2020-05-07
@@ -5441,7 +5437,6 @@ Biobío,8,Los Angeles,8301,15,2020-04-08
 Biobío,8,Los Angeles,8301,24,2020-04-09
 Biobío,8,Los Angeles,8301,20,2020-04-13
 Biobío,8,Los Angeles,8301,19,2020-04-14
-Biobío,8,Los Angeles,8301,16,2020-04-15
 Biobío,8,Los Angeles,8301,19,2020-04-16
 Biobío,8,Los Angeles,8301,18,2020-04-17
 Biobío,8,Los Angeles,8301,23,2020-04-20
@@ -6804,7 +6799,6 @@ Los Lagos,10,Osorno,10301,7,2020-04-14
 Los Lagos,10,Osorno,10301,6,2020-04-15
 Los Lagos,10,Osorno,10301,11,2020-04-16
 Los Lagos,10,Osorno,10301,4,2020-04-17
-Los Lagos,10,Osorno,10301,11,2020-04-20
 Los Lagos,10,Osorno,10301,6,2020-04-21
 Los Lagos,10,Osorno,10301,8,2020-04-22
 Los Lagos,10,Osorno,10301,10,2020-04-23
@@ -7330,3 +7324,9 @@ Los Lagos,10,Puyehue,10304,1,2020-02-10
 Los Lagos,10,Chonchi,10203,1,2020-02-17
 Aysén del General Carlos Ibáñez del Campo,11,Río Ibáñez,11402,1,2020-03-10
 Aysén del General Carlos Ibáñez del Campo,11,Río Ibáñez,11402,1,2020-03-16
+Biobío,8,Los Angeles,8301,17,2020-04-15
+Coquimbo,4,Ovalle,4301,7,2020-04-30
+Los Lagos,10,Osorno,10301,12,2020-04-20
+Metropolitana de Santiago,13,Cerro Navia,13103,11,2020-05-04
+Metropolitana de Santiago,13,San Miguel,13130,22,2020-04-14
+Valparaíso,5,Valparaíso,5101,9,2020-04-29
