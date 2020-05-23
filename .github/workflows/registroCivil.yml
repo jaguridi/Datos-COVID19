@@ -23,8 +23,9 @@ jobs:
     - name: set environment variables
       uses: allenevans/set-env@v1.0.0
       with:
-          SLACK_MESSAGE: "test message"
-          overwrite: true
+        overwrite: true
+        SLACK_MESSAGE: "test message"
+
 
       # Sets up python
     - name: Set up Python 3.7
@@ -43,7 +44,11 @@ jobs:
       run: |
         cd src
         python registroCivil.py
-        for i in *.tmp;do echo '::set-env name=SLACK_MESSAGE::${SLACK_MESSAGE}"\n"$i'; echo '::set-env name=SLACK_MESSAGE::${SLACK_MESSAGE}"\n"$(cat $i)'; done
+        for i in *.tmp;do
+          echo '::set-env name=SLACK_MESSAGE::${SLACK_MESSAGE}"\n"$i'
+          echo $SLACK_MESSAGE
+          echo '::set-env name=SLACK_MESSAGE::${SLACK_MESSAGE}"\n"$(cat $i)';
+        done
         echo $SLACK_MESSAGE
 
     - name: update_API
