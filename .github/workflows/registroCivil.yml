@@ -45,7 +45,9 @@ jobs:
         for i in *.tmp;do
           echo "Processing ${i}"
           echo "SLACK_MESSAGE=${SLACK_MESSAGE}_$i"
+          export  SLACK_MESSAGE="${SLACK_MESSAGE}_$i"
           echo "SLACK_MESSAGE=${SLACK_MESSAGE}_$(cat $i)"
+          export SLACK_MESSAGE="${SLACK_MESSAGE}_$(cat $i)"
         done
         echo $SLACK_MESSAGE
         echo 'SEBAWTF'
