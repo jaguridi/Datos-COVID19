@@ -43,6 +43,8 @@ jobs:
 
       run: |
         cd src
+        SLACK_MESSAGE="overwritten"
+        echo $SLACK_MESSAGE
         python registroCivil.py
         for i in *.tmp;do
           echo '::set-env name=SLACK_MESSAGE::${SLACK_MESSAGE}"\n"$i'
