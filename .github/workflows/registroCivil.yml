@@ -61,7 +61,7 @@ jobs:
             SLACK_USERNAME: ‘gitbot’
             SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
 
-SLACK_MESSAGE
+
     - name: update_API
       run: |
         curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
