@@ -60,20 +60,20 @@ jobs:
           SOURCE_DIR: 'src'      # optional: defaults to entire repository
           DEST_DIR: 'logsRegistroCivil'
 
-#    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
-#      with:
-#        commit_message: "Added data to repo"
-#
-#        # Optional glob pattern of files which should be added to the commit
-#        file_pattern: output/*/*.csv
-#
-#        # Optional local file path to the repository
-#        repository: .
-#
-#        # Optional commit user and author settings
-#        commit_user_name: MinCiencia GitHub Actions Bot
-#        commit_user_email: actions@github.com
-#        commit_author: minciencia github bot <actions@github.com>
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+      with:
+        commit_message: "Added data to repo"
+
+        # Optional glob pattern of files which should be added to the commit
+        file_pattern: output/*/*.csv
+
+        # Optional local file path to the repository
+        repository: .
+
+        # Optional commit user and author settings
+        commit_user_name: MinCiencia GitHub Actions Bot
+        commit_user_email: actions@github.com
+        commit_author: minciencia github bot <actions@github.com>
 
     - name: update_API
       run: |
