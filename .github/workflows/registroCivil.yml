@@ -24,7 +24,7 @@ jobs:
       uses: allenevans/set-env@v1.0.0
       with:
         overwrite: true
-        SLACK_MESSAGE: "test message"
+        SLACK_MESSAGE: "Storing changes\n"
 
 
       # Sets up python
@@ -43,13 +43,13 @@ jobs:
 
       run: |
         cd src
-        SLACK_MESSAGE="overwritten"
-        echo $SLACK_MESSAGE
         python registroCivil.py
         for i in *.tmp;do
-          echo '::set-env name=SLACK_MESSAGE::${SLACK_MESSAGE}"\n"$i'
+          echo "Processing ${i}"
+          SLACK_MESSAGE=${SLACK_MESSAGE}"\n"$i'
           echo $SLACK_MESSAGE
-          echo '::set-env name=SLACK_MESSAGE::${SLACK_MESSAGE}"\n"$(cat $i)';
+          SLACK_MESSAGE=${SLACK_MESSAGE}"\n"$(cat $i)
+          echo $SLACK_MESSAGE;
         done
         echo $SLACK_MESSAGE
 
