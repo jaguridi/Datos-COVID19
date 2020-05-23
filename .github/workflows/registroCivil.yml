@@ -49,6 +49,9 @@ jobs:
           SLACK_MESSAGE="${SLACK_MESSAGE}\t$(cat $i)"
         done
         echo $SLACK_MESSAGE
+        export SLACK_MESSAGE="${SLACK_MESSAGE}"
+        echo 'SEBAWTF'
+        echo $SLACK_MESSAGE
 
 
     - name: update_API
