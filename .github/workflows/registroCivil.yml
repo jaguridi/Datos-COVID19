@@ -49,7 +49,9 @@ jobs:
           echo "SLACK_MESSAGE=${SLACK_MESSAGE}_$(cat $i)"
           export SLACK_MESSAGE="${SLACK_MESSAGE}_$(cat $i)"
         done
-        echo '"{\"text\":" $SLACK_MESSAGE '"}" > slack_message.json
+        echo '{
+                 "text": "Hello, world."
+             }' > slack_message.json
         cat slack_message.json
 
 
