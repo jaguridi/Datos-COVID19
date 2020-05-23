@@ -50,7 +50,7 @@ jobs:
           export SLACK_MESSAGE="${SLACK_MESSAGE}_$(cat $i)"
         done
         echo '{
-                 "text": "Hello, world."
+                 "text": "${SLACK_MESSAGE}"
              }' > slack_message.json
         cat slack_message.json
         curl -X POST -H 'Content-type: application/json' --data @slack_message.json ${{ secrets.SLACK_WEBHOOK_URL }}
