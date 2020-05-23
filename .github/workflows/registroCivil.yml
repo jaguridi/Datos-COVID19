@@ -46,9 +46,7 @@ jobs:
         for i in *.tmp;do
           echo "Processing ${i}"
           SLACK_MESSAGE=${SLACK_MESSAGE}"\n"$i
-          echo $SLACK_MESSAGE
           SLACK_MESSAGE=${SLACK_MESSAGE}"\n"$(cat $i)
-          echo $SLACK_MESSAGE;
         done
         echo $SLACK_MESSAGE
 
@@ -62,7 +60,6 @@ jobs:
       uses: rtCamp/action-slack-notify@master
       env:
         SLACK_CHANNEL: github-notifications
-        SLACK_MESSAGE: $SLACK_MESSAGE
         SLACK_TITLE: ‘update_en_COVID19’
         SLACK_USERNAME: ‘gitbot’
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
