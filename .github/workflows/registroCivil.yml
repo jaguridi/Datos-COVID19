@@ -39,19 +39,17 @@ jobs:
         pip install -r requirements.txt
 
     - name: querying API to update our products
-
       run: |
         cd src
         python registroCivil.py
         for i in *.tmp;do
           echo "Processing ${i}"
-          SLACK_MESSAGE="${SLACK_MESSAGE}_$i"
-          SLACK_MESSAGE="${SLACK_MESSAGE}_$(cat $i)"
+          echo "SLACK_MESSAGE=${SLACK_MESSAGE}_$i"
+          echo "SLACK_MESSAGE=${SLACK_MESSAGE}_$(cat $i)"
         done
         echo $SLACK_MESSAGE
-        export SLACK_MESSAGE='"'${SLACK_MESSAGE}'"'
         echo 'SEBAWTF'
-        echo $SLACK_MESSAGE
+        echo "SLACK_MESSAGE=${SLACK_MESSAGE}"
 
 
     - name: update_API
@@ -64,7 +62,7 @@ jobs:
       uses: rtCamp/action-slack-notify@master
       env:
         SLACK_CHANNEL: github-notifications
-      #  SLACK_MESSAGE:  ‘"‘ ${SLACK_MESSAGE} ‘"‘
+        SLACK_MESSAGE: $(echo ${SLACK_MESSAGE})
         SLACK_TITLE: ‘update_en_COVID19’
         SLACK_USERNAME: ‘gitbot’
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
