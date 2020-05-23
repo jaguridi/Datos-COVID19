@@ -5485,7 +5485,6 @@ Metropolitana de Santiago,13,Quinta Normal,13126,2,2020-05-17
 Metropolitana de Santiago,13,Quinta Normal,13126,5,2020-05-18
 Metropolitana de Santiago,13,Quinta Normal,13126,3,2020-05-19
 Metropolitana de Santiago,13,Quinta Normal,13126,3,2020-05-20
-Metropolitana de Santiago,13,Quinta Normal,13126,3,2020-05-21
 Metropolitana de Santiago,13,Recoleta,13127,1,2020-01-01
 Metropolitana de Santiago,13,Recoleta,13127,3,2020-01-02
 Metropolitana de Santiago,13,Recoleta,13127,2,2020-01-03
@@ -8535,7 +8534,6 @@ Maule,7,Linares,7401,1,2020-05-14
 Maule,7,Linares,7401,2,2020-05-15
 Maule,7,Linares,7401,3,2020-05-16
 Maule,7,Linares,7401,4,2020-05-17
-Maule,7,Linares,7401,3,2020-05-18
 Maule,7,Longaví,7403,2,2020-01-06
 Maule,7,Longaví,7403,1,2020-01-27
 Maule,7,Longaví,7403,1,2020-01-28
@@ -13765,7 +13763,6 @@ Atacama,3,Tierra Amarilla,3103,1,2020-05-22
 Aysén del General Carlos Ibáñez del Campo,11,Coihaique,11101,2,2020-05-22
 Biobío,8,Arauco,8202,1,2020-05-22
 Biobío,8,Chiguayante,8103,3,2020-05-22
-Biobío,8,Concepción,8101,7,2020-03-05
 Biobío,8,Concepción,8101,11,2020-05-22
 Biobío,8,Coronel,8102,1,2020-05-22
 Biobío,8,Curanilahue,8205,1,2020-05-22
@@ -13774,7 +13771,6 @@ Biobío,8,Lebu,8201,1,2020-05-21
 Biobío,8,Lebu,8201,1,2020-05-22
 Biobío,8,Los Alamos,8206,1,2020-05-22
 Biobío,8,Los Angeles,8301,6,2020-05-22
-Biobío,8,Lota,8106,5,2020-04-15
 Biobío,8,Nacimiento,8306,1,2020-05-22
 Biobío,8,Quilleco,8309,1,2020-05-22
 Biobío,8,Talcahuano,8110,9,2020-05-22
@@ -13792,7 +13788,6 @@ Coquimbo,4,Vicuña,4106,3,2020-05-22
 La Araucanía,9,Angol,9201,2,2020-05-22
 La Araucanía,9,Cunco,9103,1,2020-05-22
 La Araucanía,9,Curacautín,9203,1,2020-05-22
-La Araucanía,9,Freire,9105,1,2020-03-04
 La Araucanía,9,Gorbea,9107,2,2020-05-22
 La Araucanía,9,Lautaro,9108,6,2020-05-22
 La Araucanía,9,Lonquimay,9205,1,2020-05-22
@@ -13802,7 +13797,6 @@ La Araucanía,9,Padre Las Casas,9112,1,2020-05-22
 La Araucanía,9,Pucón,9115,1,2020-05-22
 La Araucanía,9,Purén,9208,1,2020-05-22
 La Araucanía,9,Temuco,9101,8,2020-05-22
-La Araucanía,9,Temuco,9101,25,2020-02-17
 La Araucanía,9,Teodoro Schmidt,9117,1,2020-05-22
 La Araucanía,9,Teodoro Schmidt,9117,3,2020-05-18
 La Araucanía,9,Vilcún,9119,1,2020-05-22
@@ -13825,7 +13819,6 @@ Los Lagos,10,Los Muermos,10106,1,2020-05-22
 Los Lagos,10,Osorno,10301,8,2020-05-22
 Los Lagos,10,Puerto Montt,10101,2,2020-03-19
 Los Lagos,10,Puerto Montt,10101,8,2020-05-22
-Los Lagos,10,Puerto Montt,10101,9,2020-03-02
 Los Lagos,10,Puerto Varas,10109,2,2020-05-22
 Los Lagos,10,Purranque,10303,1,2020-05-22
 Los Lagos,10,Queilén,10207,1,2020-05-22
@@ -13867,7 +13860,6 @@ Metropolitana de Santiago,13,El Monte,13602,1,2020-05-22
 Metropolitana de Santiago,13,Estación Central,13106,4,2020-05-22
 Metropolitana de Santiago,13,Huechuraba,13107,1,2020-05-22
 Metropolitana de Santiago,13,Independencia,13108,27,2020-05-08
-Metropolitana de Santiago,13,Independencia,13108,31,2020-01-09
 Metropolitana de Santiago,13,Independencia,13108,33,2020-05-22
 Metropolitana de Santiago,13,Isla de Maipo,13603,2,2020-05-22
 Metropolitana de Santiago,13,La Cisterna,13109,1,2020-05-22
@@ -13935,3 +13927,9 @@ Valparaíso,5,Viña del Mar,5109,12,2020-05-22
 Ñuble,16,Quirihue,16201,1,2020-05-22
 Ñuble,16,San Carlos,16301,2,2020-05-22
 Ñuble,16,San Fabián,16304,1,2020-05-22
+Biobío,8,Concepción,8101,7,2020-03-05
+Biobío,8,Lota,8106,5,2020-04-15
+La Araucanía,9,Freire,9105,1,2020-03-04
+La Araucanía,9,Temuco,9101,25,2020-02-17
+Los Lagos,10,Puerto Montt,10101,9,2020-03-02
+Metropolitana de Santiago,13,Independencia,13108,31,2020-01-09
