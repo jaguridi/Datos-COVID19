@@ -49,10 +49,8 @@ jobs:
           echo "SLACK_MESSAGE=${SLACK_MESSAGE}_$(cat $i)"
           export SLACK_MESSAGE="${SLACK_MESSAGE}_$(cat $i)"
         done
-        echo $SLACK_MESSAGE
-        echo 'SEBAWTF'
-        export SLACK_MESSAGE="${SLACK_MESSAGE}"
-        echo $SLACK_MESSAGE
+        echo '"{\"text\":" $SLACK_MESSAGE '"}" > slack_message.json
+        cat slack_message.json
 
 
     - name: update_API
@@ -61,12 +59,8 @@ jobs:
         -H 'Accept: application/vnd.github.everest-preview+json'  "https://api.github.com/repos/Data-Observatory/covid19-API/dispatches" \
         -d '{"event_type": "update_please_from_Registro_Civil"}'
 
-    - name: Slack Notification
-      #uses: rtCamp/action-slack-notify@master
-      uses: bryan-nice/slack-notification@master
-      env:
-        SLACK_CHANNEL: github-notifications
-        #SLACK_MESSAGE: ${SLACK_MESSAGE}
-        SLACK_TITLE: ‘update_en_COVID19’
-        SLACK_USERNAME: ‘gitbot’
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+    - name: Post to Slack
+        uses: opspresso/action-slack@master
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_WEBHOOK_URL }}
+          JSON_PATH: .src/slack_message.json
