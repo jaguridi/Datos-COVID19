@@ -44,11 +44,11 @@ from shutil import copyfile
 def prod7_8(fte, producto):
     df = pd.read_csv(fte, dtype={'Codigo region': object})
     utils.regionName(df)
-    df = df.replace('-', '',regex=True)
+    df = df.replace('-', '', regex=True)
     df_t = df.T
     df.to_csv(producto + '.csv', index=False)
     df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Region','Codigo region','Poblacion']
+    identifiers = ['Region', 'Codigo region', 'Poblacion']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
     df_std.to_csv(producto + '_std.csv', index=False)
@@ -74,6 +74,7 @@ def prod17(fte, producto):
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Numero de PCR')
     df_std.to_csv(producto + '_std.csv', index=False)
+
 
 def prod20(fte, producto):
     copyfile(fte, producto + '.csv')
@@ -107,6 +108,7 @@ def prod24(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+
 def prod30(fte, producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
@@ -135,7 +137,7 @@ if __name__ == '__main__':
     exec(open('bulk_producto7.py').read())
 
     print('Generando producto 17')
-    #copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
+    # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
     prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
 
     print('Generando producto 20')
@@ -149,4 +151,3 @@ if __name__ == '__main__':
 
     print('Generando producto 30')
     prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
-

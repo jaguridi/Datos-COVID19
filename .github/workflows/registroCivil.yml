@@ -1,13 +1,11 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Actualiza_productos_de_Registro Civil
+name: Actualiza_productos_de_Registro_Civil
 
 # Controls when the action will run. Triggers the workflow on push or pull request 
 # events but only for the master branch
 on:
     #push
     schedule:
-      - cron:  '55 03 * * *'
+      - cron:  '5 9-19 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -16,12 +14,13 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Sets up python
+      # Sets up python
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
@@ -34,7 +33,32 @@ jobs:
         pip install -r requirements.txt
 
     - name: querying API to update our products
-      run: cd src; python registroCivil.py
+      run: |
+        cd src
+        python registroCivil.py
+        for i in *.tmp;do
+          echo "Processing ${i}"
+          export SLACK_MESSAGE="${SLACK_MESSAGE}\n$i"
+        done
+        echo '{
+                 "text": "'${SLACK_MESSAGE}'"
+             }' > slack_message.json
+        if [[ -f slack_message.json ]]; then
+          cat slack_message.json
+          curl -X POST -H 'Content-type: application/json' --data @slack_message.json ${{ secrets.SLACK_WEBHOOK_URL }}
+        fi
+
+    - name: Uploads changes to S3
+      uses: jakejarvis/s3-sync-action@master
+      with:
+          args: --exclude '*' --include '*.tmp'
+      env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.COVID_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.COVID_AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
+          SOURCE_DIR: 'src'      # optional: defaults to entire repository
+          DEST_DIR: 'logsRegistroCivil'
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
@@ -50,7 +74,6 @@ jobs:
         commit_user_name: MinCiencia GitHub Actions Bot
         commit_user_email: actions@github.com
         commit_author: minciencia github bot <actions@github.com>
-
 
     - name: update_API
       run: |

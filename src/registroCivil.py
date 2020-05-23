@@ -21,6 +21,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
+import os
+import sys
 
 """
 Los productos que salen del registro civil son:
@@ -280,6 +282,155 @@ def APIupdate(URL, prod):
         data_t.index.rename('', inplace=True)
         data_t.to_csv(prod + '2020-' + outputPrefix + '_T.csv')
 
+
+def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.today().strftime("%Y-%m-%d")):
+    # check if we're on nacimientos or defunciones and when was the last update to the files
+    suffix = ''
+    outputPrefix = ''
+    if 'producto31' in prod:
+        print('Actualizando el producto 31')
+        suffix = 'nacimiento'
+        outputPrefix = 'Nacimientos'
+        fileName = prod + 'Nacimientos_std.csv'
+    elif 'producto32' in prod:
+        print('Actualizando el producto 32')
+        suffix = 'defuncion'
+        outputPrefix = 'Defunciones'
+        fileName = prod + 'Defunciones_std.csv'
+
+    # get the xlsx from the API
+    headers = {
+        'Content-Type': 'application/json',
+        'Origin': URL.replace('/api/estadistica/', ''),
+        'Connection': 'keep-alive',
+    }
+    myData = {
+        "startdate": fromDate,
+        "enddate": toDate
+    }
+    call = URL + suffix + '/getXlsxAllComunas'
+    print('Querying ' + call + ' between ' + fromDate + ' and ' + toDate)
+    response = requests.post(call, headers=headers, json=myData)
+    xlsx = io.BytesIO(response.content)
+
+    # load the API to a DF
+    df_API = pd.read_excel(xlsx)
+    df_API = normalizeRegCivDF(df_API)
+
+    if 'nacimiento' in suffix:
+        df_API.rename(columns={'TOTAL': 'Nacimientos'}, inplace=True)
+
+    elif 'defuncion' in suffix:
+        df_API.rename(columns={'TOTAL': 'Defunciones'}, inplace=True)
+
+    df_API['Region'] = pd.Categorical(df_API['Region'],
+                                    ["Arica y Parinacota",
+                                     "Tarapacá",
+                                     "Antofagasta",
+                                     "Atacama",
+                                     "Coquimbo",
+                                     "Valparaíso",
+                                     "Metropolitana",
+                                     "O’Higgins",
+                                     "Maule",
+                                     "Ñuble",
+                                     "Biobío",
+                                     "Araucanía",
+                                     "Los Ríos",
+                                     "Los Lagos",
+                                     "Aysén",
+                                     "Magallanes",
+                                     ])
+    # normalize all on data, but test on df as it's smaller
+    dfaux = insertCodigoRegion(df_API)
+    if 'Nacimientos' in df_API.columns:
+        # Region,Comuna,Nacimientos,Fecha,Código Región,Nombre Región,Código Provincia,Nombre Provincia,Código Comuna 2017,Nombre Comuna
+        df_API = dfaux[
+            ['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Nacimientos', 'Fecha']].copy()
+
+    elif 'Defunciones' in df_API.columns:
+        df_API = dfaux[
+            ['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Defunciones', 'Fecha']].copy()
+
+    df_API.rename(columns={'Nombre Región': 'Region',
+                         'Código Región': 'Codigo region',
+                         'Nombre Comuna': 'Comuna',
+                         'Código Comuna 2017': 'Codigo comuna'}, inplace=True)
+
+
+    #compare df with what was written:
+    df_on_disk = pd.read_csv(prod + outputPrefix + '_std.csv')
+    df_on_disk['Fecha'] = pd.to_datetime(df_on_disk['Fecha'])
+    df_API['Fecha'] = pd.to_datetime(df_API['Fecha'])
+
+    properFromDate = dt.datetime.strptime(fromDate, "%Y-%m-%d")
+    properToDate = dt.datetime.strptime(toDate, "%Y-%m-%d")
+    df_to_check = df_on_disk.loc[(df_on_disk['Fecha'] >= properFromDate) & (df_on_disk['Fecha'] <= properToDate)]
+
+    # https://stackoverflow.com/questions/20225110/comparing-two-dataframes-and-getting-the-differences
+    aux = pd.concat([df_to_check, df_API])
+    aux = aux.reset_index(drop=True)
+    aux_gpby = aux.groupby(list(aux.columns))
+    idx = [x[0] for x in aux_gpby.groups.values() if len(x) == 1]
+    changes = aux.reindex(idx)
+    changes.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'], keep='last', inplace=True)
+    #print(list(changes))
+
+    now = dt.datetime.today().strftime("%Y-%m-%d")
+    now_as_date = dt.datetime.strptime(now, "%Y-%m-%d")
+
+    if changes.empty:
+        print('No changes found on the API records')
+    else:
+        print('Found changes. Updating disk')
+
+        if (changes['Fecha'] < now_as_date).any():
+            print('History changed. Notifying')
+            # remove rows by dup and replace TOTAL
+            df_on_disk = pd.concat([df_on_disk, changes])
+            df_on_disk.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'],
+                                                       keep='last', inplace=True)
+            print(changes.to_string()) #NOTIFY THIS
+            timestamp = dt.datetime.today().strftime("%Y-%m-%dT%H:%M:%S")
+            changes.to_csv(fromDate + '-' + toDate + '-changes-on-' + suffix + '-' + timestamp + '.tmp', index=False)
+
+
+        else:
+
+            print('Just new records found. Appending')
+            df_on_disk = pd.concat([df_on_disk, df_API])
+            df_on_disk.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'],
+                                       keep='last', inplace=True)
+
+
+        df_on_disk.to_csv(prod + outputPrefix + '_std.csv', index=False)
+
+        reshaped = pd.pivot_table(df_on_disk, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'],
+                                  values=outputPrefix)
+        reshaped.fillna(0, inplace=True)
+        reshaped = reshaped.applymap(np.int64)
+        reshaped.to_csv(prod + outputPrefix + '.csv')
+
+        data_t = reshaped.transpose()
+
+        data_t.index.rename('', inplace=True)
+
+        data_t.to_csv(prod + outputPrefix + '_T.csv')
+
+        # issue 223: light product to consume raw from gh
+        if '2020' in fromDate:
+            df_2020 = df_on_disk[df_on_disk['Fecha'] >= '2020-01-01']
+            df_2020.to_csv(prod + '2020-' + outputPrefix + '_std.csv', index=False)
+            reshaped = pd.pivot_table(df_2020, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'],
+                                      values=outputPrefix)
+            reshaped.fillna(0, inplace=True)
+            reshaped = reshaped.applymap(np.int64)
+            reshaped.to_csv(prod + '2020-' + outputPrefix + '.csv')
+            data_t = reshaped.transpose()
+            data_t.index.rename('', inplace=True)
+            data_t.to_csv(prod + '2020-' + outputPrefix + '_T.csv')
+
+
 if __name__ == '__main__':
     bulk = False
 
@@ -292,7 +443,17 @@ if __name__ == '__main__':
         prod31_32('../input/RegistroCivil/', '../output/producto32/')
     else:
         URL = 'https://api.sed.srcei.cl/api/estadistica/'
+        if len(sys.argv) == 3:
+            print('Actualizando productos entre ' + sys.argv[1] + ' y ' + sys.argv[2])
+            updateHistoryFromAPI(URL, '../output/producto31/', fromDate=sys.argv[1], toDate=sys.argv[2])
+            updateHistoryFromAPI(URL, '../output/producto32/', fromDate=sys.argv[1], toDate=sys.argv[2])
+        elif len(sys.argv) == 1:
+            print('Actualizando productos para el año 2020')
+            updateHistoryFromAPI(URL, '../output/producto31/')
+            updateHistoryFromAPI(URL, '../output/producto32/')
+        else:
+            print('something\'s wrong with ' + str(len(sys.argv)) + ' arguments')
 
-        APIupdate(URL, '../output/producto31/')
+        #APIupdate(URL, '../output/producto31/')
 
-        APIupdate(URL, '../output/producto32/')
+        #APIupdate(URL, '../output/producto32/')
