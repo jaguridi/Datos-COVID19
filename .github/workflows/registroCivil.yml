@@ -20,12 +20,6 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: set environment variables
-      uses: allenevans/set-env@v1.0.0
-      with:
-        SLACK_MESSAGE: "Storing changes"
-        overwrite: false
-
       # Sets up python
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
@@ -44,15 +38,17 @@ jobs:
         python registroCivil.py
         for i in *.tmp;do
           echo "Processing ${i}"
-          export  SLACK_MESSAGE="${SLACK_MESSAGE}_$i"
-          echo "SLACK_MESSAGE=${SLACK_MESSAGE}_$(cat $i)"
-          export SLACK_MESSAGE="${SLACK_MESSAGE}_$(cat $i)"
+          export SLACK_MESSAGE="${SLACK_MESSAGE}\n$i"
+          echo "SLACK_MESSAGE=${SLACK_MESSAGE}\n$(cat $i)"
+          export SLACK_MESSAGE="${SLACK_MESSAGE}\n$(cat $i)"
         done
         echo '{
                  "text": "'${SLACK_MESSAGE}'"
              }' > slack_message.json
-        cat slack_message.json
-        curl -X POST -H 'Content-type: application/json' --data @slack_message.json ${{ secrets.SLACK_WEBHOOK_URL }}
+        if [[ -f "$FILE" ]]; then
+          cat slack_message.json
+          curl -X POST -H 'Content-type: application/json' --data @slack_message.json ${{ secrets.SLACK_WEBHOOK_URL }}
+        fi
 
 
     - name: update_API
