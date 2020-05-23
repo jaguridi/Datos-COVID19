@@ -391,7 +391,7 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
             df_on_disk.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'],
                                                        keep='last', inplace=True)
             print(changes.to_string()) #NOTIFY THIS
-            changes.to_csv(fromDate + '-' + toDate + '-changes-on-' + now +'.tmp' )
+            changes.to_csv(fromDate + '-' + toDate + '-changes-on-' + suffix +'.tmp', index=False)
 
         else:
 
