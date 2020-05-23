@@ -62,7 +62,8 @@ jobs:
         -d '{"event_type": "update_please_from_Registro_Civil"}'
 
     - name: Slack Notification
-      uses: rtCamp/action-slack-notify@master
+      #uses: rtCamp/action-slack-notify@master
+      uses: bryan-nice/slack-notification@master
       env:
         SLACK_CHANNEL: github-notifications
         #SLACK_MESSAGE: ${SLACK_MESSAGE}
