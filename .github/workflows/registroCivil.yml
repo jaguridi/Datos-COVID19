@@ -53,7 +53,7 @@ jobs:
         echo 'SEBAWTF'
         export SLACK_MESSAGE="${SLACK_MESSAGE}"
         echo $SLACK_MESSAGE
-        uses: rtCamp/action-slack-notify@master
+      uses: rtCamp/action-slack-notify@master
         env:
         SLACK_CHANNEL: github-notifications
         #SLACK_MESSAGE: ${SLACK_MESSAGE}
@@ -61,7 +61,7 @@ jobs:
         SLACK_USERNAME: ‘gitbot’
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
 
-
+SLACK_MESSAGE
     - name: update_API
       run: |
         curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
