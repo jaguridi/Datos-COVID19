@@ -45,7 +45,7 @@ jobs:
         echo '{
                  "text": "'${SLACK_MESSAGE}'"
              }' > slack_message.json
-        if [[ -f "$FILE" ]]; then
+        if [[ -f slack_message.json ]]; then
           cat slack_message.json
           curl -X POST -H 'Content-type: application/json' --data @slack_message.json ${{ secrets.SLACK_WEBHOOK_URL }}
         fi
