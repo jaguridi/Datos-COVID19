@@ -23,7 +23,7 @@ jobs:
     - name: set environment variables
       uses: allenevans/set-env@v1.0.0
       with:
-        SLACK_MESSAGE: "Storing changes\t"
+        SLACK_MESSAGE: "Storing changes"
         overwrite: true
 
       # Sets up python
@@ -45,11 +45,11 @@ jobs:
         python registroCivil.py
         for i in *.tmp;do
           echo "Processing ${i}"
-          SLACK_MESSAGE="${SLACK_MESSAGE}\t$i"
-          SLACK_MESSAGE="${SLACK_MESSAGE}\t$(cat $i)"
+          SLACK_MESSAGE="${SLACK_MESSAGE}_$i"
+          SLACK_MESSAGE="${SLACK_MESSAGE}_$(cat $i)"
         done
         echo $SLACK_MESSAGE
-        export SLACK_MESSAGE="${SLACK_MESSAGE}"
+        export SLACK_MESSAGE='"'${SLACK_MESSAGE}'"'
         echo 'SEBAWTF'
         echo $SLACK_MESSAGE
 
