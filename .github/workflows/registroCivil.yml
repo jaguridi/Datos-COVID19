@@ -65,4 +65,4 @@ jobs:
       uses: opspresso/action-slack@master
       env:
           SLACK_TOKEN: ${{ secrets.SLACK_WEBHOOK_URL }}
-          JSON_PATH: .src/slack_message.json
+          JSON_PATH: ./src/slack_message.json
