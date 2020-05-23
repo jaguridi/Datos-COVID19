@@ -39,8 +39,6 @@ jobs:
         for i in *.tmp;do
           echo "Processing ${i}"
           export SLACK_MESSAGE="${SLACK_MESSAGE}\n$i"
-          echo "SLACK_MESSAGE=${SLACK_MESSAGE}\n$(cat $i)"
-          export SLACK_MESSAGE="${SLACK_MESSAGE}\n$(cat $i)"
         done
         echo '{
                  "text": "'${SLACK_MESSAGE}'"
@@ -49,6 +47,18 @@ jobs:
           cat slack_message.json
           curl -X POST -H 'Content-type: application/json' --data @slack_message.json ${{ secrets.SLACK_WEBHOOK_URL }}
         fi
+
+    - name: Uploads changes to S3
+      uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --exclude '*' --include '*.tmp'
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.COVID_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.COVID_AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
+          SOURCE_DIR: 'src'      # optional: defaults to entire repository
+          DEST_DIR: 'logsRegistroCivil'
 
 
     - name: update_API
