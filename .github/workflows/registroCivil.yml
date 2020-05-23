@@ -45,7 +45,7 @@ jobs:
         python registroCivil.py
         for i in *.tmp;do
           echo "Processing ${i}"
-          SLACK_MESSAGE=${SLACK_MESSAGE}"\n"$i'
+          SLACK_MESSAGE=${SLACK_MESSAGE}"\n"$i
           echo $SLACK_MESSAGE
           SLACK_MESSAGE=${SLACK_MESSAGE}"\n"$(cat $i)
           echo $SLACK_MESSAGE;
