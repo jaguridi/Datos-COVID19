@@ -60,7 +60,7 @@ jobs:
         -d '{"event_type": "update_please_from_Registro_Civil"}'
 
     - name: Post to Slack
-        uses: opspresso/action-slack@master
-        env:
+      uses: opspresso/action-slack@master
+      env:
           SLACK_TOKEN: ${{ secrets.SLACK_WEBHOOK_URL }}
           JSON_PATH: .src/slack_message.json
