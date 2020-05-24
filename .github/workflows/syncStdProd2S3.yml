@@ -2,8 +2,8 @@ name: Upload std prod
 
 on:
   push:
-    #branches:
-    #- master
+    branches:
+    - master
 
 jobs:
   Upload_std_products_and_readme:

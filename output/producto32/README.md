@@ -10,7 +10,9 @@ El archivo contiene las columnas 'Región', ‘Código Región’, 'Comuna', ‘
 Servicio de Registro Civil de Chile
 
 # Frecuencia de actualización
-Diaria
+Archivos con valores 2020, cada 1 hora. Resto de los archivos, diaria.
 
 # Notas aclaratorias
 **Nota aclaratoria 1:** El Regristo Civil de Chile elabora esta información en base a las actuaciones que le son propias y que se encuentran registradas en una fecha y hora determinada, sin embargo, estas son variables, ya que pueden ser objeto de rectificación no constituyendo, en consecuencia, una estadística oficial del Estado de Chile, materia que es competencia del Instituto Nacional de Estadísticas (INE).
+
+**Nota aclaratoria 2:** Los datos entre 2017-2020 son provisorios. El periodo 2017-2019 está en etapa de validación, 2020 de recolección. 
