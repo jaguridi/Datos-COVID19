@@ -1,15 +1,16 @@
 # DP33 - Movilidad en Chile: Descripción
-Los datos aquí publicados provienen del análisis realizado por el
-Instituto de Data Science de la Universidad del Desarrollo
-considerando el movimiento de los teléfonos móviles conectados a la
-red de Telefónica en el territorio nacional, de manera agrupada y
-anónima.  El índice de movilidad interno a la comuna es una medida de
-los viajes que ocurren al interior de dicha unidad administrativa.  El
-índice de movilidad externo la comuna es una medida tanto de los
-viajes que tienen origen al interior de la comuna y destino al
-exterior de la comuna, como de los viajes que tienen origen al
-exterior de la comuna y destino al interior de la comuna.
+Los datos aquí publicados provienen del análisis realizado por el Instituto de Data Science de la Universidad del Desarrollo considerando el movimiento de los teléfonos móviles conectados a la red de Telefónica en el territorio nacional, de manera agrupada y anónima.  
+
+El índice de movilidad interno a la comuna es una medida de los viajes que ocurren al interior de dicha unidad administrativa.  
+
+El índice de movilidad externo la comuna es una medida tanto de los viajes que tienen origen al interior de la comuna y destino al exterior de la comuna, como de los viajes que tienen origen al exterior de la comuna y destino al interior de la comuna.
+
+El índice de movilidad es la suma de estos últimos dos índices.
+
+
 # Columnas y valores
+El archivo contiene las columnas 'Región', 'Código Región', 'Comuna', 'Código comuna', 'Población','Superficie_km2'.
+ y múltiples columnas correspondientes a '[fecha]'. Estas últimas columnas, '[fecha]', contienen las 'Defunciones' inscritas en el Registro Civil de Chile.
 # Fuente
 Instituto de Data Science de la Universidad del Desarrollo
 Bravo, Loreto, and Ferres, Leo. (2020). *The IM (Mobility Index)
