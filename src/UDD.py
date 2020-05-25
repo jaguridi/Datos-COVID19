@@ -49,9 +49,10 @@ def prod33(fte, prod):
 
 
     df = pd.concat(data)
-    df = insertSuperficie(df)
+    df = insertSuperficiePoblacion(df)
     #Ordenamos las columnas
-    columns = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'IM_interno', 'IM_externo', 'IM', 'Fecha']
+    columns = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion',
+               'IM_interno', 'IM_externo', 'IM', 'Fecha']
     df = df[columns]
     df.to_csv(prod + '_std.csv', index=False)
 
@@ -61,9 +62,11 @@ def prod33(fte, prod):
         columnsToDrop = [x for x in IMs if x != eachIM]
         df_aux = df.drop(columns=columnsToDrop)
 
-        reshaped = pd.pivot_table(df_aux, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2'],
-                              columns=['Fecha'],
-                              values=eachIM)
+        reshaped = pd.pivot_table(df_aux,
+                            index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion'],
+                            columns=['Fecha'],
+                             values=eachIM)
+
         reshaped.fillna(0, inplace=True)
         reshaped = reshaped.applymap(np.int64)
         reshaped.to_csv(prod + '-' + eachIM + '.csv')

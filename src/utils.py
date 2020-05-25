@@ -192,13 +192,13 @@ def writeStandardsToFile(prod):
     out.to_csv(prod, index=False)
 
 
-def insertSuperficie(df):
-    df_Superficie = pd.read_csv('../input/otros/InformacionComunas.csv')
-    df_sup = df_Superficie[['Codigo comuna', 'Superficie_km2']]
+def insertSuperficiePoblacion(df):
+    df_std = pd.read_csv('../input/otros/InformacionComunas.csv')
+    df_sup = df_std[['Codigo comuna', 'Superficie_km2', 'Poblacion']]
     df = df.merge(df_sup, on="Codigo comuna", how="outer")
 
     # Sort Columns
-    columnsAddedHere = ['Superficie_km2']
+    columnsAddedHere = ['Superficie_km2', 'Poblacion']
     originalColumns = [x for x in list(df) if x not in columnsAddedHere]
     sortedColumns = columnsAddedHere + originalColumns
 
