@@ -130,7 +130,7 @@ def getSuperficieComunas(URL, prod):
     df_to_write.to_csv(prod, index=False)
 
 def insertSuperficie(df):
-    df_Superficie = pd.read_csv('../input/otros/SuperficiesComunas.csv')
+    df_Superficie = pd.read_csv('../input/otros/InformacionComunas.csv')
     df_sup = df_Superficie[['Codigo comuna', 'Superficie_km2']]
     df = df.merge(df_sup, on="Codigo comuna", how="outer")
 
@@ -145,4 +145,4 @@ def insertSuperficie(df):
 
 
 if __name__ == '__main__':
-    getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile', '../input/otros/SuperficiesComunas.csv')
+    getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile', '../input/otros/InformacionComunas.csv')
