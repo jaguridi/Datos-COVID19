@@ -36,7 +36,7 @@ import numpy as np
 
 def prod34(fte, prod):
     data = []
-    for file in glob.glob(fte + '/*'):
+    for file in glob.glob(fte + '/*IM.csv'):
         print('Processing ' + file)
         df = pd.read_csv(file, sep=",", encoding="utf-8", decimal=",")
 
@@ -49,7 +49,10 @@ def prod34(fte, prod):
 
 
     df = pd.concat(data)
-
+    df = insertSuperficie(df)
+    #Ordenamos las columnas
+    columns = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'IM_interno', 'IM_externo', 'IM', 'Fecha']
+    df = df[columns]
     df.to_csv(prod + '_std.csv', index=False)
 
     #IM_interno,IM_externo,IM,
@@ -58,7 +61,7 @@ def prod34(fte, prod):
         columnsToDrop = [x for x in IMs if x != eachIM]
         df_aux = df.drop(columns=columnsToDrop)
 
-        reshaped = pd.pivot_table(df_aux, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'],
+        reshaped = pd.pivot_table(df_aux, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2'],
                               columns=['Fecha'],
                               values=eachIM)
         reshaped.fillna(0, inplace=True)

@@ -131,9 +131,7 @@ def getSuperficieComunas(URL, prod):
 
 def insertSuperficie(df):
     df_Superficie = pd.read_csv('../input/otros/SuperficiesComunas.csv')
-    print(list(df_Superficie))
     df_sup = df_Superficie[['Codigo comuna', 'Superficie_km2']]
-
     df = df.merge(df_sup, on="Codigo comuna", how="outer")
 
     # Sort Columns
@@ -144,7 +142,6 @@ def insertSuperficie(df):
     df = df[sortedColumns]
 
     return df
-
 
 
 if __name__ == '__main__':
