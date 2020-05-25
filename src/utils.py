@@ -158,7 +158,6 @@ def std_getPoblacion(fte, std_df):
 def writeStandardsToFile(prod):
     out = std_getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile')
     out = std_getPoblacion('../output/producto1/Covid-19.csv', out)
-    #out.to_csv('../input/otros/test.csv')
     out.to_csv(prod, index=False)
 
 
