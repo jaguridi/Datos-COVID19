@@ -71,6 +71,7 @@ def prod34(fte, prod):
         data_t.index.rename('', inplace=True)
         data_t.to_csv(prod + '-' + eachIM + '_T.csv')
 
+
 if __name__ == '__main__':
     print('Generating producto 34')
-    prod34('../input/UDD/', '../output/producto34/IndiceDeMovilidad')
+    prod34('../input/UDD/', '../output/producto33/IndiceDeMovilidad')
