@@ -125,9 +125,72 @@ def getSuperficieComunas(URL, prod):
     df_to_write = df.drop(columns=['Provincia', 'Region', 'Poblacion_2017', 'Densidad',
             'IDH_2005', 'IDH_2005_b', 'Latitud', 'Longitud', 'Escudo'])
 
+    # standards:
+    df_to_write["Comuna"] = df_to_write["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
     df_to_write = normalizaNombreCodigoRegionYComuna(df_to_write)
 
+
     df_to_write.to_csv(prod, index=False)
+
+def std_getSuperficieComunas(URL):
+    '''
+    Obtenemos la superficie de las comunas desde Wikipedia, y las dejamos en un archivo en input para
+    enriquecer los productos
+    '''
+    page = requests.get(URL)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    table = soup.find(lambda tag: tag.name == 'table')
+    rows = table.findAll(lambda tag: tag.name == 'tr')
+    data = [['Codigo comuna', 'Comuna', 'Escudo', 'Provincia', 'Region', 'Superficie_km2', 'Poblacion_2017', 'Densidad',
+            'IDH_2005', 'IDH_2005_b', 'Latitud', 'Longitud']]
+    for row in rows:
+        cols = row.findAll('td')
+        cols = [ele.text.strip() for ele in cols]
+        if len(cols) > 1:
+            data.append(
+                [unidecode(ele) for ele in cols if (len(ele) > 1 or 'Escudo' not in ele)])
+
+    headers = data.pop(0) # gives the headers as list and leaves d
+    df = pd.DataFrame.from_records(data, columns=headers)
+
+    df_to_write = df.drop(columns=['Provincia', 'Region', 'Poblacion_2017', 'Densidad',
+            'IDH_2005', 'IDH_2005_b', 'Latitud', 'Longitud', 'Escudo'])
+
+    # standards:
+    df_to_write["Comuna"] = df_to_write["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
+    df_to_write = normalizaNombreCodigoRegionYComuna(df_to_write)
+
+
+    return df_to_write
+
+
+def std_getPoblacion(fte, std_df):
+    '''
+    Agregamos poblacion a input/otros/InformacionComunas.csv
+    '''
+    df = pd.read_csv(fte)
+    # standards:
+    df["Comuna"] = df["Comuna"].replace({"OHiggins": "O'Higgins"})
+    df = normalizaNombreCodigoRegionYComuna(df)
+
+    columnsToKeep = ['Codigo comuna', 'Poblacion']
+    df = df[columnsToKeep]
+
+    # if there is a poblacion columns, drop it
+    if 'Poblacion' in std_df:
+        std_df = std_df.drop(columns=['Poblacion'])
+
+    columnsToKeep = list(std_df)
+    columnsToKeep.append('Poblacion')
+    std_df = std_df.merge(df, on="Codigo comuna", how="outer")
+    return std_df
+
+def writeStandardsToFile(prod):
+    out = std_getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile')
+    out = std_getPoblacion('../output/producto1/Covid-19.csv', out)
+    #out.to_csv('../input/otros/test.csv')
+    out.to_csv(prod, index=False)
+
 
 def insertSuperficie(df):
     df_Superficie = pd.read_csv('../input/otros/InformacionComunas.csv')
@@ -145,4 +208,4 @@ def insertSuperficie(df):
 
 
 if __name__ == '__main__':
-    getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile', '../input/otros/InformacionComunas.csv')
+    writeStandardsToFile('../input/otros/InformacionComunas.csv')

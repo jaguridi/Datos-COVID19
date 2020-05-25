@@ -6,8 +6,7 @@ La tercera serie de tiempo (IM) representa la evolución del índice de movilida
 # Columnas y valores
 Los archivos contienen las columnas 'Región', 'Código Región', 'Comuna', 'Código comuna', 'Población','Superficie_km2' y múltiples columnas correspondientes a '[fecha]'. Estas últimas columnas, '[fecha]', contienen el valor para el índice en la fecha indicada.
 # Fuente
-Instituto de Data Science de la Universidad del Desarrollo Bravo, Loreto, and Ferres, Leo. (2020). *The IM (Mobility Index)
-dataset*, electronic dataset, UDD and Ministry of Science, Chile.
+Instituto de Data Science de la Universidad del Desarrollo Bravo, Loreto, and Ferres, Leo. (2020). *The IM (Mobility Index) dataset*, electronic dataset, UDD and Ministry of Science, Chile.
 # Frenciencia de Actualización
 Mensual.
 # Más información sobre cómo se obtienen estos datos
