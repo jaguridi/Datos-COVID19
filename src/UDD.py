@@ -34,7 +34,7 @@ from utils import *
 import numpy as np
 
 
-def prod34(fte, prod):
+def prod33(fte, prod):
     data = []
     for file in glob.glob(fte + '/*IM.csv'):
         print('Processing ' + file)
@@ -73,5 +73,5 @@ def prod34(fte, prod):
 
 
 if __name__ == '__main__':
-    print('Generating producto 34')
-    prod34('../input/UDD/', '../output/producto33/IndiceDeMovilidad')
+    print('Generating producto 33')
+    prod33('../input/UDD/', '../output/producto33/IndiceDeMovilidad')
