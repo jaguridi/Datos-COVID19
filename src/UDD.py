@@ -63,10 +63,10 @@ def prod34(fte, prod):
                               values=eachIM)
         reshaped.fillna(0, inplace=True)
         reshaped = reshaped.applymap(np.int64)
-        reshaped.to_csv(prod + '- ' + eachIM + '.csv')
+        reshaped.to_csv(prod + '-' + eachIM + '.csv')
         data_t = reshaped.transpose()
         data_t.index.rename('', inplace=True)
-        data_t.to_csv(prod + '- ' + eachIM + '_T.csv')
+        data_t.to_csv(prod + '-' + eachIM + '_T.csv')
 
 if __name__ == '__main__':
     print('Generating producto 34')
