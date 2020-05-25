@@ -65,7 +65,7 @@ def prod33(fte, prod):
         reshaped = pd.pivot_table(df_aux,
                             index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion'],
                             columns=['Fecha'],
-                             values=eachIM)
+                            values=eachIM)
 
         reshaped.fillna(0, inplace=True)
         reshaped = reshaped.applymap(np.int64)
