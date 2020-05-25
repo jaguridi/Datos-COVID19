@@ -136,7 +136,7 @@ def std_getSuperficieComunas(URL):
 
 def std_getPoblacion(fte, std_df):
     '''
-    Agregamos poblacion a input/otros/InformacionComunas.csv
+    Agregamos poblacion a input/Otros/InformacionComunas.csv
     '''
     df = pd.read_csv(fte)
     # standards:
@@ -155,14 +155,19 @@ def std_getPoblacion(fte, std_df):
     std_df = std_df.merge(df, on="Codigo comuna", how="outer")
     return std_df
 
+
 def writeStandardsToFile(prod):
+    '''
+    Actualizamos y/o generamos el archivo con entradas mas estables para las comunas:
+    Region,Codigo region,Comuna,Codigo comuna,Superficie_km2,Poblacion
+    '''
     out = std_getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile')
     out = std_getPoblacion('../output/producto1/Covid-19.csv', out)
     out.to_csv(prod, index=False)
 
 
 def insertSuperficiePoblacion(df):
-    df_std = pd.read_csv('../input/otros/InformacionComunas.csv')
+    df_std = pd.read_csv('../input/Otros/InformacionComunas.csv')
     df_sup = df_std[['Codigo comuna', 'Superficie_km2', 'Poblacion']]
     df = df.merge(df_sup, on="Codigo comuna", how="outer")
 
@@ -177,4 +182,4 @@ def insertSuperficiePoblacion(df):
 
 
 if __name__ == '__main__':
-    writeStandardsToFile('../input/otros/InformacionComunas.csv')
+    writeStandardsToFile('../input/Otros/InformacionComunas.csv')
