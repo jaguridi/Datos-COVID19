@@ -31,6 +31,7 @@ Los productos que salen de la contribucion de la UDD son:
 import pandas as pd
 import glob
 from utils import *
+import numpy as np
 
 
 def prod34(fte, prod):
@@ -50,6 +51,22 @@ def prod34(fte, prod):
     df = pd.concat(data)
 
     df.to_csv(prod + '_std.csv', index=False)
+
+    #IM_interno,IM_externo,IM,
+    IMs = ['IM', 'IM_interno', 'IM_externo']
+    for eachIM in IMs:
+        columnsToDrop = [x for x in IMs if x != eachIM]
+        df_aux = df.drop(columns=columnsToDrop)
+
+        reshaped = pd.pivot_table(df_aux, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'],
+                              columns=['Fecha'],
+                              values=eachIM)
+        reshaped.fillna(0, inplace=True)
+        reshaped = reshaped.applymap(np.int64)
+        reshaped.to_csv(prod + '- ' + eachIM + '.csv')
+        data_t = reshaped.transpose()
+        data_t.index.rename('', inplace=True)
+        data_t.to_csv(prod + '- ' + eachIM + '_T.csv')
 
 if __name__ == '__main__':
     print('Generating producto 34')
