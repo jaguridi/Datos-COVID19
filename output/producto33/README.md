@@ -13,7 +13,7 @@ Los archivos contienen las columnas 'Región', 'Código Región', 'Comuna', 'Có
 # Fuente
 Instituto de Data Science de la Universidad del Desarrollo Bravo, Loreto, and Ferres, Leo. (2020). *The IM (Mobility Index) dataset*, electronic dataset, UDD and Ministry of Science, Chile.
 
-# Frenciencia de Actualización
+# Frecuencia de Actualización
 Mensual.
 
 # Más información sobre cómo se obtienen estos datos
