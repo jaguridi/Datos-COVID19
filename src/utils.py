@@ -94,6 +94,7 @@ def normalizaNombreCodigoRegionYComuna(df):
         print(df1.to_string())
 
     df = df[sortedColumns]
+    df['Codigo region'] = df['Codigo region'].astype(str)
     return df
 
 def FechaAlFinal(df):

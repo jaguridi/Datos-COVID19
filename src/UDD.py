@@ -80,7 +80,7 @@ def prod33(fte, prod):
                             values=eachIM)
 
         reshaped.fillna(0, inplace=True)
-        reshaped = reshaped.applymap(np.int64)
+        #reshaped = reshaped.applymap(np.int64)
         reshaped.to_csv(prod + '-' + eachIM + '.csv')
         data_t = reshaped.transpose()
         data_t.index.rename('', inplace=True)
