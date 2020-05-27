@@ -69,7 +69,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 32 - Defunciones en Chile](output/producto32): Set de 3 archivos en formato csv que dan cuenta del número de Defunciones inscritas en el Registro Civil de Chile, desde el 2010 a la fecha, actualizadas diariamente. [Ver Más](output/producto32)
 
-[Data Product 33 (contribuido) - Índices de Movilidad Nacional a nivel comunal](output/producto33): Contribuido por el Instituto de Data Science de la Universidad del Desarrollo, set de 9 archivos en formato csv que dan cuenta de índices de movilidad construidos con los datos de la red de telefonía móvil para viajes dentro de una comuna, viajes con origen dentro de la comuna y destino afuera de la comuna (y su recíproco). [Ver Más](output/producto33)
+[Data Product 33 (contribuido) - Índices de Movilidad Nacional a nivel comunal](output/producto33): Contribuido por el Instituto de Data Science de la Universidad del Desarrollo, set de 9 archivos en formato csv que dan cuenta de índices de movilidad construidos con los datos de la red de telefonía móvil. Incluye viajes dentro de una comuna (índice de movilidad interno) y viajes con origen dentro de la comuna y destino afuera (y su recíproco, como índice de movilidad externo). [Ver Más](output/producto33)
 
 
 ## ¿Cómo funciona?
