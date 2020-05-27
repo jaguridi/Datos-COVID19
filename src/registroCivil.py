@@ -137,7 +137,6 @@ def prod31_32(fte, prod):
 
     data.to_csv(prod + outputPrefix + '_std.csv', index=False)
 
-
     reshaped = pd.pivot_table(data, index=['Region', 'Comuna'], columns=['Fecha'], values=outputPrefix)
     reshaped.fillna(0, inplace=True)
     reshaped = reshaped.applymap(np.int64)
@@ -148,6 +147,7 @@ def prod31_32(fte, prod):
     data_t.index.rename('', inplace=True)
 
     data_t.to_csv(prod + outputPrefix + '_T.csv')
+
 
 def APIupdate(URL, prod):
     # check if we're on nacimientos or defunciones and when was the last update to the files
@@ -174,7 +174,6 @@ def APIupdate(URL, prod):
     lastDate = dt.datetime.strftime(lastDate, "%Y-%m-%d")
     now = dt.datetime.today().strftime("%Y-%m-%d")
     now_as_date = dt.datetime.strptime(now, "%Y-%m-%d")
-
 
 
     if (lastDate_as_date >= now_as_date):
@@ -245,19 +244,7 @@ def APIupdate(URL, prod):
                                          ])
 
         # normalize all on data, but test on df as it's smaller
-        dfaux = insertCodigoRegion(data)
-        if 'Nacimientos' in data.columns:
-            # Region,Comuna,Nacimientos,Fecha,Código Región,Nombre Región,Código Provincia,Nombre Provincia,Código Comuna 2017,Nombre Comuna
-            data = dfaux[['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Nacimientos', 'Fecha']].copy()
-
-        elif 'Defunciones' in data.columns:
-            data = dfaux[['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Defunciones', 'Fecha']].copy()
-
-        data.rename(columns={'Nombre Región': 'Region',
-                                 'Código Región': 'Codigo region',
-                                 'Nombre Comuna': 'Comuna',
-                                 'Código Comuna 2017': 'Codigo comuna'}, inplace=True)
-
+        data = normalizaNombreCodigoRegionYComuna(data)
         data.to_csv(prod + outputPrefix + '_std.csv', index=False)
 
         reshaped = pd.pivot_table(data, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'], values=outputPrefix)
@@ -342,20 +329,21 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
                                      "Magallanes",
                                      ])
     # normalize all on data, but test on df as it's smaller
-    dfaux = insertCodigoRegion(df_API)
-    if 'Nacimientos' in df_API.columns:
-        # Region,Comuna,Nacimientos,Fecha,Código Región,Nombre Región,Código Provincia,Nombre Provincia,Código Comuna 2017,Nombre Comuna
-        df_API = dfaux[
-            ['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Nacimientos', 'Fecha']].copy()
-
-    elif 'Defunciones' in df_API.columns:
-        df_API = dfaux[
-            ['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Defunciones', 'Fecha']].copy()
-
-    df_API.rename(columns={'Nombre Región': 'Region',
-                         'Código Región': 'Codigo region',
-                         'Nombre Comuna': 'Comuna',
-                         'Código Comuna 2017': 'Codigo comuna'}, inplace=True)
+    df_API = normalizaNombreCodigoRegionYComuna(df_API)
+    # dfaux = normalizaNombreCodigoRegionYComuna(df_API)
+    # if 'Nacimientos' in df_API.columns:
+    #     # Region,Comuna,Nacimientos,Fecha,Código Región,Nombre Región,Código Provincia,Nombre Provincia,Código Comuna 2017,Nombre Comuna
+    #     df_API = dfaux[
+    #         ['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Nacimientos', 'Fecha']].copy()
+    #
+    # elif 'Defunciones' in df_API.columns:
+    #     df_API = dfaux[
+    #         ['Nombre Región', 'Código Región', 'Nombre Comuna', 'Código Comuna 2017', 'Defunciones', 'Fecha']].copy()
+    #
+    # df_API.rename(columns={'Nombre Región': 'Region',
+    #                      'Código Región': 'Codigo region',
+    #                      'Nombre Comuna': 'Comuna',
+    #                      'Código Comuna 2017': 'Codigo comuna'}, inplace=True)
 
 
     #compare df with what was written:
