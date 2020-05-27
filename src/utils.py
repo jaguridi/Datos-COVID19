@@ -128,7 +128,8 @@ def std_getSuperficieComunas(URL):
         cols = [ele.text.strip() for ele in cols]
         if len(cols) > 1:
             data.append(
-                [unidecode(ele) for ele in cols if (len(ele) > 1 or 'Escudo' not in ele)])
+                #s.replace('.', '', s.count('.')-1)
+                [unidecode(ele.replace('.', '', ele.count('.')-1)) for ele in cols if (len(ele) > 1 or 'Escudo' not in ele)])
 
     headers = data.pop(0) # gives the headers as list and leaves d
     df = pd.DataFrame.from_records(data, columns=headers)
