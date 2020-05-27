@@ -51,7 +51,10 @@ def regionNameRegex(df):
 
 def normalizaNombreCodigoRegionYComuna(df):
     # standards:
-    df["Comuna"] = df["Comuna"].replace({"Coyhaique": "Coihaique", "Paihuano": "paiguano"})
+    df["Comuna"] = df["Comuna"].replace({"Coyhaique": "coihaique",
+                                         "Paihuano": "paiguano",
+                                         "La Calera": "Calera",
+                                         "Llay-Llay": "Llaillay"})
 
     # Lee IDs de comunas desde página web oficial de SUBDERE
     df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/cut_2018_v03.xls",
