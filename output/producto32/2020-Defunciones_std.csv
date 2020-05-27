@@ -126,6 +126,7 @@ Metropolitana de Santiago,13,Independencia,13108,14,2020-01-05
 Metropolitana de Santiago,13,Independencia,13108,20,2020-01-06
 Metropolitana de Santiago,13,Independencia,13108,19,2020-01-07
 Metropolitana de Santiago,13,Independencia,13108,23,2020-01-08
+Metropolitana de Santiago,13,Independencia,13108,30,2020-01-09
 Metropolitana de Santiago,13,Independencia,13108,19,2020-01-10
 Metropolitana de Santiago,13,Independencia,13108,5,2020-01-11
 Metropolitana de Santiago,13,Independencia,13108,18,2020-01-12
@@ -4363,6 +4364,7 @@ Biobío,8,Concepción,8101,8,2020-02-28
 Biobío,8,Concepción,8101,19,2020-03-02
 Biobío,8,Concepción,8101,22,2020-03-03
 Biobío,8,Concepción,8101,6,2020-03-04
+Biobío,8,Concepción,8101,6,2020-03-05
 Biobío,8,Concepción,8101,6,2020-03-06
 Biobío,8,Concepción,8101,1,2020-03-07
 Biobío,8,Concepción,8101,18,2020-03-09
@@ -4759,6 +4761,7 @@ Biobío,8,Lota,8106,1,2020-04-03
 Biobío,8,Lota,8106,1,2020-04-07
 Biobío,8,Lota,8106,2,2020-04-09
 Biobío,8,Lota,8106,3,2020-04-13
+Biobío,8,Lota,8106,4,2020-04-15
 Biobío,8,Lota,8106,1,2020-04-17
 Biobío,8,Lota,8106,3,2020-04-20
 Biobío,8,Lota,8106,1,2020-04-27
@@ -5652,6 +5655,7 @@ La Araucanía,9,Temuco,9101,5,2020-02-11
 La Araucanía,9,Temuco,9101,13,2020-02-12
 La Araucanía,9,Temuco,9101,8,2020-02-13
 La Araucanía,9,Temuco,9101,6,2020-02-14
+La Araucanía,9,Temuco,9101,24,2020-02-17
 La Araucanía,9,Temuco,9101,14,2020-02-18
 La Araucanía,9,Temuco,9101,2,2020-02-19
 La Araucanía,9,Temuco,9101,7,2020-02-20
@@ -6169,6 +6173,7 @@ Los Lagos,10,Puerto Montt,10101,8,2020-02-25
 Los Lagos,10,Puerto Montt,10101,13,2020-02-26
 Los Lagos,10,Puerto Montt,10101,8,2020-02-27
 Los Lagos,10,Puerto Montt,10101,3,2020-02-28
+Los Lagos,10,Puerto Montt,10101,8,2020-03-02
 Los Lagos,10,Puerto Montt,10101,5,2020-03-03
 Los Lagos,10,Puerto Montt,10101,6,2020-03-04
 Los Lagos,10,Puerto Montt,10101,3,2020-03-05
@@ -11224,6 +11229,7 @@ La Araucanía,9,Carahue,9102,2,2020-04-06
 La Araucanía,9,Carahue,9102,1,2020-04-13
 La Araucanía,9,Carahue,9102,1,2020-04-16
 La Araucanía,9,Carahue,9102,1,2020-04-17
+La Araucanía,9,Carahue,9102,2,2020-04-20
 La Araucanía,9,Carahue,9102,2,2020-04-21
 La Araucanía,9,Carahue,9102,2,2020-04-27
 La Araucanía,9,Carahue,9102,1,2020-04-30
@@ -14331,12 +14337,6 @@ Arica y Parinacota,15,Putre,15201,1,2020-03-18
 Ñuble,16,Treguaco,16207,1,2020-05-05
 Aysén del General Carlos Ibáñez del Campo,11,O'Higgins,11302,1,2020-04-02
 La Araucanía,9,Freire,9105,1,2020-03-04
-Metropolitana de Santiago,13,Independencia,13108,30,2020-01-09
-Biobío,8,Concepción,8101,6,2020-03-05
-Biobío,8,Lota,8106,4,2020-04-15
-La Araucanía,9,Temuco,9101,24,2020-02-17
-Los Lagos,10,Puerto Montt,10101,8,2020-03-02
-La Araucanía,9,Carahue,9102,2,2020-04-20
 Valparaíso,5,Viña del Mar,5109,1,2020-01-01
 Valparaíso,5,Viña del Mar,5109,19,2020-01-02
 Valparaíso,5,Viña del Mar,5109,6,2020-01-03
