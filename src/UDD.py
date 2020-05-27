@@ -44,7 +44,9 @@ def prod33(fte, prod):
         df.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
 
         # hay 4 comunas perdidas 5502, 5703, 11302 12202
-
+        # 5502, 5703 listas
+        # 11302: O'Higgins no esta
+        # 122012: Antartica no esta
         df = normalizaNombreCodigoRegionYComuna(df)
         df = FechaAlFinal(df)
         data.append(df)
@@ -60,7 +62,7 @@ def prod33(fte, prod):
 
     #try to build a single df with three rows per date per comuna
     aux = df.melt(id_vars=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion', 'Fecha'],
-                  value_vars=['IM_interno','IM_externo','IM'])
+                  value_vars=['IM_interno', 'IM_externo', 'IM'])
 
     aux.to_csv(prod + '_std.csv')
 

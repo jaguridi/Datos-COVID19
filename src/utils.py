@@ -54,7 +54,8 @@ def normalizaNombreCodigoRegionYComuna(df):
     df["Comuna"] = df["Comuna"].replace({"Coyhaique": "coihaique",
                                          "Paihuano": "paiguano",
                                          "La Calera": "Calera",
-                                         "Llay-Llay": "Llaillay"})
+                                         "Llay-Llay": "Llaillay",
+                                         })
 
     # Lee IDs de comunas desde página web oficial de SUBDERE
     df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/cut_2018_v03.xls",
@@ -86,6 +87,11 @@ def normalizaNombreCodigoRegionYComuna(df):
     columnsAddedHere = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
     originalColumns = [x for x in list(df) if x not in columnsAddedHere]
     sortedColumns = columnsAddedHere + originalColumns
+
+    #report on missing
+    df1 = df[df.isnull().any(axis=1)]
+    if df1.size > 0:
+        print(df1.to_string())
 
     df = df[sortedColumns]
     return df
