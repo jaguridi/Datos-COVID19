@@ -54,6 +54,8 @@ def prod33(fte, prod):
 
     df = pd.concat(data)
     df = insertSuperficiePoblacion(df)
+    df.dropna(how='any', inplace=True)
+
     #Ordenamos las columnas
     columns = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion',
                'IM_interno', 'IM_externo', 'IM', 'Fecha']
