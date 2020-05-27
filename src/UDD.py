@@ -66,7 +66,7 @@ def prod33(fte, prod):
     aux = df.melt(id_vars=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion', 'Fecha'],
                   value_vars=['IM_interno', 'IM_externo', 'IM'])
 
-    aux.to_csv(prod + '_std.csv')
+    aux.to_csv(prod + '_std.csv', index=False)
 
     #IM_interno,IM_externo,IM,
     IMs = ['IM', 'IM_interno', 'IM_externo']
