@@ -185,6 +185,7 @@ def updateInputDO(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.today().s
     fileName = prod + outputPrefix + '_' + fromDate + '_' + toDate + '_DO.csv'
 
     #check for duplicates:
+
     compareAPIAgainstFile(df_API, fromDate, toDate)
 
     df_API.to_csv(fileName, index=False)
@@ -244,7 +245,7 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
     We compare what's stored against what the API reply, and report those changes
     '''
     #La API nos dice que archivo abrir: lo inferimos a partir de la fecha
-    duplicates = []
+
     df_file = pd.DataFrame()
     if 'Nacimientos' in list(df_api.columns):
         inputPrefix = 'Nacimientos'
@@ -258,6 +259,10 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
         for file in glob.glob('../input/RegistroCivil/Defunciones/Defunciones_' + fromDate + '_' + toDate + '_DO.csv'):
             df_file = pd.read_csv(file)
 
+    if len(df_file) == 0:
+        print('No file to compare')
+        return
+
     # teoria: concatenar y hacer drop de duplicados
 
     if len(df_file) == 0:
@@ -270,8 +275,8 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
     # 1.- Concat both DF
 
     results = pd.concat([df_file, df_api])
-    duplications = results.duplicated()
-    print(len(results))
+    duplications = results[results.duplicated(['Codigo region', 'Codigo comuna', 'Fecha'])]
+    print('concat the df gives ' + str(len(results)))
     results = results.reset_index(drop=True)
     results_gpby = results.groupby(list(df_file.columns))
     idx = [x[0] for x in results_gpby.groups.values() if len(x) !=1]
@@ -282,6 +287,7 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
 
     else:
         print('New data from the API.')
+        print('We have ' + str(len(duplications)) + ' duplications')
         duplications['Fecha'] = pd.to_datetime(duplications['Fecha'])
         df_file['Fecha'] = pd.to_datetime(df_file['Fecha'])
 
@@ -289,7 +295,7 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
             print('History changed. Notifying')
             # just write a tmp file which will be sent to s3 ( an we can evaluate if sent to slack only.
             timestamp = dt.datetime.today().strftime("%Y-%m-%dT%H:%M:%S")
-            results.to_csv(fromDate + '-' + toDate + '-changes-on-' + inputPrefix + '-' + timestamp + '.tmp',
+            duplications.to_csv(fromDate + '-' + toDate + '-changes-on-' + inputPrefix + '-' + timestamp + '.tmp',
                            index=False)
 
 def removeOldFiles():
@@ -476,4 +482,4 @@ if __name__ == '__main__':
         prod31_32DO('../input/RegistroCivil/', '../output/producto31/')
         print('Generando el producto 32')
         prod31_32DO('../input/RegistroCivil/', '../output/producto32/')
-        removeOldFiles() 
+        removeOldFiles()
