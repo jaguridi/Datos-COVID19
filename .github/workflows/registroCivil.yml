@@ -5,7 +5,7 @@ name: Actualiza_productos_de_Registro_Civil
 on:
     #push
     schedule:
-      - cron:  '5 19 * * *'
+      - cron:  '5 9-19 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -40,9 +40,11 @@ jobs:
           echo "Processing ${i}"
           export SLACK_MESSAGE="${SLACK_MESSAGE}\n$i"
         done
-        echo '{
-                 "text": "'${SLACK_MESSAGE}'"
-             }' > slack_message.json
+        if [ -z SLACK_MESSAGE ] ;then
+          echo '{
+                   "text": "'${SLACK_MESSAGE}'"
+               }' > slack_message.json
+        fi
         if [[ -f slack_message.json ]]; then
           cat slack_message.json
           curl -X POST -H 'Content-type: application/json' --data @slack_message.json ${{ secrets.SLACK_WEBHOOK_URL }}
