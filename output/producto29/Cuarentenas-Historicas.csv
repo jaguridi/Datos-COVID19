@@ -19,9 +19,9 @@ ID,Nombre,Estado,Alcance,Fecha de Inicio,Fecha de Término,Código CUT Comuna,De
 19,Ñuñoa,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-13 09:00:00,13120,Aplicada a la totalidad de la comuna,24305861.1191406,21540.5882083678
 20,Chillán viejo,Histórica,Área Urbana Completa,2020-03-31 01:00:00,2020-04-24 02:00:00,16103,Aplica solo hasta el límite urbano de la ciudad,10541904.53125,16827.6726350142
 21,Padre Las Casas,Histórica,Área Urbana Completa,2020-03-28 03:00:00,2020-04-16 04:00:00,9112,Aplica solo hasta el límite urbano de la ciudad,11026951.7929688,16203.4065525269
-22,Rapa Nui,Histórica,Comuna completa,2020-03-21 01:00:00,2020-04-06 09:00:00,5201,Aplicada a la totalidad de la comuna,205901011.117188,79899.0823228499
+22,Rapa Nui,Histórica,Comuna completa,2020-03-20 03:00:00,2020-04-06 09:00:00,5201,Aplicada a la totalidad de la comuna,205901011.117188,79899.0823228499
 23,Independencia,Histórica,Comuna completa,2020-03-27 01:00:00,2020-04-03 01:00:00,13108,Aplicada a la totalidad de la comuna,10582914.0410156,13699.9128448973
-24,Puerto Williams,Histórica,Área Urbana Completa,2020-04-26 02:00:00,2020-04-06 09:00:00,12201,Aplica solo hasta el límite urbano de la ciudad,2973458.34765625,9302.18440182724
+24,Puerto Williams,Histórica,Área Urbana Completa,2020-03-23 03:00:00,2020-04-06 09:00:00,12201,Aplica solo hasta el límite urbano de la ciudad,2973458.34765625,9302.18440182724
 25,Caleta Tortel,Histórica,Sector Específico,2020-03-13 01:00:00,2020-03-28 01:00:00,11303,Aplicada a la localidad de Caleta Tortel de forma preventiva por brotes de COVID-19 en Aysén,15336560.5195313,25455.5653612886
 28,Independencia Sur (Re-ingreso),Histórica,Sector Específico,2020-04-24 02:00:00,2020-05-01 02:00:00,13108,"Corresponde al sector delimitado por la linea comprendida de las calles Gamero y Santos Dumont hacia el sur, se extiende a cuarentena total el 30 de abril",2460063.44140625,8284.04113571919
 29,Victoria,Histórica,Área Urbana Completa,2020-05-01 02:00:00,2020-05-16 02:00:00,9211,Aplica solo hasta el límite urbano de la ciudad,9256998.9140625,36013.0185048258
