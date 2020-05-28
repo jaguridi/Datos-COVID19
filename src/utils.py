@@ -49,6 +49,7 @@ def regionNameRegex(df):
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región de ', value=r'')
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región del ', value=r'')
 
+
 def normalizaNombreCodigoRegionYComuna(df):
     # standards:
     df["Comuna"] = df["Comuna"].replace({"Coyhaique": "coihaique",
@@ -97,6 +98,7 @@ def normalizaNombreCodigoRegionYComuna(df):
     df['Codigo region'] = df['Codigo region'].astype(str)
     return df
 
+
 def FechaAlFinal(df):
     if 'Fecha' in df.columns:
         columns = [x for x in list(df) if x != 'Fecha']
@@ -140,9 +142,30 @@ def std_getSuperficieComunas(URL):
     # standards:
     df_to_write["Comuna"] = df_to_write["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
     df_to_write = normalizaNombreCodigoRegionYComuna(df_to_write)
-
-
     return df_to_write
+
+
+def std_getSuperficieComunasOfficial(input):
+    '''
+    Bienes nacionales noticed we got superficies from wikipedia, so they contributed with a proper source
+    ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2']
+    '''
+    df = pd.read_excel(input)
+    print(list(df))
+    df.drop(columns={'CUT_PROV', 'PROVINCIA'}, inplace=True)
+    print(list(df))
+    df.rename(columns={
+        'CUT_REG': 'Codigo region',
+        'CUT_COM': 'Codigo comuna',
+        'REGION': 'Region',
+        'COMUNA': 'Comuna',
+        'SUPERFICIE': 'Superficie_km2'
+    }, inplace=True)
+
+    #df["Comuna"] = df["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
+    df = normalizaNombreCodigoRegionYComuna(df)
+
+    return df
 
 
 def std_getPoblacion(fte, std_df):
@@ -173,6 +196,8 @@ def writeStandardsToFile(prod):
     Region,Codigo region,Comuna,Codigo comuna,Superficie_km2,Poblacion
     '''
     out = std_getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile')
+    print(list(out))
+    out = std_getSuperficieComunasOfficial('../input/Otros/2020.xlsx')
     out = std_getPoblacion('../output/producto1/Covid-19.csv', out)
     out.to_csv(prod, index=False)
 
