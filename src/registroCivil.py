@@ -266,19 +266,30 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
     print('largo file ' + str(len(df_file)) + ' + largo api ' + str(len(df_api)) + ' = '
           + str(len(df_file)+len(df_api)))
 
+    #prepare to check for duplicates.
+    # 1.- Concat both DF
+
     results = pd.concat([df_file, df_api])
+    duplications = results.duplicated()
     print(len(results))
     results = results.reset_index(drop=True)
     results_gpby = results.groupby(list(df_file.columns))
-    idx = [x[0] for x in results_gpby.groups.values() if len(x) !=1 ]
+    idx = [x[0] for x in results_gpby.groups.values() if len(x) !=1]
     results = results.reindex(idx)
     print(len(results))
     if len(results > 0):
+        print('All data from the API was on disk. No changes')
         #just write a tmp file which will be sent to s3 ( an we can evaluate if sent to slack only.
+
         timestamp = dt.datetime.today().strftime("%Y-%m-%dT%H:%M:%S")
         results.to_csv(fromDate + '-' + toDate + '-changes-on-' + inputPrefix + '-' + timestamp + '.tmp', index=False)
     else:
-        print('No changes came from the API')
+        print('New data from the API.')
+        duplications['Fecha'] = pd.to_datetime(duplications['Fecha'])
+        df_file['Fecha'] = pd.to_datetime(df_file['Fecha'])
+
+        if (duplications['Fecha'] < max(df_file['Fecha'])).any():
+            print('History changed. Notifying')
 
 
 def removeOldFiles():
