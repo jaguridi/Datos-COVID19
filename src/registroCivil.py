@@ -279,10 +279,7 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
     print(len(results))
     if len(results > 0):
         print('All data from the API was on disk. No changes')
-        #just write a tmp file which will be sent to s3 ( an we can evaluate if sent to slack only.
 
-        timestamp = dt.datetime.today().strftime("%Y-%m-%dT%H:%M:%S")
-        results.to_csv(fromDate + '-' + toDate + '-changes-on-' + inputPrefix + '-' + timestamp + '.tmp', index=False)
     else:
         print('New data from the API.')
         duplications['Fecha'] = pd.to_datetime(duplications['Fecha'])
@@ -290,7 +287,10 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
 
         if (duplications['Fecha'] < max(df_file['Fecha'])).any():
             print('History changed. Notifying')
-
+            # just write a tmp file which will be sent to s3 ( an we can evaluate if sent to slack only.
+            timestamp = dt.datetime.today().strftime("%Y-%m-%dT%H:%M:%S")
+            results.to_csv(fromDate + '-' + toDate + '-changes-on-' + inputPrefix + '-' + timestamp + '.tmp',
+                           index=False)
 
 def removeOldFiles():
     '''
