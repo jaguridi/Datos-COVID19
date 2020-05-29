@@ -268,8 +268,12 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
 
     print('concatenando, da ' + str(len(results)))
     results.reset_index(drop=True, inplace=True)
-    print(results)
-    duplications = results[results.duplicated(subset=['Fecha', 'Comuna'], keep='first')]
+
+    results['Nacimientos'] = pd.to_numeric(results['Nacimientos'])
+    results.sort_values(by=['Comuna', 'Fecha', 'Nacimientos'], inplace=True)
+
+
+    duplications = results[results.duplicated(subset=['Fecha', 'Comuna', 'Nacimientos'], keep='first')]
     print('Duplications are:')
     print(duplications)
     print('concat the df gives ' + str(len(results)))
@@ -288,8 +292,8 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
             print('History changed. Notifying')
             # just write a tmp file which will be sent to s3 ( an we can evaluate if sent to slack only.
             timestamp = dt.datetime.today().strftime("%Y-%m-%dT%H:%M:%S")
-            #duplications.to_csv(fromDate + '-' + toDate + '-changes-on-' + inputPrefix + '-' + timestamp + '.tmp',
-             #                   index=False)
+            duplications.to_csv(fromDate + '-' + toDate + '-changes-on-' + inputPrefix + '-' + timestamp + '.tmp',
+                                index=False)
 
 
 def test_compareAPIAgainstFile():
@@ -500,4 +504,4 @@ if __name__ == '__main__':
         print('Generando el producto 32')
         prod31_32DO('../input/RegistroCivil/', '../output/producto32/')
         removeOldFiles()
-        #test_compareAPIAgainstFile()
+        # test_compareAPIAgainstFile()
