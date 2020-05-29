@@ -1,0 +1,25 @@
+Comorbilidad,Hospitalización,2020-05-25
+Hipertensión arterial,NO,9.4
+Diabetes,NO,4.1
+Obesidad,NO,2
+Enfermedad cardiovascular,NO,0.8
+Cardiopatía crónica,NO,0.6
+Enfermedad pulmonar crónica,NO,0.6
+Enfermedad renal crónica,NO,0.3
+Asma,NO,2.3
+Enfermedad neurológica crónica,NO,0.3
+Inmunocomprometido,NO,0.1
+Enfermedad hepática crónica,NO,0.1
+Número Casos sin Hospitalización,NO,67557
+Hipertensión arterial,SI,28.9
+Diabetes,SI,19.6
+Obesidad,SI,5.9
+Enfermedad cardiovascular,SI,4.6
+Cardiopatía crónica,SI,5.1
+Enfermedad pulmonar crónica,SI,4.8
+Enfermedad renal crónica,SI,4.4
+Asma,SI,3.6
+Enfermedad neurológica crónica,SI,3
+Inmunocomprometido,SI,1.3
+Enfermedad hepática crónica,SI,1.1
+Número Casos Hospitalizados,SI,6440
