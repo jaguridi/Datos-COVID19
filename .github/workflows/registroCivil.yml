@@ -37,8 +37,10 @@ jobs:
         cd src
         python registroCivil.py
         for i in *.tmp;do
-          echo "Processing ${i}"
-          export SLACK_MESSAGE="${SLACK_MESSAGE}\n$i"
+          if [ -f ${i} ]; then
+            echo "Processing ${i}"
+            export SLACK_MESSAGE="${SLACK_MESSAGE}\n$i"
+          fi
         done
         if [ -z SLACK_MESSAGE ] ;then
           echo '{
@@ -73,13 +75,25 @@ jobs:
     - name: add_remove_changes
       run: |
         echo ${{ steps.file_changes_outputs_files }}
+        if [ -f ${{ steps.file_changes_outputs_files }} ]; then
+            cat ${{ steps.file_changes_outputs_files }}
+        fi
+
         echo ${{ steps.file_changes.outputs.files_modified }}
+        if [ -f ${{ steps.file_changes.outputs.files_modified }} ]; then
+            cat ${{ steps.file_changes.outputs.files_modified }}
+        fi
+
         echo ${{ steps.file_changes.outputs.files_added }}
+        if [ -f ${{ steps.file_changes.outputs.files_added }} ]; then
+            cat ${{ steps.file_changes.outputs.files_added }}
+        fi
+
         echo ${{ steps.file_changes.outputs.files_removed }}
-        cat $HOME/files.*
-        cat $HOME/files_added.*
-        cat $HOME/files_modified.*
-        cat $HOME/files_removed.*
+        if [ -f ${{ steps.file_changes.outputs.files_removed }} ]; then
+            cat ${{ steps.file_changes.outputs.files_removed }}
+        fi
+
 
 #    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
 #      with:
