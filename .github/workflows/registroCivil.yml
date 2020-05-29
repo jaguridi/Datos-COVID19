@@ -72,10 +72,14 @@ jobs:
 
     - name: add_remove_changes
       run: |
-        cat $HOME/files.txt
-        cat $HOME/files_added
-        cat $HOME/files_modified
-        cat $HOME/files_removed
+        echo ${{ steps.file_changes_outputs_files }}
+        echo ${{ steps.file_changes.outputs.files_modified }}
+        echo ${{ steps.file_changes.outputs.files_added }}
+        echo ${{ steps.file_changes.outputs.files_removed }}
+        cat $HOME/files.*
+        cat $HOME/files_added.*
+        cat $HOME/files_modified.*
+        cat $HOME/files_removed.*
 
 #    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
 #      with:
