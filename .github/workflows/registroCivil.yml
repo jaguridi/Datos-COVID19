@@ -62,23 +62,40 @@ jobs:
           SOURCE_DIR: 'src'      # optional: defaults to entire repository
           DEST_DIR: 'logsRegistroCivil'
 
-    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
-      with:
-        commit_message: "Added data to repo"
 
-        # Optional glob pattern of files which should be added to the commit
-        file_pattern: output/*/*.csv
+    #Id files added and removed
+    - id: file_changes
+        uses: trilom/file-changes-action@v1.2.3
+        with:
+          # optional output format
+          output: ' '
+          # optional fileoutput format
+          fileOutput: ' '
 
-        # Optional local file path to the repository
-        repository: .
-
-        # Optional commit user and author settings
-        commit_user_name: MinCiencia GitHub Actions Bot
-        commit_user_email: actions@github.com
-        commit_author: minciencia github bot <actions@github.com>
-
-    - name: update_API
+    - name: add_remove_changes
       run: |
-        curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
-        -H 'Accept: application/vnd.github.everest-preview+json'  "https://api.github.com/repos/Data-Observatory/covid19-API/dispatches" \
-        -d '{"event_type": "update_please_from_Registro_Civil"}'
+        cat files
+        cat files_added
+        cat files_modified
+        cat files_removed
+
+#    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+#      with:
+#        commit_message: "Added data to repo"
+#
+#        # Optional glob pattern of files which should be added to the commit
+#        file_pattern: output/*/*.csv
+#
+#        # Optional local file path to the repository
+#        repository: .
+#
+#        # Optional commit user and author settings
+#        commit_user_name: MinCiencia GitHub Actions Bot
+#        commit_user_email: actions@github.com
+#        commit_author: minciencia github bot <actions@github.com>
+#
+#    - name: update_API
+#      run: |
+#        curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
+#        -H 'Accept: application/vnd.github.everest-preview+json'  "https://api.github.com/repos/Data-Observatory/covid19-API/dispatches" \
+#        -d '{"event_type": "update_please_from_Registro_Civil"}'
