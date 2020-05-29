@@ -71,9 +71,11 @@ jobs:
       with:
           # optional fileoutput format
           fileOutput: ' '
+          output: ' '
 
     - name: add_remove_changes
       run: |
+        ls
         echo ${{ steps.file_changes_outputs_files }}
         if [ -f ${{ steps.file_changes_outputs_files }} ]; then
             cat ${{ steps.file_changes_outputs_files }}
