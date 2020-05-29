@@ -73,7 +73,7 @@ jobs:
           git rm $i;
         done
 
-        for i in $(git status input/RegistroCivil | grep input | egrep -v deleted ; do
+        for i in $(git status input/RegistroCivil | grep input | egrep -v deleted ); do
           git add $i;
         done
 
