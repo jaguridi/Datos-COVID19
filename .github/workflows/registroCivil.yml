@@ -67,17 +67,15 @@ jobs:
     - id: file_changes
       uses: trilom/file-changes-action@v1.2.3
       with:
-          # optional output format
-          output: ' '
           # optional fileoutput format
           fileOutput: ' '
 
     - name: add_remove_changes
       run: |
-        cat files
-        cat files_added
-        cat files_modified
-        cat files_removed
+        cat $HOME/files.txt
+        cat $HOME/files_added
+        cat $HOME/files_modified
+        cat $HOME/files_removed
 
 #    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
 #      with:
