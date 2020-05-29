@@ -280,11 +280,11 @@ def prod34(fte, producto):
     df.drop(todrop.index, inplace=True)
 
     temp1 = round(df.iloc[0:11][variables].divide(100)*NumeroSinHosp)
-    temp2 = round(df.iloc[12:22][variables].divide(100)*NumeroHosp)
+    temp2 = round(df.iloc[11:22][variables].divide(100)*NumeroHosp)
 
     df2 = pd.concat([temp1,temp2], axis=0)
     df2 = pd.concat([df['Comorbilidad'], df['Hospitalización'], df2], axis=1)
-    df2.to_csv(producto + '.csv')
+    df2.to_csv(producto + '.csv', index=False)
 
     df2_t = utils.transpone_csv(producto + '.csv')
     df2_t.to_csv(producto + '_T.csv', header=False)

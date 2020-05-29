@@ -1,23 +1,23 @@
-,Comorbilidad,Hospitalización,2020-05-25
-0,Hipertensión arterial,NO,6350.0
-1,Diabetes,NO,2770.0
-2,Obesidad,NO,1351.0
-3,Enfermedad cardiovascular,NO,540.0
-4,Cardiopatía crónica,NO,405.0
-5,Enfermedad pulmonar crónica,NO,405.0
-6,Enfermedad renal crónica,NO,203.0
-7,Asma,NO,1554.0
-8,Enfermedad neurológica crónica,NO,203.0
-9,Inmunocomprometido,NO,68.0
-10,Enfermedad hepática crónica,NO,68.0
-12,Hipertensión arterial,SI,
-13,Diabetes,SI,1262.0
-14,Obesidad,SI,380.0
-15,Enfermedad cardiovascular,SI,296.0
-16,Cardiopatía crónica,SI,328.0
-17,Enfermedad pulmonar crónica,SI,309.0
-18,Enfermedad renal crónica,SI,283.0
-19,Asma,SI,232.0
-20,Enfermedad neurológica crónica,SI,193.0
-21,Inmunocomprometido,SI,84.0
-22,Enfermedad hepática crónica,SI,71.0
+Comorbilidad,Hospitalización,2020-05-25
+Hipertensión arterial,NO,6350.0
+Diabetes,NO,2770.0
+Obesidad,NO,1351.0
+Enfermedad cardiovascular,NO,540.0
+Cardiopatía crónica,NO,405.0
+Enfermedad pulmonar crónica,NO,405.0
+Enfermedad renal crónica,NO,203.0
+Asma,NO,1554.0
+Enfermedad neurológica crónica,NO,203.0
+Inmunocomprometido,NO,68.0
+Enfermedad hepática crónica,NO,68.0
+Hipertensión arterial,SI,1861.0
+Diabetes,SI,1262.0
+Obesidad,SI,380.0
+Enfermedad cardiovascular,SI,296.0
+Cardiopatía crónica,SI,328.0
+Enfermedad pulmonar crónica,SI,309.0
+Enfermedad renal crónica,SI,283.0
+Asma,SI,232.0
+Enfermedad neurológica crónica,SI,193.0
+Inmunocomprometido,SI,84.0
+Enfermedad hepática crónica,SI,71.0
