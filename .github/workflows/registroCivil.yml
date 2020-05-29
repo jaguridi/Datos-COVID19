@@ -68,11 +68,11 @@ jobs:
     - name: add_remove_changes
       run: |
         # only remove files from input/RegistroCivil
-        for i in $(git status input/RegistroCivil | grep deleted | awk '{print $2}'); do
+        for i in $(git status input/RegistroCivil) | grep deleted | awk '{print $2}'); do
           git rm $i
         done
         # then add the new ones
-        for i in $(git status input/RegistroCivil | grep input | egrep -v deleted ; do
+        for i in $(git status input/RegistroCivil) | grep input | egrep -v deleted ; do
           git add $i
         done
 
