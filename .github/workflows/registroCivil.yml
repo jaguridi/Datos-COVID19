@@ -70,10 +70,12 @@ jobs:
       # then add the new ones
       run: |
         for i in $(git status input/RegistroCivil | grep deleted | awk '{print $2}'); do
+          echo git rm $i;
           git rm $i;
         done
 
         for i in $(git status input/RegistroCivil | grep input | egrep -v deleted ); do
+          echo git add $i;
           git add $i;
         done
 
