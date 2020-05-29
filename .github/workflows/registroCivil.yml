@@ -65,8 +65,8 @@ jobs:
 
     #Id files added and removed
     - id: file_changes
-        uses: trilom/file-changes-action@v1.2.3
-        with:
+      uses: trilom/file-changes-action@v1.2.3
+      with:
           # optional output format
           output: ' '
           # optional fileoutput format
