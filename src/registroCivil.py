@@ -38,7 +38,6 @@ Los productos que salen del registro civil son:
 """
 
 
-
 def normalizeRegCivDF(df):
     # rename columns
     df.rename(columns={'REGION': 'Region', 'COMUNA': 'Comuna'}, inplace=True)
@@ -70,9 +69,9 @@ def prod31_32(fte, prod):
         for file in glob.glob(fte + 'Nacimientos/*.xlsx'):
             if '_DO' not in file:
                 df = pd.read_excel(file)
-                #rename columns
+                # rename columns
                 df.rename(columns={'REGION': 'Region', 'COMUNA': 'Comuna'}, inplace=True)
-                #title case => Title Case
+                # title case => Title Case
                 df['Comuna'] = df['Comuna'].str.title()
                 regionNameRegex(df)
                 regionName(df)
@@ -87,11 +86,9 @@ def prod31_32(fte, prod):
                 df['TOTAL'] = df.groupby(['Region', 'Comuna', 'Fecha'])['TOTAL'].transform('sum')
                 df.drop_duplicates(inplace=True)
 
-
                 if 'Nacimientos' in file:
                     df = df.rename(columns={'TOTAL': 'Nacimientos'})
                     data.append(df)
-
 
     if 'producto32' in prod:
         outputPrefix = 'Defunciones'
@@ -121,13 +118,14 @@ def prod31_32(fte, prod):
 
     data = pd.concat(data)
 
-    #Normalize and sort
+    # Normalize and sort
     data = normalizaNombreCodigoRegionYComuna(data)
     data.sort_values(by=['Codigo region', 'Codigo comuna', 'Fecha'], inplace=True)
 
     data.to_csv(prod + outputPrefix + '_std.csv', index=False)
 
-    reshaped = pd.pivot_table(data, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'], values=outputPrefix)
+    reshaped = pd.pivot_table(data, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'],
+                              values=outputPrefix)
     reshaped.fillna(0, inplace=True)
     reshaped = reshaped.applymap(np.int64)
     reshaped.to_csv(prod + outputPrefix + '.csv')
@@ -153,7 +151,6 @@ def updateInputDO(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.today().s
         suffix = 'defuncion'
         outputPrefix = 'Defunciones'
 
-
     # get the xlsx from the API
     headers = {
         'Content-Type': 'application/json',
@@ -164,7 +161,7 @@ def updateInputDO(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.today().s
         "startdate": fromDate,
         "enddate": toDate
     }
-    call = fte+ suffix + '/getXlsxAllComunas'
+    call = fte + suffix + '/getXlsxAllComunas'
     print('Querying ' + call + ' between ' + fromDate + ' and ' + toDate)
     response = requests.post(call, headers=headers, json=myData)
     xlsx = io.BytesIO(response.content)
@@ -184,7 +181,7 @@ def updateInputDO(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.today().s
 
     fileName = prod + outputPrefix + '_' + fromDate + '_' + toDate + '_DO.csv'
 
-    #check for duplicates:
+    # check for duplicates:
 
     compareAPIAgainstFile(df_API, fromDate, toDate)
 
@@ -201,8 +198,7 @@ def prod31_32DO(fte, prod):
             df = pd.read_csv(file)
             data.append(df)
             if '2020-01-01' in file:
-                 df_2020 = df
-
+                df_2020 = df
 
     if 'producto32' in prod:
         outputPrefix = 'Defunciones'
@@ -210,7 +206,7 @@ def prod31_32DO(fte, prod):
             df = pd.read_csv(file)
             data.append(df)
             if '2020-01-01' in file:
-                 df_2020 = df
+                df_2020 = df
 
     data = pd.concat(data)
     data.to_csv(prod + outputPrefix + '_std.csv', index=False)
@@ -238,13 +234,11 @@ def prod31_32DO(fte, prod):
     data_t.to_csv(prod + '2020-' + outputPrefix + '_T.csv')
 
 
-
-
 def compareAPIAgainstFile(df_api, fromDate, toDate):
     '''
     We compare what's stored against what the API reply, and report those changes
     '''
-    #La API nos dice que archivo abrir: lo inferimos a partir de la fecha
+    # La API nos dice que archivo abrir: lo inferimos a partir de la fecha
 
     df_file = pd.DataFrame()
     if 'Nacimientos' in list(df_api.columns):
@@ -252,7 +246,6 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
         for file in glob.glob('../input/RegistroCivil/Nacimientos/Nacimientos_' + fromDate + '_' + toDate + '_DO.csv'):
             print('Reading ' + file + ' for comparison')
             df_file = pd.read_csv(file)
-
 
     if 'Defunciones' in list(df_api.columns):
         inputPrefix = 'Defunciones'
@@ -265,24 +258,24 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
 
     # teoria: concatenar y hacer drop de duplicados
 
-    if len(df_file) == 0:
-        return
-
     print('largo file ' + str(len(df_file)) + ' + largo api ' + str(len(df_api)) + ' = '
-          + str(len(df_file)+len(df_api)))
+          + str(len(df_file) + len(df_api)))
 
-    #prepare to check for duplicates.
+    # prepare to check for duplicates.
     # 1.- Concat both DF
 
     results = pd.concat([df_file, df_api])
-    duplications = results[results.duplicated(['Codigo region', 'Codigo comuna', 'Fecha'])]
+
+    print('concatenando, da ' + str(len(results)))
+    results.reset_index(drop=True, inplace=True)
+    print(results)
+    duplications = results[results.duplicated(subset=['Fecha', 'Comuna'], keep='first')]
+    print('Duplications are:')
+    print(duplications)
     print('concat the df gives ' + str(len(results)))
-    results = results.reset_index(drop=True)
-    results_gpby = results.groupby(list(df_file.columns))
-    idx = [x[0] for x in results_gpby.groups.values() if len(x) !=1]
-    results = results.reindex(idx)
-    print(len(results))
-    if len(results > 0):
+    print('got ' + str(len(duplications)) + ' duplications')
+
+    if len(duplications) == 0:
         print('All data from the API was on disk. No changes')
 
     else:
@@ -295,8 +288,36 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
             print('History changed. Notifying')
             # just write a tmp file which will be sent to s3 ( an we can evaluate if sent to slack only.
             timestamp = dt.datetime.today().strftime("%Y-%m-%dT%H:%M:%S")
-            duplications.to_csv(fromDate + '-' + toDate + '-changes-on-' + inputPrefix + '-' + timestamp + '.tmp',
-                           index=False)
+            #duplications.to_csv(fromDate + '-' + toDate + '-changes-on-' + inputPrefix + '-' + timestamp + '.tmp',
+             #                   index=False)
+
+
+def test_compareAPIAgainstFile():
+    df = pd.read_csv('../input/RegistroCivil/Nacimientos/Nacimientos_2020-01-01_2020-05-29_DO.csv')
+
+    df = df.head(10)
+    columns = df.columns
+    #dummy data
+    dummy = [
+        ['Tarapacá', '1', 'Iquique', '1101', '100', '2020-01-02'],  # this is an update
+        ['Tarapacá', '1', 'Iquique', '1101', '21', '2020-01-03'],   # this is a duplication
+        ['Tarapacá', '1', 'Iquique', '1101', '200', '2020-01-10'],  # this is an update
+        ['Tarapacá', '1', 'Iquique', '1101', '27', '2020-01-13'],    # this is a duplication
+        ['Tarapacá', '1', 'Iquique', '1101', '300', '2020-01-01'],    # this is a new record
+        ['Tarapacá', '1', 'Iquique', '1101', '400', '2020-05-05']  # this is a new record
+    ]
+
+    dummy = pd.DataFrame(dummy, columns=columns)
+
+    df.to_csv('../input/RegistroCivil/Nacimientos/Nacimientos_2020-15-15_2020-15-15_DO.csv', index=False)
+
+    dateFrom = '2020-15-15'
+    dateTo = '2020-15-15'
+
+    print('API has ' + str(len(dummy)) + ' records, and the file has ' + str(len(df)) + ' records')
+    compareAPIAgainstFile(dummy, dateFrom, dateTo)
+
+
 
 def removeOldFiles():
     '''
@@ -315,7 +336,6 @@ def removeOldFiles():
             if os.path.isfile(todays_file):
                 print('Found a file for today: ' + todays_file + '. Removing yesterday\'s')
                 os.remove(file)
-
 
 
 def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.today().strftime("%Y-%m-%d")):
@@ -352,10 +372,9 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
     df_API = pd.read_excel(xlsx)
     df_API = normalizeRegCivDF(df_API)
 
-    #Normalize and sort
+    # Normalize and sort
     df_API = normalizaNombreCodigoRegionYComuna(df_API)
     df_API.sort_values(by=['Codigo region', 'Codigo comuna', 'Fecha'], inplace=True)
-
 
     if 'nacimiento' in suffix:
         df_API.rename(columns={'TOTAL': 'Nacimientos'}, inplace=True)
@@ -363,14 +382,11 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
     elif 'defuncion' in suffix:
         df_API.rename(columns={'TOTAL': 'Defunciones'}, inplace=True)
 
-
-
-
-    #compare df with what was written:
+    # compare df with what was written:
     df_on_disk = pd.read_csv(prod + outputPrefix + '_std.csv')
     df_on_disk['Fecha'] = pd.to_datetime(df_on_disk['Fecha'])
     df_on_disk.sort_values(by=['Codigo region', 'Codigo comuna', 'Fecha'], inplace=True)
-    #df_on_disk.drop_duplicates(subset=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'], keep='last', inplace=True)
+    # df_on_disk.drop_duplicates(subset=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'], keep='last', inplace=True)
     df_API['Fecha'] = pd.to_datetime(df_API['Fecha'])
     print('largo API')
     print(len(df_API))
@@ -387,20 +403,20 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
     print(max(df_to_check['Fecha']))
     print(min(df_to_check['Fecha']))
 
-
     # https://stackoverflow.com/questions/20225110/comparing-two-dataframes-and-getting-the-differences
     aux = pd.concat([df_to_check, df_API])
     print(len(aux))
     aux.sort_values(by=['Codigo region', 'Codigo comuna', 'Fecha'], inplace=True)
 
-    aux.drop_duplicates(subset=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'], keep='last', inplace=True)
+    aux.drop_duplicates(subset=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'], keep='last',
+                        inplace=True)
     print(len(aux))
 
     now = dt.datetime.today().strftime("%Y-%m-%d")
     now_as_date = dt.datetime.strptime(now, "%Y-%m-%d")
 
     if aux.empty:
-        #lo que hay en disco es igual a la API => no hubo cambios
+        # lo que hay en disco es igual a la API => no hubo cambios
         print('No changes found on the API records')
     else:
         print('Found ' + str(len(aux)) + ' changes. Updating disk')
@@ -412,9 +428,9 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
             df_on_disk.drop_duplicates(subset=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'],
                                        keep='last', inplace=True)
 
-            #print(changes.to_string()) #NOTIFY THIS
+            # print(changes.to_string()) #NOTIFY THIS
             timestamp = dt.datetime.today().strftime("%Y-%m-%dT%H:%M:%S")
-            #aux.to_csv(fromDate + '-' + toDate + '-changes-on-' + suffix + '-' + timestamp + '.tmp', index=False)
+            # aux.to_csv(fromDate + '-' + toDate + '-changes-on-' + suffix + '-' + timestamp + '.tmp', index=False)
 
         else:
             print('Just new records found. Appending')
@@ -422,10 +438,10 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
             df_on_disk.drop_duplicates(['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Fecha'],
                                        keep='last', inplace=True)
 
-
         df_on_disk.to_csv(prod + outputPrefix + '_std.csv', index=False)
 
-        reshaped = pd.pivot_table(df_on_disk, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'],
+        reshaped = pd.pivot_table(df_on_disk, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'],
+                                  columns=['Fecha'],
                                   values=outputPrefix)
         reshaped.fillna(0, inplace=True)
         reshaped = reshaped.applymap(np.int64)
@@ -441,7 +457,8 @@ def updateHistoryFromAPI(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.to
         if '2020' in fromDate:
             df_2020 = df_on_disk[df_on_disk['Fecha'] >= '2020-01-01']
             df_2020.to_csv(prod + '2020-' + outputPrefix + '_std.csv', index=False)
-            reshaped = pd.pivot_table(df_2020, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], columns=['Fecha'],
+            reshaped = pd.pivot_table(df_2020, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'],
+                                      columns=['Fecha'],
                                       values=outputPrefix)
             reshaped.fillna(0, inplace=True)
             reshaped = reshaped.applymap(np.int64)
@@ -465,14 +482,14 @@ if __name__ == '__main__':
         URL = 'https://api.sed.srcei.cl/api/estadistica/'
         if len(sys.argv) == 3:
             print('Actualizando productos entre ' + sys.argv[1] + ' y ' + sys.argv[2])
-            #updateHistoryFromAPI(URL, '../output/producto31/', fromDate=sys.argv[1], toDate=sys.argv[2])
-            #updateHistoryFromAPI(URL, '../output/producto32/', fromDate=sys.argv[1], toDate=sys.argv[2])
+            # updateHistoryFromAPI(URL, '../output/producto31/', fromDate=sys.argv[1], toDate=sys.argv[2])
+            # updateHistoryFromAPI(URL, '../output/producto32/', fromDate=sys.argv[1], toDate=sys.argv[2])
             updateInputDO(URL, '../input/RegistroCivil/Nacimientos/', fromDate=sys.argv[1], toDate=sys.argv[2])
             updateInputDO(URL, '../input/RegistroCivil/Defunciones/', fromDate=sys.argv[1], toDate=sys.argv[2])
         elif len(sys.argv) == 1:
             print('Actualizando productos para el año 2020')
-            #updateHistoryFromAPI(URL, '../output/producto31/')
-            #updateHistoryFromAPI(URL, '../output/producto32/')
+            # updateHistoryFromAPI(URL, '../output/producto31/')
+            # updateHistoryFromAPI(URL, '../output/producto32/')
             updateInputDO(URL, '../input/RegistroCivil/Nacimientos/')
             updateInputDO(URL, '../input/RegistroCivil/Defunciones/')
         else:
@@ -483,3 +500,4 @@ if __name__ == '__main__':
         print('Generando el producto 32')
         prod31_32DO('../input/RegistroCivil/', '../output/producto32/')
         removeOldFiles()
+        #test_compareAPIAgainstFile()
