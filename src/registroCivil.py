@@ -269,11 +269,11 @@ def compareAPIAgainstFile(df_api, fromDate, toDate):
     print('concatenando, da ' + str(len(results)))
     results.reset_index(drop=True, inplace=True)
 
-    results['Nacimientos'] = pd.to_numeric(results['Nacimientos'])
-    results.sort_values(by=['Comuna', 'Fecha', 'Nacimientos'], inplace=True)
+    results[inputPrefix] = pd.to_numeric(results[inputPrefix])
+    results.sort_values(by=['Comuna', 'Fecha', inputPrefix], inplace=True)
 
 
-    duplications = results[results.duplicated(subset=['Fecha', 'Comuna', 'Nacimientos'], keep='first')]
+    duplications = results[results.duplicated(subset=['Fecha', 'Comuna', inputPrefix], keep='first')]
     print('Duplications are:')
     print(duplications)
     print('concat the df gives ' + str(len(results)))
