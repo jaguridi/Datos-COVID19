@@ -53,11 +53,11 @@ jobs:
           curl -X POST -H 'Content-type: application/json' --data @slack_message.json ${{ secrets.SLACK_WEBHOOK_URL }}
           fi
 
-        - name: Uploads changes to S3
-          uses: jakejarvis/s3-sync-action@master
-          with:
+    - name: Uploads changes to S3
+      uses: jakejarvis/s3-sync-action@master
+      with:
             args: --exclude '*' --include '*.tmp'
-          env:
+      env:
             AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET }}
             AWS_ACCESS_KEY_ID: ${{ secrets.COVID_AWS_ACCESS_KEY_ID }}
             AWS_SECRET_ACCESS_KEY: ${{ secrets.COVID_AWS_SECRET_ACCESS_KEY }}
@@ -66,10 +66,10 @@ jobs:
             DEST_DIR: 'logsRegistroCivil'
 
 
-          - name: add_remove_changes
+    - name: add_remove_changes
             # only remove files from input/RegistroCivil
             # then add the new ones
-            run: |
+      run: |
               for i in $(git status input/RegistroCivil | grep deleted | awk '{print $2}'); do
                 echo git rm $i;
                 git rm $i;
