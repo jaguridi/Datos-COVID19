@@ -34,7 +34,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: querying API to update our products
-        run: |
+      run: |
           cd src
           python registroCivil.py
           for i in *.tmp;do
