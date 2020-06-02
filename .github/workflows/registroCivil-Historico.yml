@@ -36,7 +36,7 @@ jobs:
     - name: querying API to update our products
       run: |
           cd src
-          for i in seq 2010 2019; do
+          for i in $(seq 2010 2019); do
             python registroCivil.py $i-01-01 $i-12-31;
           done
           for i in *.tmp;do

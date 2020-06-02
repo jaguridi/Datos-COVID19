@@ -179,6 +179,7 @@ def updateInputDO(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.today().s
     elif 'defuncion' in suffix:
         df_API.rename(columns={'TOTAL': 'Defunciones'}, inplace=True)
 
+
     fileName = prod + outputPrefix + '_' + fromDate + '_' + toDate + '_DO.csv'
 
     # check for duplicates:
