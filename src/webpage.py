@@ -71,10 +71,10 @@ def get_table_regional(minsalsoup):
     data_clean = []
     for element in data_minsal:
         #normalize headers
-        if len(element) == 6:
+        if len(element) == 4:
             element.insert(0, 'Region')
         # Sanity check: minsal table changes often
-        if len(element) == 7:
+        if len(element) == 5:
             data_clean.append(element)
 
     print(data_clean)
@@ -351,7 +351,6 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
         dataframe.rename(columns={'Casos nuevos totales': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={'Casos  totales  acumulados': 'Casos totales'}, inplace=True)
-
         dataframe.rename(columns={'Casos nuevos con síntomas': 'Casos nuevos con sintomas'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos con síntomas': 'Casos nuevos con sintomas'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos  con  síntomas': 'Casos nuevos con sintomas'}, inplace=True)
