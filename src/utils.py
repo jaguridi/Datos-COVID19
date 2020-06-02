@@ -32,14 +32,16 @@ import pandas as pd
 import re
 
 def regionName(df):
-    df["Region"] = df["Region"].replace({"Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
+    df["Region"] = df["Region"].replace({"Arica - Parinacota": "Arica y Parinacota",
+                                         "Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
                                          "Región Metropolitana de Santiago": "Metropolitana",
                                          "Del Libertador General Bernardo O’Higgins": "O’Higgins",
                                          "Libertador General Bernardo OHiggins": "O’Higgins",
                                          "Nuble": "Ñuble",
                                          "Biobio": "Biobío", "Concepción": "Biobío",
                                          "La Araucania": "Araucanía", "la Araucanía": "Araucanía",
-                                         "Los Rios": "Los Ríos", "de Los Ríos": "Los Ríos",
+                                         "Los Rios": "Los Ríos", "de Los Ríos": "Los Ríos", "De los Rios": "Los Ríos",
+                                         "De los Lagos": "Los Lagos",
                                          "Aysen": "Aysén", "Aysén del General Carlos Ibañez del Campo": "Aysén",
                                          "Magallanes y la Antartica": "Magallanes",
                                          "Magallanes y de la Antártica Chilena": "Magallanes"
