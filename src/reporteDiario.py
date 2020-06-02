@@ -94,7 +94,7 @@ def prod3_13_14_26_27(fte):
     onlyfiles.sort()
     onlyfiles.remove('README.md')
     for eachfile in onlyfiles:
-        print(eachfile)
+
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
@@ -104,6 +104,7 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={' Casos nuevos': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos  totales': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={'Casos nuevos totales ': 'Casos nuevos'}, inplace=True)
+        dataframe.rename(columns={'Casos nuevos totales': 'Casos nuevos'}, inplace=True)
 
         dataframe.rename(columns={'Casos  totales': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={' Casos totales': 'Casos totales'}, inplace=True)
@@ -111,7 +112,9 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={'Casos totales acumulados ': 'Casos totales'}, inplace=True)
 
         dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
-        dataframe.rename(columns={'Casos nuevos totales': 'Casos nuevos'}, inplace=True)
+        dataframe.rename(columns={'Fallecidos totales ': 'Fallecidos'}, inplace=True)
+
+
 
 
         dataframe.rename(columns={'Casos nuevos con síntomas': 'Casos nuevos con sintomas'}, inplace=True)
@@ -120,6 +123,8 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={'Casos nuevos con sintomas': 'Casos nuevos con sintomas'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos con sintomas': 'Casos nuevos con sintomas'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos  con  sintomas': 'Casos nuevos con sintomas'}, inplace=True)
+        dataframe.rename(columns={'Casos nuevos con sintomas ': 'Casos nuevos con sintomas'}, inplace=True)
+
         dataframe.rename(columns={'Casos nuevos sin síntomas': 'Casos nuevos sin sintomas'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos sin síntomas': 'Casos nuevos sin sintomas'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos  sin  síntomas': 'Casos nuevos sin sintomas'}, inplace=True)
@@ -132,6 +137,7 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos  sin  sintomas*': 'Casos nuevos sin sintomas'}, inplace=True)
+        dataframe.rename(columns={'Casos nuevos sin sintomas* ': 'Casos nuevos sin sintomas'}, inplace=True)
 
         if cumulativoCasosNuevos['Region'].empty:
             cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
