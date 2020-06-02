@@ -24,12 +24,8 @@ SOFTWARE.
 
 """
 Los productos que salen de la pagina web del minsal son:
-3
-4
 5
 11
-13
-14
 """
 
 
@@ -40,8 +36,7 @@ import unidecode
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-from os import listdir
-from os.path import isfile, join
+
 import utils
 
 def get_minsal_page(minsalURL):
@@ -49,7 +44,7 @@ def get_minsal_page(minsalURL):
     soup = BeautifulSoup(page.content, 'html.parser')
     return(soup)
 
-# deprecdo el 20200602
+# deprecado el 20200602
 # def get_casos_recuperados(minsalsoup):
 #     tables = minsalsoup.findAll('table')
 #     for eachtable in tables:
@@ -142,60 +137,6 @@ def writer(fileid, mylist, outputpath):
                 wr.writerow(element)
     else:
         raise Exception('La tabla de minsal no ha cambiado')
-
-
-# def add_row_to_csv(data, filename):
-#     now = datetime.now()
-#     timestamp = now.strftime("%Y-%m-%d")
-#     # if we already have the date we intend to insert, abort
-#     with open(filename) as csvfile:
-#         rows = csv.reader(csvfile, delimiter=',')
-#         for row in rows:
-#             if timestamp == row[0]:
-#                 print('timestamp ' + timestamp + ' is already in ' + filename)
-#                 return
-#     with open(filename, 'a') as myfile:
-#         print('Adding row to ' + filename)
-#         myfile.write("\n" + timestamp + ", " + data[1])
-#         myfile.close()
-
-
-# def add_column_to_csv(data, filename):
-#     now = datetime.now()
-#     timestamp = now.strftime("%Y-%m-%d")
-#     output = []
-#     # if we already have the date we intend to insert, abort
-#     with open(filename) as csvfile:
-#         rows = csv.reader(csvfile, delimiter=',')
-#         for index, row in enumerate(rows):
-#             if len(row) > 0 and (row[len(row)-1].strip()) == timestamp:
-#                 print("comparing " + row[len(row) - 1].strip() + " with " + timestamp)
-#                 print('timestamp ' + timestamp + ' is already in ' + filename)
-#                 return
-#             else:
-#                 if index == 0:
-#                     row.append(timestamp)
-#                 if index == 1:
-#                     row.append(data[1])
-#             output.append(row)
-#     csvfile.close()
-#
-#     with open(filename, 'w') as myfile:
-#         print('Dumping data to  ' + filename)
-#         myCsvwriter = csv.writer(myfile)
-#         for eachrow in output:
-#             myCsvwriter.writerow(eachrow)
-
-
-def prod4(fte, producto):
-    """
-    Cada archivo en generado para producto4 corresponde a un csv que contiene los datos publicados por minsal en
-    https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/
-    """
-    print('generando producto 4 a partir de ' + fte + ' en ' + producto)
-    myMinsalsoup = get_minsal_page(fte)
-    myTable = get_table_regional(myMinsalsoup)
-    writer('CasosConfirmados-totalRegional', myTable, producto)
 
 
 def prod5Nuevo(fte, producto):
@@ -319,167 +260,14 @@ def prod5Nuevo(fte, producto):
         df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
-def prod3_13_14_26_27(fte):
-
-    onlyfiles = [f for f in listdir(fte) if isfile(join(fte, f))]
-    cumulativoCasosNuevos = pd.DataFrame({'Region': [],
-                                          'Casos nuevos': []})
-    cumulativoCasosTotales = pd.DataFrame({'Region': [],
-                                           'Casos totales': []})
-    cumulativoFallecidos = pd.DataFrame({'Region': [],
-                                         'Fallecidos': []})
-    casosNuevosConSintomas = pd.DataFrame({'Region': [],
-                                         'Fecha': []})
-    casosNuevosSinSintomas = pd.DataFrame({'Region': [],
-                                         'Fecha': []})
-
-    print(onlyfiles.sort())
-    onlyfiles.remove('README.md')
-    for eachfile in onlyfiles:
-        date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
-        dataframe = pd.read_csv(fte + eachfile)
-        # sanitize headers
-        #print(eachfile)
-        dataframe.rename(columns={'Región': 'Region'}, inplace=True)
-        dataframe.rename(columns={'Casos  nuevos': 'Casos nuevos'}, inplace=True)
-        dataframe.rename(columns={' Casos nuevos': 'Casos nuevos'}, inplace=True)
-        dataframe.rename(columns={'Casos  nuevos  totales': 'Casos nuevos'}, inplace=True)
-        dataframe.rename(columns={'Casos  totales': 'Casos totales'}, inplace=True)
-        dataframe.rename(columns={' Casos totales': 'Casos totales'}, inplace=True)
-        dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
-        dataframe.rename(columns={'Casos nuevos totales': 'Casos nuevos'}, inplace=True)
-        dataframe.rename(columns={'Casos  totales  acumulados': 'Casos totales'}, inplace=True)
-        dataframe.rename(columns={'Casos nuevos con síntomas': 'Casos nuevos con sintomas'}, inplace=True)
-        dataframe.rename(columns={' Casos nuevos con síntomas': 'Casos nuevos con sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos  nuevos  con  síntomas': 'Casos nuevos con sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos nuevos con sintomas': 'Casos nuevos con sintomas'}, inplace=True)
-        dataframe.rename(columns={' Casos nuevos con sintomas': 'Casos nuevos con sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos  nuevos  con  sintomas': 'Casos nuevos con sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos nuevos sin síntomas': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={' Casos nuevos sin síntomas': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos  nuevos  sin  síntomas': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos nuevos sin síntomas*': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={' Casos nuevos sin síntomas*': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos  nuevos  sin  síntomas*': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos nuevos sin sintomas': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={' Casos nuevos sin sintomas': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos  nuevos  sin  sintomas': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={' Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas'}, inplace=True)
-        dataframe.rename(columns={'Casos  nuevos  sin  sintomas*': 'Casos nuevos sin sintomas'}, inplace=True)
-
-        if cumulativoCasosNuevos['Region'].empty:
-            cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
-            cumulativoCasosNuevos.rename(columns={'Casos nuevos': date}, inplace=True)
-            cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
-            cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
-        else:
-            #print(dataframe.columns)
-            cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
-            cumulativoCasosTotales[date] = dataframe['Casos totales']
-
-        if 'Fallecidos' in dataframe.columns:
-            if cumulativoFallecidos['Region'].empty:
-                cumulativoFallecidos[['Region', 'Fallecidos']] = dataframe[['Region', 'Fallecidos']]
-                cumulativoFallecidos.rename(columns={'Fallecidos': date}, inplace=True)
-            else:
-                cumulativoFallecidos[date] = dataframe['Fallecidos']
-
-        if 'Casos nuevos con sintomas' in dataframe.columns:
-            if casosNuevosConSintomas['Region'].empty:
-                casosNuevosConSintomas[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos con sintomas']]
-                casosNuevosConSintomas.rename(columns={'Fecha': date}, inplace=True)
-            else:
-                casosNuevosConSintomas[date] = dataframe['Casos nuevos con sintomas']
-        else:
-            date2 = (pd.to_datetime(date)).strftime('%Y-%m-%d')
-            if date2 < '2020-04-29':
-                if casosNuevosConSintomas['Region'].empty:
-                    casosNuevosConSintomas[['Region', 'Fecha']] = dataframe[['Region','Casos nuevos']]
-                    casosNuevosConSintomas.rename(columns={'Fecha': date}, inplace=True)
-                else:
-                    casosNuevosConSintomas[date] = dataframe['Casos nuevos']
-
-
-        if 'Casos nuevos sin sintomas' in dataframe.columns:
-            if casosNuevosSinSintomas['Region'].empty:
-                casosNuevosSinSintomas[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos sin sintomas']]
-                casosNuevosSinSintomas.rename(columns={'Fecha': date}, inplace=True)
-            else:
-                casosNuevosSinSintomas[date] = dataframe['Casos nuevos sin sintomas']
-
-
-
-    # estandarizar nombres de regiones
-    utils.regionName(cumulativoCasosNuevos)
-    utils.regionName(cumulativoCasosTotales)
-    utils.regionName(cumulativoFallecidos)
-    utils.regionName(casosNuevosConSintomas)
-    utils.regionName(casosNuevosSinSintomas)
-
-    cumulativoCasosNuevos_T = cumulativoCasosNuevos.transpose()
-    cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
-    cumulativoFallecidos_T = cumulativoFallecidos.transpose()
-    casosNuevosConSintomas_T = casosNuevosConSintomas.transpose()
-    casosNuevosSinSintomas_T = casosNuevosSinSintomas.transpose()
-
-    #### PRODUCTO 3
-    cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
-    cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
-    identifiers = ['Region']
-    variables = [x for x in cumulativoCasosTotales.columns if x not in identifiers]
-    df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Total')
-    df_std.to_csv('../output/producto3/CasosTotalesCumulativo_std.csv', index=False)
-
-    #### PRODUCTO 13
-    cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
-    cumulativoCasosNuevos_T.to_csv('../output/producto13/CasosNuevosCumulativo_T.csv', header=False)
-    identifiers = ['Region']
-    variables = [x for x in cumulativoCasosTotales.columns if x not in identifiers]
-    df_std = pd.melt(cumulativoCasosNuevos, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Total')
-    df_std.to_csv('../output/producto13/CasosNuevosCumulativo_std.csv', index=False)
-
-    #### PRODUCTO 14
-    cumulativoFallecidos.to_csv('../output/producto14/FallecidosCumulativo.csv', index=False)
-    cumulativoFallecidos_T.to_csv('../output/producto14/FallecidosCumulativo_T.csv', header=False)
-    identifiers = ['Region']
-    variables = [x for x in cumulativoFallecidos.columns if x not in identifiers]
-    df_std = pd.melt(cumulativoFallecidos, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Total')
-    df_std.to_csv('../output/producto14/FallecidosCumulativo_std.csv', index=False)
-
-    #### PRODUCTO 26
-    casosNuevosConSintomas.to_csv('../output/producto26/CasosNuevosConSintomas.csv', index=False)
-    casosNuevosConSintomas_T.to_csv('../output/producto26/CasosNuevosConSintomas_T.csv', header=False)
-    identifiers = ['Region']
-    variables = [x for x in casosNuevosConSintomas.columns if x not in identifiers]
-    df_std = pd.melt(casosNuevosConSintomas, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Casos confirmados')
-    df_std.to_csv('../output/producto26/CasosNuevosConSintomas_std.csv', index=False)
-
-    #### PRODUCTO 27
-    casosNuevosSinSintomas.to_csv('../output/producto27/CasosNuevosSinSintomas.csv', index=False)
-    casosNuevosSinSintomas_T.to_csv('../output/producto27/CasosNuevosSinSintomas_T.csv', header=False)
-    identifiers = ['Region']
-    variables = [x for x in casosNuevosSinSintomas.columns if x not in identifiers]
-    df_std = pd.melt(casosNuevosSinSintomas, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Casos confirmados')
-    df_std.to_csv('../output/producto27/CasosNuevosSinSintomas_std.csv', index=False)
-
 if __name__ == '__main__':
 
-    prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
+    #prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
 
     prod5Nuevo('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/TotalesNacionales.csv')
 
 
-    print('Generando producto 11')
-    print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
-    #exec(open('bulk_producto4.py').read())
 
-    print('Generando productos 3, 13, 14, 26 y 27')
-    prod3_13_14_26_27('../output/producto4/')
+
 
 
