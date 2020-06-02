@@ -49,14 +49,36 @@ def get_minsal_page(minsalURL):
     soup = BeautifulSoup(page.content, 'html.parser')
     return(soup)
 
-def get_casos_recuperados(minsalsoup):
+# deprecdo el 20200602
+# def get_casos_recuperados(minsalsoup):
+#     tables = minsalsoup.findAll('table')
+#     for eachtable in tables:
+#         rows = eachtable.findAll(lambda tag: tag.name == 'tr')
+#         for row in rows:
+#             cols = row.findAll('td')
+#             cols = [ele.text.strip().replace('.', '') for ele in cols]
+#             if cols[0] == 'Casos recuperados a nivel nacional':
+#                 return cols
+
+
+def get_casos_activos(minsalsoup):
     tables = minsalsoup.findAll('table')
     for eachtable in tables:
         rows = eachtable.findAll(lambda tag: tag.name == 'tr')
         for row in rows:
             cols = row.findAll('td')
             cols = [ele.text.strip().replace('.', '') for ele in cols]
-            if cols[0] == 'Casos recuperados a nivel nacional':
+            if cols[0] == 'Casos activos a nivel nacional':
+                return cols
+
+def get_fallecidos(minsalsoup):
+    tables = minsalsoup.findAll('table')
+    for eachtable in tables:
+        rows = eachtable.findAll(lambda tag: tag.name == 'tr')
+        for row in rows:
+            cols = row.findAll('td')
+            cols = [ele.text.strip().replace('.', '') for ele in cols]
+            if cols[0] == 'Fallecidos a nivel nacional':
                 return cols
 
 
@@ -122,47 +144,47 @@ def writer(fileid, mylist, outputpath):
         raise Exception('La tabla de minsal no ha cambiado')
 
 
-def add_row_to_csv(data, filename):
-    now = datetime.now()
-    timestamp = now.strftime("%Y-%m-%d")
-    # if we already have the date we intend to insert, abort
-    with open(filename) as csvfile:
-        rows = csv.reader(csvfile, delimiter=',')
-        for row in rows:
-            if timestamp == row[0]:
-                print('timestamp ' + timestamp + ' is already in ' + filename)
-                return
-    with open(filename, 'a') as myfile:
-        print('Adding row to ' + filename)
-        myfile.write("\n" + timestamp + ", " + data[1])
-        myfile.close()
+# def add_row_to_csv(data, filename):
+#     now = datetime.now()
+#     timestamp = now.strftime("%Y-%m-%d")
+#     # if we already have the date we intend to insert, abort
+#     with open(filename) as csvfile:
+#         rows = csv.reader(csvfile, delimiter=',')
+#         for row in rows:
+#             if timestamp == row[0]:
+#                 print('timestamp ' + timestamp + ' is already in ' + filename)
+#                 return
+#     with open(filename, 'a') as myfile:
+#         print('Adding row to ' + filename)
+#         myfile.write("\n" + timestamp + ", " + data[1])
+#         myfile.close()
 
 
-def add_column_to_csv(data, filename):
-    now = datetime.now()
-    timestamp = now.strftime("%Y-%m-%d")
-    output = []
-    # if we already have the date we intend to insert, abort
-    with open(filename) as csvfile:
-        rows = csv.reader(csvfile, delimiter=',')
-        for index, row in enumerate(rows):
-            if len(row) > 0 and (row[len(row)-1].strip()) == timestamp:
-                print("comparing " + row[len(row) - 1].strip() + " with " + timestamp)
-                print('timestamp ' + timestamp + ' is already in ' + filename)
-                return
-            else:
-                if index == 0:
-                    row.append(timestamp)
-                if index == 1:
-                    row.append(data[1])
-            output.append(row)
-    csvfile.close()
-
-    with open(filename, 'w') as myfile:
-        print('Dumping data to  ' + filename)
-        myCsvwriter = csv.writer(myfile)
-        for eachrow in output:
-            myCsvwriter.writerow(eachrow)
+# def add_column_to_csv(data, filename):
+#     now = datetime.now()
+#     timestamp = now.strftime("%Y-%m-%d")
+#     output = []
+#     # if we already have the date we intend to insert, abort
+#     with open(filename) as csvfile:
+#         rows = csv.reader(csvfile, delimiter=',')
+#         for index, row in enumerate(rows):
+#             if len(row) > 0 and (row[len(row)-1].strip()) == timestamp:
+#                 print("comparing " + row[len(row) - 1].strip() + " with " + timestamp)
+#                 print('timestamp ' + timestamp + ' is already in ' + filename)
+#                 return
+#             else:
+#                 if index == 0:
+#                     row.append(timestamp)
+#                 if index == 1:
+#                     row.append(data[1])
+#             output.append(row)
+#     csvfile.close()
+#
+#     with open(filename, 'w') as myfile:
+#         print('Dumping data to  ' + filename)
+#         myCsvwriter = csv.writer(myfile)
+#         for eachrow in output:
+#             myCsvwriter.writerow(eachrow)
 
 
 def prod4(fte, producto):
@@ -176,56 +198,32 @@ def prod4(fte, producto):
     writer('CasosConfirmados-totalRegional', myTable, producto)
 
 
-def prod5(fte, producto):
-    """
-    Producto5 correponde a un archivo csv que añande una columna con cada publicacion de casos recuperados en
-    https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/
-    """
-    myMinsalsoup = get_minsal_page(fte)
-    casos = get_casos_recuperados(myMinsalsoup)
-    out = producto + 'recuperados.csv'
-    print('Abriendo ' + out)
-    df = pd.read_csv(out)
-    # hay que comparar con el de ayer, a ver si estamos corriendo a buena hora
-    now = datetime.now()
-    timestamp = now.strftime("%Y-%m-%d")
-    if timestamp in df.columns:
-        print(timestamp + ' ya fue agregada')
-        return
-    else:
-        df[timestamp] = casos[1]
-        print(df)
-        df.to_csv(out, index=0)
-
-
 def prod5Nuevo(fte, producto):
     print('Generando nuevo producto5')
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
     myMinsalsoup = get_minsal_page(fte)
     tabla_regional = get_table_regional(myMinsalsoup)
-    casos_recuperados = get_casos_recuperados(myMinsalsoup)
 
     df_tr = pd.DataFrame.from_records(tabla_regional)
 
     header = (df_tr.loc[df_tr[0] == 'Region'])
     total = (df_tr.loc[df_tr[0] == 'Total'])
     a = header.append(total, ignore_index=True)
-    #print(a.to_string())
+    print(a.to_string())
     #drop ** porcentaje casos fallecidos
-    a.drop(6, axis='columns', inplace=True)
     #print(a.columns)
+    casos_activos = get_casos_activos(myMinsalsoup)
+    fallecidos = get_fallecidos(myMinsalsoup)
 
     #'Region', 'Casos totales acumulados', 'Casos nuevos totales', 'Casos nuevos con sintomas', 'Casos nuevos sin sintomas*', 'Fallecidos', '% Total'
     a.rename(columns={0: 'Fecha', 1: 'Casos totales', 2: 'Casos nuevos totales',
-                      3: 'Casos nuevos con sintomas', 4: 'Casos nuevos sin sintomas',
-                      5: 'Fallecidos'}, inplace=True)
+                      3: 'Casos nuevos con sintomas', 4: 'Casos nuevos sin sintomas'}, inplace=True)
     a['Fecha'] = timestamp
     a.drop(0, inplace=True)
-    a['Casos recuperados'] = casos_recuperados[1]
 
-    a['Casos activos'] = int(a['Casos totales']) - int(a['Casos recuperados']) - int(a['Fallecidos'])
-
+    a['Casos activos'] = casos_activos[1]
+    a['Fallecidos'] = fallecidos[1]
 
     #print(a.to_string())
     totales = pd.read_csv(producto)
