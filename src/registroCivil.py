@@ -209,6 +209,11 @@ def prod31_32DO(fte, prod):
                 df_2020 = df
 
     data = pd.concat(data)
+    #I'm appending to the file on disk what's comming from the API
+    duplicates = data.duplicated()
+    print('dropping ' + str(len(duplicates)) + ' records')
+    data[outputPrefix] = pd.to_numeric(data[outputPrefix])
+    data.drop_duplicates(inplace=True)
     data.to_csv(prod + outputPrefix + '_std.csv', index=False)
 
     reshaped = pd.pivot_table(data, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'],
