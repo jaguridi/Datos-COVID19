@@ -265,7 +265,7 @@ def prod28Nuevo(fte, prod):
                      value_name='Casos confirmados')
     df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
 
-def prod34(fte, producto):
+def prod35(fte, producto):
     df = pd.read_csv(fte)
 
     identifiers = ['Comorbilidad','Hospitalización']
@@ -320,5 +320,5 @@ if __name__ == '__main__':
     print('Generando producto 28')
     prod28Nuevo('../input/InformeEpidemiologico/', '../output/producto28/FechaInicioSintomas_reportadosSEREMIHistorico')
 
-    print('Generando producto 34')
-    prod34('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto34/Comorbilidad')
+    print('Generando producto 35')
+    prod35('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto35/Comorbilidad')
