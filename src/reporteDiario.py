@@ -94,7 +94,7 @@ def prod3_13_14_26_27(fte):
     onlyfiles.sort()
     onlyfiles.remove('README.md')
     for eachfile in onlyfiles:
-
+        print('processing ' + eachfile)
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
@@ -110,6 +110,8 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={' Casos totales': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={'Casos  totales  acumulados': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={'Casos totales acumulados ': 'Casos totales'}, inplace=True)
+        dataframe.rename(columns={'Casos totales acumulados': 'Casos totales'}, inplace=True)
+
 
         dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
         dataframe.rename(columns={'Fallecidos totales ': 'Fallecidos'}, inplace=True)
