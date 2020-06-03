@@ -115,9 +115,7 @@ def prod3_13_14_26_27(fte):
 
         dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
         dataframe.rename(columns={'Fallecidos totales ': 'Fallecidos'}, inplace=True)
-
-
-
+        dataframe.rename(columns={'Fallecidos totales': 'Fallecidos'}, inplace=True)
 
         dataframe.rename(columns={'Casos nuevos con síntomas': 'Casos nuevos con sintomas'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos con síntomas': 'Casos nuevos con sintomas'}, inplace=True)
@@ -147,7 +145,7 @@ def prod3_13_14_26_27(fte):
             cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
             cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
         else:
-            #print(dataframe.columns)
+            print(dataframe.columns)
             cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
             cumulativoCasosTotales[date] = dataframe['Casos totales']
 
