@@ -73,7 +73,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 34 (contribuido) - Cruce entre cuarentenas y manzanas censales](output/producto34): Contribuido por el Instituto de Sistemas Complejos de Ingeniería de la Universidad de Chile. Contiene Los datos publicos del Censo 2017 cuentan con información demografica valiosa para distintas regiones geografica, como lo son la cantidad de habitantes, calidad de las viviendas o la distribución etarea. La región geografica más desagregada para la cual se encuentra disponible esta información se denomina Manzana Censal. Este producto indica las manzanas censales que pertenecen a cada zona de cuarentena. [Ver más] (output/producto34)
 
-[Data Product 25 - Comorbilidad por Casos Confirmados] (output/producto35): Set de 3 archivos en formato csv que dan cuenta de las enfermedades crónicas más frecuentes en los casos confirmados no hospitalizados, también da cuenta de la distribución para los casos que han requerido hospitalización. Se concatena la historia de los informes de Situación Epidemiológica publicados por el Ministerio de Salud del país. [Ver más](output/producto35)
+[Data Product 35 - Comorbilidad por Casos Confirmados](output/producto35): Set de 3 archivos en formato csv que dan cuenta de las enfermedades crónicas más frecuentes en los casos confirmados no hospitalizados, también da cuenta de la distribución para los casos que han requerido hospitalización. Se concatena la historia de los informes de Situación Epidemiológica publicados por el Ministerio de Salud del país. [Ver más](output/producto35)
 
 
 ## ¿Cómo funciona?
