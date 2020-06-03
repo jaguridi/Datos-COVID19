@@ -1,18 +1,18 @@
-"","Casos totales acumulados ","Casos nuevos totales ","Casos nuevos con sintomas ","Casos nuevos sin sintomas* ","Fallecidos totales ","% Total ",
-"Arica - Parinacota ","654 ","18 ","18 ","0 ","8 ","0,60% ",
-"Tarapaca ","2.594 ","68 ","60 ","8 ","23 ","2,39% ",
-"Antofagasta ","2.649 ","64 ","58 ","6 ","34 ","2,44% ",
-"Atacama ","236 ","4 ","3 ","1 ","O ","0,22% ",
-"Coquimbo ","687 ","19 ","17 ","2 ","2 ","0,63% ",
-"Valparaiso ","3.595 ","247 ","227 ","20 ","72 ","3,31% ",
-"Metropolitana ","88.194 ","2.955 ","2.698 ","257 ","894 ","81,15% ",
-"O'Higgins ","843 ","30 ","24 ","6 ","18 ","0,78% ",
-"Maule ","1.381 ","40 ","36 ","4 ","17 ","1,27% ",
-"Nuble ","1.290 ","O ","O ","O ","23 ","1,19% ",
-"Biobio ","2.082 ","12 ","12 ","O ","11 ","1,92% ",
-"Araucania ","2.141 ","30 ","21 ","9 ","47 ","1,97% ",
-"De los Rios ","368 ","5 ","5 ","0 ","7 ","0,34% ",
-"De los Lagos ","894 ","31 ","24 ","7 ","13 ","0,82% ",
-"Aysen ","18 ","1 ","O ","1 ","O ","0,02% ",
-"Magallanes ","1.060 ","3 ","3 ","O ","19 ","0,98% ",
-"","108.686 ","3.527 ","3.206 ","321 ","1.188 ","100% ",
+Region,Casos totales acumulados,Casos nuevos totales,Casos nuevos con sintomas,Casos nuevos sin sintomas*,Fallecidos totales,% Total
+Arica - Parinacota,701,47,43,4,8,0.62%
+Tarapaca,2682,88,76,12,28,2.36%
+Antofagasta,2716,67,61,6,36,2.39%
+Atacama,242,6,6,0,0,0.21%
+Coquimbo,718,31,29,2,4,0.63%
+Valparaiso,3769,174,151,23,77,3.32%
+Metropolitana,92191,3997,3707,290,961,81.13%
+O'Higgins,931,88,85,3,20,0.82%
+Maule,1595,214,181,33,19,1.40%
+Nuble,1329,39,30,9,24,1.17%
+Biobio,2215,133,118,15,11,1.95%
+Araucania,2173,32,29,3,47,1.91%
+De los Rios,372,4,4,0,8,0.33%
+De los Lagos,913,19,14,5,13,0.80%
+Aysen,18,0,0,0,0,0.02%
+Magallanes,1063,3,3,0,19,0.94%
+Total,113628,4942,4537,405,1275,100%
