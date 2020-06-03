@@ -10,7 +10,7 @@ El archivo cuenta con 4 columnas, las cuales se describen a continuación:
 
 # Datos utilizados
 * (1) Zonas de cuarentenas: Se utiliza el archivo GeoJSON de las cuarentenas publicado en https://github.com/MinCiencia/Datos-COVID19/tree/master/input/Cuarentenas
-* (2) Microdatos Censo 2017 a nivel de Manzana: Publicados por el Instituto Nacional de Estadisticas (INE) desde http://geoine-ine-chile.opendata.arcgis.com/datasets/54e0c40680054efaabeb9d53b09e1e7a_0
+* (2) Microdatos Censo 2017 a nivel de manzana censal: Publicados por el Instituto Nacional de Estadisticas (INE) desde http://geoine-ine-chile.opendata.arcgis.com/datasets/54e0c40680054efaabeb9d53b09e1e7a_0
 
 # Información adicional
 * El producto29 (https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto29) contiene la información de los días que cada cuarentena está activa.
