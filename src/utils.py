@@ -32,14 +32,16 @@ import pandas as pd
 import re
 
 def regionName(df):
-    df["Region"] = df["Region"].replace({"Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
+    df["Region"] = df["Region"].replace({"Arica - Parinacota": "Arica y Parinacota",
+                                         "Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
                                          "Región Metropolitana de Santiago": "Metropolitana",
                                          "Del Libertador General Bernardo O’Higgins": "O’Higgins",
                                          "Libertador General Bernardo OHiggins": "O’Higgins",
                                          "Nuble": "Ñuble",
                                          "Biobio": "Biobío", "Concepción": "Biobío",
                                          "La Araucania": "Araucanía", "la Araucanía": "Araucanía",
-                                         "Los Rios": "Los Ríos", "de Los Ríos": "Los Ríos",
+                                         "Los Rios": "Los Ríos", "de Los Ríos": "Los Ríos", "De los Rios": "Los Ríos",
+                                         "De los Lagos": "Los Lagos",
                                          "Aysen": "Aysén", "Aysén del General Carlos Ibañez del Campo": "Aysén",
                                          "Magallanes y la Antartica": "Magallanes",
                                          "Magallanes y de la Antártica Chilena": "Magallanes"
@@ -48,6 +50,7 @@ def regionName(df):
 def regionNameRegex(df):
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región de ', value=r'')
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región del ', value=r'')
+
 
 def normalizaNombreCodigoRegionYComuna(df):
     # standards:
@@ -97,6 +100,7 @@ def normalizaNombreCodigoRegionYComuna(df):
     df['Codigo region'] = df['Codigo region'].astype(str)
     return df
 
+
 def FechaAlFinal(df):
     if 'Fecha' in df.columns:
         columns = [x for x in list(df) if x != 'Fecha']
@@ -128,7 +132,8 @@ def std_getSuperficieComunas(URL):
         cols = [ele.text.strip() for ele in cols]
         if len(cols) > 1:
             data.append(
-                [unidecode(ele) for ele in cols if (len(ele) > 1 or 'Escudo' not in ele)])
+                #s.replace('.', '', s.count('.')-1)
+                [unidecode(ele.replace('.', '', ele.count('.')-1)) for ele in cols if (len(ele) > 1 or 'Escudo' not in ele)])
 
     headers = data.pop(0) # gives the headers as list and leaves d
     df = pd.DataFrame.from_records(data, columns=headers)
@@ -139,9 +144,30 @@ def std_getSuperficieComunas(URL):
     # standards:
     df_to_write["Comuna"] = df_to_write["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
     df_to_write = normalizaNombreCodigoRegionYComuna(df_to_write)
-
-
     return df_to_write
+
+
+def std_getSuperficieComunasOfficial(input):
+    '''
+    Bienes nacionales noticed we got superficies from wikipedia, so they contributed with a proper source
+    ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2']
+    '''
+    df = pd.read_excel(input)
+    df.drop(columns={'CUT_PROV', 'PROVINCIA'}, inplace=True)
+
+    df.rename(columns={
+        'CUT_REG': 'Codigo region',
+        'CUT_COM': 'Codigo comuna',
+        'REGION': 'Region',
+        'COMUNA': 'Comuna',
+        'SUPERFICIE': 'Superficie_km2'
+    }, inplace=True)
+    print(df.to_string())
+    #missing antartica comuna 12202
+    #df["Comuna"] = df["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
+    df = normalizaNombreCodigoRegionYComuna(df)
+
+    return df
 
 
 def std_getPoblacion(fte, std_df):
@@ -171,7 +197,8 @@ def writeStandardsToFile(prod):
     Actualizamos y/o generamos el archivo con entradas mas estables para las comunas:
     Region,Codigo region,Comuna,Codigo comuna,Superficie_km2,Poblacion
     '''
-    out = std_getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile')
+    #out = std_getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile')
+    out = std_getSuperficieComunasOfficial('../input/Otros/2020.xlsx')
     out = std_getPoblacion('../output/producto1/Covid-19.csv', out)
     out.to_csv(prod, index=False)
 
