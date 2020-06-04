@@ -23,3 +23,4 @@ Actualización diaria.
 
 3) Error de 929 exámenes adicionales en los exámenes realizados acumulados en establecimientos privados el día 1 de junio 2020. Junto a esto, se encontró un error de 929 exámenes menos en los realizados acumulados en Hospitales públicos en ese mismo día (1 de junio 2020)
 
+4) Error de 335 exámenes adicionales en los exámenes realizados acumulados en establecimientos privados el día 4 de junio 2020. Junto a esto, se encontró un error de 335 exámenes menos en los realizados acumulados en Hospitales públicos en ese mismo día (4 de junio 2020)
