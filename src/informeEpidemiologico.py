@@ -31,6 +31,8 @@ Los productos que salen del informe epidemiologico son:
 16
 18
 19
+21
+22
 25
 28
 34
@@ -200,6 +202,31 @@ def prod19_25(fte, producto):
                              value_name='Casos actuales')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+
+def prod21_22(fte, producto):
+
+    HospitalizadosEtario_T = utils.transpone_csv(producto + '.csv')
+    HospitalizadosEtario_T.to_csv(producto + '_T.csv', header=False)
+    df = pd.read_csv(fte)
+    df = df.replace('-', '', regex=True)
+    df.to_csv(producto + '.csv', index=False)
+    if '21' in producto:
+        print('prod21')
+        identifiers = ['Sintomas']
+        variables = [x for x in df.columns if x not in identifiers]
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
+        df_std.to_csv(producto + '_std.csv', index=False)
+    if '22' in producto:
+        print('prod22')
+        if 'Sexo' in df.columns:
+            identifiers = ['Grupo de edad', 'Sexo']
+        else:
+            identifiers = ['Grupo de edad']
+        variables = [x for x in df.columns if x not in identifiers]
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
+        df_std.to_csv(producto + '_std.csv', index=False)
+
+
 def prod28(fte, producto):
     print('Generando producto 28')
     df = pd.read_csv(fte, dtype={'Codigo region': object})
@@ -313,6 +340,14 @@ if __name__ == '__main__':
 
     print('Generando producto 19')
     prod19_25('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
+
+    print('Generando producto 21')
+    prod21_22('../input/InformeEpidemiologico/SintomasCasosConfirmados.csv', '../output/producto21/SintomasCasosConfirmados')
+    prod21_22('../input/InformeEpidemiologico/SintomasHospitalizados.csv', '../output/producto21/SintomasHospitalizados')
+
+    print('Generando producto 22')
+    prod21_22('../input/InformeEpidemiologico/HospitalizadosGeneroEtario_Acumulado.csv', '../output/producto22/HospitalizadosEtario_Acumulado')
+    prod21_22('../input/InformeEpidemiologico/HospitalizadosUCI_Acumulado.csv', '../output/producto22/HospitalizadosUCI_Acumulado')
 
     print('Generando producto 25')
     prod19_25('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
