@@ -162,14 +162,14 @@ def prod5Nuevo(fte, producto):
     print(list(a))
     a.rename(columns={0: 'Fecha', 1: 'Casos totales', 2: 'Casos nuevos totales',
                       3: 'Casos nuevos con sintomas', 4: 'Casos nuevos sin sintomas',
-                      5:'Fallecidos totales'}, inplace=True)
+                      5: 'Fallecidos'}, inplace=True)
     a['Fecha'] = timestamp
     a.drop(0, inplace=True)
 
     a['Casos activos'] = casos_activos[1]
 
 
-    #print(a.to_string())
+    print(a.to_string())
     totales = pd.read_csv(producto)
     #print(totales.columns[1:])
     # add Casos nuevos totales = Casos nuevos con sintomas + Casos nuevos sin sintomas
@@ -264,8 +264,6 @@ def prod5Nuevo(fte, producto):
 
 
 if __name__ == '__main__':
-
-    #prod4('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto4/')
 
     prod5Nuevo('https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/', '../output/producto5/TotalesNacionales.csv')
 
