@@ -1,20 +1,4 @@
 Region,Codigo region,Publicacion,Semana Epidemiologica,Casos confirmados
-Arica y Parinacota,15,2020-05-04,SE7,0.0
-Tarapacá,01,2020-05-04,SE7,0.0
-Antofagasta,02,2020-05-04,SE7,0.0
-Atacama,03,2020-05-04,SE7,0.0
-Coquimbo,04,2020-05-04,SE7,0.0
-Valparaíso,05,2020-05-04,SE7,0.0
-Metropolitana,13,2020-05-04,SE7,0.0
-O’Higgins,06,2020-05-04,SE7,0.0
-Maule,07,2020-05-04,SE7,0.0
-Ñuble,16,2020-05-04,SE7,0.0
-Biobío,08,2020-05-04,SE7,0.0
-Araucanía,09,2020-05-04,SE7,0.0
-Los Ríos,14,2020-05-04,SE7,0.0
-Los Lagos,10,2020-05-04,SE7,0.0
-Aysén,11,2020-05-04,SE7,0.0
-Magallanes,12,2020-05-04,SE7,0.0
 Arica y Parinacota,15,2020-05-11,SE7,0.0
 Tarapacá,01,2020-05-11,SE7,0.0
 Antofagasta,02,2020-05-11,SE7,0.0
@@ -31,6 +15,118 @@ Los Ríos,14,2020-05-11,SE7,0.0
 Los Lagos,10,2020-05-11,SE7,0.0
 Aysén,11,2020-05-11,SE7,0.0
 Magallanes,12,2020-05-11,SE7,0.0
+Arica y Parinacota,15,2020-05-25,SE7,0.0
+Tarapacá,01,2020-05-25,SE7,0.0
+Antofagasta,02,2020-05-25,SE7,0.0
+Atacama,03,2020-05-25,SE7,0.0
+Coquimbo,04,2020-05-25,SE7,0.0
+Valparaíso,05,2020-05-25,SE7,0.0
+Metropolitana,13,2020-05-25,SE7,0.0
+O’Higgins,06,2020-05-25,SE7,0.0
+Maule,07,2020-05-25,SE7,0.0
+Ñuble,16,2020-05-25,SE7,0.0
+Biobío,08,2020-05-25,SE7,0.0
+Araucanía,09,2020-05-25,SE7,0.0
+Los Ríos,14,2020-05-25,SE7,0.0
+Los Lagos,10,2020-05-25,SE7,0.0
+Aysén,11,2020-05-25,SE7,0.0
+Magallanes,12,2020-05-25,SE7,0.0
+Arica y Parinacota,15,2020-05-08,SE7,0.0
+Tarapacá,01,2020-05-08,SE7,0.0
+Antofagasta,02,2020-05-08,SE7,0.0
+Atacama,03,2020-05-08,SE7,0.0
+Coquimbo,04,2020-05-08,SE7,0.0
+Valparaíso,05,2020-05-08,SE7,0.0
+Metropolitana,13,2020-05-08,SE7,0.0
+O’Higgins,06,2020-05-08,SE7,0.0
+Maule,07,2020-05-08,SE7,0.0
+Ñuble,16,2020-05-08,SE7,0.0
+Biobío,08,2020-05-08,SE7,0.0
+Araucanía,09,2020-05-08,SE7,0.0
+Los Ríos,14,2020-05-08,SE7,0.0
+Los Lagos,10,2020-05-08,SE7,0.0
+Aysén,11,2020-05-08,SE7,0.0
+Magallanes,12,2020-05-08,SE7,0.0
+Arica y Parinacota,15,2020-05-15,SE7,0.0
+Tarapacá,01,2020-05-15,SE7,0.0
+Antofagasta,02,2020-05-15,SE7,0.0
+Atacama,03,2020-05-15,SE7,0.0
+Coquimbo,04,2020-05-15,SE7,0.0
+Valparaíso,05,2020-05-15,SE7,0.0
+Metropolitana,13,2020-05-15,SE7,0.0
+O’Higgins,06,2020-05-15,SE7,0.0
+Maule,07,2020-05-15,SE7,0.0
+Ñuble,16,2020-05-15,SE7,0.0
+Biobío,08,2020-05-15,SE7,0.0
+Araucanía,09,2020-05-15,SE7,0.0
+Los Ríos,14,2020-05-15,SE7,0.0
+Los Lagos,10,2020-05-15,SE7,0.0
+Aysén,11,2020-05-15,SE7,0.0
+Magallanes,12,2020-05-15,SE7,0.0
+Arica y Parinacota,15,2020-05-22,SE7,0.0
+Tarapacá,01,2020-05-22,SE7,0.0
+Antofagasta,02,2020-05-22,SE7,0.0
+Atacama,03,2020-05-22,SE7,0.0
+Coquimbo,04,2020-05-22,SE7,0.0
+Valparaíso,05,2020-05-22,SE7,0.0
+Metropolitana,13,2020-05-22,SE7,0.0
+O’Higgins,06,2020-05-22,SE7,0.0
+Maule,07,2020-05-22,SE7,0.0
+Ñuble,16,2020-05-22,SE7,0.0
+Biobío,08,2020-05-22,SE7,0.0
+Araucanía,09,2020-05-22,SE7,0.0
+Los Ríos,14,2020-05-22,SE7,0.0
+Los Lagos,10,2020-05-22,SE7,0.0
+Aysén,11,2020-05-22,SE7,0.0
+Magallanes,12,2020-05-22,SE7,0.0
+Arica y Parinacota,15,2020-05-04,SE7,0.0
+Tarapacá,01,2020-05-04,SE7,0.0
+Antofagasta,02,2020-05-04,SE7,0.0
+Atacama,03,2020-05-04,SE7,0.0
+Coquimbo,04,2020-05-04,SE7,0.0
+Valparaíso,05,2020-05-04,SE7,0.0
+Metropolitana,13,2020-05-04,SE7,0.0
+O’Higgins,06,2020-05-04,SE7,0.0
+Maule,07,2020-05-04,SE7,0.0
+Ñuble,16,2020-05-04,SE7,0.0
+Biobío,08,2020-05-04,SE7,0.0
+Araucanía,09,2020-05-04,SE7,0.0
+Los Ríos,14,2020-05-04,SE7,0.0
+Los Lagos,10,2020-05-04,SE7,0.0
+Aysén,11,2020-05-04,SE7,0.0
+Magallanes,12,2020-05-04,SE7,0.0
+Arica y Parinacota,15,2020-05-01,SE7,0.0
+Tarapacá,01,2020-05-01,SE7,0.0
+Antofagasta,02,2020-05-01,SE7,0.0
+Atacama,03,2020-05-01,SE7,0.0
+Coquimbo,04,2020-05-01,SE7,0.0
+Valparaíso,05,2020-05-01,SE7,0.0
+Metropolitana,13,2020-05-01,SE7,0.0
+O’Higgins,06,2020-05-01,SE7,0.0
+Maule,07,2020-05-01,SE7,0.0
+Ñuble,16,2020-05-01,SE7,0.0
+Biobío,08,2020-05-01,SE7,0.0
+Araucanía,09,2020-05-01,SE7,0.0
+Los Ríos,14,2020-05-01,SE7,0.0
+Los Lagos,10,2020-05-01,SE7,0.0
+Aysén,11,2020-05-01,SE7,0.0
+Magallanes,12,2020-05-01,SE7,0.0
+Arica y Parinacota,15,2020-05-18,SE7,0.0
+Tarapacá,01,2020-05-18,SE7,0.0
+Antofagasta,02,2020-05-18,SE7,0.0
+Atacama,03,2020-05-18,SE7,0.0
+Coquimbo,04,2020-05-18,SE7,0.0
+Valparaíso,05,2020-05-18,SE7,0.0
+Metropolitana,13,2020-05-18,SE7,0.0
+O’Higgins,06,2020-05-18,SE7,0.0
+Maule,07,2020-05-18,SE7,0.0
+Ñuble,16,2020-05-18,SE7,0.0
+Biobío,08,2020-05-18,SE7,0.0
+Araucanía,09,2020-05-18,SE7,0.0
+Los Ríos,14,2020-05-18,SE7,0.0
+Los Lagos,10,2020-05-18,SE7,0.0
+Aysén,11,2020-05-18,SE7,0.0
+Magallanes,12,2020-05-18,SE7,0.0
 Arica y Parinacota,15,2020-05-29,SE7,0.0
 Tarapacá,01,2020-05-29,SE7,0.0
 Antofagasta,02,2020-05-29,SE7,0.0
@@ -63,118 +159,6 @@ Los Ríos,14,2020-06-01,SE7,0.0
 Los Lagos,10,2020-06-01,SE7,0.0
 Aysén,11,2020-06-01,SE7,0.0
 Magallanes,12,2020-06-01,SE7,0.0
-Arica y Parinacota,15,2020-05-01,SE7,0.0
-Tarapacá,01,2020-05-01,SE7,0.0
-Antofagasta,02,2020-05-01,SE7,0.0
-Atacama,03,2020-05-01,SE7,0.0
-Coquimbo,04,2020-05-01,SE7,0.0
-Valparaíso,05,2020-05-01,SE7,0.0
-Metropolitana,13,2020-05-01,SE7,0.0
-O’Higgins,06,2020-05-01,SE7,0.0
-Maule,07,2020-05-01,SE7,0.0
-Ñuble,16,2020-05-01,SE7,0.0
-Biobío,08,2020-05-01,SE7,0.0
-Araucanía,09,2020-05-01,SE7,0.0
-Los Ríos,14,2020-05-01,SE7,0.0
-Los Lagos,10,2020-05-01,SE7,0.0
-Aysén,11,2020-05-01,SE7,0.0
-Magallanes,12,2020-05-01,SE7,0.0
-Arica y Parinacota,15,2020-05-15,SE7,0.0
-Tarapacá,01,2020-05-15,SE7,0.0
-Antofagasta,02,2020-05-15,SE7,0.0
-Atacama,03,2020-05-15,SE7,0.0
-Coquimbo,04,2020-05-15,SE7,0.0
-Valparaíso,05,2020-05-15,SE7,0.0
-Metropolitana,13,2020-05-15,SE7,0.0
-O’Higgins,06,2020-05-15,SE7,0.0
-Maule,07,2020-05-15,SE7,0.0
-Ñuble,16,2020-05-15,SE7,0.0
-Biobío,08,2020-05-15,SE7,0.0
-Araucanía,09,2020-05-15,SE7,0.0
-Los Ríos,14,2020-05-15,SE7,0.0
-Los Lagos,10,2020-05-15,SE7,0.0
-Aysén,11,2020-05-15,SE7,0.0
-Magallanes,12,2020-05-15,SE7,0.0
-Arica y Parinacota,15,2020-05-25,SE7,0.0
-Tarapacá,01,2020-05-25,SE7,0.0
-Antofagasta,02,2020-05-25,SE7,0.0
-Atacama,03,2020-05-25,SE7,0.0
-Coquimbo,04,2020-05-25,SE7,0.0
-Valparaíso,05,2020-05-25,SE7,0.0
-Metropolitana,13,2020-05-25,SE7,0.0
-O’Higgins,06,2020-05-25,SE7,0.0
-Maule,07,2020-05-25,SE7,0.0
-Ñuble,16,2020-05-25,SE7,0.0
-Biobío,08,2020-05-25,SE7,0.0
-Araucanía,09,2020-05-25,SE7,0.0
-Los Ríos,14,2020-05-25,SE7,0.0
-Los Lagos,10,2020-05-25,SE7,0.0
-Aysén,11,2020-05-25,SE7,0.0
-Magallanes,12,2020-05-25,SE7,0.0
-Arica y Parinacota,15,2020-05-18,SE7,0.0
-Tarapacá,01,2020-05-18,SE7,0.0
-Antofagasta,02,2020-05-18,SE7,0.0
-Atacama,03,2020-05-18,SE7,0.0
-Coquimbo,04,2020-05-18,SE7,0.0
-Valparaíso,05,2020-05-18,SE7,0.0
-Metropolitana,13,2020-05-18,SE7,0.0
-O’Higgins,06,2020-05-18,SE7,0.0
-Maule,07,2020-05-18,SE7,0.0
-Ñuble,16,2020-05-18,SE7,0.0
-Biobío,08,2020-05-18,SE7,0.0
-Araucanía,09,2020-05-18,SE7,0.0
-Los Ríos,14,2020-05-18,SE7,0.0
-Los Lagos,10,2020-05-18,SE7,0.0
-Aysén,11,2020-05-18,SE7,0.0
-Magallanes,12,2020-05-18,SE7,0.0
-Arica y Parinacota,15,2020-05-08,SE7,0.0
-Tarapacá,01,2020-05-08,SE7,0.0
-Antofagasta,02,2020-05-08,SE7,0.0
-Atacama,03,2020-05-08,SE7,0.0
-Coquimbo,04,2020-05-08,SE7,0.0
-Valparaíso,05,2020-05-08,SE7,0.0
-Metropolitana,13,2020-05-08,SE7,0.0
-O’Higgins,06,2020-05-08,SE7,0.0
-Maule,07,2020-05-08,SE7,0.0
-Ñuble,16,2020-05-08,SE7,0.0
-Biobío,08,2020-05-08,SE7,0.0
-Araucanía,09,2020-05-08,SE7,0.0
-Los Ríos,14,2020-05-08,SE7,0.0
-Los Lagos,10,2020-05-08,SE7,0.0
-Aysén,11,2020-05-08,SE7,0.0
-Magallanes,12,2020-05-08,SE7,0.0
-Arica y Parinacota,15,2020-05-22,SE7,0.0
-Tarapacá,01,2020-05-22,SE7,0.0
-Antofagasta,02,2020-05-22,SE7,0.0
-Atacama,03,2020-05-22,SE7,0.0
-Coquimbo,04,2020-05-22,SE7,0.0
-Valparaíso,05,2020-05-22,SE7,0.0
-Metropolitana,13,2020-05-22,SE7,0.0
-O’Higgins,06,2020-05-22,SE7,0.0
-Maule,07,2020-05-22,SE7,0.0
-Ñuble,16,2020-05-22,SE7,0.0
-Biobío,08,2020-05-22,SE7,0.0
-Araucanía,09,2020-05-22,SE7,0.0
-Los Ríos,14,2020-05-22,SE7,0.0
-Los Lagos,10,2020-05-22,SE7,0.0
-Aysén,11,2020-05-22,SE7,0.0
-Magallanes,12,2020-05-22,SE7,0.0
-Arica y Parinacota,15,2020-05-04,SE8,0.0
-Tarapacá,01,2020-05-04,SE8,0.0
-Antofagasta,02,2020-05-04,SE8,0.0
-Atacama,03,2020-05-04,SE8,0.0
-Coquimbo,04,2020-05-04,SE8,0.0
-Valparaíso,05,2020-05-04,SE8,0.0
-Metropolitana,13,2020-05-04,SE8,0.0
-O’Higgins,06,2020-05-04,SE8,0.0
-Maule,07,2020-05-04,SE8,0.0
-Ñuble,16,2020-05-04,SE8,0.0
-Biobío,08,2020-05-04,SE8,0.0
-Araucanía,09,2020-05-04,SE8,0.0
-Los Ríos,14,2020-05-04,SE8,0.0
-Los Lagos,10,2020-05-04,SE8,0.0
-Aysén,11,2020-05-04,SE8,0.0
-Magallanes,12,2020-05-04,SE8,0.0
 Arica y Parinacota,15,2020-05-11,SE8,0.0
 Tarapacá,01,2020-05-11,SE8,0.0
 Antofagasta,02,2020-05-11,SE8,0.0
@@ -191,6 +175,118 @@ Los Ríos,14,2020-05-11,SE8,0.0
 Los Lagos,10,2020-05-11,SE8,0.0
 Aysén,11,2020-05-11,SE8,0.0
 Magallanes,12,2020-05-11,SE8,0.0
+Arica y Parinacota,15,2020-05-25,SE8,0.0
+Tarapacá,01,2020-05-25,SE8,0.0
+Antofagasta,02,2020-05-25,SE8,0.0
+Atacama,03,2020-05-25,SE8,0.0
+Coquimbo,04,2020-05-25,SE8,0.0
+Valparaíso,05,2020-05-25,SE8,0.0
+Metropolitana,13,2020-05-25,SE8,0.0
+O’Higgins,06,2020-05-25,SE8,0.0
+Maule,07,2020-05-25,SE8,0.0
+Ñuble,16,2020-05-25,SE8,0.0
+Biobío,08,2020-05-25,SE8,0.0
+Araucanía,09,2020-05-25,SE8,0.0
+Los Ríos,14,2020-05-25,SE8,0.0
+Los Lagos,10,2020-05-25,SE8,0.0
+Aysén,11,2020-05-25,SE8,0.0
+Magallanes,12,2020-05-25,SE8,0.0
+Arica y Parinacota,15,2020-05-08,SE8,0.0
+Tarapacá,01,2020-05-08,SE8,0.0
+Antofagasta,02,2020-05-08,SE8,0.0
+Atacama,03,2020-05-08,SE8,0.0
+Coquimbo,04,2020-05-08,SE8,0.0
+Valparaíso,05,2020-05-08,SE8,0.0
+Metropolitana,13,2020-05-08,SE8,0.0
+O’Higgins,06,2020-05-08,SE8,0.0
+Maule,07,2020-05-08,SE8,0.0
+Ñuble,16,2020-05-08,SE8,0.0
+Biobío,08,2020-05-08,SE8,0.0
+Araucanía,09,2020-05-08,SE8,0.0
+Los Ríos,14,2020-05-08,SE8,0.0
+Los Lagos,10,2020-05-08,SE8,0.0
+Aysén,11,2020-05-08,SE8,0.0
+Magallanes,12,2020-05-08,SE8,0.0
+Arica y Parinacota,15,2020-05-15,SE8,0.0
+Tarapacá,01,2020-05-15,SE8,0.0
+Antofagasta,02,2020-05-15,SE8,0.0
+Atacama,03,2020-05-15,SE8,0.0
+Coquimbo,04,2020-05-15,SE8,0.0
+Valparaíso,05,2020-05-15,SE8,0.0
+Metropolitana,13,2020-05-15,SE8,0.0
+O’Higgins,06,2020-05-15,SE8,0.0
+Maule,07,2020-05-15,SE8,0.0
+Ñuble,16,2020-05-15,SE8,0.0
+Biobío,08,2020-05-15,SE8,0.0
+Araucanía,09,2020-05-15,SE8,0.0
+Los Ríos,14,2020-05-15,SE8,0.0
+Los Lagos,10,2020-05-15,SE8,0.0
+Aysén,11,2020-05-15,SE8,0.0
+Magallanes,12,2020-05-15,SE8,0.0
+Arica y Parinacota,15,2020-05-22,SE8,0.0
+Tarapacá,01,2020-05-22,SE8,0.0
+Antofagasta,02,2020-05-22,SE8,0.0
+Atacama,03,2020-05-22,SE8,0.0
+Coquimbo,04,2020-05-22,SE8,0.0
+Valparaíso,05,2020-05-22,SE8,0.0
+Metropolitana,13,2020-05-22,SE8,0.0
+O’Higgins,06,2020-05-22,SE8,0.0
+Maule,07,2020-05-22,SE8,0.0
+Ñuble,16,2020-05-22,SE8,0.0
+Biobío,08,2020-05-22,SE8,0.0
+Araucanía,09,2020-05-22,SE8,0.0
+Los Ríos,14,2020-05-22,SE8,0.0
+Los Lagos,10,2020-05-22,SE8,0.0
+Aysén,11,2020-05-22,SE8,0.0
+Magallanes,12,2020-05-22,SE8,0.0
+Arica y Parinacota,15,2020-05-04,SE8,0.0
+Tarapacá,01,2020-05-04,SE8,0.0
+Antofagasta,02,2020-05-04,SE8,0.0
+Atacama,03,2020-05-04,SE8,0.0
+Coquimbo,04,2020-05-04,SE8,0.0
+Valparaíso,05,2020-05-04,SE8,0.0
+Metropolitana,13,2020-05-04,SE8,0.0
+O’Higgins,06,2020-05-04,SE8,0.0
+Maule,07,2020-05-04,SE8,0.0
+Ñuble,16,2020-05-04,SE8,0.0
+Biobío,08,2020-05-04,SE8,0.0
+Araucanía,09,2020-05-04,SE8,0.0
+Los Ríos,14,2020-05-04,SE8,0.0
+Los Lagos,10,2020-05-04,SE8,0.0
+Aysén,11,2020-05-04,SE8,0.0
+Magallanes,12,2020-05-04,SE8,0.0
+Arica y Parinacota,15,2020-05-01,SE8,0.0
+Tarapacá,01,2020-05-01,SE8,0.0
+Antofagasta,02,2020-05-01,SE8,0.0
+Atacama,03,2020-05-01,SE8,0.0
+Coquimbo,04,2020-05-01,SE8,0.0
+Valparaíso,05,2020-05-01,SE8,0.0
+Metropolitana,13,2020-05-01,SE8,0.0
+O’Higgins,06,2020-05-01,SE8,0.0
+Maule,07,2020-05-01,SE8,0.0
+Ñuble,16,2020-05-01,SE8,0.0
+Biobío,08,2020-05-01,SE8,0.0
+Araucanía,09,2020-05-01,SE8,0.0
+Los Ríos,14,2020-05-01,SE8,0.0
+Los Lagos,10,2020-05-01,SE8,0.0
+Aysén,11,2020-05-01,SE8,0.0
+Magallanes,12,2020-05-01,SE8,0.0
+Arica y Parinacota,15,2020-05-18,SE8,0.0
+Tarapacá,01,2020-05-18,SE8,0.0
+Antofagasta,02,2020-05-18,SE8,0.0
+Atacama,03,2020-05-18,SE8,0.0
+Coquimbo,04,2020-05-18,SE8,0.0
+Valparaíso,05,2020-05-18,SE8,0.0
+Metropolitana,13,2020-05-18,SE8,0.0
+O’Higgins,06,2020-05-18,SE8,0.0
+Maule,07,2020-05-18,SE8,0.0
+Ñuble,16,2020-05-18,SE8,0.0
+Biobío,08,2020-05-18,SE8,0.0
+Araucanía,09,2020-05-18,SE8,0.0
+Los Ríos,14,2020-05-18,SE8,0.0
+Los Lagos,10,2020-05-18,SE8,0.0
+Aysén,11,2020-05-18,SE8,0.0
+Magallanes,12,2020-05-18,SE8,0.0
 Arica y Parinacota,15,2020-05-29,SE8,0.0
 Tarapacá,01,2020-05-29,SE8,0.0
 Antofagasta,02,2020-05-29,SE8,0.0
@@ -223,118 +319,6 @@ Los Ríos,14,2020-06-01,SE8,0.0
 Los Lagos,10,2020-06-01,SE8,0.0
 Aysén,11,2020-06-01,SE8,0.0
 Magallanes,12,2020-06-01,SE8,0.0
-Arica y Parinacota,15,2020-05-01,SE8,0.0
-Tarapacá,01,2020-05-01,SE8,0.0
-Antofagasta,02,2020-05-01,SE8,0.0
-Atacama,03,2020-05-01,SE8,0.0
-Coquimbo,04,2020-05-01,SE8,0.0
-Valparaíso,05,2020-05-01,SE8,0.0
-Metropolitana,13,2020-05-01,SE8,0.0
-O’Higgins,06,2020-05-01,SE8,0.0
-Maule,07,2020-05-01,SE8,0.0
-Ñuble,16,2020-05-01,SE8,0.0
-Biobío,08,2020-05-01,SE8,0.0
-Araucanía,09,2020-05-01,SE8,0.0
-Los Ríos,14,2020-05-01,SE8,0.0
-Los Lagos,10,2020-05-01,SE8,0.0
-Aysén,11,2020-05-01,SE8,0.0
-Magallanes,12,2020-05-01,SE8,0.0
-Arica y Parinacota,15,2020-05-15,SE8,0.0
-Tarapacá,01,2020-05-15,SE8,0.0
-Antofagasta,02,2020-05-15,SE8,0.0
-Atacama,03,2020-05-15,SE8,0.0
-Coquimbo,04,2020-05-15,SE8,0.0
-Valparaíso,05,2020-05-15,SE8,0.0
-Metropolitana,13,2020-05-15,SE8,0.0
-O’Higgins,06,2020-05-15,SE8,0.0
-Maule,07,2020-05-15,SE8,0.0
-Ñuble,16,2020-05-15,SE8,0.0
-Biobío,08,2020-05-15,SE8,0.0
-Araucanía,09,2020-05-15,SE8,0.0
-Los Ríos,14,2020-05-15,SE8,0.0
-Los Lagos,10,2020-05-15,SE8,0.0
-Aysén,11,2020-05-15,SE8,0.0
-Magallanes,12,2020-05-15,SE8,0.0
-Arica y Parinacota,15,2020-05-25,SE8,0.0
-Tarapacá,01,2020-05-25,SE8,0.0
-Antofagasta,02,2020-05-25,SE8,0.0
-Atacama,03,2020-05-25,SE8,0.0
-Coquimbo,04,2020-05-25,SE8,0.0
-Valparaíso,05,2020-05-25,SE8,0.0
-Metropolitana,13,2020-05-25,SE8,0.0
-O’Higgins,06,2020-05-25,SE8,0.0
-Maule,07,2020-05-25,SE8,0.0
-Ñuble,16,2020-05-25,SE8,0.0
-Biobío,08,2020-05-25,SE8,0.0
-Araucanía,09,2020-05-25,SE8,0.0
-Los Ríos,14,2020-05-25,SE8,0.0
-Los Lagos,10,2020-05-25,SE8,0.0
-Aysén,11,2020-05-25,SE8,0.0
-Magallanes,12,2020-05-25,SE8,0.0
-Arica y Parinacota,15,2020-05-18,SE8,0.0
-Tarapacá,01,2020-05-18,SE8,0.0
-Antofagasta,02,2020-05-18,SE8,0.0
-Atacama,03,2020-05-18,SE8,0.0
-Coquimbo,04,2020-05-18,SE8,0.0
-Valparaíso,05,2020-05-18,SE8,0.0
-Metropolitana,13,2020-05-18,SE8,0.0
-O’Higgins,06,2020-05-18,SE8,0.0
-Maule,07,2020-05-18,SE8,0.0
-Ñuble,16,2020-05-18,SE8,0.0
-Biobío,08,2020-05-18,SE8,0.0
-Araucanía,09,2020-05-18,SE8,0.0
-Los Ríos,14,2020-05-18,SE8,0.0
-Los Lagos,10,2020-05-18,SE8,0.0
-Aysén,11,2020-05-18,SE8,0.0
-Magallanes,12,2020-05-18,SE8,0.0
-Arica y Parinacota,15,2020-05-08,SE8,0.0
-Tarapacá,01,2020-05-08,SE8,0.0
-Antofagasta,02,2020-05-08,SE8,0.0
-Atacama,03,2020-05-08,SE8,0.0
-Coquimbo,04,2020-05-08,SE8,0.0
-Valparaíso,05,2020-05-08,SE8,0.0
-Metropolitana,13,2020-05-08,SE8,0.0
-O’Higgins,06,2020-05-08,SE8,0.0
-Maule,07,2020-05-08,SE8,0.0
-Ñuble,16,2020-05-08,SE8,0.0
-Biobío,08,2020-05-08,SE8,0.0
-Araucanía,09,2020-05-08,SE8,0.0
-Los Ríos,14,2020-05-08,SE8,0.0
-Los Lagos,10,2020-05-08,SE8,0.0
-Aysén,11,2020-05-08,SE8,0.0
-Magallanes,12,2020-05-08,SE8,0.0
-Arica y Parinacota,15,2020-05-22,SE8,0.0
-Tarapacá,01,2020-05-22,SE8,0.0
-Antofagasta,02,2020-05-22,SE8,0.0
-Atacama,03,2020-05-22,SE8,0.0
-Coquimbo,04,2020-05-22,SE8,0.0
-Valparaíso,05,2020-05-22,SE8,0.0
-Metropolitana,13,2020-05-22,SE8,0.0
-O’Higgins,06,2020-05-22,SE8,0.0
-Maule,07,2020-05-22,SE8,0.0
-Ñuble,16,2020-05-22,SE8,0.0
-Biobío,08,2020-05-22,SE8,0.0
-Araucanía,09,2020-05-22,SE8,0.0
-Los Ríos,14,2020-05-22,SE8,0.0
-Los Lagos,10,2020-05-22,SE8,0.0
-Aysén,11,2020-05-22,SE8,0.0
-Magallanes,12,2020-05-22,SE8,0.0
-Arica y Parinacota,15,2020-05-04,SE9,0.0
-Tarapacá,01,2020-05-04,SE9,0.0
-Antofagasta,02,2020-05-04,SE9,0.0
-Atacama,03,2020-05-04,SE9,0.0
-Coquimbo,04,2020-05-04,SE9,0.0
-Valparaíso,05,2020-05-04,SE9,0.0
-Metropolitana,13,2020-05-04,SE9,0.0
-O’Higgins,06,2020-05-04,SE9,0.0
-Maule,07,2020-05-04,SE9,0.0
-Ñuble,16,2020-05-04,SE9,0.0
-Biobío,08,2020-05-04,SE9,0.0
-Araucanía,09,2020-05-04,SE9,0.0
-Los Ríos,14,2020-05-04,SE9,0.0
-Los Lagos,10,2020-05-04,SE9,0.0
-Aysén,11,2020-05-04,SE9,0.0
-Magallanes,12,2020-05-04,SE9,0.0
 Arica y Parinacota,15,2020-05-11,SE9,0.0
 Tarapacá,01,2020-05-11,SE9,0.0
 Antofagasta,02,2020-05-11,SE9,0.0
@@ -351,6 +335,118 @@ Los Ríos,14,2020-05-11,SE9,0.0
 Los Lagos,10,2020-05-11,SE9,0.0
 Aysén,11,2020-05-11,SE9,0.0
 Magallanes,12,2020-05-11,SE9,0.0
+Arica y Parinacota,15,2020-05-25,SE9,0.0
+Tarapacá,01,2020-05-25,SE9,0.0
+Antofagasta,02,2020-05-25,SE9,0.0
+Atacama,03,2020-05-25,SE9,0.0
+Coquimbo,04,2020-05-25,SE9,0.0
+Valparaíso,05,2020-05-25,SE9,0.0
+Metropolitana,13,2020-05-25,SE9,0.0
+O’Higgins,06,2020-05-25,SE9,0.0
+Maule,07,2020-05-25,SE9,0.0
+Ñuble,16,2020-05-25,SE9,0.0
+Biobío,08,2020-05-25,SE9,0.0
+Araucanía,09,2020-05-25,SE9,0.0
+Los Ríos,14,2020-05-25,SE9,0.0
+Los Lagos,10,2020-05-25,SE9,0.0
+Aysén,11,2020-05-25,SE9,0.0
+Magallanes,12,2020-05-25,SE9,0.0
+Arica y Parinacota,15,2020-05-08,SE9,0.0
+Tarapacá,01,2020-05-08,SE9,0.0
+Antofagasta,02,2020-05-08,SE9,0.0
+Atacama,03,2020-05-08,SE9,0.0
+Coquimbo,04,2020-05-08,SE9,0.0
+Valparaíso,05,2020-05-08,SE9,0.0
+Metropolitana,13,2020-05-08,SE9,0.0
+O’Higgins,06,2020-05-08,SE9,0.0
+Maule,07,2020-05-08,SE9,0.0
+Ñuble,16,2020-05-08,SE9,0.0
+Biobío,08,2020-05-08,SE9,0.0
+Araucanía,09,2020-05-08,SE9,0.0
+Los Ríos,14,2020-05-08,SE9,0.0
+Los Lagos,10,2020-05-08,SE9,0.0
+Aysén,11,2020-05-08,SE9,0.0
+Magallanes,12,2020-05-08,SE9,0.0
+Arica y Parinacota,15,2020-05-15,SE9,0.0
+Tarapacá,01,2020-05-15,SE9,0.0
+Antofagasta,02,2020-05-15,SE9,0.0
+Atacama,03,2020-05-15,SE9,0.0
+Coquimbo,04,2020-05-15,SE9,0.0
+Valparaíso,05,2020-05-15,SE9,0.0
+Metropolitana,13,2020-05-15,SE9,0.0
+O’Higgins,06,2020-05-15,SE9,0.0
+Maule,07,2020-05-15,SE9,0.0
+Ñuble,16,2020-05-15,SE9,0.0
+Biobío,08,2020-05-15,SE9,0.0
+Araucanía,09,2020-05-15,SE9,0.0
+Los Ríos,14,2020-05-15,SE9,0.0
+Los Lagos,10,2020-05-15,SE9,0.0
+Aysén,11,2020-05-15,SE9,0.0
+Magallanes,12,2020-05-15,SE9,0.0
+Arica y Parinacota,15,2020-05-22,SE9,0.0
+Tarapacá,01,2020-05-22,SE9,0.0
+Antofagasta,02,2020-05-22,SE9,0.0
+Atacama,03,2020-05-22,SE9,0.0
+Coquimbo,04,2020-05-22,SE9,0.0
+Valparaíso,05,2020-05-22,SE9,0.0
+Metropolitana,13,2020-05-22,SE9,0.0
+O’Higgins,06,2020-05-22,SE9,0.0
+Maule,07,2020-05-22,SE9,0.0
+Ñuble,16,2020-05-22,SE9,0.0
+Biobío,08,2020-05-22,SE9,0.0
+Araucanía,09,2020-05-22,SE9,0.0
+Los Ríos,14,2020-05-22,SE9,0.0
+Los Lagos,10,2020-05-22,SE9,0.0
+Aysén,11,2020-05-22,SE9,0.0
+Magallanes,12,2020-05-22,SE9,0.0
+Arica y Parinacota,15,2020-05-04,SE9,0.0
+Tarapacá,01,2020-05-04,SE9,0.0
+Antofagasta,02,2020-05-04,SE9,0.0
+Atacama,03,2020-05-04,SE9,0.0
+Coquimbo,04,2020-05-04,SE9,0.0
+Valparaíso,05,2020-05-04,SE9,0.0
+Metropolitana,13,2020-05-04,SE9,0.0
+O’Higgins,06,2020-05-04,SE9,0.0
+Maule,07,2020-05-04,SE9,0.0
+Ñuble,16,2020-05-04,SE9,0.0
+Biobío,08,2020-05-04,SE9,0.0
+Araucanía,09,2020-05-04,SE9,0.0
+Los Ríos,14,2020-05-04,SE9,0.0
+Los Lagos,10,2020-05-04,SE9,0.0
+Aysén,11,2020-05-04,SE9,0.0
+Magallanes,12,2020-05-04,SE9,0.0
+Arica y Parinacota,15,2020-05-01,SE9,0.0
+Tarapacá,01,2020-05-01,SE9,0.0
+Antofagasta,02,2020-05-01,SE9,0.0
+Atacama,03,2020-05-01,SE9,0.0
+Coquimbo,04,2020-05-01,SE9,0.0
+Valparaíso,05,2020-05-01,SE9,0.0
+Metropolitana,13,2020-05-01,SE9,0.0
+O’Higgins,06,2020-05-01,SE9,0.0
+Maule,07,2020-05-01,SE9,0.0
+Ñuble,16,2020-05-01,SE9,0.0
+Biobío,08,2020-05-01,SE9,0.0
+Araucanía,09,2020-05-01,SE9,0.0
+Los Ríos,14,2020-05-01,SE9,0.0
+Los Lagos,10,2020-05-01,SE9,0.0
+Aysén,11,2020-05-01,SE9,0.0
+Magallanes,12,2020-05-01,SE9,0.0
+Arica y Parinacota,15,2020-05-18,SE9,0.0
+Tarapacá,01,2020-05-18,SE9,0.0
+Antofagasta,02,2020-05-18,SE9,0.0
+Atacama,03,2020-05-18,SE9,0.0
+Coquimbo,04,2020-05-18,SE9,0.0
+Valparaíso,05,2020-05-18,SE9,0.0
+Metropolitana,13,2020-05-18,SE9,0.0
+O’Higgins,06,2020-05-18,SE9,0.0
+Maule,07,2020-05-18,SE9,0.0
+Ñuble,16,2020-05-18,SE9,0.0
+Biobío,08,2020-05-18,SE9,0.0
+Araucanía,09,2020-05-18,SE9,0.0
+Los Ríos,14,2020-05-18,SE9,0.0
+Los Lagos,10,2020-05-18,SE9,0.0
+Aysén,11,2020-05-18,SE9,0.0
+Magallanes,12,2020-05-18,SE9,0.0
 Arica y Parinacota,15,2020-05-29,SE9,0.0
 Tarapacá,01,2020-05-29,SE9,0.0
 Antofagasta,02,2020-05-29,SE9,0.0
@@ -383,118 +479,6 @@ Los Ríos,14,2020-06-01,SE9,0.0
 Los Lagos,10,2020-06-01,SE9,0.0
 Aysén,11,2020-06-01,SE9,0.0
 Magallanes,12,2020-06-01,SE9,0.0
-Arica y Parinacota,15,2020-05-01,SE9,0.0
-Tarapacá,01,2020-05-01,SE9,0.0
-Antofagasta,02,2020-05-01,SE9,0.0
-Atacama,03,2020-05-01,SE9,0.0
-Coquimbo,04,2020-05-01,SE9,0.0
-Valparaíso,05,2020-05-01,SE9,0.0
-Metropolitana,13,2020-05-01,SE9,0.0
-O’Higgins,06,2020-05-01,SE9,0.0
-Maule,07,2020-05-01,SE9,0.0
-Ñuble,16,2020-05-01,SE9,0.0
-Biobío,08,2020-05-01,SE9,0.0
-Araucanía,09,2020-05-01,SE9,0.0
-Los Ríos,14,2020-05-01,SE9,0.0
-Los Lagos,10,2020-05-01,SE9,0.0
-Aysén,11,2020-05-01,SE9,0.0
-Magallanes,12,2020-05-01,SE9,0.0
-Arica y Parinacota,15,2020-05-15,SE9,0.0
-Tarapacá,01,2020-05-15,SE9,0.0
-Antofagasta,02,2020-05-15,SE9,0.0
-Atacama,03,2020-05-15,SE9,0.0
-Coquimbo,04,2020-05-15,SE9,0.0
-Valparaíso,05,2020-05-15,SE9,0.0
-Metropolitana,13,2020-05-15,SE9,0.0
-O’Higgins,06,2020-05-15,SE9,0.0
-Maule,07,2020-05-15,SE9,0.0
-Ñuble,16,2020-05-15,SE9,0.0
-Biobío,08,2020-05-15,SE9,0.0
-Araucanía,09,2020-05-15,SE9,0.0
-Los Ríos,14,2020-05-15,SE9,0.0
-Los Lagos,10,2020-05-15,SE9,0.0
-Aysén,11,2020-05-15,SE9,0.0
-Magallanes,12,2020-05-15,SE9,0.0
-Arica y Parinacota,15,2020-05-25,SE9,0.0
-Tarapacá,01,2020-05-25,SE9,0.0
-Antofagasta,02,2020-05-25,SE9,0.0
-Atacama,03,2020-05-25,SE9,0.0
-Coquimbo,04,2020-05-25,SE9,0.0
-Valparaíso,05,2020-05-25,SE9,0.0
-Metropolitana,13,2020-05-25,SE9,0.0
-O’Higgins,06,2020-05-25,SE9,0.0
-Maule,07,2020-05-25,SE9,0.0
-Ñuble,16,2020-05-25,SE9,0.0
-Biobío,08,2020-05-25,SE9,0.0
-Araucanía,09,2020-05-25,SE9,0.0
-Los Ríos,14,2020-05-25,SE9,0.0
-Los Lagos,10,2020-05-25,SE9,0.0
-Aysén,11,2020-05-25,SE9,0.0
-Magallanes,12,2020-05-25,SE9,0.0
-Arica y Parinacota,15,2020-05-18,SE9,0.0
-Tarapacá,01,2020-05-18,SE9,0.0
-Antofagasta,02,2020-05-18,SE9,0.0
-Atacama,03,2020-05-18,SE9,0.0
-Coquimbo,04,2020-05-18,SE9,0.0
-Valparaíso,05,2020-05-18,SE9,0.0
-Metropolitana,13,2020-05-18,SE9,0.0
-O’Higgins,06,2020-05-18,SE9,0.0
-Maule,07,2020-05-18,SE9,0.0
-Ñuble,16,2020-05-18,SE9,0.0
-Biobío,08,2020-05-18,SE9,0.0
-Araucanía,09,2020-05-18,SE9,0.0
-Los Ríos,14,2020-05-18,SE9,0.0
-Los Lagos,10,2020-05-18,SE9,0.0
-Aysén,11,2020-05-18,SE9,0.0
-Magallanes,12,2020-05-18,SE9,0.0
-Arica y Parinacota,15,2020-05-08,SE9,0.0
-Tarapacá,01,2020-05-08,SE9,0.0
-Antofagasta,02,2020-05-08,SE9,0.0
-Atacama,03,2020-05-08,SE9,0.0
-Coquimbo,04,2020-05-08,SE9,0.0
-Valparaíso,05,2020-05-08,SE9,0.0
-Metropolitana,13,2020-05-08,SE9,0.0
-O’Higgins,06,2020-05-08,SE9,0.0
-Maule,07,2020-05-08,SE9,0.0
-Ñuble,16,2020-05-08,SE9,0.0
-Biobío,08,2020-05-08,SE9,0.0
-Araucanía,09,2020-05-08,SE9,0.0
-Los Ríos,14,2020-05-08,SE9,0.0
-Los Lagos,10,2020-05-08,SE9,0.0
-Aysén,11,2020-05-08,SE9,0.0
-Magallanes,12,2020-05-08,SE9,0.0
-Arica y Parinacota,15,2020-05-22,SE9,0.0
-Tarapacá,01,2020-05-22,SE9,0.0
-Antofagasta,02,2020-05-22,SE9,0.0
-Atacama,03,2020-05-22,SE9,0.0
-Coquimbo,04,2020-05-22,SE9,0.0
-Valparaíso,05,2020-05-22,SE9,0.0
-Metropolitana,13,2020-05-22,SE9,0.0
-O’Higgins,06,2020-05-22,SE9,0.0
-Maule,07,2020-05-22,SE9,0.0
-Ñuble,16,2020-05-22,SE9,0.0
-Biobío,08,2020-05-22,SE9,0.0
-Araucanía,09,2020-05-22,SE9,0.0
-Los Ríos,14,2020-05-22,SE9,0.0
-Los Lagos,10,2020-05-22,SE9,0.0
-Aysén,11,2020-05-22,SE9,0.0
-Magallanes,12,2020-05-22,SE9,0.0
-Arica y Parinacota,15,2020-05-04,SE10,0.0
-Tarapacá,01,2020-05-04,SE10,0.0
-Antofagasta,02,2020-05-04,SE10,0.0
-Atacama,03,2020-05-04,SE10,0.0
-Coquimbo,04,2020-05-04,SE10,0.0
-Valparaíso,05,2020-05-04,SE10,0.0
-Metropolitana,13,2020-05-04,SE10,0.0
-O’Higgins,06,2020-05-04,SE10,0.0
-Maule,07,2020-05-04,SE10,0.0
-Ñuble,16,2020-05-04,SE10,0.0
-Biobío,08,2020-05-04,SE10,0.0
-Araucanía,09,2020-05-04,SE10,0.0
-Los Ríos,14,2020-05-04,SE10,0.0
-Los Lagos,10,2020-05-04,SE10,0.0
-Aysén,11,2020-05-04,SE10,0.0
-Magallanes,12,2020-05-04,SE10,0.0
 Arica y Parinacota,15,2020-05-11,SE10,0.0
 Tarapacá,01,2020-05-11,SE10,0.0
 Antofagasta,02,2020-05-11,SE10,0.0
@@ -511,6 +495,118 @@ Los Ríos,14,2020-05-11,SE10,0.0
 Los Lagos,10,2020-05-11,SE10,0.0
 Aysén,11,2020-05-11,SE10,0.0
 Magallanes,12,2020-05-11,SE10,0.0
+Arica y Parinacota,15,2020-05-25,SE10,0.0
+Tarapacá,01,2020-05-25,SE10,0.0
+Antofagasta,02,2020-05-25,SE10,0.0
+Atacama,03,2020-05-25,SE10,0.0
+Coquimbo,04,2020-05-25,SE10,0.0
+Valparaíso,05,2020-05-25,SE10,0.0
+Metropolitana,13,2020-05-25,SE10,0.0
+O’Higgins,06,2020-05-25,SE10,0.0
+Maule,07,2020-05-25,SE10,0.0
+Ñuble,16,2020-05-25,SE10,0.0
+Biobío,08,2020-05-25,SE10,0.0
+Araucanía,09,2020-05-25,SE10,0.0
+Los Ríos,14,2020-05-25,SE10,0.0
+Los Lagos,10,2020-05-25,SE10,0.0
+Aysén,11,2020-05-25,SE10,0.0
+Magallanes,12,2020-05-25,SE10,0.0
+Arica y Parinacota,15,2020-05-08,SE10,0.0
+Tarapacá,01,2020-05-08,SE10,0.0
+Antofagasta,02,2020-05-08,SE10,0.0
+Atacama,03,2020-05-08,SE10,0.0
+Coquimbo,04,2020-05-08,SE10,0.0
+Valparaíso,05,2020-05-08,SE10,0.0
+Metropolitana,13,2020-05-08,SE10,0.0
+O’Higgins,06,2020-05-08,SE10,0.0
+Maule,07,2020-05-08,SE10,0.0
+Ñuble,16,2020-05-08,SE10,0.0
+Biobío,08,2020-05-08,SE10,0.0
+Araucanía,09,2020-05-08,SE10,0.0
+Los Ríos,14,2020-05-08,SE10,0.0
+Los Lagos,10,2020-05-08,SE10,0.0
+Aysén,11,2020-05-08,SE10,0.0
+Magallanes,12,2020-05-08,SE10,0.0
+Arica y Parinacota,15,2020-05-15,SE10,0.0
+Tarapacá,01,2020-05-15,SE10,0.0
+Antofagasta,02,2020-05-15,SE10,0.0
+Atacama,03,2020-05-15,SE10,0.0
+Coquimbo,04,2020-05-15,SE10,0.0
+Valparaíso,05,2020-05-15,SE10,0.0
+Metropolitana,13,2020-05-15,SE10,0.0
+O’Higgins,06,2020-05-15,SE10,0.0
+Maule,07,2020-05-15,SE10,0.0
+Ñuble,16,2020-05-15,SE10,0.0
+Biobío,08,2020-05-15,SE10,0.0
+Araucanía,09,2020-05-15,SE10,0.0
+Los Ríos,14,2020-05-15,SE10,0.0
+Los Lagos,10,2020-05-15,SE10,0.0
+Aysén,11,2020-05-15,SE10,0.0
+Magallanes,12,2020-05-15,SE10,0.0
+Arica y Parinacota,15,2020-05-22,SE10,0.0
+Tarapacá,01,2020-05-22,SE10,0.0
+Antofagasta,02,2020-05-22,SE10,0.0
+Atacama,03,2020-05-22,SE10,0.0
+Coquimbo,04,2020-05-22,SE10,0.0
+Valparaíso,05,2020-05-22,SE10,0.0
+Metropolitana,13,2020-05-22,SE10,0.0
+O’Higgins,06,2020-05-22,SE10,0.0
+Maule,07,2020-05-22,SE10,0.0
+Ñuble,16,2020-05-22,SE10,0.0
+Biobío,08,2020-05-22,SE10,0.0
+Araucanía,09,2020-05-22,SE10,0.0
+Los Ríos,14,2020-05-22,SE10,0.0
+Los Lagos,10,2020-05-22,SE10,0.0
+Aysén,11,2020-05-22,SE10,0.0
+Magallanes,12,2020-05-22,SE10,0.0
+Arica y Parinacota,15,2020-05-04,SE10,0.0
+Tarapacá,01,2020-05-04,SE10,0.0
+Antofagasta,02,2020-05-04,SE10,0.0
+Atacama,03,2020-05-04,SE10,0.0
+Coquimbo,04,2020-05-04,SE10,0.0
+Valparaíso,05,2020-05-04,SE10,0.0
+Metropolitana,13,2020-05-04,SE10,0.0
+O’Higgins,06,2020-05-04,SE10,0.0
+Maule,07,2020-05-04,SE10,0.0
+Ñuble,16,2020-05-04,SE10,0.0
+Biobío,08,2020-05-04,SE10,0.0
+Araucanía,09,2020-05-04,SE10,0.0
+Los Ríos,14,2020-05-04,SE10,0.0
+Los Lagos,10,2020-05-04,SE10,0.0
+Aysén,11,2020-05-04,SE10,0.0
+Magallanes,12,2020-05-04,SE10,0.0
+Arica y Parinacota,15,2020-05-01,SE10,0.0
+Tarapacá,01,2020-05-01,SE10,0.0
+Antofagasta,02,2020-05-01,SE10,0.0
+Atacama,03,2020-05-01,SE10,0.0
+Coquimbo,04,2020-05-01,SE10,0.0
+Valparaíso,05,2020-05-01,SE10,0.0
+Metropolitana,13,2020-05-01,SE10,0.0
+O’Higgins,06,2020-05-01,SE10,0.0
+Maule,07,2020-05-01,SE10,0.0
+Ñuble,16,2020-05-01,SE10,0.0
+Biobío,08,2020-05-01,SE10,0.0
+Araucanía,09,2020-05-01,SE10,0.0
+Los Ríos,14,2020-05-01,SE10,0.0
+Los Lagos,10,2020-05-01,SE10,0.0
+Aysén,11,2020-05-01,SE10,0.0
+Magallanes,12,2020-05-01,SE10,0.0
+Arica y Parinacota,15,2020-05-18,SE10,0.0
+Tarapacá,01,2020-05-18,SE10,0.0
+Antofagasta,02,2020-05-18,SE10,0.0
+Atacama,03,2020-05-18,SE10,0.0
+Coquimbo,04,2020-05-18,SE10,0.0
+Valparaíso,05,2020-05-18,SE10,0.0
+Metropolitana,13,2020-05-18,SE10,0.0
+O’Higgins,06,2020-05-18,SE10,0.0
+Maule,07,2020-05-18,SE10,0.0
+Ñuble,16,2020-05-18,SE10,0.0
+Biobío,08,2020-05-18,SE10,0.0
+Araucanía,09,2020-05-18,SE10,0.0
+Los Ríos,14,2020-05-18,SE10,0.0
+Los Lagos,10,2020-05-18,SE10,0.0
+Aysén,11,2020-05-18,SE10,0.0
+Magallanes,12,2020-05-18,SE10,0.0
 Arica y Parinacota,15,2020-05-29,SE10,0.0
 Tarapacá,01,2020-05-29,SE10,0.0
 Antofagasta,02,2020-05-29,SE10,0.0
@@ -543,118 +639,6 @@ Los Ríos,14,2020-06-01,SE10,0.0
 Los Lagos,10,2020-06-01,SE10,0.0
 Aysén,11,2020-06-01,SE10,0.0
 Magallanes,12,2020-06-01,SE10,0.0
-Arica y Parinacota,15,2020-05-01,SE10,0.0
-Tarapacá,01,2020-05-01,SE10,0.0
-Antofagasta,02,2020-05-01,SE10,0.0
-Atacama,03,2020-05-01,SE10,0.0
-Coquimbo,04,2020-05-01,SE10,0.0
-Valparaíso,05,2020-05-01,SE10,0.0
-Metropolitana,13,2020-05-01,SE10,0.0
-O’Higgins,06,2020-05-01,SE10,0.0
-Maule,07,2020-05-01,SE10,0.0
-Ñuble,16,2020-05-01,SE10,0.0
-Biobío,08,2020-05-01,SE10,0.0
-Araucanía,09,2020-05-01,SE10,0.0
-Los Ríos,14,2020-05-01,SE10,0.0
-Los Lagos,10,2020-05-01,SE10,0.0
-Aysén,11,2020-05-01,SE10,0.0
-Magallanes,12,2020-05-01,SE10,0.0
-Arica y Parinacota,15,2020-05-15,SE10,0.0
-Tarapacá,01,2020-05-15,SE10,0.0
-Antofagasta,02,2020-05-15,SE10,0.0
-Atacama,03,2020-05-15,SE10,0.0
-Coquimbo,04,2020-05-15,SE10,0.0
-Valparaíso,05,2020-05-15,SE10,0.0
-Metropolitana,13,2020-05-15,SE10,0.0
-O’Higgins,06,2020-05-15,SE10,0.0
-Maule,07,2020-05-15,SE10,0.0
-Ñuble,16,2020-05-15,SE10,0.0
-Biobío,08,2020-05-15,SE10,0.0
-Araucanía,09,2020-05-15,SE10,0.0
-Los Ríos,14,2020-05-15,SE10,0.0
-Los Lagos,10,2020-05-15,SE10,0.0
-Aysén,11,2020-05-15,SE10,0.0
-Magallanes,12,2020-05-15,SE10,0.0
-Arica y Parinacota,15,2020-05-25,SE10,0.0
-Tarapacá,01,2020-05-25,SE10,0.0
-Antofagasta,02,2020-05-25,SE10,0.0
-Atacama,03,2020-05-25,SE10,0.0
-Coquimbo,04,2020-05-25,SE10,0.0
-Valparaíso,05,2020-05-25,SE10,0.0
-Metropolitana,13,2020-05-25,SE10,0.0
-O’Higgins,06,2020-05-25,SE10,0.0
-Maule,07,2020-05-25,SE10,0.0
-Ñuble,16,2020-05-25,SE10,0.0
-Biobío,08,2020-05-25,SE10,0.0
-Araucanía,09,2020-05-25,SE10,0.0
-Los Ríos,14,2020-05-25,SE10,0.0
-Los Lagos,10,2020-05-25,SE10,0.0
-Aysén,11,2020-05-25,SE10,0.0
-Magallanes,12,2020-05-25,SE10,0.0
-Arica y Parinacota,15,2020-05-18,SE10,0.0
-Tarapacá,01,2020-05-18,SE10,0.0
-Antofagasta,02,2020-05-18,SE10,0.0
-Atacama,03,2020-05-18,SE10,0.0
-Coquimbo,04,2020-05-18,SE10,0.0
-Valparaíso,05,2020-05-18,SE10,0.0
-Metropolitana,13,2020-05-18,SE10,0.0
-O’Higgins,06,2020-05-18,SE10,0.0
-Maule,07,2020-05-18,SE10,0.0
-Ñuble,16,2020-05-18,SE10,0.0
-Biobío,08,2020-05-18,SE10,0.0
-Araucanía,09,2020-05-18,SE10,0.0
-Los Ríos,14,2020-05-18,SE10,0.0
-Los Lagos,10,2020-05-18,SE10,0.0
-Aysén,11,2020-05-18,SE10,0.0
-Magallanes,12,2020-05-18,SE10,0.0
-Arica y Parinacota,15,2020-05-08,SE10,0.0
-Tarapacá,01,2020-05-08,SE10,0.0
-Antofagasta,02,2020-05-08,SE10,0.0
-Atacama,03,2020-05-08,SE10,0.0
-Coquimbo,04,2020-05-08,SE10,0.0
-Valparaíso,05,2020-05-08,SE10,0.0
-Metropolitana,13,2020-05-08,SE10,0.0
-O’Higgins,06,2020-05-08,SE10,0.0
-Maule,07,2020-05-08,SE10,0.0
-Ñuble,16,2020-05-08,SE10,0.0
-Biobío,08,2020-05-08,SE10,0.0
-Araucanía,09,2020-05-08,SE10,0.0
-Los Ríos,14,2020-05-08,SE10,0.0
-Los Lagos,10,2020-05-08,SE10,0.0
-Aysén,11,2020-05-08,SE10,0.0
-Magallanes,12,2020-05-08,SE10,0.0
-Arica y Parinacota,15,2020-05-22,SE10,0.0
-Tarapacá,01,2020-05-22,SE10,0.0
-Antofagasta,02,2020-05-22,SE10,0.0
-Atacama,03,2020-05-22,SE10,0.0
-Coquimbo,04,2020-05-22,SE10,0.0
-Valparaíso,05,2020-05-22,SE10,0.0
-Metropolitana,13,2020-05-22,SE10,0.0
-O’Higgins,06,2020-05-22,SE10,0.0
-Maule,07,2020-05-22,SE10,0.0
-Ñuble,16,2020-05-22,SE10,0.0
-Biobío,08,2020-05-22,SE10,0.0
-Araucanía,09,2020-05-22,SE10,0.0
-Los Ríos,14,2020-05-22,SE10,0.0
-Los Lagos,10,2020-05-22,SE10,0.0
-Aysén,11,2020-05-22,SE10,0.0
-Magallanes,12,2020-05-22,SE10,0.0
-Arica y Parinacota,15,2020-05-04,SE11,0.0
-Tarapacá,01,2020-05-04,SE11,0.0
-Antofagasta,02,2020-05-04,SE11,0.0
-Atacama,03,2020-05-04,SE11,0.0
-Coquimbo,04,2020-05-04,SE11,0.0
-Valparaíso,05,2020-05-04,SE11,0.0
-Metropolitana,13,2020-05-04,SE11,0.0
-O’Higgins,06,2020-05-04,SE11,0.0
-Maule,07,2020-05-04,SE11,0.0
-Ñuble,16,2020-05-04,SE11,0.0
-Biobío,08,2020-05-04,SE11,0.0
-Araucanía,09,2020-05-04,SE11,0.0
-Los Ríos,14,2020-05-04,SE11,0.0
-Los Lagos,10,2020-05-04,SE11,9.0
-Aysén,11,2020-05-04,SE11,1.0
-Magallanes,12,2020-05-04,SE11,0.0
 Arica y Parinacota,15,2020-05-11,SE11,0.0
 Tarapacá,01,2020-05-11,SE11,0.0
 Antofagasta,02,2020-05-11,SE11,0.0
@@ -671,6 +655,118 @@ Los Ríos,14,2020-05-11,SE11,0.0
 Los Lagos,10,2020-05-11,SE11,9.0
 Aysén,11,2020-05-11,SE11,1.0
 Magallanes,12,2020-05-11,SE11,0.0
+Arica y Parinacota,15,2020-05-25,SE11,0.0
+Tarapacá,01,2020-05-25,SE11,0.0
+Antofagasta,02,2020-05-25,SE11,0.0
+Atacama,03,2020-05-25,SE11,0.0
+Coquimbo,04,2020-05-25,SE11,0.0
+Valparaíso,05,2020-05-25,SE11,0.0
+Metropolitana,13,2020-05-25,SE11,1.0
+O’Higgins,06,2020-05-25,SE11,0.0
+Maule,07,2020-05-25,SE11,0.0
+Ñuble,16,2020-05-25,SE11,0.0
+Biobío,08,2020-05-25,SE11,0.0
+Araucanía,09,2020-05-25,SE11,0.0
+Los Ríos,14,2020-05-25,SE11,0.0
+Los Lagos,10,2020-05-25,SE11,9.0
+Aysén,11,2020-05-25,SE11,1.0
+Magallanes,12,2020-05-25,SE11,0.0
+Arica y Parinacota,15,2020-05-08,SE11,0.0
+Tarapacá,01,2020-05-08,SE11,0.0
+Antofagasta,02,2020-05-08,SE11,0.0
+Atacama,03,2020-05-08,SE11,0.0
+Coquimbo,04,2020-05-08,SE11,0.0
+Valparaíso,05,2020-05-08,SE11,0.0
+Metropolitana,13,2020-05-08,SE11,0.0
+O’Higgins,06,2020-05-08,SE11,0.0
+Maule,07,2020-05-08,SE11,0.0
+Ñuble,16,2020-05-08,SE11,0.0
+Biobío,08,2020-05-08,SE11,0.0
+Araucanía,09,2020-05-08,SE11,0.0
+Los Ríos,14,2020-05-08,SE11,0.0
+Los Lagos,10,2020-05-08,SE11,9.0
+Aysén,11,2020-05-08,SE11,1.0
+Magallanes,12,2020-05-08,SE11,0.0
+Arica y Parinacota,15,2020-05-15,SE11,0.0
+Tarapacá,01,2020-05-15,SE11,0.0
+Antofagasta,02,2020-05-15,SE11,0.0
+Atacama,03,2020-05-15,SE11,0.0
+Coquimbo,04,2020-05-15,SE11,0.0
+Valparaíso,05,2020-05-15,SE11,0.0
+Metropolitana,13,2020-05-15,SE11,0.0
+O’Higgins,06,2020-05-15,SE11,0.0
+Maule,07,2020-05-15,SE11,0.0
+Ñuble,16,2020-05-15,SE11,0.0
+Biobío,08,2020-05-15,SE11,0.0
+Araucanía,09,2020-05-15,SE11,0.0
+Los Ríos,14,2020-05-15,SE11,0.0
+Los Lagos,10,2020-05-15,SE11,9.0
+Aysén,11,2020-05-15,SE11,1.0
+Magallanes,12,2020-05-15,SE11,0.0
+Arica y Parinacota,15,2020-05-22,SE11,0.0
+Tarapacá,01,2020-05-22,SE11,0.0
+Antofagasta,02,2020-05-22,SE11,0.0
+Atacama,03,2020-05-22,SE11,0.0
+Coquimbo,04,2020-05-22,SE11,0.0
+Valparaíso,05,2020-05-22,SE11,0.0
+Metropolitana,13,2020-05-22,SE11,0.0
+O’Higgins,06,2020-05-22,SE11,0.0
+Maule,07,2020-05-22,SE11,0.0
+Ñuble,16,2020-05-22,SE11,0.0
+Biobío,08,2020-05-22,SE11,0.0
+Araucanía,09,2020-05-22,SE11,0.0
+Los Ríos,14,2020-05-22,SE11,0.0
+Los Lagos,10,2020-05-22,SE11,9.0
+Aysén,11,2020-05-22,SE11,1.0
+Magallanes,12,2020-05-22,SE11,0.0
+Arica y Parinacota,15,2020-05-04,SE11,0.0
+Tarapacá,01,2020-05-04,SE11,0.0
+Antofagasta,02,2020-05-04,SE11,0.0
+Atacama,03,2020-05-04,SE11,0.0
+Coquimbo,04,2020-05-04,SE11,0.0
+Valparaíso,05,2020-05-04,SE11,0.0
+Metropolitana,13,2020-05-04,SE11,0.0
+O’Higgins,06,2020-05-04,SE11,0.0
+Maule,07,2020-05-04,SE11,0.0
+Ñuble,16,2020-05-04,SE11,0.0
+Biobío,08,2020-05-04,SE11,0.0
+Araucanía,09,2020-05-04,SE11,0.0
+Los Ríos,14,2020-05-04,SE11,0.0
+Los Lagos,10,2020-05-04,SE11,9.0
+Aysén,11,2020-05-04,SE11,1.0
+Magallanes,12,2020-05-04,SE11,0.0
+Arica y Parinacota,15,2020-05-01,SE11,0.0
+Tarapacá,01,2020-05-01,SE11,0.0
+Antofagasta,02,2020-05-01,SE11,0.0
+Atacama,03,2020-05-01,SE11,0.0
+Coquimbo,04,2020-05-01,SE11,0.0
+Valparaíso,05,2020-05-01,SE11,0.0
+Metropolitana,13,2020-05-01,SE11,0.0
+O’Higgins,06,2020-05-01,SE11,0.0
+Maule,07,2020-05-01,SE11,0.0
+Ñuble,16,2020-05-01,SE11,0.0
+Biobío,08,2020-05-01,SE11,0.0
+Araucanía,09,2020-05-01,SE11,0.0
+Los Ríos,14,2020-05-01,SE11,0.0
+Los Lagos,10,2020-05-01,SE11,9.0
+Aysén,11,2020-05-01,SE11,1.0
+Magallanes,12,2020-05-01,SE11,0.0
+Arica y Parinacota,15,2020-05-18,SE11,0.0
+Tarapacá,01,2020-05-18,SE11,0.0
+Antofagasta,02,2020-05-18,SE11,0.0
+Atacama,03,2020-05-18,SE11,0.0
+Coquimbo,04,2020-05-18,SE11,0.0
+Valparaíso,05,2020-05-18,SE11,0.0
+Metropolitana,13,2020-05-18,SE11,0.0
+O’Higgins,06,2020-05-18,SE11,0.0
+Maule,07,2020-05-18,SE11,0.0
+Ñuble,16,2020-05-18,SE11,0.0
+Biobío,08,2020-05-18,SE11,0.0
+Araucanía,09,2020-05-18,SE11,0.0
+Los Ríos,14,2020-05-18,SE11,0.0
+Los Lagos,10,2020-05-18,SE11,9.0
+Aysén,11,2020-05-18,SE11,1.0
+Magallanes,12,2020-05-18,SE11,0.0
 Arica y Parinacota,15,2020-05-29,SE11,0.0
 Tarapacá,01,2020-05-29,SE11,0.0
 Antofagasta,02,2020-05-29,SE11,0.0
@@ -703,118 +799,6 @@ Los Ríos,14,2020-06-01,SE11,0.0
 Los Lagos,10,2020-06-01,SE11,9.0
 Aysén,11,2020-06-01,SE11,1.0
 Magallanes,12,2020-06-01,SE11,0.0
-Arica y Parinacota,15,2020-05-01,SE11,0.0
-Tarapacá,01,2020-05-01,SE11,0.0
-Antofagasta,02,2020-05-01,SE11,0.0
-Atacama,03,2020-05-01,SE11,0.0
-Coquimbo,04,2020-05-01,SE11,0.0
-Valparaíso,05,2020-05-01,SE11,0.0
-Metropolitana,13,2020-05-01,SE11,0.0
-O’Higgins,06,2020-05-01,SE11,0.0
-Maule,07,2020-05-01,SE11,0.0
-Ñuble,16,2020-05-01,SE11,0.0
-Biobío,08,2020-05-01,SE11,0.0
-Araucanía,09,2020-05-01,SE11,0.0
-Los Ríos,14,2020-05-01,SE11,0.0
-Los Lagos,10,2020-05-01,SE11,9.0
-Aysén,11,2020-05-01,SE11,1.0
-Magallanes,12,2020-05-01,SE11,0.0
-Arica y Parinacota,15,2020-05-15,SE11,0.0
-Tarapacá,01,2020-05-15,SE11,0.0
-Antofagasta,02,2020-05-15,SE11,0.0
-Atacama,03,2020-05-15,SE11,0.0
-Coquimbo,04,2020-05-15,SE11,0.0
-Valparaíso,05,2020-05-15,SE11,0.0
-Metropolitana,13,2020-05-15,SE11,0.0
-O’Higgins,06,2020-05-15,SE11,0.0
-Maule,07,2020-05-15,SE11,0.0
-Ñuble,16,2020-05-15,SE11,0.0
-Biobío,08,2020-05-15,SE11,0.0
-Araucanía,09,2020-05-15,SE11,0.0
-Los Ríos,14,2020-05-15,SE11,0.0
-Los Lagos,10,2020-05-15,SE11,9.0
-Aysén,11,2020-05-15,SE11,1.0
-Magallanes,12,2020-05-15,SE11,0.0
-Arica y Parinacota,15,2020-05-25,SE11,0.0
-Tarapacá,01,2020-05-25,SE11,0.0
-Antofagasta,02,2020-05-25,SE11,0.0
-Atacama,03,2020-05-25,SE11,0.0
-Coquimbo,04,2020-05-25,SE11,0.0
-Valparaíso,05,2020-05-25,SE11,0.0
-Metropolitana,13,2020-05-25,SE11,1.0
-O’Higgins,06,2020-05-25,SE11,0.0
-Maule,07,2020-05-25,SE11,0.0
-Ñuble,16,2020-05-25,SE11,0.0
-Biobío,08,2020-05-25,SE11,0.0
-Araucanía,09,2020-05-25,SE11,0.0
-Los Ríos,14,2020-05-25,SE11,0.0
-Los Lagos,10,2020-05-25,SE11,9.0
-Aysén,11,2020-05-25,SE11,1.0
-Magallanes,12,2020-05-25,SE11,0.0
-Arica y Parinacota,15,2020-05-18,SE11,0.0
-Tarapacá,01,2020-05-18,SE11,0.0
-Antofagasta,02,2020-05-18,SE11,0.0
-Atacama,03,2020-05-18,SE11,0.0
-Coquimbo,04,2020-05-18,SE11,0.0
-Valparaíso,05,2020-05-18,SE11,0.0
-Metropolitana,13,2020-05-18,SE11,0.0
-O’Higgins,06,2020-05-18,SE11,0.0
-Maule,07,2020-05-18,SE11,0.0
-Ñuble,16,2020-05-18,SE11,0.0
-Biobío,08,2020-05-18,SE11,0.0
-Araucanía,09,2020-05-18,SE11,0.0
-Los Ríos,14,2020-05-18,SE11,0.0
-Los Lagos,10,2020-05-18,SE11,9.0
-Aysén,11,2020-05-18,SE11,1.0
-Magallanes,12,2020-05-18,SE11,0.0
-Arica y Parinacota,15,2020-05-08,SE11,0.0
-Tarapacá,01,2020-05-08,SE11,0.0
-Antofagasta,02,2020-05-08,SE11,0.0
-Atacama,03,2020-05-08,SE11,0.0
-Coquimbo,04,2020-05-08,SE11,0.0
-Valparaíso,05,2020-05-08,SE11,0.0
-Metropolitana,13,2020-05-08,SE11,0.0
-O’Higgins,06,2020-05-08,SE11,0.0
-Maule,07,2020-05-08,SE11,0.0
-Ñuble,16,2020-05-08,SE11,0.0
-Biobío,08,2020-05-08,SE11,0.0
-Araucanía,09,2020-05-08,SE11,0.0
-Los Ríos,14,2020-05-08,SE11,0.0
-Los Lagos,10,2020-05-08,SE11,9.0
-Aysén,11,2020-05-08,SE11,1.0
-Magallanes,12,2020-05-08,SE11,0.0
-Arica y Parinacota,15,2020-05-22,SE11,0.0
-Tarapacá,01,2020-05-22,SE11,0.0
-Antofagasta,02,2020-05-22,SE11,0.0
-Atacama,03,2020-05-22,SE11,0.0
-Coquimbo,04,2020-05-22,SE11,0.0
-Valparaíso,05,2020-05-22,SE11,0.0
-Metropolitana,13,2020-05-22,SE11,0.0
-O’Higgins,06,2020-05-22,SE11,0.0
-Maule,07,2020-05-22,SE11,0.0
-Ñuble,16,2020-05-22,SE11,0.0
-Biobío,08,2020-05-22,SE11,0.0
-Araucanía,09,2020-05-22,SE11,0.0
-Los Ríos,14,2020-05-22,SE11,0.0
-Los Lagos,10,2020-05-22,SE11,9.0
-Aysén,11,2020-05-22,SE11,1.0
-Magallanes,12,2020-05-22,SE11,0.0
-Arica y Parinacota,15,2020-05-04,SE12,0.0
-Tarapacá,01,2020-05-04,SE12,0.0
-Antofagasta,02,2020-05-04,SE12,0.0
-Atacama,03,2020-05-04,SE12,0.0
-Coquimbo,04,2020-05-04,SE12,0.0
-Valparaíso,05,2020-05-04,SE12,0.0
-Metropolitana,13,2020-05-04,SE12,0.0
-O’Higgins,06,2020-05-04,SE12,0.0
-Maule,07,2020-05-04,SE12,0.0
-Ñuble,16,2020-05-04,SE12,0.0
-Biobío,08,2020-05-04,SE12,0.0
-Araucanía,09,2020-05-04,SE12,0.0
-Los Ríos,14,2020-05-04,SE12,0.0
-Los Lagos,10,2020-05-04,SE12,10.0
-Aysén,11,2020-05-04,SE12,0.0
-Magallanes,12,2020-05-04,SE12,0.0
 Arica y Parinacota,15,2020-05-11,SE12,0.0
 Tarapacá,01,2020-05-11,SE12,0.0
 Antofagasta,02,2020-05-11,SE12,0.0
@@ -831,6 +815,118 @@ Los Ríos,14,2020-05-11,SE12,0.0
 Los Lagos,10,2020-05-11,SE12,10.0
 Aysén,11,2020-05-11,SE12,0.0
 Magallanes,12,2020-05-11,SE12,0.0
+Arica y Parinacota,15,2020-05-25,SE12,0.0
+Tarapacá,01,2020-05-25,SE12,0.0
+Antofagasta,02,2020-05-25,SE12,0.0
+Atacama,03,2020-05-25,SE12,0.0
+Coquimbo,04,2020-05-25,SE12,0.0
+Valparaíso,05,2020-05-25,SE12,0.0
+Metropolitana,13,2020-05-25,SE12,0.0
+O’Higgins,06,2020-05-25,SE12,0.0
+Maule,07,2020-05-25,SE12,0.0
+Ñuble,16,2020-05-25,SE12,0.0
+Biobío,08,2020-05-25,SE12,0.0
+Araucanía,09,2020-05-25,SE12,0.0
+Los Ríos,14,2020-05-25,SE12,0.0
+Los Lagos,10,2020-05-25,SE12,10.0
+Aysén,11,2020-05-25,SE12,0.0
+Magallanes,12,2020-05-25,SE12,0.0
+Arica y Parinacota,15,2020-05-08,SE12,0.0
+Tarapacá,01,2020-05-08,SE12,0.0
+Antofagasta,02,2020-05-08,SE12,0.0
+Atacama,03,2020-05-08,SE12,0.0
+Coquimbo,04,2020-05-08,SE12,0.0
+Valparaíso,05,2020-05-08,SE12,0.0
+Metropolitana,13,2020-05-08,SE12,0.0
+O’Higgins,06,2020-05-08,SE12,0.0
+Maule,07,2020-05-08,SE12,0.0
+Ñuble,16,2020-05-08,SE12,0.0
+Biobío,08,2020-05-08,SE12,0.0
+Araucanía,09,2020-05-08,SE12,0.0
+Los Ríos,14,2020-05-08,SE12,0.0
+Los Lagos,10,2020-05-08,SE12,10.0
+Aysén,11,2020-05-08,SE12,0.0
+Magallanes,12,2020-05-08,SE12,0.0
+Arica y Parinacota,15,2020-05-15,SE12,0.0
+Tarapacá,01,2020-05-15,SE12,0.0
+Antofagasta,02,2020-05-15,SE12,0.0
+Atacama,03,2020-05-15,SE12,0.0
+Coquimbo,04,2020-05-15,SE12,0.0
+Valparaíso,05,2020-05-15,SE12,0.0
+Metropolitana,13,2020-05-15,SE12,0.0
+O’Higgins,06,2020-05-15,SE12,0.0
+Maule,07,2020-05-15,SE12,0.0
+Ñuble,16,2020-05-15,SE12,0.0
+Biobío,08,2020-05-15,SE12,0.0
+Araucanía,09,2020-05-15,SE12,0.0
+Los Ríos,14,2020-05-15,SE12,0.0
+Los Lagos,10,2020-05-15,SE12,10.0
+Aysén,11,2020-05-15,SE12,0.0
+Magallanes,12,2020-05-15,SE12,0.0
+Arica y Parinacota,15,2020-05-22,SE12,0.0
+Tarapacá,01,2020-05-22,SE12,0.0
+Antofagasta,02,2020-05-22,SE12,0.0
+Atacama,03,2020-05-22,SE12,0.0
+Coquimbo,04,2020-05-22,SE12,0.0
+Valparaíso,05,2020-05-22,SE12,0.0
+Metropolitana,13,2020-05-22,SE12,0.0
+O’Higgins,06,2020-05-22,SE12,0.0
+Maule,07,2020-05-22,SE12,0.0
+Ñuble,16,2020-05-22,SE12,0.0
+Biobío,08,2020-05-22,SE12,0.0
+Araucanía,09,2020-05-22,SE12,0.0
+Los Ríos,14,2020-05-22,SE12,0.0
+Los Lagos,10,2020-05-22,SE12,10.0
+Aysén,11,2020-05-22,SE12,0.0
+Magallanes,12,2020-05-22,SE12,0.0
+Arica y Parinacota,15,2020-05-04,SE12,0.0
+Tarapacá,01,2020-05-04,SE12,0.0
+Antofagasta,02,2020-05-04,SE12,0.0
+Atacama,03,2020-05-04,SE12,0.0
+Coquimbo,04,2020-05-04,SE12,0.0
+Valparaíso,05,2020-05-04,SE12,0.0
+Metropolitana,13,2020-05-04,SE12,0.0
+O’Higgins,06,2020-05-04,SE12,0.0
+Maule,07,2020-05-04,SE12,0.0
+Ñuble,16,2020-05-04,SE12,0.0
+Biobío,08,2020-05-04,SE12,0.0
+Araucanía,09,2020-05-04,SE12,0.0
+Los Ríos,14,2020-05-04,SE12,0.0
+Los Lagos,10,2020-05-04,SE12,10.0
+Aysén,11,2020-05-04,SE12,0.0
+Magallanes,12,2020-05-04,SE12,0.0
+Arica y Parinacota,15,2020-05-01,SE12,0.0
+Tarapacá,01,2020-05-01,SE12,0.0
+Antofagasta,02,2020-05-01,SE12,0.0
+Atacama,03,2020-05-01,SE12,0.0
+Coquimbo,04,2020-05-01,SE12,0.0
+Valparaíso,05,2020-05-01,SE12,0.0
+Metropolitana,13,2020-05-01,SE12,0.0
+O’Higgins,06,2020-05-01,SE12,0.0
+Maule,07,2020-05-01,SE12,0.0
+Ñuble,16,2020-05-01,SE12,0.0
+Biobío,08,2020-05-01,SE12,0.0
+Araucanía,09,2020-05-01,SE12,0.0
+Los Ríos,14,2020-05-01,SE12,0.0
+Los Lagos,10,2020-05-01,SE12,10.0
+Aysén,11,2020-05-01,SE12,0.0
+Magallanes,12,2020-05-01,SE12,1.0
+Arica y Parinacota,15,2020-05-18,SE12,0.0
+Tarapacá,01,2020-05-18,SE12,0.0
+Antofagasta,02,2020-05-18,SE12,0.0
+Atacama,03,2020-05-18,SE12,0.0
+Coquimbo,04,2020-05-18,SE12,0.0
+Valparaíso,05,2020-05-18,SE12,0.0
+Metropolitana,13,2020-05-18,SE12,0.0
+O’Higgins,06,2020-05-18,SE12,0.0
+Maule,07,2020-05-18,SE12,0.0
+Ñuble,16,2020-05-18,SE12,0.0
+Biobío,08,2020-05-18,SE12,0.0
+Araucanía,09,2020-05-18,SE12,0.0
+Los Ríos,14,2020-05-18,SE12,0.0
+Los Lagos,10,2020-05-18,SE12,10.0
+Aysén,11,2020-05-18,SE12,0.0
+Magallanes,12,2020-05-18,SE12,0.0
 Arica y Parinacota,15,2020-05-29,SE12,0.0
 Tarapacá,01,2020-05-29,SE12,0.0
 Antofagasta,02,2020-05-29,SE12,0.0
@@ -863,118 +959,6 @@ Los Ríos,14,2020-06-01,SE12,0.0
 Los Lagos,10,2020-06-01,SE12,10.0
 Aysén,11,2020-06-01,SE12,0.0
 Magallanes,12,2020-06-01,SE12,0.0
-Arica y Parinacota,15,2020-05-01,SE12,0.0
-Tarapacá,01,2020-05-01,SE12,0.0
-Antofagasta,02,2020-05-01,SE12,0.0
-Atacama,03,2020-05-01,SE12,0.0
-Coquimbo,04,2020-05-01,SE12,0.0
-Valparaíso,05,2020-05-01,SE12,0.0
-Metropolitana,13,2020-05-01,SE12,0.0
-O’Higgins,06,2020-05-01,SE12,0.0
-Maule,07,2020-05-01,SE12,0.0
-Ñuble,16,2020-05-01,SE12,0.0
-Biobío,08,2020-05-01,SE12,0.0
-Araucanía,09,2020-05-01,SE12,0.0
-Los Ríos,14,2020-05-01,SE12,0.0
-Los Lagos,10,2020-05-01,SE12,10.0
-Aysén,11,2020-05-01,SE12,0.0
-Magallanes,12,2020-05-01,SE12,1.0
-Arica y Parinacota,15,2020-05-15,SE12,0.0
-Tarapacá,01,2020-05-15,SE12,0.0
-Antofagasta,02,2020-05-15,SE12,0.0
-Atacama,03,2020-05-15,SE12,0.0
-Coquimbo,04,2020-05-15,SE12,0.0
-Valparaíso,05,2020-05-15,SE12,0.0
-Metropolitana,13,2020-05-15,SE12,0.0
-O’Higgins,06,2020-05-15,SE12,0.0
-Maule,07,2020-05-15,SE12,0.0
-Ñuble,16,2020-05-15,SE12,0.0
-Biobío,08,2020-05-15,SE12,0.0
-Araucanía,09,2020-05-15,SE12,0.0
-Los Ríos,14,2020-05-15,SE12,0.0
-Los Lagos,10,2020-05-15,SE12,10.0
-Aysén,11,2020-05-15,SE12,0.0
-Magallanes,12,2020-05-15,SE12,0.0
-Arica y Parinacota,15,2020-05-25,SE12,0.0
-Tarapacá,01,2020-05-25,SE12,0.0
-Antofagasta,02,2020-05-25,SE12,0.0
-Atacama,03,2020-05-25,SE12,0.0
-Coquimbo,04,2020-05-25,SE12,0.0
-Valparaíso,05,2020-05-25,SE12,0.0
-Metropolitana,13,2020-05-25,SE12,0.0
-O’Higgins,06,2020-05-25,SE12,0.0
-Maule,07,2020-05-25,SE12,0.0
-Ñuble,16,2020-05-25,SE12,0.0
-Biobío,08,2020-05-25,SE12,0.0
-Araucanía,09,2020-05-25,SE12,0.0
-Los Ríos,14,2020-05-25,SE12,0.0
-Los Lagos,10,2020-05-25,SE12,10.0
-Aysén,11,2020-05-25,SE12,0.0
-Magallanes,12,2020-05-25,SE12,0.0
-Arica y Parinacota,15,2020-05-18,SE12,0.0
-Tarapacá,01,2020-05-18,SE12,0.0
-Antofagasta,02,2020-05-18,SE12,0.0
-Atacama,03,2020-05-18,SE12,0.0
-Coquimbo,04,2020-05-18,SE12,0.0
-Valparaíso,05,2020-05-18,SE12,0.0
-Metropolitana,13,2020-05-18,SE12,0.0
-O’Higgins,06,2020-05-18,SE12,0.0
-Maule,07,2020-05-18,SE12,0.0
-Ñuble,16,2020-05-18,SE12,0.0
-Biobío,08,2020-05-18,SE12,0.0
-Araucanía,09,2020-05-18,SE12,0.0
-Los Ríos,14,2020-05-18,SE12,0.0
-Los Lagos,10,2020-05-18,SE12,10.0
-Aysén,11,2020-05-18,SE12,0.0
-Magallanes,12,2020-05-18,SE12,0.0
-Arica y Parinacota,15,2020-05-08,SE12,0.0
-Tarapacá,01,2020-05-08,SE12,0.0
-Antofagasta,02,2020-05-08,SE12,0.0
-Atacama,03,2020-05-08,SE12,0.0
-Coquimbo,04,2020-05-08,SE12,0.0
-Valparaíso,05,2020-05-08,SE12,0.0
-Metropolitana,13,2020-05-08,SE12,0.0
-O’Higgins,06,2020-05-08,SE12,0.0
-Maule,07,2020-05-08,SE12,0.0
-Ñuble,16,2020-05-08,SE12,0.0
-Biobío,08,2020-05-08,SE12,0.0
-Araucanía,09,2020-05-08,SE12,0.0
-Los Ríos,14,2020-05-08,SE12,0.0
-Los Lagos,10,2020-05-08,SE12,10.0
-Aysén,11,2020-05-08,SE12,0.0
-Magallanes,12,2020-05-08,SE12,0.0
-Arica y Parinacota,15,2020-05-22,SE12,0.0
-Tarapacá,01,2020-05-22,SE12,0.0
-Antofagasta,02,2020-05-22,SE12,0.0
-Atacama,03,2020-05-22,SE12,0.0
-Coquimbo,04,2020-05-22,SE12,0.0
-Valparaíso,05,2020-05-22,SE12,0.0
-Metropolitana,13,2020-05-22,SE12,0.0
-O’Higgins,06,2020-05-22,SE12,0.0
-Maule,07,2020-05-22,SE12,0.0
-Ñuble,16,2020-05-22,SE12,0.0
-Biobío,08,2020-05-22,SE12,0.0
-Araucanía,09,2020-05-22,SE12,0.0
-Los Ríos,14,2020-05-22,SE12,0.0
-Los Lagos,10,2020-05-22,SE12,10.0
-Aysén,11,2020-05-22,SE12,0.0
-Magallanes,12,2020-05-22,SE12,0.0
-Arica y Parinacota,15,2020-05-04,SE13,0.0
-Tarapacá,01,2020-05-04,SE13,0.0
-Antofagasta,02,2020-05-04,SE13,0.0
-Atacama,03,2020-05-04,SE13,0.0
-Coquimbo,04,2020-05-04,SE13,0.0
-Valparaíso,05,2020-05-04,SE13,1.0
-Metropolitana,13,2020-05-04,SE13,0.0
-O’Higgins,06,2020-05-04,SE13,0.0
-Maule,07,2020-05-04,SE13,0.0
-Ñuble,16,2020-05-04,SE13,0.0
-Biobío,08,2020-05-04,SE13,0.0
-Araucanía,09,2020-05-04,SE13,0.0
-Los Ríos,14,2020-05-04,SE13,0.0
-Los Lagos,10,2020-05-04,SE13,1.0
-Aysén,11,2020-05-04,SE13,0.0
-Magallanes,12,2020-05-04,SE13,0.0
 Arica y Parinacota,15,2020-05-11,SE13,0.0
 Tarapacá,01,2020-05-11,SE13,0.0
 Antofagasta,02,2020-05-11,SE13,0.0
@@ -991,6 +975,118 @@ Los Ríos,14,2020-05-11,SE13,0.0
 Los Lagos,10,2020-05-11,SE13,1.0
 Aysén,11,2020-05-11,SE13,0.0
 Magallanes,12,2020-05-11,SE13,0.0
+Arica y Parinacota,15,2020-05-25,SE13,0.0
+Tarapacá,01,2020-05-25,SE13,0.0
+Antofagasta,02,2020-05-25,SE13,0.0
+Atacama,03,2020-05-25,SE13,0.0
+Coquimbo,04,2020-05-25,SE13,0.0
+Valparaíso,05,2020-05-25,SE13,1.0
+Metropolitana,13,2020-05-25,SE13,0.0
+O’Higgins,06,2020-05-25,SE13,0.0
+Maule,07,2020-05-25,SE13,0.0
+Ñuble,16,2020-05-25,SE13,0.0
+Biobío,08,2020-05-25,SE13,0.0
+Araucanía,09,2020-05-25,SE13,0.0
+Los Ríos,14,2020-05-25,SE13,0.0
+Los Lagos,10,2020-05-25,SE13,1.0
+Aysén,11,2020-05-25,SE13,0.0
+Magallanes,12,2020-05-25,SE13,0.0
+Arica y Parinacota,15,2020-05-08,SE13,0.0
+Tarapacá,01,2020-05-08,SE13,0.0
+Antofagasta,02,2020-05-08,SE13,0.0
+Atacama,03,2020-05-08,SE13,0.0
+Coquimbo,04,2020-05-08,SE13,0.0
+Valparaíso,05,2020-05-08,SE13,1.0
+Metropolitana,13,2020-05-08,SE13,0.0
+O’Higgins,06,2020-05-08,SE13,0.0
+Maule,07,2020-05-08,SE13,0.0
+Ñuble,16,2020-05-08,SE13,0.0
+Biobío,08,2020-05-08,SE13,0.0
+Araucanía,09,2020-05-08,SE13,0.0
+Los Ríos,14,2020-05-08,SE13,0.0
+Los Lagos,10,2020-05-08,SE13,1.0
+Aysén,11,2020-05-08,SE13,0.0
+Magallanes,12,2020-05-08,SE13,0.0
+Arica y Parinacota,15,2020-05-15,SE13,0.0
+Tarapacá,01,2020-05-15,SE13,0.0
+Antofagasta,02,2020-05-15,SE13,0.0
+Atacama,03,2020-05-15,SE13,0.0
+Coquimbo,04,2020-05-15,SE13,0.0
+Valparaíso,05,2020-05-15,SE13,1.0
+Metropolitana,13,2020-05-15,SE13,0.0
+O’Higgins,06,2020-05-15,SE13,0.0
+Maule,07,2020-05-15,SE13,0.0
+Ñuble,16,2020-05-15,SE13,0.0
+Biobío,08,2020-05-15,SE13,0.0
+Araucanía,09,2020-05-15,SE13,0.0
+Los Ríos,14,2020-05-15,SE13,0.0
+Los Lagos,10,2020-05-15,SE13,1.0
+Aysén,11,2020-05-15,SE13,0.0
+Magallanes,12,2020-05-15,SE13,0.0
+Arica y Parinacota,15,2020-05-22,SE13,0.0
+Tarapacá,01,2020-05-22,SE13,0.0
+Antofagasta,02,2020-05-22,SE13,0.0
+Atacama,03,2020-05-22,SE13,0.0
+Coquimbo,04,2020-05-22,SE13,0.0
+Valparaíso,05,2020-05-22,SE13,1.0
+Metropolitana,13,2020-05-22,SE13,0.0
+O’Higgins,06,2020-05-22,SE13,0.0
+Maule,07,2020-05-22,SE13,0.0
+Ñuble,16,2020-05-22,SE13,0.0
+Biobío,08,2020-05-22,SE13,0.0
+Araucanía,09,2020-05-22,SE13,0.0
+Los Ríos,14,2020-05-22,SE13,0.0
+Los Lagos,10,2020-05-22,SE13,1.0
+Aysén,11,2020-05-22,SE13,0.0
+Magallanes,12,2020-05-22,SE13,0.0
+Arica y Parinacota,15,2020-05-04,SE13,0.0
+Tarapacá,01,2020-05-04,SE13,0.0
+Antofagasta,02,2020-05-04,SE13,0.0
+Atacama,03,2020-05-04,SE13,0.0
+Coquimbo,04,2020-05-04,SE13,0.0
+Valparaíso,05,2020-05-04,SE13,1.0
+Metropolitana,13,2020-05-04,SE13,0.0
+O’Higgins,06,2020-05-04,SE13,0.0
+Maule,07,2020-05-04,SE13,0.0
+Ñuble,16,2020-05-04,SE13,0.0
+Biobío,08,2020-05-04,SE13,0.0
+Araucanía,09,2020-05-04,SE13,0.0
+Los Ríos,14,2020-05-04,SE13,0.0
+Los Lagos,10,2020-05-04,SE13,1.0
+Aysén,11,2020-05-04,SE13,0.0
+Magallanes,12,2020-05-04,SE13,0.0
+Arica y Parinacota,15,2020-05-01,SE13,0.0
+Tarapacá,01,2020-05-01,SE13,0.0
+Antofagasta,02,2020-05-01,SE13,0.0
+Atacama,03,2020-05-01,SE13,0.0
+Coquimbo,04,2020-05-01,SE13,0.0
+Valparaíso,05,2020-05-01,SE13,1.0
+Metropolitana,13,2020-05-01,SE13,0.0
+O’Higgins,06,2020-05-01,SE13,0.0
+Maule,07,2020-05-01,SE13,0.0
+Ñuble,16,2020-05-01,SE13,0.0
+Biobío,08,2020-05-01,SE13,0.0
+Araucanía,09,2020-05-01,SE13,0.0
+Los Ríos,14,2020-05-01,SE13,0.0
+Los Lagos,10,2020-05-01,SE13,1.0
+Aysén,11,2020-05-01,SE13,0.0
+Magallanes,12,2020-05-01,SE13,0.0
+Arica y Parinacota,15,2020-05-18,SE13,0.0
+Tarapacá,01,2020-05-18,SE13,0.0
+Antofagasta,02,2020-05-18,SE13,0.0
+Atacama,03,2020-05-18,SE13,0.0
+Coquimbo,04,2020-05-18,SE13,0.0
+Valparaíso,05,2020-05-18,SE13,1.0
+Metropolitana,13,2020-05-18,SE13,0.0
+O’Higgins,06,2020-05-18,SE13,0.0
+Maule,07,2020-05-18,SE13,0.0
+Ñuble,16,2020-05-18,SE13,0.0
+Biobío,08,2020-05-18,SE13,0.0
+Araucanía,09,2020-05-18,SE13,0.0
+Los Ríos,14,2020-05-18,SE13,0.0
+Los Lagos,10,2020-05-18,SE13,1.0
+Aysén,11,2020-05-18,SE13,0.0
+Magallanes,12,2020-05-18,SE13,0.0
 Arica y Parinacota,15,2020-05-29,SE13,0.0
 Tarapacá,01,2020-05-29,SE13,0.0
 Antofagasta,02,2020-05-29,SE13,0.0
@@ -1023,118 +1119,6 @@ Los Ríos,14,2020-06-01,SE13,0.0
 Los Lagos,10,2020-06-01,SE13,1.0
 Aysén,11,2020-06-01,SE13,0.0
 Magallanes,12,2020-06-01,SE13,0.0
-Arica y Parinacota,15,2020-05-01,SE13,0.0
-Tarapacá,01,2020-05-01,SE13,0.0
-Antofagasta,02,2020-05-01,SE13,0.0
-Atacama,03,2020-05-01,SE13,0.0
-Coquimbo,04,2020-05-01,SE13,0.0
-Valparaíso,05,2020-05-01,SE13,1.0
-Metropolitana,13,2020-05-01,SE13,0.0
-O’Higgins,06,2020-05-01,SE13,0.0
-Maule,07,2020-05-01,SE13,0.0
-Ñuble,16,2020-05-01,SE13,0.0
-Biobío,08,2020-05-01,SE13,0.0
-Araucanía,09,2020-05-01,SE13,0.0
-Los Ríos,14,2020-05-01,SE13,0.0
-Los Lagos,10,2020-05-01,SE13,1.0
-Aysén,11,2020-05-01,SE13,0.0
-Magallanes,12,2020-05-01,SE13,0.0
-Arica y Parinacota,15,2020-05-15,SE13,0.0
-Tarapacá,01,2020-05-15,SE13,0.0
-Antofagasta,02,2020-05-15,SE13,0.0
-Atacama,03,2020-05-15,SE13,0.0
-Coquimbo,04,2020-05-15,SE13,0.0
-Valparaíso,05,2020-05-15,SE13,1.0
-Metropolitana,13,2020-05-15,SE13,0.0
-O’Higgins,06,2020-05-15,SE13,0.0
-Maule,07,2020-05-15,SE13,0.0
-Ñuble,16,2020-05-15,SE13,0.0
-Biobío,08,2020-05-15,SE13,0.0
-Araucanía,09,2020-05-15,SE13,0.0
-Los Ríos,14,2020-05-15,SE13,0.0
-Los Lagos,10,2020-05-15,SE13,1.0
-Aysén,11,2020-05-15,SE13,0.0
-Magallanes,12,2020-05-15,SE13,0.0
-Arica y Parinacota,15,2020-05-25,SE13,0.0
-Tarapacá,01,2020-05-25,SE13,0.0
-Antofagasta,02,2020-05-25,SE13,0.0
-Atacama,03,2020-05-25,SE13,0.0
-Coquimbo,04,2020-05-25,SE13,0.0
-Valparaíso,05,2020-05-25,SE13,1.0
-Metropolitana,13,2020-05-25,SE13,0.0
-O’Higgins,06,2020-05-25,SE13,0.0
-Maule,07,2020-05-25,SE13,0.0
-Ñuble,16,2020-05-25,SE13,0.0
-Biobío,08,2020-05-25,SE13,0.0
-Araucanía,09,2020-05-25,SE13,0.0
-Los Ríos,14,2020-05-25,SE13,0.0
-Los Lagos,10,2020-05-25,SE13,1.0
-Aysén,11,2020-05-25,SE13,0.0
-Magallanes,12,2020-05-25,SE13,0.0
-Arica y Parinacota,15,2020-05-18,SE13,0.0
-Tarapacá,01,2020-05-18,SE13,0.0
-Antofagasta,02,2020-05-18,SE13,0.0
-Atacama,03,2020-05-18,SE13,0.0
-Coquimbo,04,2020-05-18,SE13,0.0
-Valparaíso,05,2020-05-18,SE13,1.0
-Metropolitana,13,2020-05-18,SE13,0.0
-O’Higgins,06,2020-05-18,SE13,0.0
-Maule,07,2020-05-18,SE13,0.0
-Ñuble,16,2020-05-18,SE13,0.0
-Biobío,08,2020-05-18,SE13,0.0
-Araucanía,09,2020-05-18,SE13,0.0
-Los Ríos,14,2020-05-18,SE13,0.0
-Los Lagos,10,2020-05-18,SE13,1.0
-Aysén,11,2020-05-18,SE13,0.0
-Magallanes,12,2020-05-18,SE13,0.0
-Arica y Parinacota,15,2020-05-08,SE13,0.0
-Tarapacá,01,2020-05-08,SE13,0.0
-Antofagasta,02,2020-05-08,SE13,0.0
-Atacama,03,2020-05-08,SE13,0.0
-Coquimbo,04,2020-05-08,SE13,0.0
-Valparaíso,05,2020-05-08,SE13,1.0
-Metropolitana,13,2020-05-08,SE13,0.0
-O’Higgins,06,2020-05-08,SE13,0.0
-Maule,07,2020-05-08,SE13,0.0
-Ñuble,16,2020-05-08,SE13,0.0
-Biobío,08,2020-05-08,SE13,0.0
-Araucanía,09,2020-05-08,SE13,0.0
-Los Ríos,14,2020-05-08,SE13,0.0
-Los Lagos,10,2020-05-08,SE13,1.0
-Aysén,11,2020-05-08,SE13,0.0
-Magallanes,12,2020-05-08,SE13,0.0
-Arica y Parinacota,15,2020-05-22,SE13,0.0
-Tarapacá,01,2020-05-22,SE13,0.0
-Antofagasta,02,2020-05-22,SE13,0.0
-Atacama,03,2020-05-22,SE13,0.0
-Coquimbo,04,2020-05-22,SE13,0.0
-Valparaíso,05,2020-05-22,SE13,1.0
-Metropolitana,13,2020-05-22,SE13,0.0
-O’Higgins,06,2020-05-22,SE13,0.0
-Maule,07,2020-05-22,SE13,0.0
-Ñuble,16,2020-05-22,SE13,0.0
-Biobío,08,2020-05-22,SE13,0.0
-Araucanía,09,2020-05-22,SE13,0.0
-Los Ríos,14,2020-05-22,SE13,0.0
-Los Lagos,10,2020-05-22,SE13,1.0
-Aysén,11,2020-05-22,SE13,0.0
-Magallanes,12,2020-05-22,SE13,0.0
-Arica y Parinacota,15,2020-05-04,SE14,0.0
-Tarapacá,01,2020-05-04,SE14,0.0
-Antofagasta,02,2020-05-04,SE14,0.0
-Atacama,03,2020-05-04,SE14,0.0
-Coquimbo,04,2020-05-04,SE14,0.0
-Valparaíso,05,2020-05-04,SE14,0.0
-Metropolitana,13,2020-05-04,SE14,0.0
-O’Higgins,06,2020-05-04,SE14,0.0
-Maule,07,2020-05-04,SE14,0.0
-Ñuble,16,2020-05-04,SE14,0.0
-Biobío,08,2020-05-04,SE14,0.0
-Araucanía,09,2020-05-04,SE14,0.0
-Los Ríos,14,2020-05-04,SE14,0.0
-Los Lagos,10,2020-05-04,SE14,1.0
-Aysén,11,2020-05-04,SE14,0.0
-Magallanes,12,2020-05-04,SE14,0.0
 Arica y Parinacota,15,2020-05-11,SE14,0.0
 Tarapacá,01,2020-05-11,SE14,0.0
 Antofagasta,02,2020-05-11,SE14,0.0
@@ -1151,6 +1135,118 @@ Los Ríos,14,2020-05-11,SE14,0.0
 Los Lagos,10,2020-05-11,SE14,1.0
 Aysén,11,2020-05-11,SE14,0.0
 Magallanes,12,2020-05-11,SE14,0.0
+Arica y Parinacota,15,2020-05-25,SE14,0.0
+Tarapacá,01,2020-05-25,SE14,0.0
+Antofagasta,02,2020-05-25,SE14,0.0
+Atacama,03,2020-05-25,SE14,0.0
+Coquimbo,04,2020-05-25,SE14,0.0
+Valparaíso,05,2020-05-25,SE14,0.0
+Metropolitana,13,2020-05-25,SE14,0.0
+O’Higgins,06,2020-05-25,SE14,0.0
+Maule,07,2020-05-25,SE14,0.0
+Ñuble,16,2020-05-25,SE14,0.0
+Biobío,08,2020-05-25,SE14,0.0
+Araucanía,09,2020-05-25,SE14,0.0
+Los Ríos,14,2020-05-25,SE14,0.0
+Los Lagos,10,2020-05-25,SE14,1.0
+Aysén,11,2020-05-25,SE14,0.0
+Magallanes,12,2020-05-25,SE14,0.0
+Arica y Parinacota,15,2020-05-08,SE14,0.0
+Tarapacá,01,2020-05-08,SE14,0.0
+Antofagasta,02,2020-05-08,SE14,0.0
+Atacama,03,2020-05-08,SE14,0.0
+Coquimbo,04,2020-05-08,SE14,0.0
+Valparaíso,05,2020-05-08,SE14,0.0
+Metropolitana,13,2020-05-08,SE14,0.0
+O’Higgins,06,2020-05-08,SE14,0.0
+Maule,07,2020-05-08,SE14,0.0
+Ñuble,16,2020-05-08,SE14,0.0
+Biobío,08,2020-05-08,SE14,0.0
+Araucanía,09,2020-05-08,SE14,0.0
+Los Ríos,14,2020-05-08,SE14,0.0
+Los Lagos,10,2020-05-08,SE14,1.0
+Aysén,11,2020-05-08,SE14,0.0
+Magallanes,12,2020-05-08,SE14,0.0
+Arica y Parinacota,15,2020-05-15,SE14,0.0
+Tarapacá,01,2020-05-15,SE14,0.0
+Antofagasta,02,2020-05-15,SE14,0.0
+Atacama,03,2020-05-15,SE14,0.0
+Coquimbo,04,2020-05-15,SE14,0.0
+Valparaíso,05,2020-05-15,SE14,0.0
+Metropolitana,13,2020-05-15,SE14,0.0
+O’Higgins,06,2020-05-15,SE14,0.0
+Maule,07,2020-05-15,SE14,0.0
+Ñuble,16,2020-05-15,SE14,0.0
+Biobío,08,2020-05-15,SE14,0.0
+Araucanía,09,2020-05-15,SE14,0.0
+Los Ríos,14,2020-05-15,SE14,0.0
+Los Lagos,10,2020-05-15,SE14,1.0
+Aysén,11,2020-05-15,SE14,0.0
+Magallanes,12,2020-05-15,SE14,0.0
+Arica y Parinacota,15,2020-05-22,SE14,0.0
+Tarapacá,01,2020-05-22,SE14,0.0
+Antofagasta,02,2020-05-22,SE14,0.0
+Atacama,03,2020-05-22,SE14,0.0
+Coquimbo,04,2020-05-22,SE14,0.0
+Valparaíso,05,2020-05-22,SE14,0.0
+Metropolitana,13,2020-05-22,SE14,0.0
+O’Higgins,06,2020-05-22,SE14,0.0
+Maule,07,2020-05-22,SE14,0.0
+Ñuble,16,2020-05-22,SE14,0.0
+Biobío,08,2020-05-22,SE14,0.0
+Araucanía,09,2020-05-22,SE14,0.0
+Los Ríos,14,2020-05-22,SE14,0.0
+Los Lagos,10,2020-05-22,SE14,1.0
+Aysén,11,2020-05-22,SE14,0.0
+Magallanes,12,2020-05-22,SE14,0.0
+Arica y Parinacota,15,2020-05-04,SE14,0.0
+Tarapacá,01,2020-05-04,SE14,0.0
+Antofagasta,02,2020-05-04,SE14,0.0
+Atacama,03,2020-05-04,SE14,0.0
+Coquimbo,04,2020-05-04,SE14,0.0
+Valparaíso,05,2020-05-04,SE14,0.0
+Metropolitana,13,2020-05-04,SE14,0.0
+O’Higgins,06,2020-05-04,SE14,0.0
+Maule,07,2020-05-04,SE14,0.0
+Ñuble,16,2020-05-04,SE14,0.0
+Biobío,08,2020-05-04,SE14,0.0
+Araucanía,09,2020-05-04,SE14,0.0
+Los Ríos,14,2020-05-04,SE14,0.0
+Los Lagos,10,2020-05-04,SE14,1.0
+Aysén,11,2020-05-04,SE14,0.0
+Magallanes,12,2020-05-04,SE14,0.0
+Arica y Parinacota,15,2020-05-01,SE14,0.0
+Tarapacá,01,2020-05-01,SE14,0.0
+Antofagasta,02,2020-05-01,SE14,0.0
+Atacama,03,2020-05-01,SE14,0.0
+Coquimbo,04,2020-05-01,SE14,0.0
+Valparaíso,05,2020-05-01,SE14,0.0
+Metropolitana,13,2020-05-01,SE14,0.0
+O’Higgins,06,2020-05-01,SE14,0.0
+Maule,07,2020-05-01,SE14,0.0
+Ñuble,16,2020-05-01,SE14,0.0
+Biobío,08,2020-05-01,SE14,0.0
+Araucanía,09,2020-05-01,SE14,0.0
+Los Ríos,14,2020-05-01,SE14,0.0
+Los Lagos,10,2020-05-01,SE14,1.0
+Aysén,11,2020-05-01,SE14,0.0
+Magallanes,12,2020-05-01,SE14,0.0
+Arica y Parinacota,15,2020-05-18,SE14,0.0
+Tarapacá,01,2020-05-18,SE14,0.0
+Antofagasta,02,2020-05-18,SE14,0.0
+Atacama,03,2020-05-18,SE14,0.0
+Coquimbo,04,2020-05-18,SE14,0.0
+Valparaíso,05,2020-05-18,SE14,0.0
+Metropolitana,13,2020-05-18,SE14,0.0
+O’Higgins,06,2020-05-18,SE14,0.0
+Maule,07,2020-05-18,SE14,0.0
+Ñuble,16,2020-05-18,SE14,0.0
+Biobío,08,2020-05-18,SE14,0.0
+Araucanía,09,2020-05-18,SE14,0.0
+Los Ríos,14,2020-05-18,SE14,0.0
+Los Lagos,10,2020-05-18,SE14,1.0
+Aysén,11,2020-05-18,SE14,0.0
+Magallanes,12,2020-05-18,SE14,0.0
 Arica y Parinacota,15,2020-05-29,SE14,0.0
 Tarapacá,01,2020-05-29,SE14,0.0
 Antofagasta,02,2020-05-29,SE14,0.0
@@ -1183,118 +1279,6 @@ Los Ríos,14,2020-06-01,SE14,0.0
 Los Lagos,10,2020-06-01,SE14,1.0
 Aysén,11,2020-06-01,SE14,0.0
 Magallanes,12,2020-06-01,SE14,0.0
-Arica y Parinacota,15,2020-05-01,SE14,0.0
-Tarapacá,01,2020-05-01,SE14,0.0
-Antofagasta,02,2020-05-01,SE14,0.0
-Atacama,03,2020-05-01,SE14,0.0
-Coquimbo,04,2020-05-01,SE14,0.0
-Valparaíso,05,2020-05-01,SE14,0.0
-Metropolitana,13,2020-05-01,SE14,0.0
-O’Higgins,06,2020-05-01,SE14,0.0
-Maule,07,2020-05-01,SE14,0.0
-Ñuble,16,2020-05-01,SE14,0.0
-Biobío,08,2020-05-01,SE14,0.0
-Araucanía,09,2020-05-01,SE14,0.0
-Los Ríos,14,2020-05-01,SE14,0.0
-Los Lagos,10,2020-05-01,SE14,1.0
-Aysén,11,2020-05-01,SE14,0.0
-Magallanes,12,2020-05-01,SE14,0.0
-Arica y Parinacota,15,2020-05-15,SE14,0.0
-Tarapacá,01,2020-05-15,SE14,0.0
-Antofagasta,02,2020-05-15,SE14,0.0
-Atacama,03,2020-05-15,SE14,0.0
-Coquimbo,04,2020-05-15,SE14,0.0
-Valparaíso,05,2020-05-15,SE14,0.0
-Metropolitana,13,2020-05-15,SE14,0.0
-O’Higgins,06,2020-05-15,SE14,0.0
-Maule,07,2020-05-15,SE14,0.0
-Ñuble,16,2020-05-15,SE14,0.0
-Biobío,08,2020-05-15,SE14,0.0
-Araucanía,09,2020-05-15,SE14,0.0
-Los Ríos,14,2020-05-15,SE14,0.0
-Los Lagos,10,2020-05-15,SE14,1.0
-Aysén,11,2020-05-15,SE14,0.0
-Magallanes,12,2020-05-15,SE14,0.0
-Arica y Parinacota,15,2020-05-25,SE14,0.0
-Tarapacá,01,2020-05-25,SE14,0.0
-Antofagasta,02,2020-05-25,SE14,0.0
-Atacama,03,2020-05-25,SE14,0.0
-Coquimbo,04,2020-05-25,SE14,0.0
-Valparaíso,05,2020-05-25,SE14,0.0
-Metropolitana,13,2020-05-25,SE14,0.0
-O’Higgins,06,2020-05-25,SE14,0.0
-Maule,07,2020-05-25,SE14,0.0
-Ñuble,16,2020-05-25,SE14,0.0
-Biobío,08,2020-05-25,SE14,0.0
-Araucanía,09,2020-05-25,SE14,0.0
-Los Ríos,14,2020-05-25,SE14,0.0
-Los Lagos,10,2020-05-25,SE14,1.0
-Aysén,11,2020-05-25,SE14,0.0
-Magallanes,12,2020-05-25,SE14,0.0
-Arica y Parinacota,15,2020-05-18,SE14,0.0
-Tarapacá,01,2020-05-18,SE14,0.0
-Antofagasta,02,2020-05-18,SE14,0.0
-Atacama,03,2020-05-18,SE14,0.0
-Coquimbo,04,2020-05-18,SE14,0.0
-Valparaíso,05,2020-05-18,SE14,0.0
-Metropolitana,13,2020-05-18,SE14,0.0
-O’Higgins,06,2020-05-18,SE14,0.0
-Maule,07,2020-05-18,SE14,0.0
-Ñuble,16,2020-05-18,SE14,0.0
-Biobío,08,2020-05-18,SE14,0.0
-Araucanía,09,2020-05-18,SE14,0.0
-Los Ríos,14,2020-05-18,SE14,0.0
-Los Lagos,10,2020-05-18,SE14,1.0
-Aysén,11,2020-05-18,SE14,0.0
-Magallanes,12,2020-05-18,SE14,0.0
-Arica y Parinacota,15,2020-05-08,SE14,0.0
-Tarapacá,01,2020-05-08,SE14,0.0
-Antofagasta,02,2020-05-08,SE14,0.0
-Atacama,03,2020-05-08,SE14,0.0
-Coquimbo,04,2020-05-08,SE14,0.0
-Valparaíso,05,2020-05-08,SE14,0.0
-Metropolitana,13,2020-05-08,SE14,0.0
-O’Higgins,06,2020-05-08,SE14,0.0
-Maule,07,2020-05-08,SE14,0.0
-Ñuble,16,2020-05-08,SE14,0.0
-Biobío,08,2020-05-08,SE14,0.0
-Araucanía,09,2020-05-08,SE14,0.0
-Los Ríos,14,2020-05-08,SE14,0.0
-Los Lagos,10,2020-05-08,SE14,1.0
-Aysén,11,2020-05-08,SE14,0.0
-Magallanes,12,2020-05-08,SE14,0.0
-Arica y Parinacota,15,2020-05-22,SE14,0.0
-Tarapacá,01,2020-05-22,SE14,0.0
-Antofagasta,02,2020-05-22,SE14,0.0
-Atacama,03,2020-05-22,SE14,0.0
-Coquimbo,04,2020-05-22,SE14,0.0
-Valparaíso,05,2020-05-22,SE14,0.0
-Metropolitana,13,2020-05-22,SE14,0.0
-O’Higgins,06,2020-05-22,SE14,0.0
-Maule,07,2020-05-22,SE14,0.0
-Ñuble,16,2020-05-22,SE14,0.0
-Biobío,08,2020-05-22,SE14,0.0
-Araucanía,09,2020-05-22,SE14,0.0
-Los Ríos,14,2020-05-22,SE14,0.0
-Los Lagos,10,2020-05-22,SE14,1.0
-Aysén,11,2020-05-22,SE14,0.0
-Magallanes,12,2020-05-22,SE14,0.0
-Arica y Parinacota,15,2020-05-04,SE15,0.0
-Tarapacá,01,2020-05-04,SE15,0.0
-Antofagasta,02,2020-05-04,SE15,0.0
-Atacama,03,2020-05-04,SE15,0.0
-Coquimbo,04,2020-05-04,SE15,0.0
-Valparaíso,05,2020-05-04,SE15,0.0
-Metropolitana,13,2020-05-04,SE15,0.0
-O’Higgins,06,2020-05-04,SE15,0.0
-Maule,07,2020-05-04,SE15,0.0
-Ñuble,16,2020-05-04,SE15,0.0
-Biobío,08,2020-05-04,SE15,0.0
-Araucanía,09,2020-05-04,SE15,1.0
-Los Ríos,14,2020-05-04,SE15,0.0
-Los Lagos,10,2020-05-04,SE15,0.0
-Aysén,11,2020-05-04,SE15,0.0
-Magallanes,12,2020-05-04,SE15,0.0
 Arica y Parinacota,15,2020-05-11,SE15,0.0
 Tarapacá,01,2020-05-11,SE15,0.0
 Antofagasta,02,2020-05-11,SE15,0.0
@@ -1311,6 +1295,118 @@ Los Ríos,14,2020-05-11,SE15,0.0
 Los Lagos,10,2020-05-11,SE15,0.0
 Aysén,11,2020-05-11,SE15,0.0
 Magallanes,12,2020-05-11,SE15,0.0
+Arica y Parinacota,15,2020-05-25,SE15,0.0
+Tarapacá,01,2020-05-25,SE15,0.0
+Antofagasta,02,2020-05-25,SE15,0.0
+Atacama,03,2020-05-25,SE15,0.0
+Coquimbo,04,2020-05-25,SE15,0.0
+Valparaíso,05,2020-05-25,SE15,0.0
+Metropolitana,13,2020-05-25,SE15,0.0
+O’Higgins,06,2020-05-25,SE15,0.0
+Maule,07,2020-05-25,SE15,0.0
+Ñuble,16,2020-05-25,SE15,0.0
+Biobío,08,2020-05-25,SE15,0.0
+Araucanía,09,2020-05-25,SE15,0.0
+Los Ríos,14,2020-05-25,SE15,0.0
+Los Lagos,10,2020-05-25,SE15,0.0
+Aysén,11,2020-05-25,SE15,0.0
+Magallanes,12,2020-05-25,SE15,0.0
+Arica y Parinacota,15,2020-05-08,SE15,0.0
+Tarapacá,01,2020-05-08,SE15,0.0
+Antofagasta,02,2020-05-08,SE15,0.0
+Atacama,03,2020-05-08,SE15,0.0
+Coquimbo,04,2020-05-08,SE15,0.0
+Valparaíso,05,2020-05-08,SE15,0.0
+Metropolitana,13,2020-05-08,SE15,0.0
+O’Higgins,06,2020-05-08,SE15,0.0
+Maule,07,2020-05-08,SE15,0.0
+Ñuble,16,2020-05-08,SE15,0.0
+Biobío,08,2020-05-08,SE15,0.0
+Araucanía,09,2020-05-08,SE15,0.0
+Los Ríos,14,2020-05-08,SE15,0.0
+Los Lagos,10,2020-05-08,SE15,0.0
+Aysén,11,2020-05-08,SE15,0.0
+Magallanes,12,2020-05-08,SE15,0.0
+Arica y Parinacota,15,2020-05-15,SE15,0.0
+Tarapacá,01,2020-05-15,SE15,0.0
+Antofagasta,02,2020-05-15,SE15,0.0
+Atacama,03,2020-05-15,SE15,0.0
+Coquimbo,04,2020-05-15,SE15,0.0
+Valparaíso,05,2020-05-15,SE15,0.0
+Metropolitana,13,2020-05-15,SE15,0.0
+O’Higgins,06,2020-05-15,SE15,0.0
+Maule,07,2020-05-15,SE15,0.0
+Ñuble,16,2020-05-15,SE15,0.0
+Biobío,08,2020-05-15,SE15,0.0
+Araucanía,09,2020-05-15,SE15,0.0
+Los Ríos,14,2020-05-15,SE15,0.0
+Los Lagos,10,2020-05-15,SE15,0.0
+Aysén,11,2020-05-15,SE15,0.0
+Magallanes,12,2020-05-15,SE15,0.0
+Arica y Parinacota,15,2020-05-22,SE15,0.0
+Tarapacá,01,2020-05-22,SE15,0.0
+Antofagasta,02,2020-05-22,SE15,0.0
+Atacama,03,2020-05-22,SE15,0.0
+Coquimbo,04,2020-05-22,SE15,0.0
+Valparaíso,05,2020-05-22,SE15,0.0
+Metropolitana,13,2020-05-22,SE15,0.0
+O’Higgins,06,2020-05-22,SE15,0.0
+Maule,07,2020-05-22,SE15,0.0
+Ñuble,16,2020-05-22,SE15,0.0
+Biobío,08,2020-05-22,SE15,0.0
+Araucanía,09,2020-05-22,SE15,0.0
+Los Ríos,14,2020-05-22,SE15,0.0
+Los Lagos,10,2020-05-22,SE15,0.0
+Aysén,11,2020-05-22,SE15,0.0
+Magallanes,12,2020-05-22,SE15,0.0
+Arica y Parinacota,15,2020-05-04,SE15,0.0
+Tarapacá,01,2020-05-04,SE15,0.0
+Antofagasta,02,2020-05-04,SE15,0.0
+Atacama,03,2020-05-04,SE15,0.0
+Coquimbo,04,2020-05-04,SE15,0.0
+Valparaíso,05,2020-05-04,SE15,0.0
+Metropolitana,13,2020-05-04,SE15,0.0
+O’Higgins,06,2020-05-04,SE15,0.0
+Maule,07,2020-05-04,SE15,0.0
+Ñuble,16,2020-05-04,SE15,0.0
+Biobío,08,2020-05-04,SE15,0.0
+Araucanía,09,2020-05-04,SE15,1.0
+Los Ríos,14,2020-05-04,SE15,0.0
+Los Lagos,10,2020-05-04,SE15,0.0
+Aysén,11,2020-05-04,SE15,0.0
+Magallanes,12,2020-05-04,SE15,0.0
+Arica y Parinacota,15,2020-05-01,SE15,0.0
+Tarapacá,01,2020-05-01,SE15,0.0
+Antofagasta,02,2020-05-01,SE15,0.0
+Atacama,03,2020-05-01,SE15,0.0
+Coquimbo,04,2020-05-01,SE15,0.0
+Valparaíso,05,2020-05-01,SE15,0.0
+Metropolitana,13,2020-05-01,SE15,0.0
+O’Higgins,06,2020-05-01,SE15,0.0
+Maule,07,2020-05-01,SE15,0.0
+Ñuble,16,2020-05-01,SE15,0.0
+Biobío,08,2020-05-01,SE15,0.0
+Araucanía,09,2020-05-01,SE15,1.0
+Los Ríos,14,2020-05-01,SE15,0.0
+Los Lagos,10,2020-05-01,SE15,0.0
+Aysén,11,2020-05-01,SE15,0.0
+Magallanes,12,2020-05-01,SE15,0.0
+Arica y Parinacota,15,2020-05-18,SE15,0.0
+Tarapacá,01,2020-05-18,SE15,0.0
+Antofagasta,02,2020-05-18,SE15,0.0
+Atacama,03,2020-05-18,SE15,0.0
+Coquimbo,04,2020-05-18,SE15,0.0
+Valparaíso,05,2020-05-18,SE15,0.0
+Metropolitana,13,2020-05-18,SE15,0.0
+O’Higgins,06,2020-05-18,SE15,0.0
+Maule,07,2020-05-18,SE15,0.0
+Ñuble,16,2020-05-18,SE15,0.0
+Biobío,08,2020-05-18,SE15,0.0
+Araucanía,09,2020-05-18,SE15,0.0
+Los Ríos,14,2020-05-18,SE15,0.0
+Los Lagos,10,2020-05-18,SE15,0.0
+Aysén,11,2020-05-18,SE15,0.0
+Magallanes,12,2020-05-18,SE15,0.0
 Arica y Parinacota,15,2020-05-29,SE15,0.0
 Tarapacá,01,2020-05-29,SE15,0.0
 Antofagasta,02,2020-05-29,SE15,0.0
@@ -1343,118 +1439,6 @@ Los Ríos,14,2020-06-01,SE15,0.0
 Los Lagos,10,2020-06-01,SE15,0.0
 Aysén,11,2020-06-01,SE15,0.0
 Magallanes,12,2020-06-01,SE15,0.0
-Arica y Parinacota,15,2020-05-01,SE15,0.0
-Tarapacá,01,2020-05-01,SE15,0.0
-Antofagasta,02,2020-05-01,SE15,0.0
-Atacama,03,2020-05-01,SE15,0.0
-Coquimbo,04,2020-05-01,SE15,0.0
-Valparaíso,05,2020-05-01,SE15,0.0
-Metropolitana,13,2020-05-01,SE15,0.0
-O’Higgins,06,2020-05-01,SE15,0.0
-Maule,07,2020-05-01,SE15,0.0
-Ñuble,16,2020-05-01,SE15,0.0
-Biobío,08,2020-05-01,SE15,0.0
-Araucanía,09,2020-05-01,SE15,1.0
-Los Ríos,14,2020-05-01,SE15,0.0
-Los Lagos,10,2020-05-01,SE15,0.0
-Aysén,11,2020-05-01,SE15,0.0
-Magallanes,12,2020-05-01,SE15,0.0
-Arica y Parinacota,15,2020-05-15,SE15,0.0
-Tarapacá,01,2020-05-15,SE15,0.0
-Antofagasta,02,2020-05-15,SE15,0.0
-Atacama,03,2020-05-15,SE15,0.0
-Coquimbo,04,2020-05-15,SE15,0.0
-Valparaíso,05,2020-05-15,SE15,0.0
-Metropolitana,13,2020-05-15,SE15,0.0
-O’Higgins,06,2020-05-15,SE15,0.0
-Maule,07,2020-05-15,SE15,0.0
-Ñuble,16,2020-05-15,SE15,0.0
-Biobío,08,2020-05-15,SE15,0.0
-Araucanía,09,2020-05-15,SE15,0.0
-Los Ríos,14,2020-05-15,SE15,0.0
-Los Lagos,10,2020-05-15,SE15,0.0
-Aysén,11,2020-05-15,SE15,0.0
-Magallanes,12,2020-05-15,SE15,0.0
-Arica y Parinacota,15,2020-05-25,SE15,0.0
-Tarapacá,01,2020-05-25,SE15,0.0
-Antofagasta,02,2020-05-25,SE15,0.0
-Atacama,03,2020-05-25,SE15,0.0
-Coquimbo,04,2020-05-25,SE15,0.0
-Valparaíso,05,2020-05-25,SE15,0.0
-Metropolitana,13,2020-05-25,SE15,0.0
-O’Higgins,06,2020-05-25,SE15,0.0
-Maule,07,2020-05-25,SE15,0.0
-Ñuble,16,2020-05-25,SE15,0.0
-Biobío,08,2020-05-25,SE15,0.0
-Araucanía,09,2020-05-25,SE15,0.0
-Los Ríos,14,2020-05-25,SE15,0.0
-Los Lagos,10,2020-05-25,SE15,0.0
-Aysén,11,2020-05-25,SE15,0.0
-Magallanes,12,2020-05-25,SE15,0.0
-Arica y Parinacota,15,2020-05-18,SE15,0.0
-Tarapacá,01,2020-05-18,SE15,0.0
-Antofagasta,02,2020-05-18,SE15,0.0
-Atacama,03,2020-05-18,SE15,0.0
-Coquimbo,04,2020-05-18,SE15,0.0
-Valparaíso,05,2020-05-18,SE15,0.0
-Metropolitana,13,2020-05-18,SE15,0.0
-O’Higgins,06,2020-05-18,SE15,0.0
-Maule,07,2020-05-18,SE15,0.0
-Ñuble,16,2020-05-18,SE15,0.0
-Biobío,08,2020-05-18,SE15,0.0
-Araucanía,09,2020-05-18,SE15,0.0
-Los Ríos,14,2020-05-18,SE15,0.0
-Los Lagos,10,2020-05-18,SE15,0.0
-Aysén,11,2020-05-18,SE15,0.0
-Magallanes,12,2020-05-18,SE15,0.0
-Arica y Parinacota,15,2020-05-08,SE15,0.0
-Tarapacá,01,2020-05-08,SE15,0.0
-Antofagasta,02,2020-05-08,SE15,0.0
-Atacama,03,2020-05-08,SE15,0.0
-Coquimbo,04,2020-05-08,SE15,0.0
-Valparaíso,05,2020-05-08,SE15,0.0
-Metropolitana,13,2020-05-08,SE15,0.0
-O’Higgins,06,2020-05-08,SE15,0.0
-Maule,07,2020-05-08,SE15,0.0
-Ñuble,16,2020-05-08,SE15,0.0
-Biobío,08,2020-05-08,SE15,0.0
-Araucanía,09,2020-05-08,SE15,0.0
-Los Ríos,14,2020-05-08,SE15,0.0
-Los Lagos,10,2020-05-08,SE15,0.0
-Aysén,11,2020-05-08,SE15,0.0
-Magallanes,12,2020-05-08,SE15,0.0
-Arica y Parinacota,15,2020-05-22,SE15,0.0
-Tarapacá,01,2020-05-22,SE15,0.0
-Antofagasta,02,2020-05-22,SE15,0.0
-Atacama,03,2020-05-22,SE15,0.0
-Coquimbo,04,2020-05-22,SE15,0.0
-Valparaíso,05,2020-05-22,SE15,0.0
-Metropolitana,13,2020-05-22,SE15,0.0
-O’Higgins,06,2020-05-22,SE15,0.0
-Maule,07,2020-05-22,SE15,0.0
-Ñuble,16,2020-05-22,SE15,0.0
-Biobío,08,2020-05-22,SE15,0.0
-Araucanía,09,2020-05-22,SE15,0.0
-Los Ríos,14,2020-05-22,SE15,0.0
-Los Lagos,10,2020-05-22,SE15,0.0
-Aysén,11,2020-05-22,SE15,0.0
-Magallanes,12,2020-05-22,SE15,0.0
-Arica y Parinacota,15,2020-05-04,SE16,0.0
-Tarapacá,01,2020-05-04,SE16,0.0
-Antofagasta,02,2020-05-04,SE16,0.0
-Atacama,03,2020-05-04,SE16,0.0
-Coquimbo,04,2020-05-04,SE16,0.0
-Valparaíso,05,2020-05-04,SE16,0.0
-Metropolitana,13,2020-05-04,SE16,1.0
-O’Higgins,06,2020-05-04,SE16,0.0
-Maule,07,2020-05-04,SE16,0.0
-Ñuble,16,2020-05-04,SE16,0.0
-Biobío,08,2020-05-04,SE16,0.0
-Araucanía,09,2020-05-04,SE16,0.0
-Los Ríos,14,2020-05-04,SE16,0.0
-Los Lagos,10,2020-05-04,SE16,0.0
-Aysén,11,2020-05-04,SE16,0.0
-Magallanes,12,2020-05-04,SE16,0.0
 Arica y Parinacota,15,2020-05-11,SE16,0.0
 Tarapacá,01,2020-05-11,SE16,0.0
 Antofagasta,02,2020-05-11,SE16,0.0
@@ -1471,6 +1455,118 @@ Los Ríos,14,2020-05-11,SE16,0.0
 Los Lagos,10,2020-05-11,SE16,0.0
 Aysén,11,2020-05-11,SE16,0.0
 Magallanes,12,2020-05-11,SE16,0.0
+Arica y Parinacota,15,2020-05-25,SE16,0.0
+Tarapacá,01,2020-05-25,SE16,0.0
+Antofagasta,02,2020-05-25,SE16,0.0
+Atacama,03,2020-05-25,SE16,0.0
+Coquimbo,04,2020-05-25,SE16,0.0
+Valparaíso,05,2020-05-25,SE16,0.0
+Metropolitana,13,2020-05-25,SE16,1.0
+O’Higgins,06,2020-05-25,SE16,0.0
+Maule,07,2020-05-25,SE16,0.0
+Ñuble,16,2020-05-25,SE16,0.0
+Biobío,08,2020-05-25,SE16,0.0
+Araucanía,09,2020-05-25,SE16,0.0
+Los Ríos,14,2020-05-25,SE16,0.0
+Los Lagos,10,2020-05-25,SE16,0.0
+Aysén,11,2020-05-25,SE16,0.0
+Magallanes,12,2020-05-25,SE16,0.0
+Arica y Parinacota,15,2020-05-08,SE16,0.0
+Tarapacá,01,2020-05-08,SE16,0.0
+Antofagasta,02,2020-05-08,SE16,0.0
+Atacama,03,2020-05-08,SE16,0.0
+Coquimbo,04,2020-05-08,SE16,0.0
+Valparaíso,05,2020-05-08,SE16,0.0
+Metropolitana,13,2020-05-08,SE16,1.0
+O’Higgins,06,2020-05-08,SE16,0.0
+Maule,07,2020-05-08,SE16,0.0
+Ñuble,16,2020-05-08,SE16,0.0
+Biobío,08,2020-05-08,SE16,0.0
+Araucanía,09,2020-05-08,SE16,0.0
+Los Ríos,14,2020-05-08,SE16,0.0
+Los Lagos,10,2020-05-08,SE16,0.0
+Aysén,11,2020-05-08,SE16,0.0
+Magallanes,12,2020-05-08,SE16,0.0
+Arica y Parinacota,15,2020-05-15,SE16,0.0
+Tarapacá,01,2020-05-15,SE16,0.0
+Antofagasta,02,2020-05-15,SE16,0.0
+Atacama,03,2020-05-15,SE16,0.0
+Coquimbo,04,2020-05-15,SE16,0.0
+Valparaíso,05,2020-05-15,SE16,0.0
+Metropolitana,13,2020-05-15,SE16,1.0
+O’Higgins,06,2020-05-15,SE16,0.0
+Maule,07,2020-05-15,SE16,0.0
+Ñuble,16,2020-05-15,SE16,0.0
+Biobío,08,2020-05-15,SE16,0.0
+Araucanía,09,2020-05-15,SE16,0.0
+Los Ríos,14,2020-05-15,SE16,0.0
+Los Lagos,10,2020-05-15,SE16,0.0
+Aysén,11,2020-05-15,SE16,0.0
+Magallanes,12,2020-05-15,SE16,0.0
+Arica y Parinacota,15,2020-05-22,SE16,0.0
+Tarapacá,01,2020-05-22,SE16,0.0
+Antofagasta,02,2020-05-22,SE16,0.0
+Atacama,03,2020-05-22,SE16,0.0
+Coquimbo,04,2020-05-22,SE16,0.0
+Valparaíso,05,2020-05-22,SE16,0.0
+Metropolitana,13,2020-05-22,SE16,1.0
+O’Higgins,06,2020-05-22,SE16,0.0
+Maule,07,2020-05-22,SE16,0.0
+Ñuble,16,2020-05-22,SE16,0.0
+Biobío,08,2020-05-22,SE16,0.0
+Araucanía,09,2020-05-22,SE16,0.0
+Los Ríos,14,2020-05-22,SE16,0.0
+Los Lagos,10,2020-05-22,SE16,0.0
+Aysén,11,2020-05-22,SE16,0.0
+Magallanes,12,2020-05-22,SE16,0.0
+Arica y Parinacota,15,2020-05-04,SE16,0.0
+Tarapacá,01,2020-05-04,SE16,0.0
+Antofagasta,02,2020-05-04,SE16,0.0
+Atacama,03,2020-05-04,SE16,0.0
+Coquimbo,04,2020-05-04,SE16,0.0
+Valparaíso,05,2020-05-04,SE16,0.0
+Metropolitana,13,2020-05-04,SE16,1.0
+O’Higgins,06,2020-05-04,SE16,0.0
+Maule,07,2020-05-04,SE16,0.0
+Ñuble,16,2020-05-04,SE16,0.0
+Biobío,08,2020-05-04,SE16,0.0
+Araucanía,09,2020-05-04,SE16,0.0
+Los Ríos,14,2020-05-04,SE16,0.0
+Los Lagos,10,2020-05-04,SE16,0.0
+Aysén,11,2020-05-04,SE16,0.0
+Magallanes,12,2020-05-04,SE16,0.0
+Arica y Parinacota,15,2020-05-01,SE16,0.0
+Tarapacá,01,2020-05-01,SE16,0.0
+Antofagasta,02,2020-05-01,SE16,0.0
+Atacama,03,2020-05-01,SE16,0.0
+Coquimbo,04,2020-05-01,SE16,0.0
+Valparaíso,05,2020-05-01,SE16,0.0
+Metropolitana,13,2020-05-01,SE16,1.0
+O’Higgins,06,2020-05-01,SE16,0.0
+Maule,07,2020-05-01,SE16,0.0
+Ñuble,16,2020-05-01,SE16,0.0
+Biobío,08,2020-05-01,SE16,0.0
+Araucanía,09,2020-05-01,SE16,0.0
+Los Ríos,14,2020-05-01,SE16,0.0
+Los Lagos,10,2020-05-01,SE16,0.0
+Aysén,11,2020-05-01,SE16,0.0
+Magallanes,12,2020-05-01,SE16,1.0
+Arica y Parinacota,15,2020-05-18,SE16,0.0
+Tarapacá,01,2020-05-18,SE16,0.0
+Antofagasta,02,2020-05-18,SE16,0.0
+Atacama,03,2020-05-18,SE16,0.0
+Coquimbo,04,2020-05-18,SE16,0.0
+Valparaíso,05,2020-05-18,SE16,0.0
+Metropolitana,13,2020-05-18,SE16,1.0
+O’Higgins,06,2020-05-18,SE16,0.0
+Maule,07,2020-05-18,SE16,0.0
+Ñuble,16,2020-05-18,SE16,0.0
+Biobío,08,2020-05-18,SE16,0.0
+Araucanía,09,2020-05-18,SE16,0.0
+Los Ríos,14,2020-05-18,SE16,0.0
+Los Lagos,10,2020-05-18,SE16,0.0
+Aysén,11,2020-05-18,SE16,0.0
+Magallanes,12,2020-05-18,SE16,0.0
 Arica y Parinacota,15,2020-05-29,SE16,0.0
 Tarapacá,01,2020-05-29,SE16,0.0
 Antofagasta,02,2020-05-29,SE16,0.0
@@ -1503,118 +1599,6 @@ Los Ríos,14,2020-06-01,SE16,0.0
 Los Lagos,10,2020-06-01,SE16,0.0
 Aysén,11,2020-06-01,SE16,0.0
 Magallanes,12,2020-06-01,SE16,0.0
-Arica y Parinacota,15,2020-05-01,SE16,0.0
-Tarapacá,01,2020-05-01,SE16,0.0
-Antofagasta,02,2020-05-01,SE16,0.0
-Atacama,03,2020-05-01,SE16,0.0
-Coquimbo,04,2020-05-01,SE16,0.0
-Valparaíso,05,2020-05-01,SE16,0.0
-Metropolitana,13,2020-05-01,SE16,1.0
-O’Higgins,06,2020-05-01,SE16,0.0
-Maule,07,2020-05-01,SE16,0.0
-Ñuble,16,2020-05-01,SE16,0.0
-Biobío,08,2020-05-01,SE16,0.0
-Araucanía,09,2020-05-01,SE16,0.0
-Los Ríos,14,2020-05-01,SE16,0.0
-Los Lagos,10,2020-05-01,SE16,0.0
-Aysén,11,2020-05-01,SE16,0.0
-Magallanes,12,2020-05-01,SE16,1.0
-Arica y Parinacota,15,2020-05-15,SE16,0.0
-Tarapacá,01,2020-05-15,SE16,0.0
-Antofagasta,02,2020-05-15,SE16,0.0
-Atacama,03,2020-05-15,SE16,0.0
-Coquimbo,04,2020-05-15,SE16,0.0
-Valparaíso,05,2020-05-15,SE16,0.0
-Metropolitana,13,2020-05-15,SE16,1.0
-O’Higgins,06,2020-05-15,SE16,0.0
-Maule,07,2020-05-15,SE16,0.0
-Ñuble,16,2020-05-15,SE16,0.0
-Biobío,08,2020-05-15,SE16,0.0
-Araucanía,09,2020-05-15,SE16,0.0
-Los Ríos,14,2020-05-15,SE16,0.0
-Los Lagos,10,2020-05-15,SE16,0.0
-Aysén,11,2020-05-15,SE16,0.0
-Magallanes,12,2020-05-15,SE16,0.0
-Arica y Parinacota,15,2020-05-25,SE16,0.0
-Tarapacá,01,2020-05-25,SE16,0.0
-Antofagasta,02,2020-05-25,SE16,0.0
-Atacama,03,2020-05-25,SE16,0.0
-Coquimbo,04,2020-05-25,SE16,0.0
-Valparaíso,05,2020-05-25,SE16,0.0
-Metropolitana,13,2020-05-25,SE16,1.0
-O’Higgins,06,2020-05-25,SE16,0.0
-Maule,07,2020-05-25,SE16,0.0
-Ñuble,16,2020-05-25,SE16,0.0
-Biobío,08,2020-05-25,SE16,0.0
-Araucanía,09,2020-05-25,SE16,0.0
-Los Ríos,14,2020-05-25,SE16,0.0
-Los Lagos,10,2020-05-25,SE16,0.0
-Aysén,11,2020-05-25,SE16,0.0
-Magallanes,12,2020-05-25,SE16,0.0
-Arica y Parinacota,15,2020-05-18,SE16,0.0
-Tarapacá,01,2020-05-18,SE16,0.0
-Antofagasta,02,2020-05-18,SE16,0.0
-Atacama,03,2020-05-18,SE16,0.0
-Coquimbo,04,2020-05-18,SE16,0.0
-Valparaíso,05,2020-05-18,SE16,0.0
-Metropolitana,13,2020-05-18,SE16,1.0
-O’Higgins,06,2020-05-18,SE16,0.0
-Maule,07,2020-05-18,SE16,0.0
-Ñuble,16,2020-05-18,SE16,0.0
-Biobío,08,2020-05-18,SE16,0.0
-Araucanía,09,2020-05-18,SE16,0.0
-Los Ríos,14,2020-05-18,SE16,0.0
-Los Lagos,10,2020-05-18,SE16,0.0
-Aysén,11,2020-05-18,SE16,0.0
-Magallanes,12,2020-05-18,SE16,0.0
-Arica y Parinacota,15,2020-05-08,SE16,0.0
-Tarapacá,01,2020-05-08,SE16,0.0
-Antofagasta,02,2020-05-08,SE16,0.0
-Atacama,03,2020-05-08,SE16,0.0
-Coquimbo,04,2020-05-08,SE16,0.0
-Valparaíso,05,2020-05-08,SE16,0.0
-Metropolitana,13,2020-05-08,SE16,1.0
-O’Higgins,06,2020-05-08,SE16,0.0
-Maule,07,2020-05-08,SE16,0.0
-Ñuble,16,2020-05-08,SE16,0.0
-Biobío,08,2020-05-08,SE16,0.0
-Araucanía,09,2020-05-08,SE16,0.0
-Los Ríos,14,2020-05-08,SE16,0.0
-Los Lagos,10,2020-05-08,SE16,0.0
-Aysén,11,2020-05-08,SE16,0.0
-Magallanes,12,2020-05-08,SE16,0.0
-Arica y Parinacota,15,2020-05-22,SE16,0.0
-Tarapacá,01,2020-05-22,SE16,0.0
-Antofagasta,02,2020-05-22,SE16,0.0
-Atacama,03,2020-05-22,SE16,0.0
-Coquimbo,04,2020-05-22,SE16,0.0
-Valparaíso,05,2020-05-22,SE16,0.0
-Metropolitana,13,2020-05-22,SE16,1.0
-O’Higgins,06,2020-05-22,SE16,0.0
-Maule,07,2020-05-22,SE16,0.0
-Ñuble,16,2020-05-22,SE16,0.0
-Biobío,08,2020-05-22,SE16,0.0
-Araucanía,09,2020-05-22,SE16,0.0
-Los Ríos,14,2020-05-22,SE16,0.0
-Los Lagos,10,2020-05-22,SE16,0.0
-Aysén,11,2020-05-22,SE16,0.0
-Magallanes,12,2020-05-22,SE16,0.0
-Arica y Parinacota,15,2020-05-04,SE17,0.0
-Tarapacá,01,2020-05-04,SE17,0.0
-Antofagasta,02,2020-05-04,SE17,0.0
-Atacama,03,2020-05-04,SE17,0.0
-Coquimbo,04,2020-05-04,SE17,0.0
-Valparaíso,05,2020-05-04,SE17,0.0
-Metropolitana,13,2020-05-04,SE17,1.0
-O’Higgins,06,2020-05-04,SE17,0.0
-Maule,07,2020-05-04,SE17,0.0
-Ñuble,16,2020-05-04,SE17,0.0
-Biobío,08,2020-05-04,SE17,0.0
-Araucanía,09,2020-05-04,SE17,0.0
-Los Ríos,14,2020-05-04,SE17,0.0
-Los Lagos,10,2020-05-04,SE17,0.0
-Aysén,11,2020-05-04,SE17,0.0
-Magallanes,12,2020-05-04,SE17,0.0
 Arica y Parinacota,15,2020-05-11,SE17,0.0
 Tarapacá,01,2020-05-11,SE17,0.0
 Antofagasta,02,2020-05-11,SE17,0.0
@@ -1631,6 +1615,118 @@ Los Ríos,14,2020-05-11,SE17,0.0
 Los Lagos,10,2020-05-11,SE17,0.0
 Aysén,11,2020-05-11,SE17,0.0
 Magallanes,12,2020-05-11,SE17,0.0
+Arica y Parinacota,15,2020-05-25,SE17,0.0
+Tarapacá,01,2020-05-25,SE17,0.0
+Antofagasta,02,2020-05-25,SE17,0.0
+Atacama,03,2020-05-25,SE17,0.0
+Coquimbo,04,2020-05-25,SE17,0.0
+Valparaíso,05,2020-05-25,SE17,0.0
+Metropolitana,13,2020-05-25,SE17,1.0
+O’Higgins,06,2020-05-25,SE17,0.0
+Maule,07,2020-05-25,SE17,0.0
+Ñuble,16,2020-05-25,SE17,0.0
+Biobío,08,2020-05-25,SE17,0.0
+Araucanía,09,2020-05-25,SE17,0.0
+Los Ríos,14,2020-05-25,SE17,0.0
+Los Lagos,10,2020-05-25,SE17,0.0
+Aysén,11,2020-05-25,SE17,0.0
+Magallanes,12,2020-05-25,SE17,0.0
+Arica y Parinacota,15,2020-05-08,SE17,0.0
+Tarapacá,01,2020-05-08,SE17,0.0
+Antofagasta,02,2020-05-08,SE17,0.0
+Atacama,03,2020-05-08,SE17,0.0
+Coquimbo,04,2020-05-08,SE17,0.0
+Valparaíso,05,2020-05-08,SE17,0.0
+Metropolitana,13,2020-05-08,SE17,1.0
+O’Higgins,06,2020-05-08,SE17,0.0
+Maule,07,2020-05-08,SE17,0.0
+Ñuble,16,2020-05-08,SE17,0.0
+Biobío,08,2020-05-08,SE17,0.0
+Araucanía,09,2020-05-08,SE17,0.0
+Los Ríos,14,2020-05-08,SE17,0.0
+Los Lagos,10,2020-05-08,SE17,0.0
+Aysén,11,2020-05-08,SE17,0.0
+Magallanes,12,2020-05-08,SE17,0.0
+Arica y Parinacota,15,2020-05-15,SE17,0.0
+Tarapacá,01,2020-05-15,SE17,0.0
+Antofagasta,02,2020-05-15,SE17,0.0
+Atacama,03,2020-05-15,SE17,0.0
+Coquimbo,04,2020-05-15,SE17,0.0
+Valparaíso,05,2020-05-15,SE17,0.0
+Metropolitana,13,2020-05-15,SE17,1.0
+O’Higgins,06,2020-05-15,SE17,0.0
+Maule,07,2020-05-15,SE17,0.0
+Ñuble,16,2020-05-15,SE17,0.0
+Biobío,08,2020-05-15,SE17,0.0
+Araucanía,09,2020-05-15,SE17,0.0
+Los Ríos,14,2020-05-15,SE17,0.0
+Los Lagos,10,2020-05-15,SE17,0.0
+Aysén,11,2020-05-15,SE17,0.0
+Magallanes,12,2020-05-15,SE17,0.0
+Arica y Parinacota,15,2020-05-22,SE17,0.0
+Tarapacá,01,2020-05-22,SE17,0.0
+Antofagasta,02,2020-05-22,SE17,0.0
+Atacama,03,2020-05-22,SE17,0.0
+Coquimbo,04,2020-05-22,SE17,0.0
+Valparaíso,05,2020-05-22,SE17,0.0
+Metropolitana,13,2020-05-22,SE17,1.0
+O’Higgins,06,2020-05-22,SE17,0.0
+Maule,07,2020-05-22,SE17,0.0
+Ñuble,16,2020-05-22,SE17,0.0
+Biobío,08,2020-05-22,SE17,0.0
+Araucanía,09,2020-05-22,SE17,0.0
+Los Ríos,14,2020-05-22,SE17,0.0
+Los Lagos,10,2020-05-22,SE17,0.0
+Aysén,11,2020-05-22,SE17,0.0
+Magallanes,12,2020-05-22,SE17,0.0
+Arica y Parinacota,15,2020-05-04,SE17,0.0
+Tarapacá,01,2020-05-04,SE17,0.0
+Antofagasta,02,2020-05-04,SE17,0.0
+Atacama,03,2020-05-04,SE17,0.0
+Coquimbo,04,2020-05-04,SE17,0.0
+Valparaíso,05,2020-05-04,SE17,0.0
+Metropolitana,13,2020-05-04,SE17,1.0
+O’Higgins,06,2020-05-04,SE17,0.0
+Maule,07,2020-05-04,SE17,0.0
+Ñuble,16,2020-05-04,SE17,0.0
+Biobío,08,2020-05-04,SE17,0.0
+Araucanía,09,2020-05-04,SE17,0.0
+Los Ríos,14,2020-05-04,SE17,0.0
+Los Lagos,10,2020-05-04,SE17,0.0
+Aysén,11,2020-05-04,SE17,0.0
+Magallanes,12,2020-05-04,SE17,0.0
+Arica y Parinacota,15,2020-05-01,SE17,0.0
+Tarapacá,01,2020-05-01,SE17,0.0
+Antofagasta,02,2020-05-01,SE17,0.0
+Atacama,03,2020-05-01,SE17,0.0
+Coquimbo,04,2020-05-01,SE17,0.0
+Valparaíso,05,2020-05-01,SE17,0.0
+Metropolitana,13,2020-05-01,SE17,2.0
+O’Higgins,06,2020-05-01,SE17,0.0
+Maule,07,2020-05-01,SE17,0.0
+Ñuble,16,2020-05-01,SE17,0.0
+Biobío,08,2020-05-01,SE17,0.0
+Araucanía,09,2020-05-01,SE17,0.0
+Los Ríos,14,2020-05-01,SE17,0.0
+Los Lagos,10,2020-05-01,SE17,0.0
+Aysén,11,2020-05-01,SE17,0.0
+Magallanes,12,2020-05-01,SE17,0.0
+Arica y Parinacota,15,2020-05-18,SE17,0.0
+Tarapacá,01,2020-05-18,SE17,0.0
+Antofagasta,02,2020-05-18,SE17,0.0
+Atacama,03,2020-05-18,SE17,0.0
+Coquimbo,04,2020-05-18,SE17,0.0
+Valparaíso,05,2020-05-18,SE17,0.0
+Metropolitana,13,2020-05-18,SE17,1.0
+O’Higgins,06,2020-05-18,SE17,0.0
+Maule,07,2020-05-18,SE17,0.0
+Ñuble,16,2020-05-18,SE17,0.0
+Biobío,08,2020-05-18,SE17,0.0
+Araucanía,09,2020-05-18,SE17,0.0
+Los Ríos,14,2020-05-18,SE17,0.0
+Los Lagos,10,2020-05-18,SE17,0.0
+Aysén,11,2020-05-18,SE17,0.0
+Magallanes,12,2020-05-18,SE17,0.0
 Arica y Parinacota,15,2020-05-29,SE17,0.0
 Tarapacá,01,2020-05-29,SE17,0.0
 Antofagasta,02,2020-05-29,SE17,0.0
@@ -1663,118 +1759,6 @@ Los Ríos,14,2020-06-01,SE17,0.0
 Los Lagos,10,2020-06-01,SE17,0.0
 Aysén,11,2020-06-01,SE17,0.0
 Magallanes,12,2020-06-01,SE17,0.0
-Arica y Parinacota,15,2020-05-01,SE17,0.0
-Tarapacá,01,2020-05-01,SE17,0.0
-Antofagasta,02,2020-05-01,SE17,0.0
-Atacama,03,2020-05-01,SE17,0.0
-Coquimbo,04,2020-05-01,SE17,0.0
-Valparaíso,05,2020-05-01,SE17,0.0
-Metropolitana,13,2020-05-01,SE17,2.0
-O’Higgins,06,2020-05-01,SE17,0.0
-Maule,07,2020-05-01,SE17,0.0
-Ñuble,16,2020-05-01,SE17,0.0
-Biobío,08,2020-05-01,SE17,0.0
-Araucanía,09,2020-05-01,SE17,0.0
-Los Ríos,14,2020-05-01,SE17,0.0
-Los Lagos,10,2020-05-01,SE17,0.0
-Aysén,11,2020-05-01,SE17,0.0
-Magallanes,12,2020-05-01,SE17,0.0
-Arica y Parinacota,15,2020-05-15,SE17,0.0
-Tarapacá,01,2020-05-15,SE17,0.0
-Antofagasta,02,2020-05-15,SE17,0.0
-Atacama,03,2020-05-15,SE17,0.0
-Coquimbo,04,2020-05-15,SE17,0.0
-Valparaíso,05,2020-05-15,SE17,0.0
-Metropolitana,13,2020-05-15,SE17,1.0
-O’Higgins,06,2020-05-15,SE17,0.0
-Maule,07,2020-05-15,SE17,0.0
-Ñuble,16,2020-05-15,SE17,0.0
-Biobío,08,2020-05-15,SE17,0.0
-Araucanía,09,2020-05-15,SE17,0.0
-Los Ríos,14,2020-05-15,SE17,0.0
-Los Lagos,10,2020-05-15,SE17,0.0
-Aysén,11,2020-05-15,SE17,0.0
-Magallanes,12,2020-05-15,SE17,0.0
-Arica y Parinacota,15,2020-05-25,SE17,0.0
-Tarapacá,01,2020-05-25,SE17,0.0
-Antofagasta,02,2020-05-25,SE17,0.0
-Atacama,03,2020-05-25,SE17,0.0
-Coquimbo,04,2020-05-25,SE17,0.0
-Valparaíso,05,2020-05-25,SE17,0.0
-Metropolitana,13,2020-05-25,SE17,1.0
-O’Higgins,06,2020-05-25,SE17,0.0
-Maule,07,2020-05-25,SE17,0.0
-Ñuble,16,2020-05-25,SE17,0.0
-Biobío,08,2020-05-25,SE17,0.0
-Araucanía,09,2020-05-25,SE17,0.0
-Los Ríos,14,2020-05-25,SE17,0.0
-Los Lagos,10,2020-05-25,SE17,0.0
-Aysén,11,2020-05-25,SE17,0.0
-Magallanes,12,2020-05-25,SE17,0.0
-Arica y Parinacota,15,2020-05-18,SE17,0.0
-Tarapacá,01,2020-05-18,SE17,0.0
-Antofagasta,02,2020-05-18,SE17,0.0
-Atacama,03,2020-05-18,SE17,0.0
-Coquimbo,04,2020-05-18,SE17,0.0
-Valparaíso,05,2020-05-18,SE17,0.0
-Metropolitana,13,2020-05-18,SE17,1.0
-O’Higgins,06,2020-05-18,SE17,0.0
-Maule,07,2020-05-18,SE17,0.0
-Ñuble,16,2020-05-18,SE17,0.0
-Biobío,08,2020-05-18,SE17,0.0
-Araucanía,09,2020-05-18,SE17,0.0
-Los Ríos,14,2020-05-18,SE17,0.0
-Los Lagos,10,2020-05-18,SE17,0.0
-Aysén,11,2020-05-18,SE17,0.0
-Magallanes,12,2020-05-18,SE17,0.0
-Arica y Parinacota,15,2020-05-08,SE17,0.0
-Tarapacá,01,2020-05-08,SE17,0.0
-Antofagasta,02,2020-05-08,SE17,0.0
-Atacama,03,2020-05-08,SE17,0.0
-Coquimbo,04,2020-05-08,SE17,0.0
-Valparaíso,05,2020-05-08,SE17,0.0
-Metropolitana,13,2020-05-08,SE17,1.0
-O’Higgins,06,2020-05-08,SE17,0.0
-Maule,07,2020-05-08,SE17,0.0
-Ñuble,16,2020-05-08,SE17,0.0
-Biobío,08,2020-05-08,SE17,0.0
-Araucanía,09,2020-05-08,SE17,0.0
-Los Ríos,14,2020-05-08,SE17,0.0
-Los Lagos,10,2020-05-08,SE17,0.0
-Aysén,11,2020-05-08,SE17,0.0
-Magallanes,12,2020-05-08,SE17,0.0
-Arica y Parinacota,15,2020-05-22,SE17,0.0
-Tarapacá,01,2020-05-22,SE17,0.0
-Antofagasta,02,2020-05-22,SE17,0.0
-Atacama,03,2020-05-22,SE17,0.0
-Coquimbo,04,2020-05-22,SE17,0.0
-Valparaíso,05,2020-05-22,SE17,0.0
-Metropolitana,13,2020-05-22,SE17,1.0
-O’Higgins,06,2020-05-22,SE17,0.0
-Maule,07,2020-05-22,SE17,0.0
-Ñuble,16,2020-05-22,SE17,0.0
-Biobío,08,2020-05-22,SE17,0.0
-Araucanía,09,2020-05-22,SE17,0.0
-Los Ríos,14,2020-05-22,SE17,0.0
-Los Lagos,10,2020-05-22,SE17,0.0
-Aysén,11,2020-05-22,SE17,0.0
-Magallanes,12,2020-05-22,SE17,0.0
-Arica y Parinacota,15,2020-05-04,SE18,0.0
-Tarapacá,01,2020-05-04,SE18,0.0
-Antofagasta,02,2020-05-04,SE18,0.0
-Atacama,03,2020-05-04,SE18,0.0
-Coquimbo,04,2020-05-04,SE18,0.0
-Valparaíso,05,2020-05-04,SE18,0.0
-Metropolitana,13,2020-05-04,SE18,0.0
-O’Higgins,06,2020-05-04,SE18,0.0
-Maule,07,2020-05-04,SE18,0.0
-Ñuble,16,2020-05-04,SE18,0.0
-Biobío,08,2020-05-04,SE18,0.0
-Araucanía,09,2020-05-04,SE18,0.0
-Los Ríos,14,2020-05-04,SE18,0.0
-Los Lagos,10,2020-05-04,SE18,0.0
-Aysén,11,2020-05-04,SE18,0.0
-Magallanes,12,2020-05-04,SE18,0.0
 Arica y Parinacota,15,2020-05-11,SE18,0.0
 Tarapacá,01,2020-05-11,SE18,0.0
 Antofagasta,02,2020-05-11,SE18,0.0
@@ -1791,6 +1775,118 @@ Los Ríos,14,2020-05-11,SE18,0.0
 Los Lagos,10,2020-05-11,SE18,0.0
 Aysén,11,2020-05-11,SE18,0.0
 Magallanes,12,2020-05-11,SE18,0.0
+Arica y Parinacota,15,2020-05-25,SE18,0.0
+Tarapacá,01,2020-05-25,SE18,0.0
+Antofagasta,02,2020-05-25,SE18,0.0
+Atacama,03,2020-05-25,SE18,0.0
+Coquimbo,04,2020-05-25,SE18,0.0
+Valparaíso,05,2020-05-25,SE18,0.0
+Metropolitana,13,2020-05-25,SE18,2.0
+O’Higgins,06,2020-05-25,SE18,0.0
+Maule,07,2020-05-25,SE18,0.0
+Ñuble,16,2020-05-25,SE18,0.0
+Biobío,08,2020-05-25,SE18,0.0
+Araucanía,09,2020-05-25,SE18,0.0
+Los Ríos,14,2020-05-25,SE18,0.0
+Los Lagos,10,2020-05-25,SE18,0.0
+Aysén,11,2020-05-25,SE18,0.0
+Magallanes,12,2020-05-25,SE18,0.0
+Arica y Parinacota,15,2020-05-08,SE18,0.0
+Tarapacá,01,2020-05-08,SE18,0.0
+Antofagasta,02,2020-05-08,SE18,0.0
+Atacama,03,2020-05-08,SE18,0.0
+Coquimbo,04,2020-05-08,SE18,0.0
+Valparaíso,05,2020-05-08,SE18,0.0
+Metropolitana,13,2020-05-08,SE18,0.0
+O’Higgins,06,2020-05-08,SE18,0.0
+Maule,07,2020-05-08,SE18,0.0
+Ñuble,16,2020-05-08,SE18,0.0
+Biobío,08,2020-05-08,SE18,0.0
+Araucanía,09,2020-05-08,SE18,0.0
+Los Ríos,14,2020-05-08,SE18,0.0
+Los Lagos,10,2020-05-08,SE18,0.0
+Aysén,11,2020-05-08,SE18,0.0
+Magallanes,12,2020-05-08,SE18,0.0
+Arica y Parinacota,15,2020-05-15,SE18,0.0
+Tarapacá,01,2020-05-15,SE18,0.0
+Antofagasta,02,2020-05-15,SE18,0.0
+Atacama,03,2020-05-15,SE18,0.0
+Coquimbo,04,2020-05-15,SE18,0.0
+Valparaíso,05,2020-05-15,SE18,0.0
+Metropolitana,13,2020-05-15,SE18,1.0
+O’Higgins,06,2020-05-15,SE18,0.0
+Maule,07,2020-05-15,SE18,0.0
+Ñuble,16,2020-05-15,SE18,0.0
+Biobío,08,2020-05-15,SE18,0.0
+Araucanía,09,2020-05-15,SE18,0.0
+Los Ríos,14,2020-05-15,SE18,0.0
+Los Lagos,10,2020-05-15,SE18,0.0
+Aysén,11,2020-05-15,SE18,0.0
+Magallanes,12,2020-05-15,SE18,0.0
+Arica y Parinacota,15,2020-05-22,SE18,0.0
+Tarapacá,01,2020-05-22,SE18,0.0
+Antofagasta,02,2020-05-22,SE18,0.0
+Atacama,03,2020-05-22,SE18,0.0
+Coquimbo,04,2020-05-22,SE18,0.0
+Valparaíso,05,2020-05-22,SE18,0.0
+Metropolitana,13,2020-05-22,SE18,2.0
+O’Higgins,06,2020-05-22,SE18,0.0
+Maule,07,2020-05-22,SE18,0.0
+Ñuble,16,2020-05-22,SE18,0.0
+Biobío,08,2020-05-22,SE18,0.0
+Araucanía,09,2020-05-22,SE18,0.0
+Los Ríos,14,2020-05-22,SE18,0.0
+Los Lagos,10,2020-05-22,SE18,0.0
+Aysén,11,2020-05-22,SE18,0.0
+Magallanes,12,2020-05-22,SE18,0.0
+Arica y Parinacota,15,2020-05-04,SE18,0.0
+Tarapacá,01,2020-05-04,SE18,0.0
+Antofagasta,02,2020-05-04,SE18,0.0
+Atacama,03,2020-05-04,SE18,0.0
+Coquimbo,04,2020-05-04,SE18,0.0
+Valparaíso,05,2020-05-04,SE18,0.0
+Metropolitana,13,2020-05-04,SE18,0.0
+O’Higgins,06,2020-05-04,SE18,0.0
+Maule,07,2020-05-04,SE18,0.0
+Ñuble,16,2020-05-04,SE18,0.0
+Biobío,08,2020-05-04,SE18,0.0
+Araucanía,09,2020-05-04,SE18,0.0
+Los Ríos,14,2020-05-04,SE18,0.0
+Los Lagos,10,2020-05-04,SE18,0.0
+Aysén,11,2020-05-04,SE18,0.0
+Magallanes,12,2020-05-04,SE18,0.0
+Arica y Parinacota,15,2020-05-01,SE18,0.0
+Tarapacá,01,2020-05-01,SE18,0.0
+Antofagasta,02,2020-05-01,SE18,0.0
+Atacama,03,2020-05-01,SE18,0.0
+Coquimbo,04,2020-05-01,SE18,0.0
+Valparaíso,05,2020-05-01,SE18,0.0
+Metropolitana,13,2020-05-01,SE18,1.0
+O’Higgins,06,2020-05-01,SE18,0.0
+Maule,07,2020-05-01,SE18,0.0
+Ñuble,16,2020-05-01,SE18,0.0
+Biobío,08,2020-05-01,SE18,0.0
+Araucanía,09,2020-05-01,SE18,0.0
+Los Ríos,14,2020-05-01,SE18,0.0
+Los Lagos,10,2020-05-01,SE18,0.0
+Aysén,11,2020-05-01,SE18,0.0
+Magallanes,12,2020-05-01,SE18,0.0
+Arica y Parinacota,15,2020-05-18,SE18,0.0
+Tarapacá,01,2020-05-18,SE18,0.0
+Antofagasta,02,2020-05-18,SE18,0.0
+Atacama,03,2020-05-18,SE18,0.0
+Coquimbo,04,2020-05-18,SE18,0.0
+Valparaíso,05,2020-05-18,SE18,0.0
+Metropolitana,13,2020-05-18,SE18,2.0
+O’Higgins,06,2020-05-18,SE18,0.0
+Maule,07,2020-05-18,SE18,0.0
+Ñuble,16,2020-05-18,SE18,0.0
+Biobío,08,2020-05-18,SE18,0.0
+Araucanía,09,2020-05-18,SE18,0.0
+Los Ríos,14,2020-05-18,SE18,0.0
+Los Lagos,10,2020-05-18,SE18,0.0
+Aysén,11,2020-05-18,SE18,0.0
+Magallanes,12,2020-05-18,SE18,0.0
 Arica y Parinacota,15,2020-05-29,SE18,0.0
 Tarapacá,01,2020-05-29,SE18,0.0
 Antofagasta,02,2020-05-29,SE18,0.0
@@ -1823,118 +1919,6 @@ Los Ríos,14,2020-06-01,SE18,0.0
 Los Lagos,10,2020-06-01,SE18,0.0
 Aysén,11,2020-06-01,SE18,0.0
 Magallanes,12,2020-06-01,SE18,0.0
-Arica y Parinacota,15,2020-05-01,SE18,0.0
-Tarapacá,01,2020-05-01,SE18,0.0
-Antofagasta,02,2020-05-01,SE18,0.0
-Atacama,03,2020-05-01,SE18,0.0
-Coquimbo,04,2020-05-01,SE18,0.0
-Valparaíso,05,2020-05-01,SE18,0.0
-Metropolitana,13,2020-05-01,SE18,1.0
-O’Higgins,06,2020-05-01,SE18,0.0
-Maule,07,2020-05-01,SE18,0.0
-Ñuble,16,2020-05-01,SE18,0.0
-Biobío,08,2020-05-01,SE18,0.0
-Araucanía,09,2020-05-01,SE18,0.0
-Los Ríos,14,2020-05-01,SE18,0.0
-Los Lagos,10,2020-05-01,SE18,0.0
-Aysén,11,2020-05-01,SE18,0.0
-Magallanes,12,2020-05-01,SE18,0.0
-Arica y Parinacota,15,2020-05-15,SE18,0.0
-Tarapacá,01,2020-05-15,SE18,0.0
-Antofagasta,02,2020-05-15,SE18,0.0
-Atacama,03,2020-05-15,SE18,0.0
-Coquimbo,04,2020-05-15,SE18,0.0
-Valparaíso,05,2020-05-15,SE18,0.0
-Metropolitana,13,2020-05-15,SE18,1.0
-O’Higgins,06,2020-05-15,SE18,0.0
-Maule,07,2020-05-15,SE18,0.0
-Ñuble,16,2020-05-15,SE18,0.0
-Biobío,08,2020-05-15,SE18,0.0
-Araucanía,09,2020-05-15,SE18,0.0
-Los Ríos,14,2020-05-15,SE18,0.0
-Los Lagos,10,2020-05-15,SE18,0.0
-Aysén,11,2020-05-15,SE18,0.0
-Magallanes,12,2020-05-15,SE18,0.0
-Arica y Parinacota,15,2020-05-25,SE18,0.0
-Tarapacá,01,2020-05-25,SE18,0.0
-Antofagasta,02,2020-05-25,SE18,0.0
-Atacama,03,2020-05-25,SE18,0.0
-Coquimbo,04,2020-05-25,SE18,0.0
-Valparaíso,05,2020-05-25,SE18,0.0
-Metropolitana,13,2020-05-25,SE18,2.0
-O’Higgins,06,2020-05-25,SE18,0.0
-Maule,07,2020-05-25,SE18,0.0
-Ñuble,16,2020-05-25,SE18,0.0
-Biobío,08,2020-05-25,SE18,0.0
-Araucanía,09,2020-05-25,SE18,0.0
-Los Ríos,14,2020-05-25,SE18,0.0
-Los Lagos,10,2020-05-25,SE18,0.0
-Aysén,11,2020-05-25,SE18,0.0
-Magallanes,12,2020-05-25,SE18,0.0
-Arica y Parinacota,15,2020-05-18,SE18,0.0
-Tarapacá,01,2020-05-18,SE18,0.0
-Antofagasta,02,2020-05-18,SE18,0.0
-Atacama,03,2020-05-18,SE18,0.0
-Coquimbo,04,2020-05-18,SE18,0.0
-Valparaíso,05,2020-05-18,SE18,0.0
-Metropolitana,13,2020-05-18,SE18,2.0
-O’Higgins,06,2020-05-18,SE18,0.0
-Maule,07,2020-05-18,SE18,0.0
-Ñuble,16,2020-05-18,SE18,0.0
-Biobío,08,2020-05-18,SE18,0.0
-Araucanía,09,2020-05-18,SE18,0.0
-Los Ríos,14,2020-05-18,SE18,0.0
-Los Lagos,10,2020-05-18,SE18,0.0
-Aysén,11,2020-05-18,SE18,0.0
-Magallanes,12,2020-05-18,SE18,0.0
-Arica y Parinacota,15,2020-05-08,SE18,0.0
-Tarapacá,01,2020-05-08,SE18,0.0
-Antofagasta,02,2020-05-08,SE18,0.0
-Atacama,03,2020-05-08,SE18,0.0
-Coquimbo,04,2020-05-08,SE18,0.0
-Valparaíso,05,2020-05-08,SE18,0.0
-Metropolitana,13,2020-05-08,SE18,0.0
-O’Higgins,06,2020-05-08,SE18,0.0
-Maule,07,2020-05-08,SE18,0.0
-Ñuble,16,2020-05-08,SE18,0.0
-Biobío,08,2020-05-08,SE18,0.0
-Araucanía,09,2020-05-08,SE18,0.0
-Los Ríos,14,2020-05-08,SE18,0.0
-Los Lagos,10,2020-05-08,SE18,0.0
-Aysén,11,2020-05-08,SE18,0.0
-Magallanes,12,2020-05-08,SE18,0.0
-Arica y Parinacota,15,2020-05-22,SE18,0.0
-Tarapacá,01,2020-05-22,SE18,0.0
-Antofagasta,02,2020-05-22,SE18,0.0
-Atacama,03,2020-05-22,SE18,0.0
-Coquimbo,04,2020-05-22,SE18,0.0
-Valparaíso,05,2020-05-22,SE18,0.0
-Metropolitana,13,2020-05-22,SE18,2.0
-O’Higgins,06,2020-05-22,SE18,0.0
-Maule,07,2020-05-22,SE18,0.0
-Ñuble,16,2020-05-22,SE18,0.0
-Biobío,08,2020-05-22,SE18,0.0
-Araucanía,09,2020-05-22,SE18,0.0
-Los Ríos,14,2020-05-22,SE18,0.0
-Los Lagos,10,2020-05-22,SE18,0.0
-Aysén,11,2020-05-22,SE18,0.0
-Magallanes,12,2020-05-22,SE18,0.0
-Arica y Parinacota,15,2020-05-04,SE19,0.0
-Tarapacá,01,2020-05-04,SE19,0.0
-Antofagasta,02,2020-05-04,SE19,0.0
-Atacama,03,2020-05-04,SE19,0.0
-Coquimbo,04,2020-05-04,SE19,0.0
-Valparaíso,05,2020-05-04,SE19,0.0
-Metropolitana,13,2020-05-04,SE19,0.0
-O’Higgins,06,2020-05-04,SE19,0.0
-Maule,07,2020-05-04,SE19,0.0
-Ñuble,16,2020-05-04,SE19,0.0
-Biobío,08,2020-05-04,SE19,0.0
-Araucanía,09,2020-05-04,SE19,0.0
-Los Ríos,14,2020-05-04,SE19,0.0
-Los Lagos,10,2020-05-04,SE19,0.0
-Aysén,11,2020-05-04,SE19,0.0
-Magallanes,12,2020-05-04,SE19,0.0
 Arica y Parinacota,15,2020-05-11,SE19,0.0
 Tarapacá,01,2020-05-11,SE19,0.0
 Antofagasta,02,2020-05-11,SE19,0.0
@@ -1951,6 +1935,118 @@ Los Ríos,14,2020-05-11,SE19,0.0
 Los Lagos,10,2020-05-11,SE19,0.0
 Aysén,11,2020-05-11,SE19,0.0
 Magallanes,12,2020-05-11,SE19,0.0
+Arica y Parinacota,15,2020-05-25,SE19,0.0
+Tarapacá,01,2020-05-25,SE19,0.0
+Antofagasta,02,2020-05-25,SE19,0.0
+Atacama,03,2020-05-25,SE19,0.0
+Coquimbo,04,2020-05-25,SE19,0.0
+Valparaíso,05,2020-05-25,SE19,0.0
+Metropolitana,13,2020-05-25,SE19,2.0
+O’Higgins,06,2020-05-25,SE19,0.0
+Maule,07,2020-05-25,SE19,0.0
+Ñuble,16,2020-05-25,SE19,0.0
+Biobío,08,2020-05-25,SE19,0.0
+Araucanía,09,2020-05-25,SE19,0.0
+Los Ríos,14,2020-05-25,SE19,0.0
+Los Lagos,10,2020-05-25,SE19,0.0
+Aysén,11,2020-05-25,SE19,0.0
+Magallanes,12,2020-05-25,SE19,0.0
+Arica y Parinacota,15,2020-05-08,SE19,0.0
+Tarapacá,01,2020-05-08,SE19,0.0
+Antofagasta,02,2020-05-08,SE19,0.0
+Atacama,03,2020-05-08,SE19,0.0
+Coquimbo,04,2020-05-08,SE19,0.0
+Valparaíso,05,2020-05-08,SE19,0.0
+Metropolitana,13,2020-05-08,SE19,0.0
+O’Higgins,06,2020-05-08,SE19,0.0
+Maule,07,2020-05-08,SE19,0.0
+Ñuble,16,2020-05-08,SE19,0.0
+Biobío,08,2020-05-08,SE19,0.0
+Araucanía,09,2020-05-08,SE19,0.0
+Los Ríos,14,2020-05-08,SE19,0.0
+Los Lagos,10,2020-05-08,SE19,0.0
+Aysén,11,2020-05-08,SE19,0.0
+Magallanes,12,2020-05-08,SE19,0.0
+Arica y Parinacota,15,2020-05-15,SE19,0.0
+Tarapacá,01,2020-05-15,SE19,0.0
+Antofagasta,02,2020-05-15,SE19,0.0
+Atacama,03,2020-05-15,SE19,0.0
+Coquimbo,04,2020-05-15,SE19,0.0
+Valparaíso,05,2020-05-15,SE19,0.0
+Metropolitana,13,2020-05-15,SE19,0.0
+O’Higgins,06,2020-05-15,SE19,0.0
+Maule,07,2020-05-15,SE19,0.0
+Ñuble,16,2020-05-15,SE19,0.0
+Biobío,08,2020-05-15,SE19,0.0
+Araucanía,09,2020-05-15,SE19,0.0
+Los Ríos,14,2020-05-15,SE19,0.0
+Los Lagos,10,2020-05-15,SE19,0.0
+Aysén,11,2020-05-15,SE19,0.0
+Magallanes,12,2020-05-15,SE19,0.0
+Arica y Parinacota,15,2020-05-22,SE19,0.0
+Tarapacá,01,2020-05-22,SE19,0.0
+Antofagasta,02,2020-05-22,SE19,0.0
+Atacama,03,2020-05-22,SE19,0.0
+Coquimbo,04,2020-05-22,SE19,0.0
+Valparaíso,05,2020-05-22,SE19,0.0
+Metropolitana,13,2020-05-22,SE19,2.0
+O’Higgins,06,2020-05-22,SE19,0.0
+Maule,07,2020-05-22,SE19,0.0
+Ñuble,16,2020-05-22,SE19,0.0
+Biobío,08,2020-05-22,SE19,0.0
+Araucanía,09,2020-05-22,SE19,0.0
+Los Ríos,14,2020-05-22,SE19,0.0
+Los Lagos,10,2020-05-22,SE19,0.0
+Aysén,11,2020-05-22,SE19,0.0
+Magallanes,12,2020-05-22,SE19,0.0
+Arica y Parinacota,15,2020-05-04,SE19,0.0
+Tarapacá,01,2020-05-04,SE19,0.0
+Antofagasta,02,2020-05-04,SE19,0.0
+Atacama,03,2020-05-04,SE19,0.0
+Coquimbo,04,2020-05-04,SE19,0.0
+Valparaíso,05,2020-05-04,SE19,0.0
+Metropolitana,13,2020-05-04,SE19,0.0
+O’Higgins,06,2020-05-04,SE19,0.0
+Maule,07,2020-05-04,SE19,0.0
+Ñuble,16,2020-05-04,SE19,0.0
+Biobío,08,2020-05-04,SE19,0.0
+Araucanía,09,2020-05-04,SE19,0.0
+Los Ríos,14,2020-05-04,SE19,0.0
+Los Lagos,10,2020-05-04,SE19,0.0
+Aysén,11,2020-05-04,SE19,0.0
+Magallanes,12,2020-05-04,SE19,0.0
+Arica y Parinacota,15,2020-05-01,SE19,0.0
+Tarapacá,01,2020-05-01,SE19,0.0
+Antofagasta,02,2020-05-01,SE19,0.0
+Atacama,03,2020-05-01,SE19,0.0
+Coquimbo,04,2020-05-01,SE19,0.0
+Valparaíso,05,2020-05-01,SE19,0.0
+Metropolitana,13,2020-05-01,SE19,0.0
+O’Higgins,06,2020-05-01,SE19,0.0
+Maule,07,2020-05-01,SE19,0.0
+Ñuble,16,2020-05-01,SE19,0.0
+Biobío,08,2020-05-01,SE19,0.0
+Araucanía,09,2020-05-01,SE19,0.0
+Los Ríos,14,2020-05-01,SE19,0.0
+Los Lagos,10,2020-05-01,SE19,0.0
+Aysén,11,2020-05-01,SE19,0.0
+Magallanes,12,2020-05-01,SE19,0.0
+Arica y Parinacota,15,2020-05-18,SE19,0.0
+Tarapacá,01,2020-05-18,SE19,0.0
+Antofagasta,02,2020-05-18,SE19,0.0
+Atacama,03,2020-05-18,SE19,0.0
+Coquimbo,04,2020-05-18,SE19,0.0
+Valparaíso,05,2020-05-18,SE19,0.0
+Metropolitana,13,2020-05-18,SE19,1.0
+O’Higgins,06,2020-05-18,SE19,0.0
+Maule,07,2020-05-18,SE19,0.0
+Ñuble,16,2020-05-18,SE19,0.0
+Biobío,08,2020-05-18,SE19,0.0
+Araucanía,09,2020-05-18,SE19,0.0
+Los Ríos,14,2020-05-18,SE19,0.0
+Los Lagos,10,2020-05-18,SE19,0.0
+Aysén,11,2020-05-18,SE19,0.0
+Magallanes,12,2020-05-18,SE19,0.0
 Arica y Parinacota,15,2020-05-29,SE19,0.0
 Tarapacá,01,2020-05-29,SE19,0.0
 Antofagasta,02,2020-05-29,SE19,0.0
@@ -1983,118 +2079,6 @@ Los Ríos,14,2020-06-01,SE19,0.0
 Los Lagos,10,2020-06-01,SE19,0.0
 Aysén,11,2020-06-01,SE19,0.0
 Magallanes,12,2020-06-01,SE19,0.0
-Arica y Parinacota,15,2020-05-01,SE19,0.0
-Tarapacá,01,2020-05-01,SE19,0.0
-Antofagasta,02,2020-05-01,SE19,0.0
-Atacama,03,2020-05-01,SE19,0.0
-Coquimbo,04,2020-05-01,SE19,0.0
-Valparaíso,05,2020-05-01,SE19,0.0
-Metropolitana,13,2020-05-01,SE19,0.0
-O’Higgins,06,2020-05-01,SE19,0.0
-Maule,07,2020-05-01,SE19,0.0
-Ñuble,16,2020-05-01,SE19,0.0
-Biobío,08,2020-05-01,SE19,0.0
-Araucanía,09,2020-05-01,SE19,0.0
-Los Ríos,14,2020-05-01,SE19,0.0
-Los Lagos,10,2020-05-01,SE19,0.0
-Aysén,11,2020-05-01,SE19,0.0
-Magallanes,12,2020-05-01,SE19,0.0
-Arica y Parinacota,15,2020-05-15,SE19,0.0
-Tarapacá,01,2020-05-15,SE19,0.0
-Antofagasta,02,2020-05-15,SE19,0.0
-Atacama,03,2020-05-15,SE19,0.0
-Coquimbo,04,2020-05-15,SE19,0.0
-Valparaíso,05,2020-05-15,SE19,0.0
-Metropolitana,13,2020-05-15,SE19,0.0
-O’Higgins,06,2020-05-15,SE19,0.0
-Maule,07,2020-05-15,SE19,0.0
-Ñuble,16,2020-05-15,SE19,0.0
-Biobío,08,2020-05-15,SE19,0.0
-Araucanía,09,2020-05-15,SE19,0.0
-Los Ríos,14,2020-05-15,SE19,0.0
-Los Lagos,10,2020-05-15,SE19,0.0
-Aysén,11,2020-05-15,SE19,0.0
-Magallanes,12,2020-05-15,SE19,0.0
-Arica y Parinacota,15,2020-05-25,SE19,0.0
-Tarapacá,01,2020-05-25,SE19,0.0
-Antofagasta,02,2020-05-25,SE19,0.0
-Atacama,03,2020-05-25,SE19,0.0
-Coquimbo,04,2020-05-25,SE19,0.0
-Valparaíso,05,2020-05-25,SE19,0.0
-Metropolitana,13,2020-05-25,SE19,2.0
-O’Higgins,06,2020-05-25,SE19,0.0
-Maule,07,2020-05-25,SE19,0.0
-Ñuble,16,2020-05-25,SE19,0.0
-Biobío,08,2020-05-25,SE19,0.0
-Araucanía,09,2020-05-25,SE19,0.0
-Los Ríos,14,2020-05-25,SE19,0.0
-Los Lagos,10,2020-05-25,SE19,0.0
-Aysén,11,2020-05-25,SE19,0.0
-Magallanes,12,2020-05-25,SE19,0.0
-Arica y Parinacota,15,2020-05-18,SE19,0.0
-Tarapacá,01,2020-05-18,SE19,0.0
-Antofagasta,02,2020-05-18,SE19,0.0
-Atacama,03,2020-05-18,SE19,0.0
-Coquimbo,04,2020-05-18,SE19,0.0
-Valparaíso,05,2020-05-18,SE19,0.0
-Metropolitana,13,2020-05-18,SE19,1.0
-O’Higgins,06,2020-05-18,SE19,0.0
-Maule,07,2020-05-18,SE19,0.0
-Ñuble,16,2020-05-18,SE19,0.0
-Biobío,08,2020-05-18,SE19,0.0
-Araucanía,09,2020-05-18,SE19,0.0
-Los Ríos,14,2020-05-18,SE19,0.0
-Los Lagos,10,2020-05-18,SE19,0.0
-Aysén,11,2020-05-18,SE19,0.0
-Magallanes,12,2020-05-18,SE19,0.0
-Arica y Parinacota,15,2020-05-08,SE19,0.0
-Tarapacá,01,2020-05-08,SE19,0.0
-Antofagasta,02,2020-05-08,SE19,0.0
-Atacama,03,2020-05-08,SE19,0.0
-Coquimbo,04,2020-05-08,SE19,0.0
-Valparaíso,05,2020-05-08,SE19,0.0
-Metropolitana,13,2020-05-08,SE19,0.0
-O’Higgins,06,2020-05-08,SE19,0.0
-Maule,07,2020-05-08,SE19,0.0
-Ñuble,16,2020-05-08,SE19,0.0
-Biobío,08,2020-05-08,SE19,0.0
-Araucanía,09,2020-05-08,SE19,0.0
-Los Ríos,14,2020-05-08,SE19,0.0
-Los Lagos,10,2020-05-08,SE19,0.0
-Aysén,11,2020-05-08,SE19,0.0
-Magallanes,12,2020-05-08,SE19,0.0
-Arica y Parinacota,15,2020-05-22,SE19,0.0
-Tarapacá,01,2020-05-22,SE19,0.0
-Antofagasta,02,2020-05-22,SE19,0.0
-Atacama,03,2020-05-22,SE19,0.0
-Coquimbo,04,2020-05-22,SE19,0.0
-Valparaíso,05,2020-05-22,SE19,0.0
-Metropolitana,13,2020-05-22,SE19,2.0
-O’Higgins,06,2020-05-22,SE19,0.0
-Maule,07,2020-05-22,SE19,0.0
-Ñuble,16,2020-05-22,SE19,0.0
-Biobío,08,2020-05-22,SE19,0.0
-Araucanía,09,2020-05-22,SE19,0.0
-Los Ríos,14,2020-05-22,SE19,0.0
-Los Lagos,10,2020-05-22,SE19,0.0
-Aysén,11,2020-05-22,SE19,0.0
-Magallanes,12,2020-05-22,SE19,0.0
-Arica y Parinacota,15,2020-05-04,SE20,0.0
-Tarapacá,01,2020-05-04,SE20,0.0
-Antofagasta,02,2020-05-04,SE20,0.0
-Atacama,03,2020-05-04,SE20,0.0
-Coquimbo,04,2020-05-04,SE20,0.0
-Valparaíso,05,2020-05-04,SE20,0.0
-Metropolitana,13,2020-05-04,SE20,0.0
-O’Higgins,06,2020-05-04,SE20,0.0
-Maule,07,2020-05-04,SE20,0.0
-Ñuble,16,2020-05-04,SE20,0.0
-Biobío,08,2020-05-04,SE20,0.0
-Araucanía,09,2020-05-04,SE20,0.0
-Los Ríos,14,2020-05-04,SE20,0.0
-Los Lagos,10,2020-05-04,SE20,0.0
-Aysén,11,2020-05-04,SE20,0.0
-Magallanes,12,2020-05-04,SE20,0.0
 Arica y Parinacota,15,2020-05-11,SE20,0.0
 Tarapacá,01,2020-05-11,SE20,0.0
 Antofagasta,02,2020-05-11,SE20,0.0
@@ -2111,6 +2095,118 @@ Los Ríos,14,2020-05-11,SE20,0.0
 Los Lagos,10,2020-05-11,SE20,0.0
 Aysén,11,2020-05-11,SE20,0.0
 Magallanes,12,2020-05-11,SE20,0.0
+Arica y Parinacota,15,2020-05-25,SE20,0.0
+Tarapacá,01,2020-05-25,SE20,0.0
+Antofagasta,02,2020-05-25,SE20,0.0
+Atacama,03,2020-05-25,SE20,0.0
+Coquimbo,04,2020-05-25,SE20,0.0
+Valparaíso,05,2020-05-25,SE20,0.0
+Metropolitana,13,2020-05-25,SE20,1.0
+O’Higgins,06,2020-05-25,SE20,0.0
+Maule,07,2020-05-25,SE20,0.0
+Ñuble,16,2020-05-25,SE20,0.0
+Biobío,08,2020-05-25,SE20,0.0
+Araucanía,09,2020-05-25,SE20,0.0
+Los Ríos,14,2020-05-25,SE20,0.0
+Los Lagos,10,2020-05-25,SE20,0.0
+Aysén,11,2020-05-25,SE20,0.0
+Magallanes,12,2020-05-25,SE20,0.0
+Arica y Parinacota,15,2020-05-08,SE20,0.0
+Tarapacá,01,2020-05-08,SE20,0.0
+Antofagasta,02,2020-05-08,SE20,0.0
+Atacama,03,2020-05-08,SE20,0.0
+Coquimbo,04,2020-05-08,SE20,0.0
+Valparaíso,05,2020-05-08,SE20,0.0
+Metropolitana,13,2020-05-08,SE20,0.0
+O’Higgins,06,2020-05-08,SE20,0.0
+Maule,07,2020-05-08,SE20,0.0
+Ñuble,16,2020-05-08,SE20,0.0
+Biobío,08,2020-05-08,SE20,0.0
+Araucanía,09,2020-05-08,SE20,0.0
+Los Ríos,14,2020-05-08,SE20,0.0
+Los Lagos,10,2020-05-08,SE20,0.0
+Aysén,11,2020-05-08,SE20,0.0
+Magallanes,12,2020-05-08,SE20,0.0
+Arica y Parinacota,15,2020-05-15,SE20,0.0
+Tarapacá,01,2020-05-15,SE20,0.0
+Antofagasta,02,2020-05-15,SE20,0.0
+Atacama,03,2020-05-15,SE20,0.0
+Coquimbo,04,2020-05-15,SE20,0.0
+Valparaíso,05,2020-05-15,SE20,0.0
+Metropolitana,13,2020-05-15,SE20,0.0
+O’Higgins,06,2020-05-15,SE20,0.0
+Maule,07,2020-05-15,SE20,0.0
+Ñuble,16,2020-05-15,SE20,0.0
+Biobío,08,2020-05-15,SE20,0.0
+Araucanía,09,2020-05-15,SE20,0.0
+Los Ríos,14,2020-05-15,SE20,0.0
+Los Lagos,10,2020-05-15,SE20,0.0
+Aysén,11,2020-05-15,SE20,0.0
+Magallanes,12,2020-05-15,SE20,0.0
+Arica y Parinacota,15,2020-05-22,SE20,0.0
+Tarapacá,01,2020-05-22,SE20,0.0
+Antofagasta,02,2020-05-22,SE20,0.0
+Atacama,03,2020-05-22,SE20,0.0
+Coquimbo,04,2020-05-22,SE20,0.0
+Valparaíso,05,2020-05-22,SE20,0.0
+Metropolitana,13,2020-05-22,SE20,0.0
+O’Higgins,06,2020-05-22,SE20,0.0
+Maule,07,2020-05-22,SE20,0.0
+Ñuble,16,2020-05-22,SE20,0.0
+Biobío,08,2020-05-22,SE20,0.0
+Araucanía,09,2020-05-22,SE20,0.0
+Los Ríos,14,2020-05-22,SE20,0.0
+Los Lagos,10,2020-05-22,SE20,0.0
+Aysén,11,2020-05-22,SE20,0.0
+Magallanes,12,2020-05-22,SE20,0.0
+Arica y Parinacota,15,2020-05-04,SE20,0.0
+Tarapacá,01,2020-05-04,SE20,0.0
+Antofagasta,02,2020-05-04,SE20,0.0
+Atacama,03,2020-05-04,SE20,0.0
+Coquimbo,04,2020-05-04,SE20,0.0
+Valparaíso,05,2020-05-04,SE20,0.0
+Metropolitana,13,2020-05-04,SE20,0.0
+O’Higgins,06,2020-05-04,SE20,0.0
+Maule,07,2020-05-04,SE20,0.0
+Ñuble,16,2020-05-04,SE20,0.0
+Biobío,08,2020-05-04,SE20,0.0
+Araucanía,09,2020-05-04,SE20,0.0
+Los Ríos,14,2020-05-04,SE20,0.0
+Los Lagos,10,2020-05-04,SE20,0.0
+Aysén,11,2020-05-04,SE20,0.0
+Magallanes,12,2020-05-04,SE20,0.0
+Arica y Parinacota,15,2020-05-01,SE20,0.0
+Tarapacá,01,2020-05-01,SE20,0.0
+Antofagasta,02,2020-05-01,SE20,0.0
+Atacama,03,2020-05-01,SE20,0.0
+Coquimbo,04,2020-05-01,SE20,0.0
+Valparaíso,05,2020-05-01,SE20,0.0
+Metropolitana,13,2020-05-01,SE20,0.0
+O’Higgins,06,2020-05-01,SE20,0.0
+Maule,07,2020-05-01,SE20,0.0
+Ñuble,16,2020-05-01,SE20,0.0
+Biobío,08,2020-05-01,SE20,0.0
+Araucanía,09,2020-05-01,SE20,0.0
+Los Ríos,14,2020-05-01,SE20,0.0
+Los Lagos,10,2020-05-01,SE20,0.0
+Aysén,11,2020-05-01,SE20,0.0
+Magallanes,12,2020-05-01,SE20,0.0
+Arica y Parinacota,15,2020-05-18,SE20,0.0
+Tarapacá,01,2020-05-18,SE20,0.0
+Antofagasta,02,2020-05-18,SE20,0.0
+Atacama,03,2020-05-18,SE20,0.0
+Coquimbo,04,2020-05-18,SE20,0.0
+Valparaíso,05,2020-05-18,SE20,0.0
+Metropolitana,13,2020-05-18,SE20,0.0
+O’Higgins,06,2020-05-18,SE20,0.0
+Maule,07,2020-05-18,SE20,0.0
+Ñuble,16,2020-05-18,SE20,0.0
+Biobío,08,2020-05-18,SE20,0.0
+Araucanía,09,2020-05-18,SE20,0.0
+Los Ríos,14,2020-05-18,SE20,0.0
+Los Lagos,10,2020-05-18,SE20,0.0
+Aysén,11,2020-05-18,SE20,0.0
+Magallanes,12,2020-05-18,SE20,0.0
 Arica y Parinacota,15,2020-05-29,SE20,0.0
 Tarapacá,01,2020-05-29,SE20,0.0
 Antofagasta,02,2020-05-29,SE20,0.0
@@ -2143,118 +2239,6 @@ Los Ríos,14,2020-06-01,SE20,0.0
 Los Lagos,10,2020-06-01,SE20,0.0
 Aysén,11,2020-06-01,SE20,0.0
 Magallanes,12,2020-06-01,SE20,0.0
-Arica y Parinacota,15,2020-05-01,SE20,0.0
-Tarapacá,01,2020-05-01,SE20,0.0
-Antofagasta,02,2020-05-01,SE20,0.0
-Atacama,03,2020-05-01,SE20,0.0
-Coquimbo,04,2020-05-01,SE20,0.0
-Valparaíso,05,2020-05-01,SE20,0.0
-Metropolitana,13,2020-05-01,SE20,0.0
-O’Higgins,06,2020-05-01,SE20,0.0
-Maule,07,2020-05-01,SE20,0.0
-Ñuble,16,2020-05-01,SE20,0.0
-Biobío,08,2020-05-01,SE20,0.0
-Araucanía,09,2020-05-01,SE20,0.0
-Los Ríos,14,2020-05-01,SE20,0.0
-Los Lagos,10,2020-05-01,SE20,0.0
-Aysén,11,2020-05-01,SE20,0.0
-Magallanes,12,2020-05-01,SE20,0.0
-Arica y Parinacota,15,2020-05-15,SE20,0.0
-Tarapacá,01,2020-05-15,SE20,0.0
-Antofagasta,02,2020-05-15,SE20,0.0
-Atacama,03,2020-05-15,SE20,0.0
-Coquimbo,04,2020-05-15,SE20,0.0
-Valparaíso,05,2020-05-15,SE20,0.0
-Metropolitana,13,2020-05-15,SE20,0.0
-O’Higgins,06,2020-05-15,SE20,0.0
-Maule,07,2020-05-15,SE20,0.0
-Ñuble,16,2020-05-15,SE20,0.0
-Biobío,08,2020-05-15,SE20,0.0
-Araucanía,09,2020-05-15,SE20,0.0
-Los Ríos,14,2020-05-15,SE20,0.0
-Los Lagos,10,2020-05-15,SE20,0.0
-Aysén,11,2020-05-15,SE20,0.0
-Magallanes,12,2020-05-15,SE20,0.0
-Arica y Parinacota,15,2020-05-25,SE20,0.0
-Tarapacá,01,2020-05-25,SE20,0.0
-Antofagasta,02,2020-05-25,SE20,0.0
-Atacama,03,2020-05-25,SE20,0.0
-Coquimbo,04,2020-05-25,SE20,0.0
-Valparaíso,05,2020-05-25,SE20,0.0
-Metropolitana,13,2020-05-25,SE20,1.0
-O’Higgins,06,2020-05-25,SE20,0.0
-Maule,07,2020-05-25,SE20,0.0
-Ñuble,16,2020-05-25,SE20,0.0
-Biobío,08,2020-05-25,SE20,0.0
-Araucanía,09,2020-05-25,SE20,0.0
-Los Ríos,14,2020-05-25,SE20,0.0
-Los Lagos,10,2020-05-25,SE20,0.0
-Aysén,11,2020-05-25,SE20,0.0
-Magallanes,12,2020-05-25,SE20,0.0
-Arica y Parinacota,15,2020-05-18,SE20,0.0
-Tarapacá,01,2020-05-18,SE20,0.0
-Antofagasta,02,2020-05-18,SE20,0.0
-Atacama,03,2020-05-18,SE20,0.0
-Coquimbo,04,2020-05-18,SE20,0.0
-Valparaíso,05,2020-05-18,SE20,0.0
-Metropolitana,13,2020-05-18,SE20,0.0
-O’Higgins,06,2020-05-18,SE20,0.0
-Maule,07,2020-05-18,SE20,0.0
-Ñuble,16,2020-05-18,SE20,0.0
-Biobío,08,2020-05-18,SE20,0.0
-Araucanía,09,2020-05-18,SE20,0.0
-Los Ríos,14,2020-05-18,SE20,0.0
-Los Lagos,10,2020-05-18,SE20,0.0
-Aysén,11,2020-05-18,SE20,0.0
-Magallanes,12,2020-05-18,SE20,0.0
-Arica y Parinacota,15,2020-05-08,SE20,0.0
-Tarapacá,01,2020-05-08,SE20,0.0
-Antofagasta,02,2020-05-08,SE20,0.0
-Atacama,03,2020-05-08,SE20,0.0
-Coquimbo,04,2020-05-08,SE20,0.0
-Valparaíso,05,2020-05-08,SE20,0.0
-Metropolitana,13,2020-05-08,SE20,0.0
-O’Higgins,06,2020-05-08,SE20,0.0
-Maule,07,2020-05-08,SE20,0.0
-Ñuble,16,2020-05-08,SE20,0.0
-Biobío,08,2020-05-08,SE20,0.0
-Araucanía,09,2020-05-08,SE20,0.0
-Los Ríos,14,2020-05-08,SE20,0.0
-Los Lagos,10,2020-05-08,SE20,0.0
-Aysén,11,2020-05-08,SE20,0.0
-Magallanes,12,2020-05-08,SE20,0.0
-Arica y Parinacota,15,2020-05-22,SE20,0.0
-Tarapacá,01,2020-05-22,SE20,0.0
-Antofagasta,02,2020-05-22,SE20,0.0
-Atacama,03,2020-05-22,SE20,0.0
-Coquimbo,04,2020-05-22,SE20,0.0
-Valparaíso,05,2020-05-22,SE20,0.0
-Metropolitana,13,2020-05-22,SE20,0.0
-O’Higgins,06,2020-05-22,SE20,0.0
-Maule,07,2020-05-22,SE20,0.0
-Ñuble,16,2020-05-22,SE20,0.0
-Biobío,08,2020-05-22,SE20,0.0
-Araucanía,09,2020-05-22,SE20,0.0
-Los Ríos,14,2020-05-22,SE20,0.0
-Los Lagos,10,2020-05-22,SE20,0.0
-Aysén,11,2020-05-22,SE20,0.0
-Magallanes,12,2020-05-22,SE20,0.0
-Arica y Parinacota,15,2020-05-04,SE21,0.0
-Tarapacá,01,2020-05-04,SE21,0.0
-Antofagasta,02,2020-05-04,SE21,0.0
-Atacama,03,2020-05-04,SE21,0.0
-Coquimbo,04,2020-05-04,SE21,0.0
-Valparaíso,05,2020-05-04,SE21,0.0
-Metropolitana,13,2020-05-04,SE21,0.0
-O’Higgins,06,2020-05-04,SE21,0.0
-Maule,07,2020-05-04,SE21,0.0
-Ñuble,16,2020-05-04,SE21,0.0
-Biobío,08,2020-05-04,SE21,0.0
-Araucanía,09,2020-05-04,SE21,0.0
-Los Ríos,14,2020-05-04,SE21,0.0
-Los Lagos,10,2020-05-04,SE21,0.0
-Aysén,11,2020-05-04,SE21,0.0
-Magallanes,12,2020-05-04,SE21,0.0
 Arica y Parinacota,15,2020-05-11,SE21,0.0
 Tarapacá,01,2020-05-11,SE21,0.0
 Antofagasta,02,2020-05-11,SE21,0.0
@@ -2271,6 +2255,118 @@ Los Ríos,14,2020-05-11,SE21,0.0
 Los Lagos,10,2020-05-11,SE21,0.0
 Aysén,11,2020-05-11,SE21,0.0
 Magallanes,12,2020-05-11,SE21,0.0
+Arica y Parinacota,15,2020-05-25,SE21,0.0
+Tarapacá,01,2020-05-25,SE21,0.0
+Antofagasta,02,2020-05-25,SE21,0.0
+Atacama,03,2020-05-25,SE21,0.0
+Coquimbo,04,2020-05-25,SE21,0.0
+Valparaíso,05,2020-05-25,SE21,0.0
+Metropolitana,13,2020-05-25,SE21,1.0
+O’Higgins,06,2020-05-25,SE21,0.0
+Maule,07,2020-05-25,SE21,0.0
+Ñuble,16,2020-05-25,SE21,0.0
+Biobío,08,2020-05-25,SE21,0.0
+Araucanía,09,2020-05-25,SE21,0.0
+Los Ríos,14,2020-05-25,SE21,0.0
+Los Lagos,10,2020-05-25,SE21,0.0
+Aysén,11,2020-05-25,SE21,0.0
+Magallanes,12,2020-05-25,SE21,0.0
+Arica y Parinacota,15,2020-05-08,SE21,0.0
+Tarapacá,01,2020-05-08,SE21,0.0
+Antofagasta,02,2020-05-08,SE21,0.0
+Atacama,03,2020-05-08,SE21,0.0
+Coquimbo,04,2020-05-08,SE21,0.0
+Valparaíso,05,2020-05-08,SE21,0.0
+Metropolitana,13,2020-05-08,SE21,0.0
+O’Higgins,06,2020-05-08,SE21,0.0
+Maule,07,2020-05-08,SE21,0.0
+Ñuble,16,2020-05-08,SE21,0.0
+Biobío,08,2020-05-08,SE21,0.0
+Araucanía,09,2020-05-08,SE21,0.0
+Los Ríos,14,2020-05-08,SE21,0.0
+Los Lagos,10,2020-05-08,SE21,0.0
+Aysén,11,2020-05-08,SE21,0.0
+Magallanes,12,2020-05-08,SE21,0.0
+Arica y Parinacota,15,2020-05-15,SE21,0.0
+Tarapacá,01,2020-05-15,SE21,0.0
+Antofagasta,02,2020-05-15,SE21,0.0
+Atacama,03,2020-05-15,SE21,0.0
+Coquimbo,04,2020-05-15,SE21,0.0
+Valparaíso,05,2020-05-15,SE21,0.0
+Metropolitana,13,2020-05-15,SE21,0.0
+O’Higgins,06,2020-05-15,SE21,0.0
+Maule,07,2020-05-15,SE21,0.0
+Ñuble,16,2020-05-15,SE21,0.0
+Biobío,08,2020-05-15,SE21,0.0
+Araucanía,09,2020-05-15,SE21,0.0
+Los Ríos,14,2020-05-15,SE21,0.0
+Los Lagos,10,2020-05-15,SE21,0.0
+Aysén,11,2020-05-15,SE21,0.0
+Magallanes,12,2020-05-15,SE21,0.0
+Arica y Parinacota,15,2020-05-22,SE21,0.0
+Tarapacá,01,2020-05-22,SE21,0.0
+Antofagasta,02,2020-05-22,SE21,0.0
+Atacama,03,2020-05-22,SE21,0.0
+Coquimbo,04,2020-05-22,SE21,0.0
+Valparaíso,05,2020-05-22,SE21,0.0
+Metropolitana,13,2020-05-22,SE21,0.0
+O’Higgins,06,2020-05-22,SE21,0.0
+Maule,07,2020-05-22,SE21,0.0
+Ñuble,16,2020-05-22,SE21,0.0
+Biobío,08,2020-05-22,SE21,0.0
+Araucanía,09,2020-05-22,SE21,0.0
+Los Ríos,14,2020-05-22,SE21,0.0
+Los Lagos,10,2020-05-22,SE21,0.0
+Aysén,11,2020-05-22,SE21,0.0
+Magallanes,12,2020-05-22,SE21,0.0
+Arica y Parinacota,15,2020-05-04,SE21,0.0
+Tarapacá,01,2020-05-04,SE21,0.0
+Antofagasta,02,2020-05-04,SE21,0.0
+Atacama,03,2020-05-04,SE21,0.0
+Coquimbo,04,2020-05-04,SE21,0.0
+Valparaíso,05,2020-05-04,SE21,0.0
+Metropolitana,13,2020-05-04,SE21,0.0
+O’Higgins,06,2020-05-04,SE21,0.0
+Maule,07,2020-05-04,SE21,0.0
+Ñuble,16,2020-05-04,SE21,0.0
+Biobío,08,2020-05-04,SE21,0.0
+Araucanía,09,2020-05-04,SE21,0.0
+Los Ríos,14,2020-05-04,SE21,0.0
+Los Lagos,10,2020-05-04,SE21,0.0
+Aysén,11,2020-05-04,SE21,0.0
+Magallanes,12,2020-05-04,SE21,0.0
+Arica y Parinacota,15,2020-05-01,SE21,0.0
+Tarapacá,01,2020-05-01,SE21,0.0
+Antofagasta,02,2020-05-01,SE21,0.0
+Atacama,03,2020-05-01,SE21,0.0
+Coquimbo,04,2020-05-01,SE21,0.0
+Valparaíso,05,2020-05-01,SE21,0.0
+Metropolitana,13,2020-05-01,SE21,0.0
+O’Higgins,06,2020-05-01,SE21,0.0
+Maule,07,2020-05-01,SE21,0.0
+Ñuble,16,2020-05-01,SE21,0.0
+Biobío,08,2020-05-01,SE21,0.0
+Araucanía,09,2020-05-01,SE21,0.0
+Los Ríos,14,2020-05-01,SE21,0.0
+Los Lagos,10,2020-05-01,SE21,0.0
+Aysén,11,2020-05-01,SE21,0.0
+Magallanes,12,2020-05-01,SE21,0.0
+Arica y Parinacota,15,2020-05-18,SE21,0.0
+Tarapacá,01,2020-05-18,SE21,0.0
+Antofagasta,02,2020-05-18,SE21,0.0
+Atacama,03,2020-05-18,SE21,0.0
+Coquimbo,04,2020-05-18,SE21,0.0
+Valparaíso,05,2020-05-18,SE21,0.0
+Metropolitana,13,2020-05-18,SE21,0.0
+O’Higgins,06,2020-05-18,SE21,0.0
+Maule,07,2020-05-18,SE21,0.0
+Ñuble,16,2020-05-18,SE21,0.0
+Biobío,08,2020-05-18,SE21,0.0
+Araucanía,09,2020-05-18,SE21,0.0
+Los Ríos,14,2020-05-18,SE21,0.0
+Los Lagos,10,2020-05-18,SE21,0.0
+Aysén,11,2020-05-18,SE21,0.0
+Magallanes,12,2020-05-18,SE21,0.0
 Arica y Parinacota,15,2020-05-29,SE21,0.0
 Tarapacá,01,2020-05-29,SE21,0.0
 Antofagasta,02,2020-05-29,SE21,0.0
@@ -2303,118 +2399,6 @@ Los Ríos,14,2020-06-01,SE21,0.0
 Los Lagos,10,2020-06-01,SE21,0.0
 Aysén,11,2020-06-01,SE21,0.0
 Magallanes,12,2020-06-01,SE21,0.0
-Arica y Parinacota,15,2020-05-01,SE21,0.0
-Tarapacá,01,2020-05-01,SE21,0.0
-Antofagasta,02,2020-05-01,SE21,0.0
-Atacama,03,2020-05-01,SE21,0.0
-Coquimbo,04,2020-05-01,SE21,0.0
-Valparaíso,05,2020-05-01,SE21,0.0
-Metropolitana,13,2020-05-01,SE21,0.0
-O’Higgins,06,2020-05-01,SE21,0.0
-Maule,07,2020-05-01,SE21,0.0
-Ñuble,16,2020-05-01,SE21,0.0
-Biobío,08,2020-05-01,SE21,0.0
-Araucanía,09,2020-05-01,SE21,0.0
-Los Ríos,14,2020-05-01,SE21,0.0
-Los Lagos,10,2020-05-01,SE21,0.0
-Aysén,11,2020-05-01,SE21,0.0
-Magallanes,12,2020-05-01,SE21,0.0
-Arica y Parinacota,15,2020-05-15,SE21,0.0
-Tarapacá,01,2020-05-15,SE21,0.0
-Antofagasta,02,2020-05-15,SE21,0.0
-Atacama,03,2020-05-15,SE21,0.0
-Coquimbo,04,2020-05-15,SE21,0.0
-Valparaíso,05,2020-05-15,SE21,0.0
-Metropolitana,13,2020-05-15,SE21,0.0
-O’Higgins,06,2020-05-15,SE21,0.0
-Maule,07,2020-05-15,SE21,0.0
-Ñuble,16,2020-05-15,SE21,0.0
-Biobío,08,2020-05-15,SE21,0.0
-Araucanía,09,2020-05-15,SE21,0.0
-Los Ríos,14,2020-05-15,SE21,0.0
-Los Lagos,10,2020-05-15,SE21,0.0
-Aysén,11,2020-05-15,SE21,0.0
-Magallanes,12,2020-05-15,SE21,0.0
-Arica y Parinacota,15,2020-05-25,SE21,0.0
-Tarapacá,01,2020-05-25,SE21,0.0
-Antofagasta,02,2020-05-25,SE21,0.0
-Atacama,03,2020-05-25,SE21,0.0
-Coquimbo,04,2020-05-25,SE21,0.0
-Valparaíso,05,2020-05-25,SE21,0.0
-Metropolitana,13,2020-05-25,SE21,1.0
-O’Higgins,06,2020-05-25,SE21,0.0
-Maule,07,2020-05-25,SE21,0.0
-Ñuble,16,2020-05-25,SE21,0.0
-Biobío,08,2020-05-25,SE21,0.0
-Araucanía,09,2020-05-25,SE21,0.0
-Los Ríos,14,2020-05-25,SE21,0.0
-Los Lagos,10,2020-05-25,SE21,0.0
-Aysén,11,2020-05-25,SE21,0.0
-Magallanes,12,2020-05-25,SE21,0.0
-Arica y Parinacota,15,2020-05-18,SE21,0.0
-Tarapacá,01,2020-05-18,SE21,0.0
-Antofagasta,02,2020-05-18,SE21,0.0
-Atacama,03,2020-05-18,SE21,0.0
-Coquimbo,04,2020-05-18,SE21,0.0
-Valparaíso,05,2020-05-18,SE21,0.0
-Metropolitana,13,2020-05-18,SE21,0.0
-O’Higgins,06,2020-05-18,SE21,0.0
-Maule,07,2020-05-18,SE21,0.0
-Ñuble,16,2020-05-18,SE21,0.0
-Biobío,08,2020-05-18,SE21,0.0
-Araucanía,09,2020-05-18,SE21,0.0
-Los Ríos,14,2020-05-18,SE21,0.0
-Los Lagos,10,2020-05-18,SE21,0.0
-Aysén,11,2020-05-18,SE21,0.0
-Magallanes,12,2020-05-18,SE21,0.0
-Arica y Parinacota,15,2020-05-08,SE21,0.0
-Tarapacá,01,2020-05-08,SE21,0.0
-Antofagasta,02,2020-05-08,SE21,0.0
-Atacama,03,2020-05-08,SE21,0.0
-Coquimbo,04,2020-05-08,SE21,0.0
-Valparaíso,05,2020-05-08,SE21,0.0
-Metropolitana,13,2020-05-08,SE21,0.0
-O’Higgins,06,2020-05-08,SE21,0.0
-Maule,07,2020-05-08,SE21,0.0
-Ñuble,16,2020-05-08,SE21,0.0
-Biobío,08,2020-05-08,SE21,0.0
-Araucanía,09,2020-05-08,SE21,0.0
-Los Ríos,14,2020-05-08,SE21,0.0
-Los Lagos,10,2020-05-08,SE21,0.0
-Aysén,11,2020-05-08,SE21,0.0
-Magallanes,12,2020-05-08,SE21,0.0
-Arica y Parinacota,15,2020-05-22,SE21,0.0
-Tarapacá,01,2020-05-22,SE21,0.0
-Antofagasta,02,2020-05-22,SE21,0.0
-Atacama,03,2020-05-22,SE21,0.0
-Coquimbo,04,2020-05-22,SE21,0.0
-Valparaíso,05,2020-05-22,SE21,0.0
-Metropolitana,13,2020-05-22,SE21,0.0
-O’Higgins,06,2020-05-22,SE21,0.0
-Maule,07,2020-05-22,SE21,0.0
-Ñuble,16,2020-05-22,SE21,0.0
-Biobío,08,2020-05-22,SE21,0.0
-Araucanía,09,2020-05-22,SE21,0.0
-Los Ríos,14,2020-05-22,SE21,0.0
-Los Lagos,10,2020-05-22,SE21,0.0
-Aysén,11,2020-05-22,SE21,0.0
-Magallanes,12,2020-05-22,SE21,0.0
-Arica y Parinacota,15,2020-05-04,SE22,0.0
-Tarapacá,01,2020-05-04,SE22,0.0
-Antofagasta,02,2020-05-04,SE22,0.0
-Atacama,03,2020-05-04,SE22,0.0
-Coquimbo,04,2020-05-04,SE22,0.0
-Valparaíso,05,2020-05-04,SE22,0.0
-Metropolitana,13,2020-05-04,SE22,0.0
-O’Higgins,06,2020-05-04,SE22,0.0
-Maule,07,2020-05-04,SE22,0.0
-Ñuble,16,2020-05-04,SE22,0.0
-Biobío,08,2020-05-04,SE22,0.0
-Araucanía,09,2020-05-04,SE22,0.0
-Los Ríos,14,2020-05-04,SE22,0.0
-Los Lagos,10,2020-05-04,SE22,0.0
-Aysén,11,2020-05-04,SE22,0.0
-Magallanes,12,2020-05-04,SE22,0.0
 Arica y Parinacota,15,2020-05-11,SE22,0.0
 Tarapacá,01,2020-05-11,SE22,0.0
 Antofagasta,02,2020-05-11,SE22,0.0
@@ -2431,6 +2415,118 @@ Los Ríos,14,2020-05-11,SE22,0.0
 Los Lagos,10,2020-05-11,SE22,0.0
 Aysén,11,2020-05-11,SE22,0.0
 Magallanes,12,2020-05-11,SE22,0.0
+Arica y Parinacota,15,2020-05-25,SE22,0.0
+Tarapacá,01,2020-05-25,SE22,0.0
+Antofagasta,02,2020-05-25,SE22,0.0
+Atacama,03,2020-05-25,SE22,0.0
+Coquimbo,04,2020-05-25,SE22,0.0
+Valparaíso,05,2020-05-25,SE22,0.0
+Metropolitana,13,2020-05-25,SE22,0.0
+O’Higgins,06,2020-05-25,SE22,0.0
+Maule,07,2020-05-25,SE22,0.0
+Ñuble,16,2020-05-25,SE22,0.0
+Biobío,08,2020-05-25,SE22,0.0
+Araucanía,09,2020-05-25,SE22,0.0
+Los Ríos,14,2020-05-25,SE22,0.0
+Los Lagos,10,2020-05-25,SE22,0.0
+Aysén,11,2020-05-25,SE22,0.0
+Magallanes,12,2020-05-25,SE22,0.0
+Arica y Parinacota,15,2020-05-08,SE22,0.0
+Tarapacá,01,2020-05-08,SE22,0.0
+Antofagasta,02,2020-05-08,SE22,0.0
+Atacama,03,2020-05-08,SE22,0.0
+Coquimbo,04,2020-05-08,SE22,0.0
+Valparaíso,05,2020-05-08,SE22,0.0
+Metropolitana,13,2020-05-08,SE22,0.0
+O’Higgins,06,2020-05-08,SE22,0.0
+Maule,07,2020-05-08,SE22,0.0
+Ñuble,16,2020-05-08,SE22,0.0
+Biobío,08,2020-05-08,SE22,0.0
+Araucanía,09,2020-05-08,SE22,0.0
+Los Ríos,14,2020-05-08,SE22,0.0
+Los Lagos,10,2020-05-08,SE22,0.0
+Aysén,11,2020-05-08,SE22,0.0
+Magallanes,12,2020-05-08,SE22,0.0
+Arica y Parinacota,15,2020-05-15,SE22,0.0
+Tarapacá,01,2020-05-15,SE22,0.0
+Antofagasta,02,2020-05-15,SE22,0.0
+Atacama,03,2020-05-15,SE22,0.0
+Coquimbo,04,2020-05-15,SE22,0.0
+Valparaíso,05,2020-05-15,SE22,0.0
+Metropolitana,13,2020-05-15,SE22,0.0
+O’Higgins,06,2020-05-15,SE22,0.0
+Maule,07,2020-05-15,SE22,0.0
+Ñuble,16,2020-05-15,SE22,0.0
+Biobío,08,2020-05-15,SE22,0.0
+Araucanía,09,2020-05-15,SE22,0.0
+Los Ríos,14,2020-05-15,SE22,0.0
+Los Lagos,10,2020-05-15,SE22,0.0
+Aysén,11,2020-05-15,SE22,0.0
+Magallanes,12,2020-05-15,SE22,0.0
+Arica y Parinacota,15,2020-05-22,SE22,0.0
+Tarapacá,01,2020-05-22,SE22,0.0
+Antofagasta,02,2020-05-22,SE22,0.0
+Atacama,03,2020-05-22,SE22,0.0
+Coquimbo,04,2020-05-22,SE22,0.0
+Valparaíso,05,2020-05-22,SE22,0.0
+Metropolitana,13,2020-05-22,SE22,0.0
+O’Higgins,06,2020-05-22,SE22,0.0
+Maule,07,2020-05-22,SE22,0.0
+Ñuble,16,2020-05-22,SE22,0.0
+Biobío,08,2020-05-22,SE22,0.0
+Araucanía,09,2020-05-22,SE22,0.0
+Los Ríos,14,2020-05-22,SE22,0.0
+Los Lagos,10,2020-05-22,SE22,0.0
+Aysén,11,2020-05-22,SE22,0.0
+Magallanes,12,2020-05-22,SE22,0.0
+Arica y Parinacota,15,2020-05-04,SE22,0.0
+Tarapacá,01,2020-05-04,SE22,0.0
+Antofagasta,02,2020-05-04,SE22,0.0
+Atacama,03,2020-05-04,SE22,0.0
+Coquimbo,04,2020-05-04,SE22,0.0
+Valparaíso,05,2020-05-04,SE22,0.0
+Metropolitana,13,2020-05-04,SE22,0.0
+O’Higgins,06,2020-05-04,SE22,0.0
+Maule,07,2020-05-04,SE22,0.0
+Ñuble,16,2020-05-04,SE22,0.0
+Biobío,08,2020-05-04,SE22,0.0
+Araucanía,09,2020-05-04,SE22,0.0
+Los Ríos,14,2020-05-04,SE22,0.0
+Los Lagos,10,2020-05-04,SE22,0.0
+Aysén,11,2020-05-04,SE22,0.0
+Magallanes,12,2020-05-04,SE22,0.0
+Arica y Parinacota,15,2020-05-01,SE22,0.0
+Tarapacá,01,2020-05-01,SE22,0.0
+Antofagasta,02,2020-05-01,SE22,0.0
+Atacama,03,2020-05-01,SE22,0.0
+Coquimbo,04,2020-05-01,SE22,0.0
+Valparaíso,05,2020-05-01,SE22,0.0
+Metropolitana,13,2020-05-01,SE22,0.0
+O’Higgins,06,2020-05-01,SE22,0.0
+Maule,07,2020-05-01,SE22,0.0
+Ñuble,16,2020-05-01,SE22,0.0
+Biobío,08,2020-05-01,SE22,0.0
+Araucanía,09,2020-05-01,SE22,0.0
+Los Ríos,14,2020-05-01,SE22,0.0
+Los Lagos,10,2020-05-01,SE22,0.0
+Aysén,11,2020-05-01,SE22,0.0
+Magallanes,12,2020-05-01,SE22,0.0
+Arica y Parinacota,15,2020-05-18,SE22,0.0
+Tarapacá,01,2020-05-18,SE22,0.0
+Antofagasta,02,2020-05-18,SE22,0.0
+Atacama,03,2020-05-18,SE22,0.0
+Coquimbo,04,2020-05-18,SE22,0.0
+Valparaíso,05,2020-05-18,SE22,0.0
+Metropolitana,13,2020-05-18,SE22,0.0
+O’Higgins,06,2020-05-18,SE22,0.0
+Maule,07,2020-05-18,SE22,0.0
+Ñuble,16,2020-05-18,SE22,0.0
+Biobío,08,2020-05-18,SE22,0.0
+Araucanía,09,2020-05-18,SE22,0.0
+Los Ríos,14,2020-05-18,SE22,0.0
+Los Lagos,10,2020-05-18,SE22,0.0
+Aysén,11,2020-05-18,SE22,0.0
+Magallanes,12,2020-05-18,SE22,0.0
 Arica y Parinacota,15,2020-05-29,SE22,0.0
 Tarapacá,01,2020-05-29,SE22,0.0
 Antofagasta,02,2020-05-29,SE22,0.0
@@ -2463,118 +2559,6 @@ Los Ríos,14,2020-06-01,SE22,0.0
 Los Lagos,10,2020-06-01,SE22,0.0
 Aysén,11,2020-06-01,SE22,0.0
 Magallanes,12,2020-06-01,SE22,0.0
-Arica y Parinacota,15,2020-05-01,SE22,0.0
-Tarapacá,01,2020-05-01,SE22,0.0
-Antofagasta,02,2020-05-01,SE22,0.0
-Atacama,03,2020-05-01,SE22,0.0
-Coquimbo,04,2020-05-01,SE22,0.0
-Valparaíso,05,2020-05-01,SE22,0.0
-Metropolitana,13,2020-05-01,SE22,0.0
-O’Higgins,06,2020-05-01,SE22,0.0
-Maule,07,2020-05-01,SE22,0.0
-Ñuble,16,2020-05-01,SE22,0.0
-Biobío,08,2020-05-01,SE22,0.0
-Araucanía,09,2020-05-01,SE22,0.0
-Los Ríos,14,2020-05-01,SE22,0.0
-Los Lagos,10,2020-05-01,SE22,0.0
-Aysén,11,2020-05-01,SE22,0.0
-Magallanes,12,2020-05-01,SE22,0.0
-Arica y Parinacota,15,2020-05-15,SE22,0.0
-Tarapacá,01,2020-05-15,SE22,0.0
-Antofagasta,02,2020-05-15,SE22,0.0
-Atacama,03,2020-05-15,SE22,0.0
-Coquimbo,04,2020-05-15,SE22,0.0
-Valparaíso,05,2020-05-15,SE22,0.0
-Metropolitana,13,2020-05-15,SE22,0.0
-O’Higgins,06,2020-05-15,SE22,0.0
-Maule,07,2020-05-15,SE22,0.0
-Ñuble,16,2020-05-15,SE22,0.0
-Biobío,08,2020-05-15,SE22,0.0
-Araucanía,09,2020-05-15,SE22,0.0
-Los Ríos,14,2020-05-15,SE22,0.0
-Los Lagos,10,2020-05-15,SE22,0.0
-Aysén,11,2020-05-15,SE22,0.0
-Magallanes,12,2020-05-15,SE22,0.0
-Arica y Parinacota,15,2020-05-25,SE22,0.0
-Tarapacá,01,2020-05-25,SE22,0.0
-Antofagasta,02,2020-05-25,SE22,0.0
-Atacama,03,2020-05-25,SE22,0.0
-Coquimbo,04,2020-05-25,SE22,0.0
-Valparaíso,05,2020-05-25,SE22,0.0
-Metropolitana,13,2020-05-25,SE22,0.0
-O’Higgins,06,2020-05-25,SE22,0.0
-Maule,07,2020-05-25,SE22,0.0
-Ñuble,16,2020-05-25,SE22,0.0
-Biobío,08,2020-05-25,SE22,0.0
-Araucanía,09,2020-05-25,SE22,0.0
-Los Ríos,14,2020-05-25,SE22,0.0
-Los Lagos,10,2020-05-25,SE22,0.0
-Aysén,11,2020-05-25,SE22,0.0
-Magallanes,12,2020-05-25,SE22,0.0
-Arica y Parinacota,15,2020-05-18,SE22,0.0
-Tarapacá,01,2020-05-18,SE22,0.0
-Antofagasta,02,2020-05-18,SE22,0.0
-Atacama,03,2020-05-18,SE22,0.0
-Coquimbo,04,2020-05-18,SE22,0.0
-Valparaíso,05,2020-05-18,SE22,0.0
-Metropolitana,13,2020-05-18,SE22,0.0
-O’Higgins,06,2020-05-18,SE22,0.0
-Maule,07,2020-05-18,SE22,0.0
-Ñuble,16,2020-05-18,SE22,0.0
-Biobío,08,2020-05-18,SE22,0.0
-Araucanía,09,2020-05-18,SE22,0.0
-Los Ríos,14,2020-05-18,SE22,0.0
-Los Lagos,10,2020-05-18,SE22,0.0
-Aysén,11,2020-05-18,SE22,0.0
-Magallanes,12,2020-05-18,SE22,0.0
-Arica y Parinacota,15,2020-05-08,SE22,0.0
-Tarapacá,01,2020-05-08,SE22,0.0
-Antofagasta,02,2020-05-08,SE22,0.0
-Atacama,03,2020-05-08,SE22,0.0
-Coquimbo,04,2020-05-08,SE22,0.0
-Valparaíso,05,2020-05-08,SE22,0.0
-Metropolitana,13,2020-05-08,SE22,0.0
-O’Higgins,06,2020-05-08,SE22,0.0
-Maule,07,2020-05-08,SE22,0.0
-Ñuble,16,2020-05-08,SE22,0.0
-Biobío,08,2020-05-08,SE22,0.0
-Araucanía,09,2020-05-08,SE22,0.0
-Los Ríos,14,2020-05-08,SE22,0.0
-Los Lagos,10,2020-05-08,SE22,0.0
-Aysén,11,2020-05-08,SE22,0.0
-Magallanes,12,2020-05-08,SE22,0.0
-Arica y Parinacota,15,2020-05-22,SE22,0.0
-Tarapacá,01,2020-05-22,SE22,0.0
-Antofagasta,02,2020-05-22,SE22,0.0
-Atacama,03,2020-05-22,SE22,0.0
-Coquimbo,04,2020-05-22,SE22,0.0
-Valparaíso,05,2020-05-22,SE22,0.0
-Metropolitana,13,2020-05-22,SE22,0.0
-O’Higgins,06,2020-05-22,SE22,0.0
-Maule,07,2020-05-22,SE22,0.0
-Ñuble,16,2020-05-22,SE22,0.0
-Biobío,08,2020-05-22,SE22,0.0
-Araucanía,09,2020-05-22,SE22,0.0
-Los Ríos,14,2020-05-22,SE22,0.0
-Los Lagos,10,2020-05-22,SE22,0.0
-Aysén,11,2020-05-22,SE22,0.0
-Magallanes,12,2020-05-22,SE22,0.0
-Arica y Parinacota,15,2020-05-04,SE23,0.0
-Tarapacá,01,2020-05-04,SE23,0.0
-Antofagasta,02,2020-05-04,SE23,0.0
-Atacama,03,2020-05-04,SE23,0.0
-Coquimbo,04,2020-05-04,SE23,0.0
-Valparaíso,05,2020-05-04,SE23,0.0
-Metropolitana,13,2020-05-04,SE23,0.0
-O’Higgins,06,2020-05-04,SE23,0.0
-Maule,07,2020-05-04,SE23,0.0
-Ñuble,16,2020-05-04,SE23,0.0
-Biobío,08,2020-05-04,SE23,0.0
-Araucanía,09,2020-05-04,SE23,0.0
-Los Ríos,14,2020-05-04,SE23,0.0
-Los Lagos,10,2020-05-04,SE23,0.0
-Aysén,11,2020-05-04,SE23,0.0
-Magallanes,12,2020-05-04,SE23,0.0
 Arica y Parinacota,15,2020-05-11,SE23,0.0
 Tarapacá,01,2020-05-11,SE23,0.0
 Antofagasta,02,2020-05-11,SE23,0.0
@@ -2591,6 +2575,118 @@ Los Ríos,14,2020-05-11,SE23,0.0
 Los Lagos,10,2020-05-11,SE23,0.0
 Aysén,11,2020-05-11,SE23,0.0
 Magallanes,12,2020-05-11,SE23,0.0
+Arica y Parinacota,15,2020-05-25,SE23,0.0
+Tarapacá,01,2020-05-25,SE23,0.0
+Antofagasta,02,2020-05-25,SE23,0.0
+Atacama,03,2020-05-25,SE23,0.0
+Coquimbo,04,2020-05-25,SE23,0.0
+Valparaíso,05,2020-05-25,SE23,0.0
+Metropolitana,13,2020-05-25,SE23,0.0
+O’Higgins,06,2020-05-25,SE23,0.0
+Maule,07,2020-05-25,SE23,0.0
+Ñuble,16,2020-05-25,SE23,0.0
+Biobío,08,2020-05-25,SE23,0.0
+Araucanía,09,2020-05-25,SE23,0.0
+Los Ríos,14,2020-05-25,SE23,0.0
+Los Lagos,10,2020-05-25,SE23,0.0
+Aysén,11,2020-05-25,SE23,0.0
+Magallanes,12,2020-05-25,SE23,0.0
+Arica y Parinacota,15,2020-05-08,SE23,0.0
+Tarapacá,01,2020-05-08,SE23,0.0
+Antofagasta,02,2020-05-08,SE23,0.0
+Atacama,03,2020-05-08,SE23,0.0
+Coquimbo,04,2020-05-08,SE23,0.0
+Valparaíso,05,2020-05-08,SE23,0.0
+Metropolitana,13,2020-05-08,SE23,0.0
+O’Higgins,06,2020-05-08,SE23,0.0
+Maule,07,2020-05-08,SE23,0.0
+Ñuble,16,2020-05-08,SE23,0.0
+Biobío,08,2020-05-08,SE23,0.0
+Araucanía,09,2020-05-08,SE23,0.0
+Los Ríos,14,2020-05-08,SE23,0.0
+Los Lagos,10,2020-05-08,SE23,0.0
+Aysén,11,2020-05-08,SE23,0.0
+Magallanes,12,2020-05-08,SE23,0.0
+Arica y Parinacota,15,2020-05-15,SE23,0.0
+Tarapacá,01,2020-05-15,SE23,0.0
+Antofagasta,02,2020-05-15,SE23,0.0
+Atacama,03,2020-05-15,SE23,0.0
+Coquimbo,04,2020-05-15,SE23,0.0
+Valparaíso,05,2020-05-15,SE23,0.0
+Metropolitana,13,2020-05-15,SE23,0.0
+O’Higgins,06,2020-05-15,SE23,0.0
+Maule,07,2020-05-15,SE23,0.0
+Ñuble,16,2020-05-15,SE23,0.0
+Biobío,08,2020-05-15,SE23,0.0
+Araucanía,09,2020-05-15,SE23,0.0
+Los Ríos,14,2020-05-15,SE23,0.0
+Los Lagos,10,2020-05-15,SE23,0.0
+Aysén,11,2020-05-15,SE23,0.0
+Magallanes,12,2020-05-15,SE23,0.0
+Arica y Parinacota,15,2020-05-22,SE23,0.0
+Tarapacá,01,2020-05-22,SE23,0.0
+Antofagasta,02,2020-05-22,SE23,0.0
+Atacama,03,2020-05-22,SE23,0.0
+Coquimbo,04,2020-05-22,SE23,0.0
+Valparaíso,05,2020-05-22,SE23,0.0
+Metropolitana,13,2020-05-22,SE23,0.0
+O’Higgins,06,2020-05-22,SE23,0.0
+Maule,07,2020-05-22,SE23,0.0
+Ñuble,16,2020-05-22,SE23,0.0
+Biobío,08,2020-05-22,SE23,0.0
+Araucanía,09,2020-05-22,SE23,0.0
+Los Ríos,14,2020-05-22,SE23,0.0
+Los Lagos,10,2020-05-22,SE23,0.0
+Aysén,11,2020-05-22,SE23,0.0
+Magallanes,12,2020-05-22,SE23,0.0
+Arica y Parinacota,15,2020-05-04,SE23,0.0
+Tarapacá,01,2020-05-04,SE23,0.0
+Antofagasta,02,2020-05-04,SE23,0.0
+Atacama,03,2020-05-04,SE23,0.0
+Coquimbo,04,2020-05-04,SE23,0.0
+Valparaíso,05,2020-05-04,SE23,0.0
+Metropolitana,13,2020-05-04,SE23,0.0
+O’Higgins,06,2020-05-04,SE23,0.0
+Maule,07,2020-05-04,SE23,0.0
+Ñuble,16,2020-05-04,SE23,0.0
+Biobío,08,2020-05-04,SE23,0.0
+Araucanía,09,2020-05-04,SE23,0.0
+Los Ríos,14,2020-05-04,SE23,0.0
+Los Lagos,10,2020-05-04,SE23,0.0
+Aysén,11,2020-05-04,SE23,0.0
+Magallanes,12,2020-05-04,SE23,0.0
+Arica y Parinacota,15,2020-05-01,SE23,0.0
+Tarapacá,01,2020-05-01,SE23,0.0
+Antofagasta,02,2020-05-01,SE23,0.0
+Atacama,03,2020-05-01,SE23,0.0
+Coquimbo,04,2020-05-01,SE23,0.0
+Valparaíso,05,2020-05-01,SE23,0.0
+Metropolitana,13,2020-05-01,SE23,0.0
+O’Higgins,06,2020-05-01,SE23,0.0
+Maule,07,2020-05-01,SE23,0.0
+Ñuble,16,2020-05-01,SE23,0.0
+Biobío,08,2020-05-01,SE23,0.0
+Araucanía,09,2020-05-01,SE23,0.0
+Los Ríos,14,2020-05-01,SE23,0.0
+Los Lagos,10,2020-05-01,SE23,0.0
+Aysén,11,2020-05-01,SE23,0.0
+Magallanes,12,2020-05-01,SE23,0.0
+Arica y Parinacota,15,2020-05-18,SE23,0.0
+Tarapacá,01,2020-05-18,SE23,0.0
+Antofagasta,02,2020-05-18,SE23,0.0
+Atacama,03,2020-05-18,SE23,0.0
+Coquimbo,04,2020-05-18,SE23,0.0
+Valparaíso,05,2020-05-18,SE23,0.0
+Metropolitana,13,2020-05-18,SE23,0.0
+O’Higgins,06,2020-05-18,SE23,0.0
+Maule,07,2020-05-18,SE23,0.0
+Ñuble,16,2020-05-18,SE23,0.0
+Biobío,08,2020-05-18,SE23,0.0
+Araucanía,09,2020-05-18,SE23,0.0
+Los Ríos,14,2020-05-18,SE23,0.0
+Los Lagos,10,2020-05-18,SE23,0.0
+Aysén,11,2020-05-18,SE23,0.0
+Magallanes,12,2020-05-18,SE23,0.0
 Arica y Parinacota,15,2020-05-29,SE23,0.0
 Tarapacá,01,2020-05-29,SE23,0.0
 Antofagasta,02,2020-05-29,SE23,0.0
@@ -2623,99 +2719,3 @@ Los Ríos,14,2020-06-01,SE23,0.0
 Los Lagos,10,2020-06-01,SE23,0.0
 Aysén,11,2020-06-01,SE23,0.0
 Magallanes,12,2020-06-01,SE23,0.0
-Arica y Parinacota,15,2020-05-01,SE23,0.0
-Tarapacá,01,2020-05-01,SE23,0.0
-Antofagasta,02,2020-05-01,SE23,0.0
-Atacama,03,2020-05-01,SE23,0.0
-Coquimbo,04,2020-05-01,SE23,0.0
-Valparaíso,05,2020-05-01,SE23,0.0
-Metropolitana,13,2020-05-01,SE23,0.0
-O’Higgins,06,2020-05-01,SE23,0.0
-Maule,07,2020-05-01,SE23,0.0
-Ñuble,16,2020-05-01,SE23,0.0
-Biobío,08,2020-05-01,SE23,0.0
-Araucanía,09,2020-05-01,SE23,0.0
-Los Ríos,14,2020-05-01,SE23,0.0
-Los Lagos,10,2020-05-01,SE23,0.0
-Aysén,11,2020-05-01,SE23,0.0
-Magallanes,12,2020-05-01,SE23,0.0
-Arica y Parinacota,15,2020-05-15,SE23,0.0
-Tarapacá,01,2020-05-15,SE23,0.0
-Antofagasta,02,2020-05-15,SE23,0.0
-Atacama,03,2020-05-15,SE23,0.0
-Coquimbo,04,2020-05-15,SE23,0.0
-Valparaíso,05,2020-05-15,SE23,0.0
-Metropolitana,13,2020-05-15,SE23,0.0
-O’Higgins,06,2020-05-15,SE23,0.0
-Maule,07,2020-05-15,SE23,0.0
-Ñuble,16,2020-05-15,SE23,0.0
-Biobío,08,2020-05-15,SE23,0.0
-Araucanía,09,2020-05-15,SE23,0.0
-Los Ríos,14,2020-05-15,SE23,0.0
-Los Lagos,10,2020-05-15,SE23,0.0
-Aysén,11,2020-05-15,SE23,0.0
-Magallanes,12,2020-05-15,SE23,0.0
-Arica y Parinacota,15,2020-05-25,SE23,0.0
-Tarapacá,01,2020-05-25,SE23,0.0
-Antofagasta,02,2020-05-25,SE23,0.0
-Atacama,03,2020-05-25,SE23,0.0
-Coquimbo,04,2020-05-25,SE23,0.0
-Valparaíso,05,2020-05-25,SE23,0.0
-Metropolitana,13,2020-05-25,SE23,0.0
-O’Higgins,06,2020-05-25,SE23,0.0
-Maule,07,2020-05-25,SE23,0.0
-Ñuble,16,2020-05-25,SE23,0.0
-Biobío,08,2020-05-25,SE23,0.0
-Araucanía,09,2020-05-25,SE23,0.0
-Los Ríos,14,2020-05-25,SE23,0.0
-Los Lagos,10,2020-05-25,SE23,0.0
-Aysén,11,2020-05-25,SE23,0.0
-Magallanes,12,2020-05-25,SE23,0.0
-Arica y Parinacota,15,2020-05-18,SE23,0.0
-Tarapacá,01,2020-05-18,SE23,0.0
-Antofagasta,02,2020-05-18,SE23,0.0
-Atacama,03,2020-05-18,SE23,0.0
-Coquimbo,04,2020-05-18,SE23,0.0
-Valparaíso,05,2020-05-18,SE23,0.0
-Metropolitana,13,2020-05-18,SE23,0.0
-O’Higgins,06,2020-05-18,SE23,0.0
-Maule,07,2020-05-18,SE23,0.0
-Ñuble,16,2020-05-18,SE23,0.0
-Biobío,08,2020-05-18,SE23,0.0
-Araucanía,09,2020-05-18,SE23,0.0
-Los Ríos,14,2020-05-18,SE23,0.0
-Los Lagos,10,2020-05-18,SE23,0.0
-Aysén,11,2020-05-18,SE23,0.0
-Magallanes,12,2020-05-18,SE23,0.0
-Arica y Parinacota,15,2020-05-08,SE23,0.0
-Tarapacá,01,2020-05-08,SE23,0.0
-Antofagasta,02,2020-05-08,SE23,0.0
-Atacama,03,2020-05-08,SE23,0.0
-Coquimbo,04,2020-05-08,SE23,0.0
-Valparaíso,05,2020-05-08,SE23,0.0
-Metropolitana,13,2020-05-08,SE23,0.0
-O’Higgins,06,2020-05-08,SE23,0.0
-Maule,07,2020-05-08,SE23,0.0
-Ñuble,16,2020-05-08,SE23,0.0
-Biobío,08,2020-05-08,SE23,0.0
-Araucanía,09,2020-05-08,SE23,0.0
-Los Ríos,14,2020-05-08,SE23,0.0
-Los Lagos,10,2020-05-08,SE23,0.0
-Aysén,11,2020-05-08,SE23,0.0
-Magallanes,12,2020-05-08,SE23,0.0
-Arica y Parinacota,15,2020-05-22,SE23,0.0
-Tarapacá,01,2020-05-22,SE23,0.0
-Antofagasta,02,2020-05-22,SE23,0.0
-Atacama,03,2020-05-22,SE23,0.0
-Coquimbo,04,2020-05-22,SE23,0.0
-Valparaíso,05,2020-05-22,SE23,0.0
-Metropolitana,13,2020-05-22,SE23,0.0
-O’Higgins,06,2020-05-22,SE23,0.0
-Maule,07,2020-05-22,SE23,0.0
-Ñuble,16,2020-05-22,SE23,0.0
-Biobío,08,2020-05-22,SE23,0.0
-Araucanía,09,2020-05-22,SE23,0.0
-Los Ríos,14,2020-05-22,SE23,0.0
-Los Lagos,10,2020-05-22,SE23,0.0
-Aysén,11,2020-05-22,SE23,0.0
-Magallanes,12,2020-05-22,SE23,0.0
