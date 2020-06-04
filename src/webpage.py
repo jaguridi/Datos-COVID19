@@ -66,15 +66,15 @@ def get_casos_activos(minsalsoup):
             if cols[0] == 'Casos activos a nivel nacional':
                 return cols
 
-def get_fallecidos(minsalsoup):
-    tables = minsalsoup.findAll('table')
-    for eachtable in tables:
-        rows = eachtable.findAll(lambda tag: tag.name == 'tr')
-        for row in rows:
-            cols = row.findAll('td')
-            cols = [ele.text.strip().replace('.', '') for ele in cols]
-            if cols[0] == 'Fallecidos a nivel nacional':
-                return cols
+# def get_fallecidos(minsalsoup):
+#     tables = minsalsoup.findAll('table')
+#     for eachtable in tables:
+#         rows = eachtable.findAll(lambda tag: tag.name == 'tr')
+#         for row in rows:
+#             cols = row.findAll('td')
+#             cols = [ele.text.strip().replace('.', '') for ele in cols]
+#             if cols[0] == 'Fallecidos a nivel nacional':
+#                 return cols
 
 
 def get_table_regional(minsalsoup):
@@ -156,16 +156,18 @@ def prod5Nuevo(fte, producto):
     #drop ** porcentaje casos fallecidos
     #print(a.columns)
     casos_activos = get_casos_activos(myMinsalsoup)
-    fallecidos = get_fallecidos(myMinsalsoup)
+    #fallecidos = get_fallecidos(myMinsalsoup)
 
     #'Region', 'Casos totales acumulados', 'Casos nuevos totales', 'Casos nuevos con sintomas', 'Casos nuevos sin sintomas*', 'Fallecidos', '% Total'
+    print(list(a))
     a.rename(columns={0: 'Fecha', 1: 'Casos totales', 2: 'Casos nuevos totales',
-                      3: 'Casos nuevos con sintomas', 4: 'Casos nuevos sin sintomas'}, inplace=True)
+                      3: 'Casos nuevos con sintomas', 4: 'Casos nuevos sin sintomas',
+                      5:'Fallecidos totales'}, inplace=True)
     a['Fecha'] = timestamp
     a.drop(0, inplace=True)
 
     a['Casos activos'] = casos_activos[1]
-    a['Fallecidos'] = fallecidos[1]
+
 
     #print(a.to_string())
     totales = pd.read_csv(producto)
