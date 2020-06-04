@@ -53,8 +53,16 @@ def prod33(fte, prod):
 
 
     df = pd.concat(data)
+
+    # de aca parriba se va
+    # 1.- leer un archivo
+    # 1.5- estandarizar columnas
     df = insertSuperficiePoblacion(df)
     df.dropna(how='any', inplace=True)
+
+    # 2.- comparar con output (duplicaciones/actualizaciones)
+
+
 
     #Ordenamos las columnas
     columns = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion',
