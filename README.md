@@ -75,6 +75,8 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 35 - Comorbilidad por Casos Confirmados](output/producto35): Set de 3 archivos en formato csv que dan cuenta de las enfermedades crónicas más frecuentes en los casos confirmados no hospitalizados, también da cuenta de la distribución para los casos que han requerido hospitalización. Se concatena la historia de los informes de Situación Epidemiológica publicados por el Ministerio de Salud del país. [Ver más](output/producto35)
 
+[Data Product 36 - Residencias Sanitarias](output/producto36): Este producto da cuenta del número de residencias sanitarias informadas por región. Se consideran las categorias: Número de habitaciones totales, Número de usuarios en la residencia y número de residencias habilitadas. Este archivo concatena la historia de los reportes diarios publicados por el Ministerio de Salud del país. [Ver más](output/producto36)
+
 
 ## ¿Cómo funciona?
 Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiológico, informe de situación covid19 y la pagina web del MINSAL.
