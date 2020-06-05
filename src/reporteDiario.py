@@ -27,6 +27,7 @@ SOFTWARE.
 Los productos que salen del reporte diario son:
 3
 4
+5
 7
 8
 9
@@ -51,6 +52,7 @@ from shutil import copyfile
 from os import listdir
 from os.path import isfile, join
 from datetime import datetime
+import numpy as np
 
 
 def prod4(fte, producto):
@@ -76,6 +78,117 @@ def prod4(fte, producto):
         df[i] = df[i].replace({r'\,': '.'}, regex=True)
 
     df.to_csv(output, index=False)
+
+
+def prod5(fte, producto):
+    print('Generando producto 5')
+    # necesito series a nivel nacional por fecha:
+    # Casos nuevos con sintomas
+    # Casos totales
+    # Casos recuperados  #ya no se reporta
+    # Fallecidos
+    # Casos activos
+    # Casos nuevos sin sintomas
+    # Totales
+    now = datetime.now()
+    timestamp = now.strftime("%Y-%m-%d")
+    a = pd.read_csv(fte + 'CasosConfirmados.csv')
+    a['Fecha'] = timestamp
+
+
+
+   ## esto es estandar
+    totales = pd.read_csv(producto)
+    #print(totales.columns[1:])
+    # add Casos nuevos totales = Casos nuevos con sintomas + Casos nuevos sin sintomas
+    for eachColumn in totales.columns[1:]:
+        print('Checking if Casos nuevos totales is fine on ' + eachColumn)
+        #print(totales.index[totales['Fecha'] == 'Casos nuevos con sintomas'].values[0])
+        #print(totales.at[totales.index[totales['Fecha'] == 'Casos nuevos con sintomas'].values[0], eachColumn])
+        rowConSintomas = totales.index[totales['Fecha'] == 'Casos nuevos con sintomas'].values[0]
+        rowSinSintomas = totales.index[totales['Fecha'] == 'Casos nuevos sin sintomas'].values[0]
+        rowCasosNuevosTotales = totales.index[totales['Fecha'] == 'Casos nuevos totales'].values[0]
+        #print('row con ' + str(rowConSintomas))
+        #print('row sin ' + str(rowSinSintomas))
+        #print('expected is ' + str(totales.at[rowConSintomas, eachColumn]) + ' + ' + str(totales.at[rowSinSintomas, eachColumn]))
+        #check for NaN
+        if not np.isnan(totales.at[rowConSintomas, eachColumn]) and not np.isnan(totales.at[rowSinSintomas, eachColumn]):
+            expectedTotal = totales.at[rowConSintomas, eachColumn] + totales.at[rowSinSintomas, eachColumn]
+        elif not np.isnan(totales.at[rowConSintomas, eachColumn]) and np.isnan(totales.at[rowSinSintomas, eachColumn]):
+            expectedTotal = totales.at[rowConSintomas, eachColumn]
+        elif np.isnan(totales.at[rowConSintomas, eachColumn]) and not np.isnan(totales.at[rowSinSintomas, eachColumn]):
+            expectedTotal = totales.at[rowSinSintomas, eachColumn]
+
+        registeredTotal = totales.at[rowCasosNuevosTotales, eachColumn]
+        if registeredTotal != expectedTotal:
+            print('Casos nuevos totales debería ser ' + str(expectedTotal) + ' pero es ' + str(registeredTotal))
+            #print(totales.at[rowCasosNuevosTotales, eachColumn])
+            totales.at[rowCasosNuevosTotales, eachColumn] = expectedTotal
+            #print(totales.at[rowCasosNuevosTotales, eachColumn])
+
+    #print(totales.to_string())
+    #normalizamos headers
+    #expectedHeaders=['Casos nuevos con sintomas', 'Casos totales', 'Casos recuperados', 'Fallecidos',
+     #               'Casos activos', 'Casos nuevos sin sintomas', 'Casos totales acumulados', 'Casos nuevos totales']
+    emptyrow = [] * len(totales.columns)
+    if 'Casos nuevos con sintomas' not in totales['Fecha'].values:
+        totales['Fecha'][0] = 'Casos nuevos con sintomas'
+    if 'Casos nuevos sin sintomas' not in totales['Fecha'].values:
+        ax = ['Casos nuevos sin sintomas']
+        bx = [''] * (len(totales.columns) - 1)
+        ax.extend(bx)
+        row = pd.DataFrame([ax], columns=totales.columns)
+        aux = pd.concat([totales, row], ignore_index=True)
+        totales = aux
+        #totales['Fecha'][len(totales['Fecha']) + 1] = 'Casos nuevos sin sintomas'
+    if 'Casos totales' not in totales['Fecha'].values:
+        print('Casos totales not found')
+        ax = ['Casos totales']
+        bx = [''] * (len(totales.columns) - 1)
+        ax.extend(bx)
+        row = pd.DataFrame([ax], columns=totales.columns)
+        aux = pd.concat([totales, row], ignore_index=True)
+        totales = aux
+    if 'Casos nuevos totales' not in totales['Fecha'].values:
+        ax = ['Casos nuevos totales']
+        bx = [''] * (len(totales.columns) - 1)
+        ax.extend(bx)
+        row = pd.DataFrame([ax], columns=totales.columns)
+        aux = pd.concat([totales, row], ignore_index=True)
+        totales = aux
+        #print(totales)
+
+    #print(totales['Fecha'])
+    #print(a.columns)
+    if (a['Fecha'][1]) in totales.columns:
+        print(a['Fecha'] + ' ya esta en el dataframe. No actualizamos')
+        return
+    else:
+        #print(totales.iloc[:, 0])
+        newColumn=[]
+        #Need to add new rows to totales:
+        for eachValue in totales.iloc[:, 0]:
+            #print('each values is ' + eachValue)
+
+            if eachValue in a.columns:
+                #print(type(a[eachValue].values))
+                newColumn.append(str(a[eachValue].values[0]))
+
+            else:
+                #print('appending ""')
+                newColumn.append('')
+        #print(newColumn)
+        totales[timestamp] = newColumn
+        totales.to_csv(producto, index=False)
+        totales_t = totales.transpose()
+        totales_t.to_csv(producto.replace('.csv', '_T.csv'), header=False)
+        #print(totales.to_string())
+        totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
+        identifiers = ['Dato']
+        variables = [x for x in totales.columns if x not in identifiers]
+        df_std = pd.melt(totales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                         value_name='Total')
+        df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
 def prod3_13_14_26_27(fte):
@@ -319,6 +432,7 @@ def prod30(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+
 def prod36(fte, producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
@@ -333,45 +447,47 @@ def prod36(fte, producto):
 
 if __name__ == '__main__':
 
-    prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
+    # prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
+    #
+    prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
 
-    print('Generando productos 3, 13, 14, 26 y 27')
-    prod3_13_14_26_27('../output/producto4/')
-
-    print('Generando producto 11')
-    print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
-    # exec(open('bulk_producto4.py').read())
-
-    print('Generando producto 7')
-    prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
-
-    print('Generando producto 8')
-    prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
-
-    print('Generando producto 9')
-    prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
-
-    print('Generando producto 10')
-    prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
-
-    print('Generando producto 12')
-    exec(open('bulk_producto7.py').read())
-
-    print('Generando producto 17')
-    # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
-    prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
-
-    print('Generando producto 20')
-    prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
-
-    print('Generando producto 23')
-    prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
-
-    print('Generando producto 24')
-    prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
-
-    print('Generando producto 30')
-    prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
-
-    print('Generando producto 36')
-    prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
+    # print('Generando productos 3, 13, 14, 26 y 27')
+    # prod3_13_14_26_27('../output/producto4/')
+    #
+    # print('Generando producto 11')
+    # print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
+    # # exec(open('bulk_producto4.py').read())
+    #
+    # print('Generando producto 7')
+    # prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
+    #
+    # print('Generando producto 8')
+    # prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
+    #
+    # print('Generando producto 9')
+    # prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
+    #
+    # print('Generando producto 10')
+    # prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
+    #
+    # print('Generando producto 12')
+    # exec(open('bulk_producto7.py').read())
+    #
+    # print('Generando producto 17')
+    # # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
+    # prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
+    #
+    # print('Generando producto 20')
+    # prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
+    #
+    # print('Generando producto 23')
+    # prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
+    #
+    # print('Generando producto 24')
+    # prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
+    #
+    # print('Generando producto 30')
+    # prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
+    #
+    # print('Generando producto 36')
+    # prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
