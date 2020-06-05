@@ -92,6 +92,7 @@ def prod5(fte, producto):
 
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
+    timestamp_dia_primero = now.strftime("%d-%m-%Y")
     a = pd.read_csv(fte + 'CasosConfirmados.csv')
     a['Fecha'] = timestamp
     a = a[a['Region'] == 'Total']
@@ -104,7 +105,13 @@ def prod5(fte, producto):
                       'Casos nuevos con sintomas': 'Casos nuevos con sintomas',
                       'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas',
                       'Fallecidos totales': 'Fallecidos'}, inplace=True)
-   ## esto es estandar
+    #Faltan casos activos: prod 5 esta ahora en el reporte diario, hay que migrar para alla
+    casos_confirmados_totales = pd.read_csv('../input/ReporteDiario/CasosConfirmadosTotales.csv')
+    today_row = (casos_confirmados_totales[casos_confirmados_totales['Fecha'] == timestamp_dia_primero])
+    a['Casos activos'] = today_row['Casos activos'].values
+
+
+    ## esto es estandar
     totales = pd.read_csv(producto)
     #print(totales.columns[1:])
     # add Casos nuevos totales = Casos nuevos con sintomas + Casos nuevos sin sintomas
