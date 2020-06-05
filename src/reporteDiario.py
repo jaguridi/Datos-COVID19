@@ -89,14 +89,21 @@ def prod5(fte, producto):
     # Fallecidos
     # Casos activos
     # Casos nuevos sin sintomas
-    # Totales
+
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
     a = pd.read_csv(fte + 'CasosConfirmados.csv')
     a['Fecha'] = timestamp
+    a = a[a['Region'] == 'Total']
+    print(a.to_string())
+    #las columnas son :
+    # Casos totales acumulados  Casos nuevos totales  Casos nuevos con sintomas  Casos nuevos sin sintomas*  Fallecidos totales % Total       Fecha
 
-
-
+    a.rename(columns={'Casos totales acumulados': 'Casos totales',
+                      'Casos nuevos totales': 'Casos nuevos totales',
+                      'Casos nuevos con sintomas': 'Casos nuevos con sintomas',
+                      'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas',
+                      'Fallecidos totales': 'Fallecidos'}, inplace=True)
    ## esto es estandar
     totales = pd.read_csv(producto)
     #print(totales.columns[1:])
@@ -159,8 +166,8 @@ def prod5(fte, producto):
         #print(totales)
 
     #print(totales['Fecha'])
-    #print(a.columns)
-    if (a['Fecha'][1]) in totales.columns:
+    #print(str(a['Fecha'].values[0]) + ' is  in ' + str(totales.columns))
+    if (a['Fecha'].values[0]) in totales.columns:
         print(a['Fecha'] + ' ya esta en el dataframe. No actualizamos')
         return
     else:
@@ -168,16 +175,16 @@ def prod5(fte, producto):
         newColumn=[]
         #Need to add new rows to totales:
         for eachValue in totales.iloc[:, 0]:
-            #print('each values is ' + eachValue)
+            print('each values is ' + eachValue)
 
             if eachValue in a.columns:
-                #print(type(a[eachValue].values))
+                print((a[eachValue].values))
                 newColumn.append(str(a[eachValue].values[0]))
 
             else:
                 #print('appending ""')
                 newColumn.append('')
-        #print(newColumn)
+        print(newColumn)
         totales[timestamp] = newColumn
         totales.to_csv(producto, index=False)
         totales_t = totales.transpose()
