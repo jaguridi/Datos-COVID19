@@ -101,9 +101,9 @@ def prod33(fte, prod):
         data_t.index.rename('', inplace=True)
         data_t.to_csv(prod + '-' + eachIM + '_T.csv')
 
-    columnas = list(data_t.columns.values)
-    columnas2 = list(df_old.columns.values)
-    print(data_t.columns.values, df_old['Fecha'])
+#    columnas = list(data_t.columns.values)
+#    columnas2 = list(df_old.columns.values)
+#    print(columnas, df_old.columns.values)
 
 
 if __name__ == '__main__':
