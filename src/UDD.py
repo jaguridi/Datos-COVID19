@@ -32,37 +32,44 @@ import pandas as pd
 import glob
 from utils import *
 import numpy as np
+from datetime import datetime
 
 
 def prod33(fte, prod):
-    data = []
-    for file in glob.glob(fte + '/*IM.csv'):
-        print('Processing ' + file)
-        df = pd.read_csv(file, sep=",", encoding="utf-8", decimal=",")
+    #data = []
+    #for file in glob.glob(fte + '/*IM.csv'):
+    #    print('Processing ' + file)
 
         # standardize column names
-        df.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
 
         # hay 4 comunas perdidas 5502, 5703, 11302 12202
         # 5502, 5703 listas
         # 11302: O'Higgins no esta
         # 122012: Antartica no esta
-        df = normalizaNombreCodigoRegionYComuna(df)
-        df = FechaAlFinal(df)
-        data.append(df)
+#        df = FechaAlFinal(df)
+#        data.append(df)
 
-
-    df = pd.concat(data)
+#    df = pd.concat(data)
 
     # de aca parriba se va
     # 1.- leer un archivo
     # 1.5- estandarizar columnas
+    df = pd.read_csv(fte, sep=";", encoding="utf-8", decimal=".")
+    df.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
+    df = pd.read_csv(fte, sep=";", encoding="utf-8", decimal=".")
+    df.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
+
+    df['Fecha'] = pd.to_datetime(df['Fecha'], format='%Y%m%d').dt.strftime("%Y-%m-%d")
+
+    df = normalizaNombreCodigoRegionYComuna(df)
     df = insertSuperficiePoblacion(df)
     df.dropna(how='any', inplace=True)
 
     # 2.- comparar con output (duplicaciones/actualizaciones)
 
+    df_old = pd.read_csv('../output/producto33/IndiceDeMovilidad-IM_old.csv', sep=",", encoding="utf-8", decimal=".")
 
+    df.drop_duplicates(inplace=True)
 
     #Ordenamos las columnas
     columns = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion',
@@ -94,7 +101,11 @@ def prod33(fte, prod):
         data_t.index.rename('', inplace=True)
         data_t.to_csv(prod + '-' + eachIM + '_T.csv')
 
+    columnas = list(data_t.columns.values)
+    columnas2 = list(df_old.columns.values)
+    print(data_t.columns.values, df_old['Fecha'])
+
 
 if __name__ == '__main__':
     print('Generating producto 33')
-    prod33('../input/UDD/', '../output/producto33/IndiceDeMovilidad')
+    prod33('../input/UDD/indicadores_IM.csv', '../output/producto33/IndiceDeMovilidad')
