@@ -74,7 +74,7 @@ def prod4(fte, producto):
     numeric_columns = [x for x in df.columns if x != 'Region']
     for i in numeric_columns:
         df[i] = df[i].astype(str)
-        df[i] = df[i].replace({r'\.': ''}, regex=True)
+        #df[i] = df[i].replace({r'\.': ''}, regex=True)
         df[i] = df[i].replace({r'\,': '.'}, regex=True)
 
     df.to_csv(output, index=False)
@@ -98,7 +98,7 @@ def prod5(fte, producto):
     a = a[a['Region'] == 'Total']
     print(a.to_string())
     #las columnas son :
-    # Casos totales acumulados  Casos nuevos totales  Casos nuevos con sintomas  Casos nuevos sin sintomas*  Fallecidos totales % Total       Fecha
+    # Casos totales acumulados  Casos nuevos totales  Casos nuevos con sintomas  Casos nuevos sin sintomas*  Fallecidos totales % Total  Fecha
 
     a.rename(columns={'Casos totales acumulados': 'Casos totales',
                       'Casos nuevos totales': 'Casos nuevos totales',
@@ -108,7 +108,7 @@ def prod5(fte, producto):
     #Faltan casos activos: prod 5 esta ahora en el reporte diario, hay que migrar para alla
     casos_confirmados_totales = pd.read_csv('../input/ReporteDiario/CasosConfirmadosTotales.csv')
     today_row = (casos_confirmados_totales[casos_confirmados_totales['Fecha'] == timestamp_dia_primero])
-    a['Casos activos'] = today_row['Casos activos'].values
+    #a['Casos activos'] = today_row['Casos activos'].values
 
 
     ## esto es estandar
