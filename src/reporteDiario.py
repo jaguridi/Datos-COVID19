@@ -108,7 +108,7 @@ def prod5(fte, producto):
     #Faltan casos activos: prod 5 esta ahora en el reporte diario, hay que migrar para alla
     casos_confirmados_totales = pd.read_csv('../input/ReporteDiario/CasosConfirmadosTotales.csv')
     today_row = (casos_confirmados_totales[casos_confirmados_totales['Fecha'] == timestamp_dia_primero])
-    #a['Casos activos'] = today_row['Casos activos'].values
+    a['Casos activos'] = today_row['Casos activos'].values
 
 
     ## esto es estandar
