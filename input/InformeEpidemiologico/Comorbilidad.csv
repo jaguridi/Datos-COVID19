@@ -1,25 +1,25 @@
-Comorbilidad,Hospitalización,2020-05-25,2020-05-29,2020-06-01
-Hipertensión arterial,NO,9.4,9.8,10.1
-Diabetes,NO,4.1,4.3,4.5
-Obesidad,NO,2,2.1,2.2
-Enfermedad cardiovascular,NO,0.8,0.8,0.8
-Cardiopatía crónica,NO,0.6,0.6,0.6
-Enfermedad pulmonar crónica,NO,0.6,0.5,0.6
-Enfermedad renal crónica,NO,0.3,0.4,0.4
-Asma,NO,2.3,2.3,2.4
-Enfermedad neurológica crónica,NO,0.3,0.3,0.3
-Inmunocomprometido,NO,0.1,0.1,0.1
-Enfermedad hepática crónica,NO,0.1,0.1,0.1
-Número Casos sin Hospitalización,NO,67557,82999,96284
-Hipertensión arterial,SI,28.9,28.7,28.8
-Diabetes,SI,19.6,19.2,19.1
-Obesidad,SI,5.9,6.1,6.1
-Enfermedad cardiovascular,SI,4.6,4.3,4.2
-Cardiopatía crónica,SI,5.1,4.8,4.6
-Enfermedad pulmonar crónica,SI,4.8,4.5,4.4
-Enfermedad renal crónica,SI,4.4,4.4,4.3
-Asma,SI,3.6,3.3,3.3
-Enfermedad neurológica crónica,SI,3,2.8,2.7
-Inmunocomprometido,SI,1.3,1.3,1.2
-Enfermedad hepática crónica,SI,1.1,1.2,1.2
-Número Casos Hospitalizados,SI,6440,7639,8875
+Comorbilidad,Hospitalización,2020-05-25,2020-05-29,2020-06-01,2020-06-05
+Hipertensión arterial,NO,9.4,9.8,10.1,10.3
+Diabetes,NO,4.1,4.3,4.5,4.5
+Obesidad,NO,2,2.1,2.2,2.3
+Enfermedad cardiovascular,NO,0.8,0.8,0.8,0.7
+Cardiopatía crónica,NO,0.6,0.6,0.6,0.6
+Enfermedad pulmonar crónica,NO,0.6,0.5,0.6,0.6
+Enfermedad renal crónica,NO,0.3,0.4,0.4,0.4
+Asma,NO,2.3,2.3,2.4,2.4
+Enfermedad neurológica crónica,NO,0.3,0.3,0.3,0.3
+Inmunocomprometido,NO,0.1,0.1,0.1,0.1
+Enfermedad hepática crónica,NO,0.1,0.1,0.1,0.1
+Número Casos sin Hospitalización,NO,67557,82999,96284,112067
+Hipertensión arterial,SI,28.9,28.7,28.8,29
+Diabetes,SI,19.6,19.2,19.1,18.9
+Obesidad,SI,5.9,6.1,6.1,6.2
+Enfermedad cardiovascular,SI,4.6,4.3,4.2,4
+Cardiopatía crónica,SI,5.1,4.8,4.6,4.4
+Enfermedad pulmonar crónica,SI,4.8,4.5,4.4,4.4
+Enfermedad renal crónica,SI,4.4,4.4,4.3,4.3
+Asma,SI,3.6,3.3,3.3,3.3
+Enfermedad neurológica crónica,SI,3,2.8,2.7,2.6
+Inmunocomprometido,SI,1.3,1.3,1.2,1.1
+Enfermedad hepática crónica,SI,1.1,1.2,1.2,1.1
+Número Casos Hospitalizados,SI,6440,7639,8875,10432
