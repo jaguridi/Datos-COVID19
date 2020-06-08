@@ -80,7 +80,7 @@ def prod4(fte, producto):
     df.to_csv(output, index=False)
 
 
-def prod5(fte, producto):
+def prod5old(fte, producto):
     print('Generando producto 5')
     # necesito series a nivel nacional por fecha:
     # Casos nuevos con sintomas
@@ -203,6 +203,85 @@ def prod5(fte, producto):
         df_std = pd.melt(totales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Total')
         df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
+
+
+def prod5(fte, producto):
+    print('Generando producto 5')
+    # necesito series a nivel nacional por fecha:
+    # Casos nuevos con sintomas
+    # Casos totales
+    # Casos recuperados  #ya no se reporta
+    # Fallecidos
+    # Casos activos
+    # Casos nuevos sin sintomas
+
+    now = datetime.now()
+    timestamp = now.strftime("%Y-%m-%d")
+    timestamp_dia_primero = now.strftime("%d-%m-%Y")
+    df_input_file = pd.read_csv(fte + 'CasosConfirmadosTotales.csv')
+    df_input_file['Fecha'] = pd.to_datetime(df_input_file['Fecha'], format='%d-%m-%Y')
+    #print(df_input_file.to_string())
+    #las columnas son :
+    # Casos totales acumulados  Casos nuevos totales  Casos nuevos con sintomas  Casos nuevos sin sintomas*  Fallecidos totales % Total  Fecha
+
+    df_input_file.rename(columns={'Casos totales acumulados': 'Casos totales',
+                      'Casos nuevos totales': 'Casos nuevos totales',
+                      'Casos nuevos con sintomas': 'Casos nuevos con sintomas',
+                      'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas',
+                      'Fallecidos totales': 'Fallecidos'}, inplace=True)
+    #Faltan casos activos: prod 5 esta ahora en el reporte diario, hay que migrar para alla
+    #print(df_input_file.to_string())
+
+    #print(timestamp)
+    timestamp = '2020-06-07'
+    last_row = df_input_file[df_input_file['Fecha'] == timestamp]
+    #print(last_row.to_string())
+
+    df_output_file = pd.read_csv(producto)
+
+    df_output_file = df_output_file.T
+    df_output_file.columns = df_output_file.iloc[0]
+    df_output_file.drop(df_output_file.index[0], inplace=True)
+
+    df_output_file.index = pd.to_datetime(df_output_file.index, format='%Y-%m-%d')
+    df_output_file.index.name = 'Fecha'
+    #print(df_output_file.index)
+    #print(last_row['Fecha'].values[0])
+    if last_row['Fecha'].values[0] in df_output_file.index:
+        print('Fecha was there, overwriting it')
+        df_output_file.drop(last_row['Fecha'].values[0], axis=0, inplace=True)
+        #print(df_output_file.to_string())
+        last_row.index = last_row['Fecha']
+        last_row.drop(columns=['Fecha'], inplace=True)
+        df_output_file = df_output_file.append(last_row)
+        #print(df_output_file.to_string())
+
+    else:
+        print('new date, adding row')
+        last_row.index = last_row['Fecha']
+        last_row.drop(columns=['Fecha'], inplace=True)
+        df_output_file.append(last_row)
+
+    totales = df_output_file.T
+
+    print(totales.to_string())
+    #print(totales.columns[1:])
+
+    ## esto es estandar
+    #totales = pd.read_csv(producto)
+    print(totales.columns.dtype)
+    totales.columns = totales.columns.astype(str)
+
+    totales.to_csv(producto)
+    totales_t = totales.transpose()
+    totales_t.to_csv(producto.replace('.csv', '_T.csv'), header=False)
+    print(totales.to_string())
+    totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
+    identifiers = ['Dato']
+    variables = [x for x in totales.columns if x not in identifiers]
+    df_std = pd.melt(totales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Total')
+    #df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
 def prod3_13_14_26_27(fte):
@@ -461,47 +540,47 @@ def prod36(fte, producto):
 
 if __name__ == '__main__':
 
-    prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
-
+    # prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
+    #
     prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
-
-    print('Generando productos 3, 13, 14, 26 y 27')
-    prod3_13_14_26_27('../output/producto4/')
-
-    print('Generando producto 11')
-    print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
-    # exec(open('bulk_producto4.py').read())
-
-    print('Generando producto 7')
-    prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
-
-    print('Generando producto 8')
-    prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
-
-    print('Generando producto 9')
-    prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
-
-    print('Generando producto 10')
-    prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
-
-    print('Generando producto 12')
-    exec(open('bulk_producto7.py').read())
-
-    print('Generando producto 17')
-    # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
-    prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
-
-    print('Generando producto 20')
-    prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
-
-    print('Generando producto 23')
-    prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
-
-    print('Generando producto 24')
-    prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
-
-    print('Generando producto 30')
-    prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
-
-    print('Generando producto 36')
-    prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
+    #
+    # print('Generando productos 3, 13, 14, 26 y 27')
+    # prod3_13_14_26_27('../output/producto4/')
+    #
+    # print('Generando producto 11')
+    # print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
+    # # exec(open('bulk_producto4.py').read())
+    #
+    # print('Generando producto 7')
+    # prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
+    #
+    # print('Generando producto 8')
+    # prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
+    #
+    # print('Generando producto 9')
+    # prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
+    #
+    # print('Generando producto 10')
+    # prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
+    #
+    # print('Generando producto 12')
+    # exec(open('bulk_producto7.py').read())
+    #
+    # print('Generando producto 17')
+    # # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
+    # prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
+    #
+    # print('Generando producto 20')
+    # prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
+    #
+    # print('Generando producto 23')
+    # prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
+    #
+    # print('Generando producto 24')
+    # prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
+    #
+    # print('Generando producto 30')
+    # prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
+    #
+    # print('Generando producto 36')
+    # prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
