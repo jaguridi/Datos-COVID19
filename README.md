@@ -77,7 +77,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 36 - Residencias Sanitarias](output/producto36): Este producto da cuenta del número de residencias sanitarias informadas por región. Se consideran las categorias: Número de habitaciones totales, Número de usuarios en la residencia y número de residencias habilitadas. Este archivo concatena la historia de los reportes diarios publicados por el Ministerio de Salud del país. [Ver más](output/producto36)
 
-[Data Product 37 - Fallecidos por día](output/producto37): Este producto da cuenta del número de fallecidos por día reportados provisoriamente con inscripciones en el registro civil y los laboratorios de diagnóstico. Este archivo se va actualizando diariamente con el progreso de la invesgicación. [Ver más](output/producto37)
+[Data Product 37 - Defunciones por COVID en Chile (provisorio)](output/producto37): Este producto da cuenta del número de fallecidos por día reportados provisoriamente con inscripciones en el registro civil y los laboratorios de diagnóstico. Este archivo se va actualizando diariamente con el progreso de la invesgicación. [Ver más](output/producto37)
 
 ## ¿Cómo funciona?
 Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiológico, informe de situación covid19 y la pagina web del MINSAL.
