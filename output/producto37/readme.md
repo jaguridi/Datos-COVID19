@@ -1,5 +1,5 @@
 # DP37 - Defunciones por COVID en Chile (provisorio): Descripción
-Los datos aquí publicados provienen de registros administrativos correspondientes a los trámites de defunción, cruzados con los registros de laboratorios de diagnóstico en Chile.
+Los datos aquí publicados provienen de registros administrativos correspondientes a los trámites de defunción, cruzados con los registros de los laboratorios de diagnóstico COVID19 en Chile.
 
 Defunciones se refiere a la fecha en que se inscribió la defunción en el Registro Civil. El plazo para hacer la inscripción es de tres días desde el fallecimiento y debe realizarse en la comuna donde ocurrió el deceso.
 
