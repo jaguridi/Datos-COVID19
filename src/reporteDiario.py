@@ -156,7 +156,7 @@ def prod5(fte, producto):
         #df.loc[i, 'C'] = df.loc[i - 1, 'C'] * df.loc[i, 'A'] + df.loc[i, 'B']
         print(i)
         if (i - fourteen_days) in df_output_file.index:
-            print('14 days ago is on the df')
+            #print('14 days ago is on the df')
             df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos totales'] - df_output_file.loc[i - fourteen_days, 'Casos totales']
         else:
             print('no data 14 days ago')
