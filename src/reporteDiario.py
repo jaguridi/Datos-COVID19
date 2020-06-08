@@ -105,7 +105,7 @@ def prod5(fte, producto):
                       'Fallecidos totales': 'Fallecidos'}, inplace=True)
 
     #print(timestamp)
-    timestamp = '2020-06-07'
+
     last_row = df_input_file[df_input_file['Fecha'] == timestamp]
     #print(last_row.to_string())
 
