@@ -22,7 +22,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 import requests
-from bs4 import BeautifulSoup
 from unidecode import unidecode
 
 """
@@ -114,37 +113,6 @@ def FechaAlFinal(df):
 def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)
     return(df.T)
-
-
-def std_getSuperficieComunas(URL):
-    '''
-    Obtenemos la superficie de las comunas desde Wikipedia, y las dejamos en un archivo en input para
-    enriquecer los productos
-    '''
-    page = requests.get(URL)
-    soup = BeautifulSoup(page.content, 'html.parser')
-    table = soup.find(lambda tag: tag.name == 'table')
-    rows = table.findAll(lambda tag: tag.name == 'tr')
-    data = [['Codigo comuna', 'Comuna', 'Escudo', 'Provincia', 'Region', 'Superficie_km2', 'Poblacion_2017', 'Densidad',
-            'IDH_2005', 'IDH_2005_b', 'Latitud', 'Longitud']]
-    for row in rows:
-        cols = row.findAll('td')
-        cols = [ele.text.strip() for ele in cols]
-        if len(cols) > 1:
-            data.append(
-                #s.replace('.', '', s.count('.')-1)
-                [unidecode(ele.replace('.', '', ele.count('.')-1)) for ele in cols if (len(ele) > 1 or 'Escudo' not in ele)])
-
-    headers = data.pop(0) # gives the headers as list and leaves d
-    df = pd.DataFrame.from_records(data, columns=headers)
-
-    df_to_write = df.drop(columns=['Provincia', 'Region', 'Poblacion_2017', 'Densidad',
-            'IDH_2005', 'IDH_2005_b', 'Latitud', 'Longitud', 'Escudo'])
-
-    # standards:
-    df_to_write["Comuna"] = df_to_write["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
-    df_to_write = normalizaNombreCodigoRegionYComuna(df_to_write)
-    return df_to_write
 
 
 def std_getSuperficieComunasOfficial(input):

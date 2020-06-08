@@ -1,49 +1,49 @@
-Region,Categoria,2020-05-29,2020-05-30,2020-05-31,2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05
-Arica y Parinacota,habitaciones totales,60,60,60,,60,60,95,266
-Tarapaca,habitaciones totales,40,40,119,,119,119,219,248
-Antofagasta,habitaciones totales,157,157,157,,157,157,266,95
-Atacama,habitaciones totales,48,48,48,,48,48,57,57
-Coquimbo,habitaciones totales,197,197,192,,192,190,465,47
-Valparaiso,habitaciones totales,394,394,419,,418,543,1742,587
-Metropolitana,habitaciones totales,2359,2359,2236,,2306,2301,3041,465
-Del Libertador General Bernardo O’Higgins,habitaciones totales,99,99,94,,94,94,94,455
-Maule,habitaciones totales,58,58,72,,150,150,220,302
-Nuble,habitaciones totales,56,56,54,,54,54,203,190
-Biobio,habitaciones totales,175,175,213,,286,286,587,220
-La Araucania,habitaciones totales,120,120,198,,160,160,248,3041
-Los Rios,habitaciones totales,135,135,128,,77,112,302,203
-Los Lagos,habitaciones totales,128,128,112,,112,77,455,1894
-Aysen,habitaciones totales,48,48,31,,31,31,47,219
-Magallanes y la Antartica,habitaciones totales,83,83,83,,83,83,190,3342
-Arica y Parinacota,usuarios en residencia,29,29,31,,35,42,44,48
-Tarapaca,usuarios en residencia,32,32,45,,76,85,97,111
-Antofagasta,usuarios en residencia,86,86,93,,94,102,103,147
-Atacama,usuarios en residencia,34,34,32,,44,44,54,55
-Coquimbo,usuarios en residencia,77,77,65,,87,83,102,102
-Valparaiso,usuarios en residencia,71,71,121,,157,145,195,208
-Metropolitana,usuarios en residencia,706,706,842,,949,1117,1150,1211
-Del Libertador General Bernardo O’Higgins,usuarios en residencia,0,0,1,,2,3,9,7
-Maule,usuarios en residencia,39,39,59,,63,64,75,99
-Nuble,usuarios en residencia,22,22,21,,28,27,36,41
-Biobio,usuarios en residencia,119,119,139,,135,123,179,168
-La Araucania,usuarios en residencia,89,89,113,,130,130,138,131
-Los Rios,usuarios en residencia,47,47,7,,7,82,20,22
-Los Lagos,usuarios en residencia,43,43,75,,75,14,101,83
-Aysen,usuarios en residencia,0,0,3,,4,4,6,13
-Magallanes y la Antartica,usuarios en residencia,23,23,14,,15,15,16,16
-Arica y Parinacota,residencias,1,1,1,,1,1,3,3
-Tarapaca,residencias,2,2,4,,4,4,8,8
-Antofagasta,residencias,3,3,3,,3,3,4,4
-Atacama,residencias,2,2,2,,2,2,2,2
-Coquimbo,residencias,6,6,6,,6,6,8,8
-Valparaiso,residencias,7,7,8,,8,8,19,19
-Metropolitana,residencias,32,32,31,,30,31,38,38
-Del Libertador General Bernardo O’Higgins,residencias,2,2,2,,2,2,3,2
-Maule,residencias,2,2,3,,4,4,5,5
-Nuble,residencias,2,2,2,,2,2,3,3
-Biobio,residencias,5,5,7,,9,9,15,15
-La Araucania,residencias,2,2,2,,3,3,3,3
-Los Rios,residencias,6,6,5,,4,6,10,4
-Los Lagos,residencias,5,5,6,,6,4,6,6
-Aysen,residencias,3,3,3,,3,3,3,3
-Magallanes y la Antartica,residencias,5,5,5,,5,5,6,6
+Region,Categoria,2020-05-29,2020-05-30,2020-05-31,2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08
+Arica y Parinacota,habitaciones totales,60,60,60,,60,60,95,266,162,162,162
+Tarapaca,habitaciones totales,40,40,119,,119,119,219,248,235,235,235
+Antofagasta,habitaciones totales,157,157,157,,157,157,266,95,266,266,266
+Atacama,habitaciones totales,48,48,48,,48,48,57,57,60,72,72
+Coquimbo,habitaciones totales,197,197,192,,192,190,465,47,465,465,465
+Valparaiso,habitaciones totales,394,394,419,,418,543,1742,587,2604,2604,2604
+Metropolitana,habitaciones totales,2359,2359,2236,,2306,2301,3041,465,4434,4434,4434
+Del Libertador General Bernardo O’Higgins,habitaciones totales,99,99,94,,94,94,94,455,1894,1894,1894
+Maule,habitaciones totales,58,58,72,,150,150,220,302,349,349,349
+Nuble,habitaciones totales,56,56,54,,54,54,203,190,55,69,69
+Biobio,habitaciones totales,175,175,213,,286,286,587,220,587,587,587
+La Araucania,habitaciones totales,120,120,198,,160,160,248,3041,258,258,258
+Los Rios,habitaciones totales,135,135,128,,77,112,302,203,156,156,156
+Los Lagos,habitaciones totales,128,128,112,,112,77,455,1894,147,147,147
+Aysen,habitaciones totales,48,48,31,,31,31,47,219,38,38,38
+Magallanes y la Antartica,habitaciones totales,83,83,83,,83,83,190,3342,76,76,76
+Arica y Parinacota,usuarios en residencia,29,29,31,,35,42,44,48,59,87,95
+Tarapaca,usuarios en residencia,32,32,45,,76,85,97,111,118,131,162
+Antofagasta,usuarios en residencia,86,86,93,,94,102,103,147,143,145,145
+Atacama,usuarios en residencia,34,34,32,,44,44,54,55,55,54,54
+Coquimbo,usuarios en residencia,77,77,65,,87,83,102,102,102,103,104
+Valparaiso,usuarios en residencia,71,71,121,,157,145,195,208,204,208,225
+Metropolitana,usuarios en residencia,706,706,842,,949,1117,1150,1211,1416,1405,1375
+Del Libertador General Bernardo O’Higgins,usuarios en residencia,0,0,1,,2,3,9,7,26,29,31
+Maule,usuarios en residencia,39,39,59,,63,64,75,99,99,94,102
+Nuble,usuarios en residencia,22,22,21,,28,27,36,41,47,49,50
+Biobio,usuarios en residencia,119,119,139,,135,123,179,168,158,172,196
+La Araucania,usuarios en residencia,89,89,113,,130,130,138,131,164,164,195
+Los Rios,usuarios en residencia,47,47,7,,7,82,20,22,23,23,31
+Los Lagos,usuarios en residencia,43,43,75,,75,14,101,83,75,75,75
+Aysen,usuarios en residencia,0,0,3,,4,4,6,13,14,14,13
+Magallanes y la Antartica,usuarios en residencia,23,23,14,,15,15,16,16,16,14,23
+Arica y Parinacota,residencias,1,1,1,,1,1,3,3,4,4,4
+Tarapaca,residencias,2,2,4,,4,4,8,8,10,10,10
+Antofagasta,residencias,3,3,3,,3,3,4,4,4,4,4
+Atacama,residencias,2,2,2,,2,2,2,2,2,2,2
+Coquimbo,residencias,6,6,6,,6,6,8,8,6,6,6
+Valparaiso,residencias,7,7,8,,8,8,19,19,19,19,19
+Metropolitana,residencias,32,32,31,,30,31,38,38,38,38,38
+Del Libertador General Bernardo O’Higgins,residencias,2,2,2,,2,2,3,2,3,3,3
+Maule,residencias,2,2,3,,4,4,5,5,10,10,10
+Nuble,residencias,2,2,2,,2,2,3,3,3,3,3
+Biobio,residencias,5,5,7,,9,9,15,15,10,10,10
+La Araucania,residencias,2,2,2,,3,3,3,3,3,3,3
+Los Rios,residencias,6,6,5,,4,6,10,4,4,4,4
+Los Lagos,residencias,5,5,6,,6,4,6,6,6,6,6
+Aysen,residencias,3,3,3,,3,3,3,3,3,3,3
+Magallanes y la Antartica,residencias,5,5,5,,5,5,6,6,5,5,5
