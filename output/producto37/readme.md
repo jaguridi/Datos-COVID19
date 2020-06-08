@@ -4,7 +4,7 @@ Los datos aquí publicados provienen de registros administrativos correspondient
 Defunciones se refiere a la fecha en que se inscribió la defunción en el Registro Civil. El plazo para hacer la inscripción es de tres días desde el fallecimiento y debe realizarse en la comuna donde ocurrió el deceso.
 
 # Columnas y valores
-El archivo contiene las columnas 'Defunciones' y múltiples columnas correspondientes a '[fecha]'. Estas últimas columnas, ‘[fecha]’, contienen las 'Defunciones' inscritas en el Registro Civil de Chile con relación a COVID19, que al cruzar con la base de laboratorios tienen PCR positivo o en espera.
+El archivo contiene las columnas 'Defunciones*' y múltiples columnas correspondientes a '[fecha]'. Estas últimas columnas, ‘[fecha]’, contienen las 'Defunciones' inscritas en el Registro Civil de Chile con relación a COVID19, que al cruzar con la base de laboratorios tienen PCR positivo o en espera, y son datos provisorios a la fecha de publicación que se pueden actualizar retroactivamente.
 
 # Fuente
 Servicio de Registro Civil de Chile y Ministerio de Salud de Chile.
