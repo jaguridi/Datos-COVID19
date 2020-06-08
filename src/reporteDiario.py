@@ -264,24 +264,23 @@ def prod5(fte, producto):
 
     totales = df_output_file.T
 
-    print(totales.to_string())
+    #print(totales.to_string())
     #print(totales.columns[1:])
 
     ## esto es estandar
     #totales = pd.read_csv(producto)
-    print(totales.columns.dtype)
+    #print(totales.columns.dtype)
     totales.columns = totales.columns.astype(str)
 
-    totales.to_csv(producto)
+    totales.to_csv(producto, index_label='Fecha')
     totales_t = totales.transpose()
-    totales_t.to_csv(producto.replace('.csv', '_T.csv'), header=False)
-    print(totales.to_string())
-    totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
-    identifiers = ['Dato']
-    variables = [x for x in totales.columns if x not in identifiers]
-    df_std = pd.melt(totales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Total')
-    #df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
+    totales_t.to_csv(producto.replace('.csv', '_T.csv'))
+    #print(totales.to_string())
+
+    df_std = pd.melt(totales.reset_index(), id_vars='index', value_vars=totales.columns)
+    df_std.rename(columns={'index': 'Dato', 'value': 'Total'}, inplace=True)
+    print(df_std.to_string())
+    df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
 def prod3_13_14_26_27(fte):
