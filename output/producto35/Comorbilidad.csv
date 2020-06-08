@@ -1,0 +1,23 @@
+Comorbilidad,Hospitalización,2020-05-25,2020-05-29,2020-06-01,2020-06-05
+Hipertensión arterial,NO,6350.0,8134.0,9725.0,11543.0
+Diabetes,NO,2770.0,3569.0,4333.0,5043.0
+Obesidad,NO,1351.0,1743.0,2118.0,2578.0
+Enfermedad cardiovascular,NO,540.0,664.0,770.0,784.0
+Cardiopatía crónica,NO,405.0,498.0,578.0,672.0
+Enfermedad pulmonar crónica,NO,405.0,415.0,578.0,672.0
+Enfermedad renal crónica,NO,203.0,332.0,385.0,448.0
+Asma,NO,1554.0,1909.0,2311.0,2690.0
+Enfermedad neurológica crónica,NO,203.0,249.0,289.0,336.0
+Inmunocomprometido,NO,68.0,83.0,96.0,112.0
+Enfermedad hepática crónica,NO,68.0,83.0,96.0,112.0
+Hipertensión arterial,SI,1861.0,2192.0,2556.0,3025.0
+Diabetes,SI,1262.0,1467.0,1695.0,1972.0
+Obesidad,SI,380.0,466.0,541.0,647.0
+Enfermedad cardiovascular,SI,296.0,328.0,373.0,417.0
+Cardiopatía crónica,SI,328.0,367.0,408.0,459.0
+Enfermedad pulmonar crónica,SI,309.0,344.0,391.0,459.0
+Enfermedad renal crónica,SI,283.0,336.0,382.0,449.0
+Asma,SI,232.0,252.0,293.0,344.0
+Enfermedad neurológica crónica,SI,193.0,214.0,240.0,271.0
+Inmunocomprometido,SI,84.0,99.0,106.0,115.0
+Enfermedad hepática crónica,SI,71.0,92.0,106.0,115.0

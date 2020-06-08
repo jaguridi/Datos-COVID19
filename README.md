@@ -71,6 +71,13 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 33 (contribuido) - Índices de Movilidad Nacional a nivel comunal](output/producto33): Contribuido por el Instituto de Data Science de la Universidad del Desarrollo, set de 9 archivos en formato csv que dan cuenta de índices de movilidad construidos con los datos de la red de telefonía móvil. Incluye viajes dentro de una comuna (índice de movilidad interno) y viajes con origen dentro de la comuna y destino afuera (y su recíproco, como índice de movilidad externo). [Ver Más](output/producto33)
 
+[Data Product 34 (contribuido) - Cruce entre cuarentenas y manzanas censales](output/producto34): Contribuido por el Instituto de Sistemas Complejos de Ingeniería de la Universidad de Chile. Contiene Los datos publicos del Censo 2017 cuentan con información demografica valiosa para distintas regiones geografica, como lo son la cantidad de habitantes, calidad de las viviendas o la distribución etarea. La región geografica más desagregada para la cual se encuentra disponible esta información se denomina Manzana Censal. Este producto indica las manzanas censales que pertenecen a cada zona de cuarentena. [Ver más] (output/producto34)
+
+[Data Product 35 - Comorbilidad por Casos Confirmados](output/producto35): Set de 3 archivos en formato csv que dan cuenta de las enfermedades crónicas más frecuentes en los casos confirmados no hospitalizados, también da cuenta de la distribución para los casos que han requerido hospitalización. Se concatena la historia de los informes de Situación Epidemiológica publicados por el Ministerio de Salud del país. [Ver más](output/producto35)
+
+[Data Product 36 - Residencias Sanitarias](output/producto36): Este producto da cuenta del número de residencias sanitarias informadas por región. Se consideran las categorias: Número de habitaciones totales, Número de usuarios en la residencia y número de residencias habilitadas. Este archivo concatena la historia de los reportes diarios publicados por el Ministerio de Salud del país. [Ver más](output/producto36)
+
+[Data Product 37 - Defunciones por COVID en Chile (provisorio)](output/producto37): Este producto da cuenta del número de fallecidos por día reportados provisoriamente con inscripciones en el registro civil y los laboratorios de diagnóstico. Este archivo se va actualizando diariamente con el progreso de la invesgicación. [Ver más](output/producto37)
 
 ## ¿Cómo funciona?
 Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiológico, informe de situación covid19 y la pagina web del MINSAL.

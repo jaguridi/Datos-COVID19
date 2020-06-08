@@ -1,48 +1,175 @@
 Casos,Fecha,Casos confirmados
-Pacientes VMI,2020-04-11,322
-Pacientes VMI,2020-04-12,328
-Pacientes VMI,2020-04-13,330
-Pacientes VMI,2020-04-14,315
-Pacientes VMI,2020-04-15,315
-Pacientes VMI,2020-04-16,313
-Pacientes VMI,2020-04-17,316
-Pacientes VMI,2020-04-18,296
-Pacientes VMI,2020-04-19,312
-Pacientes VMI,2020-04-20,296
-Pacientes VMI,2020-04-21,303
-Pacientes VMI,2020-04-22,309
-Pacientes VMI,2020-04-23,316
-Pacientes VMI,2020-04-24,325
-Pacientes VMI,2020-04-25,321
-Pacientes VMI,2020-04-26,319
-Pacientes VMI,2020-04-27,325
-Pacientes VMI,2020-04-28,317
-Pacientes VMI,2020-04-29,310
-Pacientes VMI,2020-04-30,323
-Pacientes VMI,2020-05-01,327
-Pacientes VMI,2020-05-02,324
-Pacientes VMI,2020-05-03,339
-Pacientes VMI,2020-05-04,354
-Pacientes VMI,2020-05-05,356
-Pacientes VMI,2020-05-06,385
-Pacientes VMI,2020-05-07,391
-Pacientes VMI,2020-05-08,419
-Pacientes VMI,2020-05-09,445
-Pacientes VMI,2020-05-10,470
-Pacientes VMI,2020-05-11,474
-Pacientes VMI,2020-05-12,494
-Pacientes VMI,2020-05-13,538
-Pacientes VMI,2020-05-14,555
-Pacientes VMI,2020-05-15,584
-Pacientes VMI,2020-05-16,624
-Pacientes VMI,2020-05-17,627
-Pacientes VMI,2020-05-18,670
-Pacientes VMI,2020-05-19,728
-Pacientes VMI,2020-05-20,758
-Pacientes VMI,2020-05-21,795
-Pacientes VMI,2020-05-22,850
-Pacientes VMI,2020-05-23,900
-Pacientes VMI,2020-05-24,942
-Pacientes VMI,2020-05-25,989
-Pacientes VMI,2020-05-26,1029
-Pacientes VMI,2020-05-27,1048
+Pacientes VMI,2020-04-11,322.0
+Pacientes no VM,2020-04-11,
+Pacientes VM no invasiva,2020-04-11,
+Pacientes VMI,2020-04-12,328.0
+Pacientes no VM,2020-04-12,
+Pacientes VM no invasiva,2020-04-12,
+Pacientes VMI,2020-04-13,330.0
+Pacientes no VM,2020-04-13,
+Pacientes VM no invasiva,2020-04-13,
+Pacientes VMI,2020-04-14,315.0
+Pacientes no VM,2020-04-14,
+Pacientes VM no invasiva,2020-04-14,
+Pacientes VMI,2020-04-15,315.0
+Pacientes no VM,2020-04-15,
+Pacientes VM no invasiva,2020-04-15,
+Pacientes VMI,2020-04-16,313.0
+Pacientes no VM,2020-04-16,
+Pacientes VM no invasiva,2020-04-16,
+Pacientes VMI,2020-04-17,316.0
+Pacientes no VM,2020-04-17,
+Pacientes VM no invasiva,2020-04-17,
+Pacientes VMI,2020-04-18,296.0
+Pacientes no VM,2020-04-18,
+Pacientes VM no invasiva,2020-04-18,
+Pacientes VMI,2020-04-19,312.0
+Pacientes no VM,2020-04-19,
+Pacientes VM no invasiva,2020-04-19,
+Pacientes VMI,2020-04-20,296.0
+Pacientes no VM,2020-04-20,
+Pacientes VM no invasiva,2020-04-20,
+Pacientes VMI,2020-04-21,303.0
+Pacientes no VM,2020-04-21,
+Pacientes VM no invasiva,2020-04-21,
+Pacientes VMI,2020-04-22,309.0
+Pacientes no VM,2020-04-22,
+Pacientes VM no invasiva,2020-04-22,
+Pacientes VMI,2020-04-23,316.0
+Pacientes no VM,2020-04-23,
+Pacientes VM no invasiva,2020-04-23,
+Pacientes VMI,2020-04-24,325.0
+Pacientes no VM,2020-04-24,
+Pacientes VM no invasiva,2020-04-24,
+Pacientes VMI,2020-04-25,321.0
+Pacientes no VM,2020-04-25,
+Pacientes VM no invasiva,2020-04-25,
+Pacientes VMI,2020-04-26,319.0
+Pacientes no VM,2020-04-26,
+Pacientes VM no invasiva,2020-04-26,
+Pacientes VMI,2020-04-27,325.0
+Pacientes no VM,2020-04-27,
+Pacientes VM no invasiva,2020-04-27,
+Pacientes VMI,2020-04-28,317.0
+Pacientes no VM,2020-04-28,
+Pacientes VM no invasiva,2020-04-28,
+Pacientes VMI,2020-04-29,310.0
+Pacientes no VM,2020-04-29,
+Pacientes VM no invasiva,2020-04-29,
+Pacientes VMI,2020-04-30,323.0
+Pacientes no VM,2020-04-30,
+Pacientes VM no invasiva,2020-04-30,
+Pacientes VMI,2020-05-01,327.0
+Pacientes no VM,2020-05-01,
+Pacientes VM no invasiva,2020-05-01,
+Pacientes VMI,2020-05-02,324.0
+Pacientes no VM,2020-05-02,
+Pacientes VM no invasiva,2020-05-02,
+Pacientes VMI,2020-05-03,339.0
+Pacientes no VM,2020-05-03,
+Pacientes VM no invasiva,2020-05-03,
+Pacientes VMI,2020-05-04,354.0
+Pacientes no VM,2020-05-04,
+Pacientes VM no invasiva,2020-05-04,
+Pacientes VMI,2020-05-05,356.0
+Pacientes no VM,2020-05-05,
+Pacientes VM no invasiva,2020-05-05,
+Pacientes VMI,2020-05-06,385.0
+Pacientes no VM,2020-05-06,
+Pacientes VM no invasiva,2020-05-06,
+Pacientes VMI,2020-05-07,391.0
+Pacientes no VM,2020-05-07,
+Pacientes VM no invasiva,2020-05-07,
+Pacientes VMI,2020-05-08,419.0
+Pacientes no VM,2020-05-08,
+Pacientes VM no invasiva,2020-05-08,
+Pacientes VMI,2020-05-09,445.0
+Pacientes no VM,2020-05-09,
+Pacientes VM no invasiva,2020-05-09,
+Pacientes VMI,2020-05-10,470.0
+Pacientes no VM,2020-05-10,
+Pacientes VM no invasiva,2020-05-10,
+Pacientes VMI,2020-05-11,474.0
+Pacientes no VM,2020-05-11,
+Pacientes VM no invasiva,2020-05-11,
+Pacientes VMI,2020-05-12,494.0
+Pacientes no VM,2020-05-12,
+Pacientes VM no invasiva,2020-05-12,
+Pacientes VMI,2020-05-13,538.0
+Pacientes no VM,2020-05-13,
+Pacientes VM no invasiva,2020-05-13,
+Pacientes VMI,2020-05-14,555.0
+Pacientes no VM,2020-05-14,
+Pacientes VM no invasiva,2020-05-14,
+Pacientes VMI,2020-05-15,584.0
+Pacientes no VM,2020-05-15,
+Pacientes VM no invasiva,2020-05-15,
+Pacientes VMI,2020-05-16,624.0
+Pacientes no VM,2020-05-16,
+Pacientes VM no invasiva,2020-05-16,
+Pacientes VMI,2020-05-17,627.0
+Pacientes no VM,2020-05-17,
+Pacientes VM no invasiva,2020-05-17,
+Pacientes VMI,2020-05-18,670.0
+Pacientes no VM,2020-05-18,
+Pacientes VM no invasiva,2020-05-18,
+Pacientes VMI,2020-05-19,728.0
+Pacientes no VM,2020-05-19,
+Pacientes VM no invasiva,2020-05-19,
+Pacientes VMI,2020-05-20,758.0
+Pacientes no VM,2020-05-20,
+Pacientes VM no invasiva,2020-05-20,
+Pacientes VMI,2020-05-21,795.0
+Pacientes no VM,2020-05-21,
+Pacientes VM no invasiva,2020-05-21,
+Pacientes VMI,2020-05-22,850.0
+Pacientes no VM,2020-05-22,
+Pacientes VM no invasiva,2020-05-22,
+Pacientes VMI,2020-05-23,900.0
+Pacientes no VM,2020-05-23,
+Pacientes VM no invasiva,2020-05-23,
+Pacientes VMI,2020-05-24,942.0
+Pacientes no VM,2020-05-24,116.0
+Pacientes VM no invasiva,2020-05-24,32.0
+Pacientes VMI,2020-05-25,989.0
+Pacientes no VM,2020-05-25,115.0
+Pacientes VM no invasiva,2020-05-25,31.0
+Pacientes VMI,2020-05-26,1029.0
+Pacientes no VM,2020-05-26,140.0
+Pacientes VM no invasiva,2020-05-26,33.0
+Pacientes VMI,2020-05-27,1048.0
+Pacientes no VM,2020-05-27,159.0
+Pacientes VM no invasiva,2020-05-27,44.0
+Pacientes VMI,2020-05-28,1079.0
+Pacientes no VM,2020-05-28,156.0
+Pacientes VM no invasiva,2020-05-28,54.0
+Pacientes VMI,2020-05-29,1143.0
+Pacientes no VM,2020-05-29,162.0
+Pacientes VM no invasiva,2020-05-29,45.0
+Pacientes VMI,2020-05-30,1151.0
+Pacientes no VM,2020-05-30,173.0
+Pacientes VM no invasiva,2020-05-30,47.0
+Pacientes VMI,2020-05-31,1174.0
+Pacientes no VM,2020-05-31,158.0
+Pacientes VM no invasiva,2020-05-31,51.0
+Pacientes VMI,2020-06-01,1209.0
+Pacientes no VM,2020-06-01,179.0
+Pacientes VM no invasiva,2020-06-01,58.0
+Pacientes VMI,2020-06-02,1202.0
+Pacientes no VM,2020-06-02,189.0
+Pacientes VM no invasiva,2020-06-02,60.0
+Pacientes VMI,2020-06-03,1218.0
+Pacientes no VM,2020-06-03,196.0
+Pacientes VM no invasiva,2020-06-03,61.0
+Pacientes VMI,2020-06-04,1261.0
+Pacientes no VM,2020-06-04,182.0
+Pacientes VM no invasiva,2020-06-04,53.0
+Pacientes VMI,2020-06-05,1291.0
+Pacientes no VM,2020-06-05,180.0
+Pacientes VM no invasiva,2020-06-05,50.0
+Pacientes VMI,2020-06-06,1294.0
+Pacientes no VM,2020-06-06,180.0
+Pacientes VM no invasiva,2020-06-06,50.0
+Pacientes VMI,2020-06-07,1336.0
+Pacientes no VM,2020-06-07,168.0
+Pacientes VM no invasiva,2020-06-07,54.0
