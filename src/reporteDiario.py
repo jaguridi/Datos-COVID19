@@ -136,8 +136,7 @@ def prod5(fte, producto):
 
         ################################## Lo de Demian
         # Faltan  recuperados por FIS
-    date_before = datetime(2020, 6, 1)
-    print(date_before)
+
 
     # despues hay que hacerlo solo para el ultimo valor
     # if df_input_file[(df_input_file['Fecha'] == date_before)]:
@@ -151,13 +150,19 @@ def prod5(fte, producto):
         df_output_file['Casos activos'] - \
         df_output_file['Fallecidos']
     # Falta casos activos y recuperados por FD: ocupar numeros antiguos para calcular
-    fourteen_days_ago = now - timedelta(days=14)
-    timestamp_dia_primero_fourteen = fourteen_days_ago.strftime("%d-%m-%Y")
-    fourteendaysago_row = (df_output_file.loc[timestamp_dia_primero_fourteen,])
-    print(fourteendaysago_row)
-    # Activos por FD se calculan con los casos totales de hoy, menos los casos totales de hace 14 días
-    df_output_file['Casos activos por FD'] = df_output_file['Casos totales'] - \
-                                             fourteendaysago_row['Casos totales']
+    fourteen_days = timedelta(days=14)
+
+    for i in df_output_file.index:
+        #df.loc[i, 'C'] = df.loc[i - 1, 'C'] * df.loc[i, 'A'] + df.loc[i, 'B']
+        print(i)
+        if (i - fourteen_days) in df_output_file.index:
+            print('14 days ago is on the df')
+            df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos totales'] - df_output_file.loc[i - fourteen_days, 'Casos totales']
+        else:
+            print('no data 14 days ago')
+        #df_output_file.loc[i, 'Casos activos por FD'] = df_output_file['Casos totales'] - \
+        #                                    df_output_file.loc[i - fourteen_days_ago, 'Casos totales']
+
     # Recuperados FD se calculan restando fallecidos y activos FD
     df_output_file['Casos recuperados por FD'] = (
             df_output_file['Casos totales'] -
