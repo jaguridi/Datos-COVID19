@@ -24,7 +24,7 @@ SOFTWARE.
 
 
 """
-Los productos que salen del reporte diario son:
+Los productos que salen del las nuevas definiciones son:
 37
 """
 
@@ -42,13 +42,13 @@ def prod37(fte, producto):
     df = pd.read_csv(fte)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Casos']
+    identifiers = ['Número']
     variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Fallecidos')
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Defunciones')
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
 if __name__ == '__main__':
 
     print('Generando producto 37')
-    prod37('../input/NuevaDefFallecidos/CasosFallecidos.csv', '../output/producto37/CasosFallecidos')
+    prod37('../input/NuevaDefDefunciones/Defunciones.csv', '../output/producto37/Defunciones')
