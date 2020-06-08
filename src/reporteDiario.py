@@ -51,7 +51,7 @@ from utils import *
 from shutil import copyfile
 from os import listdir
 from os.path import isfile, join
-from datetime import datetime
+from datetime import datetime, timedelta
 import numpy as np
 
 
@@ -103,8 +103,6 @@ def prod5(fte, producto):
                       'Casos nuevos con sintomas': 'Casos nuevos con sintomas',
                       'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas',
                       'Fallecidos totales': 'Fallecidos'}, inplace=True)
-    #Faltan casos activos: prod 5 esta ahora en el reporte diario, hay que migrar para alla
-    #print(df_input_file.to_string())
 
     #print(timestamp)
     timestamp = '2020-06-07'
@@ -136,6 +134,37 @@ def prod5(fte, producto):
         last_row.drop(columns=['Fecha'], inplace=True)
         df_output_file.append(last_row)
 
+        ################################## Lo de Demian
+        # Faltan  recuperados por FIS
+    date_before = datetime(2020, 6, 1)
+    print(date_before)
+
+    # despues hay que hacerlo solo para el ultimo valor
+    # if df_input_file[(df_input_file['Fecha'] == date_before)]:
+    #     print(df_input_file['Fecha'])
+    #
+
+    df_output_file['Casos activos por FIS'] = df_output_file['Casos activos']
+    # Recuperados FIS se calculan restando fallecidos y activos FIS
+    df_output_file['Casos recuperados por FIS'] = \
+        df_output_file['Casos totales'] - \
+        df_output_file['Casos activos'] - \
+        df_output_file['Fallecidos']
+    # Falta casos activos y recuperados por FD: ocupar numeros antiguos para calcular
+    fourteen_days_ago = now - timedelta(days=14)
+    timestamp_dia_primero_fourteen = fourteen_days_ago.strftime("%d-%m-%Y")
+    fourteendaysago_row = (df_output_file.loc[timestamp_dia_primero_fourteen,])
+    print(fourteendaysago_row)
+    # Activos por FD se calculan con los casos totales de hoy, menos los casos totales de hace 14 días
+    df_output_file['Casos activos por FD'] = df_output_file['Casos totales'] - \
+                                             fourteendaysago_row['Casos totales']
+    # Recuperados FD se calculan restando fallecidos y activos FD
+    df_output_file['Casos recuperados por FD'] = (
+            df_output_file['Casos totales'] -
+            df_output_file['Casos activos por FD'] -
+            df_output_file['Fallecidos'])
+    ################################## Lo de Demian
+
     totales = df_output_file.T
 
     #print(totales.to_string())
@@ -149,11 +178,11 @@ def prod5(fte, producto):
     totales.to_csv(producto, index_label='Fecha')
     totales_t = totales.transpose()
     totales_t.to_csv(producto.replace('.csv', '_T.csv'))
-    #print(totales.to_string())
+    print(totales.to_string())
 
     df_std = pd.melt(totales.reset_index(), id_vars='index', value_vars=totales.columns)
     df_std.rename(columns={'index': 'Dato', 'value': 'Total'}, inplace=True)
-    print(df_std.to_string())
+    #print(df_std.to_string())
     df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
