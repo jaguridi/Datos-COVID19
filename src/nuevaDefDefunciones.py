@@ -35,14 +35,16 @@ from os import listdir
 from os.path import isfile, join
 from datetime import datetime
 import numpy as np
+import glob
 
 
 def prod37(fte, producto):
+
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Número']
+    identifiers = ['Publicación','Número']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Defunciones')
     df_std.to_csv(producto + '_std.csv', index=False)
@@ -51,4 +53,4 @@ def prod37(fte, producto):
 if __name__ == '__main__':
 
     print('Generando producto 37')
-    prod37('../input/NuevaDefDefunciones/Defunciones.csv', '../output/producto37/Defunciones')
+    prod37('../input/NuevaDefDefunciones/2020-06-08-Defunciones.csv', '../output/producto37/2020-06-08-Defunciones')
