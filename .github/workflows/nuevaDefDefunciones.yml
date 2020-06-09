@@ -7,12 +7,12 @@ name: Actualiza_productos_de_nueva_definicion_defunciones
 on:
     push:
         branches: master
-        paths: 'input/NuevaDefDefunciones/*.csv'
+        paths: 'input/NuevaDefDefunciones/*.xlsx'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  Actualiza_productos_del_reporte_diario:
+  Actualiza_productos_de_nueva_def_defunciones:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -33,12 +33,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: generate products from Reporte Diario
+    - name: generate products from NuevaDefDefunciones
       run: cd src; python nuevaDefDefunciones.py
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
-        commit_message: "Added data from reporte diario to repo"
+        commit_message: "Added data from nueva def defunciones to repo"
 
         # Optional glob pattern of files which should be added to the commit
         file_pattern: output/*/*.csv

@@ -49,11 +49,11 @@ def prod37(fte, producto):
         df['fecha defunción'] = df['fecha defunción'].dt.floor('d')
         df['Publicacion'] = serie_name
         print(df.columns)
-        df = df.rename(columns={'fecha defunción': 'Fecha defuncion',
+        df = df.rename(columns={'fecha defunción': 'Fecha',
                                 'n° fallecidos': 'Total',
                                 'nº fallecidos': 'Total'
                                 })
-        columns_ordered = ['Publicacion', 'Fecha defuncion', 'Total']
+        columns_ordered = ['Publicacion', 'Fecha', 'Total']
         df = df[columns_ordered]
         #print(df)
         data.append(df)
@@ -63,31 +63,13 @@ def prod37(fte, producto):
     data_std.to_csv(producto + '_std.csv', index=False)
 
     # este es el prod _T
-    data_T = data_std.pivot(index='Fecha defuncion', columns='Publicacion', values='Total')
+    data_T = data_std.pivot(index='Fecha', columns='Publicacion', values='Total')
     data_T.to_csv(producto + '_T.csv')
 
     # este es el prod  regular
     data = data_T.T
     data.to_csv(producto + '.csv')
 
-
-
-
-
-
-    # df = pd.read_csv(fte)
-    #
-    # df['Publicación'] = df['Publicación'].astype(str) + '-' + df['Número']
-    # df.drop(columns=['Número'], inplace=True)
-    # df.rename(columns={'Publicación': 'Publicacion'})
-    #
-    # df.to_csv(producto + '.csv', index=False)
-    # df_t = df.T
-    # df_t.to_csv(producto + '_T.csv', header=False)
-    # identifiers = ['Publicación']
-    # variables = [x for x in df.columns if x not in identifiers]
-    # df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Defunciones')
-    # df_std.to_csv(producto + '_std.csv', index=False)
 
 
 if __name__ == '__main__':
