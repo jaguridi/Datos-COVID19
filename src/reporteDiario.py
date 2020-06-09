@@ -189,6 +189,7 @@ def prod5(fte, producto):
 
     ################################## Lo de Demian
 
+    df_output_file.sort_index(inplace=True)
     totales = df_output_file.T
 
     #print(totales.to_string())
@@ -198,6 +199,8 @@ def prod5(fte, producto):
     #totales = pd.read_csv(producto)
     #print(totales.columns.dtype)
     totales.columns = totales.columns.astype(str)
+
+    print(totales.to_string())
 
     totales.to_csv(producto, index_label='Fecha')
     totales_t = totales.transpose()
