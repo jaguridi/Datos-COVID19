@@ -55,6 +55,7 @@ def prod37(fte, producto):
                                 })
         columns_ordered = ['Publicacion', 'Fecha', 'Total']
         df = df[columns_ordered]
+        df = df.dropna()
         #print(df)
         data.append(df)
 
