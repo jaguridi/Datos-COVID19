@@ -1,13 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Actualiza_productos_de_reporte_diario
+name: Actualiza_productos_de_nueva_definicion_defunciones
 
 # Controls when the action will run. Triggers the workflow on push or pull request 
 # events but only for the master branch
 on:
     push:
         branches: master
-        paths: 'input/ReporteDiario/*.csv'
+        paths: 'input/NuevaDefDefunciones/*.csv'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -34,17 +34,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: generate products from Reporte Diario
-      run: cd src; python reporteDiario.py
-
-#    - uses: peter-evans/create-pull-request@v2
-#      with:
-#          commit_message: "Por favor confirma que esta todo bien"
-#          title: "Se actualizo el input del reporte diario, y generamos los productos correspondientes"
-#          branch-suffix: timestamp
-#          committer: minciencia github bot <actions@github.com>
-#          reviewers: pdaire, fzmolina, raliaga, dna33, scornejo, MinCiencia
-#          base: master
-#
+      run: cd src; python nuevaDefDefunciones.py
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
@@ -66,4 +56,4 @@ jobs:
       run: |
         curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
         -H 'Accept: application/vnd.github.everest-preview+json'  "https://api.github.com/repos/Data-Observatory/covid19-API/dispatches" \
-        -d '{"event_type": "update_please_from_reporte_diario"}'
+        -d '{"event_type": "update_please_from_nueva_def_defunciones"}'
