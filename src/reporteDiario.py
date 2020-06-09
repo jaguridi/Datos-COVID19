@@ -105,7 +105,7 @@ def prod5(fte, producto):
                       'Fallecidos totales': 'Fallecidos'}, inplace=True)
 
     #print(timestamp)
-
+    timestamp = '2020-06-07'
     last_row = df_input_file[df_input_file['Fecha'] == timestamp]
     #print(last_row.to_string())
 
@@ -143,31 +143,50 @@ def prod5(fte, producto):
     #     print(df_input_file['Fecha'])
     #
 
-    df_output_file['Casos activos por FIS'] = df_output_file['Casos activos']
-    # Recuperados FIS se calculan restando fallecidos y activos FIS
-    df_output_file['Casos recuperados por FIS'] = \
-        df_output_file['Casos totales'] - \
-        df_output_file['Casos activos'] - \
-        df_output_file['Fallecidos']
-    # Falta casos activos y recuperados por FD: ocupar numeros antiguos para calcular
-    fourteen_days = timedelta(days=14)
+    # el 2 de junio hubo un cambio: Casos activos y recuperados por FIS y FD se calculan a partir de ese dia.
+    # antes de eso es None
+    fecha_de_corte = datetime(2020, 6, 2)
 
     for i in df_output_file.index:
-        #df.loc[i, 'C'] = df.loc[i - 1, 'C'] * df.loc[i, 'A'] + df.loc[i, 'B']
-        print(i)
-        if (i - fourteen_days) in df_output_file.index:
-            #print('14 days ago is on the df')
-            df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos totales'] - df_output_file.loc[i - fourteen_days, 'Casos totales']
-        else:
-            print('no data 14 days ago')
-        #df_output_file.loc[i, 'Casos activos por FD'] = df_output_file['Casos totales'] - \
-        #                                    df_output_file.loc[i - fourteen_days_ago, 'Casos totales']
+        if i >= fecha_de_corte:
+            print(str(i))
+            # Casos activos por FIS parten el 2 de Junio por definicion y corresponden a los casos activos del reporte diario
+            df_output_file.loc[i, 'Casos activos por FIS'] = df_output_file.loc[i, 'Casos activos']
+            # Recuperados FIS se calculan restando fallecidos y activos FIS
+            df_output_file.loc[i, 'Casos recuperados por FIS'] = \
+                df_output_file.loc[i, 'Casos totales'] - \
+                df_output_file.loc[i, 'Casos activos'] - \
+                df_output_file.loc[i, 'Fallecidos']
+            # Falta casos activos y recuperados por FD: ocupar numeros antiguos para calcular
+            fourteen_days = timedelta(days=14)
 
-    # Recuperados FD se calculan restando fallecidos y activos FD
-    df_output_file['Casos recuperados por FD'] = (
-            df_output_file['Casos totales'] -
-            df_output_file['Casos activos por FD'] -
-            df_output_file['Fallecidos'])
+            # Casos activos por FD = casos activos hasta el 2 de Junio. Antes de eso se copian casos activos
+
+            #df.loc[i, 'C'] = df.loc[i - 1, 'C'] * df.loc[i, 'A'] + df.loc[i, 'B']
+            #print(i)
+            if (i - fourteen_days) in df_output_file.index:
+                #print('14 days ago is on the df')
+                df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos totales'] - df_output_file.loc[i - fourteen_days, 'Casos totales']
+            else:
+                print(str(i) + ' has no data 14 days ago')
+                #df_output_file.loc[i, 'Casos activos por FD'] = df_output_file['Casos totales'] - \
+                #                                    df_output_file.loc[i - fourteen_days_ago, 'Casos totales']
+
+            # Es igual a recuperados hasta el 1 de junio (inclusive), desde el 2 se calcula
+            # Recuperados FD se calculan restando fallecidos y activos FD
+            df_output_file.loc[i, 'Casos recuperados por FD'] = (
+                    df_output_file.loc[i, 'Casos totales'] -
+                    df_output_file.loc[i, 'Casos activos por FD'] -
+                    df_output_file.loc[i, 'Fallecidos'])
+
+        # lo que pasa antes de la fecha de corte
+        else:
+            # Casos activos por FD = casos activos hasta el 2 de Junio. Antes de eso se copian casos activos
+            df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos activos']
+            df_output_file.loc[i, 'Casos activos por FIS'] = np.NaN
+            df_output_file.loc[i, 'Casos recuperados por FIS'] = np.NaN
+            df_output_file.loc[i, 'Casos recuperados por FD'] = np.NaN
+
     ################################## Lo de Demian
 
     totales = df_output_file.T
