@@ -91,7 +91,6 @@ def prod5(fte, producto):
 
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
-    timestamp_dia_primero = now.strftime("%d-%m-%Y")
     df_input_file = pd.read_csv(fte + 'CasosConfirmadosTotales.csv')
     df_input_file['Fecha'] = pd.to_datetime(df_input_file['Fecha'], format='%d-%m-%Y')
     #print(df_input_file.to_string())
@@ -135,12 +134,6 @@ def prod5(fte, producto):
 
         ################################## Lo de Demian
         # Faltan  recuperados por FIS
-
-
-    # despues hay que hacerlo solo para el ultimo valor
-    # if df_input_file[(df_input_file['Fecha'] == date_before)]:
-    #     print(df_input_file['Fecha'])
-    #
 
     # el 2 de junio hubo un cambio: Casos activos y recuperados por FIS y FD se calculan a partir de ese dia.
     # antes de eso es None
