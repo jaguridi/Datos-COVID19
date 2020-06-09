@@ -38,11 +38,12 @@ import numpy as np
 
 
 def prod37(fte, producto):
+
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Número']
+    identifiers = ['Publicación','Número']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Defunciones')
     df_std.to_csv(producto + '_std.csv', index=False)
