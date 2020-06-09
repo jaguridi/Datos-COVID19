@@ -74,3 +74,5 @@ ID,Nombre,Estado,Alcance,Fecha de Inicio,Fecha de Término,Código CUT Comuna,De
 73,San Bernardo Extensión a Total,Activa,Comuna completa,2020-05-16 02:00:00,2020-06-13 02:00:00,13401,Incorporada como parte de la Cuarentena del Gran Santiago y Alrededores a todo el territorio,221119742.068359,103398.390100715
 74,Providencia Re-ingreso total,Activa,Comuna completa,2020-05-16 02:00:00,2020-06-13 02:00:00,13123,Incorporada como parte de la Cuarentena del Gran Santiago y Alrededores a todo el territorio,20727385.15625,19429.199340283
 75,Lonquimay,Histórica,Comuna completa,2020-05-23 02:00:00,2020-06-06 02:00:00,9205,Aplicada a la totalidad por criterios de capacidad sanitaria y aumento sustantivo de casos,6426178803.84766,454701.679855686
+76,San Antonio,Futura,Comuna completa,2020-06-10 02:00:00,2020-06-13 02:00:00,5601,Aplicada a la totalidad de la comuna,576482915.402344,154571.506097539
+77,Calama,Futura,Área Urbana Completa,2020-06-10 02:00:00,2020-06-13 02:00:00,2201,Aplicada a la ciudad de Calama (Radio Urbano),28351200.2382813,122103.03366428
