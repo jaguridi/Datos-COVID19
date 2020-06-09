@@ -22,34 +22,74 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-
 """
 Los productos que salen del las nuevas definiciones son:
 37
 """
 
-import pandas as pd
 from utils import *
-from shutil import copyfile
-from os import listdir
-from os.path import isfile, join
-from datetime import datetime
-import numpy as np
+import pandas as pd
+import glob
 
 
+# debe ser como el prod15 historico
+# el nombre del archivo es el nombre de la serie
 def prod37(fte, producto):
+    data = []
+    for file in glob.glob(fte + '*.xlsx'):
+        print(file)
+        serie_name = file.replace(fte, '').replace('.xlsx', '')
+        print(serie_name)
+        df = pd.read_excel(file)
+        df.columns = df.columns.str.lower()
+        # need to drop total as fecha
+        todrop = df.loc[df['fecha defunción'] == 'TOTAL']
+        df.drop(todrop.index, inplace=True)
 
-    copyfile(fte, producto + '.csv')
-    df = pd.read_csv(fte)
-    df_t = df.T
-    df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Publicación','Número']
-    variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Defunciones')
-    df_std.to_csv(producto + '_std.csv', index=False)
+        df['fecha defunción'] = df['fecha defunción'].dt.floor('d')
+        df['Publicacion'] = serie_name
+        print(df.columns)
+        df = df.rename(columns={'fecha defunción': 'Fecha defuncion',
+                                'n° fallecidos': 'Total',
+                                'nº fallecidos': 'Total'
+                                })
+        columns_ordered = ['Publicacion', 'Fecha defuncion', 'Total']
+        df = df[columns_ordered]
+        #print(df)
+        data.append(df)
+
+    #este es el prod _std
+    data_std = pd.concat(data)
+    data_std.to_csv(producto + '_std.csv', index=False)
+
+    # este es el prod _T
+    data_T = data_std.pivot(index='Fecha defuncion', columns='Publicacion', values='Total')
+    data_T.to_csv(producto + '_T.csv')
+
+    # este es el prod  regular
+    data = data_T.T
+    data.to_csv(producto + '.csv')
+
+
+
+
+
+
+    # df = pd.read_csv(fte)
+    #
+    # df['Publicación'] = df['Publicación'].astype(str) + '-' + df['Número']
+    # df.drop(columns=['Número'], inplace=True)
+    # df.rename(columns={'Publicación': 'Publicacion'})
+    #
+    # df.to_csv(producto + '.csv', index=False)
+    # df_t = df.T
+    # df_t.to_csv(producto + '_T.csv', header=False)
+    # identifiers = ['Publicación']
+    # variables = [x for x in df.columns if x not in identifiers]
+    # df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Defunciones')
+    # df_std.to_csv(producto + '_std.csv', index=False)
 
 
 if __name__ == '__main__':
-
     print('Generando producto 37')
-    prod37('../input/NuevaDefDefunciones/Defunciones.csv', '../output/producto37/Defunciones')
+    prod37('../input/NuevaDefDefunciones/', '../output/producto37/Defunciones')
