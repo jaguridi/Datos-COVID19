@@ -105,7 +105,6 @@ def prod5(fte, producto):
                       'Fallecidos totales': 'Fallecidos'}, inplace=True)
 
     #print(timestamp)
-    timestamp = '2020-06-07'
     last_row = df_input_file[df_input_file['Fecha'] == timestamp]
     #print(last_row.to_string())
 
@@ -469,47 +468,47 @@ def prod36(fte, producto):
 
 if __name__ == '__main__':
 
-    # prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
-    #
+    prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
+
     prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
-    #
-    # print('Generando productos 3, 13, 14, 26 y 27')
-    # prod3_13_14_26_27('../output/producto4/')
-    #
-    # print('Generando producto 11')
-    # print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
-    # # exec(open('bulk_producto4.py').read())
-    #
-    # print('Generando producto 7')
-    # prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
-    #
-    # print('Generando producto 8')
-    # prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
-    #
-    # print('Generando producto 9')
-    # prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
-    #
-    # print('Generando producto 10')
-    # prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
-    #
-    # print('Generando producto 12')
-    # exec(open('bulk_producto7.py').read())
-    #
-    # print('Generando producto 17')
-    # # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
-    # prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
-    #
-    # print('Generando producto 20')
-    # prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
-    #
-    # print('Generando producto 23')
-    # prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
-    #
-    # print('Generando producto 24')
-    # prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
-    #
-    # print('Generando producto 30')
-    # prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
-    #
-    # print('Generando producto 36')
-    # prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
+
+    print('Generando productos 3, 13, 14, 26 y 27')
+    prod3_13_14_26_27('../output/producto4/')
+
+    print('Generando producto 11')
+    print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
+    # exec(open('bulk_producto4.py').read())
+
+    print('Generando producto 7')
+    prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
+
+    print('Generando producto 8')
+    prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
+
+    print('Generando producto 9')
+    prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
+
+    print('Generando producto 10')
+    prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
+
+    print('Generando producto 12')
+    exec(open('bulk_producto7.py').read())
+
+    print('Generando producto 17')
+    # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
+    prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
+
+    print('Generando producto 20')
+    prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
+
+    print('Generando producto 23')
+    prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
+
+    print('Generando producto 24')
+    prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
+
+    print('Generando producto 30')
+    prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
+
+    print('Generando producto 36')
+    prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
