@@ -185,7 +185,7 @@ def prod5(fte, producto):
             df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos activos']
             df_output_file.loc[i, 'Casos activos por FIS'] = np.NaN
             df_output_file.loc[i, 'Casos recuperados por FIS'] = np.NaN
-            df_output_file.loc[i, 'Casos recuperados por FD'] = np.NaN
+            df_output_file.loc[i, 'Casos recuperados por FD'] = df_output_file.loc[i, 'Casos recuperados']
 
     ################################## Lo de Demian
 
