@@ -9,7 +9,7 @@ Los criterios para identificar fallecidos debido a COVID19 para efectos del repo
 La columna “Defunciones” se refiere a la fecha de defunción (no es la fecha de inscripción).
  
 # Columnas y valores
-El archivo contiene las columnas 'Defunciones' y múltiples columnas correspondientes a '[fecha]'. Estas últimas columnas, ‘[fecha]’, contienen las 'Defunciones (por fecha de fechas de defunción)' inscritas en el Registro Civil de Chile con relación a COVID19, que al cruzar con la base de laboratorios tienen PCR positivo (o en espera), y son datos provisorios a la fecha de publicación que se pueden actualizar retroactivamente.
+El archivo contiene las columnas 'Defunciones' y múltiples columnas correspondientes a '[fecha]'. Estas últimas columnas, ‘[fecha]’, contienen las 'Defunciones (por fecha de fechas de defunción)' inscritas en el Registro Civil de Chile con relación a COVID19, que al cruzar con la base de laboratorios tienen PCR positivo, y son datos provisorios a la fecha de publicación que se pueden actualizar retroactivamente.
  
 # Fuente
 Servicio de Registro Civil de Chile y Ministerio de Salud de Chile.
