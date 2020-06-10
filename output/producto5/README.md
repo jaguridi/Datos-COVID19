@@ -9,7 +9,7 @@ Se entiende por casos totales o acumulados el número total de casos confirmados
 
 Se entiende en este reporte por "recuperados por fecha de diagnóstico" la proyección de personas que tras ser confirmadas de COVID-19, han estado en cuarentena pasando 14 días sin síntomas. Se entiende en este reporte por "recuperados por fecha de inicio de síntomas" la proyección de recuperados que tras ser confirmados, reportan su fecha de inicio de síntomas y han transcurrido 14 días o más desde ella.
 
-Se entiende en este reporte por casos activos la diferencia entre el total de casos confirmados y (personas recuperadas y personas fallecidas). Para calcularlos segun fecha de incio de síntomas se utilizan los recuperados por fecha de incio de síntomas, y por fecha de diagnóstico los recuperados por fecha de diagn´pstico.
+Se entiende en este reporte por casos activos la diferencia entre el total de casos confirmados y (personas recuperadas y personas fallecidas). Para calcularlos segun fecha de incio de síntomas se utilizan los recuperados por fecha de incio de síntomas, y por fecha de diagnóstico los recuperados por fecha de diagnóstico.
 
 # Columnas y valores
 El primer archivo (TotalesNacionales.csv) contiene las filas ‘Fecha’, ‘Casos nuevos’, ‘Casos totales’, ‘Fallecidos’, ‘Casos activos por FIS’, ‘Casos recuperados por FIS’, 'Casos activos por FD’, ‘Casos recuperados por FD’. Estos valores están separados entre sí por comas (csv).
