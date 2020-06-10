@@ -42,8 +42,6 @@ import glob
 def prod37(fte, producto):
     df_full = pd.read_excel(fte + 'Fallecidos Min Ciencias acumulado.xlsx')
 
-
-
     #convert 1st row as series name: Defunciones_fecha
     df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
     df_full.iloc[0, 1:] = df_full.iloc[0, 1:].replace(' 00:00:00', '', regex=True)
@@ -60,11 +58,27 @@ def prod37(fte, producto):
     df_full.columns = new_header  # set the header row as the df header
 
     #producto T
-    print(df_full.to_string())
-    df_full.to_csv()
+    #print(df_full.to_string())
+    df_full.to_csv(producto + '_T.csv', index=False)
+
+    df_regular = df_full.T
+    #print(df_regular.to_string())
+    df_regular.rename(index={'Fecha': 'Publicacion'}, inplace=True)
+    #print(df_regular.index)
+    df_regular.to_csv(producto + '.csv', header=False)
+
+    df_regular = pd.read_csv(producto + '.csv')
+    #print(df_regular.to_string())
+
+    identifiers = ['Publicacion']
+    variables = [x for x in df_regular.columns if x not in identifiers]
+    df_std = pd.melt(df_regular, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Total')
+
 
 
     #print(df_std.to_string())
+    df_std.to_csv(producto + '_std.csv', index=False)
 
     # data = []
     # for file in glob.glob(fte + '*.xlsx'):
