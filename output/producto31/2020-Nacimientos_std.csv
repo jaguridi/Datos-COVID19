@@ -109,6 +109,7 @@ Tarapacá,1,Iquique,1101,12,2020-06-03
 Tarapacá,1,Iquique,1101,10,2020-06-04
 Tarapacá,1,Iquique,1101,22,2020-06-05
 Tarapacá,1,Iquique,1101,30,2020-06-08
+Tarapacá,1,Iquique,1101,19,2020-06-09
 Tarapacá,1,Alto Hospicio,1107,1,2020-01-08
 Tarapacá,1,Alto Hospicio,1107,1,2020-01-10
 Tarapacá,1,Alto Hospicio,1107,1,2020-01-20
@@ -128,6 +129,7 @@ Tarapacá,1,Pozo Almonte,1401,1,2020-04-30
 Tarapacá,1,Pozo Almonte,1401,2,2020-05-07
 Tarapacá,1,Pozo Almonte,1401,1,2020-05-11
 Tarapacá,1,Pozo Almonte,1401,1,2020-06-03
+Tarapacá,1,Huara,1404,1,2020-06-09
 Los Lagos,10,Puerto Montt,10101,25,2020-01-02
 Los Lagos,10,Puerto Montt,10101,18,2020-01-03
 Los Lagos,10,Puerto Montt,10101,22,2020-01-06
@@ -238,6 +240,7 @@ Los Lagos,10,Puerto Montt,10101,22,2020-06-03
 Los Lagos,10,Puerto Montt,10101,6,2020-06-04
 Los Lagos,10,Puerto Montt,10101,31,2020-06-05
 Los Lagos,10,Puerto Montt,10101,23,2020-06-08
+Los Lagos,10,Puerto Montt,10101,12,2020-06-09
 Los Lagos,10,Calbuco,10102,1,2020-03-09
 Los Lagos,10,Calbuco,10102,1,2020-03-16
 Los Lagos,10,Calbuco,10102,1,2020-03-30
@@ -675,6 +678,7 @@ Los Lagos,10,Osorno,10301,16,2020-06-03
 Los Lagos,10,Osorno,10301,3,2020-06-04
 Los Lagos,10,Osorno,10301,14,2020-06-05
 Los Lagos,10,Osorno,10301,23,2020-06-08
+Los Lagos,10,Osorno,10301,7,2020-06-09
 Los Lagos,10,Purranque,10303,1,2020-01-28
 Los Lagos,10,Purranque,10303,1,2020-02-28
 Los Lagos,10,Purranque,10303,1,2020-04-20
@@ -687,6 +691,7 @@ Los Lagos,10,Río Negro,10305,1,2020-02-10
 Los Lagos,10,Futaleufú,10402,1,2020-04-06
 Los Lagos,10,Futaleufú,10402,1,2020-04-22
 Los Lagos,10,Futaleufú,10402,2,2020-05-07
+Los Lagos,10,Futaleufú,10402,1,2020-06-09
 Aysén del General Carlos Ibáñez del Campo,11,Coihaique,11101,1,2020-01-02
 Aysén del General Carlos Ibáñez del Campo,11,Coihaique,11101,5,2020-01-03
 Aysén del General Carlos Ibáñez del Campo,11,Coihaique,11101,4,2020-01-06
@@ -792,6 +797,7 @@ Aysén del General Carlos Ibáñez del Campo,11,Coihaique,11101,2,2020-06-03
 Aysén del General Carlos Ibáñez del Campo,11,Coihaique,11101,2,2020-06-04
 Aysén del General Carlos Ibáñez del Campo,11,Coihaique,11101,1,2020-06-05
 Aysén del General Carlos Ibáñez del Campo,11,Coihaique,11101,8,2020-06-08
+Aysén del General Carlos Ibáñez del Campo,11,Coihaique,11101,3,2020-06-09
 Aysén del General Carlos Ibáñez del Campo,11,Aisén,11201,2,2020-01-06
 Aysén del General Carlos Ibáñez del Campo,11,Aisén,11201,1,2020-01-21
 Aysén del General Carlos Ibáñez del Campo,11,Aisén,11201,1,2020-02-07
@@ -916,6 +922,7 @@ Magallanes y de la Antártica Chilena,12,Punta Arenas,12101,4,2020-06-03
 Magallanes y de la Antártica Chilena,12,Punta Arenas,12101,3,2020-06-04
 Magallanes y de la Antártica Chilena,12,Punta Arenas,12101,5,2020-06-05
 Magallanes y de la Antártica Chilena,12,Punta Arenas,12101,11,2020-06-08
+Magallanes y de la Antártica Chilena,12,Punta Arenas,12101,9,2020-06-09
 Magallanes y de la Antártica Chilena,12,Natales,12401,1,2020-01-02
 Magallanes y de la Antártica Chilena,12,Natales,12401,2,2020-01-13
 Magallanes y de la Antártica Chilena,12,Natales,12401,1,2020-01-14
@@ -1082,6 +1089,7 @@ Metropolitana de Santiago,13,Santiago,13101,53,2020-06-03
 Metropolitana de Santiago,13,Santiago,13101,84,2020-06-04
 Metropolitana de Santiago,13,Santiago,13101,35,2020-06-05
 Metropolitana de Santiago,13,Santiago,13101,109,2020-06-08
+Metropolitana de Santiago,13,Santiago,13101,56,2020-06-09
 Metropolitana de Santiago,13,Cerrillos,13102,1,2020-01-13
 Metropolitana de Santiago,13,Cerro Navia,13103,1,2020-03-25
 Metropolitana de Santiago,13,Cerro Navia,13103,1,2020-04-14
@@ -1114,6 +1122,7 @@ Metropolitana de Santiago,13,Cerro Navia,13103,12,2020-06-03
 Metropolitana de Santiago,13,Cerro Navia,13103,7,2020-06-04
 Metropolitana de Santiago,13,Cerro Navia,13103,17,2020-06-05
 Metropolitana de Santiago,13,Cerro Navia,13103,16,2020-06-08
+Metropolitana de Santiago,13,Cerro Navia,13103,10,2020-06-09
 Metropolitana de Santiago,13,Conchalí,13104,1,2020-01-27
 Metropolitana de Santiago,13,Conchalí,13104,1,2020-04-08
 Metropolitana de Santiago,13,El Bosque,13105,1,2020-01-15
@@ -1229,6 +1238,7 @@ Metropolitana de Santiago,13,Estación Central,13106,15,2020-06-03
 Metropolitana de Santiago,13,Estación Central,13106,19,2020-06-04
 Metropolitana de Santiago,13,Estación Central,13106,15,2020-06-05
 Metropolitana de Santiago,13,Estación Central,13106,20,2020-06-08
+Metropolitana de Santiago,13,Estación Central,13106,16,2020-06-09
 Metropolitana de Santiago,13,Huechuraba,13107,1,2020-01-03
 Metropolitana de Santiago,13,Huechuraba,13107,1,2020-01-08
 Metropolitana de Santiago,13,Huechuraba,13107,1,2020-01-09
@@ -1348,6 +1358,7 @@ Metropolitana de Santiago,13,Independencia,13108,29,2020-06-03
 Metropolitana de Santiago,13,Independencia,13108,26,2020-06-04
 Metropolitana de Santiago,13,Independencia,13108,24,2020-06-05
 Metropolitana de Santiago,13,Independencia,13108,33,2020-06-08
+Metropolitana de Santiago,13,Independencia,13108,31,2020-06-09
 Metropolitana de Santiago,13,La Cisterna,13109,1,2020-01-15
 Metropolitana de Santiago,13,La Cisterna,13109,1,2020-04-20
 Metropolitana de Santiago,13,La Florida,13110,30,2020-01-02
@@ -1460,6 +1471,7 @@ Metropolitana de Santiago,13,La Florida,13110,23,2020-06-03
 Metropolitana de Santiago,13,La Florida,13110,22,2020-06-04
 Metropolitana de Santiago,13,La Florida,13110,34,2020-06-05
 Metropolitana de Santiago,13,La Florida,13110,37,2020-06-08
+Metropolitana de Santiago,13,La Florida,13110,36,2020-06-09
 Metropolitana de Santiago,13,La Pintana,13112,1,2020-02-25
 Metropolitana de Santiago,13,La Reina,13113,1,2020-01-15
 Metropolitana de Santiago,13,La Reina,13113,1,2020-01-20
@@ -1573,6 +1585,7 @@ Metropolitana de Santiago,13,Las Condes,13114,10,2020-06-03
 Metropolitana de Santiago,13,Las Condes,13114,16,2020-06-04
 Metropolitana de Santiago,13,Las Condes,13114,19,2020-06-05
 Metropolitana de Santiago,13,Las Condes,13114,6,2020-06-08
+Metropolitana de Santiago,13,Las Condes,13114,17,2020-06-09
 Metropolitana de Santiago,13,Lo Espejo,13116,1,2020-05-05
 Metropolitana de Santiago,13,Macul,13118,2,2020-02-11
 Metropolitana de Santiago,13,Macul,13118,1,2020-04-15
@@ -1686,6 +1699,7 @@ Metropolitana de Santiago,13,Maipú,13119,11,2020-06-03
 Metropolitana de Santiago,13,Maipú,13119,7,2020-06-04
 Metropolitana de Santiago,13,Maipú,13119,3,2020-06-05
 Metropolitana de Santiago,13,Maipú,13119,16,2020-06-08
+Metropolitana de Santiago,13,Maipú,13119,11,2020-06-09
 Metropolitana de Santiago,13,Ñuñoa,13120,1,2020-01-02
 Metropolitana de Santiago,13,Ñuñoa,13120,4,2020-01-03
 Metropolitana de Santiago,13,Ñuñoa,13120,4,2020-01-06
@@ -1782,6 +1796,7 @@ Metropolitana de Santiago,13,Ñuñoa,13120,3,2020-06-03
 Metropolitana de Santiago,13,Ñuñoa,13120,3,2020-06-04
 Metropolitana de Santiago,13,Ñuñoa,13120,2,2020-06-05
 Metropolitana de Santiago,13,Ñuñoa,13120,3,2020-06-08
+Metropolitana de Santiago,13,Ñuñoa,13120,3,2020-06-09
 Metropolitana de Santiago,13,Pedro Aguirre Cerda,13121,1,2020-04-23
 Metropolitana de Santiago,13,Pedro Aguirre Cerda,13121,1,2020-04-24
 Metropolitana de Santiago,13,Peñalolén,13122,32,2020-01-02
@@ -1894,6 +1909,7 @@ Metropolitana de Santiago,13,Peñalolén,13122,13,2020-06-03
 Metropolitana de Santiago,13,Peñalolén,13122,13,2020-06-04
 Metropolitana de Santiago,13,Peñalolén,13122,13,2020-06-05
 Metropolitana de Santiago,13,Peñalolén,13122,18,2020-06-08
+Metropolitana de Santiago,13,Peñalolén,13122,9,2020-06-09
 Metropolitana de Santiago,13,Providencia,13123,47,2020-01-02
 Metropolitana de Santiago,13,Providencia,13123,31,2020-01-03
 Metropolitana de Santiago,13,Providencia,13123,40,2020-01-06
@@ -2003,6 +2019,7 @@ Metropolitana de Santiago,13,Providencia,13123,9,2020-06-03
 Metropolitana de Santiago,13,Providencia,13123,19,2020-06-04
 Metropolitana de Santiago,13,Providencia,13123,24,2020-06-05
 Metropolitana de Santiago,13,Providencia,13123,41,2020-06-08
+Metropolitana de Santiago,13,Providencia,13123,25,2020-06-09
 Metropolitana de Santiago,13,Pudahuel,13124,1,2020-01-09
 Metropolitana de Santiago,13,Pudahuel,13124,1,2020-01-28
 Metropolitana de Santiago,13,Pudahuel,13124,1,2020-03-09
@@ -2215,6 +2232,7 @@ Metropolitana de Santiago,13,Recoleta,13127,19,2020-06-03
 Metropolitana de Santiago,13,Recoleta,13127,9,2020-06-04
 Metropolitana de Santiago,13,Recoleta,13127,18,2020-06-05
 Metropolitana de Santiago,13,Recoleta,13127,22,2020-06-08
+Metropolitana de Santiago,13,Recoleta,13127,19,2020-06-09
 Metropolitana de Santiago,13,Renca,13128,1,2020-01-27
 Metropolitana de Santiago,13,Renca,13128,1,2020-05-18
 Metropolitana de Santiago,13,San Miguel,13130,13,2020-01-02
@@ -2327,6 +2345,7 @@ Metropolitana de Santiago,13,San Miguel,13130,6,2020-06-03
 Metropolitana de Santiago,13,San Miguel,13130,16,2020-06-04
 Metropolitana de Santiago,13,San Miguel,13130,17,2020-06-05
 Metropolitana de Santiago,13,San Miguel,13130,12,2020-06-08
+Metropolitana de Santiago,13,San Miguel,13130,22,2020-06-09
 Metropolitana de Santiago,13,San Ramón,13131,16,2020-01-02
 Metropolitana de Santiago,13,San Ramón,13131,11,2020-01-03
 Metropolitana de Santiago,13,San Ramón,13131,16,2020-01-06
@@ -2437,6 +2456,7 @@ Metropolitana de Santiago,13,San Ramón,13131,1,2020-06-03
 Metropolitana de Santiago,13,San Ramón,13131,11,2020-06-04
 Metropolitana de Santiago,13,San Ramón,13131,17,2020-06-05
 Metropolitana de Santiago,13,San Ramón,13131,19,2020-06-08
+Metropolitana de Santiago,13,San Ramón,13131,8,2020-06-09
 Metropolitana de Santiago,13,Vitacura,13132,20,2020-01-02
 Metropolitana de Santiago,13,Vitacura,13132,12,2020-01-03
 Metropolitana de Santiago,13,Vitacura,13132,31,2020-01-06
@@ -2547,6 +2567,7 @@ Metropolitana de Santiago,13,Vitacura,13132,19,2020-06-03
 Metropolitana de Santiago,13,Vitacura,13132,11,2020-06-04
 Metropolitana de Santiago,13,Vitacura,13132,15,2020-06-05
 Metropolitana de Santiago,13,Vitacura,13132,27,2020-06-08
+Metropolitana de Santiago,13,Vitacura,13132,10,2020-06-09
 Metropolitana de Santiago,13,Puente Alto,13201,18,2020-01-02
 Metropolitana de Santiago,13,Puente Alto,13201,23,2020-01-03
 Metropolitana de Santiago,13,Puente Alto,13201,27,2020-01-06
@@ -2656,6 +2677,7 @@ Metropolitana de Santiago,13,Puente Alto,13201,12,2020-06-03
 Metropolitana de Santiago,13,Puente Alto,13201,9,2020-06-04
 Metropolitana de Santiago,13,Puente Alto,13201,5,2020-06-05
 Metropolitana de Santiago,13,Puente Alto,13201,14,2020-06-08
+Metropolitana de Santiago,13,Puente Alto,13201,13,2020-06-09
 Metropolitana de Santiago,13,San José de Maipo,13203,1,2020-01-02
 Metropolitana de Santiago,13,San José de Maipo,13203,1,2020-01-30
 Metropolitana de Santiago,13,San José de Maipo,13203,1,2020-03-03
@@ -2788,6 +2810,7 @@ Metropolitana de Santiago,13,San Bernardo,13401,14,2020-06-03
 Metropolitana de Santiago,13,San Bernardo,13401,9,2020-06-04
 Metropolitana de Santiago,13,San Bernardo,13401,15,2020-06-05
 Metropolitana de Santiago,13,San Bernardo,13401,27,2020-06-08
+Metropolitana de Santiago,13,San Bernardo,13401,14,2020-06-09
 Metropolitana de Santiago,13,Buin,13402,12,2020-01-02
 Metropolitana de Santiago,13,Buin,13402,6,2020-01-03
 Metropolitana de Santiago,13,Buin,13402,9,2020-01-06
@@ -2895,6 +2918,7 @@ Metropolitana de Santiago,13,Buin,13402,5,2020-06-03
 Metropolitana de Santiago,13,Buin,13402,5,2020-06-04
 Metropolitana de Santiago,13,Buin,13402,1,2020-06-05
 Metropolitana de Santiago,13,Buin,13402,6,2020-06-08
+Metropolitana de Santiago,13,Buin,13402,1,2020-06-09
 Metropolitana de Santiago,13,Calera de Tango,13403,1,2020-03-13
 Metropolitana de Santiago,13,Calera de Tango,13403,1,2020-05-04
 Metropolitana de Santiago,13,Paine,13404,1,2020-01-16
@@ -3007,6 +3031,7 @@ Metropolitana de Santiago,13,Melipilla,13501,5,2020-06-03
 Metropolitana de Santiago,13,Melipilla,13501,5,2020-06-04
 Metropolitana de Santiago,13,Melipilla,13501,4,2020-06-05
 Metropolitana de Santiago,13,Melipilla,13501,8,2020-06-08
+Metropolitana de Santiago,13,Melipilla,13501,10,2020-06-09
 Metropolitana de Santiago,13,Alhué,13502,1,2020-03-20
 Metropolitana de Santiago,13,Curacaví,13503,1,2020-03-26
 Metropolitana de Santiago,13,Curacaví,13503,1,2020-05-08
@@ -3119,6 +3144,7 @@ Metropolitana de Santiago,13,Talagante,13601,5,2020-06-03
 Metropolitana de Santiago,13,Talagante,13601,4,2020-06-04
 Metropolitana de Santiago,13,Talagante,13601,11,2020-06-05
 Metropolitana de Santiago,13,Talagante,13601,12,2020-06-08
+Metropolitana de Santiago,13,Talagante,13601,4,2020-06-09
 Metropolitana de Santiago,13,El Monte,13602,1,2020-03-10
 Metropolitana de Santiago,13,Padre Hurtado,13604,1,2020-03-19
 Metropolitana de Santiago,13,Padre Hurtado,13604,1,2020-03-26
@@ -3166,6 +3192,7 @@ Metropolitana de Santiago,13,Peñaflor,13605,1,2020-05-20
 Metropolitana de Santiago,13,Peñaflor,13605,2,2020-05-25
 Metropolitana de Santiago,13,Peñaflor,13605,1,2020-05-26
 Metropolitana de Santiago,13,Peñaflor,13605,2,2020-06-01
+Metropolitana de Santiago,13,Peñaflor,13605,1,2020-06-09
 Los Ríos,14,Valdivia,14101,11,2020-01-02
 Los Ríos,14,Valdivia,14101,6,2020-01-03
 Los Ríos,14,Valdivia,14101,20,2020-01-06
@@ -3276,6 +3303,7 @@ Los Ríos,14,Valdivia,14101,11,2020-06-03
 Los Ríos,14,Valdivia,14101,4,2020-06-04
 Los Ríos,14,Valdivia,14101,8,2020-06-05
 Los Ríos,14,Valdivia,14101,16,2020-06-08
+Los Ríos,14,Valdivia,14101,9,2020-06-09
 Los Ríos,14,Lanco,14103,1,2020-02-14
 Los Ríos,14,Lanco,14103,1,2020-02-25
 Los Ríos,14,Lanco,14103,1,2020-04-02
@@ -3354,6 +3382,7 @@ Los Ríos,14,Paillaco,14107,1,2020-05-22
 Los Ríos,14,Paillaco,14107,3,2020-05-25
 Los Ríos,14,Paillaco,14107,1,2020-05-26
 Los Ríos,14,Paillaco,14107,1,2020-05-29
+Los Ríos,14,Paillaco,14107,1,2020-06-09
 Los Ríos,14,Panguipulli,14108,1,2020-01-02
 Los Ríos,14,Panguipulli,14108,1,2020-01-03
 Los Ríos,14,Panguipulli,14108,2,2020-01-09
@@ -3399,6 +3428,7 @@ Los Ríos,14,Panguipulli,14108,2,2020-05-25
 Los Ríos,14,Panguipulli,14108,1,2020-05-26
 Los Ríos,14,Panguipulli,14108,1,2020-05-29
 Los Ríos,14,Panguipulli,14108,1,2020-06-03
+Los Ríos,14,Panguipulli,14108,1,2020-06-09
 Los Ríos,14,La Unión,14201,1,2020-01-03
 Los Ríos,14,La Unión,14201,2,2020-01-08
 Los Ríos,14,La Unión,14201,1,2020-01-10
@@ -3467,6 +3497,7 @@ Los Ríos,14,La Unión,14201,2,2020-06-03
 Los Ríos,14,La Unión,14201,4,2020-06-04
 Los Ríos,14,La Unión,14201,1,2020-06-05
 Los Ríos,14,La Unión,14201,3,2020-06-08
+Los Ríos,14,La Unión,14201,3,2020-06-09
 Los Ríos,14,Futrono,14202,1,2020-03-25
 Los Ríos,14,Río Bueno,14204,1,2020-01-08
 Los Ríos,14,Río Bueno,14204,1,2020-02-17
@@ -3483,6 +3514,7 @@ Los Ríos,14,Río Bueno,14204,1,2020-05-07
 Los Ríos,14,Río Bueno,14204,1,2020-05-08
 Los Ríos,14,Río Bueno,14204,1,2020-05-12
 Los Ríos,14,Río Bueno,14204,1,2020-05-14
+Los Ríos,14,Río Bueno,14204,1,2020-06-09
 Arica y Parinacota,15,Arica,15101,16,2020-01-02
 Arica y Parinacota,15,Arica,15101,11,2020-01-03
 Arica y Parinacota,15,Arica,15101,19,2020-01-06
@@ -3593,6 +3625,7 @@ Arica y Parinacota,15,Arica,15101,8,2020-06-03
 Arica y Parinacota,15,Arica,15101,4,2020-06-04
 Arica y Parinacota,15,Arica,15101,10,2020-06-05
 Arica y Parinacota,15,Arica,15101,17,2020-06-08
+Arica y Parinacota,15,Arica,15101,15,2020-06-09
 Ñuble,16,Chillán,16101,20,2020-01-02
 Ñuble,16,Chillán,16101,22,2020-01-03
 Ñuble,16,Chillán,16101,25,2020-01-06
@@ -3703,6 +3736,7 @@ Arica y Parinacota,15,Arica,15101,17,2020-06-08
 Ñuble,16,Chillán,16101,21,2020-06-04
 Ñuble,16,Chillán,16101,13,2020-06-05
 Ñuble,16,Chillán,16101,30,2020-06-08
+Ñuble,16,Chillán,16101,20,2020-06-09
 Ñuble,16,Bulnes,16102,1,2020-02-10
 Ñuble,16,Bulnes,16102,1,2020-02-19
 Ñuble,16,Bulnes,16102,1,2020-02-20
@@ -3824,6 +3858,7 @@ Arica y Parinacota,15,Arica,15101,17,2020-06-08
 Ñuble,16,San Carlos,16301,2,2020-06-04
 Ñuble,16,San Carlos,16301,5,2020-06-05
 Ñuble,16,San Carlos,16301,5,2020-06-08
+Ñuble,16,San Carlos,16301,2,2020-06-09
 Ñuble,16,Coihueco,16302,1,2020-01-17
 Ñuble,16,Coihueco,16302,1,2020-03-18
 Antofagasta,2,Antofagasta,2101,20,2020-01-02
@@ -3936,6 +3971,7 @@ Antofagasta,2,Antofagasta,2101,21,2020-06-03
 Antofagasta,2,Antofagasta,2101,15,2020-06-04
 Antofagasta,2,Antofagasta,2101,22,2020-06-05
 Antofagasta,2,Antofagasta,2101,29,2020-06-08
+Antofagasta,2,Antofagasta,2101,18,2020-06-09
 Antofagasta,2,Mejillones,2102,1,2020-04-16
 Antofagasta,2,Mejillones,2102,1,2020-04-21
 Antofagasta,2,Taltal,2104,1,2020-02-04
@@ -4052,6 +4088,7 @@ Antofagasta,2,Calama,2201,5,2020-06-03
 Antofagasta,2,Calama,2201,8,2020-06-04
 Antofagasta,2,Calama,2201,6,2020-06-05
 Antofagasta,2,Calama,2201,15,2020-06-08
+Antofagasta,2,Calama,2201,13,2020-06-09
 Antofagasta,2,San Pedro de Atacama,2203,1,2020-03-05
 Antofagasta,2,San Pedro de Atacama,2203,2,2020-04-28
 Antofagasta,2,Tocopilla,2301,2,2020-01-02
@@ -4203,6 +4240,7 @@ Atacama,3,Copiapó,3101,9,2020-06-03
 Atacama,3,Copiapó,3101,11,2020-06-04
 Atacama,3,Copiapó,3101,10,2020-06-05
 Atacama,3,Copiapó,3101,10,2020-06-08
+Atacama,3,Copiapó,3101,13,2020-06-09
 Atacama,3,Caldera,3102,1,2020-06-05
 Atacama,3,Tierra Amarilla,3103,1,2020-06-04
 Atacama,3,Chañaral,3201,1,2020-02-12
@@ -4323,6 +4361,7 @@ Atacama,3,Vallenar,3301,2,2020-06-02
 Atacama,3,Vallenar,3301,2,2020-06-03
 Atacama,3,Vallenar,3301,2,2020-06-05
 Atacama,3,Vallenar,3301,6,2020-06-08
+Atacama,3,Vallenar,3301,5,2020-06-09
 Atacama,3,Huasco,3304,1,2020-03-17
 Atacama,3,Huasco,3304,1,2020-04-13
 Coquimbo,4,La Serena,4101,22,2020-01-02
@@ -4435,6 +4474,7 @@ Coquimbo,4,La Serena,4101,17,2020-06-03
 Coquimbo,4,La Serena,4101,18,2020-06-04
 Coquimbo,4,La Serena,4101,10,2020-06-05
 Coquimbo,4,La Serena,4101,11,2020-06-08
+Coquimbo,4,La Serena,4101,12,2020-06-09
 Coquimbo,4,Coquimbo,4102,9,2020-01-02
 Coquimbo,4,Coquimbo,4102,10,2020-01-03
 Coquimbo,4,Coquimbo,4102,19,2020-01-06
@@ -4545,6 +4585,7 @@ Coquimbo,4,Coquimbo,4102,7,2020-06-03
 Coquimbo,4,Coquimbo,4102,9,2020-06-04
 Coquimbo,4,Coquimbo,4102,9,2020-06-05
 Coquimbo,4,Coquimbo,4102,18,2020-06-08
+Coquimbo,4,Coquimbo,4102,6,2020-06-09
 Coquimbo,4,Andacollo,4103,1,2020-02-04
 Coquimbo,4,Paiguano,4105,1,2020-01-30
 Coquimbo,4,Vicuña,4106,1,2020-01-22
@@ -4553,6 +4594,7 @@ Coquimbo,4,Vicuña,4106,1,2020-03-23
 Coquimbo,4,Vicuña,4106,1,2020-04-01
 Coquimbo,4,Vicuña,4106,1,2020-04-27
 Coquimbo,4,Vicuña,4106,1,2020-05-29
+Coquimbo,4,Vicuña,4106,1,2020-06-09
 Coquimbo,4,Illapel,4201,3,2020-01-02
 Coquimbo,4,Illapel,4201,1,2020-01-03
 Coquimbo,4,Illapel,4201,5,2020-01-06
@@ -4793,6 +4835,7 @@ Coquimbo,4,Ovalle,4301,2,2020-06-03
 Coquimbo,4,Ovalle,4301,8,2020-06-04
 Coquimbo,4,Ovalle,4301,9,2020-06-05
 Coquimbo,4,Ovalle,4301,12,2020-06-08
+Coquimbo,4,Ovalle,4301,8,2020-06-09
 Coquimbo,4,Monte Patria,4303,1,2020-05-13
 Valparaíso,5,Valparaíso,5101,10,2020-01-02
 Valparaíso,5,Valparaíso,5101,10,2020-01-03
@@ -4904,6 +4947,7 @@ Valparaíso,5,Valparaíso,5101,7,2020-06-03
 Valparaíso,5,Valparaíso,5101,4,2020-06-04
 Valparaíso,5,Valparaíso,5101,7,2020-06-05
 Valparaíso,5,Valparaíso,5101,13,2020-06-08
+Valparaíso,5,Valparaíso,5101,8,2020-06-09
 Valparaíso,5,Casablanca,5102,1,2020-01-16
 Valparaíso,5,Casablanca,5102,1,2020-02-06
 Valparaíso,5,Concón,5103,1,2020-05-12
@@ -5029,6 +5073,7 @@ Valparaíso,5,Viña del Mar,5109,14,2020-06-03
 Valparaíso,5,Viña del Mar,5109,34,2020-06-04
 Valparaíso,5,Viña del Mar,5109,37,2020-06-05
 Valparaíso,5,Viña del Mar,5109,38,2020-06-08
+Valparaíso,5,Viña del Mar,5109,37,2020-06-09
 Valparaíso,5,Isla de Pascua,5201,1,2020-01-02
 Valparaíso,5,Isla de Pascua,5201,1,2020-01-03
 Valparaíso,5,Isla de Pascua,5201,1,2020-01-13
@@ -5177,6 +5222,7 @@ Valparaíso,5,Los Andes,5301,2,2020-06-03
 Valparaíso,5,Los Andes,5301,3,2020-06-04
 Valparaíso,5,Los Andes,5301,2,2020-06-05
 Valparaíso,5,Los Andes,5301,9,2020-06-08
+Valparaíso,5,Los Andes,5301,2,2020-06-09
 Valparaíso,5,Calle Larga,5302,1,2020-02-24
 Valparaíso,5,La Ligua,5401,1,2020-01-27
 Valparaíso,5,La Ligua,5401,1,2020-02-14
@@ -5205,6 +5251,7 @@ Valparaíso,5,Petorca,5404,1,2020-01-13
 Valparaíso,5,Petorca,5404,1,2020-02-07
 Valparaíso,5,Petorca,5404,1,2020-04-21
 Valparaíso,5,Petorca,5404,1,2020-05-19
+Valparaíso,5,Petorca,5404,1,2020-06-09
 Valparaíso,5,Zapallar,5405,1,2020-01-09
 Valparaíso,5,Zapallar,5405,1,2020-01-13
 Valparaíso,5,Quillota,5501,7,2020-01-02
@@ -5317,6 +5364,7 @@ Valparaíso,5,Quillota,5501,2,2020-06-03
 Valparaíso,5,Quillota,5501,9,2020-06-04
 Valparaíso,5,Quillota,5501,7,2020-06-05
 Valparaíso,5,Quillota,5501,6,2020-06-08
+Valparaíso,5,Quillota,5501,5,2020-06-09
 Valparaíso,5,Calera,5502,1,2020-01-02
 Valparaíso,5,Calera,5502,5,2020-01-03
 Valparaíso,5,Calera,5502,3,2020-01-06
@@ -5410,6 +5458,7 @@ Valparaíso,5,Calera,5502,2,2020-06-02
 Valparaíso,5,Calera,5502,5,2020-06-03
 Valparaíso,5,Calera,5502,1,2020-06-05
 Valparaíso,5,Calera,5502,4,2020-06-08
+Valparaíso,5,Calera,5502,2,2020-06-09
 Valparaíso,5,Hijuelas,5503,1,2020-04-08
 Valparaíso,5,La Cruz,5504,1,2020-02-14
 Valparaíso,5,La Cruz,5504,1,2020-03-17
@@ -5523,6 +5572,7 @@ Valparaíso,5,San Antonio,5601,3,2020-06-03
 Valparaíso,5,San Antonio,5601,5,2020-06-04
 Valparaíso,5,San Antonio,5601,6,2020-06-05
 Valparaíso,5,San Antonio,5601,7,2020-06-08
+Valparaíso,5,San Antonio,5601,9,2020-06-09
 Valparaíso,5,Algarrobo,5602,1,2020-02-21
 Valparaíso,5,Algarrobo,5602,1,2020-03-03
 Valparaíso,5,Cartagena,5603,1,2020-03-10
@@ -5635,6 +5685,7 @@ Valparaíso,5,San Felipe,5701,1,2020-06-03
 Valparaíso,5,San Felipe,5701,7,2020-06-04
 Valparaíso,5,San Felipe,5701,2,2020-06-05
 Valparaíso,5,San Felipe,5701,13,2020-06-08
+Valparaíso,5,San Felipe,5701,4,2020-06-09
 Valparaíso,5,Catemu,5702,1,2020-03-19
 Valparaíso,5,Llaillay,5703,1,2020-02-10
 Valparaíso,5,Llaillay,5703,1,2020-03-24
@@ -5748,6 +5799,7 @@ Valparaíso,5,Quilpué,5801,7,2020-06-03
 Valparaíso,5,Quilpué,5801,6,2020-06-04
 Valparaíso,5,Quilpué,5801,5,2020-06-05
 Valparaíso,5,Quilpué,5801,11,2020-06-08
+Valparaíso,5,Quilpué,5801,6,2020-06-09
 Valparaíso,5,Limache,5802,1,2020-01-02
 Valparaíso,5,Limache,5802,1,2020-01-03
 Valparaíso,5,Limache,5802,1,2020-01-13
@@ -5869,6 +5921,7 @@ Libertador General Bernardo O'Higgins,6,Rancagua,6101,28,2020-06-03
 Libertador General Bernardo O'Higgins,6,Rancagua,6101,21,2020-06-04
 Libertador General Bernardo O'Higgins,6,Rancagua,6101,37,2020-06-05
 Libertador General Bernardo O'Higgins,6,Rancagua,6101,32,2020-06-08
+Libertador General Bernardo O'Higgins,6,Rancagua,6101,27,2020-06-09
 Libertador General Bernardo O'Higgins,6,Coinco,6103,1,2020-03-18
 Libertador General Bernardo O'Higgins,6,Coinco,6103,1,2020-04-21
 Libertador General Bernardo O'Higgins,6,Coinco,6103,1,2020-05-19
@@ -5879,6 +5932,7 @@ Libertador General Bernardo O'Higgins,6,Graneros,6106,1,2020-05-14
 Libertador General Bernardo O'Higgins,6,Machalí,6108,1,2020-02-11
 Libertador General Bernardo O'Higgins,6,Machalí,6108,1,2020-02-27
 Libertador General Bernardo O'Higgins,6,Machalí,6108,2,2020-05-12
+Libertador General Bernardo O'Higgins,6,Machalí,6108,1,2020-06-09
 Libertador General Bernardo O'Higgins,6,Malloa,6109,1,2020-04-21
 Libertador General Bernardo O'Higgins,6,Mostazal,6110,1,2020-04-08
 Libertador General Bernardo O'Higgins,6,Mostazal,6110,1,2020-05-20
@@ -5992,6 +6046,7 @@ Libertador General Bernardo O'Higgins,6,Rengo,6115,5,2020-06-02
 Libertador General Bernardo O'Higgins,6,Rengo,6115,5,2020-06-03
 Libertador General Bernardo O'Higgins,6,Rengo,6115,5,2020-06-04
 Libertador General Bernardo O'Higgins,6,Rengo,6115,7,2020-06-08
+Libertador General Bernardo O'Higgins,6,Rengo,6115,5,2020-06-09
 Libertador General Bernardo O'Higgins,6,San Vicente,6117,2,2020-01-02
 Libertador General Bernardo O'Higgins,6,San Vicente,6117,1,2020-01-07
 Libertador General Bernardo O'Higgins,6,San Vicente,6117,2,2020-01-09
@@ -6036,6 +6091,7 @@ Libertador General Bernardo O'Higgins,6,San Vicente,6117,1,2020-05-27
 Libertador General Bernardo O'Higgins,6,San Vicente,6117,2,2020-05-29
 Libertador General Bernardo O'Higgins,6,San Vicente,6117,2,2020-06-01
 Libertador General Bernardo O'Higgins,6,San Vicente,6117,1,2020-06-04
+Libertador General Bernardo O'Higgins,6,San Vicente,6117,1,2020-06-09
 Libertador General Bernardo O'Higgins,6,Pichilemu,6201,1,2020-02-25
 Libertador General Bernardo O'Higgins,6,Litueche,6203,1,2020-06-08
 Libertador General Bernardo O'Higgins,6,Navidad,6205,1,2020-01-17
@@ -6146,6 +6202,7 @@ Libertador General Bernardo O'Higgins,6,San Fernando,6301,4,2020-06-03
 Libertador General Bernardo O'Higgins,6,San Fernando,6301,3,2020-06-04
 Libertador General Bernardo O'Higgins,6,San Fernando,6301,3,2020-06-05
 Libertador General Bernardo O'Higgins,6,San Fernando,6301,4,2020-06-08
+Libertador General Bernardo O'Higgins,6,San Fernando,6301,2,2020-06-09
 Libertador General Bernardo O'Higgins,6,Chimbarongo,6303,2,2020-01-17
 Libertador General Bernardo O'Higgins,6,Chimbarongo,6303,1,2020-02-11
 Libertador General Bernardo O'Higgins,6,Chimbarongo,6303,1,2020-02-13
@@ -6356,6 +6413,7 @@ Maule,7,Talca,7101,20,2020-06-03
 Maule,7,Talca,7101,17,2020-06-04
 Maule,7,Talca,7101,20,2020-06-05
 Maule,7,Talca,7101,32,2020-06-08
+Maule,7,Talca,7101,15,2020-06-09
 Maule,7,Constitución,7102,1,2020-01-02
 Maule,7,Constitución,7102,1,2020-01-07
 Maule,7,Constitución,7102,1,2020-01-08
@@ -6671,6 +6729,7 @@ Maule,7,Linares,7401,9,2020-06-01
 Maule,7,Linares,7401,13,2020-06-03
 Maule,7,Linares,7401,2,2020-06-05
 Maule,7,Linares,7401,20,2020-06-08
+Maule,7,Linares,7401,2,2020-06-09
 Maule,7,Colbún,7402,1,2020-03-18
 Maule,7,Colbún,7402,1,2020-05-25
 Maule,7,Parral,7404,2,2020-01-02
@@ -6750,6 +6809,7 @@ Maule,7,Parral,7404,4,2020-06-01
 Maule,7,Parral,7404,2,2020-06-02
 Maule,7,Parral,7404,3,2020-06-05
 Maule,7,Parral,7404,3,2020-06-08
+Maule,7,Parral,7404,1,2020-06-09
 Maule,7,San Javier,7406,1,2020-01-02
 Maule,7,San Javier,7406,1,2020-01-03
 Maule,7,San Javier,7406,3,2020-01-10
@@ -6904,6 +6964,7 @@ Biobío,8,Concepción,8101,9,2020-06-03
 Biobío,8,Concepción,8101,16,2020-06-04
 Biobío,8,Concepción,8101,19,2020-06-05
 Biobío,8,Concepción,8101,25,2020-06-08
+Biobío,8,Concepción,8101,31,2020-06-09
 Biobío,8,Coronel,8102,4,2020-01-02
 Biobío,8,Coronel,8102,4,2020-01-03
 Biobío,8,Coronel,8102,3,2020-01-06
@@ -7006,6 +7067,7 @@ Biobío,8,Coronel,8102,3,2020-06-03
 Biobío,8,Coronel,8102,1,2020-06-04
 Biobío,8,Coronel,8102,3,2020-06-05
 Biobío,8,Coronel,8102,4,2020-06-08
+Biobío,8,Coronel,8102,4,2020-06-09
 Biobío,8,Hualqui,8105,2,2020-03-03
 Biobío,8,Hualqui,8105,1,2020-06-01
 Biobío,8,Lota,8106,1,2020-01-03
@@ -7179,6 +7241,7 @@ Biobío,8,Talcahuano,8110,10,2020-06-03
 Biobío,8,Talcahuano,8110,9,2020-06-04
 Biobío,8,Talcahuano,8110,9,2020-06-05
 Biobío,8,Talcahuano,8110,18,2020-06-08
+Biobío,8,Talcahuano,8110,8,2020-06-09
 Biobío,8,Tomé,8111,1,2020-01-23
 Biobío,8,Tomé,8111,1,2020-02-21
 Biobío,8,Tomé,8111,1,2020-02-25
@@ -7297,6 +7360,7 @@ Biobío,8,Hualpén,8112,5,2020-06-03
 Biobío,8,Hualpén,8112,4,2020-06-04
 Biobío,8,Hualpén,8112,14,2020-06-05
 Biobío,8,Hualpén,8112,8,2020-06-08
+Biobío,8,Hualpén,8112,6,2020-06-09
 Biobío,8,Lebu,8201,1,2020-01-15
 Biobío,8,Lebu,8201,1,2020-02-25
 Biobío,8,Lebu,8201,1,2020-03-02
@@ -7382,6 +7446,7 @@ Biobío,8,Cañete,8203,1,2020-06-03
 Biobío,8,Cañete,8203,2,2020-06-04
 Biobío,8,Cañete,8203,1,2020-06-05
 Biobío,8,Cañete,8203,1,2020-06-08
+Biobío,8,Cañete,8203,3,2020-06-09
 Biobío,8,Curanilahue,8205,7,2020-01-02
 Biobío,8,Curanilahue,8205,8,2020-01-03
 Biobío,8,Curanilahue,8205,7,2020-01-06
@@ -7490,6 +7555,7 @@ Biobío,8,Curanilahue,8205,1,2020-06-03
 Biobío,8,Curanilahue,8205,1,2020-06-04
 Biobío,8,Curanilahue,8205,6,2020-06-05
 Biobío,8,Curanilahue,8205,13,2020-06-08
+Biobío,8,Curanilahue,8205,5,2020-06-09
 Biobío,8,Tirúa,8207,1,2020-04-29
 Biobío,8,Los Angeles,8301,19,2020-01-02
 Biobío,8,Los Angeles,8301,16,2020-01-03
@@ -7601,6 +7667,7 @@ Biobío,8,Los Angeles,8301,16,2020-06-03
 Biobío,8,Los Angeles,8301,15,2020-06-04
 Biobío,8,Los Angeles,8301,16,2020-06-05
 Biobío,8,Los Angeles,8301,16,2020-06-08
+Biobío,8,Los Angeles,8301,18,2020-06-09
 Biobío,8,Laja,8304,1,2020-02-20
 Biobío,8,Laja,8304,1,2020-03-09
 Biobío,8,Laja,8304,1,2020-03-11
@@ -7729,6 +7796,7 @@ La Araucanía,9,Temuco,9101,37,2020-06-03
 La Araucanía,9,Temuco,9101,21,2020-06-04
 La Araucanía,9,Temuco,9101,23,2020-06-05
 La Araucanía,9,Temuco,9101,32,2020-06-08
+La Araucanía,9,Temuco,9101,38,2020-06-09
 La Araucanía,9,Carahue,9102,1,2020-02-25
 La Araucanía,9,Cunco,9103,1,2020-02-20
 La Araucanía,9,Cunco,9103,1,2020-03-05
@@ -7809,6 +7877,7 @@ La Araucanía,9,Lautaro,9108,2,2020-06-08
 La Araucanía,9,Loncoche,9109,1,2020-01-28
 La Araucanía,9,Loncoche,9109,1,2020-04-23
 La Araucanía,9,Loncoche,9109,1,2020-05-26
+La Araucanía,9,Loncoche,9109,1,2020-06-09
 La Araucanía,9,Nueva Imperial,9111,1,2020-01-02
 La Araucanía,9,Nueva Imperial,9111,2,2020-01-08
 La Araucanía,9,Nueva Imperial,9111,1,2020-01-10
@@ -7931,6 +8000,7 @@ La Araucanía,9,Pucón,9115,2,2020-06-01
 La Araucanía,9,Pucón,9115,2,2020-06-02
 La Araucanía,9,Pucón,9115,1,2020-06-05
 La Araucanía,9,Pucón,9115,1,2020-06-08
+La Araucanía,9,Pucón,9115,1,2020-06-09
 La Araucanía,9,Saavedra,9116,1,2020-02-13
 La Araucanía,9,Saavedra,9116,1,2020-04-17
 La Araucanía,9,Teodoro Schmidt,9117,1,2020-04-29
@@ -8145,6 +8215,7 @@ La Araucanía,9,Angol,9201,2,2020-06-03
 La Araucanía,9,Angol,9201,4,2020-06-04
 La Araucanía,9,Angol,9201,4,2020-06-05
 La Araucanía,9,Angol,9201,1,2020-06-08
+La Araucanía,9,Angol,9201,7,2020-06-09
 La Araucanía,9,Collipulli,9202,1,2020-06-01
 La Araucanía,9,Curacautín,9203,1,2020-06-05
 La Araucanía,9,Lonquimay,9205,1,2020-02-06
