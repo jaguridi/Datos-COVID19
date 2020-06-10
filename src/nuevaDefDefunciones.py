@@ -34,42 +34,73 @@ import glob
 
 # debe ser como el prod15 historico
 # el nombre del archivo es el nombre de la serie
+# formato definitivo:
+# un solo archivo
+# totales en primera fila
+# cada fila es una fecha con las defunciones publicadas para ese dia por serie
+# cada columna es una serie
 def prod37(fte, producto):
-    data = []
-    for file in glob.glob(fte + '*.xlsx'):
-        print(file)
-        serie_name = file.replace(fte, '').replace('.xlsx', '')
-        print(serie_name)
-        df = pd.read_excel(file)
-        df.columns = df.columns.str.lower()
-        # need to drop total as fecha
-        todrop = df.loc[df['fecha defunción'] == 'TOTAL']
-        df.drop(todrop.index, inplace=True)
+    df_full = pd.read_excel(fte + 'Fallecidos Min Ciencias acumulado.xlsx')
 
-        df['fecha defunción'] = df['fecha defunción'].dt.floor('d')
-        df['Publicacion'] = serie_name
-        print(df.columns)
-        df = df.rename(columns={'fecha defunción': 'Fecha',
-                                'n° fallecidos': 'Total',
-                                'nº fallecidos': 'Total'
-                                })
-        columns_ordered = ['Publicacion', 'Fecha', 'Total']
-        df = df[columns_ordered]
-        df = df.dropna()
-        #print(df)
-        data.append(df)
 
-    #este es el prod _std
-    data_std = pd.concat(data)
-    data_std.to_csv(producto + '_std.csv', index=False)
 
-    # este es el prod _T
-    data_T = data_std.pivot(index='Fecha', columns='Publicacion', values='Total')
-    data_T.to_csv(producto + '_T.csv')
+    #convert 1st row as series name: Defunciones_fecha
+    df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
+    df_full.iloc[0, 1:] = df_full.iloc[0, 1:].replace(' 00:00:00', '', regex=True)
+    #print(df_full.iloc[0, 1:])
+    #print(df_full.to_string())
+    df_full.iloc[0, 1:] = 'Defunciones_' + df_full.iloc[0, 1:]
 
-    # este es el prod  regular
-    data = data_T.T
-    data.to_csv(producto + '.csv')
+    df_full.iloc[1:, 0] = df_full.iloc[1:, 0].astype(str)
+    df_full.iloc[1:, 0] = df_full.iloc[1:, 0].replace(' 00:00:00', '', regex=True)
+    #print(df_full.iloc[1:, 0])
+
+    new_header = df_full.iloc[0]  # grab the first row for the header
+    df_full = df_full[1:]  # take the data less the header row
+    df_full.columns = new_header  # set the header row as the df header
+
+    #producto T
+    print(df_full.to_string())
+    df_full.to_csv()
+
+
+    #print(df_std.to_string())
+
+    # data = []
+    # for file in glob.glob(fte + '*.xlsx'):
+    #     print(file)
+    #     serie_name = file.replace(fte, '').replace('.xlsx', '')
+    #     print(serie_name)
+    #     df = pd.read_excel(file)
+    #     df.columns = df.columns.str.lower()
+    #     # need to drop total as fecha
+    #     todrop = df.loc[df['fecha defunción'] == 'TOTAL']
+    #     df.drop(todrop.index, inplace=True)
+    #
+    #     df['fecha defunción'] = df['fecha defunción'].dt.floor('d')
+    #     df['Publicacion'] = serie_name
+    #     print(df.columns)
+    #     df = df.rename(columns={'fecha defunción': 'Fecha',
+    #                             'n° fallecidos': 'Total',
+    #                             'nº fallecidos': 'Total'
+    #                             })
+    #     columns_ordered = ['Publicacion', 'Fecha', 'Total']
+    #     df = df[columns_ordered]
+    #     df = df.dropna()
+    #     #print(df)
+    #     data.append(df)
+    #
+    # #este es el prod _std
+    # data_std = pd.concat(data)
+    # data_std.to_csv(producto + '_std.csv', index=False)
+    #
+    # # este es el prod _T
+    # data_T = data_std.pivot(index='Fecha', columns='Publicacion', values='Total')
+    # data_T.to_csv(producto + '_T.csv')
+    #
+    # # este es el prod  regular
+    # data = data_T.T
+    # data.to_csv(producto + '.csv')
 
 
 
