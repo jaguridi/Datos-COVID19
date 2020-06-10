@@ -141,7 +141,7 @@ def prod5(fte, producto):
 
     for i in df_output_file.index:
         if i >= fecha_de_corte:
-            print(str(i))
+            #print(str(i))
             # Casos activos por FIS parten el 2 de Junio por definicion y corresponden a los casos activos del reporte diario
             df_output_file.loc[i, 'Casos activos por FIS'] = df_output_file.loc[i, 'Casos activos']
             # Recuperados FIS se calculan restando fallecidos y activos FIS
@@ -192,14 +192,15 @@ def prod5(fte, producto):
     #print(totales.columns.dtype)
     totales.columns = totales.columns.astype(str)
 
-    print(totales.to_string())
+    #print(totales.to_string())
 
     totales.to_csv(producto, index_label='Fecha')
     totales_t = totales.transpose()
     totales_t.to_csv(producto.replace('.csv', '_T.csv'))
     print(totales.to_string())
 
-    df_std = pd.melt(totales.reset_index(), id_vars='index', value_vars=totales.columns)
+    #df_std = pd.melt(totales.reset_index(), id_vars='index', value_vars=totales.columns)
+    df_std = pd.read_csv(producto.replace('.csv', '_T.csv'))
     df_std.rename(columns={'index': 'Dato', 'value': 'Total'}, inplace=True)
     #print(df_std.to_string())
     df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
