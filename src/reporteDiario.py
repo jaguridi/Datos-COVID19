@@ -51,7 +51,7 @@ from utils import *
 from shutil import copyfile
 from os import listdir
 from os.path import isfile, join
-from datetime import datetime
+from datetime import datetime, timedelta
 import numpy as np
 
 
@@ -79,7 +79,6 @@ def prod4(fte, producto):
 
     df.to_csv(output, index=False)
 
-
 def prod5(fte, producto):
     print('Generando producto 5')
     # necesito series a nivel nacional por fecha:
@@ -92,117 +91,118 @@ def prod5(fte, producto):
 
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
-    timestamp_dia_primero = now.strftime("%d-%m-%Y")
-    a = pd.read_csv(fte + 'CasosConfirmados.csv')
-    a['Fecha'] = timestamp
-    a = a[a['Region'] == 'Total']
-    print(a.to_string())
+    df_input_file = pd.read_csv(fte + 'CasosConfirmadosTotales.csv')
+    df_input_file['Fecha'] = pd.to_datetime(df_input_file['Fecha'], format='%d-%m-%Y')
+    #print(df_input_file.to_string())
     #las columnas son :
     # Casos totales acumulados  Casos nuevos totales  Casos nuevos con sintomas  Casos nuevos sin sintomas*  Fallecidos totales % Total  Fecha
 
-    a.rename(columns={'Casos totales acumulados': 'Casos totales',
+    df_input_file.rename(columns={'Casos totales acumulados': 'Casos totales',
                       'Casos nuevos totales': 'Casos nuevos totales',
                       'Casos nuevos con sintomas': 'Casos nuevos con sintomas',
                       'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas',
                       'Fallecidos totales': 'Fallecidos'}, inplace=True)
-    #Faltan casos activos: prod 5 esta ahora en el reporte diario, hay que migrar para alla
-    casos_confirmados_totales = pd.read_csv('../input/ReporteDiario/CasosConfirmadosTotales.csv')
-    today_row = (casos_confirmados_totales[casos_confirmados_totales['Fecha'] == timestamp_dia_primero])
-    a['Casos activos'] = today_row['Casos activos'].values
 
+    #print(timestamp)
+    last_row = df_input_file[df_input_file['Fecha'] == timestamp]
+    #print(last_row.to_string())
 
-    ## esto es estandar
-    totales = pd.read_csv(producto)
-    #print(totales.columns[1:])
-    # add Casos nuevos totales = Casos nuevos con sintomas + Casos nuevos sin sintomas
-    for eachColumn in totales.columns[1:]:
-        print('Checking if Casos nuevos totales is fine on ' + eachColumn)
-        #print(totales.index[totales['Fecha'] == 'Casos nuevos con sintomas'].values[0])
-        #print(totales.at[totales.index[totales['Fecha'] == 'Casos nuevos con sintomas'].values[0], eachColumn])
-        rowConSintomas = totales.index[totales['Fecha'] == 'Casos nuevos con sintomas'].values[0]
-        rowSinSintomas = totales.index[totales['Fecha'] == 'Casos nuevos sin sintomas'].values[0]
-        rowCasosNuevosTotales = totales.index[totales['Fecha'] == 'Casos nuevos totales'].values[0]
-        #print('row con ' + str(rowConSintomas))
-        #print('row sin ' + str(rowSinSintomas))
-        #print('expected is ' + str(totales.at[rowConSintomas, eachColumn]) + ' + ' + str(totales.at[rowSinSintomas, eachColumn]))
-        #check for NaN
-        if not np.isnan(totales.at[rowConSintomas, eachColumn]) and not np.isnan(totales.at[rowSinSintomas, eachColumn]):
-            expectedTotal = totales.at[rowConSintomas, eachColumn] + totales.at[rowSinSintomas, eachColumn]
-        elif not np.isnan(totales.at[rowConSintomas, eachColumn]) and np.isnan(totales.at[rowSinSintomas, eachColumn]):
-            expectedTotal = totales.at[rowConSintomas, eachColumn]
-        elif np.isnan(totales.at[rowConSintomas, eachColumn]) and not np.isnan(totales.at[rowSinSintomas, eachColumn]):
-            expectedTotal = totales.at[rowSinSintomas, eachColumn]
+    df_output_file = pd.read_csv(producto)
 
-        registeredTotal = totales.at[rowCasosNuevosTotales, eachColumn]
-        if registeredTotal != expectedTotal:
-            print('Casos nuevos totales debería ser ' + str(expectedTotal) + ' pero es ' + str(registeredTotal))
-            #print(totales.at[rowCasosNuevosTotales, eachColumn])
-            totales.at[rowCasosNuevosTotales, eachColumn] = expectedTotal
-            #print(totales.at[rowCasosNuevosTotales, eachColumn])
+    df_output_file = df_output_file.T
+    df_output_file.columns = df_output_file.iloc[0]
+    df_output_file.drop(df_output_file.index[0], inplace=True)
+
+    df_output_file.index = pd.to_datetime(df_output_file.index, format='%Y-%m-%d')
+    df_output_file.index.name = 'Fecha'
+    #print(df_output_file.index)
+    #print(last_row['Fecha'].values[0])
+    if last_row['Fecha'].values[0] in df_output_file.index:
+        print('Fecha was there, overwriting it')
+        df_output_file.drop(last_row['Fecha'].values[0], axis=0, inplace=True)
+        #print(df_output_file.to_string())
+        last_row.index = last_row['Fecha']
+        last_row.drop(columns=['Fecha'], inplace=True)
+        df_output_file = df_output_file.append(last_row)
+        #print(df_output_file.to_string())
+
+    else:
+        print('new date, adding row')
+        last_row.index = last_row['Fecha']
+        last_row.drop(columns=['Fecha'], inplace=True)
+        df_output_file.append(last_row)
+
+        ################################## Lo de Demian
+        # Faltan  recuperados por FIS
+
+    # el 2 de junio hubo un cambio: Casos activos y recuperados por FIS y FD se calculan a partir de ese dia.
+    # antes de eso es None
+    fecha_de_corte = datetime(2020, 6, 2)
+
+    for i in df_output_file.index:
+        if i >= fecha_de_corte:
+            print(str(i))
+            # Casos activos por FIS parten el 2 de Junio por definicion y corresponden a los casos activos del reporte diario
+            df_output_file.loc[i, 'Casos activos por FIS'] = df_output_file.loc[i, 'Casos activos']
+            # Recuperados FIS se calculan restando fallecidos y activos FIS
+            df_output_file.loc[i, 'Casos recuperados por FIS'] = \
+                df_output_file.loc[i, 'Casos totales'] - \
+                df_output_file.loc[i, 'Casos activos'] - \
+                df_output_file.loc[i, 'Fallecidos']
+            # Falta casos activos y recuperados por FD: ocupar numeros antiguos para calcular
+            fourteen_days = timedelta(days=14)
+
+            # Casos activos por FD = casos activos hasta el 2 de Junio. Antes de eso se copian casos activos
+
+            #df.loc[i, 'C'] = df.loc[i - 1, 'C'] * df.loc[i, 'A'] + df.loc[i, 'B']
+            #print(i)
+            if (i - fourteen_days) in df_output_file.index:
+                #print('14 days ago is on the df')
+                df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos totales'] - df_output_file.loc[i - fourteen_days, 'Casos totales']
+            else:
+                print(str(i) + ' has no data 14 days ago')
+                #df_output_file.loc[i, 'Casos activos por FD'] = df_output_file['Casos totales'] - \
+                #                                    df_output_file.loc[i - fourteen_days_ago, 'Casos totales']
+
+            # Es igual a recuperados hasta el 1 de junio (inclusive), desde el 2 se calcula
+            # Recuperados FD se calculan restando fallecidos y activos FD
+            df_output_file.loc[i, 'Casos recuperados por FD'] = (
+                    df_output_file.loc[i, 'Casos totales'] -
+                    df_output_file.loc[i, 'Casos activos por FD'] -
+                    df_output_file.loc[i, 'Fallecidos'])
+
+        # lo que pasa antes de la fecha de corte
+        else:
+            # Casos activos por FD = casos activos hasta el 2 de Junio. Antes de eso se copian casos activos
+            df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos activos']
+            df_output_file.loc[i, 'Casos activos por FIS'] = np.NaN
+            df_output_file.loc[i, 'Casos recuperados por FIS'] = np.NaN
+            df_output_file.loc[i, 'Casos recuperados por FD'] = df_output_file.loc[i, 'Casos recuperados']
+
+    ################################## Lo de Demian
+
+    df_output_file.sort_index(inplace=True)
+    totales = df_output_file.T
 
     #print(totales.to_string())
-    #normalizamos headers
-    #expectedHeaders=['Casos nuevos con sintomas', 'Casos totales', 'Casos recuperados', 'Fallecidos',
-     #               'Casos activos', 'Casos nuevos sin sintomas', 'Casos totales acumulados', 'Casos nuevos totales']
-    emptyrow = [] * len(totales.columns)
-    if 'Casos nuevos con sintomas' not in totales['Fecha'].values:
-        totales['Fecha'][0] = 'Casos nuevos con sintomas'
-    if 'Casos nuevos sin sintomas' not in totales['Fecha'].values:
-        ax = ['Casos nuevos sin sintomas']
-        bx = [''] * (len(totales.columns) - 1)
-        ax.extend(bx)
-        row = pd.DataFrame([ax], columns=totales.columns)
-        aux = pd.concat([totales, row], ignore_index=True)
-        totales = aux
-        #totales['Fecha'][len(totales['Fecha']) + 1] = 'Casos nuevos sin sintomas'
-    if 'Casos totales' not in totales['Fecha'].values:
-        print('Casos totales not found')
-        ax = ['Casos totales']
-        bx = [''] * (len(totales.columns) - 1)
-        ax.extend(bx)
-        row = pd.DataFrame([ax], columns=totales.columns)
-        aux = pd.concat([totales, row], ignore_index=True)
-        totales = aux
-    if 'Casos nuevos totales' not in totales['Fecha'].values:
-        ax = ['Casos nuevos totales']
-        bx = [''] * (len(totales.columns) - 1)
-        ax.extend(bx)
-        row = pd.DataFrame([ax], columns=totales.columns)
-        aux = pd.concat([totales, row], ignore_index=True)
-        totales = aux
-        #print(totales)
+    #print(totales.columns[1:])
 
-    #print(totales['Fecha'])
-    #print(str(a['Fecha'].values[0]) + ' is  in ' + str(totales.columns))
-    if (a['Fecha'].values[0]) in totales.columns:
-        print(a['Fecha'] + ' ya esta en el dataframe. No actualizamos')
-        return
-    else:
-        #print(totales.iloc[:, 0])
-        newColumn=[]
-        #Need to add new rows to totales:
-        for eachValue in totales.iloc[:, 0]:
-            print('each values is ' + eachValue)
+    ## esto es estandar
+    #totales = pd.read_csv(producto)
+    #print(totales.columns.dtype)
+    totales.columns = totales.columns.astype(str)
 
-            if eachValue in a.columns:
-                print((a[eachValue].values))
-                newColumn.append(str(a[eachValue].values[0]))
+    print(totales.to_string())
 
-            else:
-                #print('appending ""')
-                newColumn.append('')
-        print(newColumn)
-        totales[timestamp] = newColumn
-        totales.to_csv(producto, index=False)
-        totales_t = totales.transpose()
-        totales_t.to_csv(producto.replace('.csv', '_T.csv'), header=False)
-        #print(totales.to_string())
-        totales.rename(columns={'Fecha': 'Dato'}, inplace=True)
-        identifiers = ['Dato']
-        variables = [x for x in totales.columns if x not in identifiers]
-        df_std = pd.melt(totales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                         value_name='Total')
-        df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
+    totales.to_csv(producto, index_label='Fecha')
+    totales_t = totales.transpose()
+    totales_t.to_csv(producto.replace('.csv', '_T.csv'))
+    print(totales.to_string())
+
+    df_std = pd.melt(totales.reset_index(), id_vars='index', value_vars=totales.columns)
+    df_std.rename(columns={'index': 'Dato', 'value': 'Total'}, inplace=True)
+    #print(df_std.to_string())
+    df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
 def prod3_13_14_26_27(fte):
