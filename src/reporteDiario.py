@@ -199,8 +199,8 @@ def prod5(fte, producto):
     totales_t.to_csv(producto.replace('.csv', '_T.csv'))
     print(totales.to_string())
 
-    #df_std = pd.melt(totales.reset_index(), id_vars='index', value_vars=totales.columns)
-    df_std = pd.read_csv(producto.replace('.csv', '_T.csv'))
+    df_std = pd.melt(totales.reset_index(), id_vars='index', value_vars=totales.columns)
+    #df_std = pd.read_csv(producto.replace('.csv', '_T.csv'))
     df_std.rename(columns={'index': 'Dato', 'value': 'Total'}, inplace=True)
     #print(df_std.to_string())
     df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
