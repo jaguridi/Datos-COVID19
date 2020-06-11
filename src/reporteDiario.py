@@ -130,7 +130,7 @@ def prod5(fte, producto):
         print('new date, adding row')
         last_row.index = last_row['Fecha']
         last_row.drop(columns=['Fecha'], inplace=True)
-        df_output_file.append(last_row)
+        df_output_file = df_output_file.append(last_row)
 
         ################################## Lo de Demian
         # Faltan  recuperados por FIS
