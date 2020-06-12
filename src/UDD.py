@@ -32,29 +32,43 @@ import pandas as pd
 import glob
 from utils import *
 import numpy as np
+from datetime import datetime
 
 
-def prod33(fte, prod):
+def prod33(fte,fte_old,prod):
+
+    df_new = pd.read_csv(fte, sep=";", encoding="utf-8", decimal=".")
+    df_new.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
+
+    df_new['Fecha'] = pd.to_datetime(df_new['Fecha'], format='%Y%m%d').dt.strftime("%Y-%m-%d")
+
     data = []
-    for file in glob.glob(fte + '/*IM.csv'):
+    for file in glob.glob(fte_old + '/*_indicadores_IM.csv'):
         print('Processing ' + file)
-        df = pd.read_csv(file, sep=",", encoding="utf-8", decimal=",")
+        df_old = pd.read_csv(file, sep=",", encoding="utf-8", decimal=",")
 
         # standardize column names
-        df.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
+        df_old.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
 
         # hay 4 comunas perdidas 5502, 5703, 11302 12202
         # 5502, 5703 listas
         # 11302: O'Higgins no esta
         # 122012: Antartica no esta
-        df = normalizaNombreCodigoRegionYComuna(df)
-        df = FechaAlFinal(df)
-        data.append(df)
+        data.append(df_old)
 
+    df_new = df_new.drop(columns='region')
 
-    df = pd.concat(data)
-    df = insertSuperficiePoblacion(df)
+    df_old = pd.concat(data)
+
+    frames = [df_old,df_new]
+    df = pd.concat(frames, axis=0, sort=False)
     df.dropna(how='any', inplace=True)
+
+    df = normalizaNombreCodigoRegionYComuna(df)
+    df = insertSuperficiePoblacion(df)
+    #df.dropna(how='any', inplace=True)
+
+    df.drop_duplicates(inplace=True)
 
     #Ordenamos las columnas
     columns = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion',
@@ -89,4 +103,4 @@ def prod33(fte, prod):
 
 if __name__ == '__main__':
     print('Generating producto 33')
-    prod33('../input/UDD/', '../output/producto33/IndiceDeMovilidad')
+    prod33('../input/UDD/indicadores_IM.csv', '../input/UDD/', '../output/producto33/IndiceDeMovilidad')
