@@ -9,7 +9,7 @@ El archivo cuenta con 4 columnas, las cuales se describen a continuación:
 * 'ManzanasInPartial': Listado de manzanas censales **parcialmente contenidas** en la zona de cuarentena (corresponden al MANZENT en los datos del censo). Se considera que una manzana censal está parcialmente contenida si tiene al menos un punto de su interior dentro de la zona de cuarentena
 
 # Datos utilizados
-* (1) Zonas de cuarentenas: Se utiliza el archivo GeoJSON de las cuarentenas publicado en https://github.com/MinCiencia/Datos-COVID19/tree/master/input/Cuarentenas
+* (1) Zonas de cuarentenas: Se utiliza el archivo GeoJSON de las cuarentenas publicado en https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto29
 * (2) Microdatos Censo 2017 a nivel de manzana censal: Publicados por el Instituto Nacional de Estadisticas (INE) desde http://geoine-ine-chile.opendata.arcgis.com/datasets/54e0c40680054efaabeb9d53b09e1e7a_0
 
 # Información adicional
