@@ -46,6 +46,9 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**12-06-2020**<br> 
+- Cambio de Estado en Cuarentenas Futuras a Activas (9) 
+
 **11-06-2020**<br> 
 - En conformidad con Res.Ex. MINSAL 424 del 7 de junio se cambia la catergoría de la cuarentena ID 77 (Calama) de "Área Urbana Completa" a "Comuna Completa" modificando el área en el archivo GeoJSON
 - Se incorporan Cuarentenas decretadas en Res.Ex. MINSAL 448 del 10 de junio punto 3.

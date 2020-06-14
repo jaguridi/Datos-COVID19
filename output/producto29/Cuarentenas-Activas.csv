@@ -41,11 +41,11 @@ ID,Nombre,Estado,Alcance,Fecha de Inicio,Fecha de Término,Código CUT Comuna,De
 74,Providencia Re-ingreso total,Activa,Comuna completa,2020-05-16 02:00:00,2020-06-20 02:00:00,13123,Incorporada como parte de la Cuarentena del Gran Santiago y Alrededores a todo el territorio,20727385.15625,19429.199340283
 76,San Antonio,Activa,Comuna completa,2020-06-10 02:00:00,2020-06-20 02:00:00,5601,Aplicada a la totalidad de la comuna,576482915.402344,154571.506097539
 77,Calama,Activa,Comuna completa,2020-06-13 02:00:00,2020-06-20 02:00:00,2201,Aplicada a la totalidad de la comuna,18278946180.584,705723.838225614
-78,Valparaíso,Futura,Comuna completa,2020-06-13 02:00:00,2020-06-20 02:00:00,5101,Aplicada a la totalidad de la comuna,171902397.738281,77155.8975512116
-79,Viña del Mar,Futura,Comuna completa,2020-06-13 02:00:00,2020-06-20 02:00:00,5109,Aplicada a la totalidad de la comuna,451856991.105469,181454.80909984
-80,Pozo Almonte (Radio Urbano),Futura,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,1401,Aplicable solo a la zona urbana,2353288.24023438,15497.7725966503
-81,San José de Maipo (Área Urbana),Futura,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13203,Aplicado solo al sector urbano entre el Estero El Almendro y el Estero San José,6372625.9296875,11333.7834773233
-82,Melipilla (Área Urbana),Futura,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13501,Aplicable solo al centro urbano,14510740.2324219,62602.7048087187
-83,Curacaví (Área Urbana),Futura,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13503,Aplicable solo al Centro Urbano,5514002.38476563,32755.134785762
-84,TilTil (Área Urbana),Futura,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13303,"Aplicable solo a la zona urbana de Til-Til, excluyendo el sector de Huertos Familiares",1906761.89257813,18048.1205770965
-85,Peñaflor,Futura,Comuna completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13605,Aplicada a la totalidad de la comuna,100223974.589844,46938.4971703687
+78,Valparaíso,Activa,Comuna completa,2020-06-13 02:00:00,2020-06-20 02:00:00,5101,Aplicada a la totalidad de la comuna,171902397.738281,77155.8975512116
+79,Viña del Mar,Activa,Comuna completa,2020-06-13 02:00:00,2020-06-20 02:00:00,5109,Aplicada a la totalidad de la comuna,451856991.105469,181454.80909984
+80,Pozo Almonte (Radio Urbano),Activa,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,1401,Aplicable solo a la zona urbana,2353288.24023438,15497.7725966503
+81,San José de Maipo (Área Urbana),Activa,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13203,Aplicado solo al sector urbano entre el Estero El Almendro y el Estero San José,6372625.9296875,11333.7834773233
+82,Melipilla (Área Urbana),Activa,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13501,Aplicable solo al centro urbano,14510740.2324219,62602.7048087187
+83,Curacaví (Área Urbana),Activa,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13503,Aplicable solo al Centro Urbano,5514002.38476563,32755.134785762
+84,TilTil (Área Urbana),Activa,Área Urbana Completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13303,"Aplicable solo a la zona urbana de Til-Til, excluyendo el sector de Huertos Familiares",1906761.89257813,18048.1205770965
+85,Peñaflor,Activa,Comuna completa,2020-06-13 02:00:00,2020-06-20 02:00:00,13605,Aplicada a la totalidad de la comuna,100223974.589844,46938.4971703687
