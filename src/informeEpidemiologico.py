@@ -326,6 +326,48 @@ def prod35(fte, producto):
                      value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod35Nuevo(fte, producto):
+    df = pd.read_csv(fte)
+
+    identifiers = ['Comorbilidad','Hospitalización']
+    variables = [x for x in df.columns if x not in identifiers]
+
+    NumSHosp = df.loc[df['Comorbilidad'] == 'Número Casos sin Hospitalización',variables]
+    NumHosp = df.loc[df['Comorbilidad'] == 'Número Casos Hospitalizados',variables]
+
+    idxNum = NumSHosp.columns.get_loc('2020-06-12')
+    NumeroSinHosp = NumSHosp.iloc[0][NumSHosp.columns[0:idxNum]]
+    NumeroHosp = NumHosp.iloc[0][NumHosp.columns[0:idxNum]]
+
+    todrop = df.loc[df['Comorbilidad'] == 'Número Casos sin Hospitalización']
+    df.drop(todrop.index, inplace=True)
+    todrop = df.loc[df['Comorbilidad'] == 'Número Casos Hospitalizados']
+    df.drop(todrop.index, inplace=True)
+
+    idx = df.columns.get_loc('2020-06-12')
+
+    temp1 = round(df.iloc[0:11][df.columns[2:idx]].divide(100)*NumeroSinHosp)
+    temp2 = round(df.iloc[11:22][df.columns[2:idx]].divide(100)*NumeroHosp)
+
+    temp3 = df.iloc[0:11][df.columns[idx:]]
+    temp4 = df.iloc[11:22][df.columns[idx:]]
+
+    df2 = pd.concat([temp1,temp2], axis=0)
+    df2 = pd.concat([df['Comorbilidad'], df['Hospitalización'], df2], axis=1)
+
+    df3 = pd.concat([temp3,temp4], axis=0)
+    df3 = pd.concat([df2,df3], axis=1)
+
+    df3.to_csv(producto + '.csv', index=False)
+
+    df3_t = utils.transpone_csv(producto + '.csv')
+    df3_t.to_csv(producto + '_T.csv', header=False)
+
+    df_std = pd.melt(df3, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
+
 def prod39(fte, producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
@@ -344,7 +386,7 @@ if __name__ == '__main__':
     prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
 
     print('Generando producto 6')
-    #exec(open('bulk_producto2.py').read())
+    exec(open('bulk_producto2.py').read())
 
     print('Generando producto 15')
     prod15Nuevo('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
@@ -372,10 +414,10 @@ if __name__ == '__main__':
     prod28Nuevo('../input/InformeEpidemiologico/', '../output/producto28/FechaInicioSintomas_reportadosSEREMIHistorico')
 
     print('Generando producto 35')
-    prod35('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto35/Comorbilidad')
+    prod35Nuevo('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto35/Comorbilidad')
 
     print('Generando producto 38')
     prod19_25_38('../input/InformeEpidemiologico/CasosFallecidosPorComuna.csv', '../output/producto38/CasosFallecidosPorComuna')
 
     print('Generando producto 39')
-    prod39('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv', '../output/producto39/NotificacionInicioSintomas')
+    prod39Nuevo('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv', '../output/producto39/NotificacionInicioSintomas')
