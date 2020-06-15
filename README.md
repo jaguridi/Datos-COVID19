@@ -79,6 +79,10 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 37 - Defunciones por COVID en Chile (provisorio)](output/producto37): Este producto da cuenta del número de fallecidos por día reportados provisoriamente con inscripciones en el registro civil cruzando con la información de los laboratorios de diagnóstico COVID19. Este archivo se va actualizando diariamente y retroactivamente con el progreso de la investigación de cada caso. [Ver más](output/producto37)
 
+[Data Product 38 - Casos fallecidos por comuna](output/producto38): Este producto da cuenta del número de casos fallecidos en cada una de las comunas de Chile según su residencia, y concatena la historia de los informes epidemiológicos publicados por el Ministerio de Salud del país. [Ver más](output/producto38)
+
+[Data Product 39 - Casos confirmados de COVID-19 según fecha de inicio de síntomas y notificación](output/producto39): Set de 3 archivos que dan cuenta de los casos confirmados de COVID-19 según la fecha de inicio de síntomas y fecha de notificación a nivel nacional. Refleja la información del último informe epidemiológico publicado por el Ministerio de Salud del país. [Ver más](output/producto39)
+
 ## ¿Cómo funciona?
 Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiológico, informe de situación covid19 y la pagina web del MINSAL.
 Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV, que son utilizados para generar los productos relevantes.

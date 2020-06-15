@@ -36,6 +36,9 @@ Los productos que salen del informe epidemiologico son:
 25
 28
 34
+35
+38
+39
 """
 
 import utils
@@ -186,7 +189,7 @@ def prod18(fte, producto):
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
-def prod19_25(fte, producto):
+def prod19_25_38(fte, producto):
     df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
     df.dropna(how='all', inplace=True)
     df.to_csv(producto + '.csv', index=False)
@@ -200,6 +203,9 @@ def prod19_25(fte, producto):
     elif '25' in producto:
         df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                              value_name='Casos actuales')
+    elif '38' in producto:
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                             value_name='Casos fallecidos')
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
@@ -320,6 +326,16 @@ def prod35(fte, producto):
                      value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod39(fte, producto):
+    copyfile(fte, producto + '.csv')
+    df = pd.read_csv(fte)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Fecha']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
 
 if __name__ == '__main__':
 
@@ -328,7 +344,7 @@ if __name__ == '__main__':
     prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
 
     print('Generando producto 6')
-    exec(open('bulk_producto2.py').read())
+    #exec(open('bulk_producto2.py').read())
 
     print('Generando producto 15')
     prod15Nuevo('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
@@ -339,7 +355,7 @@ if __name__ == '__main__':
     prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
 
     print('Generando producto 19')
-    prod19_25('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
+    prod19_25_38('../input/InformeEpidemiologico/CasosActivosPorComuna.csv', '../output/producto19/CasosActivosPorComuna')
 
     print('Generando producto 21')
     prod21_22('../input/InformeEpidemiologico/SintomasCasosConfirmados.csv', '../output/producto21/SintomasCasosConfirmados')
@@ -350,10 +366,16 @@ if __name__ == '__main__':
     prod21_22('../input/InformeEpidemiologico/HospitalizadosUCI_Acumulado.csv', '../output/producto22/HospitalizadosUCI_Acumulado')
 
     print('Generando producto 25')
-    prod19_25('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
+    prod19_25_38('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
 
     print('Generando producto 28')
     prod28Nuevo('../input/InformeEpidemiologico/', '../output/producto28/FechaInicioSintomas_reportadosSEREMIHistorico')
 
     print('Generando producto 35')
     prod35('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto35/Comorbilidad')
+
+    print('Generando producto 38')
+    prod19_25_38('../input/InformeEpidemiologico/CasosFallecidosPorComuna.csv', '../output/producto38/CasosFallecidosPorComuna')
+
+    print('Generando producto 39')
+    prod39('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv', '../output/producto39/NotificacionInicioSintomas')
