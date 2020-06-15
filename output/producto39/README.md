@@ -1,7 +1,7 @@
 # DP39 - Casos confirmados de COVID-19 según fecha de inicio de síntomas y notificación: Descripción
 Set de 3 archivos que dan cuenta de los casos confirmados de COVID-19 según la fecha de inicio de síntomas y fecha de notificación a nivel nacional. Refleja la información del último informe epidemiológico publicado por el Ministerio de Salud del país.
 
-Se entiende por fecha de inicio de síntomas el momento de la manifestación clínica de la enfermedad. Se entiende por fecha de notificación el día, mes y año en que el médico tratante realizó el registro del caso en el sistema disponible.. 
+Se entiende por fecha de inicio de síntomas el momento de la manifestación clínica de la enfermedad. Se entiende por fecha de notificación el día, mes y año en que el médico tratante realizó el registro del caso en el sistema epivigila. 
 
 # Columnas y valores
 El archivo NotificacionInicioSintomas.csv contiene la columna 'Casos' para categorizar los casos por fecha de 'Notificación' y de 'Inicio de Sintomas', seguida por la serie de columnas correspondientes a las fechas de los registros correspondientes a cada día reportado en el informe Epidemiológico. También se incluye su versión transpuesta con sufijo '_T.csv' y en formato estándar con sufijo '_std.csv'. Todos estos valores están separados entre sí por comas (csv).
