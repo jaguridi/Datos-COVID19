@@ -1,0 +1,1674 @@
+Semana,Inicio_semana,Fin_semana,Cod_region_origen,Region_origen,Cod_region_destino,Region_destino,Origen,Destino,Operaciones,Pasajeros
+1,2020-01-01,2020-01-05,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,2,224
+1,2020-01-01,2020-01-05,2,Antofagasta,8,Biobío,Antofagasta,Concepción,6,886
+1,2020-01-01,2020-01-05,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,12,1651
+1,2020-01-01,2020-01-05,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,81,11207
+1,2020-01-01,2020-01-05,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,3,320
+1,2020-01-01,2020-01-05,15,Arica y Parinacota,8,Biobío,Arica,Concepción,2,264
+1,2020-01-01,2020-01-05,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,2,317
+1,2020-01-01,2020-01-05,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,41,6288
+1,2020-01-01,2020-01-05,11,Aysén,8,Biobío,Balmaceda,Concepción,1,176
+1,2020-01-01,2020-01-05,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,14,1562
+1,2020-01-01,2020-01-05,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,67
+1,2020-01-01,2020-01-05,11,Aysén,13,Metropolitana,Balmaceda,Santiago,32,3793
+1,2020-01-01,2020-01-05,11,Aysén,9,Araucanía,Balmaceda,Temuco,2,255
+1,2020-01-01,2020-01-05,2,Antofagasta,8,Biobío,Calama,Concepción,4,548
+1,2020-01-01,2020-01-05,2,Antofagasta,4,Coquimbo,Calama,La Serena,4,639
+1,2020-01-01,2020-01-05,2,Antofagasta,13,Metropolitana,Calama,Santiago,90,11436
+1,2020-01-01,2020-01-05,8,Biobío,2,Antofagasta,Concepción,Antofagasta,4,615
+1,2020-01-01,2020-01-05,8,Biobío,15,Arica y Parinacota,Concepción,Arica,2,256
+1,2020-01-01,2020-01-05,8,Biobío,11,Aysén,Concepción,Balmaceda,1,153
+1,2020-01-01,2020-01-05,8,Biobío,2,Antofagasta,Concepción,Calama,6,989
+1,2020-01-01,2020-01-05,8,Biobío,1,Tarapacá,Concepción,Iquique,8,1103
+1,2020-01-01,2020-01-05,8,Biobío,4,Coquimbo,Concepción,La Serena,2,261
+1,2020-01-01,2020-01-05,8,Biobío,12,Magallanes,Concepción,Punta Arenas,3,478
+1,2020-01-01,2020-01-05,8,Biobío,13,Metropolitana,Concepción,Santiago,49,8321
+1,2020-01-01,2020-01-05,3,Atacama,13,Metropolitana,Copiapó,Santiago,30,3906
+1,2020-01-01,2020-01-05,1,Tarapacá,8,Biobío,Iquique,Concepción,8,847
+1,2020-01-01,2020-01-05,1,Tarapacá,4,Coquimbo,Iquique,La Serena,6,794
+1,2020-01-01,2020-01-05,1,Tarapacá,13,Metropolitana,Iquique,Santiago,74,10024
+1,2020-01-01,2020-01-05,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,10,2696
+1,2020-01-01,2020-01-05,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,13,1713
+1,2020-01-01,2020-01-05,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,2,319
+1,2020-01-01,2020-01-05,4,Coquimbo,2,Antofagasta,La Serena,Calama,6,861
+1,2020-01-01,2020-01-05,4,Coquimbo,8,Biobío,La Serena,Concepción,2,268
+1,2020-01-01,2020-01-05,4,Coquimbo,1,Tarapacá,La Serena,Iquique,6,879
+1,2020-01-01,2020-01-05,4,Coquimbo,13,Metropolitana,La Serena,Santiago,45,6929
+1,2020-01-01,2020-01-05,10,Los Lagos,13,Metropolitana,Castro,Santiago,4,666
+1,2020-01-01,2020-01-05,10,Los Lagos,13,Metropolitana,Osorno,Santiago,12,1780
+1,2020-01-01,2020-01-05,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,14,1809
+1,2020-01-01,2020-01-05,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,19,2298
+1,2020-01-01,2020-01-05,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,84,11701
+1,2020-01-01,2020-01-05,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,65
+1,2020-01-01,2020-01-05,12,Magallanes,8,Biobío,Punta Arenas,Concepción,3,492
+1,2020-01-01,2020-01-05,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,7,416
+1,2020-01-01,2020-01-05,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,6,300
+1,2020-01-01,2020-01-05,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,7,41
+1,2020-01-01,2020-01-05,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,20,2758
+1,2020-01-01,2020-01-05,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,60,7651
+1,2020-01-01,2020-01-05,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,2,295
+1,2020-01-01,2020-01-05,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,3,21
+1,2020-01-01,2020-01-05,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,1,5
+1,2020-01-01,2020-01-05,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,79,11342
+1,2020-01-01,2020-01-05,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,45,6898
+1,2020-01-01,2020-01-05,13,Metropolitana,11,Aysén,Santiago,Balmaceda,28,3937
+1,2020-01-01,2020-01-05,13,Metropolitana,2,Antofagasta,Santiago,Calama,88,13821
+1,2020-01-01,2020-01-05,13,Metropolitana,8,Biobío,Santiago,Concepción,52,7263
+1,2020-01-01,2020-01-05,13,Metropolitana,3,Atacama,Santiago,Copiapó,30,4239
+1,2020-01-01,2020-01-05,13,Metropolitana,1,Tarapacá,Santiago,Iquique,76,11361
+1,2020-01-01,2020-01-05,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,10,2755
+1,2020-01-01,2020-01-05,13,Metropolitana,4,Coquimbo,Santiago,La Serena,48,7060
+1,2020-01-01,2020-01-05,13,Metropolitana,10,Los Lagos,Santiago,Castro,4,578
+1,2020-01-01,2020-01-05,13,Metropolitana,10,Los Lagos,Santiago,Osorno,12,1733
+1,2020-01-01,2020-01-05,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,86,13480
+1,2020-01-01,2020-01-05,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,54,7560
+1,2020-01-01,2020-01-05,13,Metropolitana,9,Araucanía,Santiago,Temuco,53,8149
+1,2020-01-01,2020-01-05,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,28,3502
+1,2020-01-01,2020-01-05,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,9,1443
+1,2020-01-01,2020-01-05,9,Araucanía,11,Aysén,Temuco,Balmaceda,2,258
+1,2020-01-01,2020-01-05,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,2,267
+1,2020-01-01,2020-01-05,9,Araucanía,13,Metropolitana,Temuco,Santiago,53,8362
+1,2020-01-01,2020-01-05,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,28,3545
+1,2020-01-01,2020-01-05,12,Magallanes,8,Biobío,Puerto Natales,Concepción,1,162
+1,2020-01-01,2020-01-05,12,Magallanes,12,Magallanes,Puerto Natales,Antártica,1,45
+1,2020-01-01,2020-01-05,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,1,1
+1,2020-01-01,2020-01-05,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,8,1319
+2,2020-01-06,2020-01-12,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,3,330
+2,2020-01-06,2020-01-12,2,Antofagasta,8,Biobío,Antofagasta,Concepción,6,958
+2,2020-01-06,2020-01-12,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,17,2519
+2,2020-01-06,2020-01-12,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,126,19265
+2,2020-01-06,2020-01-12,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,2,231
+2,2020-01-06,2020-01-12,15,Arica y Parinacota,8,Biobío,Arica,Concepción,3,427
+2,2020-01-06,2020-01-12,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,2,353
+2,2020-01-06,2020-01-12,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,71,10535
+2,2020-01-06,2020-01-12,11,Aysén,8,Biobío,Balmaceda,Concepción,2,317
+2,2020-01-06,2020-01-12,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,22,2627
+2,2020-01-06,2020-01-12,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,134
+2,2020-01-06,2020-01-12,11,Aysén,13,Metropolitana,Balmaceda,Santiago,47,5429
+2,2020-01-06,2020-01-12,11,Aysén,9,Araucanía,Balmaceda,Temuco,3,334
+2,2020-01-06,2020-01-12,2,Antofagasta,8,Biobío,Calama,Concepción,8,1283
+2,2020-01-06,2020-01-12,2,Antofagasta,4,Coquimbo,Calama,La Serena,9,1468
+2,2020-01-06,2020-01-12,2,Antofagasta,13,Metropolitana,Calama,Santiago,129,19968
+2,2020-01-06,2020-01-12,8,Biobío,2,Antofagasta,Concepción,Antofagasta,6,927
+2,2020-01-06,2020-01-12,8,Biobío,15,Arica y Parinacota,Concepción,Arica,3,456
+2,2020-01-06,2020-01-12,8,Biobío,11,Aysén,Concepción,Balmaceda,2,330
+2,2020-01-06,2020-01-12,8,Biobío,2,Antofagasta,Concepción,Calama,7,1083
+2,2020-01-06,2020-01-12,8,Biobío,1,Tarapacá,Concepción,Iquique,11,1310
+2,2020-01-06,2020-01-12,8,Biobío,4,Coquimbo,Concepción,La Serena,4,492
+2,2020-01-06,2020-01-12,8,Biobío,12,Magallanes,Concepción,Punta Arenas,5,666
+2,2020-01-06,2020-01-12,8,Biobío,13,Metropolitana,Concepción,Santiago,80,13413
+2,2020-01-06,2020-01-12,3,Atacama,13,Metropolitana,Copiapó,Santiago,44,6820
+2,2020-01-06,2020-01-12,1,Tarapacá,8,Biobío,Iquique,Concepción,11,1362
+2,2020-01-06,2020-01-12,1,Tarapacá,4,Coquimbo,Iquique,La Serena,8,1226
+2,2020-01-06,2020-01-12,1,Tarapacá,13,Metropolitana,Iquique,Santiago,127,18369
+2,2020-01-06,2020-01-12,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,12,3139
+2,2020-01-06,2020-01-12,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,17,2388
+2,2020-01-06,2020-01-12,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,2,326
+2,2020-01-06,2020-01-12,4,Coquimbo,2,Antofagasta,La Serena,Calama,9,1293
+2,2020-01-06,2020-01-12,4,Coquimbo,8,Biobío,La Serena,Concepción,4,500
+2,2020-01-06,2020-01-12,4,Coquimbo,1,Tarapacá,La Serena,Iquique,9,1379
+2,2020-01-06,2020-01-12,4,Coquimbo,13,Metropolitana,La Serena,Santiago,67,10271
+2,2020-01-06,2020-01-12,10,Los Lagos,13,Metropolitana,Castro,Santiago,5,829
+2,2020-01-06,2020-01-12,10,Los Lagos,13,Metropolitana,Osorno,Santiago,18,2526
+2,2020-01-06,2020-01-12,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,22,2873
+2,2020-01-06,2020-01-12,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,30,3799
+2,2020-01-06,2020-01-12,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,130,18851
+2,2020-01-06,2020-01-12,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,161
+2,2020-01-06,2020-01-12,12,Magallanes,8,Biobío,Punta Arenas,Concepción,5,782
+2,2020-01-06,2020-01-12,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,7,377
+2,2020-01-06,2020-01-12,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,7,253
+2,2020-01-06,2020-01-12,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,16,98
+2,2020-01-06,2020-01-12,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,29,3947
+2,2020-01-06,2020-01-12,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,96,13380
+2,2020-01-06,2020-01-12,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,3,412
+2,2020-01-06,2020-01-12,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,2,7
+2,2020-01-06,2020-01-12,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,2,26
+2,2020-01-06,2020-01-12,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,122,18561
+2,2020-01-06,2020-01-12,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,70,10640
+2,2020-01-06,2020-01-12,13,Metropolitana,11,Aysén,Santiago,Balmaceda,42,5754
+2,2020-01-06,2020-01-12,13,Metropolitana,2,Antofagasta,Santiago,Calama,130,19098
+2,2020-01-06,2020-01-12,13,Metropolitana,8,Biobío,Santiago,Concepción,84,13342
+2,2020-01-06,2020-01-12,13,Metropolitana,3,Atacama,Santiago,Copiapó,44,6615
+2,2020-01-06,2020-01-12,13,Metropolitana,3,Atacama,Santiago,El Salvador,2,75
+2,2020-01-06,2020-01-12,13,Metropolitana,1,Tarapacá,Santiago,Iquique,126,18627
+2,2020-01-06,2020-01-12,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,12,3253
+2,2020-01-06,2020-01-12,13,Metropolitana,4,Coquimbo,Santiago,La Serena,68,10857
+2,2020-01-06,2020-01-12,13,Metropolitana,10,Los Lagos,Santiago,Castro,5,780
+2,2020-01-06,2020-01-12,13,Metropolitana,10,Los Lagos,Santiago,Osorno,18,2578
+2,2020-01-06,2020-01-12,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,75
+2,2020-01-06,2020-01-12,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,131,21335
+2,2020-01-06,2020-01-12,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,78,11060
+2,2020-01-06,2020-01-12,13,Metropolitana,9,Araucanía,Santiago,Temuco,80,12472
+2,2020-01-06,2020-01-12,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,40,5134
+2,2020-01-06,2020-01-12,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,13,2141
+2,2020-01-06,2020-01-12,9,Araucanía,11,Aysén,Temuco,Balmaceda,3,345
+2,2020-01-06,2020-01-12,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,3,375
+2,2020-01-06,2020-01-12,9,Araucanía,13,Metropolitana,Temuco,Santiago,79,11721
+2,2020-01-06,2020-01-12,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,40,4907
+2,2020-01-06,2020-01-12,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,2,26
+2,2020-01-06,2020-01-12,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,13,2117
+3,2020-01-13,2020-01-19,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,4,453
+3,2020-01-13,2020-01-19,2,Antofagasta,8,Biobío,Antofagasta,Concepción,7,1114
+3,2020-01-13,2020-01-19,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,17,2545
+3,2020-01-13,2020-01-19,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,125,20618
+3,2020-01-13,2020-01-19,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,3,325
+3,2020-01-13,2020-01-19,15,Arica y Parinacota,8,Biobío,Arica,Concepción,3,469
+3,2020-01-13,2020-01-19,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,2,332
+3,2020-01-13,2020-01-19,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,71,10879
+3,2020-01-13,2020-01-19,11,Aysén,8,Biobío,Balmaceda,Concepción,2,325
+3,2020-01-13,2020-01-19,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,22,2877
+3,2020-01-13,2020-01-19,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,135
+3,2020-01-13,2020-01-19,11,Aysén,13,Metropolitana,Balmaceda,Santiago,50,5750
+3,2020-01-13,2020-01-19,11,Aysén,9,Araucanía,Balmaceda,Temuco,3,325
+3,2020-01-13,2020-01-19,2,Antofagasta,8,Biobío,Calama,Concepción,8,1351
+3,2020-01-13,2020-01-19,2,Antofagasta,4,Coquimbo,Calama,La Serena,8,1300
+3,2020-01-13,2020-01-19,2,Antofagasta,13,Metropolitana,Calama,Santiago,131,20470
+3,2020-01-13,2020-01-19,8,Biobío,2,Antofagasta,Concepción,Antofagasta,7,1095
+3,2020-01-13,2020-01-19,8,Biobío,15,Arica y Parinacota,Concepción,Arica,3,486
+3,2020-01-13,2020-01-19,8,Biobío,11,Aysén,Concepción,Balmaceda,2,322
+3,2020-01-13,2020-01-19,8,Biobío,2,Antofagasta,Concepción,Calama,7,1075
+3,2020-01-13,2020-01-19,8,Biobío,1,Tarapacá,Concepción,Iquique,11,1438
+3,2020-01-13,2020-01-19,8,Biobío,4,Coquimbo,Concepción,La Serena,4,479
+3,2020-01-13,2020-01-19,8,Biobío,12,Magallanes,Concepción,Punta Arenas,5,734
+3,2020-01-13,2020-01-19,8,Biobío,13,Metropolitana,Concepción,Santiago,76,12945
+3,2020-01-13,2020-01-19,3,Atacama,13,Metropolitana,Copiapó,Santiago,44,6929
+3,2020-01-13,2020-01-19,1,Tarapacá,8,Biobío,Iquique,Concepción,11,1438
+3,2020-01-13,2020-01-19,1,Tarapacá,4,Coquimbo,Iquique,La Serena,6,953
+3,2020-01-13,2020-01-19,1,Tarapacá,13,Metropolitana,Iquique,Santiago,127,19574
+3,2020-01-13,2020-01-19,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,12,3023
+3,2020-01-13,2020-01-19,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,17,2508
+3,2020-01-13,2020-01-19,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,2,336
+3,2020-01-13,2020-01-19,4,Coquimbo,2,Antofagasta,La Serena,Calama,8,1201
+3,2020-01-13,2020-01-19,4,Coquimbo,8,Biobío,La Serena,Concepción,4,478
+3,2020-01-13,2020-01-19,4,Coquimbo,1,Tarapacá,La Serena,Iquique,7,1087
+3,2020-01-13,2020-01-19,4,Coquimbo,13,Metropolitana,La Serena,Santiago,66,10566
+3,2020-01-13,2020-01-19,10,Los Lagos,13,Metropolitana,Castro,Santiago,5,794
+3,2020-01-13,2020-01-19,10,Los Lagos,13,Metropolitana,Osorno,Santiago,18,2542
+3,2020-01-13,2020-01-19,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,22,2982
+3,2020-01-13,2020-01-19,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,29,3632
+3,2020-01-13,2020-01-19,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,132,19866
+3,2020-01-13,2020-01-19,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,149
+3,2020-01-13,2020-01-19,12,Magallanes,8,Biobío,Punta Arenas,Concepción,5,811
+3,2020-01-13,2020-01-19,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,7,461
+3,2020-01-13,2020-01-19,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,9,334
+3,2020-01-13,2020-01-19,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,17,124
+3,2020-01-13,2020-01-19,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,29,4027
+3,2020-01-13,2020-01-19,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,90,13158
+3,2020-01-13,2020-01-19,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,3,420
+3,2020-01-13,2020-01-19,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,2,11
+3,2020-01-13,2020-01-19,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,121,19355
+3,2020-01-13,2020-01-19,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,70,11038
+3,2020-01-13,2020-01-19,13,Metropolitana,11,Aysén,Santiago,Balmaceda,42,5893
+3,2020-01-13,2020-01-19,13,Metropolitana,2,Antofagasta,Santiago,Calama,132,18992
+3,2020-01-13,2020-01-19,13,Metropolitana,8,Biobío,Santiago,Concepción,80,13333
+3,2020-01-13,2020-01-19,13,Metropolitana,3,Atacama,Santiago,Copiapó,44,7036
+3,2020-01-13,2020-01-19,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,89
+3,2020-01-13,2020-01-19,13,Metropolitana,1,Tarapacá,Santiago,Iquique,123,19080
+3,2020-01-13,2020-01-19,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,13,3361
+3,2020-01-13,2020-01-19,13,Metropolitana,4,Coquimbo,Santiago,La Serena,66,10908
+3,2020-01-13,2020-01-19,13,Metropolitana,10,Los Lagos,Santiago,Castro,5,731
+3,2020-01-13,2020-01-19,13,Metropolitana,10,Los Lagos,Santiago,Osorno,18,2774
+3,2020-01-13,2020-01-19,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,68
+3,2020-01-13,2020-01-19,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,131,21938
+3,2020-01-13,2020-01-19,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,78,11709
+3,2020-01-13,2020-01-19,13,Metropolitana,9,Araucanía,Santiago,Temuco,82,13728
+3,2020-01-13,2020-01-19,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,40,5526
+3,2020-01-13,2020-01-19,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,13,2188
+3,2020-01-13,2020-01-19,9,Araucanía,11,Aysén,Temuco,Balmaceda,3,347
+3,2020-01-13,2020-01-19,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,2,263
+3,2020-01-13,2020-01-19,9,Araucanía,13,Metropolitana,Temuco,Santiago,83,12682
+3,2020-01-13,2020-01-19,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,40,5164
+3,2020-01-13,2020-01-19,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,13,2110
+4,2020-01-20,2020-01-26,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,3,393
+4,2020-01-20,2020-01-26,2,Antofagasta,8,Biobío,Antofagasta,Concepción,7,1111
+4,2020-01-20,2020-01-26,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,16,2397
+4,2020-01-20,2020-01-26,2,Antofagasta,10,Los Lagos,Antofagasta,Puerto Montt,2,294
+4,2020-01-20,2020-01-26,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,124,19397
+4,2020-01-20,2020-01-26,2,Antofagasta,9,Araucanía,Antofagasta,Temuco,2,319
+4,2020-01-20,2020-01-26,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,3,366
+4,2020-01-20,2020-01-26,15,Arica y Parinacota,8,Biobío,Arica,Concepción,3,460
+4,2020-01-20,2020-01-26,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,4,634
+4,2020-01-20,2020-01-26,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,74,11266
+4,2020-01-20,2020-01-26,11,Aysén,8,Biobío,Balmaceda,Concepción,2,318
+4,2020-01-20,2020-01-26,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,22,2964
+4,2020-01-20,2020-01-26,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,120
+4,2020-01-20,2020-01-26,11,Aysén,13,Metropolitana,Balmaceda,Santiago,51,5921
+4,2020-01-20,2020-01-26,11,Aysén,9,Araucanía,Balmaceda,Temuco,3,408
+4,2020-01-20,2020-01-26,2,Antofagasta,8,Biobío,Calama,Concepción,8,1258
+4,2020-01-20,2020-01-26,2,Antofagasta,4,Coquimbo,Calama,La Serena,8,1232
+4,2020-01-20,2020-01-26,2,Antofagasta,13,Metropolitana,Calama,Santiago,117,19368
+4,2020-01-20,2020-01-26,8,Biobío,2,Antofagasta,Concepción,Antofagasta,7,1096
+4,2020-01-20,2020-01-26,8,Biobío,15,Arica y Parinacota,Concepción,Arica,3,494
+4,2020-01-20,2020-01-26,8,Biobío,11,Aysén,Concepción,Balmaceda,2,314
+4,2020-01-20,2020-01-26,8,Biobío,2,Antofagasta,Concepción,Calama,8,1227
+4,2020-01-20,2020-01-26,8,Biobío,1,Tarapacá,Concepción,Iquique,11,1399
+4,2020-01-20,2020-01-26,8,Biobío,4,Coquimbo,Concepción,La Serena,3,428
+4,2020-01-20,2020-01-26,8,Biobío,12,Magallanes,Concepción,Punta Arenas,5,705
+4,2020-01-20,2020-01-26,8,Biobío,13,Metropolitana,Concepción,Santiago,79,13277
+4,2020-01-20,2020-01-26,3,Atacama,13,Metropolitana,Copiapó,Santiago,43,6815
+4,2020-01-20,2020-01-26,1,Tarapacá,8,Biobío,Iquique,Concepción,11,1430
+4,2020-01-20,2020-01-26,1,Tarapacá,4,Coquimbo,Iquique,La Serena,7,1162
+4,2020-01-20,2020-01-26,1,Tarapacá,13,Metropolitana,Iquique,Santiago,131,20107
+4,2020-01-20,2020-01-26,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,12,3183
+4,2020-01-20,2020-01-26,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,16,2375
+4,2020-01-20,2020-01-26,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,4,660
+4,2020-01-20,2020-01-26,4,Coquimbo,2,Antofagasta,La Serena,Calama,8,1285
+4,2020-01-20,2020-01-26,4,Coquimbo,8,Biobío,La Serena,Concepción,3,407
+4,2020-01-20,2020-01-26,4,Coquimbo,1,Tarapacá,La Serena,Iquique,7,1132
+4,2020-01-20,2020-01-26,4,Coquimbo,13,Metropolitana,La Serena,Santiago,65,10419
+4,2020-01-20,2020-01-26,10,Los Lagos,13,Metropolitana,Castro,Santiago,5,810
+4,2020-01-20,2020-01-26,10,Los Lagos,13,Metropolitana,Osorno,Santiago,18,2618
+4,2020-01-20,2020-01-26,10,Los Lagos,2,Antofagasta,Puerto Montt,Antofagasta,2,179
+4,2020-01-20,2020-01-26,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,22,2835
+4,2020-01-20,2020-01-26,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,30,3948
+4,2020-01-20,2020-01-26,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,131,20155
+4,2020-01-20,2020-01-26,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,144
+4,2020-01-20,2020-01-26,12,Magallanes,8,Biobío,Punta Arenas,Concepción,5,828
+4,2020-01-20,2020-01-26,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,8,371
+4,2020-01-20,2020-01-26,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,13,634
+4,2020-01-20,2020-01-26,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,16,117
+4,2020-01-20,2020-01-26,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,29,4030
+4,2020-01-20,2020-01-26,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,93,12771
+4,2020-01-20,2020-01-26,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,3,405
+4,2020-01-20,2020-01-26,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,2,10
+4,2020-01-20,2020-01-26,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,2,20
+4,2020-01-20,2020-01-26,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,123,19902
+4,2020-01-20,2020-01-26,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,74,11943
+4,2020-01-20,2020-01-26,13,Metropolitana,11,Aysén,Santiago,Balmaceda,42,5902
+4,2020-01-20,2020-01-26,13,Metropolitana,2,Antofagasta,Santiago,Calama,113,17704
+4,2020-01-20,2020-01-26,13,Metropolitana,8,Biobío,Santiago,Concepción,86,14084
+4,2020-01-20,2020-01-26,13,Metropolitana,3,Atacama,Santiago,Copiapó,43,6845
+4,2020-01-20,2020-01-26,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,82
+4,2020-01-20,2020-01-26,13,Metropolitana,1,Tarapacá,Santiago,Iquique,131,19982
+4,2020-01-20,2020-01-26,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,13,3438
+4,2020-01-20,2020-01-26,13,Metropolitana,4,Coquimbo,Santiago,La Serena,65,10625
+4,2020-01-20,2020-01-26,13,Metropolitana,10,Los Lagos,Santiago,Castro,5,749
+4,2020-01-20,2020-01-26,13,Metropolitana,10,Los Lagos,Santiago,Osorno,18,2752
+4,2020-01-20,2020-01-26,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,65
+4,2020-01-20,2020-01-26,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,132,21901
+4,2020-01-20,2020-01-26,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,77,12061
+4,2020-01-20,2020-01-26,13,Metropolitana,9,Araucanía,Santiago,Temuco,87,14230
+4,2020-01-20,2020-01-26,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,39,5411
+4,2020-01-20,2020-01-26,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,14,2286
+4,2020-01-20,2020-01-26,9,Araucanía,2,Antofagasta,Temuco,Antofagasta,2,240
+4,2020-01-20,2020-01-26,9,Araucanía,11,Aysén,Temuco,Balmaceda,3,384
+4,2020-01-20,2020-01-26,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,3,405
+4,2020-01-20,2020-01-26,9,Araucanía,13,Metropolitana,Temuco,Santiago,87,13782
+4,2020-01-20,2020-01-26,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,39,5425
+4,2020-01-20,2020-01-26,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,1,18
+4,2020-01-20,2020-01-26,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,14,2278
+5,2020-01-27,2020-02-02,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,2,276
+5,2020-01-27,2020-02-02,2,Antofagasta,8,Biobío,Antofagasta,Concepción,6,696
+5,2020-01-27,2020-02-02,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,13,1852
+5,2020-01-27,2020-02-02,2,Antofagasta,10,Los Lagos,Antofagasta,Puerto Montt,2,301
+5,2020-01-27,2020-02-02,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,96,15390
+5,2020-01-27,2020-02-02,2,Antofagasta,9,Araucanía,Antofagasta,Temuco,2,313
+5,2020-01-27,2020-02-02,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,2,230
+5,2020-01-27,2020-02-02,15,Arica y Parinacota,8,Biobío,Arica,Concepción,2,304
+5,2020-01-27,2020-02-02,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,3,496
+5,2020-01-27,2020-02-02,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,54,8109
+5,2020-01-27,2020-02-02,11,Aysén,8,Biobío,Balmaceda,Concepción,1,142
+5,2020-01-27,2020-02-02,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,16,1905
+5,2020-01-27,2020-02-02,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,140
+5,2020-01-27,2020-02-02,11,Aysén,13,Metropolitana,Balmaceda,Santiago,34,4093
+5,2020-01-27,2020-02-02,11,Aysén,9,Araucanía,Balmaceda,Temuco,2,311
+5,2020-01-27,2020-02-02,2,Antofagasta,2,Antofagasta,Calama,Antofagasta,1,91
+5,2020-01-27,2020-02-02,2,Antofagasta,8,Biobío,Calama,Concepción,7,1158
+5,2020-01-27,2020-02-02,2,Antofagasta,4,Coquimbo,Calama,La Serena,8,1157
+5,2020-01-27,2020-02-02,2,Antofagasta,13,Metropolitana,Calama,Santiago,99,15305
+5,2020-01-27,2020-02-02,8,Biobío,2,Antofagasta,Concepción,Antofagasta,4,461
+5,2020-01-27,2020-02-02,8,Biobío,15,Arica y Parinacota,Concepción,Arica,2,330
+5,2020-01-27,2020-02-02,8,Biobío,11,Aysén,Concepción,Balmaceda,1,146
+5,2020-01-27,2020-02-02,8,Biobío,2,Antofagasta,Concepción,Calama,7,1100
+5,2020-01-27,2020-02-02,8,Biobío,1,Tarapacá,Concepción,Iquique,9,1125
+5,2020-01-27,2020-02-02,8,Biobío,4,Coquimbo,Concepción,La Serena,3,457
+5,2020-01-27,2020-02-02,8,Biobío,12,Magallanes,Concepción,Punta Arenas,4,632
+5,2020-01-27,2020-02-02,8,Biobío,13,Metropolitana,Concepción,Santiago,59,9598
+5,2020-01-27,2020-02-02,3,Atacama,13,Metropolitana,Copiapó,Santiago,33,5181
+5,2020-01-27,2020-02-02,1,Tarapacá,8,Biobío,Iquique,Concepción,9,1142
+5,2020-01-27,2020-02-02,1,Tarapacá,4,Coquimbo,Iquique,La Serena,5,760
+5,2020-01-27,2020-02-02,1,Tarapacá,13,Metropolitana,Iquique,Santiago,96,14279
+5,2020-01-27,2020-02-02,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,8,2044
+5,2020-01-27,2020-02-02,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,14,2016
+5,2020-01-27,2020-02-02,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,3,498
+5,2020-01-27,2020-02-02,4,Coquimbo,2,Antofagasta,La Serena,Calama,8,1152
+5,2020-01-27,2020-02-02,4,Coquimbo,8,Biobío,La Serena,Concepción,3,427
+5,2020-01-27,2020-02-02,4,Coquimbo,1,Tarapacá,La Serena,Iquique,5,796
+5,2020-01-27,2020-02-02,4,Coquimbo,13,Metropolitana,La Serena,Santiago,47,7178
+5,2020-01-27,2020-02-02,10,Los Lagos,13,Metropolitana,Castro,Santiago,3,485
+5,2020-01-27,2020-02-02,10,Los Lagos,13,Metropolitana,Osorno,Santiago,13,1810
+5,2020-01-27,2020-02-02,10,Los Lagos,2,Antofagasta,Puerto Montt,Antofagasta,1,126
+5,2020-01-27,2020-02-02,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,16,1953
+5,2020-01-27,2020-02-02,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,22,3091
+5,2020-01-27,2020-02-02,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,92,14544
+5,2020-01-27,2020-02-02,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,123
+5,2020-01-27,2020-02-02,12,Magallanes,8,Biobío,Punta Arenas,Concepción,4,623
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,6,343
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,7,337
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,17,106
+5,2020-01-27,2020-02-02,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,21,2824
+5,2020-01-27,2020-02-02,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,64,9479
+5,2020-01-27,2020-02-02,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,2,286
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,1,6
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,3,43
+5,2020-01-27,2020-02-02,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,93,15004
+5,2020-01-27,2020-02-02,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,53,8731
+5,2020-01-27,2020-02-02,13,Metropolitana,11,Aysén,Santiago,Balmaceda,28,4124
+5,2020-01-27,2020-02-02,13,Metropolitana,2,Antofagasta,Santiago,Calama,103,14856
+5,2020-01-27,2020-02-02,13,Metropolitana,8,Biobío,Santiago,Concepción,62,9686
+5,2020-01-27,2020-02-02,13,Metropolitana,3,Atacama,Santiago,Copiapó,33,5035
+5,2020-01-27,2020-02-02,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,69
+5,2020-01-27,2020-02-02,13,Metropolitana,1,Tarapacá,Santiago,Iquique,94,14486
+5,2020-01-27,2020-02-02,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,9,2504
+5,2020-01-27,2020-02-02,13,Metropolitana,4,Coquimbo,Santiago,La Serena,48,7631
+5,2020-01-27,2020-02-02,13,Metropolitana,10,Los Lagos,Santiago,Castro,3,451
+5,2020-01-27,2020-02-02,13,Metropolitana,10,Los Lagos,Santiago,Osorno,13,1937
+5,2020-01-27,2020-02-02,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,64
+5,2020-01-27,2020-02-02,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,92,15562
+5,2020-01-27,2020-02-02,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,55,8520
+5,2020-01-27,2020-02-02,13,Metropolitana,9,Araucanía,Santiago,Temuco,63,10357
+5,2020-01-27,2020-02-02,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,26,3799
+5,2020-01-27,2020-02-02,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,10,1616
+5,2020-01-27,2020-02-02,9,Araucanía,2,Antofagasta,Temuco,Antofagasta,2,284
+5,2020-01-27,2020-02-02,9,Araucanía,11,Aysén,Temuco,Balmaceda,2,277
+5,2020-01-27,2020-02-02,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,2,308
+5,2020-01-27,2020-02-02,9,Araucanía,13,Metropolitana,Temuco,Santiago,63,9727
+5,2020-01-27,2020-02-02,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,26,3619
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,3,43
+5,2020-01-27,2020-02-02,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,10,1627
+5,2020-01-27,2020-02-02,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,1,157
+5,2020-01-27,2020-02-02,2,Antofagasta,8,Biobío,Antofagasta,Concepción,1,180
+5,2020-01-27,2020-02-02,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,3,508
+5,2020-01-27,2020-02-02,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,28,4628
+5,2020-01-27,2020-02-02,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,1,143
+5,2020-01-27,2020-02-02,15,Arica y Parinacota,8,Biobío,Arica,Concepción,1,157
+5,2020-01-27,2020-02-02,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,1,150
+5,2020-01-27,2020-02-02,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,22,3154
+5,2020-01-27,2020-02-02,11,Aysén,8,Biobío,Balmaceda,Concepción,1,165
+5,2020-01-27,2020-02-02,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,6,877
+5,2020-01-27,2020-02-02,11,Aysén,13,Metropolitana,Balmaceda,Santiago,17,1896
+5,2020-01-27,2020-02-02,11,Aysén,9,Araucanía,Balmaceda,Temuco,1,152
+5,2020-01-27,2020-02-02,2,Antofagasta,8,Biobío,Calama,Concepción,1,133
+5,2020-01-27,2020-02-02,2,Antofagasta,4,Coquimbo,Calama,La Serena,1,156
+5,2020-01-27,2020-02-02,2,Antofagasta,13,Metropolitana,Calama,Santiago,29,4609
+5,2020-01-27,2020-02-02,8,Biobío,2,Antofagasta,Concepción,Antofagasta,2,322
+5,2020-01-27,2020-02-02,8,Biobío,15,Arica y Parinacota,Concepción,Arica,1,168
+5,2020-01-27,2020-02-02,8,Biobío,11,Aysén,Concepción,Balmaceda,1,165
+5,2020-01-27,2020-02-02,8,Biobío,2,Antofagasta,Concepción,Calama,1,180
+5,2020-01-27,2020-02-02,8,Biobío,1,Tarapacá,Concepción,Iquique,2,329
+5,2020-01-27,2020-02-02,8,Biobío,4,Coquimbo,Concepción,La Serena,1,158
+5,2020-01-27,2020-02-02,8,Biobío,12,Magallanes,Concepción,Punta Arenas,1,122
+5,2020-01-27,2020-02-02,8,Biobío,13,Metropolitana,Concepción,Santiago,21,3222
+5,2020-01-27,2020-02-02,3,Atacama,13,Metropolitana,Copiapó,Santiago,10,1446
+5,2020-01-27,2020-02-02,1,Tarapacá,8,Biobío,Iquique,Concepción,2,338
+5,2020-01-27,2020-02-02,1,Tarapacá,4,Coquimbo,Iquique,La Serena,2,306
+5,2020-01-27,2020-02-02,1,Tarapacá,13,Metropolitana,Iquique,Santiago,31,4873
+5,2020-01-27,2020-02-02,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,4,1101
+5,2020-01-27,2020-02-02,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,1,129
+5,2020-01-27,2020-02-02,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,1,161
+5,2020-01-27,2020-02-02,4,Coquimbo,2,Antofagasta,La Serena,Calama,1,170
+5,2020-01-27,2020-02-02,4,Coquimbo,8,Biobío,La Serena,Concepción,1,136
+5,2020-01-27,2020-02-02,4,Coquimbo,1,Tarapacá,La Serena,Iquique,2,308
+5,2020-01-27,2020-02-02,4,Coquimbo,13,Metropolitana,La Serena,Santiago,22,3372
+5,2020-01-27,2020-02-02,10,Los Lagos,13,Metropolitana,Castro,Santiago,2,334
+5,2020-01-27,2020-02-02,10,Los Lagos,13,Metropolitana,Osorno,Santiago,6,816
+5,2020-01-27,2020-02-02,10,Los Lagos,2,Antofagasta,Puerto Montt,Antofagasta,1,111
+5,2020-01-27,2020-02-02,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,6,764
+5,2020-01-27,2020-02-02,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,8,942
+5,2020-01-27,2020-02-02,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,40,5504
+5,2020-01-27,2020-02-02,12,Magallanes,8,Biobío,Punta Arenas,Concepción,1,142
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,1,16
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,4,119
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,1,8
+5,2020-01-27,2020-02-02,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,8,1233
+5,2020-01-27,2020-02-02,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,28,3419
+5,2020-01-27,2020-02-02,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,1,160
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,1,3
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,1,19
+5,2020-01-27,2020-02-02,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,27,4517
+5,2020-01-27,2020-02-02,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,24,3764
+5,2020-01-27,2020-02-02,13,Metropolitana,11,Aysén,Santiago,Balmaceda,15,1949
+5,2020-01-27,2020-02-02,13,Metropolitana,2,Antofagasta,Santiago,Calama,28,4565
+5,2020-01-27,2020-02-02,13,Metropolitana,8,Biobío,Santiago,Concepción,22,3202
+5,2020-01-27,2020-02-02,13,Metropolitana,3,Atacama,Santiago,Copiapó,10,1585
+5,2020-01-27,2020-02-02,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,59
+5,2020-01-27,2020-02-02,13,Metropolitana,1,Tarapacá,Santiago,Iquique,32,5131
+5,2020-01-27,2020-02-02,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,4,1192
+5,2020-01-27,2020-02-02,13,Metropolitana,4,Coquimbo,Santiago,La Serena,21,3386
+5,2020-01-27,2020-02-02,13,Metropolitana,10,Los Lagos,Santiago,Castro,2,316
+5,2020-01-27,2020-02-02,13,Metropolitana,10,Los Lagos,Santiago,Osorno,6,879
+5,2020-01-27,2020-02-02,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,40,6430
+5,2020-01-27,2020-02-02,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,25,3636
+5,2020-01-27,2020-02-02,13,Metropolitana,9,Araucanía,Santiago,Temuco,26,4261
+5,2020-01-27,2020-02-02,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,12,1750
+5,2020-01-27,2020-02-02,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,4,682
+5,2020-01-27,2020-02-02,9,Araucanía,11,Aysén,Temuco,Balmaceda,1,159
+5,2020-01-27,2020-02-02,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,1,163
+5,2020-01-27,2020-02-02,9,Araucanía,13,Metropolitana,Temuco,Santiago,26,3768
+5,2020-01-27,2020-02-02,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,12,1615
+5,2020-01-27,2020-02-02,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,1,19
+5,2020-01-27,2020-02-02,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,4,674
+6,2020-02-03,2020-02-09,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,4,594
+6,2020-02-03,2020-02-09,2,Antofagasta,8,Biobío,Antofagasta,Concepción,6,987
+6,2020-02-03,2020-02-09,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,16,2392
+6,2020-02-03,2020-02-09,2,Antofagasta,10,Los Lagos,Antofagasta,Puerto Montt,2,321
+6,2020-02-03,2020-02-09,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,128,20076
+6,2020-02-03,2020-02-09,2,Antofagasta,9,Araucanía,Antofagasta,Temuco,2,340
+6,2020-02-03,2020-02-09,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,4,482
+6,2020-02-03,2020-02-09,15,Arica y Parinacota,8,Biobío,Arica,Concepción,3,452
+6,2020-02-03,2020-02-09,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,4,641
+6,2020-02-03,2020-02-09,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,77,11567
+6,2020-02-03,2020-02-09,11,Aysén,8,Biobío,Balmaceda,Concepción,2,332
+6,2020-02-03,2020-02-09,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,22,3181
+6,2020-02-03,2020-02-09,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,135
+6,2020-02-03,2020-02-09,11,Aysén,13,Metropolitana,Balmaceda,Santiago,50,6235
+6,2020-02-03,2020-02-09,11,Aysén,9,Araucanía,Balmaceda,Temuco,3,451
+6,2020-02-03,2020-02-09,2,Antofagasta,8,Biobío,Calama,Concepción,7,1107
+6,2020-02-03,2020-02-09,2,Antofagasta,4,Coquimbo,Calama,La Serena,9,1443
+6,2020-02-03,2020-02-09,2,Antofagasta,13,Metropolitana,Calama,Santiago,128,19740
+6,2020-02-03,2020-02-09,8,Biobío,2,Antofagasta,Concepción,Antofagasta,7,1149
+6,2020-02-03,2020-02-09,8,Biobío,15,Arica y Parinacota,Concepción,Arica,3,479
+6,2020-02-03,2020-02-09,8,Biobío,11,Aysén,Concepción,Balmaceda,2,305
+6,2020-02-03,2020-02-09,8,Biobío,2,Antofagasta,Concepción,Calama,7,1127
+6,2020-02-03,2020-02-09,8,Biobío,1,Tarapacá,Concepción,Iquique,11,1459
+6,2020-02-03,2020-02-09,8,Biobío,4,Coquimbo,Concepción,La Serena,4,607
+6,2020-02-03,2020-02-09,8,Biobío,12,Magallanes,Concepción,Punta Arenas,5,737
+6,2020-02-03,2020-02-09,8,Biobío,13,Metropolitana,Concepción,Santiago,77,12466
+6,2020-02-03,2020-02-09,3,Atacama,13,Metropolitana,Copiapó,Santiago,47,7029
+6,2020-02-03,2020-02-09,1,Tarapacá,8,Biobío,Iquique,Concepción,11,1397
+6,2020-02-03,2020-02-09,1,Tarapacá,4,Coquimbo,Iquique,La Serena,8,1265
+6,2020-02-03,2020-02-09,1,Tarapacá,13,Metropolitana,Iquique,Santiago,137,20438
+6,2020-02-03,2020-02-09,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,12,3238
+6,2020-02-03,2020-02-09,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,17,2509
+6,2020-02-03,2020-02-09,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,4,667
+6,2020-02-03,2020-02-09,4,Coquimbo,2,Antofagasta,La Serena,Calama,9,1455
+6,2020-02-03,2020-02-09,4,Coquimbo,8,Biobío,La Serena,Concepción,4,594
+6,2020-02-03,2020-02-09,4,Coquimbo,1,Tarapacá,La Serena,Iquique,8,1286
+6,2020-02-03,2020-02-09,4,Coquimbo,13,Metropolitana,La Serena,Santiago,70,10848
+6,2020-02-03,2020-02-09,10,Los Lagos,13,Metropolitana,Castro,Santiago,5,820
+6,2020-02-03,2020-02-09,10,Los Lagos,13,Metropolitana,Osorno,Santiago,19,2620
+6,2020-02-03,2020-02-09,10,Los Lagos,2,Antofagasta,Puerto Montt,Antofagasta,2,273
+6,2020-02-03,2020-02-09,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,21,2905
+6,2020-02-03,2020-02-09,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,31,4330
+6,2020-02-03,2020-02-09,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,134,20050
+6,2020-02-03,2020-02-09,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,130
+6,2020-02-03,2020-02-09,12,Magallanes,8,Biobío,Punta Arenas,Concepción,5,752
+6,2020-02-03,2020-02-09,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,9,561
+6,2020-02-03,2020-02-09,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,4,143
+6,2020-02-03,2020-02-09,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,18,118
+6,2020-02-03,2020-02-09,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,29,4634
+6,2020-02-03,2020-02-09,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,92,13178
+6,2020-02-03,2020-02-09,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,3,483
+6,2020-02-03,2020-02-09,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,2,12
+6,2020-02-03,2020-02-09,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,6,169
+6,2020-02-03,2020-02-09,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,121,19257
+6,2020-02-03,2020-02-09,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,77,12343
+6,2020-02-03,2020-02-09,13,Metropolitana,11,Aysén,Santiago,Balmaceda,42,6379
+6,2020-02-03,2020-02-09,13,Metropolitana,2,Antofagasta,Santiago,Calama,128,19428
+6,2020-02-03,2020-02-09,13,Metropolitana,8,Biobío,Santiago,Concepción,83,12883
+6,2020-02-03,2020-02-09,13,Metropolitana,3,Atacama,Santiago,Copiapó,47,7100
+6,2020-02-03,2020-02-09,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,72
+6,2020-02-03,2020-02-09,13,Metropolitana,1,Tarapacá,Santiago,Iquique,136,20932
+6,2020-02-03,2020-02-09,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,12,3333
+6,2020-02-03,2020-02-09,13,Metropolitana,4,Coquimbo,Santiago,La Serena,70,11176
+6,2020-02-03,2020-02-09,13,Metropolitana,10,Los Lagos,Santiago,Castro,5,720
+6,2020-02-03,2020-02-09,13,Metropolitana,10,Los Lagos,Santiago,Osorno,19,2755
+6,2020-02-03,2020-02-09,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,59
+6,2020-02-03,2020-02-09,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,137,23767
+6,2020-02-03,2020-02-09,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,75,12820
+6,2020-02-03,2020-02-09,13,Metropolitana,9,Araucanía,Santiago,Temuco,93,15179
+6,2020-02-03,2020-02-09,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,39,5575
+6,2020-02-03,2020-02-09,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,14,2270
+6,2020-02-03,2020-02-09,9,Araucanía,2,Antofagasta,Temuco,Antofagasta,2,309
+6,2020-02-03,2020-02-09,9,Araucanía,11,Aysén,Temuco,Balmaceda,3,419
+6,2020-02-03,2020-02-09,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,3,461
+6,2020-02-03,2020-02-09,9,Araucanía,13,Metropolitana,Temuco,Santiago,93,13620
+6,2020-02-03,2020-02-09,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,39,5220
+6,2020-02-03,2020-02-09,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,6,169
+6,2020-02-03,2020-02-09,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,14,2270
+7,2020-02-10,2020-02-16,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,4,542
+7,2020-02-10,2020-02-16,2,Antofagasta,8,Biobío,Antofagasta,Concepción,6,909
+7,2020-02-10,2020-02-16,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,16,2266
+7,2020-02-10,2020-02-16,2,Antofagasta,10,Los Lagos,Antofagasta,Puerto Montt,2,308
+7,2020-02-10,2020-02-16,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,127,20006
+7,2020-02-10,2020-02-16,2,Antofagasta,9,Araucanía,Antofagasta,Temuco,2,312
+7,2020-02-10,2020-02-16,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,4,532
+7,2020-02-10,2020-02-16,15,Arica y Parinacota,8,Biobío,Arica,Concepción,3,463
+7,2020-02-10,2020-02-16,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,4,662
+7,2020-02-10,2020-02-16,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,77,12255
+7,2020-02-10,2020-02-16,11,Aysén,8,Biobío,Balmaceda,Concepción,2,295
+7,2020-02-10,2020-02-16,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,22,3382
+7,2020-02-10,2020-02-16,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,125
+7,2020-02-10,2020-02-16,11,Aysén,13,Metropolitana,Balmaceda,Santiago,52,6401
+7,2020-02-10,2020-02-16,11,Aysén,9,Araucanía,Balmaceda,Temuco,3,435
+7,2020-02-10,2020-02-16,2,Antofagasta,8,Biobío,Calama,Concepción,7,1118
+7,2020-02-10,2020-02-16,2,Antofagasta,4,Coquimbo,Calama,La Serena,9,1330
+7,2020-02-10,2020-02-16,2,Antofagasta,13,Metropolitana,Calama,Santiago,123,19716
+7,2020-02-10,2020-02-16,8,Biobío,2,Antofagasta,Concepción,Antofagasta,7,1110
+7,2020-02-10,2020-02-16,8,Biobío,15,Arica y Parinacota,Concepción,Arica,3,477
+7,2020-02-10,2020-02-16,8,Biobío,11,Aysén,Concepción,Balmaceda,2,321
+7,2020-02-10,2020-02-16,8,Biobío,2,Antofagasta,Concepción,Calama,7,1053
+7,2020-02-10,2020-02-16,8,Biobío,1,Tarapacá,Concepción,Iquique,11,1521
+7,2020-02-10,2020-02-16,8,Biobío,4,Coquimbo,Concepción,La Serena,4,584
+7,2020-02-10,2020-02-16,8,Biobío,12,Magallanes,Concepción,Punta Arenas,5,725
+7,2020-02-10,2020-02-16,8,Biobío,13,Metropolitana,Concepción,Santiago,73,12095
+7,2020-02-10,2020-02-16,3,Atacama,13,Metropolitana,Copiapó,Santiago,46,7099
+7,2020-02-10,2020-02-16,1,Tarapacá,8,Biobío,Iquique,Concepción,11,1443
+7,2020-02-10,2020-02-16,1,Tarapacá,4,Coquimbo,Iquique,La Serena,8,1262
+7,2020-02-10,2020-02-16,1,Tarapacá,13,Metropolitana,Iquique,Santiago,134,20991
+7,2020-02-10,2020-02-16,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,12,3319
+7,2020-02-10,2020-02-16,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,16,2364
+7,2020-02-10,2020-02-16,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,4,627
+7,2020-02-10,2020-02-16,4,Coquimbo,2,Antofagasta,La Serena,Calama,9,1444
+7,2020-02-10,2020-02-16,4,Coquimbo,8,Biobío,La Serena,Concepción,4,583
+7,2020-02-10,2020-02-16,4,Coquimbo,1,Tarapacá,La Serena,Iquique,8,1214
+7,2020-02-10,2020-02-16,4,Coquimbo,13,Metropolitana,La Serena,Santiago,69,10908
+7,2020-02-10,2020-02-16,10,Los Lagos,13,Metropolitana,Castro,Santiago,5,821
+7,2020-02-10,2020-02-16,10,Los Lagos,13,Metropolitana,Osorno,Santiago,19,2753
+7,2020-02-10,2020-02-16,10,Los Lagos,2,Antofagasta,Puerto Montt,Antofagasta,2,306
+7,2020-02-10,2020-02-16,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,23,3107
+7,2020-02-10,2020-02-16,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,31,4620
+7,2020-02-10,2020-02-16,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,131,21503
+7,2020-02-10,2020-02-16,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,141
+7,2020-02-10,2020-02-16,12,Magallanes,8,Biobío,Punta Arenas,Concepción,5,714
+7,2020-02-10,2020-02-16,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,7,465
+7,2020-02-10,2020-02-16,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,11,554
+7,2020-02-10,2020-02-16,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,16,88
+7,2020-02-10,2020-02-16,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,29,4521
+7,2020-02-10,2020-02-16,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,97,14610
+7,2020-02-10,2020-02-16,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,3,472
+7,2020-02-10,2020-02-16,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,2,8
+7,2020-02-10,2020-02-16,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,4,139
+7,2020-02-10,2020-02-16,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,121,20193
+7,2020-02-10,2020-02-16,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,76,11838
+7,2020-02-10,2020-02-16,13,Metropolitana,11,Aysén,Santiago,Balmaceda,42,6199
+7,2020-02-10,2020-02-16,13,Metropolitana,2,Antofagasta,Santiago,Calama,124,20189
+7,2020-02-10,2020-02-16,13,Metropolitana,8,Biobío,Santiago,Concepción,79,12531
+7,2020-02-10,2020-02-16,13,Metropolitana,3,Atacama,Santiago,Copiapó,46,7142
+7,2020-02-10,2020-02-16,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,91
+7,2020-02-10,2020-02-16,13,Metropolitana,1,Tarapacá,Santiago,Iquique,134,21522
+7,2020-02-10,2020-02-16,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,12,3170
+7,2020-02-10,2020-02-16,13,Metropolitana,4,Coquimbo,Santiago,La Serena,69,11020
+7,2020-02-10,2020-02-16,13,Metropolitana,10,Los Lagos,Santiago,Castro,5,725
+7,2020-02-10,2020-02-16,13,Metropolitana,10,Los Lagos,Santiago,Osorno,19,2794
+7,2020-02-10,2020-02-16,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,58
+7,2020-02-10,2020-02-16,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,133,22217
+7,2020-02-10,2020-02-16,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,84,14679
+7,2020-02-10,2020-02-16,13,Metropolitana,9,Araucanía,Santiago,Temuco,90,14665
+7,2020-02-10,2020-02-16,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,39,5493
+7,2020-02-10,2020-02-16,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,14,2310
+7,2020-02-10,2020-02-16,9,Araucanía,2,Antofagasta,Temuco,Antofagasta,2,300
+7,2020-02-10,2020-02-16,9,Araucanía,11,Aysén,Temuco,Balmaceda,3,420
+7,2020-02-10,2020-02-16,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,3,467
+7,2020-02-10,2020-02-16,9,Araucanía,13,Metropolitana,Temuco,Santiago,90,14251
+7,2020-02-10,2020-02-16,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,39,5526
+7,2020-02-10,2020-02-16,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,3,56
+7,2020-02-10,2020-02-16,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,14,2275
+8,2020-02-17,2020-02-23,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,4,446
+8,2020-02-17,2020-02-23,2,Antofagasta,8,Biobío,Antofagasta,Concepción,6,910
+8,2020-02-17,2020-02-23,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,16,2202
+8,2020-02-17,2020-02-23,2,Antofagasta,10,Los Lagos,Antofagasta,Puerto Montt,2,284
+8,2020-02-17,2020-02-23,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,132,20040
+8,2020-02-17,2020-02-23,2,Antofagasta,9,Araucanía,Antofagasta,Temuco,2,269
+8,2020-02-17,2020-02-23,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,4,513
+8,2020-02-17,2020-02-23,15,Arica y Parinacota,8,Biobío,Arica,Concepción,3,467
+8,2020-02-17,2020-02-23,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,4,633
+8,2020-02-17,2020-02-23,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,77,12267
+8,2020-02-17,2020-02-23,11,Aysén,8,Biobío,Balmaceda,Concepción,3,449
+8,2020-02-17,2020-02-23,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,22,3325
+8,2020-02-17,2020-02-23,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,160
+8,2020-02-17,2020-02-23,11,Aysén,13,Metropolitana,Balmaceda,Santiago,50,6405
+8,2020-02-17,2020-02-23,11,Aysén,9,Araucanía,Balmaceda,Temuco,3,412
+8,2020-02-17,2020-02-23,2,Antofagasta,8,Biobío,Calama,Concepción,7,973
+8,2020-02-17,2020-02-23,2,Antofagasta,4,Coquimbo,Calama,La Serena,9,1264
+8,2020-02-17,2020-02-23,2,Antofagasta,13,Metropolitana,Calama,Santiago,135,20814
+8,2020-02-17,2020-02-23,8,Biobío,2,Antofagasta,Concepción,Antofagasta,7,1088
+8,2020-02-17,2020-02-23,8,Biobío,15,Arica y Parinacota,Concepción,Arica,3,445
+8,2020-02-17,2020-02-23,8,Biobío,11,Aysén,Concepción,Balmaceda,3,423
+8,2020-02-17,2020-02-23,8,Biobío,2,Antofagasta,Concepción,Calama,7,1059
+8,2020-02-17,2020-02-23,8,Biobío,1,Tarapacá,Concepción,Iquique,11,1404
+8,2020-02-17,2020-02-23,8,Biobío,4,Coquimbo,Concepción,La Serena,4,549
+8,2020-02-17,2020-02-23,8,Biobío,12,Magallanes,Concepción,Punta Arenas,5,724
+8,2020-02-17,2020-02-23,8,Biobío,13,Metropolitana,Concepción,Santiago,77,12216
+8,2020-02-17,2020-02-23,3,Atacama,13,Metropolitana,Copiapó,Santiago,47,7286
+8,2020-02-17,2020-02-23,1,Tarapacá,8,Biobío,Iquique,Concepción,11,1430
+8,2020-02-17,2020-02-23,1,Tarapacá,4,Coquimbo,Iquique,La Serena,8,1179
+8,2020-02-17,2020-02-23,1,Tarapacá,13,Metropolitana,Iquique,Santiago,124,19689
+8,2020-02-17,2020-02-23,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,12,3377
+8,2020-02-17,2020-02-23,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,16,2347
+8,2020-02-17,2020-02-23,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,4,609
+8,2020-02-17,2020-02-23,4,Coquimbo,2,Antofagasta,La Serena,Calama,10,1560
+8,2020-02-17,2020-02-23,4,Coquimbo,8,Biobío,La Serena,Concepción,4,567
+8,2020-02-17,2020-02-23,4,Coquimbo,1,Tarapacá,La Serena,Iquique,8,1240
+8,2020-02-17,2020-02-23,4,Coquimbo,13,Metropolitana,La Serena,Santiago,72,11105
+8,2020-02-17,2020-02-23,10,Los Lagos,13,Metropolitana,Castro,Santiago,5,817
+8,2020-02-17,2020-02-23,10,Los Lagos,13,Metropolitana,Osorno,Santiago,19,2811
+8,2020-02-17,2020-02-23,10,Los Lagos,2,Antofagasta,Puerto Montt,Antofagasta,2,298
+8,2020-02-17,2020-02-23,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,22,3098
+8,2020-02-17,2020-02-23,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,31,4667
+8,2020-02-17,2020-02-23,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,139,23054
+8,2020-02-17,2020-02-23,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,121
+8,2020-02-17,2020-02-23,12,Magallanes,8,Biobío,Punta Arenas,Concepción,5,714
+8,2020-02-17,2020-02-23,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,7,379
+8,2020-02-17,2020-02-23,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,6,331
+8,2020-02-17,2020-02-23,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,16,84
+8,2020-02-17,2020-02-23,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,29,4147
+8,2020-02-17,2020-02-23,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,96,13452
+8,2020-02-17,2020-02-23,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,3,406
+8,2020-02-17,2020-02-23,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,1,3
+8,2020-02-17,2020-02-23,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,4,73
+8,2020-02-17,2020-02-23,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,127,20673
+8,2020-02-17,2020-02-23,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,77,11714
+8,2020-02-17,2020-02-23,13,Metropolitana,11,Aysén,Santiago,Balmaceda,41,6089
+8,2020-02-17,2020-02-23,13,Metropolitana,2,Antofagasta,Santiago,Calama,134,21499
+8,2020-02-17,2020-02-23,13,Metropolitana,8,Biobío,Santiago,Concepción,83,12776
+8,2020-02-17,2020-02-23,13,Metropolitana,3,Atacama,Santiago,Copiapó,47,7131
+8,2020-02-17,2020-02-23,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,80
+8,2020-02-17,2020-02-23,13,Metropolitana,1,Tarapacá,Santiago,Iquique,125,19376
+8,2020-02-17,2020-02-23,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,12,3276
+8,2020-02-17,2020-02-23,13,Metropolitana,4,Coquimbo,Santiago,La Serena,72,11358
+8,2020-02-17,2020-02-23,13,Metropolitana,10,Los Lagos,Santiago,Castro,5,751
+8,2020-02-17,2020-02-23,13,Metropolitana,10,Los Lagos,Santiago,Osorno,19,2804
+8,2020-02-17,2020-02-23,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,59
+8,2020-02-17,2020-02-23,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,142,22308
+8,2020-02-17,2020-02-23,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,79,13500
+8,2020-02-17,2020-02-23,13,Metropolitana,9,Araucanía,Santiago,Temuco,95,15199
+8,2020-02-17,2020-02-23,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,39,5526
+8,2020-02-17,2020-02-23,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,14,2389
+8,2020-02-17,2020-02-23,9,Araucanía,2,Antofagasta,Temuco,Antofagasta,2,307
+8,2020-02-17,2020-02-23,9,Araucanía,11,Aysén,Temuco,Balmaceda,3,420
+8,2020-02-17,2020-02-23,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,3,469
+8,2020-02-17,2020-02-23,9,Araucanía,13,Metropolitana,Temuco,Santiago,95,14700
+8,2020-02-17,2020-02-23,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,39,5685
+8,2020-02-17,2020-02-23,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,4,157
+8,2020-02-17,2020-02-23,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,14,2215
+9,2020-02-24,2020-03-01,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,4,332
+9,2020-02-24,2020-03-01,2,Antofagasta,8,Biobío,Antofagasta,Concepción,5,700
+9,2020-02-24,2020-03-01,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,13,1683
+9,2020-02-24,2020-03-01,2,Antofagasta,10,Los Lagos,Antofagasta,Puerto Montt,2,170
+9,2020-02-24,2020-03-01,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,113,17665
+9,2020-02-24,2020-03-01,2,Antofagasta,9,Araucanía,Antofagasta,Temuco,2,195
+9,2020-02-24,2020-03-01,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,4,430
+9,2020-02-24,2020-03-01,15,Arica y Parinacota,8,Biobío,Arica,Concepción,3,441
+9,2020-02-24,2020-03-01,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,3,443
+9,2020-02-24,2020-03-01,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,66,10766
+9,2020-02-24,2020-03-01,11,Aysén,8,Biobío,Balmaceda,Concepción,3,463
+9,2020-02-24,2020-03-01,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,20,2975
+9,2020-02-24,2020-03-01,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,177
+9,2020-02-24,2020-03-01,11,Aysén,13,Metropolitana,Balmaceda,Santiago,42,5136
+9,2020-02-24,2020-03-01,11,Aysén,9,Araucanía,Balmaceda,Temuco,3,422
+9,2020-02-24,2020-03-01,2,Antofagasta,8,Biobío,Calama,Concepción,6,880
+9,2020-02-24,2020-03-01,2,Antofagasta,4,Coquimbo,Calama,La Serena,9,1127
+9,2020-02-24,2020-03-01,2,Antofagasta,13,Metropolitana,Calama,Santiago,115,18134
+9,2020-02-24,2020-03-01,8,Biobío,2,Antofagasta,Concepción,Antofagasta,5,737
+9,2020-02-24,2020-03-01,8,Biobío,15,Arica y Parinacota,Concepción,Arica,3,389
+9,2020-02-24,2020-03-01,8,Biobío,11,Aysén,Concepción,Balmaceda,3,365
+9,2020-02-24,2020-03-01,8,Biobío,2,Antofagasta,Concepción,Calama,6,853
+9,2020-02-24,2020-03-01,8,Biobío,1,Tarapacá,Concepción,Iquique,10,1262
+9,2020-02-24,2020-03-01,8,Biobío,4,Coquimbo,Concepción,La Serena,4,492
+9,2020-02-24,2020-03-01,8,Biobío,12,Magallanes,Concepción,Punta Arenas,5,756
+9,2020-02-24,2020-03-01,8,Biobío,13,Metropolitana,Concepción,Santiago,66,10988
+9,2020-02-24,2020-03-01,3,Atacama,13,Metropolitana,Copiapó,Santiago,40,6332
+9,2020-02-24,2020-03-01,1,Tarapacá,8,Biobío,Iquique,Concepción,10,1297
+9,2020-02-24,2020-03-01,1,Tarapacá,4,Coquimbo,Iquique,La Serena,7,966
+9,2020-02-24,2020-03-01,1,Tarapacá,13,Metropolitana,Iquique,Santiago,116,17574
+9,2020-02-24,2020-03-01,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,10,2898
+9,2020-02-24,2020-03-01,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,14,2041
+9,2020-02-24,2020-03-01,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,3,430
+9,2020-02-24,2020-03-01,4,Coquimbo,2,Antofagasta,La Serena,Calama,9,1359
+9,2020-02-24,2020-03-01,4,Coquimbo,8,Biobío,La Serena,Concepción,4,474
+9,2020-02-24,2020-03-01,4,Coquimbo,1,Tarapacá,La Serena,Iquique,7,1029
+9,2020-02-24,2020-03-01,4,Coquimbo,13,Metropolitana,La Serena,Santiago,58,9022
+9,2020-02-24,2020-03-01,10,Los Lagos,13,Metropolitana,Castro,Santiago,4,669
+9,2020-02-24,2020-03-01,10,Los Lagos,13,Metropolitana,Osorno,Santiago,16,2478
+9,2020-02-24,2020-03-01,10,Los Lagos,2,Antofagasta,Puerto Montt,Antofagasta,2,308
+9,2020-02-24,2020-03-01,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,20,2592
+9,2020-02-24,2020-03-01,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,28,4266
+9,2020-02-24,2020-03-01,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,122,20394
+9,2020-02-24,2020-03-01,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,103
+9,2020-02-24,2020-03-01,12,Magallanes,8,Biobío,Punta Arenas,Concepción,5,692
+9,2020-02-24,2020-03-01,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,7,531
+9,2020-02-24,2020-03-01,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,7,228
+9,2020-02-24,2020-03-01,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,17,103
+9,2020-02-24,2020-03-01,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,26,2914
+9,2020-02-24,2020-03-01,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,85,11273
+9,2020-02-24,2020-03-01,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,2,233
+9,2020-02-24,2020-03-01,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,1,7
+9,2020-02-24,2020-03-01,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,2,37
+9,2020-02-24,2020-03-01,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,108,17409
+9,2020-02-24,2020-03-01,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,63,9239
+9,2020-02-24,2020-03-01,13,Metropolitana,11,Aysén,Santiago,Balmaceda,33,4253
+9,2020-02-24,2020-03-01,13,Metropolitana,2,Antofagasta,Santiago,Calama,116,16836
+9,2020-02-24,2020-03-01,13,Metropolitana,8,Biobío,Santiago,Concepción,71,11194
+9,2020-02-24,2020-03-01,13,Metropolitana,3,Atacama,Santiago,Copiapó,40,5803
+9,2020-02-24,2020-03-01,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,84
+9,2020-02-24,2020-03-01,13,Metropolitana,1,Tarapacá,Santiago,Iquique,113,16100
+9,2020-02-24,2020-03-01,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,10,2661
+9,2020-02-24,2020-03-01,13,Metropolitana,4,Coquimbo,Santiago,La Serena,59,8895
+9,2020-02-24,2020-03-01,13,Metropolitana,10,Los Lagos,Santiago,Castro,4,513
+9,2020-02-24,2020-03-01,13,Metropolitana,10,Los Lagos,Santiago,Osorno,16,2185
+9,2020-02-24,2020-03-01,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,64
+9,2020-02-24,2020-03-01,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,120,16391
+9,2020-02-24,2020-03-01,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,67,11275
+9,2020-02-24,2020-03-01,13,Metropolitana,9,Araucanía,Santiago,Temuco,77,10692
+9,2020-02-24,2020-03-01,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,32,4172
+9,2020-02-24,2020-03-01,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,11,1759
+9,2020-02-24,2020-03-01,9,Araucanía,2,Antofagasta,Temuco,Antofagasta,2,292
+9,2020-02-24,2020-03-01,9,Araucanía,11,Aysén,Temuco,Balmaceda,3,374
+9,2020-02-24,2020-03-01,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,2,338
+9,2020-02-24,2020-03-01,9,Araucanía,13,Metropolitana,Temuco,Santiago,77,12335
+9,2020-02-24,2020-03-01,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,32,4568
+9,2020-02-24,2020-03-01,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,2,37
+9,2020-02-24,2020-03-01,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,11,1748
+9,2020-02-24,2020-03-01,2,Antofagasta,8,Biobío,Antofagasta,Concepción,1,113
+9,2020-02-24,2020-03-01,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,3,381
+9,2020-02-24,2020-03-01,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,15,2017
+9,2020-02-24,2020-03-01,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,1,132
+9,2020-02-24,2020-03-01,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,8,1392
+9,2020-02-24,2020-03-01,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,2,336
+9,2020-02-24,2020-03-01,11,Aysén,13,Metropolitana,Balmaceda,Santiago,8,1023
+9,2020-02-24,2020-03-01,2,Antofagasta,4,Coquimbo,Calama,La Serena,1,112
+9,2020-02-24,2020-03-01,2,Antofagasta,13,Metropolitana,Calama,Santiago,17,2338
+9,2020-02-24,2020-03-01,8,Biobío,2,Antofagasta,Concepción,Antofagasta,2,310
+9,2020-02-24,2020-03-01,8,Biobío,2,Antofagasta,Concepción,Calama,1,135
+9,2020-02-24,2020-03-01,8,Biobío,1,Tarapacá,Concepción,Iquique,1,164
+9,2020-02-24,2020-03-01,8,Biobío,13,Metropolitana,Concepción,Santiago,10,1547
+9,2020-02-24,2020-03-01,3,Atacama,13,Metropolitana,Copiapó,Santiago,6,892
+9,2020-02-24,2020-03-01,1,Tarapacá,8,Biobío,Iquique,Concepción,1,133
+9,2020-02-24,2020-03-01,1,Tarapacá,4,Coquimbo,Iquique,La Serena,1,112
+9,2020-02-24,2020-03-01,1,Tarapacá,13,Metropolitana,Iquique,Santiago,14,2203
+9,2020-02-24,2020-03-01,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,2,524
+9,2020-02-24,2020-03-01,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,2,320
+9,2020-02-24,2020-03-01,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,1,161
+9,2020-02-24,2020-03-01,4,Coquimbo,2,Antofagasta,La Serena,Calama,1,161
+9,2020-02-24,2020-03-01,4,Coquimbo,1,Tarapacá,La Serena,Iquique,1,131
+9,2020-02-24,2020-03-01,4,Coquimbo,13,Metropolitana,La Serena,Santiago,11,1759
+9,2020-02-24,2020-03-01,10,Los Lagos,13,Metropolitana,Castro,Santiago,1,171
+9,2020-02-24,2020-03-01,10,Los Lagos,13,Metropolitana,Osorno,Santiago,3,489
+9,2020-02-24,2020-03-01,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,2,238
+9,2020-02-24,2020-03-01,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,3,471
+9,2020-02-24,2020-03-01,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,18,3014
+9,2020-02-24,2020-03-01,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,3,351
+9,2020-02-24,2020-03-01,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,11,1244
+9,2020-02-24,2020-03-01,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,1,101
+9,2020-02-24,2020-03-01,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,1,5
+9,2020-02-24,2020-03-01,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,15,2495
+9,2020-02-24,2020-03-01,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,12,1764
+9,2020-02-24,2020-03-01,13,Metropolitana,11,Aysén,Santiago,Balmaceda,7,864
+9,2020-02-24,2020-03-01,13,Metropolitana,2,Antofagasta,Santiago,Calama,17,2709
+9,2020-02-24,2020-03-01,13,Metropolitana,8,Biobío,Santiago,Concepción,11,1702
+9,2020-02-24,2020-03-01,13,Metropolitana,3,Atacama,Santiago,Copiapó,6,839
+9,2020-02-24,2020-03-01,13,Metropolitana,1,Tarapacá,Santiago,Iquique,16,2715
+9,2020-02-24,2020-03-01,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,2,527
+9,2020-02-24,2020-03-01,13,Metropolitana,4,Coquimbo,Santiago,La Serena,10,1351
+9,2020-02-24,2020-03-01,13,Metropolitana,10,Los Lagos,Santiago,Castro,1,144
+9,2020-02-24,2020-03-01,13,Metropolitana,10,Los Lagos,Santiago,Osorno,3,406
+9,2020-02-24,2020-03-01,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,22,2946
+9,2020-02-24,2020-03-01,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,13,2143
+9,2020-02-24,2020-03-01,13,Metropolitana,9,Araucanía,Santiago,Temuco,16,2007
+9,2020-02-24,2020-03-01,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,7,814
+9,2020-02-24,2020-03-01,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,3,493
+9,2020-02-24,2020-03-01,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,1,153
+9,2020-02-24,2020-03-01,9,Araucanía,13,Metropolitana,Temuco,Santiago,16,2456
+9,2020-02-24,2020-03-01,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,7,1021
+9,2020-02-24,2020-03-01,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,3,462
+10,2020-03-02,2020-03-08,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,2,196
+10,2020-03-02,2020-03-08,2,Antofagasta,8,Biobío,Antofagasta,Concepción,9,989
+10,2020-03-02,2020-03-08,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,16,2086
+10,2020-03-02,2020-03-08,2,Antofagasta,10,Los Lagos,Antofagasta,Puerto Montt,2,136
+10,2020-03-02,2020-03-08,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,125,17747
+10,2020-03-02,2020-03-08,2,Antofagasta,9,Araucanía,Antofagasta,Temuco,2,174
+10,2020-03-02,2020-03-08,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,2,167
+10,2020-03-02,2020-03-08,15,Arica y Parinacota,8,Biobío,Arica,Concepción,3,336
+10,2020-03-02,2020-03-08,15,Arica y Parinacota,3,Atacama,Arica,Copiapó,1,141
+10,2020-03-02,2020-03-08,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,2,271
+10,2020-03-02,2020-03-08,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,52,8309
+10,2020-03-02,2020-03-08,11,Aysén,8,Biobío,Balmaceda,Concepción,2,291
+10,2020-03-02,2020-03-08,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,18,2580
+10,2020-03-02,2020-03-08,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,149
+10,2020-03-02,2020-03-08,11,Aysén,13,Metropolitana,Balmaceda,Santiago,36,4281
+10,2020-03-02,2020-03-08,11,Aysén,9,Araucanía,Balmaceda,Temuco,2,260
+10,2020-03-02,2020-03-08,2,Antofagasta,8,Biobío,Calama,Concepción,9,1179
+10,2020-03-02,2020-03-08,2,Antofagasta,4,Coquimbo,Calama,La Serena,9,1069
+10,2020-03-02,2020-03-08,2,Antofagasta,13,Metropolitana,Calama,Santiago,127,19003
+10,2020-03-02,2020-03-08,8,Biobío,2,Antofagasta,Concepción,Antofagasta,9,1334
+10,2020-03-02,2020-03-08,8,Biobío,15,Arica y Parinacota,Concepción,Arica,3,303
+10,2020-03-02,2020-03-08,8,Biobío,11,Aysén,Concepción,Balmaceda,2,264
+10,2020-03-02,2020-03-08,8,Biobío,2,Antofagasta,Concepción,Calama,8,1089
+10,2020-03-02,2020-03-08,8,Biobío,1,Tarapacá,Concepción,Iquique,9,1083
+10,2020-03-02,2020-03-08,8,Biobío,4,Coquimbo,Concepción,La Serena,3,283
+10,2020-03-02,2020-03-08,8,Biobío,12,Magallanes,Concepción,Punta Arenas,4,671
+10,2020-03-02,2020-03-08,8,Biobío,13,Metropolitana,Concepción,Santiago,89,13386
+10,2020-03-02,2020-03-08,3,Atacama,13,Metropolitana,Copiapó,Santiago,45,6543
+10,2020-03-02,2020-03-08,1,Tarapacá,8,Biobío,Iquique,Concepción,9,998
+10,2020-03-02,2020-03-08,1,Tarapacá,4,Coquimbo,Iquique,La Serena,8,1052
+10,2020-03-02,2020-03-08,1,Tarapacá,13,Metropolitana,Iquique,Santiago,101,16055
+10,2020-03-02,2020-03-08,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,12,3233
+10,2020-03-02,2020-03-08,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,16,2147
+10,2020-03-02,2020-03-08,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,2,295
+10,2020-03-02,2020-03-08,4,Coquimbo,2,Antofagasta,La Serena,Calama,9,1141
+10,2020-03-02,2020-03-08,4,Coquimbo,8,Biobío,La Serena,Concepción,3,329
+10,2020-03-02,2020-03-08,4,Coquimbo,1,Tarapacá,La Serena,Iquique,9,1110
+10,2020-03-02,2020-03-08,4,Coquimbo,13,Metropolitana,La Serena,Santiago,54,8547
+10,2020-03-02,2020-03-08,10,Los Lagos,13,Metropolitana,Castro,Santiago,5,828
+10,2020-03-02,2020-03-08,10,Los Lagos,13,Metropolitana,Osorno,Santiago,12,1854
+10,2020-03-02,2020-03-08,10,Los Lagos,2,Antofagasta,Puerto Montt,Antofagasta,2,198
+10,2020-03-02,2020-03-08,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,18,2209
+10,2020-03-02,2020-03-08,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,20,3402
+10,2020-03-02,2020-03-08,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,102,17265
+10,2020-03-02,2020-03-08,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,93
+10,2020-03-02,2020-03-08,12,Magallanes,8,Biobío,Punta Arenas,Concepción,4,469
+10,2020-03-02,2020-03-08,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,8,496
+10,2020-03-02,2020-03-08,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,4,218
+10,2020-03-02,2020-03-08,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,15,115
+10,2020-03-02,2020-03-08,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,21,2342
+10,2020-03-02,2020-03-08,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,64,8905
+10,2020-03-02,2020-03-08,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,2,228
+10,2020-03-02,2020-03-08,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,2,7
+10,2020-03-02,2020-03-08,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,3,34
+10,2020-03-02,2020-03-08,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,118,18121
+10,2020-03-02,2020-03-08,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,49,7519
+10,2020-03-02,2020-03-08,13,Metropolitana,11,Aysén,Santiago,Balmaceda,30,3947
+10,2020-03-02,2020-03-08,13,Metropolitana,2,Antofagasta,Santiago,Calama,127,18514
+10,2020-03-02,2020-03-08,13,Metropolitana,8,Biobío,Santiago,Concepción,94,13239
+10,2020-03-02,2020-03-08,13,Metropolitana,3,Atacama,Santiago,Copiapó,44,6172
+10,2020-03-02,2020-03-08,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,80
+10,2020-03-02,2020-03-08,13,Metropolitana,1,Tarapacá,Santiago,Iquique,98,14770
+10,2020-03-02,2020-03-08,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,12,3110
+10,2020-03-02,2020-03-08,13,Metropolitana,4,Coquimbo,Santiago,La Serena,55,8329
+10,2020-03-02,2020-03-08,13,Metropolitana,10,Los Lagos,Santiago,Castro,5,726
+10,2020-03-02,2020-03-08,13,Metropolitana,10,Los Lagos,Santiago,Osorno,12,1717
+10,2020-03-02,2020-03-08,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,71
+10,2020-03-02,2020-03-08,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,97,14916
+10,2020-03-02,2020-03-08,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,55,9901
+10,2020-03-02,2020-03-08,13,Metropolitana,9,Araucanía,Santiago,Temuco,70,10202
+10,2020-03-02,2020-03-08,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,25,3513
+10,2020-03-02,2020-03-08,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,8,1296
+10,2020-03-02,2020-03-08,9,Araucanía,2,Antofagasta,Temuco,Antofagasta,2,231
+10,2020-03-02,2020-03-08,9,Araucanía,11,Aysén,Temuco,Balmaceda,2,230
+10,2020-03-02,2020-03-08,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,2,296
+10,2020-03-02,2020-03-08,9,Araucanía,13,Metropolitana,Temuco,Santiago,70,11161
+10,2020-03-02,2020-03-08,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,24,3515
+10,2020-03-02,2020-03-08,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,3,34
+10,2020-03-02,2020-03-08,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,8,1226
+11,2020-03-09,2020-03-15,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,2,158
+11,2020-03-09,2020-03-15,2,Antofagasta,8,Biobío,Antofagasta,Concepción,9,1050
+11,2020-03-09,2020-03-15,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,13,1690
+11,2020-03-09,2020-03-15,2,Antofagasta,10,Los Lagos,Antofagasta,Puerto Montt,2,111
+11,2020-03-09,2020-03-15,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,115,16499
+11,2020-03-09,2020-03-15,2,Antofagasta,9,Araucanía,Antofagasta,Temuco,2,162
+11,2020-03-09,2020-03-15,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,2,177
+11,2020-03-09,2020-03-15,15,Arica y Parinacota,8,Biobío,Arica,Concepción,3,283
+11,2020-03-09,2020-03-15,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,2,237
+11,2020-03-09,2020-03-15,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,44,6954
+11,2020-03-09,2020-03-15,11,Aysén,8,Biobío,Balmaceda,Concepción,2,288
+11,2020-03-09,2020-03-15,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,16,2579
+11,2020-03-09,2020-03-15,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,2,124
+11,2020-03-09,2020-03-15,11,Aysén,13,Metropolitana,Balmaceda,Santiago,34,3943
+11,2020-03-09,2020-03-15,11,Aysén,9,Araucanía,Balmaceda,Temuco,2,264
+11,2020-03-09,2020-03-15,2,Antofagasta,8,Biobío,Calama,Concepción,8,1136
+11,2020-03-09,2020-03-15,2,Antofagasta,4,Coquimbo,Calama,La Serena,9,1157
+11,2020-03-09,2020-03-15,2,Antofagasta,13,Metropolitana,Calama,Santiago,124,18686
+11,2020-03-09,2020-03-15,8,Biobío,2,Antofagasta,Concepción,Antofagasta,9,1189
+11,2020-03-09,2020-03-15,8,Biobío,15,Arica y Parinacota,Concepción,Arica,3,235
+11,2020-03-09,2020-03-15,8,Biobío,11,Aysén,Concepción,Balmaceda,2,190
+11,2020-03-09,2020-03-15,8,Biobío,2,Antofagasta,Concepción,Calama,8,1027
+11,2020-03-09,2020-03-15,8,Biobío,1,Tarapacá,Concepción,Iquique,9,1065
+11,2020-03-09,2020-03-15,8,Biobío,4,Coquimbo,Concepción,La Serena,2,183
+11,2020-03-09,2020-03-15,8,Biobío,12,Magallanes,Concepción,Punta Arenas,4,587
+11,2020-03-09,2020-03-15,8,Biobío,13,Metropolitana,Concepción,Santiago,80,12054
+11,2020-03-09,2020-03-15,3,Atacama,13,Metropolitana,Copiapó,Santiago,42,6163
+11,2020-03-09,2020-03-15,1,Tarapacá,8,Biobío,Iquique,Concepción,9,1036
+11,2020-03-09,2020-03-15,1,Tarapacá,4,Coquimbo,Iquique,La Serena,8,905
+11,2020-03-09,2020-03-15,1,Tarapacá,13,Metropolitana,Iquique,Santiago,93,14433
+11,2020-03-09,2020-03-15,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,12,3223
+11,2020-03-09,2020-03-15,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,16,1968
+11,2020-03-09,2020-03-15,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,2,252
+11,2020-03-09,2020-03-15,4,Coquimbo,2,Antofagasta,La Serena,Calama,9,1101
+11,2020-03-09,2020-03-15,4,Coquimbo,8,Biobío,La Serena,Concepción,2,221
+11,2020-03-09,2020-03-15,4,Coquimbo,1,Tarapacá,La Serena,Iquique,9,1023
+11,2020-03-09,2020-03-15,4,Coquimbo,13,Metropolitana,La Serena,Santiago,46,7011
+11,2020-03-09,2020-03-15,10,Los Lagos,13,Metropolitana,Castro,Santiago,5,772
+11,2020-03-09,2020-03-15,10,Los Lagos,13,Metropolitana,Osorno,Santiago,11,1623
+11,2020-03-09,2020-03-15,10,Los Lagos,2,Antofagasta,Puerto Montt,Antofagasta,2,132
+11,2020-03-09,2020-03-15,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,16,2044
+11,2020-03-09,2020-03-15,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,20,3122
+11,2020-03-09,2020-03-15,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,91,15216
+11,2020-03-09,2020-03-15,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,77
+11,2020-03-09,2020-03-15,12,Magallanes,8,Biobío,Punta Arenas,Concepción,4,389
+11,2020-03-09,2020-03-15,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,7,381
+11,2020-03-09,2020-03-15,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,1,5
+11,2020-03-09,2020-03-15,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,13,120
+11,2020-03-09,2020-03-15,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,20,2383
+11,2020-03-09,2020-03-15,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,65,8948
+11,2020-03-09,2020-03-15,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,1,110
+11,2020-03-09,2020-03-15,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,2,6
+11,2020-03-09,2020-03-15,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Natales,3,51
+11,2020-03-09,2020-03-15,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,105,15676
+11,2020-03-09,2020-03-15,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,44,6782
+11,2020-03-09,2020-03-15,13,Metropolitana,11,Aysén,Santiago,Balmaceda,27,3667
+11,2020-03-09,2020-03-15,13,Metropolitana,2,Antofagasta,Santiago,Calama,125,17764
+11,2020-03-09,2020-03-15,13,Metropolitana,8,Biobío,Santiago,Concepción,86,12559
+11,2020-03-09,2020-03-15,13,Metropolitana,3,Atacama,Santiago,Copiapó,42,5983
+11,2020-03-09,2020-03-15,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,84
+11,2020-03-09,2020-03-15,13,Metropolitana,1,Tarapacá,Santiago,Iquique,90,13527
+11,2020-03-09,2020-03-15,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,12,3065
+11,2020-03-09,2020-03-15,13,Metropolitana,4,Coquimbo,Santiago,La Serena,50,7804
+11,2020-03-09,2020-03-15,13,Metropolitana,10,Los Lagos,Santiago,Castro,5,711
+11,2020-03-09,2020-03-15,13,Metropolitana,10,Los Lagos,Santiago,Osorno,11,1619
+11,2020-03-09,2020-03-15,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,71
+11,2020-03-09,2020-03-15,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,91,14352
+11,2020-03-09,2020-03-15,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,53,8803
+11,2020-03-09,2020-03-15,13,Metropolitana,9,Araucanía,Santiago,Temuco,65,9849
+11,2020-03-09,2020-03-15,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,22,3162
+11,2020-03-09,2020-03-15,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,9,1114
+11,2020-03-09,2020-03-15,9,Araucanía,2,Antofagasta,Temuco,Antofagasta,2,192
+11,2020-03-09,2020-03-15,9,Araucanía,11,Aysén,Temuco,Balmaceda,2,215
+11,2020-03-09,2020-03-15,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,2,262
+11,2020-03-09,2020-03-15,9,Araucanía,13,Metropolitana,Temuco,Santiago,65,9889
+11,2020-03-09,2020-03-15,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,22,2989
+11,2020-03-09,2020-03-15,12,Magallanes,12,Magallanes,Puerto Natales,Punta Arenas,3,51
+11,2020-03-09,2020-03-15,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,9,1459
+12,2020-03-16,2020-03-22,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,1,74
+12,2020-03-16,2020-03-22,2,Antofagasta,2,Antofagasta,Antofagasta,Calama,2,40
+12,2020-03-16,2020-03-22,2,Antofagasta,8,Biobío,Antofagasta,Concepción,7,929
+12,2020-03-16,2020-03-22,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,11,1375
+12,2020-03-16,2020-03-22,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,72,8287
+12,2020-03-16,2020-03-22,2,Antofagasta,9,Araucanía,Antofagasta,Temuco,1,99
+12,2020-03-16,2020-03-22,15,Arica y Parinacota,8,Biobío,Arica,Concepción,1,97
+12,2020-03-16,2020-03-22,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,1,74
+12,2020-03-16,2020-03-22,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,32,4427
+12,2020-03-16,2020-03-22,11,Aysén,8,Biobío,Balmaceda,Concepción,1,94
+12,2020-03-16,2020-03-22,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,12,1513
+12,2020-03-16,2020-03-22,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,58
+12,2020-03-16,2020-03-22,11,Aysén,13,Metropolitana,Balmaceda,Santiago,24,2860
+12,2020-03-16,2020-03-22,11,Aysén,9,Araucanía,Balmaceda,Temuco,2,228
+12,2020-03-16,2020-03-22,2,Antofagasta,2,Antofagasta,Calama,Antofagasta,1,44
+12,2020-03-16,2020-03-22,2,Antofagasta,8,Biobío,Calama,Concepción,6,923
+12,2020-03-16,2020-03-22,2,Antofagasta,4,Coquimbo,Calama,La Serena,8,919
+12,2020-03-16,2020-03-22,2,Antofagasta,13,Metropolitana,Calama,Santiago,82,12438
+12,2020-03-16,2020-03-22,8,Biobío,2,Antofagasta,Concepción,Antofagasta,6,774
+12,2020-03-16,2020-03-22,8,Biobío,15,Arica y Parinacota,Concepción,Arica,1,64
+12,2020-03-16,2020-03-22,8,Biobío,11,Aysén,Concepción,Balmaceda,1,92
+12,2020-03-16,2020-03-22,8,Biobío,2,Antofagasta,Concepción,Calama,6,861
+12,2020-03-16,2020-03-22,8,Biobío,1,Tarapacá,Concepción,Iquique,5,417
+12,2020-03-16,2020-03-22,8,Biobío,4,Coquimbo,Concepción,La Serena,1,65
+12,2020-03-16,2020-03-22,8,Biobío,12,Magallanes,Concepción,Punta Arenas,3,303
+12,2020-03-16,2020-03-22,8,Biobío,13,Metropolitana,Concepción,Santiago,50,3564
+12,2020-03-16,2020-03-22,8,Biobío,9,Araucanía,Concepción,Temuco,2,23
+12,2020-03-16,2020-03-22,3,Atacama,8,Biobío,Copiapó,Concepción,1,33
+12,2020-03-16,2020-03-22,3,Atacama,13,Metropolitana,Copiapó,Santiago,28,2597
+12,2020-03-16,2020-03-22,1,Tarapacá,15,Arica y Parinacota,Iquique,Arica,2,52
+12,2020-03-16,2020-03-22,1,Tarapacá,8,Biobío,Iquique,Concepción,10,1487
+12,2020-03-16,2020-03-22,1,Tarapacá,4,Coquimbo,Iquique,La Serena,6,717
+12,2020-03-16,2020-03-22,1,Tarapacá,13,Metropolitana,Iquique,Santiago,70,10756
+12,2020-03-16,2020-03-22,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,5,1518
+12,2020-03-16,2020-03-22,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,11,1151
+12,2020-03-16,2020-03-22,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,2,146
+12,2020-03-16,2020-03-22,4,Coquimbo,2,Antofagasta,La Serena,Calama,8,823
+12,2020-03-16,2020-03-22,4,Coquimbo,8,Biobío,La Serena,Concepción,1,71
+12,2020-03-16,2020-03-22,4,Coquimbo,1,Tarapacá,La Serena,Iquique,7,742
+12,2020-03-16,2020-03-22,4,Coquimbo,13,Metropolitana,La Serena,Santiago,37,2935
+12,2020-03-16,2020-03-22,10,Los Lagos,13,Metropolitana,Castro,Santiago,5,516
+12,2020-03-16,2020-03-22,10,Los Lagos,13,Metropolitana,Osorno,Santiago,7,603
+12,2020-03-16,2020-03-22,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,12,1428
+12,2020-03-16,2020-03-22,10,Los Lagos,8,Biobío,Puerto Montt,Concepción,1,148
+12,2020-03-16,2020-03-22,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,17,1873
+12,2020-03-16,2020-03-22,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,56,7332
+12,2020-03-16,2020-03-22,10,Los Lagos,12,Magallanes,Puerto Montt,Puerto Natales,1,17
+12,2020-03-16,2020-03-22,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,29
+12,2020-03-16,2020-03-22,12,Magallanes,8,Biobío,Punta Arenas,Concepción,3,401
+12,2020-03-16,2020-03-22,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,9,182
+12,2020-03-16,2020-03-22,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,1,16
+12,2020-03-16,2020-03-22,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,5,30
+12,2020-03-16,2020-03-22,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,16,2100
+12,2020-03-16,2020-03-22,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,51,7816
+12,2020-03-16,2020-03-22,12,Magallanes,9,Araucanía,Punta Arenas,Temuco,1,140
+12,2020-03-16,2020-03-22,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,66,8406
+12,2020-03-16,2020-03-22,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,28,3231
+12,2020-03-16,2020-03-22,13,Metropolitana,11,Aysén,Santiago,Balmaceda,20,1739
+12,2020-03-16,2020-03-22,13,Metropolitana,2,Antofagasta,Santiago,Calama,83,9516
+12,2020-03-16,2020-03-22,13,Metropolitana,8,Biobío,Santiago,Concepción,55,4967
+12,2020-03-16,2020-03-22,13,Metropolitana,3,Atacama,Santiago,Copiapó,28,2852
+12,2020-03-16,2020-03-22,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,73
+12,2020-03-16,2020-03-22,13,Metropolitana,1,Tarapacá,Santiago,Iquique,61,6956
+12,2020-03-16,2020-03-22,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,2,329
+12,2020-03-16,2020-03-22,13,Metropolitana,4,Coquimbo,Santiago,La Serena,39,3285
+12,2020-03-16,2020-03-22,13,Metropolitana,10,Los Lagos,Santiago,Castro,5,391
+12,2020-03-16,2020-03-22,13,Metropolitana,10,Los Lagos,Santiago,Osorno,7,548
+12,2020-03-16,2020-03-22,13,Metropolitana,1,Tarapacá,Santiago,Pica,1,72
+12,2020-03-16,2020-03-22,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,57,4490
+12,2020-03-16,2020-03-22,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,36,3411
+12,2020-03-16,2020-03-22,13,Metropolitana,9,Araucanía,Santiago,Temuco,39,2999
+12,2020-03-16,2020-03-22,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,11,690
+12,2020-03-16,2020-03-22,13,Metropolitana,12,Magallanes,Santiago,Puerto Natales,2,136
+12,2020-03-16,2020-03-22,9,Araucanía,2,Antofagasta,Temuco,Antofagasta,1,109
+12,2020-03-16,2020-03-22,9,Araucanía,11,Aysén,Temuco,Balmaceda,2,217
+12,2020-03-16,2020-03-22,9,Araucanía,12,Magallanes,Temuco,Punta Arenas,1,42
+12,2020-03-16,2020-03-22,9,Araucanía,13,Metropolitana,Temuco,Santiago,41,4001
+12,2020-03-16,2020-03-22,9,Araucanía,12,Magallanes,Temuco,Puerto Natales,1,13
+12,2020-03-16,2020-03-22,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,11,1106
+12,2020-03-16,2020-03-22,14,Los Ríos,9,Araucanía,Valdivia,Temuco,1,62
+12,2020-03-16,2020-03-22,12,Magallanes,10,Los Lagos,Puerto Natales,Puerto Montt,1,95
+12,2020-03-16,2020-03-22,12,Magallanes,13,Metropolitana,Puerto Natales,Santiago,2,330
+12,2020-03-16,2020-03-22,12,Magallanes,9,Araucanía,Puerto Natales,Temuco,1,60
+13,2020-03-23,2020-03-29,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,1,114
+13,2020-03-23,2020-03-29,2,Antofagasta,2,Antofagasta,Antofagasta,Calama,3,439
+13,2020-03-23,2020-03-29,2,Antofagasta,8,Biobío,Antofagasta,Concepción,6,976
+13,2020-03-23,2020-03-29,2,Antofagasta,1,Tarapacá,Antofagasta,Iquique,2,38
+13,2020-03-23,2020-03-29,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,4,430
+13,2020-03-23,2020-03-29,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,29,3190
+13,2020-03-23,2020-03-29,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,8,679
+13,2020-03-23,2020-03-29,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,5,503
+13,2020-03-23,2020-03-29,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,41
+13,2020-03-23,2020-03-29,11,Aysén,13,Metropolitana,Balmaceda,Santiago,10,687
+13,2020-03-23,2020-03-29,11,Aysén,9,Araucanía,Balmaceda,Temuco,1,165
+13,2020-03-23,2020-03-29,2,Antofagasta,2,Antofagasta,Calama,Antofagasta,3,398
+13,2020-03-23,2020-03-29,2,Antofagasta,8,Biobío,Calama,Concepción,4,499
+13,2020-03-23,2020-03-29,2,Antofagasta,3,Atacama,Calama,Copiapó,1,17
+13,2020-03-23,2020-03-29,2,Antofagasta,4,Coquimbo,Calama,La Serena,8,1085
+13,2020-03-23,2020-03-29,2,Antofagasta,13,Metropolitana,Calama,Santiago,34,5676
+13,2020-03-23,2020-03-29,8,Biobío,2,Antofagasta,Concepción,Antofagasta,6,717
+13,2020-03-23,2020-03-29,8,Biobío,2,Antofagasta,Concepción,Calama,5,453
+13,2020-03-23,2020-03-29,8,Biobío,1,Tarapacá,Concepción,Iquique,1,65
+13,2020-03-23,2020-03-29,8,Biobío,12,Magallanes,Concepción,Punta Arenas,2,163
+13,2020-03-23,2020-03-29,8,Biobío,13,Metropolitana,Concepción,Santiago,17,1156
+13,2020-03-23,2020-03-29,3,Atacama,1,Tarapacá,Copiapó,Iquique,1,27
+13,2020-03-23,2020-03-29,3,Atacama,13,Metropolitana,Copiapó,Santiago,7,341
+13,2020-03-23,2020-03-29,1,Tarapacá,2,Antofagasta,Iquique,Antofagasta,2,48
+13,2020-03-23,2020-03-29,1,Tarapacá,2,Antofagasta,Iquique,Calama,1,70
+13,2020-03-23,2020-03-29,1,Tarapacá,8,Biobío,Iquique,Concepción,2,155
+13,2020-03-23,2020-03-29,1,Tarapacá,4,Coquimbo,Iquique,La Serena,4,137
+13,2020-03-23,2020-03-29,1,Tarapacá,13,Metropolitana,Iquique,Santiago,23,1694
+13,2020-03-23,2020-03-29,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,2,612
+13,2020-03-23,2020-03-29,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,3,273
+13,2020-03-23,2020-03-29,4,Coquimbo,2,Antofagasta,La Serena,Calama,7,830
+13,2020-03-23,2020-03-29,4,Coquimbo,1,Tarapacá,La Serena,Iquique,3,176
+13,2020-03-23,2020-03-29,4,Coquimbo,1,Tarapacá,La Serena,Pica,3,90
+13,2020-03-23,2020-03-29,4,Coquimbo,13,Metropolitana,La Serena,Santiago,14,813
+13,2020-03-23,2020-03-29,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,5,499
+13,2020-03-23,2020-03-29,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,5,716
+13,2020-03-23,2020-03-29,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,14,1126
+13,2020-03-23,2020-03-29,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,35
+13,2020-03-23,2020-03-29,12,Magallanes,8,Biobío,Punta Arenas,Concepción,2,270
+13,2020-03-23,2020-03-29,12,Magallanes,12,Magallanes,Punta Arenas,Antártica,1,3
+13,2020-03-23,2020-03-29,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,1,6
+13,2020-03-23,2020-03-29,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,3,534
+13,2020-03-23,2020-03-29,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,17,1745
+13,2020-03-23,2020-03-29,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,1,1
+13,2020-03-23,2020-03-29,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,23,2894
+13,2020-03-23,2020-03-29,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,7,759
+13,2020-03-23,2020-03-29,13,Metropolitana,11,Aysén,Santiago,Balmaceda,7,418
+13,2020-03-23,2020-03-29,13,Metropolitana,2,Antofagasta,Santiago,Calama,33,3998
+13,2020-03-23,2020-03-29,13,Metropolitana,8,Biobío,Santiago,Concepción,18,1435
+13,2020-03-23,2020-03-29,13,Metropolitana,3,Atacama,Santiago,Copiapó,7,344
+13,2020-03-23,2020-03-29,13,Metropolitana,3,Atacama,Santiago,El Salvador,2,21
+13,2020-03-23,2020-03-29,13,Metropolitana,1,Tarapacá,Santiago,Iquique,20,1379
+13,2020-03-23,2020-03-29,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,1,1
+13,2020-03-23,2020-03-29,13,Metropolitana,4,Coquimbo,Santiago,La Serena,16,774
+13,2020-03-23,2020-03-29,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,75
+13,2020-03-23,2020-03-29,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,16,845
+13,2020-03-23,2020-03-29,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,11,806
+13,2020-03-23,2020-03-29,13,Metropolitana,9,Araucanía,Santiago,Temuco,9,440
+13,2020-03-23,2020-03-29,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,2,55
+13,2020-03-23,2020-03-29,9,Araucanía,11,Aysén,Temuco,Balmaceda,1,106
+13,2020-03-23,2020-03-29,9,Araucanía,13,Metropolitana,Temuco,Santiago,8,466
+13,2020-03-23,2020-03-29,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,3,121
+14,2020-03-30,2020-04-05,2,Antofagasta,2,Antofagasta,Antofagasta,Calama,1,40
+14,2020-03-30,2020-04-05,2,Antofagasta,8,Biobío,Antofagasta,Concepción,2,274
+14,2020-03-30,2020-04-05,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,2,188
+14,2020-03-30,2020-04-05,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,8,963
+14,2020-03-30,2020-04-05,15,Arica y Parinacota,4,Coquimbo,Arica,La Serena,1,70
+14,2020-03-30,2020-04-05,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,2,77
+14,2020-03-30,2020-04-05,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,24
+14,2020-03-30,2020-04-05,11,Aysén,13,Metropolitana,Balmaceda,Santiago,2,78
+14,2020-03-30,2020-04-05,2,Antofagasta,2,Antofagasta,Calama,Antofagasta,1,99
+14,2020-03-30,2020-04-05,2,Antofagasta,8,Biobío,Calama,Concepción,3,551
+14,2020-03-30,2020-04-05,2,Antofagasta,4,Coquimbo,Calama,La Serena,1,184
+14,2020-03-30,2020-04-05,2,Antofagasta,13,Metropolitana,Calama,Santiago,9,1541
+14,2020-03-30,2020-04-05,8,Biobío,2,Antofagasta,Concepción,Antofagasta,2,208
+14,2020-03-30,2020-04-05,8,Biobío,2,Antofagasta,Concepción,Calama,2,262
+14,2020-03-30,2020-04-05,8,Biobío,13,Metropolitana,Concepción,Santiago,2,142
+14,2020-03-30,2020-04-05,3,Atacama,13,Metropolitana,Copiapó,Santiago,1,62
+14,2020-03-30,2020-04-05,1,Tarapacá,13,Metropolitana,Iquique,Santiago,5,238
+14,2020-03-30,2020-04-05,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,5,322
+14,2020-03-30,2020-04-05,4,Coquimbo,15,Arica y Parinacota,La Serena,Arica,1,98
+14,2020-03-30,2020-04-05,4,Coquimbo,2,Antofagasta,La Serena,Calama,1,183
+14,2020-03-30,2020-04-05,4,Coquimbo,1,Tarapacá,La Serena,Pica,1,44
+14,2020-03-30,2020-04-05,4,Coquimbo,13,Metropolitana,La Serena,Santiago,6,362
+14,2020-03-30,2020-04-05,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,2,80
+14,2020-03-30,2020-04-05,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,7
+14,2020-03-30,2020-04-05,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,2,283
+14,2020-03-30,2020-04-05,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,8,783
+14,2020-03-30,2020-04-05,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,2,114
+14,2020-03-30,2020-04-05,13,Metropolitana,11,Aysén,Santiago,Balmaceda,2,71
+14,2020-03-30,2020-04-05,13,Metropolitana,2,Antofagasta,Santiago,Calama,9,1258
+14,2020-03-30,2020-04-05,13,Metropolitana,8,Biobío,Santiago,Concepción,2,134
+14,2020-03-30,2020-04-05,13,Metropolitana,3,Atacama,Santiago,Copiapó,3,102
+14,2020-03-30,2020-04-05,13,Metropolitana,1,Tarapacá,Santiago,Iquique,5,351
+14,2020-03-30,2020-04-05,13,Metropolitana,4,Coquimbo,Santiago,La Serena,7,852
+14,2020-03-30,2020-04-05,13,Metropolitana,1,Tarapacá,Santiago,Pica,3,95
+14,2020-03-30,2020-04-05,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,3,246
+14,2020-03-30,2020-04-05,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,2,137
+14,2020-03-30,2020-04-05,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,34
+14,2020-03-30,2020-04-05,9,Araucanía,13,Metropolitana,Temuco,Santiago,2,64
+14,2020-03-30,2020-04-05,2,Antofagasta,2,Antofagasta,Antofagasta,Calama,1,121
+14,2020-03-30,2020-04-05,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,4,294
+14,2020-03-30,2020-04-05,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,16,1573
+14,2020-03-30,2020-04-05,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,1,31
+14,2020-03-30,2020-04-05,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,5,267
+14,2020-03-30,2020-04-05,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,4,290
+14,2020-03-30,2020-04-05,11,Aysén,13,Metropolitana,Balmaceda,Santiago,5,196
+14,2020-03-30,2020-04-05,2,Antofagasta,15,Arica y Parinacota,Calama,Arica,1,42
+14,2020-03-30,2020-04-05,2,Antofagasta,8,Biobío,Calama,Concepción,4,416
+14,2020-03-30,2020-04-05,2,Antofagasta,1,Tarapacá,Calama,Iquique,1,87
+14,2020-03-30,2020-04-05,2,Antofagasta,4,Coquimbo,Calama,La Serena,3,315
+14,2020-03-30,2020-04-05,2,Antofagasta,13,Metropolitana,Calama,Santiago,17,2225
+14,2020-03-30,2020-04-05,8,Biobío,2,Antofagasta,Concepción,Calama,2,30
+14,2020-03-30,2020-04-05,8,Biobío,4,Coquimbo,Concepción,La Serena,1,117
+14,2020-03-30,2020-04-05,8,Biobío,1,Tarapacá,Concepción,Pica,1,62
+14,2020-03-30,2020-04-05,8,Biobío,13,Metropolitana,Concepción,Santiago,10,795
+14,2020-03-30,2020-04-05,3,Atacama,13,Metropolitana,Copiapó,Santiago,6,187
+14,2020-03-30,2020-04-05,1,Tarapacá,4,Coquimbo,Iquique,La Serena,3,79
+14,2020-03-30,2020-04-05,1,Tarapacá,13,Metropolitana,Iquique,Santiago,11,635
+14,2020-03-30,2020-04-05,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,3,243
+14,2020-03-30,2020-04-05,4,Coquimbo,2,Antofagasta,La Serena,Calama,3,423
+14,2020-03-30,2020-04-05,4,Coquimbo,8,Biobío,La Serena,Concepción,1,94
+14,2020-03-30,2020-04-05,4,Coquimbo,1,Tarapacá,La Serena,Pica,1,51
+14,2020-03-30,2020-04-05,4,Coquimbo,13,Metropolitana,La Serena,Santiago,6,237
+14,2020-03-30,2020-04-05,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,3,229
+14,2020-03-30,2020-04-05,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,2,204
+14,2020-03-30,2020-04-05,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,9,493
+14,2020-03-30,2020-04-05,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,3,510
+14,2020-03-30,2020-04-05,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,6,354
+14,2020-03-30,2020-04-05,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,1,1
+14,2020-03-30,2020-04-05,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,13,1521
+14,2020-03-30,2020-04-05,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,5,371
+14,2020-03-30,2020-04-05,13,Metropolitana,11,Aysén,Santiago,Balmaceda,2,121
+14,2020-03-30,2020-04-05,13,Metropolitana,2,Antofagasta,Santiago,Calama,17,2050
+14,2020-03-30,2020-04-05,13,Metropolitana,8,Biobío,Santiago,Concepción,10,725
+14,2020-03-30,2020-04-05,13,Metropolitana,3,Atacama,Santiago,Copiapó,5,167
+14,2020-03-30,2020-04-05,13,Metropolitana,1,Tarapacá,Santiago,Iquique,9,687
+14,2020-03-30,2020-04-05,13,Metropolitana,4,Coquimbo,Santiago,La Serena,8,397
+14,2020-03-30,2020-04-05,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,6,467
+14,2020-03-30,2020-04-05,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,5,372
+14,2020-03-30,2020-04-05,13,Metropolitana,9,Araucanía,Santiago,Temuco,5,171
+14,2020-03-30,2020-04-05,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,1,43
+14,2020-03-30,2020-04-05,9,Araucanía,13,Metropolitana,Temuco,Santiago,4,130
+14,2020-03-30,2020-04-05,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,1,57
+15,2020-04-06,2020-04-12,2,Antofagasta,8,Biobío,Antofagasta,Concepción,3,222
+15,2020-04-06,2020-04-12,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,5,392
+15,2020-04-06,2020-04-12,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,20,1544
+15,2020-04-06,2020-04-12,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,8,238
+15,2020-04-06,2020-04-12,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,7,180
+15,2020-04-06,2020-04-12,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,15
+15,2020-04-06,2020-04-12,11,Aysén,13,Metropolitana,Balmaceda,Santiago,7,179
+15,2020-04-06,2020-04-12,2,Antofagasta,2,Antofagasta,Calama,Antofagasta,1,66
+15,2020-04-06,2020-04-12,2,Antofagasta,8,Biobío,Calama,Concepción,5,639
+15,2020-04-06,2020-04-12,2,Antofagasta,4,Coquimbo,Calama,La Serena,4,318
+15,2020-04-06,2020-04-12,2,Antofagasta,13,Metropolitana,Calama,Santiago,21,2326
+15,2020-04-06,2020-04-12,8,Biobío,2,Antofagasta,Concepción,Antofagasta,4,588
+15,2020-04-06,2020-04-12,8,Biobío,2,Antofagasta,Concepción,Calama,5,536
+15,2020-04-06,2020-04-12,8,Biobío,13,Metropolitana,Concepción,Santiago,10,614
+15,2020-04-06,2020-04-12,3,Atacama,4,Coquimbo,Copiapó,La Serena,4,60
+15,2020-04-06,2020-04-12,3,Atacama,13,Metropolitana,Copiapó,Santiago,3,108
+15,2020-04-06,2020-04-12,1,Tarapacá,15,Arica y Parinacota,Iquique,Arica,1,15
+15,2020-04-06,2020-04-12,1,Tarapacá,4,Coquimbo,Iquique,La Serena,2,133
+15,2020-04-06,2020-04-12,1,Tarapacá,13,Metropolitana,Iquique,Santiago,13,777
+15,2020-04-06,2020-04-12,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,1,182
+15,2020-04-06,2020-04-12,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,8,471
+15,2020-04-06,2020-04-12,4,Coquimbo,2,Antofagasta,La Serena,Calama,4,268
+15,2020-04-06,2020-04-12,4,Coquimbo,3,Atacama,La Serena,Copiapó,4,72
+15,2020-04-06,2020-04-12,4,Coquimbo,1,Tarapacá,La Serena,Iquique,1,53
+15,2020-04-06,2020-04-12,4,Coquimbo,1,Tarapacá,La Serena,Pica,3,124
+15,2020-04-06,2020-04-12,4,Coquimbo,13,Metropolitana,La Serena,Santiago,8,233
+15,2020-04-06,2020-04-12,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,6,211
+15,2020-04-06,2020-04-12,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,3,174
+15,2020-04-06,2020-04-12,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,10,367
+15,2020-04-06,2020-04-12,10,Los Lagos,12,Magallanes,Puerto Montt,Puerto Natales,1,85
+15,2020-04-06,2020-04-12,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,21
+15,2020-04-06,2020-04-12,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,2,225
+15,2020-04-06,2020-04-12,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,6,376
+15,2020-04-06,2020-04-12,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,20,2090
+15,2020-04-06,2020-04-12,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,3,177
+15,2020-04-06,2020-04-12,13,Metropolitana,11,Aysén,Santiago,Balmaceda,1,68
+15,2020-04-06,2020-04-12,13,Metropolitana,2,Antofagasta,Santiago,Calama,18,2407
+15,2020-04-06,2020-04-12,13,Metropolitana,8,Biobío,Santiago,Concepción,7,227
+15,2020-04-06,2020-04-12,13,Metropolitana,3,Atacama,Santiago,Copiapó,4,134
+15,2020-04-06,2020-04-12,13,Metropolitana,1,Tarapacá,Santiago,Iquique,10,1086
+15,2020-04-06,2020-04-12,13,Metropolitana,4,Coquimbo,Santiago,La Serena,13,427
+15,2020-04-06,2020-04-12,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,95
+15,2020-04-06,2020-04-12,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,10,561
+15,2020-04-06,2020-04-12,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,5,250
+15,2020-04-06,2020-04-12,13,Metropolitana,9,Araucanía,Santiago,Temuco,6,104
+15,2020-04-06,2020-04-12,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,1,34
+15,2020-04-06,2020-04-12,9,Araucanía,13,Metropolitana,Temuco,Santiago,6,149
+15,2020-04-06,2020-04-12,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,1,18
+15,2020-04-06,2020-04-12,12,Magallanes,10,Los Lagos,Puerto Natales,Puerto Montt,1,87
+16,2020-04-13,2020-04-19,2,Antofagasta,8,Biobío,Antofagasta,Concepción,1,110
+16,2020-04-13,2020-04-19,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,5,513
+16,2020-04-13,2020-04-19,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,20,1793
+16,2020-04-13,2020-04-19,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,8,311
+16,2020-04-13,2020-04-19,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,7,141
+16,2020-04-13,2020-04-19,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,6
+16,2020-04-13,2020-04-19,11,Aysén,13,Metropolitana,Balmaceda,Santiago,7,182
+16,2020-04-13,2020-04-19,2,Antofagasta,8,Biobío,Calama,Concepción,5,755
+16,2020-04-13,2020-04-19,2,Antofagasta,1,Tarapacá,Calama,Iquique,1,37
+16,2020-04-13,2020-04-19,2,Antofagasta,4,Coquimbo,Calama,La Serena,4,338
+16,2020-04-13,2020-04-19,2,Antofagasta,13,Metropolitana,Calama,Santiago,17,2200
+16,2020-04-13,2020-04-19,8,Biobío,2,Antofagasta,Concepción,Antofagasta,2,253
+16,2020-04-13,2020-04-19,8,Biobío,2,Antofagasta,Concepción,Calama,6,729
+16,2020-04-13,2020-04-19,8,Biobío,12,Magallanes,Concepción,Punta Arenas,1,3
+16,2020-04-13,2020-04-19,8,Biobío,13,Metropolitana,Concepción,Santiago,7,279
+16,2020-04-13,2020-04-19,3,Atacama,4,Coquimbo,Copiapó,La Serena,7,200
+16,2020-04-13,2020-04-19,1,Tarapacá,2,Antofagasta,Iquique,Calama,1,57
+16,2020-04-13,2020-04-19,1,Tarapacá,4,Coquimbo,Iquique,La Serena,2,4
+16,2020-04-13,2020-04-19,1,Tarapacá,13,Metropolitana,Iquique,Santiago,12,856
+16,2020-04-13,2020-04-19,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,8,522
+16,2020-04-13,2020-04-19,4,Coquimbo,2,Antofagasta,La Serena,Calama,4,292
+16,2020-04-13,2020-04-19,4,Coquimbo,1,Tarapacá,La Serena,Pica,3,147
+16,2020-04-13,2020-04-19,4,Coquimbo,13,Metropolitana,La Serena,Santiago,9,273
+16,2020-04-13,2020-04-19,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,7,180
+16,2020-04-13,2020-04-19,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,3,181
+16,2020-04-13,2020-04-19,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,9,537
+16,2020-04-13,2020-04-19,10,Los Lagos,12,Magallanes,Puerto Montt,Puerto Natales,1,92
+16,2020-04-13,2020-04-19,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,14
+16,2020-04-13,2020-04-19,12,Magallanes,8,Biobío,Punta Arenas,Concepción,1,1
+16,2020-04-13,2020-04-19,12,Magallanes,12,Magallanes,Punta Arenas,Puerto Williams,1,3
+16,2020-04-13,2020-04-19,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,3,252
+16,2020-04-13,2020-04-19,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,9,365
+16,2020-04-13,2020-04-19,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,18,1966
+16,2020-04-13,2020-04-19,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,1,59
+16,2020-04-13,2020-04-19,13,Metropolitana,2,Antofagasta,Santiago,Calama,18,2524
+16,2020-04-13,2020-04-19,13,Metropolitana,8,Biobío,Santiago,Concepción,10,494
+16,2020-04-13,2020-04-19,13,Metropolitana,1,Tarapacá,Santiago,Iquique,9,1099
+16,2020-04-13,2020-04-19,13,Metropolitana,4,Coquimbo,Santiago,La Serena,13,793
+16,2020-04-13,2020-04-19,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,100
+16,2020-04-13,2020-04-19,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,10,758
+16,2020-04-13,2020-04-19,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,5,195
+16,2020-04-13,2020-04-19,13,Metropolitana,9,Araucanía,Santiago,Temuco,4,117
+16,2020-04-13,2020-04-19,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,1,27
+16,2020-04-13,2020-04-19,9,Araucanía,13,Metropolitana,Temuco,Santiago,4,94
+16,2020-04-13,2020-04-19,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,1,29
+16,2020-04-13,2020-04-19,12,Magallanes,10,Los Lagos,Puerto Natales,Puerto Montt,1,86
+17,2020-04-20,2020-04-26,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,1,27
+17,2020-04-20,2020-04-26,2,Antofagasta,2,Antofagasta,Antofagasta,Calama,1,71
+17,2020-04-20,2020-04-26,2,Antofagasta,8,Biobío,Antofagasta,Concepción,4,479
+17,2020-04-20,2020-04-26,2,Antofagasta,1,Tarapacá,Antofagasta,Iquique,1,81
+17,2020-04-20,2020-04-26,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,5,544
+17,2020-04-20,2020-04-26,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,21,2107
+17,2020-04-20,2020-04-26,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,1,26
+17,2020-04-20,2020-04-26,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,7,227
+17,2020-04-20,2020-04-26,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,7,234
+17,2020-04-20,2020-04-26,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,14
+17,2020-04-20,2020-04-26,11,Aysén,13,Metropolitana,Balmaceda,Santiago,6,129
+17,2020-04-20,2020-04-26,2,Antofagasta,8,Biobío,Calama,Concepción,5,691
+17,2020-04-20,2020-04-26,2,Antofagasta,4,Coquimbo,Calama,La Serena,7,819
+17,2020-04-20,2020-04-26,2,Antofagasta,13,Metropolitana,Calama,Santiago,21,2661
+17,2020-04-20,2020-04-26,8,Biobío,2,Antofagasta,Concepción,Antofagasta,4,581
+17,2020-04-20,2020-04-26,8,Biobío,2,Antofagasta,Concepción,Calama,5,644
+17,2020-04-20,2020-04-26,8,Biobío,12,Magallanes,Concepción,Punta Arenas,1,3
+17,2020-04-20,2020-04-26,8,Biobío,13,Metropolitana,Concepción,Santiago,10,629
+17,2020-04-20,2020-04-26,3,Atacama,4,Coquimbo,Copiapó,La Serena,7,264
+17,2020-04-20,2020-04-26,1,Tarapacá,2,Antofagasta,Iquique,Antofagasta,1,46
+17,2020-04-20,2020-04-26,1,Tarapacá,4,Coquimbo,Iquique,La Serena,2,3
+17,2020-04-20,2020-04-26,1,Tarapacá,13,Metropolitana,Iquique,Santiago,15,1035
+17,2020-04-20,2020-04-26,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,1,118
+17,2020-04-20,2020-04-26,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,8,462
+17,2020-04-20,2020-04-26,4,Coquimbo,2,Antofagasta,La Serena,Calama,8,639
+17,2020-04-20,2020-04-26,4,Coquimbo,8,Biobío,La Serena,Concepción,1,81
+17,2020-04-20,2020-04-26,4,Coquimbo,1,Tarapacá,La Serena,Pica,3,131
+17,2020-04-20,2020-04-26,4,Coquimbo,13,Metropolitana,La Serena,Santiago,10,461
+17,2020-04-20,2020-04-26,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,7,264
+17,2020-04-20,2020-04-26,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,1,121
+17,2020-04-20,2020-04-26,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,9,505
+17,2020-04-20,2020-04-26,10,Los Lagos,9,Araucanía,Puerto Montt,Temuco,1,28
+17,2020-04-20,2020-04-26,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,30
+17,2020-04-20,2020-04-26,12,Magallanes,8,Biobío,Punta Arenas,Concepción,1,3
+17,2020-04-20,2020-04-26,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,1,155
+17,2020-04-20,2020-04-26,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,7,436
+17,2020-04-20,2020-04-26,12,Magallanes,12,Magallanes,Punta Arenas,Bahia Inutil,2,4
+17,2020-04-20,2020-04-26,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,20,2389
+17,2020-04-20,2020-04-26,13,Metropolitana,2,Antofagasta,Santiago,Calama,19,2516
+17,2020-04-20,2020-04-26,13,Metropolitana,8,Biobío,Santiago,Concepción,9,376
+17,2020-04-20,2020-04-26,13,Metropolitana,3,Atacama,Santiago,Copiapó,1,18
+17,2020-04-20,2020-04-26,13,Metropolitana,1,Tarapacá,Santiago,Iquique,10,1272
+17,2020-04-20,2020-04-26,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,2,417
+17,2020-04-20,2020-04-26,13,Metropolitana,4,Coquimbo,Santiago,La Serena,18,1041
+17,2020-04-20,2020-04-26,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,89
+17,2020-04-20,2020-04-26,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,8,732
+17,2020-04-20,2020-04-26,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,5,250
+17,2020-04-20,2020-04-26,13,Metropolitana,9,Araucanía,Santiago,Temuco,5,215
+17,2020-04-20,2020-04-26,13,Metropolitana,14,Los Ríos,Santiago,Valdivia,1,37
+17,2020-04-20,2020-04-26,9,Araucanía,10,Los Lagos,Temuco,Puerto Montt,2,69
+17,2020-04-20,2020-04-26,9,Araucanía,13,Metropolitana,Temuco,Santiago,4,160
+17,2020-04-20,2020-04-26,14,Los Ríos,13,Metropolitana,Valdivia,Santiago,1,51
+18,2020-04-27,2020-05-03,2,Antofagasta,2,Antofagasta,Antofagasta,Calama,1,108
+18,2020-04-27,2020-05-03,2,Antofagasta,8,Biobío,Antofagasta,Concepción,1,126
+18,2020-04-27,2020-05-03,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,5,432
+18,2020-04-27,2020-05-03,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,18,1669
+18,2020-04-27,2020-05-03,15,Arica y Parinacota,1,Tarapacá,Arica,Iquique,1,22
+18,2020-04-27,2020-05-03,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,4,142
+18,2020-04-27,2020-05-03,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,4,212
+18,2020-04-27,2020-05-03,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,4
+18,2020-04-27,2020-05-03,11,Aysén,13,Metropolitana,Balmaceda,Santiago,3,201
+18,2020-04-27,2020-05-03,2,Antofagasta,2,Antofagasta,Calama,Antofagasta,1,17
+18,2020-04-27,2020-05-03,2,Antofagasta,8,Biobío,Calama,Concepción,5,694
+18,2020-04-27,2020-05-03,2,Antofagasta,4,Coquimbo,Calama,La Serena,5,664
+18,2020-04-27,2020-05-03,2,Antofagasta,13,Metropolitana,Calama,Santiago,17,1986
+18,2020-04-27,2020-05-03,8,Biobío,2,Antofagasta,Concepción,Antofagasta,1,117
+18,2020-04-27,2020-05-03,8,Biobío,2,Antofagasta,Concepción,Calama,5,608
+18,2020-04-27,2020-05-03,8,Biobío,13,Metropolitana,Concepción,Santiago,5,371
+18,2020-04-27,2020-05-03,3,Atacama,4,Coquimbo,Copiapó,La Serena,4,239
+18,2020-04-27,2020-05-03,1,Tarapacá,15,Arica y Parinacota,Iquique,Arica,1,34
+18,2020-04-27,2020-05-03,1,Tarapacá,4,Coquimbo,Iquique,La Serena,1,2
+18,2020-04-27,2020-05-03,1,Tarapacá,13,Metropolitana,Iquique,Santiago,10,982
+18,2020-04-27,2020-05-03,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,7,393
+18,2020-04-27,2020-05-03,4,Coquimbo,2,Antofagasta,La Serena,Calama,5,419
+18,2020-04-27,2020-05-03,4,Coquimbo,1,Tarapacá,La Serena,Pica,3,157
+18,2020-04-27,2020-05-03,4,Coquimbo,13,Metropolitana,La Serena,Santiago,5,208
+18,2020-04-27,2020-05-03,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,4,249
+18,2020-04-27,2020-05-03,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,3,375
+18,2020-04-27,2020-05-03,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,5,350
+18,2020-04-27,2020-05-03,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,20
+18,2020-04-27,2020-05-03,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,2,336
+18,2020-04-27,2020-05-03,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,4,373
+18,2020-04-27,2020-05-03,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,16,1576
+18,2020-04-27,2020-05-03,13,Metropolitana,2,Antofagasta,Santiago,Calama,17,1921
+18,2020-04-27,2020-05-03,13,Metropolitana,8,Biobío,Santiago,Concepción,5,397
+18,2020-04-27,2020-05-03,13,Metropolitana,1,Tarapacá,Santiago,Iquique,8,1113
+18,2020-04-27,2020-05-03,13,Metropolitana,4,Coquimbo,Santiago,La Serena,10,607
+18,2020-04-27,2020-05-03,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,97
+18,2020-04-27,2020-05-03,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,6,639
+18,2020-04-27,2020-05-03,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,3,236
+18,2020-04-27,2020-05-03,13,Metropolitana,9,Araucanía,Santiago,Temuco,1,29
+18,2020-04-27,2020-05-03,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,17,1656
+18,2020-04-27,2020-05-03,13,Metropolitana,2,Antofagasta,Santiago,Calama,17,1921
+18,2020-04-27,2020-05-03,13,Metropolitana,8,Biobío,Santiago,Concepción,5,397
+18,2020-04-27,2020-05-03,13,Metropolitana,1,Tarapacá,Santiago,Iquique,8,1113
+18,2020-04-27,2020-05-03,13,Metropolitana,4,Coquimbo,Santiago,La Serena,10,607
+18,2020-04-27,2020-05-03,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,97
+18,2020-04-27,2020-05-03,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,6,639
+18,2020-04-27,2020-05-03,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,3,236
+18,2020-04-27,2020-05-03,13,Metropolitana,9,Araucanía,Santiago,Temuco,1,29
+18,2020-04-27,2020-05-03,9,Araucanía,13,Metropolitana,Temuco,Santiago,3,181
+18,2020-04-27,2020-05-03,2,Antofagasta,8,Biobío,Antofagasta,Concepción,1,76
+18,2020-04-27,2020-05-03,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,5,520
+18,2020-04-27,2020-05-03,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,1,91
+18,2020-04-27,2020-05-03,2,Antofagasta,8,Biobío,Calama,Concepción,1,101
+18,2020-04-27,2020-05-03,2,Antofagasta,4,Coquimbo,Calama,La Serena,1,52
+18,2020-04-27,2020-05-03,2,Antofagasta,13,Metropolitana,Calama,Santiago,7,723
+18,2020-04-27,2020-05-03,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,4,549
+18,2020-04-27,2020-05-03,13,Metropolitana,2,Antofagasta,Santiago,Calama,7,782
+18,2020-04-27,2020-05-03,13,Metropolitana,8,Biobío,Santiago,Concepción,1,66
+18,2020-04-27,2020-05-03,13,Metropolitana,1,Tarapacá,Santiago,Iquique,3,435
+18,2020-04-27,2020-05-03,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,3,202
+18,2020-04-27,2020-05-03,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,1,91
+18,2020-04-27,2020-05-03,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,46
+18,2020-04-27,2020-05-03,8,Biobío,2,Antofagasta,Concepción,Antofagasta,1,80
+18,2020-04-27,2020-05-03,8,Biobío,2,Antofagasta,Concepción,Calama,1,74
+18,2020-04-27,2020-05-03,8,Biobío,13,Metropolitana,Concepción,Santiago,1,76
+18,2020-04-27,2020-05-03,1,Tarapacá,13,Metropolitana,Iquique,Santiago,3,294
+18,2020-04-27,2020-05-03,4,Coquimbo,2,Antofagasta,La Serena,Calama,1,101
+18,2020-04-27,2020-05-03,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,3,193
+18,2020-04-27,2020-05-03,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,3,217
+18,2020-04-27,2020-05-03,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,3,97
+18,2020-04-27,2020-05-03,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,1,141
+18,2020-04-27,2020-05-03,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,4,556
+18,2020-04-27,2020-05-03,13,Metropolitana,2,Antofagasta,Santiago,Calama,8,857
+18,2020-04-27,2020-05-03,13,Metropolitana,8,Biobío,Santiago,Concepción,1,66
+18,2020-04-27,2020-05-03,13,Metropolitana,1,Tarapacá,Santiago,Iquique,3,422
+18,2020-04-27,2020-05-03,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,3,202
+18,2020-04-27,2020-05-03,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,1,91
+18,2020-04-27,2020-05-03,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,46
+18,2020-04-27,2020-05-03,9,Araucanía,13,Metropolitana,Temuco,Santiago,2,72
+19,2020-05-04,2020-05-10,2,Antofagasta,8,Biobío,Antofagasta,Concepción,5,613
+19,2020-05-04,2020-05-10,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,6,359
+19,2020-05-04,2020-05-10,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,29,2575
+19,2020-05-04,2020-05-10,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,3,259
+19,2020-05-04,2020-05-10,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,1,86
+19,2020-05-04,2020-05-10,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,5
+19,2020-05-04,2020-05-10,11,Aysén,13,Metropolitana,Balmaceda,Santiago,1,92
+19,2020-05-04,2020-05-10,2,Antofagasta,8,Biobío,Calama,Concepción,7,763
+19,2020-05-04,2020-05-10,2,Antofagasta,4,Coquimbo,Calama,La Serena,8,897
+19,2020-05-04,2020-05-10,2,Antofagasta,13,Metropolitana,Calama,Santiago,26,3054
+19,2020-05-04,2020-05-10,8,Biobío,2,Antofagasta,Concepción,Antofagasta,5,552
+19,2020-05-04,2020-05-10,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,28,2541
+19,2020-05-04,2020-05-10,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,2,246
+19,2020-05-04,2020-05-10,13,Metropolitana,2,Antofagasta,Santiago,Calama,27,3098
+19,2020-05-04,2020-05-10,13,Metropolitana,8,Biobío,Santiago,Concepción,8,521
+19,2020-05-04,2020-05-10,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,39
+19,2020-05-04,2020-05-10,13,Metropolitana,1,Tarapacá,Santiago,Iquique,12,1529
+19,2020-05-04,2020-05-10,13,Metropolitana,4,Coquimbo,Santiago,La Serena,11,446
+19,2020-05-04,2020-05-10,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,100
+19,2020-05-04,2020-05-10,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,6,638
+19,2020-05-04,2020-05-10,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,2,440
+19,2020-05-04,2020-05-10,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,87
+19,2020-05-04,2020-05-10,8,Biobío,2,Antofagasta,Concepción,Calama,7,836
+19,2020-05-04,2020-05-10,8,Biobío,1,Tarapacá,Concepción,Iquique,2,158
+19,2020-05-04,2020-05-10,8,Biobío,13,Metropolitana,Concepción,Santiago,7,544
+19,2020-05-04,2020-05-10,1,Tarapacá,8,Biobío,Iquique,Concepción,2,119
+19,2020-05-04,2020-05-10,1,Tarapacá,4,Coquimbo,Iquique,La Serena,2,236
+19,2020-05-04,2020-05-10,1,Tarapacá,13,Metropolitana,Iquique,Santiago,16,1278
+19,2020-05-04,2020-05-10,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,8,383
+19,2020-05-04,2020-05-10,4,Coquimbo,2,Antofagasta,La Serena,Calama,8,690
+19,2020-05-04,2020-05-10,4,Coquimbo,1,Tarapacá,La Serena,Iquique,2,115
+19,2020-05-04,2020-05-10,4,Coquimbo,1,Tarapacá,La Serena,Pica,3,154
+19,2020-05-04,2020-05-10,4,Coquimbo,13,Metropolitana,La Serena,Santiago,7,296
+19,2020-05-04,2020-05-10,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,1,81
+19,2020-05-04,2020-05-10,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,2,124
+19,2020-05-04,2020-05-10,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,6,490
+19,2020-05-04,2020-05-10,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,12
+19,2020-05-04,2020-05-10,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,2,180
+19,2020-05-04,2020-05-10,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,3,658
+19,2020-05-04,2020-05-10,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,28,2541
+19,2020-05-04,2020-05-10,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,2,246
+19,2020-05-04,2020-05-10,13,Metropolitana,2,Antofagasta,Santiago,Calama,27,3098
+19,2020-05-04,2020-05-10,13,Metropolitana,8,Biobío,Santiago,Concepción,8,521
+19,2020-05-04,2020-05-10,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,39
+19,2020-05-04,2020-05-10,13,Metropolitana,1,Tarapacá,Santiago,Iquique,12,1529
+19,2020-05-04,2020-05-10,13,Metropolitana,4,Coquimbo,Santiago,La Serena,11,446
+19,2020-05-04,2020-05-10,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,100
+19,2020-05-04,2020-05-10,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,6,638
+19,2020-05-04,2020-05-10,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,2,440
+19,2020-05-04,2020-05-10,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,87
+19,2020-05-04,2020-05-10,9,Araucanía,13,Metropolitana,Temuco,Santiago,2,81
+20,2020-05-11,2020-05-17,2,Antofagasta,2,Antofagasta,Antofagasta,Calama,1,134
+20,2020-05-11,2020-05-17,2,Antofagasta,8,Biobío,Antofagasta,Concepción,3,203
+20,2020-05-11,2020-05-17,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,21,1891
+20,2020-05-11,2020-05-17,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,2,193
+20,2020-05-11,2020-05-17,13,Metropolitana,2,Antofagasta,Santiago,Calama,24,2851
+20,2020-05-11,2020-05-17,13,Metropolitana,8,Biobío,Santiago,Concepción,5,268
+20,2020-05-11,2020-05-17,13,Metropolitana,1,Tarapacá,Santiago,Iquique,12,1724
+20,2020-05-11,2020-05-17,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,1,33
+20,2020-05-11,2020-05-17,13,Metropolitana,4,Coquimbo,Santiago,La Serena,12,649
+20,2020-05-11,2020-05-17,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,93
+20,2020-05-11,2020-05-17,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,7,557
+20,2020-05-11,2020-05-17,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,3,572
+20,2020-05-11,2020-05-17,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,92
+20,2020-05-11,2020-05-17,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,7,561
+20,2020-05-11,2020-05-17,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,24,1737
+20,2020-05-11,2020-05-17,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,3,251
+20,2020-05-11,2020-05-17,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,2,147
+20,2020-05-11,2020-05-17,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,16
+20,2020-05-11,2020-05-17,11,Aysén,13,Metropolitana,Balmaceda,Santiago,1,59
+20,2020-05-11,2020-05-17,2,Antofagasta,8,Biobío,Calama,Concepción,8,944
+20,2020-05-11,2020-05-17,2,Antofagasta,4,Coquimbo,Calama,La Serena,8,895
+20,2020-05-11,2020-05-17,2,Antofagasta,13,Metropolitana,Calama,Santiago,26,2890
+20,2020-05-11,2020-05-17,8,Biobío,2,Antofagasta,Concepción,Antofagasta,3,290
+20,2020-05-11,2020-05-17,8,Biobío,2,Antofagasta,Concepción,Calama,8,959
+20,2020-05-11,2020-05-17,8,Biobío,1,Tarapacá,Concepción,Iquique,2,115
+20,2020-05-11,2020-05-17,8,Biobío,13,Metropolitana,Concepción,Santiago,5,281
+20,2020-05-11,2020-05-17,1,Tarapacá,2,Antofagasta,Iquique,Calama,1,32
+20,2020-05-11,2020-05-17,1,Tarapacá,8,Biobío,Iquique,Concepción,2,115
+20,2020-05-11,2020-05-17,1,Tarapacá,4,Coquimbo,Iquique,La Serena,4,191
+20,2020-05-11,2020-05-17,1,Tarapacá,13,Metropolitana,Iquique,Santiago,15,1512
+20,2020-05-11,2020-05-17,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,1,43
+20,2020-05-11,2020-05-17,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,10,516
+20,2020-05-11,2020-05-17,4,Coquimbo,2,Antofagasta,La Serena,Calama,8,668
+20,2020-05-11,2020-05-17,4,Coquimbo,1,Tarapacá,La Serena,Iquique,2,138
+20,2020-05-11,2020-05-17,4,Coquimbo,1,Tarapacá,La Serena,Pica,3,183
+20,2020-05-11,2020-05-17,4,Coquimbo,13,Metropolitana,La Serena,Santiago,6,342
+20,2020-05-11,2020-05-17,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,2,120
+20,2020-05-11,2020-05-17,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,2,224
+20,2020-05-11,2020-05-17,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,5,426
+20,2020-05-11,2020-05-17,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,19
+20,2020-05-11,2020-05-17,12,Magallanes,12,Magallanes,Punta Arenas,Porvenir,1,7
+20,2020-05-11,2020-05-17,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,1,175
+20,2020-05-11,2020-05-17,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,5,577
+20,2020-05-11,2020-05-17,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,21,1891
+20,2020-05-11,2020-05-17,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,2,193
+20,2020-05-11,2020-05-17,13,Metropolitana,2,Antofagasta,Santiago,Calama,24,2851
+20,2020-05-11,2020-05-17,13,Metropolitana,8,Biobío,Santiago,Concepción,5,268
+21,2020-05-18,2020-05-24,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,20,2011
+21,2020-05-18,2020-05-24,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,2,167
+21,2020-05-18,2020-05-24,13,Metropolitana,11,Aysén,Santiago,Balmaceda,1,103
+21,2020-05-18,2020-05-24,13,Metropolitana,2,Antofagasta,Santiago,Calama,25,2905
+21,2020-05-18,2020-05-24,13,Metropolitana,8,Biobío,Santiago,Concepción,4,184
+21,2020-05-18,2020-05-24,13,Metropolitana,1,Tarapacá,Santiago,Iquique,13,1272
+21,2020-05-18,2020-05-24,13,Metropolitana,4,Coquimbo,Santiago,La Serena,13,644
+21,2020-05-18,2020-05-24,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,75
+21,2020-05-18,2020-05-24,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,3,185
+21,2020-05-18,2020-05-24,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,2,383
+21,2020-05-18,2020-05-24,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,117
+20,2020-05-11,2020-05-17,13,Metropolitana,1,Tarapacá,Santiago,Iquique,12,1724
+20,2020-05-11,2020-05-17,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,1,33
+20,2020-05-11,2020-05-17,13,Metropolitana,4,Coquimbo,Santiago,La Serena,12,649
+20,2020-05-11,2020-05-17,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,93
+20,2020-05-11,2020-05-17,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,6,540
+20,2020-05-11,2020-05-17,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,4,589
+20,2020-05-11,2020-05-17,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,92
+20,2020-05-11,2020-05-17,9,Araucanía,13,Metropolitana,Temuco,Santiago,2,89
+21,2020-05-18,2020-05-24,2,Antofagasta,8,Biobío,Antofagasta,Concepción,5,478
+21,2020-05-18,2020-05-24,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,7,361
+21,2020-05-18,2020-05-24,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,25,1932
+21,2020-05-18,2020-05-24,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,3,200
+21,2020-05-18,2020-05-24,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,1,96
+21,2020-05-18,2020-05-24,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,23
+21,2020-05-18,2020-05-24,11,Aysén,13,Metropolitana,Balmaceda,Santiago,1,90
+21,2020-05-18,2020-05-24,2,Antofagasta,8,Biobío,Calama,Concepción,7,797
+21,2020-05-18,2020-05-24,2,Antofagasta,1,Tarapacá,Calama,Iquique,1,20
+21,2020-05-18,2020-05-24,2,Antofagasta,4,Coquimbo,Calama,La Serena,10,978
+21,2020-05-18,2020-05-24,2,Antofagasta,13,Metropolitana,Calama,Santiago,28,2865
+21,2020-05-18,2020-05-24,8,Biobío,2,Antofagasta,Concepción,Antofagasta,4,502
+21,2020-05-18,2020-05-24,8,Biobío,2,Antofagasta,Concepción,Calama,8,880
+21,2020-05-18,2020-05-24,8,Biobío,1,Tarapacá,Concepción,Iquique,1,52
+21,2020-05-18,2020-05-24,8,Biobío,13,Metropolitana,Concepción,Santiago,5,295
+21,2020-05-18,2020-05-24,1,Tarapacá,2,Antofagasta,Iquique,Antofagasta,1,1
+21,2020-05-18,2020-05-24,1,Tarapacá,8,Biobío,Iquique,Concepción,1,41
+21,2020-05-18,2020-05-24,1,Tarapacá,4,Coquimbo,Iquique,La Serena,2,58
+21,2020-05-18,2020-05-24,1,Tarapacá,13,Metropolitana,Iquique,Santiago,16,1417
+21,2020-05-18,2020-05-24,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,10,483
+21,2020-05-18,2020-05-24,4,Coquimbo,2,Antofagasta,La Serena,Calama,9,677
+21,2020-05-18,2020-05-24,4,Coquimbo,1,Tarapacá,La Serena,Iquique,2,66
+21,2020-05-18,2020-05-24,4,Coquimbo,1,Tarapacá,La Serena,Pica,3,135
+21,2020-05-18,2020-05-24,4,Coquimbo,13,Metropolitana,La Serena,Santiago,6,85
+21,2020-05-18,2020-05-24,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,1,94
+21,2020-05-18,2020-05-24,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,2,143
+21,2020-05-18,2020-05-24,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,5,269
+21,2020-05-18,2020-05-24,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,2,28
+21,2020-05-18,2020-05-24,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,2,80
+21,2020-05-18,2020-05-24,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,2,340
+21,2020-05-18,2020-05-24,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,23,2108
+21,2020-05-18,2020-05-24,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,3,247
+21,2020-05-18,2020-05-24,13,Metropolitana,11,Aysén,Santiago,Balmaceda,1,103
+21,2020-05-18,2020-05-24,13,Metropolitana,2,Antofagasta,Santiago,Calama,27,2965
+21,2020-05-18,2020-05-24,13,Metropolitana,8,Biobío,Santiago,Concepción,4,184
+21,2020-05-18,2020-05-24,13,Metropolitana,3,Atacama,Santiago,El Salvador,1,26
+21,2020-05-18,2020-05-24,13,Metropolitana,1,Tarapacá,Santiago,Iquique,14,1317
+21,2020-05-18,2020-05-24,13,Metropolitana,4,Coquimbo,Santiago,La Serena,13,438
+21,2020-05-18,2020-05-24,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,75
+21,2020-05-18,2020-05-24,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,5,261
+21,2020-05-18,2020-05-24,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,2,383
+21,2020-05-18,2020-05-24,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,41
+21,2020-05-18,2020-05-24,9,Araucanía,13,Metropolitana,Temuco,Santiago,2,55
+22,2020-05-25,2020-05-31,2,Antofagasta,2,Antofagasta,Antofagasta,Calama,1,88
+22,2020-05-25,2020-05-31,2,Antofagasta,8,Biobío,Antofagasta,Concepción,3,194
+22,2020-05-25,2020-05-31,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,7,476
+22,2020-05-25,2020-05-31,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,22,1740
+22,2020-05-25,2020-05-31,15,Arica y Parinacota,2,Antofagasta,Arica,Calama,1,57
+22,2020-05-25,2020-05-31,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,2,167
+22,2020-05-25,2020-05-31,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,1,68
+22,2020-05-25,2020-05-31,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,6
+22,2020-05-25,2020-05-31,11,Aysén,13,Metropolitana,Balmaceda,Santiago,1,106
+22,2020-05-25,2020-05-31,2,Antofagasta,2,Antofagasta,Calama,Antofagasta,1,115
+22,2020-05-25,2020-05-31,2,Antofagasta,8,Biobío,Calama,Concepción,8,906
+22,2020-05-25,2020-05-31,2,Antofagasta,1,Tarapacá,Calama,Iquique,2,91
+22,2020-05-25,2020-05-31,2,Antofagasta,4,Coquimbo,Calama,La Serena,8,790
+22,2020-05-25,2020-05-31,2,Antofagasta,13,Metropolitana,Calama,Santiago,26,2956
+22,2020-05-25,2020-05-31,8,Biobío,2,Antofagasta,Concepción,Antofagasta,3,265
+22,2020-05-25,2020-05-31,8,Biobío,2,Antofagasta,Concepción,Calama,8,962
+22,2020-05-25,2020-05-31,8,Biobío,1,Tarapacá,Concepción,Iquique,2,83
+22,2020-05-25,2020-05-31,8,Biobío,13,Metropolitana,Concepción,Santiago,5,242
+22,2020-05-25,2020-05-31,1,Tarapacá,2,Antofagasta,Iquique,Calama,1,7
+22,2020-05-25,2020-05-31,1,Tarapacá,8,Biobío,Iquique,Concepción,2,101
+22,2020-05-25,2020-05-31,1,Tarapacá,4,Coquimbo,Iquique,La Serena,3,134
+22,2020-05-25,2020-05-31,1,Tarapacá,13,Metropolitana,Iquique,Santiago,14,1145
+22,2020-05-25,2020-05-31,5,Valparaíso,13,Metropolitana,Isla de Pascua,Santiago,1,22
+22,2020-05-25,2020-05-31,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,10,523
+22,2020-05-25,2020-05-31,4,Coquimbo,2,Antofagasta,La Serena,Calama,8,548
+22,2020-05-25,2020-05-31,4,Coquimbo,1,Tarapacá,La Serena,Iquique,2,102
+22,2020-05-25,2020-05-31,4,Coquimbo,1,Tarapacá,La Serena,Pica,3,128
+22,2020-05-25,2020-05-31,4,Coquimbo,13,Metropolitana,La Serena,Santiago,5,201
+22,2020-05-25,2020-05-31,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,1,98
+22,2020-05-25,2020-05-31,10,Los Lagos,12,Magallanes,Puerto Montt,Punta Arenas,2,177
+22,2020-05-25,2020-05-31,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,5,329
+22,2020-05-25,2020-05-31,12,Magallanes,10,Los Lagos,Punta Arenas,Puerto Montt,2,204
+22,2020-05-25,2020-05-31,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,4,517
+22,2020-05-25,2020-05-31,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,22,1838
+22,2020-05-25,2020-05-31,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,3,254
+22,2020-05-25,2020-05-31,13,Metropolitana,11,Aysén,Santiago,Balmaceda,1,124
+22,2020-05-25,2020-05-31,13,Metropolitana,2,Antofagasta,Santiago,Calama,28,2770
+22,2020-05-25,2020-05-31,13,Metropolitana,8,Biobío,Santiago,Concepción,6,213
+22,2020-05-25,2020-05-31,13,Metropolitana,1,Tarapacá,Santiago,Iquique,11,1100
+22,2020-05-25,2020-05-31,13,Metropolitana,5,Valparaíso,Santiago,Isla de Pascua,1,5
+22,2020-05-25,2020-05-31,13,Metropolitana,4,Coquimbo,Santiago,La Serena,12,451
+22,2020-05-25,2020-05-31,13,Metropolitana,1,Tarapacá,Santiago,Pica,2,70
+22,2020-05-25,2020-05-31,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,5,297
+22,2020-05-25,2020-05-31,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,3,393
+22,2020-05-25,2020-05-31,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,85
+22,2020-05-25,2020-05-31,9,Araucanía,13,Metropolitana,Temuco,Santiago,2,68
+23,2020-06-01,2020-06-07,2,Antofagasta,15,Arica y Parinacota,Antofagasta,Arica,1,63
+23,2020-06-01,2020-06-07,2,Antofagasta,2,Antofagasta,Antofagasta,Calama,7,269
+23,2020-06-01,2020-06-07,2,Antofagasta,8,Biobío,Antofagasta,Concepción,5,603
+23,2020-06-01,2020-06-07,2,Antofagasta,1,Tarapacá,Antofagasta,Iquique,1,46
+23,2020-06-01,2020-06-07,2,Antofagasta,4,Coquimbo,Antofagasta,La Serena,6,554
+23,2020-06-01,2020-06-07,2,Antofagasta,13,Metropolitana,Antofagasta,Santiago,27,2427
+23,2020-06-01,2020-06-07,15,Arica y Parinacota,2,Antofagasta,Arica,Antofagasta,1,78
+23,2020-06-01,2020-06-07,15,Arica y Parinacota,2,Antofagasta,Arica,Calama,1,67
+23,2020-06-01,2020-06-07,15,Arica y Parinacota,13,Metropolitana,Arica,Santiago,1,65
+23,2020-06-01,2020-06-07,11,Aysén,10,Los Lagos,Balmaceda,Puerto Montt,3,169
+23,2020-06-01,2020-06-07,11,Aysén,12,Magallanes,Balmaceda,Punta Arenas,1,23
+23,2020-06-01,2020-06-07,11,Aysén,13,Metropolitana,Balmaceda,Santiago,2,102
+23,2020-06-01,2020-06-07,2,Antofagasta,2,Antofagasta,Calama,Antofagasta,7,304
+23,2020-06-01,2020-06-07,2,Antofagasta,15,Arica y Parinacota,Calama,Arica,1,120
+23,2020-06-01,2020-06-07,2,Antofagasta,8,Biobío,Calama,Concepción,5,622
+23,2020-06-01,2020-06-07,2,Antofagasta,4,Coquimbo,Calama,La Serena,9,987
+23,2020-06-01,2020-06-07,2,Antofagasta,13,Metropolitana,Calama,Santiago,31,3456
+23,2020-06-01,2020-06-07,8,Biobío,2,Antofagasta,Concepción,Antofagasta,5,655
+23,2020-06-01,2020-06-07,8,Biobío,2,Antofagasta,Concepción,Calama,5,617
+23,2020-06-01,2020-06-07,8,Biobío,13,Metropolitana,Concepción,Santiago,10,640
+23,2020-06-01,2020-06-07,1,Tarapacá,2,Antofagasta,Iquique,Antofagasta,1,20
+23,2020-06-01,2020-06-07,1,Tarapacá,4,Coquimbo,Iquique,La Serena,2,134
+23,2020-06-01,2020-06-07,1,Tarapacá,13,Metropolitana,Iquique,Santiago,17,1457
+23,2020-06-01,2020-06-07,4,Coquimbo,2,Antofagasta,La Serena,Antofagasta,7,544
+23,2020-06-01,2020-06-07,4,Coquimbo,2,Antofagasta,La Serena,Calama,9,668
+23,2020-06-01,2020-06-07,4,Coquimbo,1,Tarapacá,La Serena,Iquique,2,155
+23,2020-06-01,2020-06-07,4,Coquimbo,13,Metropolitana,La Serena,Santiago,8,430
+23,2020-06-01,2020-06-07,10,Los Lagos,11,Aysén,Puerto Montt,Balmaceda,1,71
+23,2020-06-01,2020-06-07,10,Los Lagos,13,Metropolitana,Puerto Montt,Santiago,2,62
+23,2020-06-01,2020-06-07,10,Los Lagos,9,Araucanía,Puerto Montt,Temuco,2,80
+23,2020-06-01,2020-06-07,12,Magallanes,11,Aysén,Punta Arenas,Balmaceda,1,29
+23,2020-06-01,2020-06-07,12,Magallanes,13,Metropolitana,Punta Arenas,Santiago,4,577
+23,2020-06-01,2020-06-07,13,Metropolitana,2,Antofagasta,Santiago,Antofagasta,27,2570
+23,2020-06-01,2020-06-07,13,Metropolitana,15,Arica y Parinacota,Santiago,Arica,2,226
+23,2020-06-01,2020-06-07,13,Metropolitana,11,Aysén,Santiago,Balmaceda,2,123
+23,2020-06-01,2020-06-07,13,Metropolitana,2,Antofagasta,Santiago,Calama,31,3580
+23,2020-06-01,2020-06-07,13,Metropolitana,8,Biobío,Santiago,Concepción,11,610
+23,2020-06-01,2020-06-07,13,Metropolitana,1,Tarapacá,Santiago,Iquique,13,1477
+23,2020-06-01,2020-06-07,13,Metropolitana,4,Coquimbo,Santiago,La Serena,14,715
+23,2020-06-01,2020-06-07,13,Metropolitana,10,Los Lagos,Santiago,Puerto Montt,6,370
+23,2020-06-01,2020-06-07,13,Metropolitana,12,Magallanes,Santiago,Punta Arenas,2,315
+23,2020-06-01,2020-06-07,13,Metropolitana,9,Araucanía,Santiago,Temuco,2,208
+23,2020-06-01,2020-06-07,9,Araucanía,10,Los Lagos,Temuco,Puerto Montt,2,86
+23,2020-06-01,2020-06-07,9,Araucanía,13,Metropolitana,Temuco,Santiago,2,174
