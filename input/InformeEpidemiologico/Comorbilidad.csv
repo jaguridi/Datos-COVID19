@@ -1,25 +1,25 @@
 Comorbilidad,Hospitalización,2020-05-25,2020-05-29,2020-06-01,2020-06-05,2020-06-08,2020-06-12
-Hipertensión arterial,NO,9.4,9.8,10.1,10.3,10.6,10.9
-Diabetes,NO,4.1,4.3,4.5,4.5,4.7,4.8
-Obesidad,NO,2,2.1,2.2,2.3,2.4,2.5
-Enfermedad cardiovascular,NO,0.8,0.8,0.8,0.7,0.7,0.7
-Cardiopatía crónica,NO,0.6,0.6,0.6,0.6,0.6,0.5
-Enfermedad pulmonar crónica,NO,0.6,0.5,0.6,0.6,0.6,0.6
-Enfermedad renal crónica,NO,0.3,0.4,0.4,0.4,0.4,0.4
-Asma,NO,2.3,2.3,2.4,2.4,2.4,2.4
-Enfermedad neurológica crónica,NO,0.3,0.3,0.3,0.3,0.3,0.3
-Inmunocomprometido,NO,0.1,0.1,0.1,0.1,0.1,0.1
-Enfermedad hepática crónica,NO,0.1,0.1,0.1,0.1,0.1,0.1
+Hipertensión arterial,NO,9.4,9.8,10.1,10.3,10.6,16083
+Diabetes,NO,4.1,4.3,4.5,4.5,4.7,7024
+Obesidad,NO,2,2.1,2.2,2.3,2.4,3639
+Enfermedad cardiovascular,NO,0.8,0.8,0.8,0.7,0.7,1041
+Cardiopatía crónica,NO,0.6,0.6,0.6,0.6,0.6,802
+Enfermedad pulmonar crónica,NO,0.6,0.5,0.6,0.6,0.6,828
+Enfermedad renal crónica,NO,0.3,0.4,0.4,0.4,0.4,632
+Asma,NO,2.3,2.3,2.4,2.4,2.4,3582
+Enfermedad neurológica crónica,NO,0.3,0.3,0.3,0.3,0.3,430
+Inmunocomprometido,NO,0.1,0.1,0.1,0.1,0.1,145
+Enfermedad hepática crónica,NO,0.1,0.1,0.1,0.1,0.1,103
 Número Casos sin Hospitalización,NO,67557,82999,96284,112067,127271,147279
-Hipertensión arterial,SI,28.9,28.7,28.8,29,29.9,30.6
-Diabetes,SI,19.6,19.2,19.1,18.9,19.3,19.3
-Obesidad,SI,5.9,6.1,6.1,6.2,6.3,6.3
-Enfermedad cardiovascular,SI,4.6,4.3,4.2,4,4,4.3
-Cardiopatía crónica,SI,5.1,4.8,4.6,4.4,4.4,4.1
-Enfermedad pulmonar crónica,SI,4.8,4.5,4.4,4.4,4.3,4.3
-Enfermedad renal crónica,SI,4.4,4.4,4.3,4.3,4.3,3.3
-Asma,SI,3.6,3.3,3.3,3.3,3.3,4.4
-Enfermedad neurológica crónica,SI,3,2.8,2.7,2.6,2.6,2.7
-Inmunocomprometido,SI,1.3,1.3,1.2,1.1,1.1,1.1
-Enfermedad hepática crónica,SI,1.1,1.2,1.2,1.1,1.1,1.1
+Hipertensión arterial,SI,28.9,28.7,28.8,29,29.9,4147
+Diabetes,SI,19.6,19.2,19.1,18.9,19.3,2615
+Obesidad,SI,5.9,6.1,6.1,6.2,6.3,858
+Enfermedad cardiovascular,SI,4.6,4.3,4.2,4,4,580
+Cardiopatía crónica,SI,5.1,4.8,4.6,4.4,4.4,557
+Enfermedad pulmonar crónica,SI,4.8,4.5,4.4,4.4,4.3,582
+Enfermedad renal crónica,SI,4.4,4.4,4.3,4.3,4.3,446
+Asma,SI,3.6,3.3,3.3,3.3,3.3,594
+Enfermedad neurológica crónica,SI,3,2.8,2.7,2.6,2.6,367
+Inmunocomprometido,SI,1.3,1.3,1.2,1.1,1.1,154
+Enfermedad hepática crónica,SI,1.1,1.2,1.2,1.1,1.1,155
 Número Casos Hospitalizados,SI,6440,7639,8875,10432,11575,13567
