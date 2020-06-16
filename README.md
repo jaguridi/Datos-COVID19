@@ -83,6 +83,12 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 39 - Casos confirmados de COVID-19 según fecha de inicio de síntomas y notificación](output/producto39): Set de 3 archivos que dan cuenta de los casos confirmados de COVID-19 según la fecha de inicio de síntomas y fecha de notificación a nivel nacional. Refleja la información del último informe epidemiológico publicado por el Ministerio de Salud del país. [Ver más](output/producto39)
 
+[Data Product 40 - Transporte aéreo de pasajeros semanal](output/producto40): Este producto da cuenta de la cantidad de operaciones y el total de pasajeros transportados en avión entre cada par de regiones y ciudades cada semana desde inicios de 2020. Los datos son provistos por la Junta de Aeronáutica Civil. [Ver más](output/producto40)
+
+[Data Product 41 - Transacciones Bip!](output/producto41): Este set de 2 productos da cuenta de la cantidad de transacciones Bip! a nivel total y desagregado por comuna. Los datos son provistos por la Dirección de Transporte Público Metropolitano en trabajo conjunto con el Instituto de Sistemas Complejos de Ingeniería [Ver más](output/producto41)
+
+[Data Product 42 - Viajes diarios por comuna en transporte público](output/producto42): Este producto da cuenta de la cantidad de viajes por comuna en transporte público. Los datos son provistos por la Dirección de Transporte Público Metropolitano en trabajo conjunto con el Instituto de Sistemas Complejos de Ingeniería [Ver más](output/producto42)
+
 ## ¿Cómo funciona?
 Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiológico, informe de situación covid19 y la pagina web del MINSAL.
 Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV, que son utilizados para generar los productos relevantes.
