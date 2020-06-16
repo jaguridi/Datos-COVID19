@@ -13,3 +13,4 @@
 | 02-05-2020 | 26-28  | Created  | 
 | 02-05-2020 | 5  | Deleted recuperados.csv, included data from April 7th in totalesnacionales.csv  |
 | 03-05-2020 | 22 | Consolidated prod 22 as MinSal changed scales on 22-04-2020 | 
+| 16-06-2020 | 40, 41, 42 | Created| 
