@@ -58,8 +58,15 @@ def prod41(fte, prod):
     df_total = pd.read_csv(fte + 'TransaccionesBipTotal.csv')
     df_total.to_csv(prod + 'BIPTotal_std.csv', index=False)
 
+def prod42(fte, prod):
+    df = pd.read_csv(fte)
+    #print(df.to_string())
+    df.to_csv(prod + 'ViajesComunas_std.csv')
 
 
 if __name__ == '__main__':
     print('generando producto 41')
     prod41('../input/MTT/', '../output/producto41/')
+
+    print('generando producto 42')
+    prod42('../input/MTT/ViajesComunasTransportePublico.csv', '../output/producto42/')
